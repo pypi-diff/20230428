@@ -929,3 +929,61 @@
 [2023-04-28 01:32:07] INFO root fetch - main [MainThread]: End processing [elastalert2]: success
 [2023-04-28 01:32:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-28 01:32:10] INFO root fetch - main [MainThread]: Store serial: [17890095]
+[2023-04-28 01:37:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890095]
+[2023-04-28 01:37:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databased
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vinset
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reasoner-validator
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numalogic-prometheus
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dinohub-seedwork-be
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytype
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: depp
+[2023-04-28 01:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stagemodel
+[2023-04-28 01:37:18] INFO root fetch - processPackages [vinset]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [databased]: New version: [1.5.0] Old Version: [1.4.5]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [autora]: New version: [3.0.0a2] Old Version: [3.0.0a0]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [numalogic-prometheus]: New version: [0.3.2a0] Old Version: [0.3.2]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [reasoner-validator]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [stagemodel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [depp]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [pytype]: New version: [2023.4.27] Old Version: [2023.4.18]
+[2023-04-28 01:37:18] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-28 01:37:18] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230428/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 01:37:18] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/ef/77/31a9017363ebba22d41c28fbd8a62aa19e806804164a431d377058c2511a/numalogic_prometheus-0.3.2.tar.gz
+[2023-04-28 01:37:18] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/02/0f/06d8bead52ee011e35eaee8b8d8c402e37e6790f4e3c049fc0eb24d29604/autora-3.0.0a0.tar.gz
+[2023-04-28 01:37:18] INFO root fetch - processPackages [stagemodel]: Downloading https://files.pythonhosted.org/packages/45/41/d0e014f7640b300c114181ee94c665c65b19425b03c487f99ab63b8d8ffb/stagemodel-0.0.4.tar.gz
+[2023-04-28 01:37:18] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/b9/3f/bf93bf6554e21f048abfdaa35cdd182ff7738d25b190f8cc1c8e65b5e62d/vinset-4.0.2.tar.gz
+[2023-04-28 01:37:18] INFO root fetch - processPackages [depp]: Downloading https://files.pythonhosted.org/packages/51/db/5c6b5dd5488fc18895d5cd816827ac3235f104bfd3c61904f029719596ae/depp-0.3.0.tar.gz
+[2023-04-28 01:37:18] INFO root fetch - processPackages [pytype]: Downloading https://files.pythonhosted.org/packages/e2/b1/c1c6466f958a1e8898e2ccba1a4aebb5e7970b08db0a70a286897a2707aa/pytype-2023.4.18.tar.gz
+[2023-04-28 01:37:18] INFO root fetch - processPackages [vinset]: executing diffoscope
+[2023-04-28 01:37:18] INFO root fetch - processPackages [vinset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinset-4.0.1.tar.gz tmp/vinset-4.0.2.tar.gz --markdown 20230428/v/vinset/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-04-28 01:37:18] INFO root fetch - processPackages [databased]: executing diffoscope
+[2023-04-28 01:37:18] INFO root fetch - processPackages [databased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databased-1.4.5.tar.gz tmp/databased-1.5.0.tar.gz --markdown 20230428/d/databased/1.4.5-1.5.0/diff.md --exclude *.pyd
+[2023-04-28 01:37:19] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-04-28 01:37:19] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.4.8.tar.gz tmp/reasoner_validator-3.4.9.tar.gz --markdown 20230428/r/reasoner-validator/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-04-28 01:37:19] INFO root fetch - processPackages [numalogic-prometheus]: executing diffoscope
+[2023-04-28 01:37:19] INFO root fetch - processPackages [numalogic-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic_prometheus-0.3.2.tar.gz tmp/numalogic_prometheus-0.3.2a0.tar.gz --markdown 20230428/n/numalogic-prometheus/0.3.2-0.3.2a0/diff.md --exclude *.pyd
+[2023-04-28 01:37:19] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/dc/bc/9d64f055240feb5372f7c64a96c7a85adc673fa3b4efae2a52e9c9565142/autora-3.0.0a2.tar.gz
+[2023-04-28 01:37:19] INFO root fetch - processPackages [stagemodel]: Downloading https://files.pythonhosted.org/packages/b4/6a/b75e46f5dee9286ac2659ca881dee4c1bc019d4e1ae67aa691214a39fcec/stagemodel-0.0.5.tar.gz
+[2023-04-28 01:37:19] INFO root fetch - processPackages [depp]: Downloading https://files.pythonhosted.org/packages/46/14/2a19afcf0a59e86e06368ea075a6ab54de797f050563e41fea95aca15903/depp-0.3.1.tar.gz
+[2023-04-28 01:37:19] INFO root fetch - processPackages [stagemodel]: executing diffoscope
+[2023-04-28 01:37:19] INFO root fetch - processPackages [stagemodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stagemodel-0.0.4.tar.gz tmp/stagemodel-0.0.5.tar.gz --markdown 20230428/s/stagemodel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 01:37:19] INFO root fetch - processPackages [depp]: executing diffoscope
+[2023-04-28 01:37:19] INFO root fetch - processPackages [depp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depp-0.3.0.tar.gz tmp/depp-0.3.1.tar.gz --markdown 20230428/d/depp/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 01:37:19] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-04-28 01:37:19] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0a0.tar.gz tmp/autora-3.0.0a2.tar.gz --markdown 20230428/a/autora/3.0.0a0-3.0.0a2/diff.md --exclude *.pyd
+[2023-04-28 01:37:19] INFO root fetch - processPackages [pytype]: Downloading https://files.pythonhosted.org/packages/8d/6c/854159e4bc2c1b315500ae8655a7a8989164b9ad834e72ddb447cb57435b/pytype-2023.4.27.tar.gz
+[2023-04-28 01:37:19] INFO root fetch - processPackages [pytype]: executing diffoscope
+[2023-04-28 01:37:19] INFO root fetch - processPackages [pytype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytype-2023.4.18.tar.gz tmp/pytype-2023.4.27.tar.gz --markdown 20230428/p/pytype/2023.4.18-2023.4.27/diff.md --exclude *.pyd
+[2023-04-28 01:37:20] INFO root fetch - main [MainThread]: End processing [vinset]: success
+[2023-04-28 01:37:20] INFO root fetch - main [MainThread]: End processing [stagemodel]: success
+[2023-04-28 01:37:20] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-04-28 01:37:20] INFO root fetch - main [MainThread]: End processing [depp]: success
+[2023-04-28 01:37:20] INFO root fetch - main [MainThread]: End processing [numalogic-prometheus]: success
+[2023-04-28 01:37:21] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-04-28 01:37:22] INFO root fetch - main [MainThread]: End processing [databased]: success
+[2023-04-28 01:37:22] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-28 01:39:31] INFO root fetch - main [MainThread]: End processing [pytype]: success
+[2023-04-28 01:39:31] INFO root fetch - main [MainThread]: Store serial: [17890122]
