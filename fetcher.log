@@ -720,3 +720,42 @@
 [2023-04-28 01:10:46] INFO root fetch - main [MainThread]: End processing [lightcurve-fitting]: success
 [2023-04-28 01:10:46] INFO root fetch - main [MainThread]: End processing [rembg]: success
 [2023-04-28 01:10:46] INFO root fetch - main [MainThread]: Store serial: [17889993]
+[2023-04-28 01:15:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889993]
+[2023-04-28 01:15:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cssfinder
+[2023-04-28 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-bitcoinlib
+[2023-04-28 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-28 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-semantic-admin
+[2023-04-28 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TorchRegister
+[2023-04-28 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TPOT2
+[2023-04-28 01:15:55] INFO root fetch - processPackages [cssfinder]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-28 01:15:55] WARNING root fetch - processPackages [TPOT2]: Skipping, unable to determine old version
+[2023-04-28 01:15:55] INFO root fetch - main [MainThread]: End processing [TPOT2] error
+[2023-04-28 01:15:55] INFO root fetch - processPackages [django-semantic-admin]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 01:15:55] INFO root fetch - processPackages [TorchRegister]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-28 01:15:55] INFO root fetch - processPackages [python-bitcoinlib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 01:15:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.294] Old Version: [0.3.293]
+[2023-04-28 01:15:55] INFO root fetch - processPackages [django-semantic-admin]: Downloading https://files.pythonhosted.org/packages/9d/cb/b8371fc19d654130ca96b31efb0237fc3ad8de2627095eba52e0c35e11da/django-semantic-admin-0.3.8.tar.gz
+[2023-04-28 01:15:55] INFO root fetch - processPackages [python-bitcoinlib]: Downloading https://files.pythonhosted.org/packages/cb/51/e645f4ffddbbc6486d97b9437b3ea5ba76e292378d93654fca80ab2d2d7e/python-bitcoinlib-0.8.0.tar.gz
+[2023-04-28 01:15:55] INFO root fetch - processPackages [cssfinder]: Downloading https://files.pythonhosted.org/packages/48/d5/43cdd29d62804b939a77643d7c4422e464e46f7b3d85d2546dec016d952f/cssfinder-0.5.0.tar.gz
+[2023-04-28 01:15:55] INFO root fetch - processPackages [TorchRegister]: Downloading https://files.pythonhosted.org/packages/0d/96/5cd51c365bbd5aa3102494ca516004c9f984a4dc87423b8cca9fb77e1b42/TorchRegister-0.2.1.tar.gz
+[2023-04-28 01:15:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/07/72/802e47d38291b6e8674bdd95c3311a899697d42e4533ea0213d3a65063f4/pepperize.cdk-ses-smtp-credentials-0.3.294.tar.gz
+[2023-04-28 01:15:55] INFO root fetch - processPackages [TorchRegister]: executing diffoscope
+[2023-04-28 01:15:55] INFO root fetch - processPackages [TorchRegister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchRegister-0.2.0.tar.gz tmp/TorchRegister-0.2.1.tar.gz --markdown 20230428/T/TorchRegister/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-28 01:15:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-28 01:15:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.293.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.294.tar.gz --markdown 20230428/p/pepperize.cdk-ses-smtp-credentials/0.3.293-0.3.294/diff.md --exclude *.pyd
+[2023-04-28 01:15:56] INFO root fetch - processPackages [django-semantic-admin]: Downloading https://files.pythonhosted.org/packages/04/7d/dff02e4736b7b1b03701cff53ba33e3b62f8a377f5e9247d066597044f65/django-semantic-admin-0.3.9.tar.gz
+[2023-04-28 01:15:56] INFO root fetch - processPackages [cssfinder]: Downloading https://files.pythonhosted.org/packages/ef/b7/05db7b978ff37d7983d40d7f34a0d1d9564b126101a5d029418ba101c6cb/cssfinder-0.6.0.tar.gz
+[2023-04-28 01:15:56] INFO root fetch - processPackages [django-semantic-admin]: executing diffoscope
+[2023-04-28 01:15:56] INFO root fetch - processPackages [django-semantic-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-semantic-admin-0.3.8.tar.gz tmp/django-semantic-admin-0.3.9.tar.gz --markdown 20230428/d/django-semantic-admin/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 01:15:56] INFO root fetch - processPackages [cssfinder]: executing diffoscope
+[2023-04-28 01:15:56] INFO root fetch - processPackages [cssfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cssfinder-0.5.0.tar.gz tmp/cssfinder-0.6.0.tar.gz --markdown 20230428/c/cssfinder/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-28 01:15:56] INFO root fetch - processPackages [python-bitcoinlib]: Downloading https://files.pythonhosted.org/packages/8e/85/603307fdcc5b7b40dec578e61d27363ca1e9a7094e3ee7c6e6c24894995f/python_bitcoinlib-0.9.0-py3-none-any.whl
+[2023-04-28 01:15:56] INFO root fetch - processPackages [python-bitcoinlib]: executing diffoscope
+[2023-04-28 01:15:56] INFO root fetch - processPackages [python-bitcoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bitcoinlib-0.8.0.tar.gz tmp/python_bitcoinlib-0.9.0-py3-none-any.whl.zip --markdown 20230428/p/python-bitcoinlib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 01:15:56] INFO root fetch - main [MainThread]: End processing [TorchRegister]: success
+[2023-04-28 01:15:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-28 01:15:57] INFO root fetch - main [MainThread]: End processing [python-bitcoinlib]: success
+[2023-04-28 01:15:57] INFO root fetch - main [MainThread]: End processing [django-semantic-admin]: success
+[2023-04-28 01:16:19] INFO root fetch - main [MainThread]: End processing [cssfinder]: success
+[2023-04-28 01:16:19] INFO root fetch - main [MainThread]: Store serial: [17890016]
