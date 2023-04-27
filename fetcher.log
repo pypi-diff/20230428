@@ -855,3 +855,77 @@
 [2023-04-28 01:26:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-28 01:26:51] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-28 01:26:51] INFO root fetch - main [MainThread]: Store serial: [17890062]
+[2023-04-28 01:31:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890062]
+[2023-04-28 01:32:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teamplify
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elastalert2
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrappo
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora-workflow
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libwwz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bits-tools
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: a-pandas-ex-df-to-string
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysros
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: redvox-base
+[2023-04-28 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-04-28 01:32:01] WARNING root fetch - processPackages [autora-workflow]: Skipping, unable to determine old version
+[2023-04-28 01:32:01] INFO root fetch - processPackages [autora-workflow]: Start processing: databased
+[2023-04-28 01:32:01] INFO root fetch - main [MainThread]: End processing [autora-workflow] error
+[2023-04-28 01:32:01] INFO root fetch - processPackages [elastalert2]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [pysros]: New version: [23.3.2] Old Version: [23.3.1]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: New version: [0.13] Old Version: [0.11]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [libwwz]: New version: [1.3.0a0] Old Version: [1.2.1]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [bits-tools]: New version: [2.0] Old Version: [1.0.1]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [scrappo]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [teamplify]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202304272325] Old Version: [99.0.202304272321]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [redvox-base]: New version: [2023.4.27] Old Version: [2023.4.25]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [elastalert2]: Downloading https://files.pythonhosted.org/packages/af/9b/17253588c1c8e9cdcfb5cd9f68a220eff37580c7d6a0f80b11cf3a22318c/elastalert2-2.8.0.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [libwwz]: Downloading https://files.pythonhosted.org/packages/58/b7/ece981639dce5334660c9b4897787052670956ca0b7eca2a6e795e246f61/libwwz-1.2.1.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/12/dd/93476a93e7b8891340ef68136b7d826b5597c3a5cff3161d825993aad28f/pysros-23.3.1.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [scrappo]: Downloading https://files.pythonhosted.org/packages/19/14/56825061ca04bd40bb091b507e217d923e90a664753c7de7f1a342abf08d/scrappo-1.0.0.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [databased]: New version: [1.5.0] Old Version: [1.4.5]
+[2023-04-28 01:32:01] INFO root fetch - processPackages [bits-tools]: Downloading https://files.pythonhosted.org/packages/a1/86/5a207fa70c16b5f6115f8ebcc0c9c11d5a6f1685d99ded498920084d8489/bits_tools-1.0.1.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d0/0a/32bb1635f71c899ace6cd4c3359223ebb3e561980e5a03e8dc3d0bc7f520/kcli-99.0.202304272325-py3-none-any.whl
+[2023-04-28 01:32:01] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: Downloading https://files.pythonhosted.org/packages/73/b9/ebf6066e2852646999c9371cdf8458c54e25191e21c9156296d748343c14/a_pandas_ex_df_to_string-0.11.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [redvox-base]: Downloading https://files.pythonhosted.org/packages/77/a9/b5bfe499fc0a1ba4a58497ff6f974ca462aa807c9c1bd752373239381878/redvox-base-2023.4.25.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [teamplify]: Downloading https://files.pythonhosted.org/packages/23/c6/3e32eed3b2da784457e74890da7923f79879197722ae164ed7147b02272b/teamplify-0.9.1.tar.gz
+[2023-04-28 01:32:01] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/04/45/71cc6306403107553be433e1b2843aa3651b29ac5a422af9843a31ec7a61/databased-1.4.5.tar.gz
+[2023-04-28 01:32:02] INFO root fetch - processPackages [teamplify]: executing diffoscope
+[2023-04-28 01:32:02] INFO root fetch - processPackages [teamplify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamplify-0.9.0.tar.gz tmp/teamplify-0.9.1.tar.gz --markdown 20230428/t/teamplify/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 01:32:02] INFO root fetch - processPackages [libwwz]: Downloading https://files.pythonhosted.org/packages/4e/6d/00bd9d3e76b2fcce28ec7056f0d7627f32f8e072b69f11ad2dc13c72f356/libwwz-1.3.0a0.tar.gz
+[2023-04-28 01:32:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 01:32:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304272321-py3-none-any.whl.zip tmp/kcli-99.0.202304272325-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304272321-99.0.202304272325/diff.md --exclude *.pyd
+[2023-04-28 01:32:02] INFO root fetch - processPackages [redvox-base]: Downloading https://files.pythonhosted.org/packages/f8/e3/aced6f8e96d31d155f43dabfdc7ebc38517fcb2b1cd0f62ea6641a8cd9bf/redvox-base-2023.4.27.tar.gz
+[2023-04-28 01:32:02] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: Downloading https://files.pythonhosted.org/packages/e5/a9/803a96399931218734129e21851b1e5cd166678f93a5fad1964862536ab2/a_pandas_ex_df_to_string-0.13.tar.gz
+[2023-04-28 01:32:02] INFO root fetch - processPackages [bits-tools]: Downloading https://files.pythonhosted.org/packages/8f/b4/04fef2d4ca55b1c25c4610cbb714bf46e4b2f4ab25701cf617df36737191/bits_tools-2.0.tar.gz
+[2023-04-28 01:32:02] INFO root fetch - processPackages [libwwz]: executing diffoscope
+[2023-04-28 01:32:02] INFO root fetch - processPackages [libwwz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libwwz-1.2.1.tar.gz tmp/libwwz-1.3.0a0.tar.gz --markdown 20230428/l/libwwz/1.2.1-1.3.0a0/diff.md --exclude *.pyd
+[2023-04-28 01:32:03] INFO root fetch - processPackages [scrappo]: Downloading https://files.pythonhosted.org/packages/60/86/575d2a863a71962c46a3ac538bf423f52ccb8edf57ea3f40494e09cb9568/scrappo-1.1.0.tar.gz
+[2023-04-28 01:32:03] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/d9/8b/89215ce33afd19016f6860e8f044a9ca9eb66f7169926fbacdbbfa385eae/pysros-23.3.2.tar.gz
+[2023-04-28 01:32:03] INFO root fetch - processPackages [elastalert2]: Downloading https://files.pythonhosted.org/packages/d6/d4/f63a5e721f049714067edbec7f0a76be87e5d82eab8fc50f6822f3355550/elastalert2-2.9.0.tar.gz
+[2023-04-28 01:32:03] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/21/73/82a2abf3fa42fedc231bd049a518f2d24f091e4b117345906ee338f5aeb7/databased-1.5.0.tar.gz
+[2023-04-28 01:32:03] INFO root fetch - processPackages [pysros]: executing diffoscope
+[2023-04-28 01:32:03] INFO root fetch - processPackages [pysros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysros-23.3.1.tar.gz tmp/pysros-23.3.2.tar.gz --markdown 20230428/p/pysros/23.3.1-23.3.2/diff.md --exclude *.pyd
+[2023-04-28 01:32:03] INFO root fetch - processPackages [redvox-base]: executing diffoscope
+[2023-04-28 01:32:03] INFO root fetch - processPackages [redvox-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvox-base-2023.4.25.tar.gz tmp/redvox-base-2023.4.27.tar.gz --markdown 20230428/r/redvox-base/2023.4.25-2023.4.27/diff.md --exclude *.pyd
+[2023-04-28 01:32:03] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: executing diffoscope
+[2023-04-28 01:32:03] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a_pandas_ex_df_to_string-0.11.tar.gz tmp/a_pandas_ex_df_to_string-0.13.tar.gz --markdown 20230428/a/a-pandas-ex-df-to-string/0.11-0.13/diff.md --exclude *.pyd
+[2023-04-28 01:32:03] INFO root fetch - processPackages [bits-tools]: executing diffoscope
+[2023-04-28 01:32:03] INFO root fetch - processPackages [bits-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bits_tools-1.0.1.tar.gz tmp/bits_tools-2.0.tar.gz --markdown 20230428/b/bits-tools/1.0.1-2.0/diff.md --exclude *.pyd
+[2023-04-28 01:32:03] INFO root fetch - processPackages [scrappo]: executing diffoscope
+[2023-04-28 01:32:03] INFO root fetch - processPackages [scrappo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappo-1.0.0.tar.gz tmp/scrappo-1.1.0.tar.gz --markdown 20230428/s/scrappo/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 01:32:03] INFO root fetch - processPackages [elastalert2]: executing diffoscope
+[2023-04-28 01:32:03] INFO root fetch - processPackages [elastalert2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastalert2-2.8.0.tar.gz tmp/elastalert2-2.9.0.tar.gz --markdown 20230428/e/elastalert2/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-28 01:32:03] INFO root fetch - processPackages [databased]: executing diffoscope
+[2023-04-28 01:32:03] INFO root fetch - processPackages [databased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databased-1.4.5.tar.gz tmp/databased-1.5.0.tar.gz --markdown 20230428/d/databased/1.4.5-1.5.0/diff.md --exclude *.pyd
+[2023-04-28 01:32:04] INFO root fetch - main [MainThread]: End processing [redvox-base]: success
+[2023-04-28 01:32:04] INFO root fetch - main [MainThread]: End processing [a-pandas-ex-df-to-string]: success
+[2023-04-28 01:32:04] INFO root fetch - main [MainThread]: End processing [libwwz]: success
+[2023-04-28 01:32:04] INFO root fetch - main [MainThread]: End processing [bits-tools]: success
+[2023-04-28 01:32:04] INFO root fetch - main [MainThread]: End processing [pysros]: success
+[2023-04-28 01:32:04] INFO root fetch - main [MainThread]: End processing [teamplify]: success
+[2023-04-28 01:32:04] INFO root fetch - main [MainThread]: End processing [scrappo]: success
+[2023-04-28 01:32:06] INFO root fetch - main [MainThread]: End processing [databased]: success
+[2023-04-28 01:32:07] INFO root fetch - main [MainThread]: End processing [elastalert2]: success
+[2023-04-28 01:32:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 01:32:10] INFO root fetch - main [MainThread]: Store serial: [17890095]
