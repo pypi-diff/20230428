@@ -387,3 +387,60 @@
 [2023-04-28 00:36:35] INFO root fetch - main [MainThread]: End processing [optimizely-sdk]: success
 [2023-04-28 00:37:34] INFO root fetch - main [MainThread]: End processing [pythonbible_parser]: success
 [2023-04-28 00:37:34] INFO root fetch - main [MainThread]: Store serial: [17889824]
+[2023-04-28 00:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889824]
+[2023-04-28 00:42:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalguide
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentient-switchblade
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SeaFreeze
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-confluentcloud
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codex
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linear-py
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenLLM
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: generate-token
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: happy-learning
+[2023-04-28 00:42:43] WARNING root fetch - processPackages [sentient-switchblade]: Skipping, unable to determine old version
+[2023-04-28 00:42:43] INFO root fetch - processPackages [sentient-switchblade]: Start processing: titiler.pgstac
+[2023-04-28 00:42:43] INFO root fetch - main [MainThread]: End processing [sentient-switchblade] error
+[2023-04-28 00:42:43] INFO root fetch - processPackages [SeaFreeze]: New version: [0.9.3] Old Version: [0.9.2.post2]
+[2023-04-28 00:42:43] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-04-28 00:42:43] INFO root fetch - processPackages [linear-py]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-28 00:42:43] WARNING root fetch - processPackages [generate-token]: Skipping, unable to determine old version
+[2023-04-28 00:42:43] WARNING root fetch - processPackages [OpenLLM]: Skipping, unable to determine old version
+[2023-04-28 00:42:43] INFO root fetch - main [MainThread]: End processing [generate-token] error
+[2023-04-28 00:42:43] INFO root fetch - main [MainThread]: End processing [OpenLLM] error
+[2023-04-28 00:42:43] INFO root fetch - processPackages [happy-learning]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ultralytics]: New version: [8.0.9] Old Version: [8.0.89]
+[2023-04-28 00:42:43] INFO root fetch - processPackages [titiler.pgstac]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-28 00:42:43] INFO root fetch - processPackages [codex]: New version: [1.4.0a1] Old Version: [1.4.0a0]
+[2023-04-28 00:42:43] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 00:42:43] INFO root fetch - processPackages [titiler.pgstac]: executing diffoscope
+[2023-04-28 00:42:43] INFO root fetch - processPackages [titiler.pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.pgstac-0.3.1.tar.gz tmp/titiler.pgstac-0.3.2.tar.gz --markdown 20230428/t/titiler.pgstac/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-28 00:42:43] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/ad/25/60aeb1bd113356142d08bd2e009f535c883a1c949ddd05af4aee0ca4f5d8/ultralytics-8.0.89.tar.gz
+[2023-04-28 00:42:43] INFO root fetch - processPackages [SeaFreeze]: Downloading https://files.pythonhosted.org/packages/c2/5c/1f11590ce4286f1de33aa7c654f4be5e93e92205333a6a9bce8bf6ccc4c5/SeaFreeze-0.9.2.post2.tar.gz
+[2023-04-28 00:42:43] INFO root fetch - processPackages [linear-py]: Downloading https://files.pythonhosted.org/packages/e7/c5/8c2aa00ef17b14dcb6227f1ad7b1514a7c46de8103cf3e381639e787e3e5/linear-py-0.0.6.tar.gz
+[2023-04-28 00:42:43] INFO root fetch - processPackages [linear-py]: executing diffoscope
+[2023-04-28 00:42:43] INFO root fetch - processPackages [linear-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear-py-0.0.5.tar.gz tmp/linear-py-0.0.6.tar.gz --markdown 20230428/l/linear-py/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-28 00:42:43] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/86/d8/c86943bc2638fc2492fc846ce4ec45f20a17c70a8e15fbedd39391ff064a/codex-1.4.0a0.tar.gz
+[2023-04-28 00:42:43] INFO root fetch - processPackages [happy-learning]: Downloading https://files.pythonhosted.org/packages/de/a1/40b7b907090e44b3e128f21ecb43ef826081dee9b50f3060b83dfe506a4b/happy_learning-0.4.9.tar.gz
+[2023-04-28 00:42:43] INFO root fetch - processPackages [happy-learning]: executing diffoscope
+[2023-04-28 00:42:43] INFO root fetch - processPackages [happy-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happy_learning-0.4.8.tar.gz tmp/happy_learning-0.4.9.tar.gz --markdown 20230428/h/happy-learning/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-28 00:42:43] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-04-28 00:42:43] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230428/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-04-28 00:42:43] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 16151115>=10485760
+[2023-04-28 00:42:43] INFO root fetch - main [MainThread]: End processing [codex] error
+[2023-04-28 00:42:43] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-04-28 00:42:43] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230428/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 00:42:44] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-04-28 00:42:44] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.89.tar.gz tmp/ultralytics-8.0.9.tar.gz --markdown 20230428/u/ultralytics/8.0.89-8.0.9/diff.md --exclude *.pyd
+[2023-04-28 00:42:44] INFO root fetch - processPackages [SeaFreeze]: Downloading https://files.pythonhosted.org/packages/dd/d9/586ef5e94f1e479fbe0bc653afa071fab10cfabdf3835ea114bc1007fef9/SeaFreeze-0.9.3.tar.gz
+[2023-04-28 00:42:44] INFO root fetch - processPackages [SeaFreeze]: executing diffoscope
+[2023-04-28 00:42:44] INFO root fetch - processPackages [SeaFreeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeaFreeze-0.9.2.post2.tar.gz tmp/SeaFreeze-0.9.3.tar.gz --markdown 20230428/S/SeaFreeze/0.9.2.post2-0.9.3/diff.md --exclude *.pyd
+[2023-04-28 00:42:44] INFO root fetch - main [MainThread]: End processing [linear-py]: success
+[2023-04-28 00:42:44] INFO root fetch - main [MainThread]: End processing [titiler.pgstac]: success
+[2023-04-28 00:42:45] INFO root fetch - main [MainThread]: End processing [SeaFreeze]: success
+[2023-04-28 00:42:45] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-04-28 00:42:45] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-04-28 00:42:45] INFO root fetch - main [MainThread]: End processing [happy-learning]: success
+[2023-04-28 00:42:46] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-04-28 00:42:46] INFO root fetch - main [MainThread]: Store serial: [17889862]
