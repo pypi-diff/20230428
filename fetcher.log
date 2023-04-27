@@ -142,3 +142,79 @@
 [2023-04-28 00:11:18] INFO root fetch - main [MainThread]: End processing [cmeel-urdfdom]: success
 [2023-04-28 00:12:09] INFO root fetch - main [MainThread]: End processing [pythonbible]: success
 [2023-04-28 00:12:09] INFO root fetch - main [MainThread]: Store serial: [17889675]
+[2023-04-28 00:17:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889675]
+[2023-04-28 00:17:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstra-runtimes
+[2023-04-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalguide
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imageconv
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hoppr-nexus-bundler
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hoppr-security-commons
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autora-runner-experimentation-manager-firebase
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-shelf
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: local-database-python-backend
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ramodels
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autora-core
+[2023-04-28 00:17:19] INFO root fetch - processPackages [abstra-runtimes]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 00:17:19] WARNING root fetch - processPackages [imageconv]: Skipping, unable to determine old version
+[2023-04-28 00:17:19] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [imageconv]: Start processing: pulumi-aws
+[2023-04-28 00:17:19] INFO root fetch - main [MainThread]: End processing [imageconv] error
+[2023-04-28 00:17:19] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 00:17:19] WARNING root fetch - processPackages [autora-runner-experimentation-manager-firebase]: Skipping, unable to determine old version
+[2023-04-28 00:17:19] INFO root fetch - processPackages [autora-core]: New version: [3.0.0a6] Old Version: [3.0.0a5]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [py-shelf]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [autora-runner-experimentation-manager-firebase]: Start processing: local-database-python-backend
+[2023-04-28 00:17:19] INFO root fetch - main [MainThread]: End processing [autora-runner-experimentation-manager-firebase] error
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 00:17:19] INFO root fetch - processPackages [abstra-runtimes]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [abstra-runtimes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-runtimes-0.9.0.tar.gz tmp/abstra-runtimes-0.9.1.tar.gz --markdown 20230428/a/abstra-runtimes/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230428/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230428/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: Downloading https://files.pythonhosted.org/packages/cd/8b/bfbf2961fa2d2851dcfe6ea909a0e9e3f0b26a2cc2da06f9df36c5cd66b7/local-database-python-backend-0.0.3.tar.gz
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: Downloading https://files.pythonhosted.org/packages/cd/8b/bfbf2961fa2d2851dcfe6ea909a0e9e3f0b26a2cc2da06f9df36c5cd66b7/local-database-python-backend-0.0.3.tar.gz
+[2023-04-28 00:17:19] INFO root fetch - processPackages [py-shelf]: Downloading https://files.pythonhosted.org/packages/21/ad/baf97f4e6883af761b8b396e7a80c9005131d802c20b24dc1bf25b489b8e/py_shelf-3.0.1.tar.gz
+[2023-04-28 00:17:19] INFO root fetch - processPackages [autora-core]: Downloading https://files.pythonhosted.org/packages/10/7f/5087abc9e1b9fcff7d5079a078b37b07a2f725b92dc659bca187deaeab34/autora-core-3.0.0a6.tar.gz
+[2023-04-28 00:17:19] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230428/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230428/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: Downloading https://files.pythonhosted.org/packages/47/8d/850c4d20dda39548c4a30a2398bf9e4331e7961e289694b31a2a05315eee/local-database-python-backend-0.0.4.tar.gz
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: Downloading https://files.pythonhosted.org/packages/47/8d/850c4d20dda39548c4a30a2398bf9e4331e7961e289694b31a2a05315eee/local-database-python-backend-0.0.4.tar.gz
+[2023-04-28 00:17:19] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.4.8.tar.gz tmp/hoppr_nexus_bundler-0.4.9.tar.gz --markdown 20230428/h/hoppr-nexus-bundler/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [autora-core]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [autora-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-core-3.0.0a5.tar.gz tmp/autora-core-3.0.0a6.tar.gz --markdown 20230428/a/autora-core/3.0.0a5-3.0.0a6/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: executing diffoscope
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local-database-python-backend-0.0.3.tar.gz tmp/local-database-python-backend-0.0.4.tar.gz --markdown 20230428/l/local-database-python-backend/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 00:17:19] INFO root fetch - processPackages [local-database-python-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local-database-python-backend-0.0.3.tar.gz tmp/local-database-python-backend-0.0.4.tar.gz --markdown 20230428/l/local-database-python-backend/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 00:17:20] INFO root fetch - processPackages [abstra-runtimes]: Start processing: perfect-package
+[2023-04-28 00:17:20] INFO root fetch - main [MainThread]: End processing [abstra-runtimes]: success
+[2023-04-28 00:17:20] WARNING root fetch - processPackages [perfect-package]: Skipping, unable to determine old version
+[2023-04-28 00:17:20] INFO root fetch - processPackages [perfect-package]: Start processing: djangobible
+[2023-04-28 00:17:20] INFO root fetch - main [MainThread]: End processing [perfect-package] error
+[2023-04-28 00:17:20] INFO root fetch - processPackages [djangobible]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 00:17:20] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-04-28 00:17:20] INFO root fetch - processPackages [djangobible]: Downloading https://files.pythonhosted.org/packages/25/d0/526d9ddf4313ecf78c6572b558b5146bb5a1da673fee924778d5fbdf1522/djangobible-0.0.8.tar.gz
+[2023-04-28 00:17:20] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-04-28 00:17:20] INFO root fetch - main [MainThread]: End processing [local-database-python-backend]: success
+[2023-04-28 00:17:20] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-04-28 00:17:21] INFO root fetch - processPackages [py-shelf]: Downloading https://files.pythonhosted.org/packages/aa/ea/b1d1c55b0724939cbe0cc3789bb45047d4c20e8bc357837d168a4ed5e9ef/py_shelf-3.0.2.tar.gz
+[2023-04-28 00:17:21] INFO root fetch - main [MainThread]: End processing [local-database-python-backend]: success
+[2023-04-28 00:17:21] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-28 00:17:21] INFO root fetch - processPackages [djangobible]: Downloading https://files.pythonhosted.org/packages/bd/1f/2ad0b5ca398f220f40965ec4c7f90a49dd5db0f363e0a7cd2c1ec5b623f4/djangobible-0.0.9.tar.gz
+[2023-04-28 00:17:21] INFO root fetch - processPackages [py-shelf]: executing diffoscope
+[2023-04-28 00:17:21] INFO root fetch - processPackages [py-shelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_shelf-3.0.1.tar.gz tmp/py_shelf-3.0.2.tar.gz --markdown 20230428/p/py-shelf/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-28 00:17:21] INFO root fetch - processPackages [djangobible]: executing diffoscope
+[2023-04-28 00:17:21] INFO root fetch - processPackages [djangobible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangobible-0.0.8.tar.gz tmp/djangobible-0.0.9.tar.gz --markdown 20230428/d/djangobible/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 00:17:21] INFO root fetch - main [MainThread]: End processing [autora-core]: success
+[2023-04-28 00:17:22] INFO root fetch - main [MainThread]: End processing [djangobible]: success
+[2023-04-28 00:17:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-28 00:18:42] INFO root fetch - main [MainThread]: End processing [py-shelf]: success
+[2023-04-28 00:18:42] INFO root fetch - main [MainThread]: Store serial: [17889721]
