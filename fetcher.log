@@ -1054,3 +1054,84 @@
 [2023-04-28 01:44:43] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-04-28 01:44:59] INFO root fetch - main [MainThread]: End processing [virtualenv]: success
 [2023-04-28 01:44:59] INFO root fetch - main [MainThread]: Store serial: [17890166]
+[2023-04-28 01:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890166]
+[2023-04-28 01:50:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-api-client
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytomography
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snapctl
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-pipeline-api
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RiskLib
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codext
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libidreq
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tom-nonlocalizedevents
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dronesploit
+[2023-04-28 01:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docrawl
+[2023-04-28 01:50:09] INFO root fetch - processPackages [pytomography]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [snapctl]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-28 01:50:09] WARNING root fetch - processPackages [libidreq]: Skipping, unable to determine old version
+[2023-04-28 01:50:09] INFO root fetch - processPackages [libidreq]: Start processing: perpetuo
+[2023-04-28 01:50:09] INFO root fetch - main [MainThread]: End processing [libidreq] error
+[2023-04-28 01:50:09] INFO root fetch - processPackages [RiskLib]: New version: [0.7.0] Old Version: [0.6.6]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [data-pipeline-api]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [docrawl]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [dronesploit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [tom-nonlocalizedevents]: New version: [0.7.1] Old Version: [0.6.3]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [codext]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [perpetuo]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230428/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 01:50:09] INFO root fetch - processPackages [dronesploit]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [dronesploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronesploit-1.1.8.tar.gz tmp/dronesploit-1.1.9.tar.gz --markdown 20230428/d/dronesploit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-28 01:50:09] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/e5/54/8c7adfdc0a9867a68a4b4986a3145c1cbf063c6d25374119b0d2eed64d77/snapctl-0.2.0.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [RiskLib]: Downloading https://files.pythonhosted.org/packages/d2/92/08dc24c1a4087f45a6ab114d9b2e60b7bb557dd7aee143ac67e3f252b218/RiskLib-0.6.6.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [pytomography]: Downloading https://files.pythonhosted.org/packages/a6/f9/bc72901868016f119813fd1ba48895883295721ad66550225e53ad1fedc7/pytomography-0.4.1.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/1d/8a/68a99cc882c623ced815452ca5e95d0054da0ca6cbdbb2d5f3a411cedae8/docrawl-0.4.4.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [perpetuo]: Downloading https://files.pythonhosted.org/packages/25/8e/e339e8657bbb185671840abcbd12cccead9c9e3415ad5ab841d2fcb90ccb/perpetuo-0.3.1.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [tom-nonlocalizedevents]: Downloading https://files.pythonhosted.org/packages/4a/0c/cf5fcf4e0367ab3cc8d1cb16f58e7ab4611e24428dab9a4e074aa967a286/tom_nonlocalizedevents-0.6.3.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [codext]: Downloading https://files.pythonhosted.org/packages/9c/4e/8d20fc584ba625ebcec76c9b7868f4a66bf2e5c61237b3a19153f3427916/codext-1.9.4.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [data-pipeline-api]: Downloading https://files.pythonhosted.org/packages/1f/a1/2f28c948021839672ad086227732f4cc1b9b78e6822ceaf6f30b4d3bb47c/data_pipeline_api-0.7.8.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/29/70/6530af3d8c9964040a01bfb05206102618780ce984142168f3a3fd405342/snapctl-0.2.1.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [RiskLib]: Downloading https://files.pythonhosted.org/packages/3f/45/0c2f8ecf6df53c11dbd5bc74ffc7897733733f7ae123329019c3924066df/RiskLib-0.7.0.tar.gz
+[2023-04-28 01:50:09] WARNING root fetch - processPackages [pytomography]: Skipping package: exceeds size limit 14842781>=10485760
+[2023-04-28 01:50:09] INFO root fetch - processPackages [pytomography]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-04-28 01:50:09] INFO root fetch - main [MainThread]: End processing [pytomography] error
+[2023-04-28 01:50:09] INFO root fetch - processPackages [snapctl]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [snapctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapctl-0.2.0.tar.gz tmp/snapctl-0.2.1.tar.gz --markdown 20230428/s/snapctl/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-28 01:50:09] INFO root fetch - processPackages [perpetuo]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [perpetuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perpetuo-0.3.0.tar.gz tmp/perpetuo-0.3.1.tar.gz --markdown 20230428/p/perpetuo/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 01:50:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1682639398] Old Version: [0.1.1682639390]
+[2023-04-28 01:50:09] INFO root fetch - processPackages [RiskLib]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [RiskLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLib-0.6.6.tar.gz tmp/RiskLib-0.7.0.tar.gz --markdown 20230428/R/RiskLib/0.6.6-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 01:50:09] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/bd/ef/4a786b147b17ad68588b56fa049f3b01aa6056d838d5effb917deb24fef5/docrawl-0.4.5.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [data-pipeline-api]: Downloading https://files.pythonhosted.org/packages/21/ce/e5ba48e6f148d2b5d5a90247dc86e963f2899704d99a9cc53d1e89d7e0ee/data_pipeline_api-0.7.9.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [codext]: Downloading https://files.pythonhosted.org/packages/0c/2d/6d47685501297ecd373c55643b6f609aa330eb08d95a3afe338d15cdbb7d/codext-1.9.5.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [data-pipeline-api]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [data-pipeline-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipeline_api-0.7.8.tar.gz tmp/data_pipeline_api-0.7.9.tar.gz --markdown 20230428/d/data-pipeline-api/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-28 01:50:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/5b/f1/45f51e01e3db06156bfdd8e91eea548fd884298ec5e47e6715073ec210e5/eia-odin-pkg-rioatmadja2018-0.1.1682639390.tar.gz
+[2023-04-28 01:50:09] INFO root fetch - processPackages [docrawl]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [docrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrawl-0.4.4.tar.gz tmp/docrawl-0.4.5.tar.gz --markdown 20230428/d/docrawl/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-28 01:50:09] INFO root fetch - processPackages [codext]: executing diffoscope
+[2023-04-28 01:50:09] INFO root fetch - processPackages [codext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codext-1.9.4.tar.gz tmp/codext-1.9.5.tar.gz --markdown 20230428/c/codext/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-28 01:50:10] INFO root fetch - processPackages [tom-nonlocalizedevents]: Downloading https://files.pythonhosted.org/packages/c9/bc/c6b1b767b1446b64d6811fadfffa2e29c53ae30355539dfd00e21b5bca23/tom_nonlocalizedevents-0.7.1.tar.gz
+[2023-04-28 01:50:10] INFO root fetch - processPackages [tom-nonlocalizedevents]: executing diffoscope
+[2023-04-28 01:50:10] INFO root fetch - processPackages [tom-nonlocalizedevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tom_nonlocalizedevents-0.6.3.tar.gz tmp/tom_nonlocalizedevents-0.7.1.tar.gz --markdown 20230428/t/tom-nonlocalizedevents/0.6.3-0.7.1/diff.md --exclude *.pyd
+[2023-04-28 01:50:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/11/dd/5a891fed0342a5c8923a95dc93872912070d50e3a516ef3fd7ecc733dbe8/eia_odin_pkg_rioatmadja2018-0.1.1682639398-py3-none-any.whl
+[2023-04-28 01:50:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-04-28 01:50:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1682639390.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1682639398-py3-none-any.whl.zip --markdown 20230428/e/eia-odin-pkg-rioatmadja2018/0.1.1682639390-0.1.1682639398/diff.md --exclude *.pyd
+[2023-04-28 01:50:10] INFO root fetch - processPackages [snapctl]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-04-28 01:50:10] INFO root fetch - main [MainThread]: End processing [snapctl]: success
+[2023-04-28 01:50:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1682639398] Old Version: [0.1.1682639390]
+[2023-04-28 01:50:10] INFO root fetch - main [MainThread]: End processing [RiskLib]: success
+[2023-04-28 01:50:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-04-28 01:50:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1682639390.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1682639398-py3-none-any.whl.zip --markdown 20230428/e/eia-odin-pkg-rioatmadja2018/0.1.1682639390-0.1.1682639398/diff.md --exclude *.pyd
+[2023-04-28 01:50:11] INFO root fetch - main [MainThread]: End processing [data-pipeline-api]: success
+[2023-04-28 01:50:11] INFO root fetch - main [MainThread]: End processing [dronesploit]: success
+[2023-04-28 01:50:11] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-04-28 01:50:11] INFO root fetch - main [MainThread]: End processing [docrawl]: success
+[2023-04-28 01:50:11] INFO root fetch - main [MainThread]: End processing [perpetuo]: success
+[2023-04-28 01:50:12] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-04-28 01:50:12] INFO root fetch - main [MainThread]: End processing [codext]: success
+[2023-04-28 01:50:23] INFO root fetch - main [MainThread]: End processing [tom-nonlocalizedevents]: success
+[2023-04-28 01:51:58] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-04-28 01:51:58] INFO root fetch - main [MainThread]: Store serial: [17890207]
