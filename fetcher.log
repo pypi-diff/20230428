@@ -272,3 +272,38 @@
 [2023-04-28 00:24:02] INFO root fetch - main [MainThread]: End processing [pyjls]: success
 [2023-04-28 00:24:03] INFO root fetch - main [MainThread]: End processing [pyjoulescope-driver]: success
 [2023-04-28 00:24:03] INFO root fetch - main [MainThread]: Store serial: [17889768]
+[2023-04-28 00:29:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889768]
+[2023-04-28 00:29:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kangas
+[2023-04-28 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enerbitdso
+[2023-04-28 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cssfinder-backend-rust
+[2023-04-28 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paasta-tools
+[2023-04-28 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-04-28 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linear-py
+[2023-04-28 00:29:12] INFO root fetch - processPackages [kangas]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-28 00:29:12] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-04-28 00:29:12] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-28 00:29:12] WARNING root fetch - processPackages [enerbitdso]: Skipping, unable to determine old version
+[2023-04-28 00:29:12] INFO root fetch - main [MainThread]: End processing [enerbitdso] error
+[2023-04-28 00:29:12] INFO root fetch - processPackages [cssfinder-backend-rust]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 00:29:12] INFO root fetch - processPackages [linear-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 00:29:13] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-04-28 00:29:13] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230428/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-04-28 00:29:13] INFO root fetch - processPackages [kangas]: executing diffoscope
+[2023-04-28 00:29:13] INFO root fetch - processPackages [kangas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangas-2.3.0-py3-none-any.whl.zip tmp/kangas-2.3.1-py3-none-any.whl.zip --markdown 20230428/k/kangas/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-28 00:29:13] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-28 00:29:13] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230428/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-28 00:29:13] INFO root fetch - processPackages [cssfinder-backend-rust]: Downloading https://files.pythonhosted.org/packages/a0/c2/dbbdce863670ee18f964e7edfa5c69ea52f573610dedc12cf57ad662b3db/cssfinder_backend_rust-0.1.0.tar.gz
+[2023-04-28 00:29:13] INFO root fetch - processPackages [linear-py]: Downloading https://files.pythonhosted.org/packages/3d/67/0d3e039b901fb4afd9c698cd12be0e95b5906799549039dc371ff3886e56/linear-py-0.0.4.tar.gz
+[2023-04-28 00:29:13] INFO root fetch - processPackages [linear-py]: Downloading https://files.pythonhosted.org/packages/eb/4a/7e656d313274bd49f8e85b7333140d2f8a3a5db03bb5a01f7b5b4f57b61e/linear-py-0.0.5.tar.gz
+[2023-04-28 00:29:13] INFO root fetch - processPackages [cssfinder-backend-rust]: Downloading https://files.pythonhosted.org/packages/a6/42/34e0e6630cdb2d887305230adcebc08a525b7f534b73f077b4135b62c7c2/cssfinder_backend_rust-0.1.1.tar.gz
+[2023-04-28 00:29:13] INFO root fetch - processPackages [linear-py]: executing diffoscope
+[2023-04-28 00:29:13] INFO root fetch - processPackages [linear-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear-py-0.0.4.tar.gz tmp/linear-py-0.0.5.tar.gz --markdown 20230428/l/linear-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 00:29:13] INFO root fetch - processPackages [cssfinder-backend-rust]: executing diffoscope
+[2023-04-28 00:29:13] INFO root fetch - processPackages [cssfinder-backend-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cssfinder_backend_rust-0.1.0.tar.gz tmp/cssfinder_backend_rust-0.1.1.tar.gz --markdown 20230428/c/cssfinder-backend-rust/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 00:29:14] INFO root fetch - main [MainThread]: End processing [linear-py]: success
+[2023-04-28 00:29:14] INFO root fetch - main [MainThread]: End processing [cssfinder-backend-rust]: success
+[2023-04-28 00:29:15] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-04-28 00:29:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-28 00:31:21] INFO root fetch - main [MainThread]: End processing [kangas]: success
+[2023-04-28 00:31:21] INFO root fetch - main [MainThread]: Store serial: [17889788]
