@@ -759,3 +759,51 @@
 [2023-04-28 01:15:57] INFO root fetch - main [MainThread]: End processing [django-semantic-admin]: success
 [2023-04-28 01:16:19] INFO root fetch - main [MainThread]: End processing [cssfinder]: success
 [2023-04-28 01:16:19] INFO root fetch - main [MainThread]: Store serial: [17890016]
+[2023-04-28 01:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890016]
+[2023-04-28 01:21:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kegstandcli
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runfalcon-build-tools
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dronesploit
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalguide
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pure-interface
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentient-switchblade
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinohub-seedwork-be
+[2023-04-28 01:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: behave-odoo
+[2023-04-28 01:21:28] INFO root fetch - processPackages [runfalcon-build-tools]: New version: [1.3.1] Old Version: [1.2.0]
+[2023-04-28 01:21:28] INFO root fetch - processPackages [kegstandcli]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-28 01:21:28] WARNING root fetch - processPackages [behave-odoo]: Skipping, unable to determine old version
+[2023-04-28 01:21:28] INFO root fetch - main [MainThread]: End processing [behave-odoo] error
+[2023-04-28 01:21:28] INFO root fetch - processPackages [dronesploit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-28 01:21:28] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 01:21:28] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 01:21:28] INFO root fetch - processPackages [pure-interface]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-04-28 01:21:28] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 01:21:28] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-04-28 01:21:28] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230428/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 01:21:28] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-28 01:21:28] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230428/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 01:21:28] INFO root fetch - processPackages [dronesploit]: Downloading https://files.pythonhosted.org/packages/74/d6/839860e36f9ad2c1898a156cd5c47d21908776836d5f5ce22a2281eb267e/dronesploit-1.1.8.tar.gz
+[2023-04-28 01:21:28] INFO root fetch - processPackages [kegstandcli]: Downloading https://files.pythonhosted.org/packages/e0/de/330dfc0f14c1e2e09b85f57bb5d205603ff11fc270bea172a1b8f1e31396/kegstandcli-0.3.2.tar.gz
+[2023-04-28 01:21:28] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/1b/3c/7a07d335943d4801ee9b75edd30ec3bd1921f5ce291ddf8d1a4c53e0ecfc/sentient_switchblade-0.1.2.tar.gz
+[2023-04-28 01:21:28] INFO root fetch - processPackages [kegstandcli]: executing diffoscope
+[2023-04-28 01:21:28] INFO root fetch - processPackages [kegstandcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kegstandcli-0.3.1.tar.gz tmp/kegstandcli-0.3.2.tar.gz --markdown 20230428/k/kegstandcli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-28 01:21:28] INFO root fetch - processPackages [runfalcon-build-tools]: Downloading https://files.pythonhosted.org/packages/ad/35/25e9c87d127e74e3adb9b07c984b1467a8110f2bf628f1fe5a54bf923213/runfalcon-build-tools-1.3.1.tar.gz
+[2023-04-28 01:21:28] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2023-04-28 01:21:28] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.1.1.tar.gz tmp/sentient_switchblade-0.1.2.tar.gz --markdown 20230428/s/sentient-switchblade/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 01:21:28] INFO root fetch - processPackages [pure-interface]: Downloading https://files.pythonhosted.org/packages/6e/13/8fc9c4aa4fcbc8a435059b145460d2fb112bd9b7c60d1233dc9e60a15fe5/pure_interface-7.0.0.tar.gz
+[2023-04-28 01:21:28] INFO root fetch - processPackages [runfalcon-build-tools]: executing diffoscope
+[2023-04-28 01:21:28] INFO root fetch - processPackages [runfalcon-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runfalcon-build-tools-1.2.0.tar.gz tmp/runfalcon-build-tools-1.3.1.tar.gz --markdown 20230428/r/runfalcon-build-tools/1.2.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-28 01:21:29] INFO root fetch - processPackages [dronesploit]: Downloading https://files.pythonhosted.org/packages/d6/e6/31fbf9eb7e0256743c792cce5f25d69a5efdf3d066e715a87370781ded92/dronesploit-1.1.9.tar.gz
+[2023-04-28 01:21:29] INFO root fetch - processPackages [pure-interface]: Downloading https://files.pythonhosted.org/packages/88/ba/d9bd2b38b5aa6e6fd5b8366b92fee1a1bb921e0e5aeaf9abba3634773257/pure_interface-7.0.1.tar.gz
+[2023-04-28 01:21:29] INFO root fetch - processPackages [pure-interface]: executing diffoscope
+[2023-04-28 01:21:29] INFO root fetch - processPackages [pure-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_interface-7.0.0.tar.gz tmp/pure_interface-7.0.1.tar.gz --markdown 20230428/p/pure-interface/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-04-28 01:21:29] INFO root fetch - processPackages [dronesploit]: executing diffoscope
+[2023-04-28 01:21:29] INFO root fetch - processPackages [dronesploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronesploit-1.1.8.tar.gz tmp/dronesploit-1.1.9.tar.gz --markdown 20230428/d/dronesploit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-28 01:21:29] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-04-28 01:21:30] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-28 01:21:30] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2023-04-28 01:21:30] INFO root fetch - main [MainThread]: End processing [dronesploit]: success
+[2023-04-28 01:21:30] INFO root fetch - main [MainThread]: End processing [kegstandcli]: success
+[2023-04-28 01:21:30] INFO root fetch - main [MainThread]: End processing [runfalcon-build-tools]: success
+[2023-04-28 01:21:31] INFO root fetch - main [MainThread]: End processing [pure-interface]: success
+[2023-04-28 01:21:31] INFO root fetch - main [MainThread]: Store serial: [17890044]
