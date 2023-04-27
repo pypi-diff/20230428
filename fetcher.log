@@ -1135,3 +1135,45 @@
 [2023-04-28 01:50:23] INFO root fetch - main [MainThread]: End processing [tom-nonlocalizedevents]: success
 [2023-04-28 01:51:58] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-04-28 01:51:58] INFO root fetch - main [MainThread]: Store serial: [17890207]
+[2023-04-28 01:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890207]
+[2023-04-28 01:57:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 01:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snapctl
+[2023-04-28 01:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runfalcon-build-tools
+[2023-04-28 01:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evoluzo
+[2023-04-28 01:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dinohub-seedwork-be
+[2023-04-28 01:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-confluentcloud
+[2023-04-28 01:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pollstats
+[2023-04-28 01:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snapctl
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 01:57:08] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 01:57:08] WARNING root fetch - processPackages [evoluzo]: Skipping, unable to determine old version
+[2023-04-28 01:57:08] INFO root fetch - main [MainThread]: End processing [evoluzo] error
+[2023-04-28 01:57:08] INFO root fetch - processPackages [runfalcon-build-tools]: New version: [1.4.1] Old Version: [1.3.1]
+[2023-04-28 01:57:08] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-04-28 01:57:08] INFO root fetch - processPackages [pollstats]: New version: [0.6] Old Version: [0.5]
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 01:57:08] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-28 01:57:08] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230428/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/fb/b3/17c4f3415bbabcb16cc8ed43c88a36875ef4557dc673eb5a456880e32ad8/snapctl-0.2.2.tar.gz
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/fb/b3/17c4f3415bbabcb16cc8ed43c88a36875ef4557dc673eb5a456880e32ad8/snapctl-0.2.2.tar.gz
+[2023-04-28 01:57:08] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-04-28 01:57:08] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230428/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-04-28 01:57:08] INFO root fetch - processPackages [pollstats]: Downloading https://files.pythonhosted.org/packages/71/78/98978bc8d1cf1b29e187302695b319b5fec9153d3869da4e2798df83727a/pollstats-0.6.tar.gz
+[2023-04-28 01:57:08] INFO root fetch - processPackages [runfalcon-build-tools]: Downloading https://files.pythonhosted.org/packages/98/0a/0004aaeca2e02e3683acfbc9219a97fa0d6de8a2d585b66089a3f756ace7/runfalcon-build-tools-1.4.1.tar.gz
+[2023-04-28 01:57:08] INFO root fetch - processPackages [pollstats]: executing diffoscope
+[2023-04-28 01:57:08] INFO root fetch - processPackages [pollstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollstats-0.5.tar.gz tmp/pollstats-0.6.tar.gz --markdown 20230428/p/pollstats/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/b1/91/18210ce9597bdefb32fce62326950d8681cfa719ebec9eccf4e452a940f4/snapctl-0.2.3.tar.gz
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/b1/91/18210ce9597bdefb32fce62326950d8681cfa719ebec9eccf4e452a940f4/snapctl-0.2.3.tar.gz
+[2023-04-28 01:57:08] INFO root fetch - processPackages [runfalcon-build-tools]: executing diffoscope
+[2023-04-28 01:57:08] INFO root fetch - processPackages [runfalcon-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runfalcon-build-tools-1.3.1.tar.gz tmp/runfalcon-build-tools-1.4.1.tar.gz --markdown 20230428/r/runfalcon-build-tools/1.3.1-1.4.1/diff.md --exclude *.pyd
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: executing diffoscope
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapctl-0.2.2.tar.gz tmp/snapctl-0.2.3.tar.gz --markdown 20230428/s/snapctl/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: executing diffoscope
+[2023-04-28 01:57:08] INFO root fetch - processPackages [snapctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapctl-0.2.2.tar.gz tmp/snapctl-0.2.3.tar.gz --markdown 20230428/s/snapctl/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 01:57:09] INFO root fetch - main [MainThread]: End processing [snapctl]: success
+[2023-04-28 01:57:10] INFO root fetch - main [MainThread]: End processing [runfalcon-build-tools]: success
+[2023-04-28 01:57:10] INFO root fetch - main [MainThread]: End processing [snapctl]: success
+[2023-04-28 01:57:10] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-04-28 01:57:10] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-28 01:57:11] INFO root fetch - main [MainThread]: End processing [pollstats]: success
+[2023-04-28 01:57:11] INFO root fetch - main [MainThread]: Store serial: [17890229]
