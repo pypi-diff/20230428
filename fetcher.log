@@ -444,3 +444,80 @@
 [2023-04-28 00:42:45] INFO root fetch - main [MainThread]: End processing [happy-learning]: success
 [2023-04-28 00:42:46] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-04-28 00:42:46] INFO root fetch - main [MainThread]: Store serial: [17889862]
+[2023-04-28 00:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889862]
+[2023-04-28 00:47:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ucsdasiga
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: problem-bank-scripts
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ICICONSOLE
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ICICONSOLE
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ICICONSOLE
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ICICONSOLE
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frankAllSkyCam
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sentient-switchblade
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: devtools-ai
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-metrics-gbq
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [airflow-metrics-gbq]: New version: [0.0.5a0] Old Version: [0.0.4a4]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ucsdasiga]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [frankAllSkyCam]: New version: [4.1] Old Version: [4.0]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [devtools-ai]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/b6/44/44110ed410783f49fc6752b9fc07c61ec39ccc7af186a921e1b5c33622d5/ICICONSOLE-0.0.3.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/b6/44/44110ed410783f49fc6752b9fc07c61ec39ccc7af186a921e1b5c33622d5/ICICONSOLE-0.0.3.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/b6/44/44110ed410783f49fc6752b9fc07c61ec39ccc7af186a921e1b5c33622d5/ICICONSOLE-0.0.3.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/b6/44/44110ed410783f49fc6752b9fc07c61ec39ccc7af186a921e1b5c33622d5/ICICONSOLE-0.0.3.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [devtools-ai]: Downloading https://files.pythonhosted.org/packages/73/d5/acaac014dc1f88bf40df7c7f2ddbaeeadbb0669c4d5bf7e6029f386f203a/devtools-ai-0.1.39.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ucsdasiga]: Downloading https://files.pythonhosted.org/packages/af/a0/76779df4fa1ca0cbe9d955251991b473ff59084b2971da3ef611251efa8d/ucsdasiga-1.0.0a6.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/63/ec/5605348dc5fb07097aa68ffab54c388f239e7aae463a8934f3ecaf34e87a/sentient_switchblade-0.1.0.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/84/5b/666bd14e66417648d9836e87476d298c95ea62d0519d18728ecfe397aebf/problem_bank_scripts-0.4.7.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/de/05/b662864952c238d34af9be42b150fba6dfd77edf7db8d09f8555faa08747/frankAllSkyCam-4.0.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ucsdasiga]: executing diffoscope
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ucsdasiga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucsdasiga-1.0.0a5.tar.gz tmp/ucsdasiga-1.0.0a6.tar.gz --markdown 20230428/u/ucsdasiga/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2023-04-28 00:47:55] INFO root fetch - processPackages [airflow-metrics-gbq]: Downloading https://files.pythonhosted.org/packages/58/c2/1480c00ca1acec1199ba364f714737f643c178e2e419365e28b12fa4161c/airflow_metrics_gbq-0.0.5a0.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [devtools-ai]: executing diffoscope
+[2023-04-28 00:47:55] INFO root fetch - processPackages [devtools-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devtools-ai-0.1.38.tar.gz tmp/devtools-ai-0.1.39.tar.gz --markdown 20230428/d/devtools-ai/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-04-28 00:47:55] INFO root fetch - processPackages [airflow-metrics-gbq]: executing diffoscope
+[2023-04-28 00:47:55] INFO root fetch - processPackages [airflow-metrics-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_metrics_gbq-0.0.4a4.tar.gz tmp/airflow_metrics_gbq-0.0.5a0.tar.gz --markdown 20230428/a/airflow-metrics-gbq/0.0.4a4-0.0.5a0/diff.md --exclude *.pyd
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/90/7d/eccd86d723aeb35096996bb740866dbcb2c2d9b704b0780a4bf32eea1c57/ICICONSOLE-0.0.4.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/90/7d/eccd86d723aeb35096996bb740866dbcb2c2d9b704b0780a4bf32eea1c57/ICICONSOLE-0.0.4.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/90/7d/eccd86d723aeb35096996bb740866dbcb2c2d9b704b0780a4bf32eea1c57/ICICONSOLE-0.0.4.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/90/7d/eccd86d723aeb35096996bb740866dbcb2c2d9b704b0780a4bf32eea1c57/ICICONSOLE-0.0.4.tar.gz
+[2023-04-28 00:47:55] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/0d/5e/2fd4500b6665938b0f273c6fb4cf78669997f6429e1e77244ee247d6b9bc/sentient_switchblade-0.1.1.tar.gz
+[2023-04-28 00:47:56] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/c5/83/86058a0a8f6cc8729da642015f7d7a53d1cecc78d2cb0cefa355c9343cb1/frankAllSkyCam-4.1.tar.gz
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.0.3.tar.gz tmp/ICICONSOLE-0.0.4.tar.gz --markdown 20230428/I/ICICONSOLE/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.0.3.tar.gz tmp/ICICONSOLE-0.0.4.tar.gz --markdown 20230428/I/ICICONSOLE/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.0.3.tar.gz tmp/ICICONSOLE-0.0.4.tar.gz --markdown 20230428/I/ICICONSOLE/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-04-28 00:47:56] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.0.3.tar.gz tmp/ICICONSOLE-0.0.4.tar.gz --markdown 20230428/I/ICICONSOLE/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 00:47:56] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/e0/c2/73cc29472f415cd33aff1bd3824bbdd8b500161ac45cebc9a78857dbe541/problem_bank_scripts-0.4.8.tar.gz
+[2023-04-28 00:47:56] INFO root fetch - processPackages [frankAllSkyCam]: executing diffoscope
+[2023-04-28 00:47:56] INFO root fetch - processPackages [frankAllSkyCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frankAllSkyCam-4.0.tar.gz tmp/frankAllSkyCam-4.1.tar.gz --markdown 20230428/f/frankAllSkyCam/4.0-4.1/diff.md --exclude *.pyd
+[2023-04-28 00:47:56] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2023-04-28 00:47:56] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.1.0.tar.gz tmp/sentient_switchblade-0.1.1.tar.gz --markdown 20230428/s/sentient-switchblade/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 00:47:56] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-04-28 00:47:56] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.4.7.tar.gz tmp/problem_bank_scripts-0.4.8.tar.gz --markdown 20230428/p/problem-bank-scripts/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-28 00:47:57] INFO root fetch - processPackages [ucsdasiga]: Start processing: pulumi-aiven
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [ucsdasiga]: success
+[2023-04-28 00:47:57] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.2.0a1682634031] Old Version: [6.2.0a1682024783]
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [airflow-metrics-gbq]: success
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-04-28 00:47:57] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/97/47/0e3ffab63bb019d3f21de424ca28fd91c78b8e56447c8767edc0c7c1da3b/pulumi_aiven-6.2.0a1682024783.tar.gz
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam]: success
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [devtools-ai]: success
+[2023-04-28 00:47:57] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-04-28 00:47:57] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/17/4e/3d36e602ff52acefb4e18e42beeeb52696beed8e9e15164cfd8926b53770/pulumi_aiven-6.2.0a1682634031.tar.gz
+[2023-04-28 00:47:58] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-04-28 00:47:58] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.2.0a1682024783.tar.gz tmp/pulumi_aiven-6.2.0a1682634031.tar.gz --markdown 20230428/p/pulumi-aiven/6.2.0a1682024783-6.2.0a1682634031/diff.md --exclude *.pyd
+[2023-04-28 00:47:58] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-04-28 00:47:59] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-04-28 00:47:59] INFO root fetch - main [MainThread]: Store serial: [17889897]
