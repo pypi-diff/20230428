@@ -307,3 +307,83 @@
 [2023-04-28 00:29:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-28 00:31:21] INFO root fetch - main [MainThread]: End processing [kangas]: success
 [2023-04-28 00:31:21] INFO root fetch - main [MainThread]: Store serial: [17889788]
+[2023-04-28 00:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889788]
+[2023-04-28 00:36:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lang2py
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devtools-ai
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cochleogram
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimizely-sdk
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frankAllSkyCam
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TorchRegister
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-export-credentials
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pathmatcher
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ramodels
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythonbible_parser
+[2023-04-28 00:36:31] INFO root fetch - processPackages [devtools-ai]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-04-28 00:36:31] WARNING root fetch - processPackages [frankAllSkyCam]: Skipping, unable to determine old version
+[2023-04-28 00:36:31] INFO root fetch - processPackages [frankAllSkyCam]: Start processing: easqlite
+[2023-04-28 00:36:31] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam] error
+[2023-04-28 00:36:31] INFO root fetch - processPackages [lang2py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [cochleogram]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [aws-export-credentials]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [TorchRegister]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [easqlite]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [pythonbible_parser]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [pathmatcher]: New version: [1.8.0b2] Old Version: [1.8.0]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [optimizely-sdk]: New version: [5.0.0b0] Old Version: [4.1.1]
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-28 00:36:31] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230428/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-28 00:36:31] INFO root fetch - processPackages [lang2py]: Downloading https://files.pythonhosted.org/packages/fb/80/f2f79bdf8f5f985f682d4039420270a890e138279e08bb4e9d80cc528415/lang2py-0.1.0.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [pathmatcher]: Downloading https://files.pythonhosted.org/packages/46/b1/d70b46f142a8f9849bbd8157bf3f045de92e5d02db32c5ac8e25db6811ab/pathmatcher-1.8.0.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [devtools-ai]: Downloading https://files.pythonhosted.org/packages/22/cd/56a8132d99c27951bc72babd611e682521ec02c2c8da8e9a65f3676dce3d/devtools-ai-0.1.37.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [easqlite]: Downloading https://files.pythonhosted.org/packages/32/13/3c5e8ff6852aa561e3789232bb956bd35a9f2883cf6741218bb5c8c68920/easqlite-1.0.0.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [pythonbible_parser]: Downloading https://files.pythonhosted.org/packages/6a/bd/e2df06733c093bfa1f796e7383f83d0eecee7e8a66b937c1d5b525749145/pythonbible_parser-0.0.4.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [TorchRegister]: Downloading https://files.pythonhosted.org/packages/28/81/3f7e78d6a77373218a995b4d70ad3d39f513e3f001d20b16cf44f70114df/TorchRegister-0.1.1.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/8d/dd/1bfedbd4ddbe0ae94d042d0d8925f452ffccbb6ff7d53eeefcff386aae05/cochleogram-0.2.2.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [optimizely-sdk]: Downloading https://files.pythonhosted.org/packages/c5/a2/19a449d3bd52f2dc97224b78a1ccc16e8e6e46a9b87ef70243a91d0ab486/optimizely-sdk-4.1.1.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [aws-export-credentials]: Downloading https://files.pythonhosted.org/packages/ad/00/c2066d0e3de762440bbb69e0af5e0ac8fd8cde7b9c0e88b04462f50adc1f/aws-export-credentials-0.8.0.tar.gz
+[2023-04-28 00:36:31] INFO root fetch - processPackages [pathmatcher]: executing diffoscope
+[2023-04-28 00:36:31] INFO root fetch - processPackages [pathmatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathmatcher-1.8.0.tar.gz tmp/pathmatcher-1.8.0b2.tar.gz --markdown 20230428/p/pathmatcher/1.8.0-1.8.0b2/diff.md --exclude *.pyd
+[2023-04-28 00:36:31] INFO root fetch - processPackages [easqlite]: Downloading https://files.pythonhosted.org/packages/23/01/674e43e0c5f0d8f656bae59b8a434f49946b48630bc877498ad0924cc576/easqlite-1.1.0.tar.gz
+[2023-04-28 00:36:32] INFO root fetch - processPackages [TorchRegister]: Downloading https://files.pythonhosted.org/packages/20/29/f27a8a32a31b8075bc00dedfad3479cfe2d3145d2bcc77dd63b076411534/TorchRegister-0.2.0.tar.gz
+[2023-04-28 00:36:32] INFO root fetch - processPackages [lang2py]: Downloading https://files.pythonhosted.org/packages/99/fb/a79e593e34bcc5b4d22aef9c32a490b8da1bfd15122ece0ccaed64e7ce4e/lang2py-0.2.0.tar.gz
+[2023-04-28 00:36:32] INFO root fetch - processPackages [easqlite]: executing diffoscope
+[2023-04-28 00:36:32] INFO root fetch - processPackages [easqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easqlite-1.0.0.tar.gz tmp/easqlite-1.1.0.tar.gz --markdown 20230428/e/easqlite/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 00:36:32] INFO root fetch - processPackages [optimizely-sdk]: Downloading https://files.pythonhosted.org/packages/f5/97/4f6d09387e840c2ca83b77355f913cce76d6d692e44d4f26169b78173a29/optimizely-sdk-5.0.0b0.tar.gz
+[2023-04-28 00:36:32] INFO root fetch - processPackages [TorchRegister]: executing diffoscope
+[2023-04-28 00:36:32] INFO root fetch - processPackages [TorchRegister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchRegister-0.1.1.tar.gz tmp/TorchRegister-0.2.0.tar.gz --markdown 20230428/T/TorchRegister/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 00:36:32] INFO root fetch - processPackages [devtools-ai]: Downloading https://files.pythonhosted.org/packages/40/32/52516243ce0586bd19a500bf0943510b715c8adc29bfb2188356449a463a/devtools-ai-0.1.38.tar.gz
+[2023-04-28 00:36:32] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/71/d0/5c24ac64d2bfa0854494d98f9763d50e4658848232afe7df1f7ff7c70fad/cochleogram-0.2.3.tar.gz
+[2023-04-28 00:36:32] INFO root fetch - processPackages [devtools-ai]: executing diffoscope
+[2023-04-28 00:36:32] INFO root fetch - processPackages [devtools-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devtools-ai-0.1.37.tar.gz tmp/devtools-ai-0.1.38.tar.gz --markdown 20230428/d/devtools-ai/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-04-28 00:36:32] INFO root fetch - processPackages [cochleogram]: executing diffoscope
+[2023-04-28 00:36:32] INFO root fetch - processPackages [cochleogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cochleogram-0.2.2.tar.gz tmp/cochleogram-0.2.3.tar.gz --markdown 20230428/c/cochleogram/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 00:36:32] INFO root fetch - processPackages [lang2py]: executing diffoscope
+[2023-04-28 00:36:32] INFO root fetch - processPackages [lang2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lang2py-0.1.0.tar.gz tmp/lang2py-0.2.0.tar.gz --markdown 20230428/l/lang2py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 00:36:32] INFO root fetch - processPackages [optimizely-sdk]: executing diffoscope
+[2023-04-28 00:36:32] INFO root fetch - processPackages [optimizely-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimizely-sdk-4.1.1.tar.gz tmp/optimizely-sdk-5.0.0b0.tar.gz --markdown 20230428/o/optimizely-sdk/4.1.1-5.0.0b0/diff.md --exclude *.pyd
+[2023-04-28 00:36:32] INFO root fetch - processPackages [aws-export-credentials]: Downloading https://files.pythonhosted.org/packages/ec/d8/420e9316eb3596811db99ec2a25afe8f4d3901440391e0a1de564a7e85eb/aws-export-credentials-0.9.0.tar.gz
+[2023-04-28 00:36:32] INFO root fetch - processPackages [aws-export-credentials]: executing diffoscope
+[2023-04-28 00:36:32] INFO root fetch - processPackages [aws-export-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-export-credentials-0.8.0.tar.gz tmp/aws-export-credentials-0.9.0.tar.gz --markdown 20230428/a/aws-export-credentials/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 00:36:33] INFO root fetch - processPackages [pythonbible_parser]: Downloading https://files.pythonhosted.org/packages/20/cd/1b4f56983661b88deed9bcd1113e2fcfe5055bb020b0caa26bcdc24f2ee1/pythonbible_parser-0.0.5.tar.gz
+[2023-04-28 00:36:33] INFO root fetch - processPackages [easqlite]: Start processing: dbt-fal
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [easqlite]: success
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [TorchRegister]: success
+[2023-04-28 00:36:33] INFO root fetch - processPackages [dbt-fal]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [pathmatcher]: success
+[2023-04-28 00:36:33] INFO root fetch - processPackages [pythonbible_parser]: executing diffoscope
+[2023-04-28 00:36:33] INFO root fetch - processPackages [pythonbible_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonbible_parser-0.0.4.tar.gz tmp/pythonbible_parser-0.0.5.tar.gz --markdown 20230428/p/pythonbible_parser/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [lang2py]: success
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [cochleogram]: success
+[2023-04-28 00:36:33] INFO root fetch - processPackages [dbt-fal]: Downloading https://files.pythonhosted.org/packages/46/9b/1f2e58aaa8c01f2a99b396d9901005acf9ae1da93d50e33e7158407677b8/dbt-fal-1.4.7.tar.gz
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [devtools-ai]: success
+[2023-04-28 00:36:33] INFO root fetch - main [MainThread]: End processing [aws-export-credentials]: success
+[2023-04-28 00:36:33] INFO root fetch - processPackages [dbt-fal]: Downloading https://files.pythonhosted.org/packages/55/4f/38c1658fe78c9018689c61ea74b05a271d7104925a655abc2c39c9cdd9d4/dbt-fal-1.4.8.tar.gz
+[2023-04-28 00:36:33] INFO root fetch - processPackages [dbt-fal]: executing diffoscope
+[2023-04-28 00:36:33] INFO root fetch - processPackages [dbt-fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fal-1.4.7.tar.gz tmp/dbt-fal-1.4.8.tar.gz --markdown 20230428/d/dbt-fal/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-04-28 00:36:34] INFO root fetch - main [MainThread]: End processing [dbt-fal]: success
+[2023-04-28 00:36:35] INFO root fetch - main [MainThread]: End processing [optimizely-sdk]: success
+[2023-04-28 00:37:34] INFO root fetch - main [MainThread]: End processing [pythonbible_parser]: success
+[2023-04-28 00:37:34] INFO root fetch - main [MainThread]: Store serial: [17889824]
