@@ -1,0 +1,47 @@
+[2023-04-28 00:04:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889602]
+[2023-04-28 00:04:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-mq-connector
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gillespy2
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-bus-client
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insertionsort
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runfalcon-build-tools
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchling-api-client
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstra-runtimes
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyBCV
+[2023-04-28 00:04:07] WARNING root fetch - processPackages [insertionsort]: Skipping, unable to determine old version
+[2023-04-28 00:04:07] INFO root fetch - main [MainThread]: End processing [insertionsort] error
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.4a5] Old Version: [0.0.4a4]
+[2023-04-28 00:04:07] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.6.1a8] Old Version: [0.6.1a7]
+[2023-04-28 00:04:07] INFO root fetch - processPackages [gillespy2]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-04-28 00:04:07] INFO root fetch - processPackages [pyBCV]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-28 00:04:07] INFO root fetch - processPackages [runfalcon-build-tools]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-28 00:04:07] INFO root fetch - processPackages [abstra-runtimes]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 00:04:07] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 00:04:07] INFO root fetch - processPackages [pyBCV]: executing diffoscope
+[2023-04-28 00:04:07] INFO root fetch - processPackages [pyBCV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBCV-1.0.4-py3-none-any.whl.zip tmp/pyBCV-1.0.5-py3-none-any.whl.zip --markdown 20230428/p/pyBCV/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-28 00:04:07] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/f4/37/c9c2a5db78cfd1033c1ab100a48849c3b70245851b8cdfe2b6059ed268b6/neon_mq_connector-0.6.1a7-py3-none-any.whl
+[2023-04-28 00:04:07] INFO root fetch - processPackages [abstra-runtimes]: executing diffoscope
+[2023-04-28 00:04:07] INFO root fetch - processPackages [abstra-runtimes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-runtimes-0.9.0.tar.gz tmp/abstra-runtimes-0.9.1.tar.gz --markdown 20230428/a/abstra-runtimes/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/8b/b5/a93ccf3b1ca6086405c889a8a2c6c5a27a2d367378137c3ff841a42f639b/ovos-bus-client-0.0.4a5.tar.gz
+[2023-04-28 00:04:07] INFO root fetch - processPackages [gillespy2]: Downloading https://files.pythonhosted.org/packages/02/81/1356630ce729e67f3599d34bde0704ecfd4d59a6400a4c2e4edbf76d1ba2/gillespy2-1.8.1.tar.gz
+[2023-04-28 00:04:07] INFO root fetch - processPackages [runfalcon-build-tools]: Downloading https://files.pythonhosted.org/packages/ca/ad/3be006996844318d5a1ad9c1d2eae3a3ccb145d7e2cecad28ab647c41734/runfalcon-build-tools-1.4.0.tar.gz
+[2023-04-28 00:04:07] INFO root fetch - processPackages [runfalcon-build-tools]: executing diffoscope
+[2023-04-28 00:04:07] INFO root fetch - processPackages [runfalcon-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runfalcon-build-tools-1.3.0.tar.gz tmp/runfalcon-build-tools-1.4.0.tar.gz --markdown 20230428/r/runfalcon-build-tools/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2023-04-28 00:04:07] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a4.tar.gz tmp/ovos-bus-client-0.0.4a5.tar.gz --markdown 20230428/o/ovos-bus-client/0.0.4a4-0.0.4a5/diff.md --exclude *.pyd
+[2023-04-28 00:04:07] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/cd/58/ed6d1bdafad4a39d2b60b109aab076f6643eac46304a299424f1dda761e9/neon_mq_connector-0.6.1a8-py3-none-any.whl
+[2023-04-28 00:04:07] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-04-28 00:04:07] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230428/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 00:04:07] INFO root fetch - processPackages [gillespy2]: Downloading https://files.pythonhosted.org/packages/10/f8/706955fff52d39a281396f204646908117edd0471d3d630f8394f8e8aba5/gillespy2-1.8.2.tar.gz
+[2023-04-28 00:04:07] INFO root fetch - processPackages [gillespy2]: executing diffoscope
+[2023-04-28 00:04:07] INFO root fetch - processPackages [gillespy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gillespy2-1.8.1.tar.gz tmp/gillespy2-1.8.2.tar.gz --markdown 20230428/g/gillespy2/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-04-28 00:04:07] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-04-28 00:04:07] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.6.1a7-py3-none-any.whl.zip tmp/neon_mq_connector-0.6.1a8-py3-none-any.whl.zip --markdown 20230428/n/neon-mq-connector/0.6.1a7-0.6.1a8/diff.md --exclude *.pyd
+[2023-04-28 00:04:09] INFO root fetch - main [MainThread]: End processing [pyBCV]: success
+[2023-04-28 00:04:09] INFO root fetch - main [MainThread]: End processing [abstra-runtimes]: success
+[2023-04-28 00:04:09] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2023-04-28 00:04:09] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-04-28 00:04:09] INFO root fetch - main [MainThread]: End processing [runfalcon-build-tools]: success
+[2023-04-28 00:04:10] INFO root fetch - main [MainThread]: End processing [gillespy2]: success
+[2023-04-28 00:05:55] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-04-28 00:05:55] INFO root fetch - main [MainThread]: Store serial: [17889626]
