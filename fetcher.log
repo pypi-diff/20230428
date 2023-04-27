@@ -45,3 +45,100 @@
 [2023-04-28 00:04:10] INFO root fetch - main [MainThread]: End processing [gillespy2]: success
 [2023-04-28 00:05:55] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-04-28 00:05:55] INFO root fetch - main [MainThread]: Store serial: [17889626]
+[2023-04-28 00:10:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889626]
+[2023-04-28 00:11:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: balena-sdk
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynecone
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netrics-measurements
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdss-basecam
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FreeClimb
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypothesis
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fling-cli
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlagility
+[2023-04-28 00:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pathmatcher
+[2023-04-28 00:11:04] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [FreeClimb]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [mlagility]: New version: [3.0.0] Old Version: [2.1.2]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [netrics-measurements]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [fling-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pynecone]: New version: [0.1.27a2] Old Version: [0.1.27a1]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [sdss-basecam]: New version: [0.7.2] Old Version: [0.7.1b1]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pathmatcher]: New version: [1.8.0b2] Old Version: [1.7.5]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-28 00:11:04] INFO root fetch - processPackages [FreeClimb]: Downloading https://files.pythonhosted.org/packages/d5/f4/20ca95d35ee8865337416fbc8bd912c16a6a6a0a9bb03ba0da9a651c0163/FreeClimb-4.2.0.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [fling-cli]: Downloading https://files.pythonhosted.org/packages/af/cf/c913a67c39b52663e41f8f2df86edd6ad9407ce1b40b763747108f0b693e/fling_cli-0.1.2.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [sdss-basecam]: Downloading https://files.pythonhosted.org/packages/f8/94/dedb3e165dda2dc554d2539771448d43f9f75631801729dded8de596a502/sdss_basecam-0.7.1b1.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pathmatcher]: Downloading https://files.pythonhosted.org/packages/24/65/6b5170325a08d6fac4e89359ea0dc31bf4b1b074c45de933a0aeb999a472/pathmatcher-1.7.5.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/0a/df/a5a0852dd0fdf65a807b66855c9869f035a587f758c4b45d135080c6a260/pynecone-0.1.27a2.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230428/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [mlagility]: Downloading https://files.pythonhosted.org/packages/05/5f/7dd3c4a30cd958292beff097adda8390e4c1f7a2283648d3f53ff72d49cd/mlagility-3.0.0.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [FreeClimb]: Downloading https://files.pythonhosted.org/packages/57/30/a4d9ab1b1d9564a351714b7ed59f5b413dc36c70d8a17e4dca8d778bd553/FreeClimb-4.2.1.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230428/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [fling-cli]: Downloading https://files.pythonhosted.org/packages/5c/74/626c770246830be8ee6c366b9ee3e8cae1deb3e3971591b4e5816e517a9d/fling_cli-0.1.3.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [netrics-measurements]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [netrics-measurements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netrics_measurements-0.0.1rc8.tar.gz tmp/netrics_measurements-0.0.1rc9.tar.gz --markdown 20230428/n/netrics-measurements/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230428/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pathmatcher]: Downloading https://files.pythonhosted.org/packages/c9/d1/b67df0210775bcad47cc0592a97ae6425c58ea18200f490223c5bfda9938/pathmatcher-1.8.0b2.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.27a1.tar.gz tmp/pynecone-0.1.27a2.tar.gz --markdown 20230428/p/pynecone/0.1.27a1-0.1.27a2/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [sdss-basecam]: Downloading https://files.pythonhosted.org/packages/c3/d6/1689461e51a544fbdc9e3360ebcffe14f313e78b433ea633187de4310fd1/sdss_basecam-0.7.2.tar.gz
+[2023-04-28 00:11:04] INFO root fetch - processPackages [mlagility]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [mlagility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlagility-2.1.2.tar.gz tmp/mlagility-3.0.0.tar.gz --markdown 20230428/m/mlagility/2.1.2-3.0.0/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [FreeClimb]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [FreeClimb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeClimb-4.2.0.tar.gz tmp/FreeClimb-4.2.1.tar.gz --markdown 20230428/F/FreeClimb/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [fling-cli]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [fling-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fling_cli-0.1.2.tar.gz tmp/fling_cli-0.1.3.tar.gz --markdown 20230428/f/fling-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [sdss-basecam]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [sdss-basecam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_basecam-0.7.1b1.tar.gz tmp/sdss_basecam-0.7.2.tar.gz --markdown 20230428/s/sdss-basecam/0.7.1b1-0.7.2/diff.md --exclude *.pyd
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pathmatcher]: executing diffoscope
+[2023-04-28 00:11:04] INFO root fetch - processPackages [pathmatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathmatcher-1.7.5.tar.gz tmp/pathmatcher-1.8.0b2.tar.gz --markdown 20230428/p/pathmatcher/1.7.5-1.8.0b2/diff.md --exclude *.pyd
+[2023-04-28 00:11:06] INFO root fetch - processPackages [fling-cli]: Start processing: pymsasdax
+[2023-04-28 00:11:06] INFO root fetch - main [MainThread]: End processing [fling-cli]: success
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pymsasdax]: New version: [2023.1017] Old Version: [2023.1016]
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pathmatcher]: Start processing: pythonbible
+[2023-04-28 00:11:06] INFO root fetch - main [MainThread]: End processing [pathmatcher]: success
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pymsasdax]: executing diffoscope
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pymsasdax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymsasdax-2023.1016.tar.gz tmp/pymsasdax-2023.1017.tar.gz --markdown 20230428/p/pymsasdax/2023.1016-2023.1017/diff.md --exclude *.pyd
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pythonbible]: New version: [0.8] Old Version: [0.7.4]
+[2023-04-28 00:11:06] INFO root fetch - processPackages [netrics-measurements]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-28 00:11:06] INFO root fetch - main [MainThread]: End processing [netrics-measurements]: success
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pythonbible]: Downloading https://files.pythonhosted.org/packages/4f/cc/aac1542eb340423c09d28e4d4782a176bf597f5b25700189cbb984dccac0/pythonbible-0.7.4.tar.gz
+[2023-04-28 00:11:06] INFO root fetch - processPackages [sdss-basecam]: Start processing: cmeel-urdfdom
+[2023-04-28 00:11:06] INFO root fetch - main [MainThread]: End processing [sdss-basecam]: success
+[2023-04-28 00:11:06] INFO root fetch - processPackages [cmeel-urdfdom]: New version: [3.1.0.1] Old Version: [3.1.0]
+[2023-04-28 00:11:06] INFO root fetch - processPackages [domolibrary]: Start processing: ovos-gui
+[2023-04-28 00:11:06] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-28 00:11:06] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 00:11:06] INFO root fetch - processPackages [balena-sdk]: Start processing: abstra-runtimes
+[2023-04-28 00:11:06] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-04-28 00:11:06] INFO root fetch - processPackages [abstra-runtimes]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 00:11:06] INFO root fetch - processPackages [ovos-gui]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-04-28 00:11:06] INFO root fetch - processPackages [abstra-runtimes]: executing diffoscope
+[2023-04-28 00:11:06] INFO root fetch - processPackages [abstra-runtimes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-runtimes-0.9.0.tar.gz tmp/abstra-runtimes-0.9.1.tar.gz --markdown 20230428/a/abstra-runtimes/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 00:11:07] INFO root fetch - processPackages [ovos-gui]: executing diffoscope
+[2023-04-28 00:11:07] INFO root fetch - processPackages [ovos-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_gui-0.0.2a8-py3-none-any.whl.zip tmp/ovos_gui-0.0.2a9-py3-none-any.whl.zip --markdown 20230428/o/ovos-gui/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-04-28 00:11:07] INFO root fetch - processPackages [cmeel-urdfdom]: Downloading https://files.pythonhosted.org/packages/53/b1/e3c35cb60f7575397f5e12404b9b38737ba97986bf4aaefe233189152c7b/cmeel_urdfdom-3.1.0-1-pp39-pypy39_pp73-manylinux_2_17_x86_64.whl
+[2023-04-28 00:11:07] INFO root fetch - processPackages [cmeel-urdfdom]: Downloading https://files.pythonhosted.org/packages/06/91/0ccdfcd74a3ae8230ba3293737413637b50fe725b083c2a3fd47e5b4848f/cmeel_urdfdom-3.1.0.1-4-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 00:11:07] INFO root fetch - processPackages [cmeel-urdfdom]: executing diffoscope
+[2023-04-28 00:11:07] INFO root fetch - processPackages [cmeel-urdfdom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_urdfdom-3.1.0-1-pp39-pypy39_pp73-manylinux_2_17_x86_64.whl.zip tmp/cmeel_urdfdom-3.1.0.1-4-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/c/cmeel-urdfdom/3.1.0-3.1.0.1/diff.md --exclude *.pyd
+[2023-04-28 00:11:07] INFO root fetch - main [MainThread]: End processing [pymsasdax]: success
+[2023-04-28 00:11:07] INFO root fetch - main [MainThread]: End processing [ovos-gui]: success
+[2023-04-28 00:11:08] INFO root fetch - main [MainThread]: End processing [abstra-runtimes]: success
+[2023-04-28 00:11:08] INFO root fetch - main [MainThread]: End processing [FreeClimb]: success
+[2023-04-28 00:11:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-28 00:11:08] INFO root fetch - processPackages [pythonbible]: Downloading https://files.pythonhosted.org/packages/a3/f7/1bcc4c7ed7bd9ec522466e5c2215c23cfb5eb992497bca39fd6e6b78d13d/pythonbible-0.8.tar.gz
+[2023-04-28 00:11:08] INFO root fetch - processPackages [pythonbible]: executing diffoscope
+[2023-04-28 00:11:08] INFO root fetch - processPackages [pythonbible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonbible-0.7.4.tar.gz tmp/pythonbible-0.8.tar.gz --markdown 20230428/p/pythonbible/0.7.4-0.8/diff.md --exclude *.pyd
+[2023-04-28 00:11:09] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-04-28 00:11:09] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-04-28 00:11:15] INFO root fetch - main [MainThread]: End processing [mlagility]: success
+[2023-04-28 00:11:18] INFO root fetch - main [MainThread]: End processing [cmeel-urdfdom]: success
+[2023-04-28 00:12:09] INFO root fetch - main [MainThread]: End processing [pythonbible]: success
+[2023-04-28 00:12:09] INFO root fetch - main [MainThread]: Store serial: [17889675]
