@@ -570,3 +570,40 @@
 [2023-04-28 00:53:12] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
 [2023-04-28 00:53:12] INFO root fetch - main [MainThread]: End processing [nebari-workflow-controller]: success
 [2023-04-28 00:53:12] INFO root fetch - main [MainThread]: Store serial: [17889921]
+[2023-04-28 00:58:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889921]
+[2023-04-28 00:58:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-api-client
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ICICONSOLE
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-metrics-gbq
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kolibri-ml
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyTermTk
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ttkDesigner
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 00:58:21] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ttkDesigner]: New version: [0.30.0a9] Old Version: [0.30.0a8]
+[2023-04-28 00:58:21] INFO root fetch - processPackages [airflow-metrics-gbq]: New version: [0.0.5a1] Old Version: [0.0.5a0]
+[2023-04-28 00:58:21] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-28 00:58:21] INFO root fetch - processPackages [pyTermTk]: New version: [0.9.0a62] Old Version: [0.9.0a56]
+[2023-04-28 00:58:21] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-04-28 00:58:21] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230428/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 00:58:21] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/7a/7a/173b5a4741b84626b1f64ca372f0aae52efb87e4abdc6cbb17fb00f7f10f/ICICONSOLE-0.0.5.tar.gz
+[2023-04-28 00:58:21] INFO root fetch - processPackages [airflow-metrics-gbq]: Downloading https://files.pythonhosted.org/packages/d5/5f/3937206fd803b37000fd20f9f0ec6d7bd9ddd623211813b3f98ee5b03bca/airflow_metrics_gbq-0.0.5a1.tar.gz
+[2023-04-28 00:58:21] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/59/fd/9cfaeaa9d80171537b6db190c8c31e66a2308d23fbf486378dc0f28a4837/kolibri_ml-1.1.7-py3-none-any.whl
+[2023-04-28 00:58:22] INFO root fetch - processPackages [airflow-metrics-gbq]: executing diffoscope
+[2023-04-28 00:58:22] INFO root fetch - processPackages [airflow-metrics-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_metrics_gbq-0.0.5a0.tar.gz tmp/airflow_metrics_gbq-0.0.5a1.tar.gz --markdown 20230428/a/airflow-metrics-gbq/0.0.5a0-0.0.5a1/diff.md --exclude *.pyd
+[2023-04-28 00:58:22] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-04-28 00:58:22] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.0.4.tar.gz tmp/ICICONSOLE-0.0.5.tar.gz --markdown 20230428/I/ICICONSOLE/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 00:58:22] INFO root fetch - processPackages [ttkDesigner]: executing diffoscope
+[2023-04-28 00:58:22] INFO root fetch - processPackages [ttkDesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttkDesigner-0.30.0a8.tar.gz tmp/ttkDesigner-0.30.0a9.tar.gz --markdown 20230428/t/ttkDesigner/0.30.0a8-0.30.0a9/diff.md --exclude *.pyd
+[2023-04-28 00:58:22] INFO root fetch - processPackages [pyTermTk]: executing diffoscope
+[2023-04-28 00:58:22] INFO root fetch - processPackages [pyTermTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermTk-0.9.0a56.tar.gz tmp/pyTermTk-0.9.0a62.tar.gz --markdown 20230428/p/pyTermTk/0.9.0a56-0.9.0a62/diff.md --exclude *.pyd
+[2023-04-28 00:58:22] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-04-28 00:58:22] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-04-28 00:58:22] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.7-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230428/k/kolibri-ml/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-28 00:58:23] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-04-28 00:58:23] INFO root fetch - main [MainThread]: End processing [airflow-metrics-gbq]: success
+[2023-04-28 00:58:23] INFO root fetch - main [MainThread]: End processing [ttkDesigner]: success
+[2023-04-28 00:58:25] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
+[2023-04-28 00:58:27] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-04-28 01:00:07] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-04-28 01:00:07] INFO root fetch - main [MainThread]: Store serial: [17889938]
