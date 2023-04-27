@@ -669,3 +669,54 @@
 [2023-04-28 01:05:24] INFO root fetch - main [MainThread]: End processing [covalent]: success
 [2023-04-28 01:05:32] INFO root fetch - main [MainThread]: End processing [pelicun]: success
 [2023-04-28 01:05:32] INFO root fetch - main [MainThread]: Store serial: [17889968]
+[2023-04-28 01:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889968]
+[2023-04-28 01:10:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loggerml
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdh-lib
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runfalcon-build-tools
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rembg
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightcurve-fitting
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mqttwarn
+[2023-04-28 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yuna-db
+[2023-04-28 01:10:43] INFO root fetch - processPackages [loggerml]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-28 01:10:43] INFO root fetch - processPackages [runfalcon-build-tools]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-28 01:10:43] INFO root fetch - processPackages [yuna-db]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-28 01:10:43] INFO root fetch - processPackages [rembg]: New version: [2.0.35] Old Version: [2.0.34]
+[2023-04-28 01:10:43] INFO root fetch - processPackages [lightcurve-fitting]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-28 01:10:43] INFO root fetch - processPackages [mqttwarn]: New version: [0.34.0] Old Version: [0.33.0]
+[2023-04-28 01:10:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.293] Old Version: [0.3.292]
+[2023-04-28 01:10:43] WARNING root fetch - processPackages [hdh-lib]: Skipping, unable to determine old version
+[2023-04-28 01:10:43] INFO root fetch - main [MainThread]: End processing [hdh-lib] error
+[2023-04-28 01:10:43] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/a5/d6/5f42c54b21925abfd8391e3a3a4c6e8bc7ae8ad331fcbdd479f6287d8a1e/loggerml-0.2.0.tar.gz
+[2023-04-28 01:10:43] INFO root fetch - processPackages [lightcurve-fitting]: Downloading https://files.pythonhosted.org/packages/17/bc/52736d78c2f58f7da0c3900ead792a5b7291ac0fbcb7959f692c0671e2ff/lightcurve-fitting-0.7.0.tar.gz
+[2023-04-28 01:10:43] INFO root fetch - processPackages [mqttwarn]: Downloading https://files.pythonhosted.org/packages/6b/20/6e6ee2aa6652f8d5771686e3a6f381ddf1c84a31af97352d41179ac86f13/mqttwarn-0.33.0.tar.gz
+[2023-04-28 01:10:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/19/07/15cfd348e9a6c49c6511b7125740eb93ee7d74b7df7b311ae23ae2ec8e6e/pepperize.cdk-ses-smtp-credentials-0.3.292.tar.gz
+[2023-04-28 01:10:43] INFO root fetch - processPackages [runfalcon-build-tools]: Downloading https://files.pythonhosted.org/packages/b2/52/fa3ed6bbe1419ce8e5d5d9d7335430eecd26fcbad43e57c4e1725b09f09d/runfalcon-build-tools-1.5.0.tar.gz
+[2023-04-28 01:10:44] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/a7/8c/0ac2711dfd4440225963395d00d4768528cc9c4572539dd4a51df067d159/rembg-2.0.35.tar.gz
+[2023-04-28 01:10:44] INFO root fetch - processPackages [runfalcon-build-tools]: executing diffoscope
+[2023-04-28 01:10:44] INFO root fetch - processPackages [runfalcon-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runfalcon-build-tools-1.4.0.tar.gz tmp/runfalcon-build-tools-1.5.0.tar.gz --markdown 20230428/r/runfalcon-build-tools/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-28 01:10:44] INFO root fetch - processPackages [mqttwarn]: Downloading https://files.pythonhosted.org/packages/6d/12/73bb680883c53510c760dec432a13240bbc26569b248e75a46100d307d95/mqttwarn-0.34.0.tar.gz
+[2023-04-28 01:10:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/0b/c9/3340165b5cf61fa7116a1519bb4b375f6f502e3960fc69cb9f3a4b5d011a/pepperize.cdk-ses-smtp-credentials-0.3.293.tar.gz
+[2023-04-28 01:10:44] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/b9/ec/fa613fb5da850468cee177478e476d44f0a1fe79a22bedeb61a95f4c348b/loggerml-0.2.1.tar.gz
+[2023-04-28 01:10:44] INFO root fetch - processPackages [yuna-db]: executing diffoscope
+[2023-04-28 01:10:44] INFO root fetch - processPackages [yuna-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuna-db-0.1.1.tar.gz tmp/yuna-db-0.2.0.tar.gz --markdown 20230428/y/yuna-db/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 01:10:44] INFO root fetch - processPackages [lightcurve-fitting]: Downloading https://files.pythonhosted.org/packages/01/af/7a874a87feaf697e4b726c1d26544b023c8dcdf5a77e4fece685671c6348/lightcurve-fitting-0.8.0.tar.gz
+[2023-04-28 01:10:44] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-04-28 01:10:44] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.34.tar.gz tmp/rembg-2.0.35.tar.gz --markdown 20230428/r/rembg/2.0.34-2.0.35/diff.md --exclude *.pyd
+[2023-04-28 01:10:44] INFO root fetch - processPackages [mqttwarn]: executing diffoscope
+[2023-04-28 01:10:44] INFO root fetch - processPackages [mqttwarn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttwarn-0.33.0.tar.gz tmp/mqttwarn-0.34.0.tar.gz --markdown 20230428/m/mqttwarn/0.33.0-0.34.0/diff.md --exclude *.pyd
+[2023-04-28 01:10:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-28 01:10:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.292.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.293.tar.gz --markdown 20230428/p/pepperize.cdk-ses-smtp-credentials/0.3.292-0.3.293/diff.md --exclude *.pyd
+[2023-04-28 01:10:44] INFO root fetch - processPackages [loggerml]: executing diffoscope
+[2023-04-28 01:10:44] INFO root fetch - processPackages [loggerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerml-0.2.0.tar.gz tmp/loggerml-0.2.1.tar.gz --markdown 20230428/l/loggerml/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-28 01:10:44] INFO root fetch - processPackages [lightcurve-fitting]: executing diffoscope
+[2023-04-28 01:10:44] INFO root fetch - processPackages [lightcurve-fitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightcurve-fitting-0.7.0.tar.gz tmp/lightcurve-fitting-0.8.0.tar.gz --markdown 20230428/l/lightcurve-fitting/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 01:10:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-28 01:10:45] INFO root fetch - main [MainThread]: End processing [yuna-db]: success
+[2023-04-28 01:10:45] INFO root fetch - main [MainThread]: End processing [runfalcon-build-tools]: success
+[2023-04-28 01:10:45] INFO root fetch - main [MainThread]: End processing [loggerml]: success
+[2023-04-28 01:10:46] INFO root fetch - main [MainThread]: End processing [mqttwarn]: success
+[2023-04-28 01:10:46] INFO root fetch - main [MainThread]: End processing [lightcurve-fitting]: success
+[2023-04-28 01:10:46] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-04-28 01:10:46] INFO root fetch - main [MainThread]: Store serial: [17889993]
