@@ -218,3 +218,57 @@
 [2023-04-28 00:17:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-04-28 00:18:42] INFO root fetch - main [MainThread]: End processing [py-shelf]: success
 [2023-04-28 00:18:42] INFO root fetch - main [MainThread]: Store serial: [17889721]
+[2023-04-28 00:23:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17889721]
+[2023-04-28 00:23:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjls
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjoulescope-driver
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: depp-test
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pftag
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: admem
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git-add-co-author
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalguide
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loggerml
+[2023-04-28 00:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: titiler.pgstac
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjls]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-28 00:23:59] INFO root fetch - processPackages [loggerml]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 00:23:59] INFO root fetch - processPackages [admem]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-28 00:23:59] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 00:23:59] INFO root fetch - processPackages [admem]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [admem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admem-2.0.0.tar.gz tmp/admem-2.1.0.tar.gz --markdown 20230428/a/admem/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-28 00:23:59] INFO root fetch - processPackages [loggerml]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [loggerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerml-0.1.3.tar.gz tmp/loggerml-0.1.4.tar.gz --markdown 20230428/l/loggerml/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 00:23:59] INFO root fetch - processPackages [depp-test]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 00:23:59] WARNING root fetch - processPackages [git-add-co-author]: Skipping, unable to determine old version
+[2023-04-28 00:23:59] INFO root fetch - main [MainThread]: End processing [git-add-co-author] error
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pftag]: New version: [1.3.0] Old Version: [1.2.8]
+[2023-04-28 00:23:59] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [titiler.pgstac]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-28 00:23:59] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230428/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjoulescope-driver]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjoulescope-driver]: Downloading https://files.pythonhosted.org/packages/3d/a7/39bd7074b2e6f6d8f4c64576c37e46e35607de78e536d1637369d1452993/pyjoulescope_driver-1.3.5.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/0f/12/dfb6a7491b1d24a76e815a73ad07ec0b377ea64631410c02f3f4c3539cdd/titiler.pgstac-0.3.1.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pftag]: Downloading https://files.pythonhosted.org/packages/00/89/7808f9b9ff42815895b8c997551707402373775dbb226b522267c9027e43/pftag-1.2.8.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjls]: Downloading https://files.pythonhosted.org/packages/20/e8/fb95073f0bb346f66c8dad1172762606db6e8be07830f7d61dc94426bc20/pyjls-0.6.1.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [depp-test]: Downloading https://files.pythonhosted.org/packages/a2/94/684471a6e33667df7d08f580247ef41da5cee053147dede843e808428211/depp_test-0.3.1.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjls]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjls-0.6.0.tar.gz tmp/pyjls-0.6.1.tar.gz --markdown 20230428/p/pyjls/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-28 00:23:59] INFO root fetch - processPackages [depp-test]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [depp-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depp_test-0.3.0.tar.gz tmp/depp_test-0.3.1.tar.gz --markdown 20230428/d/depp-test/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pftag]: Downloading https://files.pythonhosted.org/packages/08/86/ea2b3b2d69bb82837c6dade55fd9b267419f6d86ad84f9c0cdf2788a303f/pftag-1.3.0.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjoulescope-driver]: Downloading https://files.pythonhosted.org/packages/fc/99/1c0216b73e24a413f3a0e606c2bded3100e5238dcdb918a8738638eb72fd/pyjoulescope_driver-1.3.6.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pftag]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pftag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pftag-1.2.8.tar.gz tmp/pftag-1.3.0.tar.gz --markdown 20230428/p/pftag/1.2.8-1.3.0/diff.md --exclude *.pyd
+[2023-04-28 00:23:59] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/83/bd/681e575c71c597babbc4c658ef38566a1255752f757f1f984e973770a16d/titiler.pgstac-0.3.2.tar.gz
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjoulescope-driver]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [pyjoulescope-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjoulescope_driver-1.3.5.tar.gz tmp/pyjoulescope_driver-1.3.6.tar.gz --markdown 20230428/p/pyjoulescope-driver/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-04-28 00:23:59] INFO root fetch - processPackages [titiler.pgstac]: executing diffoscope
+[2023-04-28 00:23:59] INFO root fetch - processPackages [titiler.pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.pgstac-0.3.1.tar.gz tmp/titiler.pgstac-0.3.2.tar.gz --markdown 20230428/t/titiler.pgstac/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-28 00:24:00] INFO root fetch - main [MainThread]: End processing [admem]: success
+[2023-04-28 00:24:00] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-04-28 00:24:00] INFO root fetch - main [MainThread]: End processing [pftag]: success
+[2023-04-28 00:24:00] INFO root fetch - main [MainThread]: End processing [depp-test]: success
+[2023-04-28 00:24:00] INFO root fetch - main [MainThread]: End processing [titiler.pgstac]: success
+[2023-04-28 00:24:02] INFO root fetch - main [MainThread]: End processing [loggerml]: success
+[2023-04-28 00:24:02] INFO root fetch - main [MainThread]: End processing [pyjls]: success
+[2023-04-28 00:24:03] INFO root fetch - main [MainThread]: End processing [pyjoulescope-driver]: success
+[2023-04-28 00:24:03] INFO root fetch - main [MainThread]: Store serial: [17889768]
