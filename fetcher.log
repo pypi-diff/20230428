@@ -8684,3 +8684,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:34:43] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
 [2023-04-28 08:34:44] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-28 08:34:44] INFO root fetch - main [MainThread]: Store serial: [17894568]
+[2023-04-28 08:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894568]
+[2023-04-28 08:39:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IPAkor
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-macos
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: besecure-developer-toolkit
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyprocessors-generative_augmenter
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ykenan-file
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IPAkor
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mrx-link-core
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyprocessors-openai_completion
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ypricemagic
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bitmapist
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: New version: [0.5.9] Old Version: [0.5.15]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ykenan-file]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [besecure-developer-toolkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [IPAkor]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [IPAkor]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-openai_completion]: New version: [0.5.9] Old Version: [0.5.53]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [bitmapist]: New version: [3.99] Old Version: [3.98]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230427] Old Version: [2.13.0.dev20230426]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/ee/ae/f129dd0dcdc0b2791ac3f86e081ee92c9737b8349cb3b76d799159d11215/pyprocessors-generative_augmenter-0.5.15.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-04-28 08:39:53] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev8-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230428/m/mrx-link-core/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev1] Old Version: [2.2.6]
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: executing diffoscope
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-generative_augmenter-0.5.15.tar.gz tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz --markdown 20230428/p/pyprocessors-generative_augmenter/0.5.15-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/b0/bb/cc55aad3421cf56e1e23b7919560f03cd6366f6136f9a80c7da0bef27c7e/pyprocessors-openai_completion-0.5.53.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ykenan-file]: Downloading https://files.pythonhosted.org/packages/68/92/2924d2fa8139ddff5aca84b8dac33ebb6387ad5f9297c25d924dad12c978/ykenan_file-0.1.1.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/52/d3/393b4eccb76ef34d968a89601ac6421fe75512c2195eec291982d28e008a/besecure_developer_toolkit-0.0.2.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-openai_completion]: executing diffoscope
+[2023-04-28 08:39:53] INFO root fetch - processPackages [pyprocessors-openai_completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-openai_completion-0.5.53.tar.gz tmp/pyprocessors-openai_completion-0.5.9.tar.gz --markdown 20230428/p/pyprocessors-openai_completion/0.5.53-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 08:39:53] INFO root fetch - processPackages [bitmapist]: Downloading https://files.pythonhosted.org/packages/96/b1/d78a5cada34dac79fdac14737557e0f2a47648b599b7b3488981a1c24ade/bitmapist-3.98.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/4a/b9/e8d78e5378460907b29e65b3bd590dfe1dafd0d7c4d64d85b3b9878d250a/ypricemagic-2.2.7.dev1.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ykenan-file]: Downloading https://files.pythonhosted.org/packages/49/43/d57f7bd020cf1120a4c7f8afc839a5457dee957a1a70e5fea0a31a9124d1/ykenan_file-0.1.2.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.6.tar.gz tmp/ypricemagic-2.2.7.dev1.tar.gz --markdown 20230428/y/ypricemagic/2.2.6-2.2.7.dev1/diff.md --exclude *.pyd
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ykenan-file]: executing diffoscope
+[2023-04-28 08:39:53] INFO root fetch - processPackages [ykenan-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_file-0.1.1.tar.gz tmp/ykenan_file-0.1.2.tar.gz --markdown 20230428/y/ykenan-file/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 08:39:53] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/bf/d4/4988fff5fdf35227ebedec41685d298a6ec85b2590e525759a10df6f8d7c/besecure_developer_toolkit-0.0.3.tar.gz
+[2023-04-28 08:39:53] INFO root fetch - processPackages [besecure-developer-toolkit]: executing diffoscope
+[2023-04-28 08:39:53] INFO root fetch - processPackages [besecure-developer-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besecure_developer_toolkit-0.0.2.tar.gz tmp/besecure_developer_toolkit-0.0.3.tar.gz --markdown 20230428/b/besecure-developer-toolkit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 08:39:53] INFO root fetch - processPackages [bitmapist]: Downloading https://files.pythonhosted.org/packages/a7/b5/48da17a736e72a27ecb6ec514f61b9f62eba3e177ff4e24e897f7cd8620a/bitmapist-3.99.tar.gz
+[2023-04-28 08:39:54] INFO root fetch - processPackages [bitmapist]: executing diffoscope
+[2023-04-28 08:39:54] INFO root fetch - processPackages [bitmapist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmapist-3.98.tar.gz tmp/bitmapist-3.99.tar.gz --markdown 20230428/b/bitmapist/3.98-3.99/diff.md --exclude *.pyd
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: Downloading https://files.pythonhosted.org/packages/3e/11/3370ac7a06b265751e4f5f4d5dfbd46b3e4db42e3e0dca9614b7960b67af/IPAkor-2.5.3.tar.gz
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: Downloading https://files.pythonhosted.org/packages/3e/11/3370ac7a06b265751e4f5f4d5dfbd46b3e4db42e3e0dca9614b7960b67af/IPAkor-2.5.3.tar.gz
+[2023-04-28 08:39:54] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/53/d2/dd039a6967c9ff4032cb26cc8a43293e35b2d4af20bb308460b2c94bc599/tf_nightly_macos-2.13.0.dev20230426-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-28 08:39:54] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Start processing: ypricemagic
+[2023-04-28 08:39:54] INFO root fetch - main [MainThread]: End processing [pyprocessors-generative_augmenter]: success
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: Downloading https://files.pythonhosted.org/packages/e8/68/5e59b46327071fd9729714737ffe97379a504909ed21274ff0a4bd4168e5/IPAkor-2.5.4.tar.gz
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: Downloading https://files.pythonhosted.org/packages/e8/68/5e59b46327071fd9729714737ffe97379a504909ed21274ff0a4bd4168e5/IPAkor-2.5.4.tar.gz
+[2023-04-28 08:39:54] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189362141>=10485760
+[2023-04-28 08:39:54] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: switchbot-utility
+[2023-04-28 08:39:54] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-28 08:39:54] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev2] Old Version: [2.2.7.dev1]
+[2023-04-28 08:39:54] INFO root fetch - processPackages [switchbot-utility]: New version: [0.3.1] Old Version: [0.3]
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: executing diffoscope
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: executing diffoscope
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPAkor-2.5.3.tar.gz tmp/IPAkor-2.5.4.tar.gz --markdown 20230428/I/IPAkor/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-04-28 08:39:54] INFO root fetch - processPackages [IPAkor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPAkor-2.5.3.tar.gz tmp/IPAkor-2.5.4.tar.gz --markdown 20230428/I/IPAkor/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-04-28 08:39:54] INFO root fetch - processPackages [switchbot-utility]: executing diffoscope
+[2023-04-28 08:39:54] INFO root fetch - processPackages [switchbot-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchbot_utility-0.3.tar.gz tmp/switchbot_utility-0.3.1.tar.gz --markdown 20230428/s/switchbot-utility/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 08:39:54] INFO root fetch - processPackages [mrx-link-core]: Start processing: ChatLLM
+[2023-04-28 08:39:54] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-04-28 08:39:54] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.14.33.15] Old Version: [2023.4.28.14.25.57]
+[2023-04-28 08:39:54] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/c8/fd/dddad1bfe703db58eb52abe7df2bd455036e4501c73ac4f47c2fc5909409/ypricemagic-2.2.7.dev2.tar.gz
+[2023-04-28 08:39:54] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 08:39:54] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.14.25.57.tar.gz tmp/ChatLLM-2023.4.28.14.33.15.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.14.25.57-2023.4.28.14.33.15/diff.md --exclude *.pyd
+[2023-04-28 08:39:55] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 08:39:55] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.7.dev1.tar.gz tmp/ypricemagic-2.2.7.dev2.tar.gz --markdown 20230428/y/ypricemagic/2.2.7.dev1-2.2.7.dev2/diff.md --exclude *.pyd
+[2023-04-28 08:39:55] INFO root fetch - processPackages [ykenan-file]: Start processing: lager-cli
+[2023-04-28 08:39:55] INFO root fetch - main [MainThread]: End processing [ykenan-file]: success
+[2023-04-28 08:39:55] INFO root fetch - processPackages [besecure-developer-toolkit]: Start processing: puffy
+[2023-04-28 08:39:55] INFO root fetch - main [MainThread]: End processing [besecure-developer-toolkit]: success
+[2023-04-28 08:39:55] INFO root fetch - processPackages [lager-cli]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-28 08:39:55] INFO root fetch - processPackages [puffy]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-28 08:39:55] INFO root fetch - processPackages [lager-cli]: Downloading https://files.pythonhosted.org/packages/de/51/ee0c319653ed3a07e85eb6ef1b6c7380cea6d157451676bb499da38e5652/lager-cli-0.1.98.tar.gz
+[2023-04-28 08:39:55] INFO root fetch - main [MainThread]: End processing [bitmapist]: success
+[2023-04-28 08:39:55] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
+[2023-04-28 08:39:55] INFO root fetch - processPackages [puffy]: Downloading https://files.pythonhosted.org/packages/12/23/0cd8261661ce9403807a55288731edb5177047c379424e9a8ff20e3a412f/puffy-0.1.2.tar.gz
+[2023-04-28 08:39:55] INFO root fetch - processPackages [lager-cli]: Downloading https://files.pythonhosted.org/packages/cb/24/03ad55f857b9561bcbc7b3117a6ebf6a3e340f4e1e1ae64d1ac16c26ca6b/lager-cli-0.1.99.tar.gz
+[2023-04-28 08:39:55] INFO root fetch - processPackages [puffy]: Downloading https://files.pythonhosted.org/packages/2f/8e/76cb2ea24f4e1fe3d4e108a5e4845039cf5774cb148f9c7dbc809bd06417/puffy-0.2.0.tar.gz
+[2023-04-28 08:39:55] INFO root fetch - processPackages [lager-cli]: executing diffoscope
+[2023-04-28 08:39:55] INFO root fetch - processPackages [lager-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lager-cli-0.1.98.tar.gz tmp/lager-cli-0.1.99.tar.gz --markdown 20230428/l/lager-cli/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-28 08:39:55] INFO root fetch - processPackages [puffy]: executing diffoscope
+[2023-04-28 08:39:55] INFO root fetch - processPackages [puffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puffy-0.1.2.tar.gz tmp/puffy-0.2.0.tar.gz --markdown 20230428/p/puffy/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 08:39:55] INFO root fetch - main [MainThread]: End processing [IPAkor]: success
+[2023-04-28 08:39:56] INFO root fetch - main [MainThread]: End processing [switchbot-utility]: success
+[2023-04-28 08:39:56] INFO root fetch - main [MainThread]: End processing [IPAkor]: success
+[2023-04-28 08:39:56] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 08:39:56] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 08:39:57] INFO root fetch - main [MainThread]: End processing [lager-cli]: success
+[2023-04-28 08:39:57] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 08:39:57] INFO root fetch - main [MainThread]: End processing [puffy]: success
+[2023-04-28 08:39:57] INFO root fetch - main [MainThread]: Store serial: [17894628]
