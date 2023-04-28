@@ -10077,3 +10077,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 10:07:05] INFO root fetch - main [MainThread]: End processing [neo4j]: success
 [2023-04-28 10:07:07] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
 [2023-04-28 10:07:07] INFO root fetch - main [MainThread]: Store serial: [17895367]
+[2023-04-28 10:12:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895367]
+[2023-04-28 10:12:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secapi-tl
+[2023-04-28 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendatalab
+[2023-04-28 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isystem.connect
+[2023-04-28 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-cli
+[2023-04-28 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Simplex
+[2023-04-28 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiogram-ext
+[2023-04-28 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boston
+[2023-04-28 10:12:16] INFO root fetch - processPackages [opendatalab]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-04-28 10:12:16] INFO root fetch - processPackages [boston]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 10:12:16] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-04-28 10:12:16] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 10:12:16] INFO root fetch - processPackages [opendatalab]: executing diffoscope
+[2023-04-28 10:12:16] INFO root fetch - processPackages [opendatalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatalab-0.0.4.tar.gz tmp/opendatalab-0.0.6.tar.gz --markdown 20230428/o/opendatalab/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-04-28 10:12:16] INFO root fetch - processPackages [secapi-tl]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-28 10:12:16] INFO root fetch - processPackages [sentry-cli]: New version: [2.17.5] Old Version: [2.17.4]
+[2023-04-28 10:12:16] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-04-28 10:12:16] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 10:12:16] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 10:12:16] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/d2/03/a511316a8cb7e6ffd477562d1a874640ed1b9d34d3ac5339499b84aa9ac8/boston-1.0.3.tar.gz
+[2023-04-28 10:12:16] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/6b/24/2f159428cd62a5380a38d5fe4a8b7421cbbd114023504b74a19de51fcc68/sentry_cli-2.17.4.tar.gz
+[2023-04-28 10:12:16] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/d9/95/3c512ab0a3a1fff0a725ec51ce6951069e6c555ab88ff9719ad43638bf2f/secapi-tl-1.1.8.tar.gz
+[2023-04-28 10:12:16] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/3d/5a/11ee9dc1b17d36ea2adf40855d6fa527a375db01ee78d0aae5dff4fc72fa/Geode_Simplex-6.0.4-cp39-cp39-win_amd64.whl
+[2023-04-28 10:12:16] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-04-28 10:12:16] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-04-28 10:12:16] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.2.tar.gz tmp/boston-1.0.3.tar.gz --markdown 20230428/b/boston/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 10:12:16] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/80/83/99fc96c467a56d028eabdea402bf22e1d9314d5b6b23a2b6045c812ef2a2/secapi-tl-1.1.9.tar.gz
+[2023-04-28 10:12:16] INFO root fetch - processPackages [secapi-tl]: executing diffoscope
+[2023-04-28 10:12:16] INFO root fetch - processPackages [secapi-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secapi-tl-1.1.8.tar.gz tmp/secapi-tl-1.1.9.tar.gz --markdown 20230428/s/secapi-tl/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-28 10:12:16] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/1b/0d/f2d668e2f979a983f32233ebce1316d75f26501e444a415ee50e8772066d/sentry_cli-2.17.5.tar.gz
+[2023-04-28 10:12:17] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2023-04-28 10:12:17] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.17.4.tar.gz tmp/sentry_cli-2.17.5.tar.gz --markdown 20230428/s/sentry-cli/2.17.4-2.17.5/diff.md --exclude *.pyd
+[2023-04-28 10:12:17] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-04-28 10:12:17] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.4-cp39-cp39-win_amd64.whl.zip --markdown 20230428/G/Geode-Simplex/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-04-28 10:12:17] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 10:12:17] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-04-28 10:12:17] INFO root fetch - main [MainThread]: End processing [opendatalab]: success
+[2023-04-28 10:12:18] INFO root fetch - main [MainThread]: End processing [secapi-tl]: success
+[2023-04-28 10:12:18] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-04-28 10:12:18] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-04-28 10:12:18] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230428/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-04-28 10:12:19] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-04-28 10:12:19] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2023-04-28 10:12:40] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-04-28 10:12:40] INFO root fetch - main [MainThread]: Store serial: [17895405]
