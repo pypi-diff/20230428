@@ -16424,3 +16424,122 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:10:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-28 16:10:43] INFO root fetch - main [MainThread]: End processing [netbox-topology-views]: success
 [2023-04-28 16:10:43] INFO root fetch - main [MainThread]: Store serial: [17899076]
+[2023-04-28 16:15:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899076]
+[2023-04-28 16:15:52] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tsp
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibi
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quick-resto-API
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kqcircuits
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auve
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turms
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nf-core
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphkit-learn
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asgardpy
+[2023-04-28 16:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulsar-app
+[2023-04-28 16:15:52] WARNING root fetch - processPackages [django-tsp]: Skipping, unable to determine old version
+[2023-04-28 16:15:52] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.17]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [django-tsp]: Start processing: pulsar-galaxy-lib
+[2023-04-28 16:15:52] INFO root fetch - main [MainThread]: End processing [django-tsp] error
+[2023-04-28 16:15:52] INFO root fetch - processPackages [quick-resto-API]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [auve]: New version: [23.4.1] Old Version: [23.3.1]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [alibi]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [asgardpy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [pulsar-app]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [nf-core]: New version: [2.8] Old Version: [2.7.2]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [turms]: New version: [0.4.1] Old Version: [0.4.0a1]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [pulsar-galaxy-lib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 16:15:52] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/58/21/217ca816f9458157cc6d3481920b78ce50b5d4c26e2dee243bdce7d951f2/kqcircuits-4.6.17.tar.gz
+[2023-04-28 16:15:52] INFO root fetch - processPackages [turms]: Downloading https://files.pythonhosted.org/packages/80/f4/01f8d4ff99ebcb8e9a0fd06a6f88c80d6242681f6f0ae82d4f1236e99de2/turms-0.4.0a1.tar.gz
+[2023-04-28 16:15:52] INFO root fetch - processPackages [auve]: Downloading https://files.pythonhosted.org/packages/74/53/076b678a5a4d244af6bdb1efbff28bfdcd156c8663894b015064f440f50e/auve-23.3.1.tar.gz
+[2023-04-28 16:15:52] INFO root fetch - processPackages [asgardpy]: Downloading https://files.pythonhosted.org/packages/6f/01/e00d2584fdf27a74b1291a54ce9facbceb8bd1bca1812566f172d45a3788/asgardpy-0.2.0.tar.gz
+[2023-04-28 16:15:52] INFO root fetch - processPackages [quick-resto-API]: Downloading https://files.pythonhosted.org/packages/49/f3/f1adfdce179a06ba8efa8c9a95c1c3457ba4b1a7040b0f4ec788c61e61af/quick_resto_API-1.1.6.tar.gz
+[2023-04-28 16:15:52] INFO root fetch - processPackages [alibi]: Downloading https://files.pythonhosted.org/packages/d6/23/3be3695d2b8e4f373af03c9894bf8eb15435b47d139747565cd684ed2bd4/alibi-0.9.1.tar.gz
+[2023-04-28 16:15:52] INFO root fetch - processPackages [pulsar-app]: Downloading https://files.pythonhosted.org/packages/3f/0b/d9ebd62ff663a5a7368887d62e0c4c15e1b1aaf6a5a35cd7c8340978ee14/pulsar-app-0.9.0.tar.gz
+[2023-04-28 16:15:52] INFO root fetch - processPackages [pulsar-galaxy-lib]: Downloading https://files.pythonhosted.org/packages/b4/74/05d905b4a4ccc632caf0eb57f228bfedaa26f613945513cb38e18f74a6e1/pulsar-galaxy-lib-0.9.0.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [nf-core]: Downloading https://files.pythonhosted.org/packages/21/af/69f17ae64836ededc4e43cc9e352df2c854a4c1b7579d31dda725e1cb70c/nf-core-2.7.2.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230428/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.17.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230428/k/kqcircuits/4.6.17-4.6.9rc1/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [turms]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [turms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turms-0.4.0a1.tar.gz tmp/turms-0.4.1.tar.gz --markdown 20230428/t/turms/0.4.0a1-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [asgardpy]: Downloading https://files.pythonhosted.org/packages/0f/44/fc345bade9602f601f03815db76c06e89a4097203fc8973b8c7961ba607e/asgardpy-0.3.0.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [asgardpy]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [asgardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgardpy-0.2.0.tar.gz tmp/asgardpy-0.3.0.tar.gz --markdown 20230428/a/asgardpy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [auve]: Downloading https://files.pythonhosted.org/packages/11/89/4862bd0f894083a76645d33a2703eb9dfa525b6f1959228c56eec7dc1e53/auve-23.4.1.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [auve]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [auve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auve-23.3.1.tar.gz tmp/auve-23.4.1.tar.gz --markdown 20230428/a/auve/23.3.1-23.4.1/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [quick-resto-API]: Downloading https://files.pythonhosted.org/packages/8d/43/087fce68f712fc5e5644668140202d39104dc8cccedec725e1a2a8722028/quick_resto_API-1.1.7.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [alibi]: Downloading https://files.pythonhosted.org/packages/6b/d0/f999eb5b8c239b0d32f06746ded7acb5cc7367cf4a5eed58950629bafd12/alibi-0.9.2.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [quick-resto-API]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [quick-resto-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_resto_API-1.1.6.tar.gz tmp/quick_resto_API-1.1.7.tar.gz --markdown 20230428/q/quick-resto-API/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [alibi]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [alibi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibi-0.9.1.tar.gz tmp/alibi-0.9.2.tar.gz --markdown 20230428/a/alibi/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [pulsar-app]: Downloading https://files.pythonhosted.org/packages/be/85/35eeb28f6afd55063c5ffae34056a561121765776afbe5bd7271e1dd31b1/pulsar-app-0.9.1.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [pulsar-galaxy-lib]: Downloading https://files.pythonhosted.org/packages/eb/e9/4d05ac2cade0d6f3607ac31306dbe8592623a17eb67cb670e53eff2d032a/pulsar-galaxy-lib-0.9.1.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [pulsar-app]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [pulsar-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsar-app-0.9.0.tar.gz tmp/pulsar-app-0.9.1.tar.gz --markdown 20230428/p/pulsar-app/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [pulsar-galaxy-lib]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [pulsar-galaxy-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsar-galaxy-lib-0.9.0.tar.gz tmp/pulsar-galaxy-lib-0.9.1.tar.gz --markdown 20230428/p/pulsar-galaxy-lib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 16:15:53] INFO root fetch - processPackages [nf-core]: Downloading https://files.pythonhosted.org/packages/61/69/487c44f66d86a3b813c89079e92d66da8e0798cfd3c921bd64b2a13762f6/nf-core-2.8.tar.gz
+[2023-04-28 16:15:53] INFO root fetch - processPackages [nf-core]: executing diffoscope
+[2023-04-28 16:15:53] INFO root fetch - processPackages [nf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nf-core-2.7.2.tar.gz tmp/nf-core-2.8.tar.gz --markdown 20230428/n/nf-core/2.7.2-2.8/diff.md --exclude *.pyd
+[2023-04-28 16:15:54] INFO root fetch - processPackages [auve]: Start processing: pysd
+[2023-04-28 16:15:54] INFO root fetch - main [MainThread]: End processing [auve]: success
+[2023-04-28 16:15:54] INFO root fetch - processPackages [pysd]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-28 16:15:54] INFO root fetch - processPackages [pysd]: Downloading https://files.pythonhosted.org/packages/86/b8/66d7c46c8ab23077e1717a96de29bf48b0044b906045c8049d085d4e7040/pysd-3.9.0.tar.gz
+[2023-04-28 16:15:55] INFO root fetch - processPackages [graphkit-learn]: Start processing: protloc-mex1
+[2023-04-28 16:15:55] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-28 16:15:55] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 16:15:55] INFO root fetch - processPackages [asgardpy]: Start processing: apysc
+[2023-04-28 16:15:55] INFO root fetch - main [MainThread]: End processing [asgardpy]: success
+[2023-04-28 16:15:55] INFO root fetch - processPackages [pysd]: Downloading https://files.pythonhosted.org/packages/02/4b/3233b559539175a72f8889647fbdbeed31e759ee077828ee855b1e6a979c/pysd-3.9.1.tar.gz
+[2023-04-28 16:15:55] INFO root fetch - processPackages [apysc]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-28 16:15:55] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/09/0c/1cf942482c2b1636a66cbdfcf5253b2b9b3b1ddaf5107e8c2def33889d3d/protloc_mex1-0.0.2.tar.gz
+[2023-04-28 16:15:55] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-04-28 16:15:55] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.1.tar.gz tmp/protloc_mex1-0.0.2.tar.gz --markdown 20230428/p/protloc-mex1/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 16:15:55] INFO root fetch - processPackages [pysd]: executing diffoscope
+[2023-04-28 16:15:55] INFO root fetch - processPackages [pysd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysd-3.9.0.tar.gz tmp/pysd-3.9.1.tar.gz --markdown 20230428/p/pysd/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-28 16:15:55] INFO root fetch - processPackages [turms]: Start processing: coursebox
+[2023-04-28 16:15:55] INFO root fetch - main [MainThread]: End processing [turms]: success
+[2023-04-28 16:15:55] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 16:15:55] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-04-28 16:15:55] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.7.8.tar.gz tmp/apysc-2.7.9.tar.gz --markdown 20230428/a/apysc/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-28 16:15:55] INFO root fetch - processPackages [pulsar-app]: Start processing: pywatershed
+[2023-04-28 16:15:55] INFO root fetch - main [MainThread]: End processing [pulsar-app]: success
+[2023-04-28 16:15:55] WARNING root fetch - processPackages [pywatershed]: Skipping, unable to determine old version
+[2023-04-28 16:15:55] INFO root fetch - processPackages [pywatershed]: Start processing: prosuite
+[2023-04-28 16:15:55] INFO root fetch - main [MainThread]: End processing [pywatershed] error
+[2023-04-28 16:15:55] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-04-28 16:15:55] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230428/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 16:15:55] INFO root fetch - processPackages [prosuite]: New version: [1.1.0.0] Old Version: [1.0.4.0]
+[2023-04-28 16:15:55] INFO root fetch - processPackages [kqcircuits]: Start processing: python-keycloak
+[2023-04-28 16:15:55] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-04-28 16:15:55] INFO root fetch - processPackages [pulsar-galaxy-lib]: Start processing: space-invaders
+[2023-04-28 16:15:55] INFO root fetch - main [MainThread]: End processing [pulsar-galaxy-lib]: success
+[2023-04-28 16:15:55] INFO root fetch - processPackages [python-keycloak]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-28 16:15:55] INFO root fetch - processPackages [space-invaders]: New version: [0.1.42] Old Version: [0.1.1]
+[2023-04-28 16:15:56] INFO root fetch - processPackages [prosuite]: Downloading https://files.pythonhosted.org/packages/9d/e0/512b41d31a0a4b57cd3fc9bee32036ee23c41c1c20ced906e4ae595c364c/prosuite-1.0.4.0.tar.gz
+[2023-04-28 16:15:56] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/eb/54/07bfe635aaec6c0f5168129e734eb353802c83f78b51b3a2e6ea2f1989ca/python_keycloak-2.8.0.tar.gz
+[2023-04-28 16:15:56] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/a2/2e/0b8bca9dab7ee67b2764bfc6951fcdec94e1fa992aee73d9237a2a8859f2/space-invaders-0.1.1.tar.gz
+[2023-04-28 16:15:56] INFO root fetch - processPackages [prosuite]: Downloading https://files.pythonhosted.org/packages/0d/8a/c0fa74d516d1c8f54b1256094e684a1287b9b565f9f4d2860aa7b31ce1c7/prosuite-1.1.0.0.tar.gz
+[2023-04-28 16:15:56] INFO root fetch - processPackages [prosuite]: executing diffoscope
+[2023-04-28 16:15:56] INFO root fetch - processPackages [prosuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosuite-1.0.4.0.tar.gz tmp/prosuite-1.1.0.0.tar.gz --markdown 20230428/p/prosuite/1.0.4.0-1.1.0.0/diff.md --exclude *.pyd
+[2023-04-28 16:15:56] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-04-28 16:15:56] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/69/f4/ec59da71ed59efa074442e9d264a20738d71f9694dc83739c51048566e80/space-invaders-0.1.42.tar.gz
+[2023-04-28 16:15:56] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/70/32/0581edf4d2c87e2aaa3a9090a794b2946728a141c23d2180b0bb4a8b5709/python_keycloak-2.9.0.tar.gz
+[2023-04-28 16:15:56] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2023-04-28 16:15:56] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-2.8.0.tar.gz tmp/python_keycloak-2.9.0.tar.gz --markdown 20230428/p/python-keycloak/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:15:56] INFO root fetch - main [MainThread]: End processing [pysd]: success
+[2023-04-28 16:15:57] INFO root fetch - main [MainThread]: End processing [quick-resto-API]: success
+[2023-04-28 16:15:57] INFO root fetch - main [MainThread]: End processing [prosuite]: success
+[2023-04-28 16:15:57] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-28 16:15:57] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.1.tar.gz tmp/space-invaders-0.1.42.tar.gz --markdown 20230428/s/space-invaders/0.1.1-0.1.42/diff.md --exclude *.pyd
+[2023-04-28 16:15:57] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2023-04-28 16:15:58] INFO root fetch - main [MainThread]: End processing [alibi]: success
+[2023-04-28 16:16:00] INFO root fetch - main [MainThread]: End processing [nf-core]: success
+[2023-04-28 16:16:02] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-28 16:16:03] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-04-28 16:16:15] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-04-28 16:16:15] INFO root fetch - main [MainThread]: Store serial: [17899135]
