@@ -13946,3 +13946,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:56:45] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
 [2023-04-28 13:56:56] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-04-28 13:56:56] INFO root fetch - main [MainThread]: Store serial: [17897538]
+[2023-04-28 14:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897538]
+[2023-04-28 14:02:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arkitekt
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protloc-mex1
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chellow
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lanelet2
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hubspot-api-client
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: returnn
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-dread-rando
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: st-common-data
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: katalytic-files
+[2023-04-28 14:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gluetool
+[2023-04-28 14:02:05] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [arkitekt]: New version: [0.4.9] Old Version: [0.4.88]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [lanelet2]: New version: [1.2.0.post3] Old Version: [1.2.0.post2]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [st-common-data]: New version: [0.2.7.0] Old Version: [0.2.6.2]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.0.0b2] Old Version: [8.0.0b1]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [katalytic-files]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [open-dread-rando]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [gluetool]: New version: [2.5] Old Version: [2.4]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [returnn]: New version: [1.20230428.134452] Old Version: [1.20230428.123018]
+[2023-04-28 14:02:05] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/bd/ee/deed153478ab6720dd9db8740556f5762fc65c4910fbf5d67a68c419e718/arkitekt-0.4.88.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/a0/cd/d6a293ce3748147d986fb2f9ce3dfb019e53ff37b7d8237e1c2ea38e32aa/hubspot-api-client-8.0.0b1.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/0c/28/ec8ae6a7d8fb58ae98d8f927f034de5c26f6df02eee0c7e1a43c6381c009/protloc_mex1-0.0.0.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [gluetool]: Downloading https://files.pythonhosted.org/packages/e9/e7/468e25fcffd83328edbab92b2063b67afc8af095fb9adfe9a2396f6cee2f/gluetool-2.4.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [lanelet2]: Downloading https://files.pythonhosted.org/packages/65/a2/08d84652d248267c8ee2cad3bce1b7bcee874279f601759bf2d8f5581fb7/lanelet2-1.2.0.post2-cp38-cp38-manylinux_2_31_x86_64.whl
+[2023-04-28 14:02:05] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/80/f8/c7c77ded0fc97fd325f4eb779eee838005d12b8bed53180e1681670125fd/returnn-1.20230428.134452.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [katalytic-files]: Downloading https://files.pythonhosted.org/packages/6a/f2/d253a3252482c0ab8f0bfd0fc696da798d18c00211ed51db7f73ce8d47e5/katalytic-files-0.6.1.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/f5/79/350fbf66dc7a27a13e44340d0f429e026276437a909f8a3347f58eed5bf9/open-dread-rando-1.9.0.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [st-common-data]: Downloading https://files.pythonhosted.org/packages/ba/6b/68352f3cab1da08c9d9691a95eb775864089e900d4fc3db25c87ab40931b/st_common_data-0.2.7.0.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-28 14:02:05] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230428.123018.tar.gz tmp/returnn-1.20230428.134452.tar.gz --markdown 20230428/r/returnn/1.20230428.123018-1.20230428.134452/diff.md --exclude *.pyd
+[2023-04-28 14:02:05] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/ce/9e/ad92a33145f40fa19a5deba980716d3a729af9416fb486de0a1f7dd70cd6/protloc_mex1-0.0.1.tar.gz
+[2023-04-28 14:02:05] INFO root fetch - processPackages [st-common-data]: executing diffoscope
+[2023-04-28 14:02:05] INFO root fetch - processPackages [st-common-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_common_data-0.2.6.2.tar.gz tmp/st_common_data-0.2.7.0.tar.gz --markdown 20230428/s/st-common-data/0.2.6.2-0.2.7.0/diff.md --exclude *.pyd
+[2023-04-28 14:02:05] INFO root fetch - processPackages [gluetool]: Downloading https://files.pythonhosted.org/packages/9c/e3/8d69fbd42fa66c86855746fc78526c1fd22d0a078e2548c0677d8bdaad7c/gluetool-2.5.tar.gz
+[2023-04-28 14:02:06] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-04-28 14:02:06] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.0.tar.gz tmp/protloc_mex1-0.0.1.tar.gz --markdown 20230428/p/protloc-mex1/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-28 14:02:06] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-28 14:02:06] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.88.tar.gz tmp/arkitekt-0.4.9.tar.gz --markdown 20230428/a/arkitekt/0.4.88-0.4.9/diff.md --exclude *.pyd
+[2023-04-28 14:02:06] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-04-28 14:02:06] INFO root fetch - processPackages [gluetool]: executing diffoscope
+[2023-04-28 14:02:06] INFO root fetch - processPackages [gluetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluetool-2.4.tar.gz tmp/gluetool-2.5.tar.gz --markdown 20230428/g/gluetool/2.4-2.5/diff.md --exclude *.pyd
+[2023-04-28 14:02:06] INFO root fetch - processPackages [katalytic-files]: Downloading https://files.pythonhosted.org/packages/33/59/c544ad4fbc95d183be9cc82d638894d5b78054752f19a05242811f18ed62/katalytic-files-0.7.0.tar.gz
+[2023-04-28 14:02:06] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/f4/d5/2501895901bb8309d562f5cd14744b07d317a3ddff2b6625a005ead20466/hubspot-api-client-8.0.0b2.tar.gz
+[2023-04-28 14:02:06] INFO root fetch - processPackages [katalytic-files]: executing diffoscope
+[2023-04-28 14:02:06] INFO root fetch - processPackages [katalytic-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-files-0.6.1.tar.gz tmp/katalytic-files-0.7.0.tar.gz --markdown 20230428/k/katalytic-files/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 14:02:06] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-04-28 14:02:06] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230428/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-04-28 14:02:06] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-04-28 14:02:06] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b1.tar.gz tmp/hubspot-api-client-8.0.0b2.tar.gz --markdown 20230428/h/hubspot-api-client/8.0.0b1-8.0.0b2/diff.md --exclude *.pyd
+[2023-04-28 14:02:06] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/6a/4f/568c1cbd500ab1ce1e1bc483d89f5cab38e41dabe904089e0b07c6360918/open-dread-rando-2.0.0.tar.gz
+[2023-04-28 14:02:06] INFO root fetch - processPackages [open-dread-rando]: executing diffoscope
+[2023-04-28 14:02:06] INFO root fetch - processPackages [open-dread-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-dread-rando-1.9.0.tar.gz tmp/open-dread-rando-2.0.0.tar.gz --markdown 20230428/o/open-dread-rando/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-28 14:02:07] INFO root fetch - processPackages [lanelet2]: Downloading https://files.pythonhosted.org/packages/e0/c0/e1848543aa7fe36ee149d20443394fef41f2849a2c4c4de8424b77109254/lanelet2-1.2.0.post3-cp38-cp38-manylinux_2_27_x86_64.whl
+[2023-04-28 14:02:07] INFO root fetch - processPackages [lanelet2]: executing diffoscope
+[2023-04-28 14:02:07] INFO root fetch - processPackages [lanelet2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanelet2-1.2.0.post2-cp38-cp38-manylinux_2_31_x86_64.whl.zip tmp/lanelet2-1.2.0.post3-cp38-cp38-manylinux_2_27_x86_64.whl.zip --markdown 20230428/l/lanelet2/1.2.0.post2-1.2.0.post3/diff.md --exclude *.pyd
+[2023-04-28 14:02:07] INFO root fetch - processPackages [arkitekt]: Start processing: chemex
+[2023-04-28 14:02:07] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-28 14:02:07] INFO root fetch - processPackages [katalytic-files]: Start processing: deep-training
+[2023-04-28 14:02:07] INFO root fetch - main [MainThread]: End processing [katalytic-files]: success
+[2023-04-28 14:02:07] INFO root fetch - processPackages [chemex]: New version: [2022.3.5] Old Version: [2022.3.4]
+[2023-04-28 14:02:07] INFO root fetch - processPackages [deep-training]: New version: [0.1.3.post0] Old Version: [0.1.3]
+[2023-04-28 14:02:07] INFO root fetch - processPackages [st-common-data]: Start processing: webgeodyn
+[2023-04-28 14:02:07] INFO root fetch - main [MainThread]: End processing [st-common-data]: success
+[2023-04-28 14:02:07] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/81/b8/de6493da010336fe4ca8162f57c8d8c3b5e40f5b92ed30a5313056664284/deep_training-0.1.3-py3-none-any.whl
+[2023-04-28 14:02:07] INFO root fetch - processPackages [webgeodyn]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-28 14:02:07] INFO root fetch - processPackages [chemex]: Downloading https://files.pythonhosted.org/packages/bd/e9/29fdb52f8ba7b76507ec3f60a26d2a6ee662427f3591e67a76016899732b/chemex-2022.3.4.tar.gz
+[2023-04-28 14:02:07] INFO root fetch - processPackages [webgeodyn]: Downloading https://files.pythonhosted.org/packages/a2/98/9fc309752cba1205023f86e13cce6157b485c66fa73fdda3a48fe1f17e76/webgeodyn-0.9.1.tar.gz
+[2023-04-28 14:02:07] INFO root fetch - processPackages [protloc-mex1]: Start processing: deep-training
+[2023-04-28 14:02:07] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-04-28 14:02:07] INFO root fetch - processPackages [deep-training]: New version: [0.1.3.post1] Old Version: [0.1.3.post0]
+[2023-04-28 14:02:08] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/7a/8f/2e0d5c95351588a6b0c4b80ee0c3271808f88f21f104e0e93f9eff8472f9/deep_training-0.1.3.post0-py3-none-any.whl
+[2023-04-28 14:02:08] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/7a/8f/2e0d5c95351588a6b0c4b80ee0c3271808f88f21f104e0e93f9eff8472f9/deep_training-0.1.3.post0-py3-none-any.whl
+[2023-04-28 14:02:08] INFO root fetch - processPackages [chemex]: Downloading https://files.pythonhosted.org/packages/0e/2c/e8bc12a101ac9e120b3da01586d60f3b66d0e36b6caf35e5641fc4d8fae2/chemex-2022.3.5.tar.gz
+[2023-04-28 14:02:08] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-04-28 14:02:08] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.3-py3-none-any.whl.zip tmp/deep_training-0.1.3.post0-py3-none-any.whl.zip --markdown 20230428/d/deep-training/0.1.3-0.1.3.post0/diff.md --exclude *.pyd
+[2023-04-28 14:02:08] INFO root fetch - processPackages [chemex]: executing diffoscope
+[2023-04-28 14:02:08] INFO root fetch - processPackages [chemex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemex-2022.3.4.tar.gz tmp/chemex-2022.3.5.tar.gz --markdown 20230428/c/chemex/2022.3.4-2022.3.5/diff.md --exclude *.pyd
+[2023-04-28 14:02:08] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/15/7a/6f7ef39b436aefae36c998be9ab14f75bd97ff344c0405118d4e076020cb/deep_training-0.1.3.post1-py3-none-any.whl
+[2023-04-28 14:02:08] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-04-28 14:02:08] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.3.post0-py3-none-any.whl.zip tmp/deep_training-0.1.3.post1-py3-none-any.whl.zip --markdown 20230428/d/deep-training/0.1.3.post0-0.1.3.post1/diff.md --exclude *.pyd
+[2023-04-28 14:02:10] INFO root fetch - processPackages [chemex]: Start processing: cmem-plugin-kaggle
+[2023-04-28 14:02:10] INFO root fetch - main [MainThread]: End processing [chemex]: success
+[2023-04-28 14:02:10] INFO root fetch - processPackages [cmem-plugin-kaggle]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2023-04-28 14:02:10] INFO root fetch - processPackages [cmem-plugin-kaggle]: executing diffoscope
+[2023-04-28 14:02:10] INFO root fetch - processPackages [cmem-plugin-kaggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kaggle-1.0.0.tar.gz tmp/cmem_plugin_kaggle-1.0.0rc1.tar.gz --markdown 20230428/c/cmem-plugin-kaggle/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-04-28 14:02:10] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
+[2023-04-28 14:02:10] INFO root fetch - main [MainThread]: End processing [gluetool]: success
+[2023-04-28 14:02:10] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-04-28 14:02:10] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-04-28 14:02:11] INFO root fetch - processPackages [webgeodyn]: Downloading https://files.pythonhosted.org/packages/54/19/c2b1ab3442a61e0f15d63b03e5724ac35de2adb0dae05748787d5a25f0bb/webgeodyn-0.9.2.tar.gz
+[2023-04-28 14:02:11] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kaggle]: success
+[2023-04-28 14:02:13] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-28 14:02:13] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-04-28 14:02:13] INFO root fetch - processPackages [webgeodyn]: executing diffoscope
+[2023-04-28 14:02:13] INFO root fetch - processPackages [webgeodyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgeodyn-0.9.1.tar.gz tmp/webgeodyn-0.9.2.tar.gz --markdown 20230428/w/webgeodyn/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-28 14:02:19] INFO root fetch - main [MainThread]: End processing [webgeodyn]: success
+[2023-04-28 14:02:32] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-04-28 14:03:38] INFO root fetch - main [MainThread]: End processing [lanelet2]: success
+[2023-04-28 14:03:38] INFO root fetch - main [MainThread]: Store serial: [17897589]
