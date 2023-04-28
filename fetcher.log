@@ -14907,3 +14907,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 14:53:27] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-04-28 14:55:15] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2023-04-28 14:55:15] INFO root fetch - main [MainThread]: Store serial: [17898119]
+[2023-04-28 15:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898119]
+[2023-04-28 15:00:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aihandler
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepchem
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vvault
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oauth2-client
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airunner
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napari-SAM4IS
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight-cgap
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FuncsForSPO
+[2023-04-28 15:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrew
+[2023-04-28 15:00:25] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [vvault]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 15:00:25] WARNING root fetch - processPackages [napari-SAM4IS]: Skipping, unable to determine old version
+[2023-04-28 15:00:25] INFO root fetch - processPackages [napari-SAM4IS]: Start processing: foursight
+[2023-04-28 15:00:25] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-28 15:00:25] INFO root fetch - main [MainThread]: End processing [napari-SAM4IS] error
+[2023-04-28 15:00:25] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [FuncsForSPO]: New version: [4.41.0] Old Version: [4.40.3]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [oauth2-client]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.5b58] Old Version: [3.4.0.5b56]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230428125349] Old Version: [2.7.2.dev20230425183800]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight]: New version: [3.4.0.5b58] Old Version: [3.4.0.5b56]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281253] Old Version: [99.0.202304281239]
+[2023-04-28 15:00:25] INFO root fetch - processPackages [vvault]: Downloading https://files.pythonhosted.org/packages/a7/da/d66d1db3c59879d4def6791c2228718f9b6b76169ada269fa2a74c7dd214/vvault-0.0.2.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230428/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.40.3.tar.gz tmp/FuncsForSPO-4.41.0.tar.gz --markdown 20230428/F/FuncsForSPO/4.40.3-4.41.0/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/d3/e7/70b611c5fbc153dbf937cf449db83ba99a2ea076d84acc54ee950c0e1171/foursight_cgap-3.4.0.5b58.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [oauth2-client]: Downloading https://files.pythonhosted.org/packages/15/55/a2f286428a9b6f638035186762e4379bd65fa37fb82831f0f6163f90119d/oauth2-client-1.4.2.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/7b/c3/19908a829d13d9bdabf12721a691449a548f9d4c07540df6d255381d6647/foursight-3.4.0.5b58.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/90/b0/2d6879e8a0ec79428771c173210aaa80c9c114abafc4ffa85e0b846f774b/deepchem-2.7.2.dev20230428125349.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/53/86/a4865b6c3e7db5c8f01f33a6dbb4554ec69a16a18e6033b2a8cbbbc1b626/kcli-99.0.202304281239-py3-none-any.whl
+[2023-04-28 15:00:25] INFO root fetch - processPackages [oauth2-client]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [oauth2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauth2-client-1.4.1.tar.gz tmp/oauth2-client-1.4.2.tar.gz --markdown 20230428/o/oauth2-client/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.0.5b56.tar.gz tmp/foursight_cgap-3.4.0.5b58.tar.gz --markdown 20230428/f/foursight-cgap/3.4.0.5b56-3.4.0.5b58/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.0.5b56.tar.gz tmp/foursight-3.4.0.5b58.tar.gz --markdown 20230428/f/foursight/3.4.0.5b56-3.4.0.5b58/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [vvault]: Downloading https://files.pythonhosted.org/packages/00/1a/5a1d229697d8ca17796674c59c3130cd30d693563de5b6bcec6b45f5ec1c/vvault-0.0.3.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230428/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230425183800.tar.gz tmp/deepchem-2.7.2.dev20230428125349.tar.gz --markdown 20230428/d/deepchem/2.7.2.dev20230425183800-2.7.2.dev20230428125349/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-04-28 15:00:25] INFO root fetch - processPackages [vvault]: executing diffoscope
+[2023-04-28 15:00:25] INFO root fetch - processPackages [vvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvault-0.0.2.tar.gz tmp/vvault-0.0.3.tar.gz --markdown 20230428/v/vvault/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 15:00:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cf/2b/cfdf3e2510534b0904612e7306b53b614fd8cfe71e4e0185d82ab0a36ce4/kcli-99.0.202304281253-py3-none-any.whl
+[2023-04-28 15:00:26] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 15:00:26] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281239-py3-none-any.whl.zip tmp/kcli-99.0.202304281253-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304281239-99.0.202304281253/diff.md --exclude *.pyd
+[2023-04-28 15:00:26] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-04-28 15:00:26] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-04-28 15:00:26] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230428/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-28 15:00:26] INFO root fetch - processPackages [pyrew]: Start processing: calcbench-api-client
+[2023-04-28 15:00:26] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-28 15:00:26] INFO root fetch - processPackages [calcbench-api-client]: New version: [8.2.0] Old Version: [8.1.1]
+[2023-04-28 15:00:27] INFO root fetch - processPackages [calcbench-api-client]: Downloading https://files.pythonhosted.org/packages/cd/f8/47e4bb152a51fa0a9229a0a09f1faf475f5a6d6abee821e9f4f5999a7bea/calcbench_api_client-8.1.1.tar.gz
+[2023-04-28 15:00:27] INFO root fetch - processPackages [foursight-cgap]: Start processing: chemistry-and-robots
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-04-28 15:00:27] INFO root fetch - processPackages [chemistry-and-robots]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-28 15:00:27] INFO root fetch - processPackages [calcbench-api-client]: Downloading https://files.pythonhosted.org/packages/f1/e1/89c49d306d923be2549c0071651188aa7c7f0e2ebdbbeaf3e050288d8371/calcbench_api_client-8.2.0.tar.gz
+[2023-04-28 15:00:27] INFO root fetch - processPackages [vvault]: Start processing: picods
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [vvault]: success
+[2023-04-28 15:00:27] INFO root fetch - processPackages [chemistry-and-robots]: executing diffoscope
+[2023-04-28 15:00:27] INFO root fetch - processPackages [chemistry-and-robots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemistry_and_robots-1.5.0.tar.gz tmp/chemistry_and_robots-1.6.0.tar.gz --markdown 20230428/c/chemistry-and-robots/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-28 15:00:27] INFO root fetch - processPackages [aihandler]: Start processing: strmprivacy-api-definitions
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-04-28 15:00:27] INFO root fetch - processPackages [foursight]: Start processing: o3r-algo-utilities
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-04-28 15:00:27] INFO root fetch - processPackages [picods]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-28 15:00:27] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [2.9.0] Old Version: [2.82.0]
+[2023-04-28 15:00:27] INFO root fetch - processPackages [o3r-algo-utilities]: New version: [1.0.8] Old Version: [1.0.11]
+[2023-04-28 15:00:27] INFO root fetch - processPackages [oauth2-client]: Start processing: space-invaders
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [oauth2-client]: success
+[2023-04-28 15:00:27] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 15:00:27] INFO root fetch - processPackages [picods]: Downloading https://files.pythonhosted.org/packages/7b/7a/9bf318088ab9d8d951ac1baca8adb1c76cad88e3422d2844e2dd0c4f7998/picods-0.1.4.tar.gz
+[2023-04-28 15:00:27] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/36/b3/6f23949cbda042d368d82d69391d606006699a2085c9de4a7706797cb1dc/strmprivacy-api-definitions-2.82.0.tar.gz
+[2023-04-28 15:00:27] INFO root fetch - processPackages [o3r-algo-utilities]: Downloading https://files.pythonhosted.org/packages/8e/e9/5fe95f6585a74fc6621c9eb058519aa98b586768c12dc6b8d8a52c9cfffe/o3r_algo_utilities-1.0.11-py3-none-any.whl
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-04-28 15:00:27] INFO root fetch - processPackages [calcbench-api-client]: executing diffoscope
+[2023-04-28 15:00:27] INFO root fetch - processPackages [calcbench-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcbench_api_client-8.1.1.tar.gz tmp/calcbench_api_client-8.2.0.tar.gz --markdown 20230428/c/calcbench-api-client/8.1.1-8.2.0/diff.md --exclude *.pyd
+[2023-04-28 15:00:27] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-04-28 15:00:27] INFO root fetch - processPackages [picods]: Downloading https://files.pythonhosted.org/packages/8a/ac/dd92bf78566e9b00492e440c84b0d2e55e7d87fb1dbfb9e73e3735411b46/picods-0.1.5.tar.gz
+[2023-04-28 15:00:28] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/89/ad/908915ed1c7af94dfe78a95110dc03d81532c4e526c5d82f30d952314754/strmprivacy-api-definitions-2.9.0.tar.gz
+[2023-04-28 15:00:28] INFO root fetch - processPackages [picods]: executing diffoscope
+[2023-04-28 15:00:28] INFO root fetch - processPackages [picods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picods-0.1.4.tar.gz tmp/picods-0.1.5.tar.gz --markdown 20230428/p/picods/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-28 15:00:28] INFO root fetch - processPackages [o3r-algo-utilities]: Downloading https://files.pythonhosted.org/packages/46/53/acad0165af3b1e849dc9daa1e92fcf13abd5eeb98883d414c5c0ee10ce6e/o3r_algo_utilities-1.0.8-py3-none-any.whl
+[2023-04-28 15:00:28] INFO root fetch - processPackages [o3r-algo-utilities]: executing diffoscope
+[2023-04-28 15:00:28] INFO root fetch - processPackages [o3r-algo-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o3r_algo_utilities-1.0.11-py3-none-any.whl.zip tmp/o3r_algo_utilities-1.0.8-py3-none-any.whl.zip --markdown 20230428/o/o3r-algo-utilities/1.0.11-1.0.8/diff.md --exclude *.pyd
+[2023-04-28 15:00:28] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-04-28 15:00:28] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-2.82.0.tar.gz tmp/strmprivacy-api-definitions-2.9.0.tar.gz --markdown 20230428/s/strmprivacy-api-definitions/2.82.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-28 15:00:29] INFO root fetch - main [MainThread]: End processing [picods]: success
+[2023-04-28 15:00:29] INFO root fetch - main [MainThread]: End processing [chemistry-and-robots]: success
+[2023-04-28 15:00:29] INFO root fetch - main [MainThread]: End processing [o3r-algo-utilities]: success
+[2023-04-28 15:00:29] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-04-28 15:00:30] INFO root fetch - main [MainThread]: End processing [calcbench-api-client]: success
+[2023-04-28 15:00:31] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-04-28 15:00:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 15:00:33] INFO root fetch - main [MainThread]: Store serial: [17898174]
