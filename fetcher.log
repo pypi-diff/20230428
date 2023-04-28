@@ -8856,3 +8856,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:45:11] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-28 08:45:11] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-28 08:45:11] INFO root fetch - main [MainThread]: Store serial: [17894666]
+[2023-04-28 08:50:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894666]
+[2023-04-28 08:50:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topologicpy
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-analysis-bilibili
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperfast-python-template
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotoff
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-log
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperfast-python-template
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sklearndf
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioinfor-tools
+[2023-04-28 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-sale-promotion
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-28 08:50:22] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.6] Old Version: [1.5]
+[2023-04-28 08:50:22] INFO root fetch - processPackages [sklearndf]: New version: [2.2rc1] Old Version: [2.2rc0]
+[2023-04-28 08:50:22] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-28 08:50:22] WARNING root fetch - processPackages [bioinfor-tools]: Skipping, unable to determine old version
+[2023-04-28 08:50:22] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 08:50:22] INFO root fetch - main [MainThread]: End processing [bioinfor-tools] error
+[2023-04-28 08:50:22] INFO root fetch - processPackages [robotoff]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-28 08:50:22] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: New version: [15.0.20230427.0] Old Version: [15.0.20230416.0]
+[2023-04-28 08:50:22] INFO root fetch - processPackages [robotoff]: executing diffoscope
+[2023-04-28 08:50:22] INFO root fetch - processPackages [robotoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotoff-1.8.0.tar.gz tmp/robotoff-1.9.0.tar.gz --markdown 20230428/r/robotoff/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/39/35/eb01a9da56eecd8fbbec66354d388043ef5e278bc29060a6fc9d646c1684/hyperfast_python_template-0.4.1.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/39/35/eb01a9da56eecd8fbbec66354d388043ef5e278bc29060a6fc9d646c1684/hyperfast_python_template-0.4.1.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [django-ipghrms-log]: Downloading https://files.pythonhosted.org/packages/93/7c/1fc1c7fd2d832de30f456208257722744301c98f4caaa8221cb591f80a44/django-ipghrms-log-1.6.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [sklearndf]: Downloading https://files.pythonhosted.org/packages/8e/f9/91df596c25bbf2307b5428be5d3fdab29a4ec34ab786742fbdbbc1c13264/sklearndf-2.2rc0.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/15/86/57531994fc339da6f12a8b31d70791471b40b34a717f26ba7d8fd2452a79/topologicpy-0.4.8.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 08:50:22] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.5.tar.gz tmp/django-ipghrms-log-1.6.tar.gz --markdown 20230428/d/django-ipghrms-log/1.5-1.6/diff.md --exclude *.pyd
+[2023-04-28 08:50:22] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/27/cc/39ca40763ff63e47ad464b3086d18af742bef24edd54de6d6128d9c92e98/odoo_addons_oca_sale_promotion-15.0.20230416.0-py3-none-any.whl
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/8f/79/68dd5a2a8216a4b8ca6d1e49a64476ae80c5fe81ed35bdc2d858457ecf73/hyperfast_python_template-0.4.2.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: executing diffoscope
+[2023-04-28 08:50:22] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_analysis_bilibili-2.4.8.tar.gz tmp/nonebot_plugin_analysis_bilibili-2.4.9.tar.gz --markdown 20230428/n/nonebot-plugin-analysis-bilibili/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/8f/79/68dd5a2a8216a4b8ca6d1e49a64476ae80c5fe81ed35bdc2d858457ecf73/hyperfast_python_template-0.4.2.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/70/4e/15d6010a36f7cddedf72b01f3f9533cd2b213decc6dd5d478969e5b90666/odoo_addons_oca_sale_promotion-15.0.20230427.0-py3-none-any.whl
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.1.tar.gz tmp/hyperfast_python_template-0.4.2.tar.gz --markdown 20230428/h/hyperfast-python-template/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-28 08:50:22] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.1.tar.gz tmp/hyperfast_python_template-0.4.2.tar.gz --markdown 20230428/h/hyperfast-python-template/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-28 08:50:22] INFO root fetch - processPackages [sklearndf]: Downloading https://files.pythonhosted.org/packages/c9/87/2a61895fe40abc7eebfb5db7558cde9e253144d157bfa4dfac73622f229e/sklearndf-2.2rc1.tar.gz
+[2023-04-28 08:50:22] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: executing diffoscope
+[2023-04-28 08:50:22] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_promotion-15.0.20230416.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_promotion-15.0.20230427.0-py3-none-any.whl.zip --markdown 20230428/o/odoo-addons-oca-sale-promotion/15.0.20230416.0-15.0.20230427.0/diff.md --exclude *.pyd
+[2023-04-28 08:50:23] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-04-28 08:50:23] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-04-28 08:50:23] INFO root fetch - processPackages [sklearndf]: executing diffoscope
+[2023-04-28 08:50:23] INFO root fetch - processPackages [sklearndf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearndf-2.2rc0.tar.gz tmp/sklearndf-2.2rc1.tar.gz --markdown 20230428/s/sklearndf/2.2rc0-2.2rc1/diff.md --exclude *.pyd
+[2023-04-28 08:50:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-analysis-bilibili]: success
+[2023-04-28 08:50:23] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 08:50:23] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-28 08:50:24] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-28 08:50:24] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-promotion]: success
+[2023-04-28 08:50:24] INFO root fetch - main [MainThread]: End processing [sklearndf]: success
+[2023-04-28 08:50:25] INFO root fetch - main [MainThread]: End processing [robotoff]: success
+[2023-04-28 08:50:25] INFO root fetch - main [MainThread]: Store serial: [17894695]
