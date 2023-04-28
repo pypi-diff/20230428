@@ -17941,3 +17941,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 17:26:33] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
 [2023-04-28 17:26:35] INFO root fetch - main [MainThread]: End processing [iniUts]: success
 [2023-04-28 17:26:35] INFO root fetch - main [MainThread]: Store serial: [17899989]
+[2023-04-28 17:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899989]
+[2023-04-28 17:31:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dknovautils
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bfx-api-ws-fix
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: softnanotools
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: space-invaders
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mainnet
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Bigsansar
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gerrytools
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: encoded-core
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lucupy
+[2023-04-28 17:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pkgmt
+[2023-04-28 17:31:45] INFO root fetch - processPackages [dknovautils]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-04-28 17:31:45] WARNING root fetch - processPackages [bfx-api-ws-fix]: Skipping, unable to determine old version
+[2023-04-28 17:31:45] INFO root fetch - processPackages [bfx-api-ws-fix]: Start processing: osbnr
+[2023-04-28 17:31:45] INFO root fetch - main [MainThread]: End processing [bfx-api-ws-fix] error
+[2023-04-28 17:31:45] INFO root fetch - processPackages [space-invaders]: New version: [0.1.49] Old Version: [0.1.48]
+[2023-04-28 17:31:45] INFO root fetch - processPackages [softnanotools]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-04-28 17:31:45] WARNING root fetch - processPackages [encoded-core]: Skipping, unable to determine old version
+[2023-04-28 17:31:45] INFO root fetch - processPackages [encoded-core]: Start processing: brickschema
+[2023-04-28 17:31:45] INFO root fetch - main [MainThread]: End processing [encoded-core] error
+[2023-04-28 17:31:45] INFO root fetch - processPackages [pkgmt]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-04-28 17:31:45] INFO root fetch - processPackages [mainnet]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-28 17:31:45] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 17:31:45] WARNING root fetch - processPackages [osbnr]: Skipping, unable to determine old version
+[2023-04-28 17:31:45] INFO root fetch - processPackages [osbnr]: Start processing: curriculum-analysis
+[2023-04-28 17:31:45] INFO root fetch - main [MainThread]: End processing [osbnr] error
+[2023-04-28 17:31:45] INFO root fetch - processPackages [gerrytools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-28 17:31:45] INFO root fetch - processPackages [Bigsansar]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 17:31:46] INFO root fetch - processPackages [curriculum-analysis]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-28 17:31:46] INFO root fetch - processPackages [brickschema]: New version: [0.7.1a3] Old Version: [0.7.1a2]
+[2023-04-28 17:31:46] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230428/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/7e/5b/0a7e804851fce63f5617257e511e181f89e187d67894b9f531cb951bf0f5/space-invaders-0.1.48.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [softnanotools]: Downloading https://files.pythonhosted.org/packages/10/cb/2d1fcea701da272abcb528d3afdd3d76eee3017aa16065fd620d42b82fde/softnanotools-0.4.2.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [curriculum-analysis]: Downloading https://files.pythonhosted.org/packages/2b/b5/bab25d96a7f8d99aca9348cdaed1ac9ee56b9ad904f165f393b6104763fb/curriculum_analysis-0.2.4.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/44/0e/052f5a5fca7231150dfe1a9beff8db0a5590a52223b647787cafd6323920/dknovautils-0.0.37.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [gerrytools]: Downloading https://files.pythonhosted.org/packages/6f/de/537c03ebc9fdea56ec7d768317978e7561d0ba50efeb10fa178ecdfb8709/gerrytools-1.1.1.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/a6/17/21f31ed0b99726d5f173436100c74d394c7bba30d59289d9182f61f5a6cf/Bigsansar-1.0.3.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [brickschema]: Downloading https://files.pythonhosted.org/packages/41/be/aa7873a850474d573986616cf4dff511dd10448d559c169ea32d9bbfe702/brickschema-0.7.1a2.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/21/4b/18331a5c7bbd63db59aa0dd8c025b95bee55f0f8165667665e87ef8085c4/pkgmt-0.4.2.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [gerrytools]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [gerrytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gerrytools-1.1.0.tar.gz tmp/gerrytools-1.1.1.tar.gz --markdown 20230428/g/gerrytools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/6e/fa/89e5bbdfd3f6b3960ccd12b9cac6dc0e6ddce1a77335337e7db346953b7b/mainnet-1.1.8.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.0.2.tar.gz tmp/Bigsansar-1.0.3.tar.gz --markdown 20230428/B/Bigsansar/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/09/31/a0c2964753a0a2cfa694e0ff8d16393694950d47478f97ffcd9fd9703aa3/space-invaders-0.1.49.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/3d/d7/89afb823fb6a2925f594094459b5720f7aee611b82411ad4621e6d9d0912/dknovautils-0.0.38.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [softnanotools]: Downloading https://files.pythonhosted.org/packages/c1/b5/cba84c202bc3ef718e8d69007650fd73d784c7c6ff04d65d4efc3d960389/softnanotools-0.5.0.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [curriculum-analysis]: Downloading https://files.pythonhosted.org/packages/3e/5d/1fc03359d5c9d297b7813711496874b1f68e348a5f0be8d274e1123d009b/curriculum_analysis-0.2.5.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.37.tar.gz tmp/dknovautils-0.0.38.tar.gz --markdown 20230428/d/dknovautils/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [pkgmt]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [pkgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgmt-0.4.0.tar.gz tmp/pkgmt-0.4.2.tar.gz --markdown 20230428/p/pkgmt/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.7.tar.gz tmp/mainnet-1.1.8.tar.gz --markdown 20230428/m/mainnet/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [curriculum-analysis]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [curriculum-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculum_analysis-0.2.4.tar.gz tmp/curriculum_analysis-0.2.5.tar.gz --markdown 20230428/c/curriculum-analysis/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [softnanotools]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [softnanotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/softnanotools-0.4.2.tar.gz tmp/softnanotools-0.5.0.tar.gz --markdown 20230428/s/softnanotools/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-04-28 17:31:46] INFO root fetch - processPackages [brickschema]: Downloading https://files.pythonhosted.org/packages/50/e0/eed70a05adff236fcba8c8fb607b1d04b06b1034fe0b754fe333232c608c/brickschema-0.7.1a3.tar.gz
+[2023-04-28 17:31:46] INFO root fetch - processPackages [brickschema]: executing diffoscope
+[2023-04-28 17:31:46] INFO root fetch - processPackages [brickschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickschema-0.7.1a2.tar.gz tmp/brickschema-0.7.1a3.tar.gz --markdown 20230428/b/brickschema/0.7.1a2-0.7.1a3/diff.md --exclude *.pyd
+[2023-04-28 17:31:47] INFO root fetch - processPackages [lucupy]: Start processing: macrobond-data-api
+[2023-04-28 17:31:47] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-04-28 17:31:47] INFO root fetch - processPackages [macrobond-data-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 17:31:47] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-28 17:31:47] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.48.tar.gz tmp/space-invaders-0.1.49.tar.gz --markdown 20230428/s/space-invaders/0.1.48-0.1.49/diff.md --exclude *.pyd
+[2023-04-28 17:31:47] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/8c/73/5a68aaa0e23e279ef9156724164b4fe0bd2db02385bb153df892bc3f093d/macrobond-data-api-1.0.2.tar.gz
+[2023-04-28 17:31:47] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-28 17:31:48] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-28 17:31:48] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-04-28 17:31:48] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-1.0.1.tar.gz tmp/macrobond-data-api-1.0.2.tar.gz --markdown 20230428/m/macrobond-data-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 17:31:48] INFO root fetch - main [MainThread]: End processing [curriculum-analysis]: success
+[2023-04-28 17:31:48] INFO root fetch - main [MainThread]: End processing [softnanotools]: success
+[2023-04-28 17:31:48] INFO root fetch - main [MainThread]: End processing [pkgmt]: success
+[2023-04-28 17:31:48] INFO root fetch - main [MainThread]: End processing [gerrytools]: success
+[2023-04-28 17:31:49] INFO root fetch - main [MainThread]: End processing [brickschema]: success
+[2023-04-28 17:31:49] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-04-28 17:31:50] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-28 17:31:59] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-04-28 17:31:59] INFO root fetch - main [MainThread]: Store serial: [17900040]
