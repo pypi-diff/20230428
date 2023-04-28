@@ -7498,3 +7498,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:40:31] INFO root fetch - main [MainThread]: End processing [deep-training]: success
 [2023-04-28 06:40:32] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
 [2023-04-28 06:40:32] INFO root fetch - main [MainThread]: Store serial: [17893931]
+[2023-04-28 06:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893931]
+[2023-04-28 06:45:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yacnew
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ws-cli-chat
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymel
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scFates
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: with-timeout
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChatLLM
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: samna
+[2023-04-28 06:45:41] INFO root fetch - processPackages [yacnew]: New version: [0.2] Old Version: [0.1]
+[2023-04-28 06:45:41] INFO root fetch - processPackages [scFates]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.12.8.1] Old Version: [2023.4.28.12.39.0]
+[2023-04-28 06:45:41] INFO root fetch - processPackages [pymel]: New version: [1.4.0b1] Old Version: [1.4.0]
+[2023-04-28 06:45:41] INFO root fetch - processPackages [with-timeout]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ws-cli-chat]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-28 06:45:41] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/47/c9/de035f981a10a1f68aadbb9337c4bae49791603ad8ff7a616f9b45131207/ChatLLM-2023.4.28.12.39.0.tar.gz
+[2023-04-28 06:45:41] INFO root fetch - processPackages [pymel]: Downloading https://files.pythonhosted.org/packages/e3/63/bbe3a17da9f7608758007833e8cd65a76fd7734b8239e80b699c1bf8664c/pymel-1.4.0-py2.py3-none-any.whl
+[2023-04-28 06:45:41] INFO root fetch - processPackages [yacnew]: Downloading https://files.pythonhosted.org/packages/d5/47/f92d0aa3d42b181b734586613bb1aa7b52e1e6423a30fea05be91138a8a0/yacnew-0.1-py3-none-any.whl
+[2023-04-28 06:45:41] INFO root fetch - processPackages [with-timeout]: Downloading https://files.pythonhosted.org/packages/59/44/3b1b2105f7bf0de194a38692fa384c3b548758071cce425f440089b9c53b/with_timeout-0.0.4.tar.gz
+[2023-04-28 06:45:41] INFO root fetch - processPackages [scFates]: Downloading https://files.pythonhosted.org/packages/f7/bb/5d3db60cf6cb15041e7e22f9f57a692392a8c6ccdffa89c9cb347784af22/scFates-1.0.1.tar.gz
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ws-cli-chat]: Downloading https://files.pythonhosted.org/packages/1c/24/315ace949523884921b5010eb39d4509d0904687231095576b8af61a8c91/ws_cli_chat-0.4.2.tar.gz
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ws-cli-chat]: executing diffoscope
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ws-cli-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_cli_chat-0.4.1.tar.gz tmp/ws_cli_chat-0.4.2.tar.gz --markdown 20230428/w/ws-cli-chat/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-28 06:45:41] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-04-28 06:45:41] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230428/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 06:45:41] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.12.39.0.tar.gz tmp/ChatLLM-2023.4.28.12.8.1.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.12.39.0-2023.4.28.12.8.1/diff.md --exclude *.pyd
+[2023-04-28 06:45:41] INFO root fetch - processPackages [yacnew]: Downloading https://files.pythonhosted.org/packages/93/6c/e3c04dfa0093d546ac2939c793855a83e4f39e79ca5f56a5b2a44187bf40/yacnew-0.2-py3-none-any.whl
+[2023-04-28 06:45:41] INFO root fetch - processPackages [yacnew]: executing diffoscope
+[2023-04-28 06:45:41] INFO root fetch - processPackages [yacnew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yacnew-0.1-py3-none-any.whl.zip tmp/yacnew-0.2-py3-none-any.whl.zip --markdown 20230428/y/yacnew/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-28 06:45:41] INFO root fetch - processPackages [with-timeout]: Downloading https://files.pythonhosted.org/packages/d4/e0/5e1bc9054a72db454ca2bcca7e842ed9532db4e7eff1d9ade9b8257bcc6b/with_timeout-0.0.5.tar.gz
+[2023-04-28 06:45:41] INFO root fetch - processPackages [scFates]: Downloading https://files.pythonhosted.org/packages/5e/7d/c0db5a1b54900a0b07822b9d88752ccc9a1496c7482610b6dc28702f871c/scFates-1.0.2.tar.gz
+[2023-04-28 06:45:42] INFO root fetch - processPackages [pymel]: Downloading https://files.pythonhosted.org/packages/5f/7a/40ebb5e380e1d1ce7b5cdb7b2b415f20f45f24c3e6eaef6f111b83d85c2f/pymel-1.4.0b1-py2.py3-none-any.whl
+[2023-04-28 06:45:42] INFO root fetch - processPackages [with-timeout]: executing diffoscope
+[2023-04-28 06:45:42] INFO root fetch - processPackages [with-timeout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/with_timeout-0.0.4.tar.gz tmp/with_timeout-0.0.5.tar.gz --markdown 20230428/w/with-timeout/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 06:45:42] INFO root fetch - processPackages [scFates]: executing diffoscope
+[2023-04-28 06:45:42] INFO root fetch - processPackages [scFates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scFates-1.0.1.tar.gz tmp/scFates-1.0.2.tar.gz --markdown 20230428/s/scFates/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 06:45:42] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-04-28 06:45:42] INFO root fetch - main [MainThread]: End processing [ws-cli-chat]: success
+[2023-04-28 06:45:43] INFO root fetch - main [MainThread]: End processing [yacnew]: success
+[2023-04-28 06:45:43] INFO root fetch - main [MainThread]: End processing [with-timeout]: success
+[2023-04-28 06:45:43] INFO root fetch - main [MainThread]: End processing [scFates]: success
+[2023-04-28 06:45:43] INFO root fetch - processPackages [pymel]: executing diffoscope
+[2023-04-28 06:45:43] INFO root fetch - processPackages [pymel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymel-1.4.0-py2.py3-none-any.whl.zip tmp/pymel-1.4.0b1-py2.py3-none-any.whl.zip --markdown 20230428/p/pymel/1.4.0-1.4.0b1/diff.md --exclude *.pyd
+[2023-04-28 06:45:44] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 06:45:47] INFO root fetch - main [MainThread]: End processing [pymel]: success
+[2023-04-28 06:45:47] INFO root fetch - main [MainThread]: Store serial: [17893949]
