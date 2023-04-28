@@ -20165,3 +20165,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 19:39:05] INFO root fetch - main [MainThread]: End processing [sncosmo]: success
 [2023-04-28 19:39:11] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-04-28 19:39:11] INFO root fetch - main [MainThread]: Store serial: [17901446]
+[2023-04-28 19:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901446]
+[2023-04-28 19:44:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cev-metrics
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volttron-lib-dnp3-driver
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anduin
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NNFAL
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagger-io
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stissplice
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secapi-tl
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funmap
+[2023-04-28 19:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goodai-ltm
+[2023-04-28 19:44:20] INFO root fetch - processPackages [NNFAL]: New version: [1.8] Old Version: [1.7]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [anduin]: New version: [8.4.9] Old Version: [8.4.8]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [cev-metrics]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [stissplice]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [secapi-tl]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [dagger-io]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.1.23] Old Version: [4.1.22]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [funmap]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [secapi-tl]: executing diffoscope
+[2023-04-28 19:44:20] INFO root fetch - processPackages [secapi-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secapi-tl-1.1.8.tar.gz tmp/secapi-tl-1.1.9.tar.gz --markdown 20230428/s/secapi-tl/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-28 19:44:20] INFO root fetch - processPackages [goodai-ltm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 19:44:20] INFO root fetch - processPackages [cev-metrics]: Downloading https://files.pythonhosted.org/packages/d4/90/2def6ae6d2d1d81feadb2656434093fd8f1d4a37c7644f5baa858ff9f793/cev_metrics-0.1.0.tar.gz
+[2023-04-28 19:44:20] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/86/0b/e3fc89e5e489d993577e9688c2c9dc4267107ee94576bed9ecd36bc1e8aa/dagger_io-0.5.1.tar.gz
+[2023-04-28 19:44:20] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: Downloading https://files.pythonhosted.org/packages/7b/57/cb47effa65e9715bb6d1a1e6456e476298009d38a2c48895932e0e7a8de8/volttron_lib_dnp3_driver-0.1.1a1.tar.gz
+[2023-04-28 19:44:20] INFO root fetch - processPackages [anduin]: Downloading https://files.pythonhosted.org/packages/db/f5/eea627f2bbdc694d1370fe3584a1ebbc97ad08d6c294efc4b37bde2cdf1f/anduin-8.4.8.tar.gz
+[2023-04-28 19:44:20] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/4e/9c/003052053060660565c5e32f8b182e4c66b7fd88e5c3301bf0d190457839/cyberdrop-dl-4.1.23.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [NNFAL]: Downloading https://files.pythonhosted.org/packages/92/0d/6856d215b004d15f562752b0d364684e8f108480ad19baef72a71a8edd23/NNFAL-1.8.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [funmap]: Downloading https://files.pythonhosted.org/packages/bc/e5/1e4af619ff17478e7e3e2a5c8bc35bb8d5f62435aaa8738ddf20237e01e0/funmap-0.1.7.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.1.22.tar.gz tmp/cyberdrop-dl-4.1.23.tar.gz --markdown 20230428/c/cyberdrop-dl/4.1.22-4.1.23/diff.md --exclude *.pyd
+[2023-04-28 19:44:21] INFO root fetch - processPackages [NNFAL]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [NNFAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NNFAL-1.7.tar.gz tmp/NNFAL-1.8.tar.gz --markdown 20230428/N/NNFAL/1.7-1.8/diff.md --exclude *.pyd
+[2023-04-28 19:44:21] INFO root fetch - processPackages [stissplice]: Downloading https://files.pythonhosted.org/packages/8a/ef/18a6def45186d8e053671dcd782e5503448945ee822b4b8324e9cead45ba/stissplice-1.0.3.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [cev-metrics]: Downloading https://files.pythonhosted.org/packages/ca/5c/489696ec08ea46716dae605cb25e83f2f7f814b00742620550acb253d15f/cev_metrics-0.1.1.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [stissplice]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [stissplice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stissplice-1.0.2.tar.gz tmp/stissplice-1.0.3.tar.gz --markdown 20230428/s/stissplice/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 19:44:21] INFO root fetch - processPackages [cev-metrics]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [cev-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cev_metrics-0.1.0.tar.gz tmp/cev_metrics-0.1.1.tar.gz --markdown 20230428/c/cev-metrics/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 19:44:21] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: Downloading https://files.pythonhosted.org/packages/80/eb/68df902eb232d6ee61f49ce3db2b5d83824f01d948f993d5afba30124026/volttron_lib_dnp3_driver-0.1.1a2.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.0.4.tar.gz tmp/goodai-ltm-0.0.5.tar.gz --markdown 20230428/g/goodai-ltm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 19:44:21] INFO root fetch - processPackages [anduin]: Downloading https://files.pythonhosted.org/packages/98/fa/f41e09d1f702e3f73d7c2fef1e8d19f14b31c3fea0a1f5fed3925b3093d0/anduin-8.4.9.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_dnp3_driver-0.1.1a1.tar.gz tmp/volttron_lib_dnp3_driver-0.1.1a2.tar.gz --markdown 20230428/v/volttron-lib-dnp3-driver/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-04-28 19:44:21] INFO root fetch - processPackages [anduin]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [anduin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anduin-8.4.8.tar.gz tmp/anduin-8.4.9.tar.gz --markdown 20230428/a/anduin/8.4.8-8.4.9/diff.md --exclude *.pyd
+[2023-04-28 19:44:21] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/11/ca/ec37bf6e1064304c8b3cb100b50089dce83fae0152ab488a5a1b3057d0a9/dagger_io-0.5.2.tar.gz
+[2023-04-28 19:44:21] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2023-04-28 19:44:21] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.5.1.tar.gz tmp/dagger_io-0.5.2.tar.gz --markdown 20230428/d/dagger-io/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-28 19:44:22] INFO root fetch - processPackages [funmap]: Downloading https://files.pythonhosted.org/packages/ba/7e/a54eff958609c15e3ac8026920539dea54463ba22a792f8aa466f11a4aab/funmap-0.1.8.tar.gz
+[2023-04-28 19:44:22] INFO root fetch - main [MainThread]: End processing [secapi-tl]: success
+[2023-04-28 19:44:22] INFO root fetch - main [MainThread]: End processing [NNFAL]: success
+[2023-04-28 19:44:22] INFO root fetch - main [MainThread]: End processing [stissplice]: success
+[2023-04-28 19:44:22] INFO root fetch - main [MainThread]: End processing [cev-metrics]: success
+[2023-04-28 19:44:22] INFO root fetch - main [MainThread]: End processing [volttron-lib-dnp3-driver]: success
+[2023-04-28 19:44:23] INFO root fetch - processPackages [funmap]: executing diffoscope
+[2023-04-28 19:44:23] INFO root fetch - processPackages [funmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funmap-0.1.7.tar.gz tmp/funmap-0.1.8.tar.gz --markdown 20230428/f/funmap/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-28 19:44:23] INFO root fetch - main [MainThread]: End processing [anduin]: success
+[2023-04-28 19:44:23] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2023-04-28 19:44:24] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-04-28 19:44:24] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-04-28 19:44:24] INFO root fetch - main [MainThread]: End processing [funmap]: success
+[2023-04-28 19:44:24] INFO root fetch - main [MainThread]: Store serial: [17901474]
