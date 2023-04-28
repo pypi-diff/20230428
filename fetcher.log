@@ -10851,3 +10851,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 10:55:15] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-28 10:55:16] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-28 10:55:16] INFO root fetch - main [MainThread]: Store serial: [17895751]
+[2023-04-28 11:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895751]
+[2023-04-28 11:00:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makasuipatch
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildington
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brandpy
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gold-miner
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fractal-server
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: consistent
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykinect-recorder
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sempyver
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dovado-rtl
+[2023-04-28 11:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gold-miner-ui
+[2023-04-28 11:00:27] INFO root fetch - processPackages [brandpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [sempyver]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 11:00:27] WARNING root fetch - processPackages [makasuipatch]: Skipping, unable to determine old version
+[2023-04-28 11:00:27] INFO root fetch - processPackages [makasuipatch]: Start processing: zxt
+[2023-04-28 11:00:27] INFO root fetch - main [MainThread]: End processing [makasuipatch] error
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner-ui]: New version: [1.1] Old Version: [1.0]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [buildington]: New version: [1.5.1] Old Version: [1.5]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [pykinect-recorder]: New version: [0.2.3.2] Old Version: [0.2.1]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [consistent]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner]: New version: [1.1] Old Version: [1.0]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [fractal-server]: New version: [1.2.3a0] Old Version: [1.2.2]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [dovado-rtl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [zxt]: New version: [0.20230428.1624] Old Version: [0.20230214.1610]
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner-ui]: Downloading https://files.pythonhosted.org/packages/c5/2e/945b2e91d8e9ba039cbe02caa099baa13a14ab060411727159ef19a35c51/gold-miner-ui-1.0.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [consistent]: Downloading https://files.pythonhosted.org/packages/e2/ed/4892e6c49770294399e960dbd419f54e58c88d7f6e3585b4475015f1121a/consistent-0.0.2.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [dovado-rtl]: executing diffoscope
+[2023-04-28 11:00:27] INFO root fetch - processPackages [dovado-rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovado-rtl-0.9.8.tar.gz tmp/dovado-rtl-0.9.9.tar.gz --markdown 20230428/d/dovado-rtl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 11:00:27] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/01/0e/7ce2c93b9cdd7e6cecc9712a367e85569bdc4a98fb226c4ed966652ccf78/fractal_server-1.2.2.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner]: Downloading https://files.pythonhosted.org/packages/05/7c/9e6035eff1f15c848fa100989092f3bca067c59b5f3cc366d44cb0bd2f6e/gold-miner-1.0.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [sempyver]: Downloading https://files.pythonhosted.org/packages/9d/d8/e81bf9bc37494d4144b4425e2931e0257010cd44eca8735d7283944587f6/sempyver-0.0.3.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [pykinect-recorder]: Downloading https://files.pythonhosted.org/packages/f4/cb/a87a91b429682be907724a34d446de203b348155012073f9f0155b0d012f/pykinect_recorder-0.2.1-py3-none-any.whl
+[2023-04-28 11:00:27] INFO root fetch - processPackages [sempyver]: executing diffoscope
+[2023-04-28 11:00:27] INFO root fetch - processPackages [sempyver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sempyver-0.0.2.tar.gz tmp/sempyver-0.0.3.tar.gz --markdown 20230428/s/sempyver/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 11:00:27] INFO root fetch - processPackages [brandpy]: Downloading https://files.pythonhosted.org/packages/ae/00/6e4d0a9c43b2af39114c07fa2116caeb6352f4a5f4b15de32fc60e838ed3/brandpy-0.0.4.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [zxt]: Downloading https://files.pythonhosted.org/packages/a4/66/7c63f4791efce3b2f4f8ad09e551c15986fe93a43e1fc22c7921d71b035c/zxt-0.20230214.1610.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [buildington]: Downloading https://files.pythonhosted.org/packages/30/fd/a9d45795a94713a470cc0f12ec37b4b356cb3a30ef2822e5369c48361972/buildington-1.5.1.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner-ui]: Downloading https://files.pythonhosted.org/packages/6a/da/1cda6ed510209c83353e6ec4e9ffa3837fb6de23396b002a0ca1badc7a47/gold-miner-ui-1.1.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [consistent]: Downloading https://files.pythonhosted.org/packages/0d/05/f6c59324635a95075b3d727a9251d442a4e57c10d6b5ce126c17cdc1bd4d/consistent-0.0.3.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner]: Downloading https://files.pythonhosted.org/packages/e1/e8/dac4add24448b0277da659401e1a3700a4321e515c737dc251d9be0a9066/gold-miner-1.1.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/08/4c/5e71a16803ce982ab96b7cf887ae190947638289519e973eeb847d862c78/fractal_server-1.2.3a0.tar.gz
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner-ui]: executing diffoscope
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gold-miner-ui-1.0.tar.gz tmp/gold-miner-ui-1.1.tar.gz --markdown 20230428/g/gold-miner-ui/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-28 11:00:27] INFO root fetch - processPackages [consistent]: executing diffoscope
+[2023-04-28 11:00:27] INFO root fetch - processPackages [consistent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consistent-0.0.2.tar.gz tmp/consistent-0.0.3.tar.gz --markdown 20230428/c/consistent/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner]: executing diffoscope
+[2023-04-28 11:00:27] INFO root fetch - processPackages [gold-miner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gold-miner-1.0.tar.gz tmp/gold-miner-1.1.tar.gz --markdown 20230428/g/gold-miner/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-28 11:00:27] INFO root fetch - processPackages [buildington]: executing diffoscope
+[2023-04-28 11:00:27] INFO root fetch - processPackages [buildington]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildington-1.5.tar.gz tmp/buildington-1.5.1.tar.gz --markdown 20230428/b/buildington/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-04-28 11:00:28] INFO root fetch - processPackages [pykinect-recorder]: Downloading https://files.pythonhosted.org/packages/d4/9e/02bf9f92ae21b13927808159ce678b32fdec6e1201423e40fc47a0dbf77d/pykinect_recorder-0.2.3.2-py3-none-any.whl
+[2023-04-28 11:00:28] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-28 11:00:28] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.2.tar.gz tmp/fractal_server-1.2.3a0.tar.gz --markdown 20230428/f/fractal-server/1.2.2-1.2.3a0/diff.md --exclude *.pyd
+[2023-04-28 11:00:28] INFO root fetch - processPackages [pykinect-recorder]: executing diffoscope
+[2023-04-28 11:00:28] INFO root fetch - processPackages [pykinect-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykinect_recorder-0.2.1-py3-none-any.whl.zip tmp/pykinect_recorder-0.2.3.2-py3-none-any.whl.zip --markdown 20230428/p/pykinect-recorder/0.2.1-0.2.3.2/diff.md --exclude *.pyd
+[2023-04-28 11:00:28] INFO root fetch - processPackages [zxt]: Downloading https://files.pythonhosted.org/packages/56/ec/0ac96991756d2e442cf72520bebd95966cf30c0fd375272a2d8e0d67247b/zxt-0.20230428.1624.tar.gz
+[2023-04-28 11:00:28] INFO root fetch - processPackages [zxt]: executing diffoscope
+[2023-04-28 11:00:28] INFO root fetch - processPackages [zxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxt-0.20230214.1610.tar.gz tmp/zxt-0.20230428.1624.tar.gz --markdown 20230428/z/zxt/0.20230214.1610-0.20230428.1624/diff.md --exclude *.pyd
+[2023-04-28 11:00:28] INFO root fetch - processPackages [brandpy]: executing diffoscope
+[2023-04-28 11:00:28] INFO root fetch - processPackages [brandpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brandpy-0.0.3.tar.gz tmp/brandpy-0.0.4.tar.gz --markdown 20230428/b/brandpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 11:00:29] INFO root fetch - processPackages [sempyver]: Start processing: PySide2-Fluent-Widgets
+[2023-04-28 11:00:29] INFO root fetch - main [MainThread]: End processing [sempyver]: success
+[2023-04-28 11:00:29] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.8.1] Old Version: [0.7.6]
+[2023-04-28 11:00:29] INFO root fetch - main [MainThread]: End processing [consistent]: success
+[2023-04-28 11:00:29] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/92/d5/9e6f767b536300474d990aad085fd4503e139d7efcc625a44334ddb5f8ee/PySide2-Fluent-Widgets-0.8.1.tar.gz
+[2023-04-28 11:00:29] INFO root fetch - main [MainThread]: End processing [gold-miner]: success
+[2023-04-28 11:00:29] INFO root fetch - main [MainThread]: End processing [pykinect-recorder]: success
+[2023-04-28 11:00:29] INFO root fetch - main [MainThread]: End processing [gold-miner-ui]: success
+[2023-04-28 11:00:29] INFO root fetch - main [MainThread]: End processing [buildington]: success
+[2023-04-28 11:00:29] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-04-28 11:00:29] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.7.6.tar.gz tmp/PySide2-Fluent-Widgets-0.8.1.tar.gz --markdown 20230428/P/PySide2-Fluent-Widgets/0.7.6-0.8.1/diff.md --exclude *.pyd
+[2023-04-28 11:00:30] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-28 11:00:30] INFO root fetch - main [MainThread]: End processing [zxt]: success
+[2023-04-28 11:00:32] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-04-28 11:00:32] INFO root fetch - main [MainThread]: End processing [brandpy]: success
+[2023-04-28 11:00:37] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
+[2023-04-28 11:00:37] INFO root fetch - main [MainThread]: Store serial: [17895789]
