@@ -17064,3 +17064,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:43:00] INFO root fetch - main [MainThread]: End processing [linearmodels]: success
 [2023-04-28 16:43:02] INFO root fetch - main [MainThread]: End processing [rawpy]: success
 [2023-04-28 16:43:02] INFO root fetch - main [MainThread]: Store serial: [17899439]
+[2023-04-28 16:48:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899439]
+[2023-04-28 16:48:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optilog
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk-preview
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Grid2Op
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st4sd-runtime-core
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jr-sshtunnel
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: space-invaders
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msaDocModels
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bthome-ble
+[2023-04-28 16:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wikipedia_tools
+[2023-04-28 16:48:12] INFO root fetch - processPackages [wikipedia_tools]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-28 16:48:12] WARNING root fetch - processPackages [jr-sshtunnel]: Skipping, unable to determine old version
+[2023-04-28 16:48:12] INFO root fetch - processPackages [jr-sshtunnel]: Start processing: messageflux
+[2023-04-28 16:48:12] INFO root fetch - main [MainThread]: End processing [jr-sshtunnel] error
+[2023-04-28 16:48:12] INFO root fetch - processPackages [optilog]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-04-28 16:48:12] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 16:48:12] INFO root fetch - processPackages [st4sd-runtime-core]: New version: [2.0.0a9.dev3] Old Version: [2.0.0a9.dev2]
+[2023-04-28 16:48:12] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 16:48:12] INFO root fetch - processPackages [space-invaders]: Start processing: twyn
+[2023-04-28 16:48:12] INFO root fetch - processPackages [wikipedia_tools]: executing diffoscope
+[2023-04-28 16:48:12] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 16:48:12] INFO root fetch - processPackages [wikipedia_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikipedia_tools-2.2.1.tar.gz tmp/wikipedia_tools-2.2.2.tar.gz --markdown 20230428/w/wikipedia_tools/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-28 16:48:12] INFO root fetch - processPackages [Grid2Op]: New version: [1.8.2.dev5] Old Version: [1.8.2.dev4]
+[2023-04-28 16:48:12] INFO root fetch - processPackages [bthome-ble]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-28 16:48:12] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-04-28 16:48:12] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-04-28 16:48:12] WARNING root fetch - processPackages [twyn]: Skipping, unable to determine old version
+[2023-04-28 16:48:12] INFO root fetch - processPackages [twyn]: Start processing: pyload-ng
+[2023-04-28 16:48:12] INFO root fetch - main [MainThread]: End processing [twyn] error
+[2023-04-28 16:48:12] INFO root fetch - processPackages [messageflux]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-28 16:48:12] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/ed/c4/3591927f419992ce61f0efa630bba1db4792b7eaad323183b479b34a15ff/st4sd-runtime-core-2.0.0a9.dev2.tar.gz
+[2023-04-28 16:48:12] INFO root fetch - processPackages [optilog]: Downloading https://files.pythonhosted.org/packages/68/f1/499774584d636cd89c2d2bd3e3a6afdc23bb160cf1906f75bf5f57acd977/optilog-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 16:48:12] INFO root fetch - processPackages [pyload-ng]: New version: [0.5.0b3.dev64] Old Version: [0.5.0b3.dev62]
+[2023-04-28 16:48:12] INFO root fetch - processPackages [Grid2Op]: Downloading https://files.pythonhosted.org/packages/2f/2a/3d22c146fbd4b2b55df150f6bcf4384078ed7885fe577a445a336edb77ca/Grid2Op-1.8.2.dev4.tar.gz
+[2023-04-28 16:48:12] WARNING root fetch - processPackages [optilog]: Skipping package: exceeds size limit 12013073>=10485760
+[2023-04-28 16:48:12] INFO root fetch - processPackages [optilog]: Start processing: whisper-voice-commands
+[2023-04-28 16:48:12] INFO root fetch - main [MainThread]: End processing [optilog] error
+[2023-04-28 16:48:12] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/e9/0f/9ca2cf96ba3a52a2a6b9a741ac53b57b00c27e1007839331c2f61d234930/bthome_ble-2.8.0.tar.gz
+[2023-04-28 16:48:12] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/1b/a3/01456a474313fdf1138d405a710af41c3ac0e27905d032ee80e16d99c985/messageflux-0.1.1.tar.gz
+[2023-04-28 16:48:12] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-04-28 16:48:12] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230428/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:48:13] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/39/70/e66fe62af53a0f43e60ec79397977061c93a1ef0d8b274296b8cbddd8a43/pyload-ng-0.5.0b3.dev64.tar.gz
+[2023-04-28 16:48:13] WARNING root fetch - processPackages [whisper-voice-commands]: Skipping, unable to determine old version
+[2023-04-28 16:48:13] INFO root fetch - processPackages [whisper-voice-commands]: Start processing: space-invaders
+[2023-04-28 16:48:13] INFO root fetch - main [MainThread]: End processing [whisper-voice-commands] error
+[2023-04-28 16:48:13] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 16:48:13] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 16:48:13] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-04-28 16:48:13] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230428/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-04-28 16:48:13] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-04-28 16:48:13] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230428/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-04-28 16:48:13] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/45/73/92b3c9888da6fbe16edd84bd18fe75aaa6f8d82225921f92ede22e31cfa9/messageflux-0.2.0.tar.gz
+[2023-04-28 16:48:13] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/8e/3d/5c42e5be156cd1acdd04a976aa049d2ebb9860e6d9904b9b052d0ad91263/bthome_ble-2.9.0.tar.gz
+[2023-04-28 16:48:13] INFO root fetch - processPackages [pyload-ng]: executing diffoscope
+[2023-04-28 16:48:13] INFO root fetch - processPackages [pyload-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyload-ng-0.5.0b3.dev62.tar.gz tmp/pyload-ng-0.5.0b3.dev64.tar.gz --markdown 20230428/p/pyload-ng/0.5.0b3.dev62-0.5.0b3.dev64/diff.md --exclude *.pyd
+[2023-04-28 16:48:13] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/bf/40/8af932d4b7187a56a6bcc9e0621e7e0a91f2da3571e01b5bd99d91bfc938/st4sd-runtime-core-2.0.0a9.dev3.tar.gz
+[2023-04-28 16:48:13] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-04-28 16:48:13] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.1.1.tar.gz tmp/messageflux-0.2.0.tar.gz --markdown 20230428/m/messageflux/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 16:48:13] INFO root fetch - processPackages [bthome-ble]: executing diffoscope
+[2023-04-28 16:48:13] INFO root fetch - processPackages [bthome-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bthome_ble-2.8.0.tar.gz tmp/bthome_ble-2.9.0.tar.gz --markdown 20230428/b/bthome-ble/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:48:13] INFO root fetch - processPackages [st4sd-runtime-core]: executing diffoscope
+[2023-04-28 16:48:13] INFO root fetch - processPackages [st4sd-runtime-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st4sd-runtime-core-2.0.0a9.dev2.tar.gz tmp/st4sd-runtime-core-2.0.0a9.dev3.tar.gz --markdown 20230428/s/st4sd-runtime-core/2.0.0a9.dev2-2.0.0a9.dev3/diff.md --exclude *.pyd
+[2023-04-28 16:48:13] WARNING root fetch - processPackages [Grid2Op]: Skipping package: exceeds size limit 12320745>=10485760
+[2023-04-28 16:48:13] INFO root fetch - main [MainThread]: End processing [Grid2Op] error
+[2023-04-28 16:48:14] INFO root fetch - main [MainThread]: End processing [wikipedia_tools]: success
+[2023-04-28 16:48:14] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-04-28 16:48:14] INFO root fetch - main [MainThread]: End processing [bthome-ble]: success
+[2023-04-28 16:48:15] INFO root fetch - main [MainThread]: End processing [st4sd-runtime-core]: success
+[2023-04-28 16:48:16] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-04-28 16:48:21] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
+[2023-04-28 16:48:33] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-04-28 16:48:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-04-28 16:48:41] INFO root fetch - main [MainThread]: Store serial: [17899528]
