@@ -22556,3 +22556,79 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 22:52:30] INFO root fetch - main [MainThread]: End processing [pygptj]: success
 [2023-04-28 22:52:33] INFO root fetch - main [MainThread]: End processing [timm]: success
 [2023-04-28 22:52:33] INFO root fetch - main [MainThread]: Store serial: [17902892]
+[2023-04-28 22:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902892]
+[2023-04-28 22:57:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtrx
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naludaq-rs
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cryptical
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-artifactory
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tungstenkit
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oceano-algos
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cryptical
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywincalc
+[2023-04-28 22:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webexbotsdk
+[2023-04-28 22:57:42] INFO root fetch - processPackages [dtrx]: New version: [8.5.2] Old Version: [8.5.1]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: New version: [0.3] Old Version: [0.2]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [naludaq-rs]: New version: [0.1.8] Old Version: [0.1.5]
+[2023-04-28 22:57:42] ERROR root fetch - processPackages [tungstenkit]: Unable to get metadata: No such project 'tungstenkit'
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: New version: [0.3] Old Version: [0.2]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [tungstenkit]: Start processing: env-canada
+[2023-04-28 22:57:42] INFO root fetch - main [MainThread]: End processing [tungstenkit] error
+[2023-04-28 22:57:42] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.4.0a1682710099] Old Version: [3.4.0a1682378112]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [webexbotsdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [pywincalc]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-28 22:57:42] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230428/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 22:57:42] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-04-28 22:57:42] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.4.0a1682378112.tar.gz tmp/pulumi_artifactory-3.4.0a1682710099.tar.gz --markdown 20230428/p/pulumi-artifactory/3.4.0a1682378112-3.4.0a1682710099/diff.md --exclude *.pyd
+[2023-04-28 22:57:42] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-28 22:57:42] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230428/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 22:57:42] INFO root fetch - processPackages [env-canada]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: Downloading https://files.pythonhosted.org/packages/e3/13/455caf78629d24f4a18932b9876a9225c88c7f42a36fe15f79fc8220f571/cryptical-0.2.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: Downloading https://files.pythonhosted.org/packages/e3/13/455caf78629d24f4a18932b9876a9225c88c7f42a36fe15f79fc8220f571/cryptical-0.2.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [naludaq-rs]: Downloading https://files.pythonhosted.org/packages/cf/32/226bee02207a7b1155473bd1d7499d018e6ac72b506bd7b46047cec5522b/naludaq_rs-0.1.5-cp39-none-win_amd64.whl
+[2023-04-28 22:57:42] INFO root fetch - processPackages [webexbotsdk]: Downloading https://files.pythonhosted.org/packages/d2/ab/885a2a93f1f2cae6130e97ebfcb3fce3bbbfa2244df8489d129cc897b70e/webexbotsdk-0.2.1.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [pywincalc]: Downloading https://files.pythonhosted.org/packages/00/e4/69b02708e0de61631c6d6a9a614ae43c647cc08daf05136bd07cd5b2dcc9/pywincalc-3.0.0-cp39-cp39-win_amd64.whl
+[2023-04-28 22:57:42] INFO root fetch - processPackages [env-canada]: Downloading https://files.pythonhosted.org/packages/32/30/ef9a163691dc0ee7527f310decca6833e5f780f9dcc9cdca5ca19cda7165/env_canada-0.5.8.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [dtrx]: Downloading https://files.pythonhosted.org/packages/61/23/138d9a64c60ff077b9ca11bd36c6f153f662183cda457d667c73e4cad9ea/dtrx-8.5.2.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: Downloading https://files.pythonhosted.org/packages/5a/e6/69c6491118374c26c2cea95351d113884cceaa2758008aa7a1ef2ef2df3c/cryptical-0.3.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: Downloading https://files.pythonhosted.org/packages/5a/e6/69c6491118374c26c2cea95351d113884cceaa2758008aa7a1ef2ef2df3c/cryptical-0.3.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [dtrx]: executing diffoscope
+[2023-04-28 22:57:42] INFO root fetch - processPackages [dtrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtrx-8.5.1.tar.gz tmp/dtrx-8.5.2.tar.gz --markdown 20230428/d/dtrx/8.5.1-8.5.2/diff.md --exclude *.pyd
+[2023-04-28 22:57:42] INFO root fetch - processPackages [webexbotsdk]: Downloading https://files.pythonhosted.org/packages/14/e3/3e5f9f80d0961359094bd478988530b13d91bf0d14480d6984a63a051f2e/webexbotsdk-0.2.2.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: executing diffoscope
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptical-0.2.tar.gz tmp/cryptical-0.3.tar.gz --markdown 20230428/c/cryptical/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: executing diffoscope
+[2023-04-28 22:57:42] INFO root fetch - processPackages [cryptical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptical-0.2.tar.gz tmp/cryptical-0.3.tar.gz --markdown 20230428/c/cryptical/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-28 22:57:42] INFO root fetch - processPackages [webexbotsdk]: executing diffoscope
+[2023-04-28 22:57:42] INFO root fetch - processPackages [webexbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webexbotsdk-0.2.1.tar.gz tmp/webexbotsdk-0.2.2.tar.gz --markdown 20230428/w/webexbotsdk/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-28 22:57:42] INFO root fetch - processPackages [env-canada]: Downloading https://files.pythonhosted.org/packages/00/e8/9b3e6a86a0cf93c71090db6438bd254904c888ae3cb331ef40ddfc7ebfc4/env_canada-0.5.9.tar.gz
+[2023-04-28 22:57:42] INFO root fetch - processPackages [pywincalc]: Downloading https://files.pythonhosted.org/packages/fb/89/c0c5a70d1745a6b33b856e2c401a245fa4dc4d1bb4a446d72de372e2d085/pywincalc-3.1.0-cp39-cp39-win_amd64.whl
+[2023-04-28 22:57:43] INFO root fetch - processPackages [env-canada]: executing diffoscope
+[2023-04-28 22:57:43] INFO root fetch - processPackages [env-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/env_canada-0.5.8.tar.gz tmp/env_canada-0.5.9.tar.gz --markdown 20230428/e/env-canada/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 22:57:43] INFO root fetch - processPackages [pywincalc]: executing diffoscope
+[2023-04-28 22:57:43] INFO root fetch - processPackages [pywincalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywincalc-3.0.0-cp39-cp39-win_amd64.whl.zip tmp/pywincalc-3.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20230428/p/pywincalc/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-04-28 22:57:43] INFO root fetch - processPackages [findmyorder]: Start processing: uproot-browser
+[2023-04-28 22:57:43] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-28 22:57:43] INFO root fetch - processPackages [uproot-browser]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-04-28 22:57:43] INFO root fetch - processPackages [uproot-browser]: Downloading https://files.pythonhosted.org/packages/e4/65/f3c84e3094d5ee7c41717eef654eba0e0ab83cdc32c56576cf14367e7df4/uproot_browser-0.4.2.tar.gz
+[2023-04-28 22:57:44] INFO root fetch - main [MainThread]: End processing [cryptical]: success
+[2023-04-28 22:57:44] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-28 22:57:44] INFO root fetch - processPackages [naludaq-rs]: Downloading https://files.pythonhosted.org/packages/fa/08/fe8766b43a00610cde4dbf76c45ee760367b8638743e41019de012dbdf7d/naludaq_rs-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 22:57:44] INFO root fetch - main [MainThread]: End processing [dtrx]: success
+[2023-04-28 22:57:44] INFO root fetch - main [MainThread]: End processing [cryptical]: success
+[2023-04-28 22:57:44] INFO root fetch - main [MainThread]: End processing [webexbotsdk]: success
+[2023-04-28 22:57:44] INFO root fetch - processPackages [uproot-browser]: Downloading https://files.pythonhosted.org/packages/7d/1e/1b44c710a71b263c204e03d2513f9db5899d8d1e838f214b83897cff53a5/uproot_browser-0.5.0.tar.gz
+[2023-04-28 22:57:44] INFO root fetch - processPackages [uproot-browser]: executing diffoscope
+[2023-04-28 22:57:44] INFO root fetch - processPackages [uproot-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot_browser-0.4.2.tar.gz tmp/uproot_browser-0.5.0.tar.gz --markdown 20230428/u/uproot-browser/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-04-28 22:57:44] INFO root fetch - main [MainThread]: End processing [env-canada]: success
+[2023-04-28 22:57:45] INFO root fetch - processPackages [naludaq-rs]: executing diffoscope
+[2023-04-28 22:57:45] INFO root fetch - processPackages [naludaq-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq_rs-0.1.5-cp39-none-win_amd64.whl.zip tmp/naludaq_rs-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/n/naludaq-rs/0.1.5-0.1.8/diff.md --exclude *.pyd
+[2023-04-28 22:57:45] INFO root fetch - main [MainThread]: End processing [pywincalc]: success
+[2023-04-28 22:57:45] INFO root fetch - main [MainThread]: End processing [uproot-browser]: success
+[2023-04-28 22:57:46] INFO root fetch - main [MainThread]: End processing [naludaq-rs]: success
+[2023-04-28 22:57:48] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-04-28 22:57:48] INFO root fetch - main [MainThread]: Store serial: [17902958]
