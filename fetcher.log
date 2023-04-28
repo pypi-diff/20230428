@@ -19483,3 +19483,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 19:12:53] INFO root fetch - main [MainThread]: End processing [textual]: success
 [2023-04-28 19:12:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
 [2023-04-28 19:12:53] INFO root fetch - main [MainThread]: Store serial: [17901118]
+[2023-04-28 19:17:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901118]
+[2023-04-28 19:18:02] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: estimenergy
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: belvys
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkgmt
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkite-db
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrario
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edb-deployment
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: model-hub
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: determined-deploy
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: determined
+[2023-04-28 19:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: staircase-kit
+[2023-04-28 19:18:02] INFO root fetch - processPackages [belvys]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [estimenergy]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-28 19:18:02] WARNING root fetch - processPackages [mkite-db]: Skipping, unable to determine old version
+[2023-04-28 19:18:02] INFO root fetch - processPackages [mkite-db]: Start processing: determined-common
+[2023-04-28 19:18:02] INFO root fetch - main [MainThread]: End processing [mkite-db] error
+[2023-04-28 19:18:02] INFO root fetch - processPackages [edb-deployment]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [pkgmt]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [model-hub]: New version: [0.21.2rc5] Old Version: [0.21.2rc4]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [staircase-kit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [determined-deploy]: New version: [0.21.2rc5] Old Version: [0.21.2rc4]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [determined]: New version: [0.21.2rc5] Old Version: [0.21.2rc4]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [determined-common]: New version: [0.21.2rc5] Old Version: [0.21.2rc4]
+[2023-04-28 19:18:02] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-04-28 19:18:02] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.21.2rc4-py3-none-any.whl.zip tmp/determined-0.21.2rc5-py3-none-any.whl.zip --markdown 20230428/d/determined/0.21.2rc4-0.21.2rc5/diff.md --exclude *.pyd
+[2023-04-28 19:18:02] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-04-28 19:18:02] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.21.2rc4-py3-none-any.whl.zip tmp/determined_deploy-0.21.2rc5-py3-none-any.whl.zip --markdown 20230428/d/determined-deploy/0.21.2rc4-0.21.2rc5/diff.md --exclude *.pyd
+[2023-04-28 19:18:02] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-04-28 19:18:02] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.21.2rc4-py3-none-any.whl.zip tmp/model_hub-0.21.2rc5-py3-none-any.whl.zip --markdown 20230428/m/model-hub/0.21.2rc4-0.21.2rc5/diff.md --exclude *.pyd
+[2023-04-28 19:18:02] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-28 19:18:02] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230428/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 19:18:02] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/1e/4c/2d01f282348dab41fc558a423d0e79c14a23a27e43630b40e5d61e4adc4e/estimenergy-2.0.3.tar.gz
+[2023-04-28 19:18:02] INFO root fetch - processPackages [belvys]: Downloading https://files.pythonhosted.org/packages/f7/9b/80bce93f8b5eebebd40ba3a555da0a6194dfe86eace90f75c17dd84e3982/belvys-0.2.2.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [edb-deployment]: Downloading https://files.pythonhosted.org/packages/22/08/5ca7c285deb1c8d0ed8ad38745630625f9bb3e63083e8fb68d7fc11942dc/edb-deployment-3.9.2.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-04-28 19:18:03] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.21.2rc4-py3-none-any.whl.zip tmp/determined_common-0.21.2rc5-py3-none-any.whl.zip --markdown 20230428/d/determined-common/0.21.2rc4-0.21.2rc5/diff.md --exclude *.pyd
+[2023-04-28 19:18:03] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/70/a0/ba7192aa39b6b280409446b0bf8109c5bc1d5effe7f54d2f459e36deaeb9/staircase_kit-0.1.8.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/7a/6d/35fcc025fc47deeaf921a10c80ac2ae35db28068ef0abe5541b1cf36eeeb/pkgmt-0.5.0.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [pkgmt]: executing diffoscope
+[2023-04-28 19:18:03] INFO root fetch - processPackages [pkgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgmt-0.4.2.tar.gz tmp/pkgmt-0.5.0.tar.gz --markdown 20230428/p/pkgmt/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-04-28 19:18:03] INFO root fetch - processPackages [belvys]: Downloading https://files.pythonhosted.org/packages/84/69/ca5c1eeaa4015348ce9a4a03dc4f8c74acc7c15fe864c5701326b5c18b0d/belvys-0.2.3.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/ef/f9/227eeb6076258a7b3eca389bfcc9b58c09e9b9058bcb9b520ea9fa5789f0/estimenergy-2.0.4.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [belvys]: executing diffoscope
+[2023-04-28 19:18:03] INFO root fetch - processPackages [belvys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belvys-0.2.2.tar.gz tmp/belvys-0.2.3.tar.gz --markdown 20230428/b/belvys/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 19:18:03] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-28 19:18:03] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-2.0.3.tar.gz tmp/estimenergy-2.0.4.tar.gz --markdown 20230428/e/estimenergy/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-28 19:18:03] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/01/96/15a40885ce958da4972b51b06600031ea9983c0e9522cd8ef1e964283364/staircase_kit-0.1.9.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [edb-deployment]: Downloading https://files.pythonhosted.org/packages/87/d1/2d9c6c5574ecdaa0073d472d5ed0f6f40b9b82bc96b85eb7875044cc0c07/edb-deployment-3.9.3.tar.gz
+[2023-04-28 19:18:03] INFO root fetch - processPackages [staircase-kit]: executing diffoscope
+[2023-04-28 19:18:03] INFO root fetch - processPackages [staircase-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staircase_kit-0.1.8.tar.gz tmp/staircase_kit-0.1.9.tar.gz --markdown 20230428/s/staircase-kit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 19:18:03] INFO root fetch - processPackages [edb-deployment]: executing diffoscope
+[2023-04-28 19:18:03] INFO root fetch - processPackages [edb-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edb-deployment-3.9.2.tar.gz tmp/edb-deployment-3.9.3.tar.gz --markdown 20230428/e/edb-deployment/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-04-28 19:18:04] INFO root fetch - processPackages [determined-deploy]: Start processing: determined-cli
+[2023-04-28 19:18:04] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-04-28 19:18:04] INFO root fetch - processPackages [determined-cli]: New version: [0.21.2rc5] Old Version: [0.21.2rc4]
+[2023-04-28 19:18:04] INFO root fetch - processPackages [model-hub]: Start processing: pelicun
+[2023-04-28 19:18:04] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-04-28 19:18:04] INFO root fetch - processPackages [pelicun]: New version: [3.2b2] Old Version: [3.2b1]
+[2023-04-28 19:18:04] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-04-28 19:18:04] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.21.2rc4-py3-none-any.whl.zip tmp/determined_cli-0.21.2rc5-py3-none-any.whl.zip --markdown 20230428/d/determined-cli/0.21.2rc4-0.21.2rc5/diff.md --exclude *.pyd
+[2023-04-28 19:18:04] INFO root fetch - processPackages [determined-common]: Start processing: sdss-coordio
+[2023-04-28 19:18:04] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-04-28 19:18:04] INFO root fetch - processPackages [sdss-coordio]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-04-28 19:18:04] INFO root fetch - processPackages [terrario]: Start processing: splittr
+[2023-04-28 19:18:04] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-28 19:18:04] WARNING root fetch - processPackages [splittr]: Skipping, unable to determine old version
+[2023-04-28 19:18:04] INFO root fetch - processPackages [splittr]: Start processing: spiralflow
+[2023-04-28 19:18:04] INFO root fetch - main [MainThread]: End processing [splittr] error
+[2023-04-28 19:18:04] INFO root fetch - processPackages [spiralflow]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 19:18:04] INFO root fetch - processPackages [pelicun]: Downloading https://files.pythonhosted.org/packages/b0/80/637c0a295b375a165fe1bc168ee2cf5b2d751d33c5201814eaa7659cc7a9/pelicun-3.2b2.tar.gz
+[2023-04-28 19:18:04] INFO root fetch - processPackages [pkgmt]: Start processing: cfn-lint
+[2023-04-28 19:18:04] INFO root fetch - main [MainThread]: End processing [pkgmt]: success
+[2023-04-28 19:18:05] INFO root fetch - processPackages [cfn-lint]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-04-28 19:18:05] INFO root fetch - processPackages [pelicun]: executing diffoscope
+[2023-04-28 19:18:05] INFO root fetch - processPackages [pelicun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelicun-3.2b1.tar.gz tmp/pelicun-3.2b2.tar.gz --markdown 20230428/p/pelicun/3.2b1-3.2b2/diff.md --exclude *.pyd
+[2023-04-28 19:18:05] INFO root fetch - processPackages [sdss-coordio]: Downloading https://files.pythonhosted.org/packages/23/dc/74e9c56e26075c52579025b8f84fc2554481761cb8a8e7c8cd6710a82074/sdss_coordio-1.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 19:18:05] INFO root fetch - processPackages [spiralflow]: Downloading https://files.pythonhosted.org/packages/fa/f4/23c5ffb814e1a0dc6a4b5e95e68a511ea79c33251b1b64fcb455c7596e2c/spiralflow-0.0.4.tar.gz
+[2023-04-28 19:18:05] INFO root fetch - processPackages [spiralflow]: executing diffoscope
+[2023-04-28 19:18:05] INFO root fetch - processPackages [spiralflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiralflow-0.0.3.tar.gz tmp/spiralflow-0.0.4.tar.gz --markdown 20230428/s/spiralflow/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 19:18:05] INFO root fetch - processPackages [sdss-coordio]: executing diffoscope
+[2023-04-28 19:18:05] INFO root fetch - processPackages [sdss-coordio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss-coordio-1.7.2.tar.gz tmp/sdss_coordio-1.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/s/sdss-coordio/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-04-28 19:18:05] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/82/82/43b973068e466f2cb7548330d21b8b2db579bdb2854a4855a567c348c7ff/cfn-lint-1.0.0a3.tar.gz
+[2023-04-28 19:18:05] INFO root fetch - processPackages [belvys]: Start processing: MyoSuite
+[2023-04-28 19:18:05] INFO root fetch - main [MainThread]: End processing [belvys]: success
+[2023-04-28 19:18:05] INFO root fetch - processPackages [cfn-lint]: executing diffoscope
+[2023-04-28 19:18:05] INFO root fetch - processPackages [cfn-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-lint-1.0.0a2.tar.gz tmp/cfn-lint-1.0.0a3.tar.gz --markdown 20230428/c/cfn-lint/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-04-28 19:18:05] INFO root fetch - processPackages [MyoSuite]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-28 19:18:06] INFO root fetch - processPackages [MyoSuite]: Downloading https://files.pythonhosted.org/packages/98/e1/59decbd13e51ad8c1b6e8014929de90120e9e2e76baab5e553aff593c4d1/MyoSuite-1.4.0.tar.gz
+[2023-04-28 19:18:06] INFO root fetch - processPackages [determined-cli]: Start processing: prepipy
+[2023-04-28 19:18:06] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-04-28 19:18:06] INFO root fetch - main [MainThread]: End processing [staircase-kit]: success
+[2023-04-28 19:18:06] INFO root fetch - processPackages [prepipy]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-28 19:18:06] INFO root fetch - processPackages [MyoSuite]: Downloading https://files.pythonhosted.org/packages/fa/85/f2d5ae1b2842c042847343083848cf2b075b26b0a8b7b9fa441e44008e25/MyoSuite-1.4.1.tar.gz
+[2023-04-28 19:18:06] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/8c/0f/7c0028435aa15b56755ba9abe609814339d7f6afdf30e9f58b0f9071d81f/prepipy-0.6.3.tar.gz
+[2023-04-28 19:18:06] INFO root fetch - processPackages [MyoSuite]: executing diffoscope
+[2023-04-28 19:18:06] INFO root fetch - processPackages [MyoSuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyoSuite-1.4.0.tar.gz tmp/MyoSuite-1.4.1.tar.gz --markdown 20230428/M/MyoSuite/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-28 19:18:06] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-04-28 19:18:06] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/aa/83/9b4bc4f979257fd0aab645b72c15264fad6e0a8afa9ce132abc406cf78e7/prepipy-0.6.4.tar.gz
+[2023-04-28 19:18:06] INFO root fetch - main [MainThread]: End processing [sdss-coordio]: success
+[2023-04-28 19:18:06] INFO root fetch - processPackages [prepipy]: executing diffoscope
+[2023-04-28 19:18:06] INFO root fetch - processPackages [prepipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepipy-0.6.3.tar.gz tmp/prepipy-0.6.4.tar.gz --markdown 20230428/p/prepipy/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-28 19:18:06] INFO root fetch - main [MainThread]: End processing [spiralflow]: success
+[2023-04-28 19:18:07] INFO root fetch - main [MainThread]: End processing [MyoSuite]: success
+[2023-04-28 19:18:08] INFO root fetch - main [MainThread]: End processing [prepipy]: success
+[2023-04-28 19:18:09] INFO root fetch - main [MainThread]: End processing [edb-deployment]: success
+[2023-04-28 19:18:12] INFO root fetch - main [MainThread]: End processing [pelicun]: success
+[2023-04-28 19:18:20] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-28 19:20:01] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
+[2023-04-28 19:20:01] INFO root fetch - main [MainThread]: Store serial: [17901180]
