@@ -2171,3 +2171,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:01:33] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-04-28 03:01:33] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-04-28 03:01:33] INFO root fetch - main [MainThread]: Store serial: [17890938]
+[2023-04-28 03:06:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890938]
+[2023-04-28 03:06:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bytez
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ykenan-fragments
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bytez
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bytez
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mktstructure
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-visualize-lib
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bytez
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 03:06:42] INFO root fetch - processPackages [mktstructure]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.6.tar.gz tmp/bytez-0.1.7.tar.gz --markdown 20230428/b/bytez/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 03:06:42] WARNING root fetch - processPackages [data-visualize-lib]: Skipping, unable to determine old version
+[2023-04-28 03:06:42] INFO root fetch - main [MainThread]: End processing [data-visualize-lib] error
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.6.tar.gz tmp/bytez-0.1.7.tar.gz --markdown 20230428/b/bytez/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.6.tar.gz tmp/bytez-0.1.7.tar.gz --markdown 20230428/b/bytez/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:06:42] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.6.tar.gz tmp/bytez-0.1.7.tar.gz --markdown 20230428/b/bytez/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 03:06:42] INFO root fetch - processPackages [mktstructure]: Downloading https://files.pythonhosted.org/packages/4b/79/d3f2035bd349cd93e57d8df512950be088fd69c4c4d8feec570970730933/mktstructure-0.2.5.tar.gz
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/ae/73/807374843f35a03a3aa1a89bd58405d97ac267fe41b34045f3b2b3977d9f/ykenan_fragments-1.0.0.tar.gz
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/4b/fd/2f1cc14e73a665ec861054f2797264972d46fd6917d94e9c37e8e04c8309/ykenan_fragments-1.0.1.tar.gz
+[2023-04-28 03:06:42] INFO root fetch - processPackages [mktstructure]: Downloading https://files.pythonhosted.org/packages/10/d2/5be9cc3b01cb0843da36fbe769e0adf52f6d16e341bc2ac5083046c2dcbc/mktstructure-0.2.6.tar.gz
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-04-28 03:06:42] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.0.0.tar.gz tmp/ykenan_fragments-1.0.1.tar.gz --markdown 20230428/y/ykenan-fragments/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 03:06:43] INFO root fetch - processPackages [mktstructure]: executing diffoscope
+[2023-04-28 03:06:43] INFO root fetch - processPackages [mktstructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktstructure-0.2.5.tar.gz tmp/mktstructure-0.2.6.tar.gz --markdown 20230428/m/mktstructure/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 03:06:43] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:06:43] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:06:43] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:06:43] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:06:43] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-04-28 03:06:44] INFO root fetch - main [MainThread]: End processing [mktstructure]: success
+[2023-04-28 03:06:44] INFO root fetch - main [MainThread]: Store serial: [17890960]
