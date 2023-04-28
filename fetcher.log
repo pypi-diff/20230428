@@ -4435,3 +4435,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:44:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-04-28 03:44:32] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-04-28 03:44:32] INFO root fetch - main [MainThread]: Store serial: [17892286]
+[2023-04-28 03:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17892286]
+[2023-04-28 03:49:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-django
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-enroll
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyunit-topicmodel
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skeletonkey
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharetop
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: switchbot-utility
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-apl
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tccli
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazytensor
+[2023-04-28 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TkUI
+[2023-04-28 03:49:41] INFO root fetch - processPackages [pyunit-topicmodel]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 03:49:41] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-28 03:49:41] INFO root fetch - processPackages [sharetop]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 03:49:41] WARNING root fetch - processPackages [skeletonkey]: Skipping, unable to determine old version
+[2023-04-28 03:49:41] INFO root fetch - processPackages [TkUI]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 03:49:41] WARNING root fetch - processPackages [lazytensor]: Skipping, unable to determine old version
+[2023-04-28 03:49:41] INFO root fetch - processPackages [skeletonkey]: Start processing: homeassistant-stubs
+[2023-04-28 03:49:41] INFO root fetch - main [MainThread]: End processing [skeletonkey] error
+[2023-04-28 03:49:41] INFO root fetch - processPackages [switchbot-utility]: New version: [0.3.1] Old Version: [0.3]
+[2023-04-28 03:49:41] INFO root fetch - main [MainThread]: End processing [lazytensor] error
+[2023-04-28 03:49:41] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.740] Old Version: [0.0.739]
+[2023-04-28 03:49:41] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:49:41] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-04-28 03:49:41] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.5.0b1] Old Version: [2023.5.0b0]
+[2023-04-28 03:49:41] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-28 03:49:41] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230428/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:49:41] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/be/45/a14cc0322eb851abe76edaf7958d43fbd08c2e1167a461c9937e995ee7c2/sharetop-1.0.0.tar.gz
+[2023-04-28 03:49:41] INFO root fetch - processPackages [pyunit-topicmodel]: Downloading https://files.pythonhosted.org/packages/c8/7f/e124ff53e142a031418d4b959c0a707b9c198382e0e8331f14398878c369/pyunit-topicmodel-1.0.1.tar.gz
+[2023-04-28 03:49:41] INFO root fetch - processPackages [TkUI]: Downloading https://files.pythonhosted.org/packages/d5/f7/27e47517ae66a6f93d77c579a1feac60a7dbf7281e66b8469bc0691680c6/TkUI-0.1.0.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [switchbot-utility]: Downloading https://files.pythonhosted.org/packages/88/36/b61514d74c63a74dbc7195fd755e2bc732780a001936c3c2d192c4f0679d/switchbot_utility-0.3.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/d7/7f/1b062f9d3713e59dbb9185b679791afc09ee0c8f63e46f3392dff20b2638/homeassistant_stubs-2023.5.0b1.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/a0/ab/f67a55896479218793170fdaa829e80cb95b065e0b7662600388fd2d0247/nbdev-apl-0.0.739.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [TkUI]: Downloading https://files.pythonhosted.org/packages/68/29/8e6193db99e08310f28493e38285684d482c141e89ddf775763b34a584c1/TkUI-0.2.0.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230428/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:49:42] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/ad/e6/668eca680231dee82c87a026dc750eac6a065f424fb8bcf3266ce5c4c6ce/sharetop-1.0.1.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230428/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-04-28 03:49:42] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.5.0b0.tar.gz tmp/homeassistant_stubs-2023.5.0b1.tar.gz --markdown 20230428/h/homeassistant-stubs/2023.5.0b0-2023.5.0b1/diff.md --exclude *.pyd
+[2023-04-28 03:49:42] INFO root fetch - processPackages [pyunit-topicmodel]: Downloading https://files.pythonhosted.org/packages/9f/c5/3e205101c59756ddfafa1533310e312b91d64b279eb6d880aef022d9ced1/pyunit-topicmodel-1.0.2.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [TkUI]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [TkUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TkUI-0.1.0.tar.gz tmp/TkUI-0.2.0.tar.gz --markdown 20230428/T/TkUI/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 03:49:42] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/b4/5a/ec5a00e8976b34e7eb22e996097782b07a94d6534b7d6223da431ae5f01a/nbdev-apl-0.0.740.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [switchbot-utility]: Downloading https://files.pythonhosted.org/packages/03/c3/42f5e09b879830cb19640634c63c7b4d9f35779fa9da124632e4ab5a1868/switchbot_utility-0.3.1.tar.gz
+[2023-04-28 03:49:42] INFO root fetch - processPackages [pyunit-topicmodel]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [pyunit-topicmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunit-topicmodel-1.0.1.tar.gz tmp/pyunit-topicmodel-1.0.2.tar.gz --markdown 20230428/p/pyunit-topicmodel/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 03:49:42] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.739.tar.gz tmp/nbdev-apl-0.0.740.tar.gz --markdown 20230428/n/nbdev-apl/0.0.739-0.0.740/diff.md --exclude *.pyd
+[2023-04-28 03:49:42] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-1.0.0.tar.gz tmp/sharetop-1.0.1.tar.gz --markdown 20230428/s/sharetop/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 03:49:42] INFO root fetch - processPackages [switchbot-utility]: executing diffoscope
+[2023-04-28 03:49:42] INFO root fetch - processPackages [switchbot-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchbot_utility-0.3.tar.gz tmp/switchbot_utility-0.3.1.tar.gz --markdown 20230428/s/switchbot-utility/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 03:49:43] INFO root fetch - main [MainThread]: End processing [TkUI]: success
+[2023-04-28 03:49:43] INFO root fetch - main [MainThread]: End processing [pyunit-topicmodel]: success
+[2023-04-28 03:49:43] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-28 03:49:43] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-04-28 03:49:44] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-28 03:49:44] INFO root fetch - main [MainThread]: End processing [switchbot-utility]: success
+[2023-04-28 03:49:47] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-04-28 03:50:01] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-04-28 03:50:28] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-04-28 03:50:28] INFO root fetch - main [MainThread]: Store serial: [17892324]
