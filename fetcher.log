@@ -8590,3 +8590,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:24:15] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2023-04-28 08:24:16] INFO root fetch - main [MainThread]: End processing [robotoff]: success
 [2023-04-28 08:24:16] INFO root fetch - main [MainThread]: Store serial: [17894511]
+[2023-04-28 08:29:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894511]
+[2023-04-28 08:29:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: werpy
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-automation-framework
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ChatLLM
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stockly-python-common
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edge-logger
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twigs
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pelican-touch
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napari-SAM4IS
+[2023-04-28 08:29:25] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230428] Old Version: [20230427]
+[2023-04-28 08:29:25] WARNING root fetch - processPackages [werpy]: Skipping, unable to determine old version
+[2023-04-28 08:29:25] INFO root fetch - main [MainThread]: End processing [werpy] error
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.14.25.57] Old Version: [2023.4.28.12.8.1]
+[2023-04-28 08:29:25] WARNING root fetch - processPackages [stockly-python-common]: Skipping, unable to determine old version
+[2023-04-28 08:29:25] INFO root fetch - processPackages [python-automation-framework]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 08:29:25] INFO root fetch - main [MainThread]: End processing [stockly-python-common] error
+[2023-04-28 08:29:25] INFO root fetch - processPackages [twigs]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-28 08:29:25] WARNING root fetch - processPackages [napari-SAM4IS]: Skipping, unable to determine old version
+[2023-04-28 08:29:25] INFO root fetch - main [MainThread]: End processing [napari-SAM4IS] error
+[2023-04-28 08:29:25] WARNING root fetch - processPackages [pelican-touch]: Skipping, unable to determine old version
+[2023-04-28 08:29:25] INFO root fetch - main [MainThread]: End processing [pelican-touch] error
+[2023-04-28 08:29:25] INFO root fetch - processPackages [edge-logger]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 08:29:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/39/26/b378397d8395b1bde84494459c78a01fb4158937bcb9e7a028ba0b8eeb2c/fake-bpy-module-latest-20230428.tar.gz
+[2023-04-28 08:29:25] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/d4/7e/a2d84d4c7736b57595a2e21c90c36ec559b3b6f5f253c45fec513aca021e/ChatLLM-2023.4.28.14.25.57.tar.gz
+[2023-04-28 08:29:25] INFO root fetch - processPackages [python-automation-framework]: Downloading https://files.pythonhosted.org/packages/fe/ae/dd2306b0f51e37ba155e643bb98c0cba170a5e0e928e26b126f7ab68cc03/python-automation-framework-0.0.3.tar.gz
+[2023-04-28 08:29:26] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/48/d4/68adcc842577341551e4f4268c3f78866b55de0c9e324483d9de1b666386/twigs-1.1.8.tar.gz
+[2023-04-28 08:29:26] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-28 08:29:26] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230427.tar.gz tmp/fake-bpy-module-latest-20230428.tar.gz --markdown 20230428/f/fake-bpy-module-latest/20230427-20230428/diff.md --exclude *.pyd
+[2023-04-28 08:29:26] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 08:29:26] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.12.8.1.tar.gz tmp/ChatLLM-2023.4.28.14.25.57.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.12.8.1-2023.4.28.14.25.57/diff.md --exclude *.pyd
+[2023-04-28 08:29:26] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/3c/c9/52c55e0c02dd3084659651c625f31f96c90bb61bf3b0592023f290327f8a/edge_logger-0.0.5.tar.gz
+[2023-04-28 08:29:26] INFO root fetch - processPackages [python-automation-framework]: Downloading https://files.pythonhosted.org/packages/32/1b/f447d1fd482919ec0afad40156265da115d1696685af3bc5ae7f3130c30d/python-automation-framework-0.0.4.tar.gz
+[2023-04-28 08:29:26] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-04-28 08:29:26] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.4.tar.gz tmp/edge_logger-0.0.5.tar.gz --markdown 20230428/e/edge-logger/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 08:29:26] INFO root fetch - processPackages [python-automation-framework]: executing diffoscope
+[2023-04-28 08:29:26] INFO root fetch - processPackages [python-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-framework-0.0.3.tar.gz tmp/python-automation-framework-0.0.4.tar.gz --markdown 20230428/p/python-automation-framework/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 08:29:26] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/87/16/2f49ac4cac24277167593805bf404e8590aaab1f2e1fa161752ff48a2074/twigs-1.1.9.tar.gz
+[2023-04-28 08:29:26] INFO root fetch - processPackages [twigs]: executing diffoscope
+[2023-04-28 08:29:26] INFO root fetch - processPackages [twigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twigs-1.1.8.tar.gz tmp/twigs-1.1.9.tar.gz --markdown 20230428/t/twigs/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-28 08:29:27] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-04-28 08:29:27] INFO root fetch - main [MainThread]: End processing [python-automation-framework]: success
+[2023-04-28 08:29:28] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 08:29:28] INFO root fetch - main [MainThread]: End processing [twigs]: success
+[2023-04-28 08:29:31] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-28 08:29:31] INFO root fetch - main [MainThread]: Store serial: [17894545]
