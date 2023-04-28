@@ -16014,3 +16014,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 15:48:20] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-04-28 15:48:24] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-04-28 15:48:24] INFO root fetch - main [MainThread]: Store serial: [17898787]
+[2023-04-28 15:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898787]
+[2023-04-28 15:53:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-iris
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmem-cmemc
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qpsolvers
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domino-py
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bw2regional
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bolclient
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docx-word-instance-generator
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swdl
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simulai-toolkit
+[2023-04-28 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: searchcode
+[2023-04-28 15:53:33] INFO root fetch - processPackages [bw2regional]: New version: [0.7.dev1] Old Version: [0.6.dev9]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [cmem-cmemc]: New version: [23.1.1rc1] Old Version: [23.1]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [swdl]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [docx-word-instance-generator]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [cmem-cmemc]: executing diffoscope
+[2023-04-28 15:53:33] INFO root fetch - processPackages [cmem-cmemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmemc-23.1.tar.gz tmp/cmem_cmemc-23.1.1rc1.tar.gz --markdown 20230428/c/cmem-cmemc/23.1-23.1.1rc1/diff.md --exclude *.pyd
+[2023-04-28 15:53:33] INFO root fetch - processPackages [domino-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [qpsolvers]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-04-28 15:53:33] WARNING root fetch - processPackages [searchcode]: Skipping, unable to determine old version
+[2023-04-28 15:53:33] INFO root fetch - processPackages [docx-word-instance-generator]: executing diffoscope
+[2023-04-28 15:53:33] INFO root fetch - processPackages [searchcode]: Start processing: batch-ingestion-client-py
+[2023-04-28 15:53:33] INFO root fetch - main [MainThread]: End processing [searchcode] error
+[2023-04-28 15:53:33] INFO root fetch - processPackages [swdl]: executing diffoscope
+[2023-04-28 15:53:33] INFO root fetch - processPackages [docx-word-instance-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_word_instance_generator-0.7.0-py3-none-any.whl.zip tmp/docx_word_instance_generator-0.8.0-py3-none-any.whl.zip --markdown 20230428/d/docx-word-instance-generator/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 15:53:33] INFO root fetch - processPackages [swdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swdl-1.8.2-py3-none-any.whl.zip tmp/swdl-1.8.3-py3-none-any.whl.zip --markdown 20230428/s/swdl/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-28 15:53:33] INFO root fetch - processPackages [simulai-toolkit]: New version: [0.99.9] Old Version: [0.99.8]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [batch-ingestion-client-py]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 15:53:33] INFO root fetch - processPackages [bw2regional]: executing diffoscope
+[2023-04-28 15:53:33] INFO root fetch - processPackages [bw2regional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2regional-0.6.dev9.tar.gz tmp/bw2regional-0.7.dev1.tar.gz --markdown 20230428/b/bw2regional/0.6.dev9-0.7.dev1/diff.md --exclude *.pyd
+[2023-04-28 15:53:33] INFO root fetch - processPackages [domino-py]: Downloading https://files.pythonhosted.org/packages/ee/a2/5c71cb449c010cc0bd085690456f7d96ba01bc344342058619936b945be1/domino-py-0.1.7.tar.gz
+[2023-04-28 15:53:33] INFO root fetch - processPackages [simulai-toolkit]: Downloading https://files.pythonhosted.org/packages/68/fd/10eb6045a48c23ed6339d03a625af9fa1fbc036a14b601cd56e6d51a9b71/simulai-toolkit-0.99.8.tar.gz
+[2023-04-28 15:53:33] INFO root fetch - processPackages [qpsolvers]: Downloading https://files.pythonhosted.org/packages/73/61/aa0dddde6c2b48606c2a5ffe0065718f18b116fbdce20df2995a8307b584/qpsolvers-3.3.1.tar.gz
+[2023-04-28 15:53:34] INFO root fetch - processPackages [batch-ingestion-client-py]: Downloading https://files.pythonhosted.org/packages/58/ab/2adf797658566e0b854e40f4e33a6e56c6be3f983dcc33cb652ce36a0a16/batch_ingestion_client_py-1.0.2.tar.gz
+[2023-04-28 15:53:34] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-04-28 15:53:34] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.6.tar.gz tmp/domino-py-0.1.7.tar.gz --markdown 20230428/d/domino-py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 15:53:34] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2023-04-28 15:53:34] WARNING root fetch - processPackages [bolclient]: Skipping, unable to determine old version
+[2023-04-28 15:53:34] INFO root fetch - processPackages [bolclient]: Start processing: cylc-uiserver
+[2023-04-28 15:53:34] INFO root fetch - main [MainThread]: End processing [bolclient] error
+[2023-04-28 15:53:34] INFO root fetch - processPackages [cylc-uiserver]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-28 15:53:34] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-04-28 15:53:34] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20230428/s/sqlalchemy-iris/0.8.1b1-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 15:53:34] INFO root fetch - processPackages [qpsolvers]: Downloading https://files.pythonhosted.org/packages/79/f3/c44d088f8e7ef43ba69fd479aede9298c5ab005cf430648662ae48519b32/qpsolvers-3.4.0.tar.gz
+[2023-04-28 15:53:34] INFO root fetch - processPackages [batch-ingestion-client-py]: Downloading https://files.pythonhosted.org/packages/d0/fd/b77c2b3e17ee03fff3b0a9e3742ec0a161e8f88045ad695e539da6e8af60/batch_ingestion_client_py-1.0.3.tar.gz
+[2023-04-28 15:53:34] INFO root fetch - processPackages [qpsolvers]: executing diffoscope
+[2023-04-28 15:53:34] INFO root fetch - processPackages [qpsolvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qpsolvers-3.3.1.tar.gz tmp/qpsolvers-3.4.0.tar.gz --markdown 20230428/q/qpsolvers/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-04-28 15:53:34] INFO root fetch - processPackages [cylc-uiserver]: Downloading https://files.pythonhosted.org/packages/95/c0/598be87d8d0f89cef55f5f42a9b04ba22daf7c5c1afe1ce515c52ae1ef03/cylc-uiserver-1.2.1.tar.gz
+[2023-04-28 15:53:34] INFO root fetch - processPackages [simulai-toolkit]: Downloading https://files.pythonhosted.org/packages/4e/59/d10e5443ca6c8e27098c2fe36431edcce43c24db217cffe69efd19d84f86/simulai-toolkit-0.99.9.tar.gz
+[2023-04-28 15:53:34] INFO root fetch - processPackages [batch-ingestion-client-py]: executing diffoscope
+[2023-04-28 15:53:34] INFO root fetch - processPackages [batch-ingestion-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch_ingestion_client_py-1.0.2.tar.gz tmp/batch_ingestion_client_py-1.0.3.tar.gz --markdown 20230428/b/batch-ingestion-client-py/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 15:53:34] INFO root fetch - processPackages [simulai-toolkit]: executing diffoscope
+[2023-04-28 15:53:34] INFO root fetch - processPackages [simulai-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulai-toolkit-0.99.8.tar.gz tmp/simulai-toolkit-0.99.9.tar.gz --markdown 20230428/s/simulai-toolkit/0.99.8-0.99.9/diff.md --exclude *.pyd
+[2023-04-28 15:53:34] INFO root fetch - processPackages [cylc-uiserver]: Downloading https://files.pythonhosted.org/packages/67/47/45d085003f23abab2b056300ca13f5b1b40e5736bc806eeed9074ac60d21/cylc-uiserver-1.2.2.tar.gz
+[2023-04-28 15:53:34] INFO root fetch - processPackages [docx-word-instance-generator]: Start processing: ramodels
+[2023-04-28 15:53:34] INFO root fetch - main [MainThread]: End processing [docx-word-instance-generator]: success
+[2023-04-28 15:53:34] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-28 15:53:35] INFO root fetch - processPackages [cylc-uiserver]: executing diffoscope
+[2023-04-28 15:53:35] INFO root fetch - processPackages [cylc-uiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylc-uiserver-1.2.1.tar.gz tmp/cylc-uiserver-1.2.2.tar.gz --markdown 20230428/c/cylc-uiserver/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-28 15:53:35] INFO root fetch - processPackages [swdl]: Start processing: dbt-airflow
+[2023-04-28 15:53:35] INFO root fetch - main [MainThread]: End processing [swdl]: success
+[2023-04-28 15:53:35] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-28 15:53:35] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230428/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-28 15:53:35] INFO root fetch - processPackages [dbt-airflow]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-28 15:53:35] INFO root fetch - processPackages [dbt-airflow]: executing diffoscope
+[2023-04-28 15:53:35] INFO root fetch - processPackages [dbt-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_airflow-0.2.0.tar.gz tmp/dbt_airflow-0.3.0.tar.gz --markdown 20230428/d/dbt-airflow/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 15:53:35] INFO root fetch - processPackages [batch-ingestion-client-py]: Start processing: unravel-python
+[2023-04-28 15:53:35] INFO root fetch - main [MainThread]: End processing [batch-ingestion-client-py]: success
+[2023-04-28 15:53:35] INFO root fetch - processPackages [unravel-python]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-28 15:53:35] INFO root fetch - processPackages [unravel-python]: executing diffoscope
+[2023-04-28 15:53:35] INFO root fetch - processPackages [unravel-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unravel-python-1.2.3.tar.gz tmp/unravel-python-1.2.4.tar.gz --markdown 20230428/u/unravel-python/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-28 15:53:35] INFO root fetch - processPackages [sqlalchemy-iris]: Start processing: SQLite3-0611
+[2023-04-28 15:53:35] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-04-28 15:53:36] WARNING root fetch - processPackages [SQLite3-0611]: Skipping, unable to determine old version
+[2023-04-28 15:53:36] INFO root fetch - main [MainThread]: End processing [SQLite3-0611] error
+[2023-04-28 15:53:36] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-28 15:53:36] INFO root fetch - main [MainThread]: End processing [dbt-airflow]: success
+[2023-04-28 15:53:36] INFO root fetch - main [MainThread]: End processing [cmem-cmemc]: success
+[2023-04-28 15:53:36] INFO root fetch - main [MainThread]: End processing [simulai-toolkit]: success
+[2023-04-28 15:53:36] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-04-28 15:53:37] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
+[2023-04-28 15:53:37] INFO root fetch - main [MainThread]: End processing [qpsolvers]: success
+[2023-04-28 15:53:37] INFO root fetch - main [MainThread]: End processing [bw2regional]: success
+[2023-04-28 15:54:00] INFO root fetch - main [MainThread]: End processing [cylc-uiserver]: success
+[2023-04-28 15:54:00] INFO root fetch - main [MainThread]: Store serial: [17898839]
