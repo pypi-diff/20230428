@@ -4038,3 +4038,256 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:28:42] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-geospatial]: success
 [2023-04-28 03:28:42] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iotanalytics]: success
 [2023-04-28 03:28:42] INFO root fetch - main [MainThread]: Store serial: [17891740]
+[2023-04-28 03:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17891740]
+[2023-04-28 03:33:52] INFO root fetch - main [MainThread]: Found 50 changed packages
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-iotanalytics
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-sagemaker-geospatial
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-storagegateway
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-braket
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-inspector2
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rayfed-nightly
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-elbv2
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-lookoutequipment
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-ecs
+[2023-04-28 03:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-elasticache
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-inspector2]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-geospatial]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-braket]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-storagegateway]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-lookoutequipment]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-iotanalytics]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-ecs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-elasticache]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-elbv2]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [rayfed-nightly]: New version: [0.1.0b20230428.dev0] Old Version: [0.1.0b20230422.dev0]
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-geospatial]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-geospatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-geospatial-1.29.98.tar.gz tmp/botocore-a-la-carte-sagemaker-geospatial-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-sagemaker-geospatial/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-iotanalytics]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-iotanalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iotanalytics-1.29.98.tar.gz tmp/botocore-a-la-carte-iotanalytics-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-iotanalytics/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/91/23/d61b110ff9a9f2655d76d55fc135696abb590f089babd554e3f7041ada30/rayfed_nightly-0.1.0b20230422.dev0-py3-none-any.whl
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-braket]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-braket-1.29.98.tar.gz tmp/botocore-a-la-carte-braket-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-braket/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-lookoutequipment]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-lookoutequipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-lookoutequipment-1.29.98.tar.gz tmp/botocore-a-la-carte-lookoutequipment-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-lookoutequipment/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-ecs]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-ecs-1.29.98.tar.gz tmp/botocore-a-la-carte-ecs-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-ecs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-storagegateway]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-storagegateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-storagegateway-1.29.98.tar.gz tmp/botocore-a-la-carte-storagegateway-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-storagegateway/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-elbv2]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-elbv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-elbv2-1.29.98.tar.gz tmp/botocore-a-la-carte-elbv2-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-elbv2/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-elasticache]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-elasticache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-elasticache-1.29.98.tar.gz tmp/botocore-a-la-carte-elasticache-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-elasticache/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-inspector2]: executing diffoscope
+[2023-04-28 03:33:52] INFO root fetch - processPackages [botocore-a-la-carte-inspector2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-inspector2-1.29.98.tar.gz tmp/botocore-a-la-carte-inspector2-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-inspector2/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:53] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/fb/30/4f8ab1d528af8907e191e368c15360b0bc0e618d53dbbc0ce98674396d7c/rayfed_nightly-0.1.0b20230428.dev0-py3-none-any.whl
+[2023-04-28 03:33:53] INFO root fetch - processPackages [rayfed-nightly]: executing diffoscope
+[2023-04-28 03:33:53] INFO root fetch - processPackages [rayfed-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayfed_nightly-0.1.0b20230422.dev0-py3-none-any.whl.zip tmp/rayfed_nightly-0.1.0b20230428.dev0-py3-none-any.whl.zip --markdown 20230428/r/rayfed-nightly/0.1.0b20230422.dev0-0.1.0b20230428.dev0/diff.md --exclude *.pyd
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-geospatial]: Start processing: botocore-a-la-carte-s3control
+[2023-04-28 03:33:54] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-geospatial]: success
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-s3control]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-braket]: Start processing: botocore-a-la-carte-waf
+[2023-04-28 03:33:54] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-braket]: success
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-elbv2]: Start processing: rizzless-guitar-guide
+[2023-04-28 03:33:54] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-elbv2]: success
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-waf]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:54] WARNING root fetch - processPackages [rizzless-guitar-guide]: Skipping, unable to determine old version
+[2023-04-28 03:33:54] INFO root fetch - processPackages [rizzless-guitar-guide]: Start processing: botocore-a-la-carte-personalize-events
+[2023-04-28 03:33:54] INFO root fetch - main [MainThread]: End processing [rizzless-guitar-guide] error
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-inspector2]: Start processing: ddsp
+[2023-04-28 03:33:54] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-inspector2]: success
+[2023-04-28 03:33:54] INFO root fetch - processPackages [ddsp]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-iotanalytics]: Start processing: botocore-a-la-carte-redshift-data
+[2023-04-28 03:33:54] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iotanalytics]: success
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-redshift-data]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-s3control]: executing diffoscope
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-s3control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-s3control-1.29.98.tar.gz tmp/botocore-a-la-carte-s3control-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-s3control/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:54] INFO root fetch - processPackages [rayfed-nightly]: Start processing: botocore-a-la-carte-finspace-data
+[2023-04-28 03:33:54] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:54] INFO root fetch - processPackages [ddsp]: Downloading https://files.pythonhosted.org/packages/90/74/216824411f054c2c845b8932ac2d6c214d9f901f2e30a9bd461059450537/ddsp-3.6.0.tar.gz
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: executing diffoscope
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-personalize-events-1.29.98.tar.gz tmp/botocore-a-la-carte-personalize-events-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-personalize-events/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-waf]: executing diffoscope
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-waf-1.29.98.tar.gz tmp/botocore-a-la-carte-waf-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-waf/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:54] INFO root fetch - processPackages [ddsp]: executing diffoscope
+[2023-04-28 03:33:54] INFO root fetch - processPackages [ddsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddsp-3.5.1.tar.gz tmp/ddsp-3.6.0.tar.gz --markdown 20230428/d/ddsp/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-redshift-data]: executing diffoscope
+[2023-04-28 03:33:54] INFO root fetch - processPackages [botocore-a-la-carte-redshift-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-redshift-data-1.29.98.tar.gz tmp/botocore-a-la-carte-redshift-data-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-redshift-data/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: executing diffoscope
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-finspace-data-1.29.98.tar.gz tmp/botocore-a-la-carte-finspace-data-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-finspace-data/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-lookoutequipment]: Start processing: botocore-a-la-carte-honeycode
+[2023-04-28 03:33:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lookoutequipment]: success
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-storagegateway]: Start processing: botocore-a-la-carte-sso-oidc
+[2023-04-28 03:33:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-storagegateway]: success
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-s3control]: Start processing: botocore-a-la-carte-ce
+[2023-04-28 03:33:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-s3control]: success
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-ce]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: executing diffoscope
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-honeycode-1.29.98.tar.gz tmp/botocore-a-la-carte-honeycode-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-honeycode/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: Start processing: botocore-a-la-carte-marketplace-catalog
+[2023-04-28 03:33:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize-events]: success
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: executing diffoscope
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sso-oidc-1.29.98.tar.gz tmp/botocore-a-la-carte-sso-oidc-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-sso-oidc/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:55] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-catalog]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-ecs]: Start processing: botocore-a-la-carte-autoscaling
+[2023-04-28 03:33:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ecs]: success
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-ce]: executing diffoscope
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-ce-1.29.98.tar.gz tmp/botocore-a-la-carte-ce-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-ce/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-redshift-data]: Start processing: botocore-a-la-carte-apigateway
+[2023-04-28 03:33:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-redshift-data]: success
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-apigateway]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-elasticache]: Start processing: botocore-a-la-carte-connectparticipant
+[2023-04-28 03:33:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-elasticache]: success
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-connectparticipant]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: executing diffoscope
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-autoscaling-1.29.98.tar.gz tmp/botocore-a-la-carte-autoscaling-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-autoscaling/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-catalog]: executing diffoscope
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-marketplace-catalog-1.29.98.tar.gz tmp/botocore-a-la-carte-marketplace-catalog-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-marketplace-catalog/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-apigateway]: executing diffoscope
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-apigateway-1.29.98.tar.gz tmp/botocore-a-la-carte-apigateway-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-apigateway/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-connectparticipant]: executing diffoscope
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-connectparticipant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-connectparticipant-1.29.98.tar.gz tmp/botocore-a-la-carte-connectparticipant-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-connectparticipant/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: Start processing: botocore-a-la-carte-rds-data
+[2023-04-28 03:33:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-finspace-data]: success
+[2023-04-28 03:33:56] INFO root fetch - processPackages [botocore-a-la-carte-rds-data]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Start processing: botocore-a-la-carte-config
+[2023-04-28 03:33:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sso-oidc]: success
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-config]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-waf]: Start processing: botocore-a-la-carte-wisdom
+[2023-04-28 03:33:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-waf]: success
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-rds-data]: executing diffoscope
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-rds-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-rds-data-1.29.98.tar.gz tmp/botocore-a-la-carte-rds-data-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-rds-data/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-config]: executing diffoscope
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-config-1.29.98.tar.gz tmp/botocore-a-la-carte-config-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-config/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: executing diffoscope
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-wisdom-1.29.98.tar.gz tmp/botocore-a-la-carte-wisdom-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-wisdom/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-catalog]: Start processing: botocore-a-la-carte-workdocs
+[2023-04-28 03:33:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-marketplace-catalog]: success
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-workdocs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: Start processing: botocore-a-la-carte-connect-contact-lens
+[2023-04-28 03:33:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-honeycode]: success
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-apigateway]: Start processing: botocore-a-la-carte-outposts
+[2023-04-28 03:33:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-apigateway]: success
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:57] INFO root fetch - processPackages [botocore-a-la-carte-connectparticipant]: Start processing: botocore-a-la-carte-athena
+[2023-04-28 03:33:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-connectparticipant]: success
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-athena]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-workdocs]: executing diffoscope
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-workdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-workdocs-1.29.98.tar.gz tmp/botocore-a-la-carte-workdocs-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-workdocs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: executing diffoscope
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-connect-contact-lens-1.29.98.tar.gz tmp/botocore-a-la-carte-connect-contact-lens-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-connect-contact-lens/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: executing diffoscope
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-outposts-1.29.98.tar.gz tmp/botocore-a-la-carte-outposts-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-outposts/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:58] INFO root fetch - processPackages [ddsp]: Start processing: botocore-a-la-carte-sagemaker-featurestore-runtime
+[2023-04-28 03:33:58] INFO root fetch - main [MainThread]: End processing [ddsp]: success
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-athena]: executing diffoscope
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-athena-1.29.98.tar.gz tmp/botocore-a-la-carte-athena-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-athena/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: Start processing: botocore-a-la-carte-kendra
+[2023-04-28 03:33:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-autoscaling]: success
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-rds-data]: Start processing: botocore-a-la-carte-mwaa
+[2023-04-28 03:33:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-rds-data]: success
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: executing diffoscope
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.98.tar.gz tmp/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-sagemaker-featurestore-runtime/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-config]: Start processing: botocore-a-la-carte-elastic-inference
+[2023-04-28 03:33:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-config]: success
+[2023-04-28 03:33:58] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-ce]: Start processing: botocore-a-la-carte-docdb-elastic
+[2023-04-28 03:33:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ce]: success
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: executing diffoscope
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kendra-1.29.98.tar.gz tmp/botocore-a-la-carte-kendra-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-kendra/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Start processing: botocore-a-la-carte-managedblockchain
+[2023-04-28 03:33:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-wisdom]: success
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: executing diffoscope
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mwaa-1.29.98.tar.gz tmp/botocore-a-la-carte-mwaa-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-mwaa/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: executing diffoscope
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-elastic-inference-1.29.98.tar.gz tmp/botocore-a-la-carte-elastic-inference-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-elastic-inference/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: executing diffoscope
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-docdb-elastic-1.29.98.tar.gz tmp/botocore-a-la-carte-docdb-elastic-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-docdb-elastic/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: executing diffoscope
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-managedblockchain-1.29.98.tar.gz tmp/botocore-a-la-carte-managedblockchain-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-managedblockchain/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Start processing: botocore-a-la-carte-kendra-ranking
+[2023-04-28 03:33:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-outposts]: success
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-kendra-ranking]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Start processing: botocore-a-la-carte-dataexchange
+[2023-04-28 03:33:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-athena]: success
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-dataexchange]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: Start processing: botocore-a-la-carte-securitylake
+[2023-04-28 03:33:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-connect-contact-lens]: success
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-securitylake]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-dataexchange]: executing diffoscope
+[2023-04-28 03:33:59] INFO root fetch - processPackages [botocore-a-la-carte-dataexchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-dataexchange-1.29.98.tar.gz tmp/botocore-a-la-carte-dataexchange-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-dataexchange/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-workdocs]: Start processing: botocore-a-la-carte-kinesis-video-archived-media
+[2023-04-28 03:34:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-workdocs]: success
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-archived-media]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-kendra-ranking]: executing diffoscope
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-kendra-ranking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kendra-ranking-1.29.98.tar.gz tmp/botocore-a-la-carte-kendra-ranking-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-kendra-ranking/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-securitylake]: executing diffoscope
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-securitylake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-securitylake-1.29.98.tar.gz tmp/botocore-a-la-carte-securitylake-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-securitylake/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: Start processing: botocore-a-la-carte-inspector
+[2023-04-28 03:34:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-featurestore-runtime]: success
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-inspector]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-archived-media]: executing diffoscope
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-archived-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kinesis-video-archived-media-1.29.98.tar.gz tmp/botocore-a-la-carte-kinesis-video-archived-media-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-kinesis-video-archived-media/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: Start processing: docmaptools
+[2023-04-28 03:34:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-elastic-inference]: success
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-inspector]: executing diffoscope
+[2023-04-28 03:34:00] INFO root fetch - processPackages [botocore-a-la-carte-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-inspector-1.29.98.tar.gz tmp/botocore-a-la-carte-inspector-1.29.99.tar.gz --markdown 20230428/b/botocore-a-la-carte-inspector/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 03:34:00] INFO root fetch - processPackages [docmaptools]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-28 03:34:01] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Start processing: simplechain
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-managedblockchain]: success
+[2023-04-28 03:34:01] INFO root fetch - processPackages [simplechain]: New version: [0.0.4.1] Old Version: [0.0.4]
+[2023-04-28 03:34:01] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/eb/88/da3bfa087fedb4cdda88deb77e3caa86d68baf0c29b58ef755c7415d96d3/docmaptools-0.6.0.tar.gz
+[2023-04-28 03:34:01] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: Start processing: loggerml
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mwaa]: success
+[2023-04-28 03:34:01] INFO root fetch - processPackages [loggerml]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-04-28 03:34:01] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/04/12/13cd83371aec36a27559a881f4d0368a67a7db8e060980502cd338422ced/simplechain-0.0.4.1.tar.gz
+[2023-04-28 03:34:01] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/ef/64/d54420f16e93103f9f9beeac65ea8d29097a8d41d5b2d376a54e5e837087/loggerml-0.2.2.tar.gz
+[2023-04-28 03:34:01] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Start processing: cdk-wordpress
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-docdb-elastic]: success
+[2023-04-28 03:34:01] INFO root fetch - processPackages [simplechain]: executing diffoscope
+[2023-04-28 03:34:01] INFO root fetch - processPackages [simplechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplechain-0.0.4.tar.gz tmp/simplechain-0.0.4.1.tar.gz --markdown 20230428/s/simplechain/0.0.4-0.0.4.1/diff.md --exclude *.pyd
+[2023-04-28 03:34:01] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:34:01] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/91/9d/f0d912dfc629fd0f2ffcd64869cd891f4f47af0aa3ddeeb1a2253c1f178c/docmaptools-0.7.0.tar.gz
+[2023-04-28 03:34:01] INFO root fetch - processPackages [botocore-a-la-carte-kendra-ranking]: Start processing: pyspimosim
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kendra-ranking]: success
+[2023-04-28 03:34:01] WARNING root fetch - processPackages [pyspimosim]: Skipping, unable to determine old version
+[2023-04-28 03:34:01] INFO root fetch - processPackages [pyspimosim]: Start processing: promptlytics
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [pyspimosim] error
+[2023-04-28 03:34:01] WARNING root fetch - processPackages [promptlytics]: Skipping, unable to determine old version
+[2023-04-28 03:34:01] INFO root fetch - processPackages [promptlytics]: Start processing: SaGaF-Email
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [promptlytics] error
+[2023-04-28 03:34:01] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-04-28 03:34:01] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230428/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:34:01] WARNING root fetch - processPackages [SaGaF-Email]: Skipping, unable to determine old version
+[2023-04-28 03:34:01] INFO root fetch - processPackages [SaGaF-Email]: Start processing: nbdev-stdlib
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [SaGaF-Email] error
+[2023-04-28 03:34:01] INFO root fetch - processPackages [docmaptools]: executing diffoscope
+[2023-04-28 03:34:01] INFO root fetch - processPackages [docmaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmaptools-0.6.0.tar.gz tmp/docmaptools-0.7.0.tar.gz --markdown 20230428/d/docmaptools/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 03:34:01] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-securitylake]: success
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-dataexchange]: success
+[2023-04-28 03:34:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kendra]: success
+[2023-04-28 03:34:01] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-28 03:34:01] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230428/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:34:01] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/a2/e7/fab0c8245c5ec05a8714b98ef4e96aecd4ff4fbf13f35bae32217283914e/loggerml-0.2.4.tar.gz
+[2023-04-28 03:34:02] INFO root fetch - processPackages [loggerml]: executing diffoscope
+[2023-04-28 03:34:02] INFO root fetch - processPackages [loggerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerml-0.2.2.tar.gz tmp/loggerml-0.2.4.tar.gz --markdown 20230428/l/loggerml/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 03:34:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kinesis-video-archived-media]: success
+[2023-04-28 03:34:02] INFO root fetch - main [MainThread]: End processing [simplechain]: success
+[2023-04-28 03:34:02] INFO root fetch - main [MainThread]: End processing [docmaptools]: success
+[2023-04-28 03:34:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-inspector]: success
+[2023-04-28 03:34:02] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-28 03:34:02] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-04-28 03:34:03] INFO root fetch - main [MainThread]: End processing [loggerml]: success
+[2023-04-28 03:34:03] INFO root fetch - main [MainThread]: Store serial: [17891998]
