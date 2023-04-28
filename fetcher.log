@@ -11839,3 +11839,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 11:50:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-carrier-label-batch]: success
 [2023-04-28 11:50:48] INFO root fetch - main [MainThread]: End processing [one-eval]: success
 [2023-04-28 11:50:48] INFO root fetch - main [MainThread]: Store serial: [17896293]
+[2023-04-28 11:55:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896293]
+[2023-04-28 11:55:57] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qutewindow
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kojo
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decanter-ai-sdk
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: githubkit
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: one-eval
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glview
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nip-config
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vidimera
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipython
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: projen
+[2023-04-28 11:55:57] WARNING root fetch - processPackages [vidimera]: Skipping, unable to determine old version
+[2023-04-28 11:55:57] INFO root fetch - processPackages [vidimera]: Start processing: datasets
+[2023-04-28 11:55:57] INFO root fetch - main [MainThread]: End processing [vidimera] error
+[2023-04-28 11:55:57] INFO root fetch - processPackages [decanter-ai-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [one-eval]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [qutewindow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [kojo]: New version: [0.14.0] Old Version: [0.13.2]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [githubkit]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [nip-config]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [glview]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ipython]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [datasets]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-28 11:55:57] INFO root fetch - processPackages [qutewindow]: executing diffoscope
+[2023-04-28 11:55:57] INFO root fetch - processPackages [qutewindow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qutewindow-0.1.8.tar.gz tmp/qutewindow-0.1.9.tar.gz --markdown 20230428/q/qutewindow/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 11:55:57] INFO root fetch - processPackages [one-eval]: Downloading https://files.pythonhosted.org/packages/e3/47/f2b3190a8af9869f70f177abe83507819b5b29014deaf1c967078438599e/one-eval-0.1.2.tar.gz
+[2023-04-28 11:55:57] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/f5/39/89664d8c3e4dfb0a73862cbbff8eb4028a1e3d4305da80ab0a493848ed9b/ipython-8.8.0.tar.gz
+[2023-04-28 11:55:57] INFO root fetch - processPackages [decanter-ai-sdk]: executing diffoscope
+[2023-04-28 11:55:57] INFO root fetch - processPackages [decanter-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decanter-ai-sdk-0.1.8.tar.gz tmp/decanter-ai-sdk-0.1.9.tar.gz --markdown 20230428/d/decanter-ai-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 11:55:57] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-28 11:55:57] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230428/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-28 11:55:57] INFO root fetch - processPackages [githubkit]: Downloading https://files.pythonhosted.org/packages/8b/9d/d23a08b3bbfb5e6957ab990102aa9b2a70d454c91836714bc9f41b541616/githubkit-0.9.7.tar.gz
+[2023-04-28 11:55:57] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/ce/ba/2ed94e21dd2d425ebd185a2f5ea6cc63b48c145a374b161c7eb274d76229/datasets-2.8.0.tar.gz
+[2023-04-28 11:55:57] INFO root fetch - processPackages [nip-config]: Downloading https://files.pythonhosted.org/packages/b4/ac/ff17bda3302f9fc055f91a2bc31ffb86f253125d552a6076e436b42d4e1c/nip-config-0.9.2.tar.gz
+[2023-04-28 11:55:57] INFO root fetch - processPackages [glview]: Downloading https://files.pythonhosted.org/packages/31/ba/2d6574cbd9a366c574d8e1ff58db2a565f7912eb002c77de2171dd6fe6a7/glview-1.5.3.tar.gz
+[2023-04-28 11:55:57] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/88/b3/fc7973f5a24f582b68b46f8ecda2808cedaa9739c6dad3b79eeffc9df294/kojo-0.13.2.tar.gz
+[2023-04-28 11:55:57] INFO root fetch - processPackages [one-eval]: executing diffoscope
+[2023-04-28 11:55:57] INFO root fetch - processPackages [one-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-eval-0.1.1.tar.gz tmp/one-eval-0.1.2.tar.gz --markdown 20230428/o/one-eval/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 11:55:57] INFO root fetch - processPackages [nip-config]: executing diffoscope
+[2023-04-28 11:55:57] INFO root fetch - processPackages [nip-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nip-config-0.9.1.tar.gz tmp/nip-config-0.9.2.tar.gz --markdown 20230428/n/nip-config/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-28 11:55:58] INFO root fetch - processPackages [glview]: executing diffoscope
+[2023-04-28 11:55:58] INFO root fetch - processPackages [glview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glview-1.5.2.tar.gz tmp/glview-1.5.3.tar.gz --markdown 20230428/g/glview/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-04-28 11:55:58] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/6d/50/24470b9f3f62666991ddd3bd3238e3a286b55298813ce05f9eb592888abf/kojo-0.14.0.tar.gz
+[2023-04-28 11:55:58] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/f6/d0/ccd1c9148fe300a069b42a8701fe9f1cb9a22c056d449c96ef5d546e18aa/datasets-2.9.0.tar.gz
+[2023-04-28 11:55:58] INFO root fetch - processPackages [kojo]: executing diffoscope
+[2023-04-28 11:55:58] INFO root fetch - processPackages [kojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojo-0.13.2.tar.gz tmp/kojo-0.14.0.tar.gz --markdown 20230428/k/kojo/0.13.2-0.14.0/diff.md --exclude *.pyd
+[2023-04-28 11:55:58] INFO root fetch - processPackages [datasets]: executing diffoscope
+[2023-04-28 11:55:58] INFO root fetch - processPackages [datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets-2.8.0.tar.gz tmp/datasets-2.9.0.tar.gz --markdown 20230428/d/datasets/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-28 11:55:58] INFO root fetch - processPackages [githubkit]: Downloading https://files.pythonhosted.org/packages/95/26/a95dcdc4df01641aafe3b6d5740fc26929aa7e5a5105dc8678b50783c7aa/githubkit-0.9.8.tar.gz
+[2023-04-28 11:55:58] INFO root fetch - processPackages [githubkit]: executing diffoscope
+[2023-04-28 11:55:58] INFO root fetch - processPackages [githubkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githubkit-0.9.7.tar.gz tmp/githubkit-0.9.8.tar.gz --markdown 20230428/g/githubkit/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-28 11:55:58] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/2a/48/7a2caa38a3103d18725fc809a379a4c8047b304d0731fde5f7c4bbf6bbe9/ipython-8.9.0.tar.gz
+[2023-04-28 11:55:59] INFO root fetch - processPackages [qutewindow]: Start processing: csvcubed
+[2023-04-28 11:55:59] INFO root fetch - main [MainThread]: End processing [qutewindow]: success
+[2023-04-28 11:55:59] INFO root fetch - processPackages [csvcubed]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-28 11:55:59] INFO root fetch - processPackages [glview]: Start processing: hyperfast-python-template
+[2023-04-28 11:55:59] INFO root fetch - main [MainThread]: End processing [glview]: success
+[2023-04-28 11:55:59] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-28 11:55:59] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-28 11:55:59] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.1.tar.gz tmp/hyperfast_python_template-0.4.2.tar.gz --markdown 20230428/h/hyperfast-python-template/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-28 11:55:59] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/fb/0d/59ac0f704e2938ab9c46c65491b757a8bf85d4a7909a4c85cb367a09edce/csvcubed-0.4.0-py3-none-any.whl
+[2023-04-28 11:55:59] INFO root fetch - processPackages [one-eval]: Start processing: schoolware-api
+[2023-04-28 11:55:59] INFO root fetch - main [MainThread]: End processing [one-eval]: success
+[2023-04-28 11:55:59] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 11:55:59] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-04-28 11:55:59] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.2.tar.gz tmp/schoolware_api-1.0.3.tar.gz --markdown 20230428/s/schoolware-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 11:55:59] INFO root fetch - processPackages [kojo]: Start processing: camerahub-tagger
+[2023-04-28 11:55:59] INFO root fetch - main [MainThread]: End processing [kojo]: success
+[2023-04-28 11:55:59] INFO root fetch - processPackages [camerahub-tagger]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-04-28 11:55:59] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/c5/34/8f0c4f0d9846323dcc0704d249502a74f5afa169674fbeb79096a32ec0d8/csvcubed-0.4.1-py3-none-any.whl
+[2023-04-28 11:55:59] INFO root fetch - processPackages [nip-config]: Start processing: lbt-honeybee
+[2023-04-28 11:55:59] INFO root fetch - main [MainThread]: End processing [nip-config]: success
+[2023-04-28 11:55:59] INFO root fetch - processPackages [csvcubed]: executing diffoscope
+[2023-04-28 11:55:59] INFO root fetch - processPackages [csvcubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvcubed-0.4.0-py3-none-any.whl.zip tmp/csvcubed-0.4.1-py3-none-any.whl.zip --markdown 20230428/c/csvcubed/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 11:55:59] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-28 11:55:59] INFO root fetch - processPackages [camerahub-tagger]: Downloading https://files.pythonhosted.org/packages/69/fd/92830438c337fe9756254f664e51177c46a9a12a6645e01d9dc5813d5244/camerahub_tagger-0.3.0.tar.gz
+[2023-04-28 11:56:00] INFO root fetch - processPackages [ipython]: executing diffoscope
+[2023-04-28 11:56:00] INFO root fetch - processPackages [ipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-8.8.0.tar.gz tmp/ipython-8.9.0.tar.gz --markdown 20230428/i/ipython/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-04-28 11:56:00] INFO root fetch - processPackages [decanter-ai-sdk]: Start processing: shift-left-secure
+[2023-04-28 11:56:00] INFO root fetch - main [MainThread]: End processing [decanter-ai-sdk]: success
+[2023-04-28 11:56:00] INFO root fetch - processPackages [projen]: Start processing: jupyterhub-backendspawner
+[2023-04-28 11:56:00] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-28 11:56:00] INFO root fetch - processPackages [camerahub-tagger]: executing diffoscope
+[2023-04-28 11:56:00] INFO root fetch - processPackages [camerahub-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub_tagger-0.2.4.tar.gz tmp/camerahub_tagger-0.3.0.tar.gz --markdown 20230428/c/camerahub-tagger/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 11:56:00] INFO root fetch - processPackages [shift-left-secure]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-28 11:56:00] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-04-28 11:56:00] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230428/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-28 11:56:00] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-28 11:56:00] INFO root fetch - processPackages [shift-left-secure]: Downloading https://files.pythonhosted.org/packages/1b/b5/1c8558a3eb93b3cfa2093bf166b77cfe42dc044ef89dc933cb08e4a71872/shift_left_secure-0.1.2.tar.gz
+[2023-04-28 11:56:00] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/c2/ac/aad66bd3f87322b21ef174a5bf97fa930d7f76b9e7f0181e3814889d14c1/jupyterhub-backendspawner-0.1.7.tar.gz
+[2023-04-28 11:56:00] INFO root fetch - processPackages [shift-left-secure]: Downloading https://files.pythonhosted.org/packages/0e/de/cd5fe67bacbfb37c4a6cd4a9651bfa191a239881edd04ff190e259d73065/shift_left_secure-0.2.0.tar.gz
+[2023-04-28 11:56:00] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/64/17/fc259a0fb3a24e2d31e81d685c296c8b77832749914868d79d9c8d13826d/jupyterhub-backendspawner-0.1.8.tar.gz
+[2023-04-28 11:56:00] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-28 11:56:00] INFO root fetch - processPackages [shift-left-secure]: executing diffoscope
+[2023-04-28 11:56:00] INFO root fetch - processPackages [shift-left-secure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shift_left_secure-0.1.2.tar.gz tmp/shift_left_secure-0.2.0.tar.gz --markdown 20230428/s/shift-left-secure/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 11:56:00] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-04-28 11:56:00] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.1.7.tar.gz tmp/jupyterhub-backendspawner-0.1.8.tar.gz --markdown 20230428/j/jupyterhub-backendspawner/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-28 11:56:00] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-04-28 11:56:01] INFO root fetch - main [MainThread]: End processing [datasets]: success
+[2023-04-28 11:56:01] INFO root fetch - main [MainThread]: End processing [camerahub-tagger]: success
+[2023-04-28 11:56:01] INFO root fetch - main [MainThread]: End processing [githubkit]: success
+[2023-04-28 11:56:01] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-04-28 11:56:01] INFO root fetch - main [MainThread]: End processing [shift-left-secure]: success
+[2023-04-28 11:56:01] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-04-28 11:56:02] INFO root fetch - main [MainThread]: End processing [csvcubed]: success
+[2023-04-28 11:56:07] INFO root fetch - main [MainThread]: End processing [ipython]: success
+[2023-04-28 11:56:07] INFO root fetch - main [MainThread]: Store serial: [17896349]
