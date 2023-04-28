@@ -2088,3 +2088,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-04-28 02:56:19] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-04-28 02:56:19] INFO root fetch - main [MainThread]: Store serial: [17890850]
+[2023-04-28 03:01:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890850]
+[2023-04-28 03:01:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: string2string
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-fal
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-wget
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zkt
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinhala-subtitles
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MGSurvE
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aemcmc-nightly
+[2023-04-28 03:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cchenutils
+[2023-04-28 03:01:29] INFO root fetch - processPackages [string2string]: New version: [0.0.3.2.141] Old Version: [0.0.3.2.140]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 03:01:29] WARNING root fetch - processPackages [sinhala-subtitles]: Skipping, unable to determine old version
+[2023-04-28 03:01:29] INFO root fetch - processPackages [sinhala-subtitles]: Start processing: bytez
+[2023-04-28 03:01:29] INFO root fetch - main [MainThread]: End processing [sinhala-subtitles] error
+[2023-04-28 03:01:29] INFO root fetch - processPackages [dbt-fal]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [zkt]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [string2string]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [string2string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string2string-0.0.3.2.140.tar.gz tmp/string2string-0.0.3.2.141.tar.gz --markdown 20230428/s/string2string/0.0.3.2.140-0.0.3.2.141/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cchenutils]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [MGSurvE]: New version: [0.9.0.0] Old Version: [0.8.1.0]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230428] Old Version: [0.0.8.dev20230427]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [bytez]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 03:01:29] INFO root fetch - processPackages [dbt-fal]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [dbt-fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fal-1.4.7.tar.gz tmp/dbt-fal-1.4.8.tar.gz --markdown 20230428/d/dbt-fal/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [zkt]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [zkt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zkt-1.0.0.tar.gz tmp/zkt-1.0.1.tar.gz --markdown 20230428/z/zkt/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cchenutils]: Downloading https://files.pythonhosted.org/packages/ad/78/47f2cf5dd44751cc1834c96303a4063071b8784a987424a0ddfde7120c8b/cchenutils-0.6.2-py3-none-any.whl
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230428/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230428/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/d4/1a/9d015f31253c4ba8293de5d0363c858fe556acf1e05c384e1baaf3ad49b6/bytez-0.1.6.tar.gz
+[2023-04-28 03:01:29] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/4d/fd/bd39a909eb49f6efff4b36b3b9f5f30e972fe1c3c269179ca9af3b2f0fb4/aemcmc-nightly-0.0.8.dev20230428.tar.gz
+[2023-04-28 03:01:29] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/29/91/3686781ca7ff57de5264cfde561b359585e0e710dbff9fc91fa873e6b36c/MGSurvE-0.9.0.0.tar.gz
+[2023-04-28 03:01:29] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230427.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230428.tar.gz --markdown 20230428/a/aemcmc-nightly/0.0.8.dev20230427-0.0.8.dev20230428/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230428/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cchenutils]: Downloading https://files.pythonhosted.org/packages/5d/8d/9bc3ee515eedb339d18181bfd8bf14b0f886dfafbd71cafb699bdf8127bb/cchenutils-0.6.3-py3-none-any.whl
+[2023-04-28 03:01:29] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/ef/41/ea280587babe9f0387ac71b22a6b8b17170e87ff7e3865ec66123c1c0478/bytez-0.1.7.tar.gz
+[2023-04-28 03:01:29] INFO root fetch - processPackages [MGSurvE]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [MGSurvE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MGSurvE-0.8.1.0.tar.gz tmp/MGSurvE-0.9.0.0.tar.gz --markdown 20230428/M/MGSurvE/0.8.1.0-0.9.0.0/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cchenutils]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [cchenutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cchenutils-0.6.2-py3-none-any.whl.zip tmp/cchenutils-0.6.3-py3-none-any.whl.zip --markdown 20230428/c/cchenutils/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-28 03:01:29] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:01:29] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.6.tar.gz tmp/bytez-0.1.7.tar.gz --markdown 20230428/b/bytez/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 03:01:30] INFO root fetch - processPackages [zkt]: Start processing: seas
+[2023-04-28 03:01:30] INFO root fetch - main [MainThread]: End processing [zkt]: success
+[2023-04-28 03:01:30] INFO root fetch - processPackages [seas]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 03:01:30] INFO root fetch - processPackages [string2string]: Start processing: structure-py
+[2023-04-28 03:01:30] INFO root fetch - main [MainThread]: End processing [string2string]: success
+[2023-04-28 03:01:30] INFO root fetch - processPackages [structure-py]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-28 03:01:30] INFO root fetch - processPackages [seas]: executing diffoscope
+[2023-04-28 03:01:30] INFO root fetch - processPackages [seas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seas-0.0.2.tar.gz tmp/seas-0.0.3.tar.gz --markdown 20230428/s/seas/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 03:01:31] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Start processing: dinohub-seedwork-be
+[2023-04-28 03:01:31] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-04-28 03:01:31] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 03:01:31] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-28 03:01:31] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230428/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 03:01:31] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: cdk-lambda-layer-curl
+[2023-04-28 03:01:31] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-04-28 03:01:31] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/cc/21/c6493ccfc96f755a8f8298ef062cd0bdce27efd546d8db97109fe39bb8d0/structure_py-0.5.0.tar.gz
+[2023-04-28 03:01:31] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:01:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 03:01:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-04-28 03:01:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230428/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:01:31] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-04-28 03:01:31] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.4.0.tar.gz tmp/structure_py-0.5.0.tar.gz --markdown 20230428/s/structure-py/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-28 03:01:31] INFO root fetch - main [MainThread]: End processing [dbt-fal]: success
+[2023-04-28 03:01:31] INFO root fetch - main [MainThread]: End processing [MGSurvE]: success
+[2023-04-28 03:01:31] INFO root fetch - main [MainThread]: End processing [cchenutils]: success
+[2023-04-28 03:01:31] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-04-28 03:01:32] INFO root fetch - main [MainThread]: End processing [seas]: success
+[2023-04-28 03:01:32] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-04-28 03:01:32] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-28 03:01:33] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-04-28 03:01:33] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-28 03:01:33] INFO root fetch - main [MainThread]: Store serial: [17890938]
