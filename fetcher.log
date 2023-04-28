@@ -4291,3 +4291,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:34:02] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2023-04-28 03:34:03] INFO root fetch - main [MainThread]: End processing [loggerml]: success
 [2023-04-28 03:34:03] INFO root fetch - main [MainThread]: Store serial: [17891998]
+[2023-04-28 03:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17891998]
+[2023-04-28 03:39:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplechain
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luckyun-nacos
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmbda-fastapi
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfredapi
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pandas
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-xmodules
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docts
+[2023-04-28 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loggerml
+[2023-04-28 03:39:12] INFO root fetch - processPackages [llmbda-fastapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 03:39:12] INFO root fetch - processPackages [pyfredapi]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-28 03:39:12] INFO root fetch - processPackages [simplechain]: New version: [0.0.5] Old Version: [0.0.4.1]
+[2023-04-28 03:39:12] WARNING root fetch - processPackages [luckyun-nacos]: Skipping, unable to determine old version
+[2023-04-28 03:39:12] INFO root fetch - main [MainThread]: End processing [luckyun-nacos] error
+[2023-04-28 03:39:12] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 03:39:12] INFO root fetch - processPackages [loggerml]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-04-28 03:39:12] INFO root fetch - processPackages [docts]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 03:39:12] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:39:12] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:39:12] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-04-28 03:39:12] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230428/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 03:39:12] INFO root fetch - processPackages [pyfredapi]: Downloading https://files.pythonhosted.org/packages/0f/be/a3fe23977bf30c7339efb3a0783b920a7269c1756eb53b941d365354fdbe/pyfredapi-0.6.0.tar.gz
+[2023-04-28 03:39:12] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-28 03:39:12] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230428/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:39:12] INFO root fetch - processPackages [loggerml]: executing diffoscope
+[2023-04-28 03:39:12] INFO root fetch - processPackages [loggerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerml-0.2.2.tar.gz tmp/loggerml-0.2.4.tar.gz --markdown 20230428/l/loggerml/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 03:39:12] INFO root fetch - processPackages [llmbda-fastapi]: Downloading https://files.pythonhosted.org/packages/b9/97/eeb159e777bf1963f3e31ba262051236554cb9bbb25b8d01826cd3dc5307/llmbda_fastapi-0.0.8.tar.gz
+[2023-04-28 03:39:12] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/6e/53/9021dc34e03c983c3101429b5d0e9955eee0146d6af64a8b43df3c06cb6a/simplechain-0.0.5.tar.gz
+[2023-04-28 03:39:12] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-28 03:39:12] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230428/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:39:12] INFO root fetch - processPackages [docts]: Downloading https://files.pythonhosted.org/packages/02/77/f97594c13bf690ef290028b79fbaf949daedc8c03ea08b9b9ea6fe569ddf/docts-0.2.3.tar.gz
+[2023-04-28 03:39:12] INFO root fetch - processPackages [simplechain]: executing diffoscope
+[2023-04-28 03:39:12] INFO root fetch - processPackages [simplechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplechain-0.0.4.1.tar.gz tmp/simplechain-0.0.5.tar.gz --markdown 20230428/s/simplechain/0.0.4.1-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 03:39:12] INFO root fetch - processPackages [docts]: executing diffoscope
+[2023-04-28 03:39:12] INFO root fetch - processPackages [docts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docts-0.2.2.tar.gz tmp/docts-0.2.3.tar.gz --markdown 20230428/d/docts/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 03:39:12] INFO root fetch - processPackages [llmbda-fastapi]: executing diffoscope
+[2023-04-28 03:39:12] INFO root fetch - processPackages [llmbda-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmbda_fastapi-0.0.7.tar.gz tmp/llmbda_fastapi-0.0.8.tar.gz --markdown 20230428/l/llmbda-fastapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 03:39:13] INFO root fetch - processPackages [pyfredapi]: Downloading https://files.pythonhosted.org/packages/b3/7b/5ff102a154996bf643ef79e1c10db29104dbd5143c871b3552427ee9ce79/pyfredapi-0.7.0.tar.gz
+[2023-04-28 03:39:13] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-28 03:39:13] INFO root fetch - main [MainThread]: End processing [simplechain]: success
+[2023-04-28 03:39:14] INFO root fetch - main [MainThread]: End processing [docts]: success
+[2023-04-28 03:39:14] INFO root fetch - main [MainThread]: End processing [loggerml]: success
+[2023-04-28 03:39:14] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-04-28 03:39:14] INFO root fetch - main [MainThread]: End processing [llmbda-fastapi]: success
+[2023-04-28 03:39:14] INFO root fetch - processPackages [pyfredapi]: executing diffoscope
+[2023-04-28 03:39:14] INFO root fetch - processPackages [pyfredapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfredapi-0.6.0.tar.gz tmp/pyfredapi-0.7.0.tar.gz --markdown 20230428/p/pyfredapi/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 03:39:14] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-28 03:39:18] INFO root fetch - main [MainThread]: End processing [pyfredapi]: success
+[2023-04-28 03:39:18] INFO root fetch - main [MainThread]: Store serial: [17892211]
