@@ -9383,3 +9383,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:23:47] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-04-28 09:23:47] INFO root fetch - main [MainThread]: End processing [rils-rols]: success
 [2023-04-28 09:23:47] INFO root fetch - main [MainThread]: Store serial: [17894968]
+[2023-04-28 09:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894968]
+[2023-04-28 09:28:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmdouglass-udesigner
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kgcnn
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangoldp-needle
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SDTcloud
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zoomaker
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kgcnn
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rils-rols
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ipghrms-log
+[2023-04-28 09:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: injective-py
+[2023-04-28 09:28:57] INFO root fetch - processPackages [djangoldp-needle]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-04-28 09:28:57] WARNING root fetch - processPackages [kmdouglass-udesigner]: Skipping, unable to determine old version
+[2023-04-28 09:28:57] INFO root fetch - main [MainThread]: End processing [kmdouglass-udesigner] error
+[2023-04-28 09:28:57] INFO root fetch - processPackages [zoomaker]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-28 09:28:57] INFO root fetch - processPackages [kgcnn]: New version: [3.0.0] Old Version: [2.2.4]
+[2023-04-28 09:28:57] INFO root fetch - processPackages [kgcnn]: New version: [3.0.0] Old Version: [2.2.4]
+[2023-04-28 09:28:57] INFO root fetch - processPackages [rils-rols]: New version: [1.1] Old Version: [1.0]
+[2023-04-28 09:28:57] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 09:28:57] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.8] Old Version: [1.7]
+[2023-04-28 09:28:57] INFO root fetch - processPackages [injective-py]: New version: [0.6.1.7] Old Version: [0.6.1.6]
+[2023-04-28 09:28:57] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/ca/71/a7c6c61d3b2d55b22cc9570545d6c75bc52b0593c2090a21a41afed33db7/djangoldp_needle-0.1.86.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [kgcnn]: Downloading https://files.pythonhosted.org/packages/6d/83/0e4f1d6fa78a9434043a9b5bdb85161d70f8b5dc90978ff30cd6faf4528a/kgcnn-2.2.4.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [kgcnn]: Downloading https://files.pythonhosted.org/packages/6d/83/0e4f1d6fa78a9434043a9b5bdb85161d70f8b5dc90978ff30cd6faf4528a/kgcnn-2.2.4.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [rils-rols]: Downloading https://files.pythonhosted.org/packages/be/9e/47dd396eed11a0e12a9c1ab67ab440db6f94d1245ba5d303b94db0abe406/rils-rols-1.1.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/a7/d7/aaf3aab17112277435655ae31d6d6f8c8bd865cf080f56e787707d724f7e/injective-py-0.6.1.6.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [django-ipghrms-log]: Downloading https://files.pythonhosted.org/packages/5d/7b/fefef4ec62353f0355eb13873a517522d354a5a34f2bebc5a31de9ef06fb/django-ipghrms-log-1.7.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/24/cc/b3b57578dfa43aa75aaf92518a5611d5af35641148f541c9cbd4f068de78/SDTcloud-0.0.4.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [rils-rols]: executing diffoscope
+[2023-04-28 09:28:57] INFO root fetch - processPackages [rils-rols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rils-rols-1.0.tar.gz tmp/rils-rols-1.1.tar.gz --markdown 20230428/r/rils-rols/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-28 09:28:57] INFO root fetch - processPackages [zoomaker]: Downloading https://files.pythonhosted.org/packages/ba/02/d22ed5c79a3c629108c3ae215254971d6c6e594ddcc309d19a4186e27669/zoomaker-0.2.0.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-04-28 09:28:57] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.3.tar.gz tmp/SDTcloud-0.0.4.tar.gz --markdown 20230428/S/SDTcloud/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 09:28:57] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/a4/76/c3b752b58a8f60b5c97d2bb6c132905a900dd6c46f2aa020a59ded403cef/injective-py-0.6.1.7.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [kgcnn]: Downloading https://files.pythonhosted.org/packages/ac/b7/3a623e46286ab0ebf40f1a194eac626cc966591a8f81570d5c938e6a962c/kgcnn-3.0.0.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [django-ipghrms-log]: Downloading https://files.pythonhosted.org/packages/11/f4/fbdfbedda48e99ac8ac7317e9306e203b600b496e143945844d7098ffc4b/django-ipghrms-log-1.8.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [kgcnn]: Downloading https://files.pythonhosted.org/packages/ac/b7/3a623e46286ab0ebf40f1a194eac626cc966591a8f81570d5c938e6a962c/kgcnn-3.0.0.tar.gz
+[2023-04-28 09:28:57] INFO root fetch - processPackages [zoomaker]: executing diffoscope
+[2023-04-28 09:28:57] INFO root fetch - processPackages [zoomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoomaker-0.1.1.tar.gz tmp/zoomaker-0.2.0.tar.gz --markdown 20230428/z/zoomaker/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 09:28:57] INFO root fetch - processPackages [injective-py]: executing diffoscope
+[2023-04-28 09:28:57] INFO root fetch - processPackages [injective-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injective-py-0.6.1.6.tar.gz tmp/injective-py-0.6.1.7.tar.gz --markdown 20230428/i/injective-py/0.6.1.6-0.6.1.7/diff.md --exclude *.pyd
+[2023-04-28 09:28:57] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 09:28:57] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.7.tar.gz tmp/django-ipghrms-log-1.8.tar.gz --markdown 20230428/d/django-ipghrms-log/1.7-1.8/diff.md --exclude *.pyd
+[2023-04-28 09:28:57] INFO root fetch - processPackages [djangoldp-needle]: executing diffoscope
+[2023-04-28 09:28:57] INFO root fetch - processPackages [djangoldp-needle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_needle-0.1.86.tar.gz tmp/djangoldp_needle-0.1.9.tar.gz --markdown 20230428/d/djangoldp-needle/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 09:28:58] INFO root fetch - processPackages [kgcnn]: executing diffoscope
+[2023-04-28 09:28:58] INFO root fetch - processPackages [kgcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgcnn-2.2.4.tar.gz tmp/kgcnn-3.0.0.tar.gz --markdown 20230428/k/kgcnn/2.2.4-3.0.0/diff.md --exclude *.pyd
+[2023-04-28 09:28:58] INFO root fetch - processPackages [kgcnn]: executing diffoscope
+[2023-04-28 09:28:58] INFO root fetch - processPackages [kgcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgcnn-2.2.4.tar.gz tmp/kgcnn-3.0.0.tar.gz --markdown 20230428/k/kgcnn/2.2.4-3.0.0/diff.md --exclude *.pyd
+[2023-04-28 09:28:59] INFO root fetch - main [MainThread]: End processing [rils-rols]: success
+[2023-04-28 09:28:59] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-04-28 09:28:59] INFO root fetch - main [MainThread]: End processing [zoomaker]: success
+[2023-04-28 09:28:59] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 09:28:59] INFO root fetch - main [MainThread]: End processing [djangoldp-needle]: success
+[2023-04-28 09:29:02] INFO root fetch - main [MainThread]: End processing [kgcnn]: success
+[2023-04-28 09:29:02] INFO root fetch - main [MainThread]: End processing [injective-py]: success
+[2023-04-28 09:29:03] INFO root fetch - main [MainThread]: End processing [kgcnn]: success
+[2023-04-28 09:29:03] INFO root fetch - main [MainThread]: Store serial: [17894999]
