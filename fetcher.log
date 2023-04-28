@@ -13547,3 +13547,136 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:32:32] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-04-28 13:32:32] INFO root fetch - main [MainThread]: End processing [cylc-flow]: success
 [2023-04-28 13:32:32] INFO root fetch - main [MainThread]: Store serial: [17897287]
+[2023-04-28 13:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897287]
+[2023-04-28 13:37:41] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: me3cs
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfreefem
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-server
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leuci-pol
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaiju-auth
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kappaschedules
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfreefem
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stactools-sentinel2
+[2023-04-28 13:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Sphinx
+[2023-04-28 13:37:41] INFO root fetch - processPackages [leuci-pol]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [fractal-server]: New version: [1.2.3a1] Old Version: [1.2.3a0]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [leuci-pol]: executing diffoscope
+[2023-04-28 13:37:41] INFO root fetch - processPackages [leuci-pol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-pol-0.0.8.tar.gz tmp/leuci-pol-0.0.9.tar.gz --markdown 20230428/l/leuci-pol/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 13:37:41] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-28 13:37:41] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.3a0.tar.gz tmp/fractal_server-1.2.3a1.tar.gz --markdown 20230428/f/fractal-server/1.2.3a0-1.2.3a1/diff.md --exclude *.pyd
+[2023-04-28 13:37:41] INFO root fetch - processPackages [me3cs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [kaiju-auth]: New version: [2.0.16] Old Version: [2.0.15]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [kappaschedules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [pyfreefem]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [pyfreefem]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [Sphinx]: New version: [7.0.0rc1] Old Version: [6.2.1]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [stactools-sentinel2]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-28 13:37:41] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101682680229] Old Version: [0.0.101682593890]
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: Downloading https://files.pythonhosted.org/packages/d9/f2/f5cde5b96c8dc2629b3e2b71f6aa3bfa6cb792a2bbf98efbe689efe69aed/pyfreefem-1.0.2-py3-none-any.whl
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: Downloading https://files.pythonhosted.org/packages/d9/f2/f5cde5b96c8dc2629b3e2b71f6aa3bfa6cb792a2bbf98efbe689efe69aed/pyfreefem-1.0.2-py3-none-any.whl
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kaiju-auth]: Downloading https://files.pythonhosted.org/packages/d4/98/38c7cc794ceca1891657244a47501b481a4fbcbf9d5079e5da45fe12d546/kaiju_auth-2.0.15-py3-none-any.whl
+[2023-04-28 13:37:42] INFO root fetch - processPackages [stactools-sentinel2]: Downloading https://files.pythonhosted.org/packages/61/77/e2d724894e0c6e77bee66b96b360e6cdaeba5e6e8d66fb572c57331a99ce/stactools-sentinel2-0.4.0.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kappaschedules]: Downloading https://files.pythonhosted.org/packages/80/d3/59917bee87db2d991ac28ee5406bce08f6bd5fb9607f27c6adf8e1104bb5/kappaschedules-0.0.8.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/87/40/39b5f6322c1a41f236a396f5636a0da50e74c7185eee32905a68026f0a1d/pyre-check-nightly-0.0.101682593890.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [me3cs]: Downloading https://files.pythonhosted.org/packages/20/b0/7b3c0ae3200927a1b0f388be86e66dcaf7871e6509dae6481811fed79132/me3cs-0.1.6.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/67/cc/803407edc06b4fac6f3083d1aa29530044fe52d72b2d1ed04d02de904d02/Sphinx-7.0.0rc1.tar.gz
+[2023-04-28 13:37:42] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23254095>=10485760
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: redturtle.chefcookie
+[2023-04-28 13:37:42] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-04-28 13:37:42] INFO root fetch - processPackages [redturtle.chefcookie]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-28 13:37:42] INFO root fetch - processPackages [me3cs]: executing diffoscope
+[2023-04-28 13:37:42] INFO root fetch - processPackages [me3cs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me3cs-0.1.5.tar.gz tmp/me3cs-0.1.6.tar.gz --markdown 20230428/m/me3cs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: Downloading https://files.pythonhosted.org/packages/d9/0d/325f7417e1669793032da0a025907157e5292a7c4010df300dbc5fb759ec/pyfreefem-1.1.0-py3-none-any.whl
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: Downloading https://files.pythonhosted.org/packages/d9/0d/325f7417e1669793032da0a025907157e5292a7c4010df300dbc5fb759ec/pyfreefem-1.1.0-py3-none-any.whl
+[2023-04-28 13:37:42] INFO root fetch - processPackages [stactools-sentinel2]: Downloading https://files.pythonhosted.org/packages/dc/2a/579e8a5cc05e35f69b6726e25802a9817dbd87b4588c3b5634f01ed58b7f/stactools-sentinel2-0.4.1.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kaiju-auth]: Downloading https://files.pythonhosted.org/packages/7c/ac/ed23b1682d948fa1c2f05d82325ca871f0d59f23300823d660b687b2a27e/kaiju_auth-2.0.16-py3-none-any.whl
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kappaschedules]: Downloading https://files.pythonhosted.org/packages/23/c2/e9e2653e206134d160cab76dea124544a616ea8484276c686372afdd7bb6/kappaschedules-0.0.9.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [redturtle.chefcookie]: Downloading https://files.pythonhosted.org/packages/a5/49/7b58c898a1b196802c0ccfe5592252cf0edaf600343e58c8b4469df38842/redturtle.chefcookie-2.0.0.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: executing diffoscope
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfreefem-1.0.2-py3-none-any.whl.zip tmp/pyfreefem-1.1.0-py3-none-any.whl.zip --markdown 20230428/p/pyfreefem/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: executing diffoscope
+[2023-04-28 13:37:42] INFO root fetch - processPackages [pyfreefem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfreefem-1.0.2-py3-none-any.whl.zip tmp/pyfreefem-1.1.0-py3-none-any.whl.zip --markdown 20230428/p/pyfreefem/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 13:37:42] INFO root fetch - processPackages [stactools-sentinel2]: executing diffoscope
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kaiju-auth]: executing diffoscope
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kaiju-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_auth-2.0.15-py3-none-any.whl.zip tmp/kaiju_auth-2.0.16-py3-none-any.whl.zip --markdown 20230428/k/kaiju-auth/2.0.15-2.0.16/diff.md --exclude *.pyd
+[2023-04-28 13:37:42] INFO root fetch - processPackages [stactools-sentinel2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stactools-sentinel2-0.4.0.tar.gz tmp/stactools-sentinel2-0.4.1.tar.gz --markdown 20230428/s/stactools-sentinel2/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kappaschedules]: executing diffoscope
+[2023-04-28 13:37:42] INFO root fetch - processPackages [kappaschedules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappaschedules-0.0.8.tar.gz tmp/kappaschedules-0.0.9.tar.gz --markdown 20230428/k/kappaschedules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 13:37:42] INFO root fetch - processPackages [redturtle.chefcookie]: Downloading https://files.pythonhosted.org/packages/75/58/da792a03c0d34a26d3f78b72e4b3cfad998cc0bd5ad9563bd69ccc286885/redturtle.chefcookie-2.0.1.tar.gz
+[2023-04-28 13:37:42] INFO root fetch - processPackages [redturtle.chefcookie]: executing diffoscope
+[2023-04-28 13:37:42] INFO root fetch - processPackages [redturtle.chefcookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.chefcookie-2.0.0.tar.gz tmp/redturtle.chefcookie-2.0.1.tar.gz --markdown 20230428/r/redturtle.chefcookie/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 13:37:43] INFO root fetch - processPackages [leuci-pol]: Start processing: tmrc
+[2023-04-28 13:37:43] INFO root fetch - main [MainThread]: End processing [leuci-pol]: success
+[2023-04-28 13:37:43] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2023-04-28 13:37:43] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sphinx-6.2.1.tar.gz tmp/Sphinx-7.0.0rc1.tar.gz --markdown 20230428/S/Sphinx/6.2.1-7.0.0rc1/diff.md --exclude *.pyd
+[2023-04-28 13:37:43] WARNING root fetch - processPackages [tmrc]: Skipping, unable to determine old version
+[2023-04-28 13:37:43] INFO root fetch - processPackages [tmrc]: Start processing: yeref
+[2023-04-28 13:37:43] INFO root fetch - main [MainThread]: End processing [tmrc] error
+[2023-04-28 13:37:43] INFO root fetch - processPackages [yeref]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-04-28 13:37:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/4e/11/a777213fa6d96659e797c4dcd07acbf93dfec8d4da09c3b2264bc2ca0486/yeref-0.1.47.tar.gz
+[2023-04-28 13:37:43] INFO root fetch - processPackages [pyfreefem]: Start processing: bigdl-nano
+[2023-04-28 13:37:43] INFO root fetch - main [MainThread]: End processing [pyfreefem]: success
+[2023-04-28 13:37:43] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-04-28 13:37:43] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.46.tar.gz tmp/yeref-0.1.47.tar.gz --markdown 20230428/y/yeref/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-04-28 13:37:43] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230426]
+[2023-04-28 13:37:43] INFO root fetch - processPackages [fractal-server]: Start processing: vessel-express-napari
+[2023-04-28 13:37:43] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-28 13:37:44] INFO root fetch - processPackages [vessel-express-napari]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [kaiju-auth]: Start processing: bigdl-chronos
+[2023-04-28 13:37:44] INFO root fetch - main [MainThread]: End processing [kaiju-auth]: success
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230426]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [pyfreefem]: Start processing: vineyard
+[2023-04-28 13:37:44] INFO root fetch - main [MainThread]: End processing [pyfreefem]: success
+[2023-04-28 13:37:44] INFO root fetch - processPackages [vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [stactools-sentinel2]: Start processing: aiogram-ext
+[2023-04-28 13:37:44] INFO root fetch - main [MainThread]: End processing [stactools-sentinel2]: success
+[2023-04-28 13:37:44] INFO root fetch - processPackages [vessel-express-napari]: Downloading https://files.pythonhosted.org/packages/f4/46/580c710cace1ccd34017789c755b7d7bde5ca536831b8927e5b0579a0615/vessel-express-napari-0.0.8.tar.gz
+[2023-04-28 13:37:44] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230426-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230427-py3-none-win_amd64.whl.zip --markdown 20230428/b/bigdl-nano/2.4.0b20230426-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-28 13:37:44] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 13:37:44] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:37:44] INFO root fetch - processPackages [kappaschedules]: Start processing: medcam3d
+[2023-04-28 13:37:44] INFO root fetch - main [MainThread]: End processing [kappaschedules]: success
+[2023-04-28 13:37:44] INFO root fetch - processPackages [me3cs]: Start processing: tupa123
+[2023-04-28 13:37:44] INFO root fetch - main [MainThread]: End processing [me3cs]: success
+[2023-04-28 13:37:44] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/9d/2a/a253c807a750e951378e7a3ab1d51d2fef6447b872b6cbd417df779a782b/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-04-28 13:37:44] INFO root fetch - processPackages [medcam3d]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [tupa123]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [vessel-express-napari]: Downloading https://files.pythonhosted.org/packages/5f/1c/cbebd846068facc9018aab3e06bbc5c8aae9827bc37fe7f4fe8f5a12d637/vessel-express-napari-0.0.9.tar.gz
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230426-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230427-py3-none-win_amd64.whl.zip --markdown 20230428/b/bigdl-chronos/2.4.0b20230426-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-28 13:37:44] INFO root fetch - processPackages [redturtle.chefcookie]: Start processing: ofscraper
+[2023-04-28 13:37:44] INFO root fetch - main [MainThread]: End processing [redturtle.chefcookie]: success
+[2023-04-28 13:37:44] WARNING root fetch - processPackages [vessel-express-napari]: Skipping package: exceeds size limit 22167728>=10485760
+[2023-04-28 13:37:44] INFO root fetch - processPackages [vessel-express-napari]: Start processing: bigdl-serving
+[2023-04-28 13:37:44] INFO root fetch - main [MainThread]: End processing [vessel-express-napari] error
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230426]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [ofscraper]: New version: [1.80] Old Version: [1.75]
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-04-28 13:37:44] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230426-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230427-py2.py3-none-any.whl.zip --markdown 20230428/b/bigdl-serving/2.4.0b20230426-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-28 13:37:44] INFO root fetch - processPackages [medcam3d]: Downloading https://files.pythonhosted.org/packages/94/23/c70c208dfd800cd09207982298b48294c55d4be530d536364da47af8def1/medcam3d-0.0.4.tar.gz
+[2023-04-28 13:37:44] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/60/34/870d1091995ec962a71cf5df73de7b156d0dc2f04366dbfc642e62ac039d/tupa123-1.4.2.tar.gz
+[2023-04-28 13:37:45] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/e7/76/c4a8c7e3e3cf532d78d5447a505c761e350c87979bd6137c83d830046ab7/ofscraper-1.75.tar.gz
+[2023-04-28 13:37:45] INFO root fetch - processPackages [medcam3d]: executing diffoscope
+[2023-04-28 13:37:45] INFO root fetch - processPackages [medcam3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medcam3d-0.0.3.tar.gz tmp/medcam3d-0.0.4.tar.gz --markdown 20230428/m/medcam3d/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 13:37:45] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-28 13:37:45] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.1.tar.gz tmp/tupa123-1.4.2.tar.gz --markdown 20230428/t/tupa123/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-28 13:37:45] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/e7/6a/4cc7e71c0d9bed3285ad63e1664fa0aef02015c065476bb6c192702b40f8/ofscraper-1.80.tar.gz
+[2023-04-28 13:37:45] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-04-28 13:37:45] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-1.75.tar.gz tmp/ofscraper-1.80.tar.gz --markdown 20230428/o/ofscraper/1.75-1.80/diff.md --exclude *.pyd
+[2023-04-28 13:37:45] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 13:37:46] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-04-28 13:37:46] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-28 13:37:46] INFO root fetch - main [MainThread]: End processing [medcam3d]: success
+[2023-04-28 13:37:46] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-04-28 13:37:46] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-04-28 13:37:46] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-04-28 13:37:47] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-04-28 13:37:48] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/09/c1/99b0791e766e16902b883540228d4762bd12a44f2b331b33b5b7766e7164/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-04-28 13:37:52] INFO root fetch - processPackages [vineyard]: executing diffoscope
+[2023-04-28 13:37:52] INFO root fetch - processPackages [vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230428/v/vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 13:38:12] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2023-04-28 13:40:48] INFO root fetch - main [MainThread]: End processing [vineyard]: success
+[2023-04-28 13:40:48] INFO root fetch - main [MainThread]: Store serial: [17897367]
