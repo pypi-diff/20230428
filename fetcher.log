@@ -7100,3 +7100,37 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 05:43:10] INFO root fetch - main [MainThread]: End processing [unitranscode]: success
 [2023-04-28 05:43:11] INFO root fetch - main [MainThread]: End processing [cellmap]: success
 [2023-04-28 05:43:11] INFO root fetch - main [MainThread]: Store serial: [17893728]
+[2023-04-28 05:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893728]
+[2023-04-28 05:48:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slangpy
+[2023-04-28 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stoobly-agent
+[2023-04-28 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audioprocessor
+[2023-04-28 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syft
+[2023-04-28 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adsb-tools
+[2023-04-28 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arkdata
+[2023-04-28 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: studentgradesconverter
+[2023-04-28 05:48:20] INFO root fetch - processPackages [slangpy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 05:48:20] WARNING root fetch - processPackages [audioprocessor]: Skipping, unable to determine old version
+[2023-04-28 05:48:20] INFO root fetch - main [MainThread]: End processing [audioprocessor] error
+[2023-04-28 05:48:20] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-28 05:48:20] INFO root fetch - processPackages [syft]: New version: [0.8.0b9] Old Version: [0.8.0b8]
+[2023-04-28 05:48:20] INFO root fetch - processPackages [adsb-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 05:48:20] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 05:48:20] WARNING root fetch - processPackages [studentgradesconverter]: Skipping, unable to determine old version
+[2023-04-28 05:48:20] INFO root fetch - main [MainThread]: End processing [studentgradesconverter] error
+[2023-04-28 05:48:20] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 05:48:20] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:48:20] INFO root fetch - processPackages [slangpy]: Downloading https://files.pythonhosted.org/packages/fd/80/97cac96814d92e35d73fb165b2fd376735a4df5be38149e98e989dabe279/slangpy-0.2.2.tar.gz
+[2023-04-28 05:48:20] WARNING root fetch - processPackages [slangpy]: Skipping package: exceeds size limit 12118749>=10485760
+[2023-04-28 05:48:20] INFO root fetch - main [MainThread]: End processing [slangpy] error
+[2023-04-28 05:48:20] INFO root fetch - processPackages [adsb-tools]: executing diffoscope
+[2023-04-28 05:48:20] INFO root fetch - processPackages [adsb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsb_tools-0.1.8.tar.gz tmp/adsb_tools-0.1.9.tar.gz --markdown 20230428/a/adsb-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 05:48:20] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-04-28 05:48:20] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230428/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-28 05:48:20] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-04-28 05:48:20] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.0b8.tar.gz tmp/syft-0.8.0b9.tar.gz --markdown 20230428/s/syft/0.8.0b8-0.8.0b9/diff.md --exclude *.pyd
+[2023-04-28 05:48:21] INFO root fetch - main [MainThread]: End processing [adsb-tools]: success
+[2023-04-28 05:48:21] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 05:48:22] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-04-28 05:48:23] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-04-28 05:48:23] INFO root fetch - main [MainThread]: Store serial: [17893756]
