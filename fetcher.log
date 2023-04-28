@@ -7245,3 +7245,22 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:04:02] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.4.27-cp311-cp311-win_amd64.whl.zip tmp/quarkstudio-6.5.0rc12-cp311-cp311-win_amd64.whl.zip --markdown 20230428/q/quarkstudio/6.4.27-6.5.0rc12/diff.md --exclude *.pyd
 [2023-04-28 06:04:05] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2023-04-28 06:04:05] INFO root fetch - main [MainThread]: Store serial: [17893821]
+[2023-04-28 06:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893821]
+[2023-04-28 06:09:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-28 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanigastat
+[2023-04-28 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChatLLM
+[2023-04-28 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: studentgradesconverter
+[2023-04-28 06:09:14] WARNING root fetch - processPackages [nanigastat]: Skipping, unable to determine old version
+[2023-04-28 06:09:14] INFO root fetch - main [MainThread]: End processing [nanigastat] error
+[2023-04-28 06:09:14] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.12.8.1] Old Version: [2023.4.27.18.6.56]
+[2023-04-28 06:09:14] INFO root fetch - processPackages [studentgradesconverter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 06:09:14] INFO root fetch - processPackages [studentgradesconverter]: Downloading https://files.pythonhosted.org/packages/57/46/12c56dff8b0592108a3f05a132661d925ceaf5a252a460fb3a11478b473a/studentgradesconverter-0.0.1.tar.gz
+[2023-04-28 06:09:14] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/e3/98/40030aa19ef466f90d792e9f8c6ab9610b6ab0bce397a9abcc2d0af4262a/ChatLLM-2023.4.28.12.8.1.tar.gz
+[2023-04-28 06:09:14] INFO root fetch - processPackages [studentgradesconverter]: Downloading https://files.pythonhosted.org/packages/50/eb/39dcf29a5363426d2224f54f2a73763ffefc612a697ee6c31c81cb0a6f38/studentgradesconverter-0.0.2.tar.gz
+[2023-04-28 06:09:14] INFO root fetch - processPackages [studentgradesconverter]: executing diffoscope
+[2023-04-28 06:09:14] INFO root fetch - processPackages [studentgradesconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/studentgradesconverter-0.0.1.tar.gz tmp/studentgradesconverter-0.0.2.tar.gz --markdown 20230428/s/studentgradesconverter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 06:09:15] INFO root fetch - main [MainThread]: End processing [studentgradesconverter]: success
+[2023-04-28 06:09:16] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 06:09:16] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.27.18.6.56.tar.gz tmp/ChatLLM-2023.4.28.12.8.1.tar.gz --markdown 20230428/C/ChatLLM/2023.4.27.18.6.56-2023.4.28.12.8.1/diff.md --exclude *.pyd
+[2023-04-28 06:09:19] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 06:09:19] INFO root fetch - main [MainThread]: Store serial: [17893833]
