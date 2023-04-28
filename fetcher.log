@@ -23397,3 +23397,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 23:42:51] INFO root fetch - main [MainThread]: End processing [salt-analytics-framework]: success
 [2023-04-28 23:43:12] INFO root fetch - main [MainThread]: End processing [dsgen]: success
 [2023-04-28 23:43:12] INFO root fetch - main [MainThread]: Store serial: [17903342]
+[2023-04-28 23:48:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903342]
+[2023-04-28 23:48:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systemID
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tungstenkit
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shrike
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chlore
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chia-blockchain
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradio
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kangas
+[2023-04-28 23:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: essentia
+[2023-04-28 23:48:21] WARNING root fetch - processPackages [tungstenkit]: Skipping, unable to determine old version
+[2023-04-28 23:48:21] INFO root fetch - main [MainThread]: End processing [tungstenkit] error
+[2023-04-28 23:48:21] INFO root fetch - processPackages [shrike]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-28 23:48:21] INFO root fetch - processPackages [chlore]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-28 23:48:21] INFO root fetch - processPackages [systemID]: New version: [24.9] Old Version: [24.8]
+[2023-04-28 23:48:21] INFO root fetch - processPackages [chia-blockchain]: New version: [1.8.0rc4] Old Version: [1.8.0rc3]
+[2023-04-28 23:48:21] INFO root fetch - processPackages [kangas]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-28 23:48:21] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-04-28 23:48:21] INFO root fetch - processPackages [chlore]: executing diffoscope
+[2023-04-28 23:48:21] INFO root fetch - processPackages [chlore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chlore-0.8.1.tar.gz tmp/chlore-0.9.0.tar.gz --markdown 20230428/c/chlore/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 23:48:21] INFO root fetch - processPackages [essentia]: New version: [2.1b6.dev90] Old Version: [2.1b6.dev871]
+[2023-04-28 23:48:21] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/67/29/d163d7fdeba6739e7cc411f549b5bc74b7d00a674448522865bac1a28819/shrike-1.9.4.tar.gz
+[2023-04-28 23:48:21] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-04-28 23:48:22] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/cb/cc/0bc86e0c20cdf7acdb3c5e3079c2e4d380090b4081baa2b5f390f1431a54/kangas-2.3.2-py3-none-any.whl
+[2023-04-28 23:48:22] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-04-28 23:48:22] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-04-28 23:48:22] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/bc/f4/51dbbdf138483e6383b4a5a09e8b487da6ef1a45db4dd151603fce1aeb06/chia-blockchain-1.8.0rc4.tar.gz
+[2023-04-28 23:48:22] INFO root fetch - processPackages [essentia]: Downloading https://files.pythonhosted.org/packages/37/c4/0132774764c286ba5dd34376684daec39e261e4be8b3586bd7f6295e32a0/essentia-2.1b6.dev871-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-04-28 23:48:22] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/50/5a/b279e513d9765819f3f5cab873f8c3ac40ab37a954c06dcd3cdaded74e9e/shrike-1.9.5.tar.gz
+[2023-04-28 23:48:22] INFO root fetch - processPackages [systemID]: executing diffoscope
+[2023-04-28 23:48:22] INFO root fetch - processPackages [systemID]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemID-24.8.tar.gz tmp/systemID-24.9.tar.gz --markdown 20230428/s/systemID/24.8-24.9/diff.md --exclude *.pyd
+[2023-04-28 23:48:22] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-04-28 23:48:22] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.0rc3.tar.gz tmp/chia-blockchain-1.8.0rc4.tar.gz --markdown 20230428/c/chia-blockchain/1.8.0rc3-1.8.0rc4/diff.md --exclude *.pyd
+[2023-04-28 23:48:22] WARNING root fetch - processPackages [essentia]: Skipping package: exceeds size limit 20834862>=10485760
+[2023-04-28 23:48:22] INFO root fetch - main [MainThread]: End processing [essentia] error
+[2023-04-28 23:48:22] INFO root fetch - processPackages [kangas]: executing diffoscope
+[2023-04-28 23:48:22] INFO root fetch - processPackages [kangas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangas-2.3.1-py3-none-any.whl.zip tmp/kangas-2.3.2-py3-none-any.whl.zip --markdown 20230428/k/kangas/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-28 23:48:22] INFO root fetch - processPackages [shrike]: executing diffoscope
+[2023-04-28 23:48:22] INFO root fetch - processPackages [shrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shrike-1.9.4.tar.gz tmp/shrike-1.9.5.tar.gz --markdown 20230428/s/shrike/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-28 23:48:22] INFO root fetch - main [MainThread]: End processing [chlore]: success
+[2023-04-28 23:48:23] INFO root fetch - main [MainThread]: End processing [shrike]: success
+[2023-04-28 23:48:23] INFO root fetch - main [MainThread]: End processing [systemID]: success
+[2023-04-28 23:48:33] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-04-28 23:48:42] INFO root fetch - main [MainThread]: End processing [kangas]: success
+[2023-04-28 23:48:42] INFO root fetch - main [MainThread]: Store serial: [17903372]
