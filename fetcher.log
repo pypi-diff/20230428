@@ -7546,3 +7546,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:45:44] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-28 06:45:47] INFO root fetch - main [MainThread]: End processing [pymel]: success
 [2023-04-28 06:45:47] INFO root fetch - main [MainThread]: Store serial: [17893949]
+[2023-04-28 06:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893949]
+[2023-04-28 06:50:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simfire
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-tts-plugin-piper
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydmt
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HtmlPageParser
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoscripture
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vesselapi
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cyberdrop-dl
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slippistats
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ovos-tts-plugin-piper]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2023-04-28 06:50:55] INFO root fetch - processPackages [simfire]: New version: [1.4.33] Old Version: [1.4.32]
+[2023-04-28 06:50:55] INFO root fetch - processPackages [HtmlPageParser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 06:50:55] INFO root fetch - processPackages [pydmt]: New version: [0.1.85] Old Version: [0.1.84]
+[2023-04-28 06:50:55] WARNING root fetch - processPackages [autoscripture]: Skipping, unable to determine old version
+[2023-04-28 06:50:55] WARNING root fetch - processPackages [slippistats]: Skipping, unable to determine old version
+[2023-04-28 06:50:55] INFO root fetch - main [MainThread]: End processing [autoscripture] error
+[2023-04-28 06:50:55] INFO root fetch - main [MainThread]: End processing [slippistats] error
+[2023-04-28 06:50:55] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.1.21] Old Version: [4.1.19]
+[2023-04-28 06:50:55] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.2.2]
+[2023-04-28 06:50:55] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.1.21] Old Version: [4.1.19]
+[2023-04-28 06:50:55] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/0e/7a/fb93a6e56d552a13801c7583412b9b438dcb35c70bcc43235720537243ae/ovos_tts_plugin_piper-0.0.0a2-py3-none-any.whl
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ae/ff/ee5675ffebe5a987a07b700af48ed4c01927e54758f9846ef9a6c4885051/cyberdrop-dl-4.1.19.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ae/ff/ee5675ffebe5a987a07b700af48ed4c01927e54758f9846ef9a6c4885051/cyberdrop-dl-4.1.19.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/e1/f0/701dbc86e0e48ae1866958ba601e3ae063a16dbe5b8824c18e88e47ba3e3/pydmt-0.1.84.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/ef/ae/21b651bb74ac17123a7d0ddd011bcbbfb1bc75b1621e1d7059ecfde90f5a/simfire-1.4.32.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/a6/2f/3e38048f42e00e47f8535d2dede8fb35ec95abf9a10d8b7a3d153a3b8cc2/vesselapi-3.2.2.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/df/cc/47fc2178d92a9c83c07c629728fc363fc720d183c76d7c8a160a4e030e72/ovos_tts_plugin_piper-0.0.0a3-py3-none-any.whl
+[2023-04-28 06:50:56] INFO root fetch - processPackages [HtmlPageParser]: Downloading https://files.pythonhosted.org/packages/ae/bd/536c39ca8bf77dc69db9113a75ee00be6995b5ca5ec6b8f1a5c08c4d1b86/HtmlPageParser-0.0.4.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [ovos-tts-plugin-piper]: executing diffoscope
+[2023-04-28 06:50:56] INFO root fetch - processPackages [ovos-tts-plugin-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_piper-0.0.0a2-py3-none-any.whl.zip tmp/ovos_tts_plugin_piper-0.0.0a3-py3-none-any.whl.zip --markdown 20230428/o/ovos-tts-plugin-piper/0.0.0a2-0.0.0a3/diff.md --exclude *.pyd
+[2023-04-28 06:50:56] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/ca/40/955efcbcab216410bc92f2c3117a9543dfc92c2fd22c5a67b3b51276b76f/pydmt-0.1.85.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [HtmlPageParser]: executing diffoscope
+[2023-04-28 06:50:56] INFO root fetch - processPackages [HtmlPageParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HtmlPageParser-0.0.3.tar.gz tmp/HtmlPageParser-0.0.4.tar.gz --markdown 20230428/H/HtmlPageParser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 06:50:56] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-04-28 06:50:56] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.84.tar.gz tmp/pydmt-0.1.85.tar.gz --markdown 20230428/p/pydmt/0.1.84-0.1.85/diff.md --exclude *.pyd
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/05/62/d3d7596042dcf8772f266878d6b170810d72454240084bfd8a92ec638975/cyberdrop-dl-4.1.21.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/05/62/d3d7596042dcf8772f266878d6b170810d72454240084bfd8a92ec638975/cyberdrop-dl-4.1.21.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/0a/88/78ef508458192681142a128a8fa2b75dbe2fb219cf8fdd5dcddc1f5cfd67/simfire-1.4.33.tar.gz
+[2023-04-28 06:50:56] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-04-28 06:50:56] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.2.2.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230428/v/vesselapi/3.2.2-3.5.2/diff.md --exclude *.pyd
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.1.19.tar.gz tmp/cyberdrop-dl-4.1.21.tar.gz --markdown 20230428/c/cyberdrop-dl/4.1.19-4.1.21/diff.md --exclude *.pyd
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-04-28 06:50:56] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.1.19.tar.gz tmp/cyberdrop-dl-4.1.21.tar.gz --markdown 20230428/c/cyberdrop-dl/4.1.19-4.1.21/diff.md --exclude *.pyd
+[2023-04-28 06:50:56] INFO root fetch - processPackages [simfire]: executing diffoscope
+[2023-04-28 06:50:56] INFO root fetch - processPackages [simfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfire-1.4.32.tar.gz tmp/simfire-1.4.33.tar.gz --markdown 20230428/s/simfire/1.4.32-1.4.33/diff.md --exclude *.pyd
+[2023-04-28 06:50:57] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-piper]: success
+[2023-04-28 06:50:57] INFO root fetch - main [MainThread]: End processing [HtmlPageParser]: success
+[2023-04-28 06:50:57] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-04-28 06:50:58] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-04-28 06:50:58] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-04-28 06:50:58] INFO root fetch - main [MainThread]: End processing [simfire]: success
+[2023-04-28 06:50:59] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-04-28 06:50:59] INFO root fetch - main [MainThread]: Store serial: [17893979]
