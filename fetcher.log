@@ -9104,3 +9104,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:06:17] INFO root fetch - main [MainThread]: End processing [tomwer]: success
 [2023-04-28 09:07:57] INFO root fetch - main [MainThread]: End processing [streamlit-image-annotation]: success
 [2023-04-28 09:07:57] INFO root fetch - main [MainThread]: Store serial: [17894790]
+[2023-04-28 09:13:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894790]
+[2023-04-28 09:13:09] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChatLLM
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-build-minecraft
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inverter-connect
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive-jupyter-kernel
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-contributor-assets
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tg-bulk-sender
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marsilea
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ASCIIcli
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: algoliasearch-django
+[2023-04-28 09:13:09] INFO root fetch - processPackages [inverter-connect]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-04-28 09:13:09] WARNING root fetch - processPackages [auto-build-minecraft]: Skipping, unable to determine old version
+[2023-04-28 09:13:09] INFO root fetch - processPackages [auto-build-minecraft]: Start processing: py3gpp
+[2023-04-28 09:13:09] INFO root fetch - main [MainThread]: End processing [auto-build-minecraft] error
+[2023-04-28 09:13:09] INFO root fetch - processPackages [algoliasearch-django]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-04-28 09:13:09] WARNING root fetch - processPackages [tg-bulk-sender]: Skipping, unable to determine old version
+[2023-04-28 09:13:09] INFO root fetch - processPackages [tg-bulk-sender]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-28 09:13:09] INFO root fetch - main [MainThread]: End processing [tg-bulk-sender] error
+[2023-04-28 09:13:09] INFO root fetch - processPackages [marsilea]: New version: [0.3.0rc2] Old Version: [0.3.0rc1]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post731] Old Version: [1.0.0.post730]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.15.6.19] Old Version: [2023.4.28.15.3.4]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [py3gpp]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-28 09:13:09] WARNING root fetch - processPackages [ASCIIcli]: Skipping, unable to determine old version
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ASCIIcli]: Start processing: docstring-auditor
+[2023-04-28 09:13:09] INFO root fetch - main [MainThread]: End processing [ASCIIcli] error
+[2023-04-28 09:13:09] INFO root fetch - processPackages [docstring-auditor]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-28 09:13:09] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230428/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-28 09:13:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/08/ee/ccfff37ef3e4883a24896f8efd270bb32c9c2d74928d60fa037f220babb7/nucliadb_contributor_assets-1.0.0.post730-py3-none-any.whl
+[2023-04-28 09:13:09] INFO root fetch - processPackages [marsilea]: Downloading https://files.pythonhosted.org/packages/a0/4c/ec0891a721c755dec82c7f5677ff699e7e8606d0101649a8de7c1c00428c/marsilea-0.3.0rc1.tar.gz
+[2023-04-28 09:13:09] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-28 09:13:09] INFO root fetch - processPackages [algoliasearch-django]: Downloading https://files.pythonhosted.org/packages/2c/ea/8b1576efc3833d9c92068e2c688038f5bdba03f372132e93cdc142b1d94b/algoliasearch-django-2.0.0.tar.gz
+[2023-04-28 09:13:09] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-28 09:13:09] INFO root fetch - processPackages [proactive]: Start processing: nucliadb-contributor-assets
+[2023-04-28 09:13:09] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-28 09:13:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post731] Old Version: [1.0.0.post730]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/08/ee/ccfff37ef3e4883a24896f8efd270bb32c9c2d74928d60fa037f220babb7/nucliadb_contributor_assets-1.0.0.post730-py3-none-any.whl
+[2023-04-28 09:13:09] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/04/56/d97b034df8f747c0f4dcb1760d148cdb574af58c2b8eec51fd52d807e0c9/ChatLLM-2023.4.28.15.6.19.tar.gz
+[2023-04-28 09:13:09] WARNING root fetch - processPackages [marsilea]: Skipping package: exceeds size limit 51260772>=10485760
+[2023-04-28 09:13:09] INFO root fetch - processPackages [marsilea]: Start processing: slack-sdk
+[2023-04-28 09:13:09] INFO root fetch - main [MainThread]: End processing [marsilea] error
+[2023-04-28 09:13:09] INFO root fetch - processPackages [inverter-connect]: Downloading https://files.pythonhosted.org/packages/85/9e/616596072fdaccce27ac004574440891c2d1425196db9c5a2e2b0c0b6b69/inverter-connect-0.3.0.tar.gz
+[2023-04-28 09:13:09] INFO root fetch - processPackages [slack-sdk]: New version: [3.9.1] Old Version: [3.9.0rc2]
+[2023-04-28 09:13:09] INFO root fetch - processPackages [py3gpp]: Downloading https://files.pythonhosted.org/packages/5c/fa/fd189436e73bd8b899ba27194d5580d277a4f5922842a9bd3d62613997d2/py3gpp-0.1.7.tar.gz
+[2023-04-28 09:13:09] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-28 09:13:09] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230428/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-28 09:13:09] INFO root fetch - processPackages [inverter-connect]: executing diffoscope
+[2023-04-28 09:13:09] INFO root fetch - processPackages [inverter-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverter-connect-0.1.0.tar.gz tmp/inverter-connect-0.3.0.tar.gz --markdown 20230428/i/inverter-connect/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 09:13:09] INFO root fetch - processPackages [docstring-auditor]: Downloading https://files.pythonhosted.org/packages/f8/65/b157697556d6d72365040544a6f95f54e4be76583bcfb288af84c34d820e/docstring_auditor-0.1.8.tar.gz
+[2023-04-28 09:13:09] INFO root fetch - processPackages [algoliasearch-django]: Downloading https://files.pythonhosted.org/packages/f4/2d/afab04cee45ab9cb52be683d7a99cd424b9b87facf6f9eed53522b34ace3/algoliasearch-django-3.0.0.tar.gz
+[2023-04-28 09:13:09] INFO root fetch - processPackages [py3gpp]: executing diffoscope
+[2023-04-28 09:13:09] INFO root fetch - processPackages [py3gpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3gpp-0.1.6.tar.gz tmp/py3gpp-0.1.7.tar.gz --markdown 20230428/p/py3gpp/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 09:13:09] INFO root fetch - processPackages [slack-sdk]: Downloading https://files.pythonhosted.org/packages/b2/95/92a6753eb7bc136617a5856cf2f9991bcb68bcd76c3a75a837da43c673d2/slack_sdk-3.9.0rc2.tar.gz
+[2023-04-28 09:13:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/9b/f8/8d9b7d5af4e6cd25bcedec4f2d05c771e1d4c270fc75f4c587b02bd9b459/nucliadb_contributor_assets-1.0.0.post731-py3-none-any.whl
+[2023-04-28 09:13:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/9b/f8/8d9b7d5af4e6cd25bcedec4f2d05c771e1d4c270fc75f4c587b02bd9b459/nucliadb_contributor_assets-1.0.0.post731-py3-none-any.whl
+[2023-04-28 09:13:10] INFO root fetch - processPackages [docstring-auditor]: executing diffoscope
+[2023-04-28 09:13:10] INFO root fetch - processPackages [docstring-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_auditor-0.1.7.tar.gz tmp/docstring_auditor-0.1.8.tar.gz --markdown 20230428/d/docstring-auditor/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-28 09:13:10] INFO root fetch - processPackages [algoliasearch-django]: executing diffoscope
+[2023-04-28 09:13:10] INFO root fetch - processPackages [algoliasearch-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algoliasearch-django-2.0.0.tar.gz tmp/algoliasearch-django-3.0.0.tar.gz --markdown 20230428/a/algoliasearch-django/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-28 09:13:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-04-28 09:13:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post730-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post731-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-contributor-assets/1.0.0.post730-1.0.0.post731/diff.md --exclude *.pyd
+[2023-04-28 09:13:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-04-28 09:13:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post730-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post731-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-contributor-assets/1.0.0.post730-1.0.0.post731/diff.md --exclude *.pyd
+[2023-04-28 09:13:10] INFO root fetch - processPackages [slack-sdk]: Downloading https://files.pythonhosted.org/packages/24/4f/b1c5ef4ca6f619212e56739d0c97e0fdcf30c342c890f3f80bbe3fbde3a7/slack_sdk-3.9.1.tar.gz
+[2023-04-28 09:13:10] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 09:13:10] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.15.3.4.tar.gz tmp/ChatLLM-2023.4.28.15.6.19.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.15.3.4-2023.4.28.15.6.19/diff.md --exclude *.pyd
+[2023-04-28 09:13:10] INFO root fetch - processPackages [slack-sdk]: executing diffoscope
+[2023-04-28 09:13:10] INFO root fetch - processPackages [slack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack_sdk-3.9.0rc2.tar.gz tmp/slack_sdk-3.9.1.tar.gz --markdown 20230428/s/slack-sdk/3.9.0rc2-3.9.1/diff.md --exclude *.pyd
+[2023-04-28 09:13:11] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: MeUtils
+[2023-04-28 09:13:11] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-28 09:13:11] INFO root fetch - processPackages [MeUtils]: New version: [2023.4.6.14.28.33] Old Version: [2023.4.6.14.19.58]
+[2023-04-28 09:13:11] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: pyattest
+[2023-04-28 09:13:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-28 09:13:11] INFO root fetch - processPackages [algoliasearch-django]: Start processing: luminesce-sdk-preview
+[2023-04-28 09:13:11] INFO root fetch - main [MainThread]: End processing [algoliasearch-django]: success
+[2023-04-28 09:13:11] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-04-28 09:13:11] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.4.6.14.19.58.tar.gz tmp/MeUtils-2023.4.6.14.28.33.tar.gz --markdown 20230428/M/MeUtils/2023.4.6.14.19.58-2023.4.6.14.28.33/diff.md --exclude *.pyd
+[2023-04-28 09:13:11] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-04-28 09:13:11] INFO root fetch - processPackages [pyattest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:13:11] INFO root fetch - processPackages [docstring-auditor]: Start processing: PyQt-Fluent-Widgets
+[2023-04-28 09:13:11] INFO root fetch - main [MainThread]: End processing [docstring-auditor]: success
+[2023-04-28 09:13:11] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-04-28 09:13:11] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230428/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-04-28 09:13:11] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-04-28 09:13:11] INFO root fetch - processPackages [pyattest]: Downloading https://files.pythonhosted.org/packages/83/74/30bc855c05e1fd0ba76c3f0df949a894865f2fd0ffe82c0e41dc22eff6b8/pyattest-0.0.8.tar.gz
+[2023-04-28 09:13:12] INFO root fetch - main [MainThread]: End processing [py3gpp]: success
+[2023-04-28 09:13:12] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/e4/cf/3c761624f49cfb43b06417ee3bbde1f808dd98818a6feb211a0452c80167/PyQt-Fluent-Widgets-0.8.0.tar.gz
+[2023-04-28 09:13:12] INFO root fetch - main [MainThread]: End processing [inverter-connect]: success
+[2023-04-28 09:13:12] INFO root fetch - processPackages [pyattest]: Downloading https://files.pythonhosted.org/packages/10/24/ce4da8daac0a202d8455f6d9273824787ba402deecf8ebbd0125be1ab1a3/pyattest-0.0.9.tar.gz
+[2023-04-28 09:13:12] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-04-28 09:13:12] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.7.6.tar.gz tmp/PyQt-Fluent-Widgets-0.8.0.tar.gz --markdown 20230428/P/PyQt-Fluent-Widgets/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 09:13:12] INFO root fetch - processPackages [pyattest]: executing diffoscope
+[2023-04-28 09:13:12] INFO root fetch - processPackages [pyattest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyattest-0.0.8.tar.gz tmp/pyattest-0.0.9.tar.gz --markdown 20230428/p/pyattest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:13:12] INFO root fetch - main [MainThread]: End processing [slack-sdk]: success
+[2023-04-28 09:13:13] INFO root fetch - main [MainThread]: End processing [pyattest]: success
+[2023-04-28 09:13:13] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-04-28 09:13:13] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-04-28 09:13:14] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-04-28 09:13:15] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-04-28 09:13:15] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 09:13:16] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-04-28 09:13:16] INFO root fetch - main [MainThread]: Store serial: [17894881]
