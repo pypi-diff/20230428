@@ -16651,3 +16651,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:21:31] INFO root fetch - main [MainThread]: End processing [snakemake]: success
 [2023-04-28 16:21:35] INFO root fetch - main [MainThread]: End processing [yangsuite-yangtree]: success
 [2023-04-28 16:21:35] INFO root fetch - main [MainThread]: Store serial: [17899197]
+[2023-04-28 16:26:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899197]
+[2023-04-28 16:26:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pe-configurator
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encord
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domino-py
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icd-mappings
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reaktion
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-codeseeder
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arkitekt
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-04-28 16:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: microservicebus-py
+[2023-04-28 16:26:48] INFO root fetch - processPackages [encord]: New version: [0.1.74] Old Version: [0.1.73]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [domino-py]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [pe-configurator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [aws-codeseeder]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [icd-mappings]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [microservicebus-py]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [arkitekt]: New version: [0.4.97] Old Version: [0.4.96]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-28 16:26:48] INFO root fetch - processPackages [icd-mappings]: Downloading https://files.pythonhosted.org/packages/a9/7a/45ffe56fe92ab9764ab517bb363471a6990fe949a72dc364ff5691331502/icd_mappings-0.1.7.tar.gz
+[2023-04-28 16:26:48] INFO root fetch - processPackages [domino-py]: Downloading https://files.pythonhosted.org/packages/c3/56/3dbf776d7d5f9336716d1fff3714371fe903164d0519cb743ef4351ecfc2/domino-py-0.1.8.tar.gz
+[2023-04-28 16:26:48] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/6b/17/78062ca4f758d824980e4ccd3a4ccf0de1302e137ee3d7f9bd644f790be3/reaktion-0.1.8.tar.gz
+[2023-04-28 16:26:48] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-28 16:26:48] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230428/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:26:48] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/49/72/b2523dd1a78b79385f1328cf2a8ce55381dd1e0656ae4083ef368bd50be7/microservicebus-py-0.9.0.tar.gz
+[2023-04-28 16:26:48] INFO root fetch - processPackages [aws-codeseeder]: Downloading https://files.pythonhosted.org/packages/cc/a6/bf608d5529ba24d6a64ec28304845126062428170121244585d6668f0733/aws_codeseeder-0.8.1-py3-none-any.whl
+[2023-04-28 16:26:48] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/8e/1e/6a6fbbced3a1e8d330d1773f139df569d26e36b8bb5446ba2bd39a302932/arkitekt-0.4.97.tar.gz
+[2023-04-28 16:26:48] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-04-28 16:26:48] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.7.tar.gz tmp/domino-py-0.1.8.tar.gz --markdown 20230428/d/domino-py/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/1f/54/1f09df55d463a5b3784db435dc1e7e8774f0c3f1f771429df38cb25287d4/pe-configurator-0.1.5.tar.gz
+[2023-04-28 16:26:49] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.96.tar.gz tmp/arkitekt-0.4.97.tar.gz --markdown 20230428/a/arkitekt/0.4.96-0.4.97/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [icd-mappings]: Downloading https://files.pythonhosted.org/packages/e5/75/fb3ee34cbb14d020855b5c359240989b1517ca3620f522e01f5811dc4957/icd_mappings-0.2.0.tar.gz
+[2023-04-28 16:26:49] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/fd/ec/45b142516d1b38dd4924390621490f554b32d051c53e2e5c1aebf70b57ab/encord-0.1.74.tar.gz
+[2023-04-28 16:26:49] INFO root fetch - processPackages [aws-codeseeder]: Downloading https://files.pythonhosted.org/packages/40/7d/e4f756aba6a6795a13cdb778293f9ce9567b8290623ed9358371c4b8ae02/aws_codeseeder-0.8.2-py3-none-any.whl
+[2023-04-28 16:26:49] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/b4/a4/974724e81dad303e0138484e1693d23ee43c3627d4e3d0f4a9fade9cc233/reaktion-0.1.9.tar.gz
+[2023-04-28 16:26:49] INFO root fetch - processPackages [encord]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.73.tar.gz tmp/encord-0.1.74.tar.gz --markdown 20230428/e/encord/0.1.73-0.1.74/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [icd-mappings]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [icd-mappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icd_mappings-0.1.7.tar.gz tmp/icd_mappings-0.2.0.tar.gz --markdown 20230428/i/icd-mappings/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/60/81/96ebe2c894c3393334e86f2d3dbfbbe4e392a9946f2dae195e7ddec55a5c/microservicebus-py-0.9.1.tar.gz
+[2023-04-28 16:26:49] INFO root fetch - processPackages [aws-codeseeder]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [aws-codeseeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_codeseeder-0.8.1-py3-none-any.whl.zip tmp/aws_codeseeder-0.8.2-py3-none-any.whl.zip --markdown 20230428/a/aws-codeseeder/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230428/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230428/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [pe-configurator]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [pe-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-configurator-0.1.4.tar.gz tmp/pe-configurator-0.1.5.tar.gz --markdown 20230428/p/pe-configurator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-28 16:26:49] INFO root fetch - processPackages [microservicebus-py]: executing diffoscope
+[2023-04-28 16:26:49] INFO root fetch - processPackages [microservicebus-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservicebus-py-0.9.0.tar.gz tmp/microservicebus-py-0.9.1.tar.gz --markdown 20230428/m/microservicebus-py/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 16:26:50] INFO root fetch - processPackages [langchain-serve]: Start processing: python-chi
+[2023-04-28 16:26:50] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-28 16:26:50] INFO root fetch - processPackages [python-chi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 16:26:50] INFO root fetch - processPackages [python-chi]: Downloading https://files.pythonhosted.org/packages/0a/0d/4e51f7ca71bb6209de24cc7c8dd2ab9e761bf9de69859326fde56a4053c0/python-chi-0.9.0.tar.gz
+[2023-04-28 16:26:50] INFO root fetch - processPackages [microservicebus-py]: Start processing: lasso
+[2023-04-28 16:26:50] INFO root fetch - main [MainThread]: End processing [microservicebus-py]: success
+[2023-04-28 16:26:50] WARNING root fetch - processPackages [lasso]: Skipping, unable to determine old version
+[2023-04-28 16:26:50] INFO root fetch - processPackages [lasso]: Start processing: python-chi
+[2023-04-28 16:26:50] INFO root fetch - main [MainThread]: End processing [lasso] error
+[2023-04-28 16:26:50] INFO root fetch - processPackages [python-chi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 16:26:50] INFO root fetch - processPackages [python-chi]: Downloading https://files.pythonhosted.org/packages/0a/0d/4e51f7ca71bb6209de24cc7c8dd2ab9e761bf9de69859326fde56a4053c0/python-chi-0.9.0.tar.gz
+[2023-04-28 16:26:50] INFO root fetch - processPackages [reaktion]: Start processing: pomodoro-timer-cli
+[2023-04-28 16:26:50] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-04-28 16:26:50] INFO root fetch - processPackages [pomodoro-timer-cli]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-28 16:26:50] INFO root fetch - processPackages [encord]: Start processing: Turk-game
+[2023-04-28 16:26:50] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2023-04-28 16:26:50] INFO root fetch - processPackages [Turk-game]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 16:26:51] INFO root fetch - processPackages [aws-codeseeder]: Start processing: sentinel-satellites
+[2023-04-28 16:26:51] INFO root fetch - main [MainThread]: End processing [aws-codeseeder]: success
+[2023-04-28 16:26:51] INFO root fetch - processPackages [sentinel-satellites]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 16:26:51] INFO root fetch - processPackages [python-chi]: Downloading https://files.pythonhosted.org/packages/d9/c9/16f120d0dcaa73aef83be8c38bd2db7f91267a2b55959748dfab99171f8f/python-chi-0.9.1.tar.gz
+[2023-04-28 16:26:51] INFO root fetch - processPackages [python-chi]: Downloading https://files.pythonhosted.org/packages/d9/c9/16f120d0dcaa73aef83be8c38bd2db7f91267a2b55959748dfab99171f8f/python-chi-0.9.1.tar.gz
+[2023-04-28 16:26:51] INFO root fetch - processPackages [pomodoro-timer-cli]: Downloading https://files.pythonhosted.org/packages/dd/cd/1b16da02b9b9c5e26534b77e77a1d4a953d9c3b103dfa6d9b8ec2ab852b6/pomodoro_timer_cli-0.2.0.tar.gz
+[2023-04-28 16:26:51] INFO root fetch - processPackages [sentinel-satellites]: executing diffoscope
+[2023-04-28 16:26:51] INFO root fetch - processPackages [sentinel-satellites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_satellites-0.0.8.tar.gz tmp/sentinel_satellites-0.0.9.tar.gz --markdown 20230428/s/sentinel-satellites/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:26:51] INFO root fetch - processPackages [Turk-game]: Downloading https://files.pythonhosted.org/packages/0c/5c/10c0a01c4079a2e77500ff34545e5c201bad36d2e6d94ddb6a47299b519f/Turk_game-1.0.3.tar.gz
+[2023-04-28 16:26:51] INFO root fetch - main [MainThread]: End processing [icd-mappings]: success
+[2023-04-28 16:26:51] INFO root fetch - processPackages [pomodoro-timer-cli]: executing diffoscope
+[2023-04-28 16:26:51] INFO root fetch - processPackages [pomodoro-timer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomodoro_timer_cli-0.1.9.tar.gz tmp/pomodoro_timer_cli-0.2.0.tar.gz --markdown 20230428/p/pomodoro-timer-cli/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 16:26:51] INFO root fetch - processPackages [python-chi]: executing diffoscope
+[2023-04-28 16:26:51] INFO root fetch - processPackages [python-chi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-chi-0.9.0.tar.gz tmp/python-chi-0.9.1.tar.gz --markdown 20230428/p/python-chi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 16:26:51] INFO root fetch - processPackages [python-chi]: executing diffoscope
+[2023-04-28 16:26:51] INFO root fetch - processPackages [python-chi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-chi-0.9.0.tar.gz tmp/python-chi-0.9.1.tar.gz --markdown 20230428/p/python-chi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 16:26:51] INFO root fetch - processPackages [Turk-game]: Downloading https://files.pythonhosted.org/packages/30/32/737114f60e532ec06beb33c0f48906882b1573a5240378db4160c7ef4d6d/Turk_game-1.0.4.tar.gz
+[2023-04-28 16:26:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-28 16:26:51] INFO root fetch - processPackages [Turk-game]: executing diffoscope
+[2023-04-28 16:26:51] INFO root fetch - processPackages [Turk-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Turk_game-1.0.3.tar.gz tmp/Turk_game-1.0.4.tar.gz --markdown 20230428/T/Turk-game/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 16:26:51] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-04-28 16:26:52] INFO root fetch - main [MainThread]: End processing [sentinel-satellites]: success
+[2023-04-28 16:26:52] INFO root fetch - main [MainThread]: End processing [Turk-game]: success
+[2023-04-28 16:26:52] INFO root fetch - main [MainThread]: End processing [python-chi]: success
+[2023-04-28 16:26:52] INFO root fetch - main [MainThread]: End processing [pomodoro-timer-cli]: success
+[2023-04-28 16:26:53] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-28 16:26:55] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
+[2023-04-28 16:27:13] INFO root fetch - main [MainThread]: End processing [python-chi]: success
+[2023-04-28 16:27:13] INFO root fetch - main [MainThread]: Store serial: [17899245]
