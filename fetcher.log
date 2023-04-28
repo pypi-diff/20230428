@@ -6663,3 +6663,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 05:02:57] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-04-28 05:02:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-triple-discount]: success
 [2023-04-28 05:02:57] INFO root fetch - main [MainThread]: Store serial: [17893434]
+[2023-04-28 05:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893434]
+[2023-04-28 05:08:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmfs
+[2023-04-28 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-04-28 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2023-04-28 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kwimage
+[2023-04-28 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygptj
+[2023-04-28 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor
+[2023-04-28 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-editor-dev
+[2023-04-28 05:08:06] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 05:08:06] INFO root fetch - processPackages [policyengine-us]: New version: [0.305.0] Old Version: [0.304.0]
+[2023-04-28 05:08:06] INFO root fetch - processPackages [hmfs]: New version: [1.1.6] Old Version: [1.1.5136]
+[2023-04-28 05:08:06] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 05:08:06] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 05:08:06] INFO root fetch - processPackages [pygptj]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 05:08:06] INFO root fetch - processPackages [kwimage]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 05:08:06] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-04-28 05:08:06] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230428/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-28 05:08:06] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-28 05:08:06] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230428/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:08:06] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-28 05:08:06] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230428/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:08:06] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/67/52/8324216e53130d1f4d8e515e0c70c3fbf72d0c60bb8f54577c19c1b47d86/hmfs-1.1.5136.tar.gz
+[2023-04-28 05:08:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/26/8e/441bfa4a290d60452c5d1edbdb14cded134f86b78acc40957d0c85e3b640/policyengine-us-0.305.0.tar.gz
+[2023-04-28 05:08:06] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/93/58/f7d95bd0d0f3274eaed34e42f19f20ad7d5d15d0d5a16aab8fc614af67eb/pygptj-1.0.8.tar.gz
+[2023-04-28 05:08:06] INFO root fetch - processPackages [kwimage]: Downloading https://files.pythonhosted.org/packages/72/a8/62db2031647662b4fae45542537c56bc1a50318309612eebc6350113971d/kwimage-0.9.8-py3-none-any.whl
+[2023-04-28 05:08:06] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-28 05:08:06] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.304.0.tar.gz tmp/policyengine-us-0.305.0.tar.gz --markdown 20230428/p/policyengine-us/0.304.0-0.305.0/diff.md --exclude *.pyd
+[2023-04-28 05:08:06] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/bb/4b/e60eca907e5d6d8c135c8e99c72e441588beb1193542195ed29f28399b94/pygptj-1.0.9.tar.gz
+[2023-04-28 05:08:06] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/9f/e2/2aeaa17665627542a9bcb80c17dcf663309ba83964369dd3ef9fa4ffc362/hmfs-1.1.6.tar.gz
+[2023-04-28 05:08:07] INFO root fetch - processPackages [kwimage]: Downloading https://files.pythonhosted.org/packages/3c/37/803557a35b66b6a6736757899040c0c421e09a17fb9a7ddf24651456a99b/kwimage-0.9.9-py3-none-any.whl
+[2023-04-28 05:08:07] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-04-28 05:08:07] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-1.0.8.tar.gz tmp/pygptj-1.0.9.tar.gz --markdown 20230428/p/pygptj/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:08:07] INFO root fetch - processPackages [kwimage]: executing diffoscope
+[2023-04-28 05:08:07] INFO root fetch - processPackages [kwimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwimage-0.9.8-py3-none-any.whl.zip tmp/kwimage-0.9.9-py3-none-any.whl.zip --markdown 20230428/k/kwimage/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 05:08:07] INFO root fetch - processPackages [hmfs]: executing diffoscope
+[2023-04-28 05:08:07] INFO root fetch - processPackages [hmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmfs-1.1.5136.tar.gz tmp/hmfs-1.1.6.tar.gz --markdown 20230428/h/hmfs/1.1.5136-1.1.6/diff.md --exclude *.pyd
+[2023-04-28 05:08:07] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-28 05:08:07] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-28 05:08:07] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-04-28 05:08:08] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-04-28 05:08:09] INFO root fetch - main [MainThread]: End processing [kwimage]: success
+[2023-04-28 05:08:11] INFO root fetch - main [MainThread]: End processing [hmfs]: success
+[2023-04-28 05:09:15] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-28 05:09:15] INFO root fetch - main [MainThread]: Store serial: [17893472]
