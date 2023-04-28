@@ -8293,3 +8293,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:02:21] INFO root fetch - main [MainThread]: End processing [yangsuite-gnmi]: success
 [2023-04-28 08:02:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-04-28 08:02:24] INFO root fetch - main [MainThread]: Store serial: [17894367]
+[2023-04-28 08:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894367]
+[2023-04-28 08:07:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 08:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mermaid-python
+[2023-04-28 08:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mermaid-python
+[2023-04-28 08:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryptlex.lexactivator
+[2023-04-28 08:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airportcountries
+[2023-04-28 08:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blacksheep
+[2023-04-28 08:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2023-04-28 08:07:35] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230427] Old Version: [2.4.0.dev20230426]
+[2023-04-28 08:07:35] WARNING root fetch - processPackages [mermaid-python]: Skipping, unable to determine old version
+[2023-04-28 08:07:35] INFO root fetch - main [MainThread]: End processing [mermaid-python] error
+[2023-04-28 08:07:35] WARNING root fetch - processPackages [mermaid-python]: Skipping, unable to determine old version
+[2023-04-28 08:07:35] INFO root fetch - main [MainThread]: End processing [mermaid-python] error
+[2023-04-28 08:07:35] INFO root fetch - processPackages [cryptlex.lexactivator]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-28 08:07:35] WARNING root fetch - processPackages [airportcountries]: Skipping, unable to determine old version
+[2023-04-28 08:07:35] INFO root fetch - main [MainThread]: End processing [airportcountries] error
+[2023-04-28 08:07:35] INFO root fetch - processPackages [blacksheep]: New version: [2.0a6] Old Version: [2.0a5]
+[2023-04-28 08:07:35] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/e7/c1/fd60d5525c926995c5e49cd352302a96c14f40c9b92c22ac6519f02623e8/cryptlex.lexactivator-3.9.0.tar.gz
+[2023-04-28 08:07:35] INFO root fetch - processPackages [blacksheep]: Downloading https://files.pythonhosted.org/packages/11/e1/f58f30b0668138ac7d4f2c2fbf87331bbf9ed35bb8f0024562306e549497/blacksheep-2.0a5.tar.gz
+[2023-04-28 08:07:35] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/43/db/9cc9fa2ab0d6ef767df16f562af18f5773f7e883f068058d54713b003d00/pyg-nightly-2.4.0.dev20230427.tar.gz
+[2023-04-28 08:07:36] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-28 08:07:36] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230426.tar.gz tmp/pyg-nightly-2.4.0.dev20230427.tar.gz --markdown 20230428/p/pyg-nightly/2.4.0.dev20230426-2.4.0.dev20230427/diff.md --exclude *.pyd
+[2023-04-28 08:07:36] INFO root fetch - processPackages [blacksheep]: Downloading https://files.pythonhosted.org/packages/6e/bf/7495e2099f90877464c2de0bfb6ccb8bbcbba6df8a59de6be5e476442953/blacksheep-2.0a6.tar.gz
+[2023-04-28 08:07:36] INFO root fetch - processPackages [blacksheep]: executing diffoscope
+[2023-04-28 08:07:36] INFO root fetch - processPackages [blacksheep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacksheep-2.0a5.tar.gz tmp/blacksheep-2.0a6.tar.gz --markdown 20230428/b/blacksheep/2.0a5-2.0a6/diff.md --exclude *.pyd
+[2023-04-28 08:07:37] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/b5/1a/b17637066ac73010c7cd8b85951f58867b72a046cee6eb00e19a520568bf/cryptlex.lexactivator-3.9.1.tar.gz
+[2023-04-28 08:07:39] INFO root fetch - processPackages [cryptlex.lexactivator]: executing diffoscope
+[2023-04-28 08:07:39] INFO root fetch - processPackages [cryptlex.lexactivator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptlex.lexactivator-3.9.0.tar.gz tmp/cryptlex.lexactivator-3.9.1.tar.gz --markdown 20230428/c/cryptlex.lexactivator/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-28 08:07:41] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-28 08:07:41] INFO root fetch - main [MainThread]: End processing [blacksheep]: success
+[2023-04-28 08:08:28] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
+[2023-04-28 08:08:28] INFO root fetch - main [MainThread]: Store serial: [17894401]
