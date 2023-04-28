@@ -10251,3 +10251,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 10:23:05] INFO root fetch - main [MainThread]: End processing [cnn2snn]: success
 [2023-04-28 10:23:12] INFO root fetch - main [MainThread]: End processing [akida]: success
 [2023-04-28 10:23:12] INFO root fetch - main [MainThread]: Store serial: [17895473]
+[2023-04-28 10:28:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895473]
+[2023-04-28 10:28:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wodoo
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-dialog-size
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dovado-rtl
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nip-config
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xrmap
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlflow
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spleaf
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-sdk
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ddmrp
+[2023-04-28 10:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gdb-plus
+[2023-04-28 10:28:23] INFO root fetch - processPackages [xrmap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [nip-config]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [spleaf]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [mlflow]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.0] Old Version: [6.0.2]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [dovado-rtl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [gdb-plus]: New version: [6.1.0] Old Version: [5.4.1]
+[2023-04-28 10:28:24] INFO root fetch - processPackages [xrmap]: Downloading https://files.pythonhosted.org/packages/71/7b/deb58156f4b8d531280a36f82b9c0b6cbb549e0cb14ba50ba4ef8cc8ad00/xrmap-0.0.3.tar.gz
+[2023-04-28 10:28:24] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/00/85/79f80f6ba92373298fd285e28c49b7fce45f4d026d2682d8b5c4d7991840/odoo_addon_web_dialog_size-15.0.1.0.1-py3-none-any.whl
+[2023-04-28 10:28:24] INFO root fetch - processPackages [nip-config]: Downloading https://files.pythonhosted.org/packages/96/5e/9e06b84496e10307483daaef8977f4b9331aba6a30db2fb4a538da4554fe/nip-config-0.8.4.tar.gz
+[2023-04-28 10:28:24] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-04-28 10:28:24] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/d0/88/db0bec1b323023adf19310ec172d9294f1073ef983f7a90b47e67b1ffd58/cognite_sdk-6.1.0.tar.gz
+[2023-04-28 10:28:24] INFO root fetch - processPackages [spleaf]: Downloading https://files.pythonhosted.org/packages/c8/ea/4a98bf38dabafbd1d1b424a0a5b22cb5ea51a1342eae67ae879e35c18db5/spleaf-2.1.5.tar.gz
+[2023-04-28 10:28:24] INFO root fetch - processPackages [dovado-rtl]: Downloading https://files.pythonhosted.org/packages/83/4c/15d96bfbd77a19ab10f9564974b041d310dc5b79aeef5d6563de6e86c8ed/dovado-rtl-0.9.8.tar.gz
+[2023-04-28 10:28:24] INFO root fetch - processPackages [gdb-plus]: Downloading https://files.pythonhosted.org/packages/30/0f/cde3c56eadad21108465d660f580fc32799f477f43f66fd8c2909ca7467d/gdb_plus-5.4.1.tar.gz
+[2023-04-28 10:28:24] INFO root fetch - processPackages [mlflow]: Downloading https://files.pythonhosted.org/packages/1c/2d/10e8e99daa5403f3ff863e154e62077e238b8c997919ad373d2d811a9ffe/mlflow-2.3.0.tar.gz
+[2023-04-28 10:28:24] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-04-28 10:28:24] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230428/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-04-28 10:28:25] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-04-28 10:28:25] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.0.2.tar.gz tmp/cognite_sdk-6.1.0.tar.gz --markdown 20230428/c/cognite-sdk/6.0.2-6.1.0/diff.md --exclude *.pyd
+[2023-04-28 10:28:25] WARNING root fetch - processPackages [mlflow]: Skipping package: exceeds size limit 17303127>=10485760
+[2023-04-28 10:28:25] INFO root fetch - processPackages [mlflow]: Start processing: mlflow-skinny
+[2023-04-28 10:28:25] INFO root fetch - main [MainThread]: End processing [mlflow] error
+[2023-04-28 10:28:25] INFO root fetch - processPackages [nip-config]: Downloading https://files.pythonhosted.org/packages/95/39/2ec9ae5b58f6a414a1561f90a9bcc8cdd96ee22b6330c3dd2d83ad26bd46/nip-config-0.9.0.tar.gz
+[2023-04-28 10:28:25] INFO root fetch - processPackages [xrmap]: Downloading https://files.pythonhosted.org/packages/84/6a/ad95dc8922778736a11b6fb99422452b388369b1102308e43b75a3b2d0b4/xrmap-0.0.4.tar.gz
+[2023-04-28 10:28:25] INFO root fetch - processPackages [gdb-plus]: Downloading https://files.pythonhosted.org/packages/e6/e2/0d7055877b94c7f523e400ec6f0dbf033e0be86412dda230a0dfab60875e/gdb_plus-6.1.0.tar.gz
+[2023-04-28 10:28:25] INFO root fetch - processPackages [nip-config]: executing diffoscope
+[2023-04-28 10:28:25] INFO root fetch - processPackages [nip-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nip-config-0.8.4.tar.gz tmp/nip-config-0.9.0.tar.gz --markdown 20230428/n/nip-config/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 10:28:25] INFO root fetch - processPackages [xrmap]: executing diffoscope
+[2023-04-28 10:28:25] INFO root fetch - processPackages [xrmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrmap-0.0.3.tar.gz tmp/xrmap-0.0.4.tar.gz --markdown 20230428/x/xrmap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 10:28:25] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/55/24/62b5454de7e86dc8962defd73ca26bec4a3e49e70fb0d268aff963ddea46/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-28 10:28:25] INFO root fetch - processPackages [mlflow-skinny]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-28 10:28:25] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-04-28 10:28:25] INFO root fetch - processPackages [gdb-plus]: executing diffoscope
+[2023-04-28 10:28:25] INFO root fetch - processPackages [gdb-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdb_plus-5.4.1.tar.gz tmp/gdb_plus-6.1.0.tar.gz --markdown 20230428/g/gdb-plus/5.4.1-6.1.0/diff.md --exclude *.pyd
+[2023-04-28 10:28:25] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: executing diffoscope
+[2023-04-28 10:28:25] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_dialog_size-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-web-dialog-size/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-28 10:28:25] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/b5/69/8bfd54654f43855fb08fd2fbfeadc1eec83618b9b27bb5b45962f335bd1c/mlflow_skinny-2.3.0-py3-none-any.whl
+[2023-04-28 10:28:25] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-04-28 10:28:25] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230428/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-04-28 10:28:26] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/2f/bd/7e2593bc8cce2152d68947347884569ebd9325776c12967ff0fea75bc95a/mlflow_skinny-2.3.1-py3-none-any.whl
+[2023-04-28 10:28:26] INFO root fetch - processPackages [wodoo]: Start processing: odoo-addon-purchase-stock-tier-validation
+[2023-04-28 10:28:26] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-04-28 10:28:26] WARNING root fetch - processPackages [odoo-addon-purchase-stock-tier-validation]: Skipping, unable to determine old version
+[2023-04-28 10:28:26] INFO root fetch - processPackages [odoo-addon-purchase-stock-tier-validation]: Start processing: generate-corr-sequence
+[2023-04-28 10:28:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-tier-validation] error
+[2023-04-28 10:28:26] WARNING root fetch - processPackages [generate-corr-sequence]: Skipping, unable to determine old version
+[2023-04-28 10:28:26] INFO root fetch - processPackages [generate-corr-sequence]: Start processing: dcm-processor
+[2023-04-28 10:28:26] INFO root fetch - main [MainThread]: End processing [generate-corr-sequence] error
+[2023-04-28 10:28:26] INFO root fetch - processPackages [dcm-processor]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 10:28:26] INFO root fetch - processPackages [spleaf]: Downloading https://files.pythonhosted.org/packages/ae/0f/f37111e10a9e28d30bec9bcc152fb9c30778dfa4c177ff79d23f2947ca2e/spleaf-2.1.6.tar.gz
+[2023-04-28 10:28:26] INFO root fetch - processPackages [spleaf]: executing diffoscope
+[2023-04-28 10:28:26] INFO root fetch - processPackages [mlflow-skinny]: executing diffoscope
+[2023-04-28 10:28:26] INFO root fetch - processPackages [spleaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleaf-2.1.5.tar.gz tmp/spleaf-2.1.6.tar.gz --markdown 20230428/s/spleaf/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-04-28 10:28:26] INFO root fetch - processPackages [mlflow-skinny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_skinny-2.3.0-py3-none-any.whl.zip tmp/mlflow_skinny-2.3.1-py3-none-any.whl.zip --markdown 20230428/m/mlflow-skinny/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-28 10:28:26] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/c5/84/208135563c24cdfc82e623eecf488210a082926cc40e1ef14d365e2c4a6c/dcm-processor-1.0.3.tar.gz
+[2023-04-28 10:28:26] INFO root fetch - main [MainThread]: End processing [xrmap]: success
+[2023-04-28 10:28:27] INFO root fetch - main [MainThread]: End processing [gdb-plus]: success
+[2023-04-28 10:28:27] INFO root fetch - main [MainThread]: End processing [nip-config]: success
+[2023-04-28 10:28:27] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/24/c2/13ec05447f0dbaca1dbbc13b80471676b10db5abd52b300b763c27c2854e/dcm-processor-1.0.4.tar.gz
+[2023-04-28 10:28:27] INFO root fetch - processPackages [dovado-rtl]: Downloading https://files.pythonhosted.org/packages/23/f7/2cb2dae51a2bc21651e4da5799bbfe2e1650bf4193685db98fd67e0f7b7a/dovado-rtl-0.9.9.tar.gz
+[2023-04-28 10:28:27] INFO root fetch - main [MainThread]: End processing [spleaf]: success
+[2023-04-28 10:28:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-04-28 10:28:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-dialog-size]: success
+[2023-04-28 10:28:28] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2023-04-28 10:28:28] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-1.0.3.tar.gz tmp/dcm-processor-1.0.4.tar.gz --markdown 20230428/d/dcm-processor/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 10:28:28] INFO root fetch - processPackages [dovado-rtl]: executing diffoscope
+[2023-04-28 10:28:28] INFO root fetch - processPackages [dovado-rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovado-rtl-0.9.8.tar.gz tmp/dovado-rtl-0.9.9.tar.gz --markdown 20230428/d/dovado-rtl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 10:28:29] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2023-04-28 10:28:29] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-04-28 10:28:31] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
+[2023-04-28 10:28:36] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
+[2023-04-28 10:28:36] INFO root fetch - main [MainThread]: Store serial: [17895512]
