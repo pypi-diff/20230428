@@ -1923,3 +1923,168 @@
 [2023-04-28 02:50:21] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
 [2023-04-28 02:50:27] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-04-28 02:50:27] INFO root fetch - main [MainThread]: Store serial: [17890799]
+[2023-04-28 02:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890799]
+[2023-04-28 02:55:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metallurgy
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zkt
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flirimageextractor
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: string2string
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: allcuisines
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latest-earth-quake-Indonesia-chatur
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uvicorn
+[2023-04-28 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygtrans
+[2023-04-28 02:55:36] INFO root fetch - processPackages [metallurgy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 02:55:36] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 02:55:36] WARNING root fetch - processPackages [zkt]: Skipping, unable to determine old version
+[2023-04-28 02:55:36] INFO root fetch - processPackages [zkt]: Start processing: adafruit-circuitpython-monsterm4sk
+[2023-04-28 02:55:36] INFO root fetch - main [MainThread]: End processing [zkt] error
+[2023-04-28 02:55:36] INFO root fetch - processPackages [flirimageextractor]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-28 02:55:36] INFO root fetch - processPackages [pygtrans]: New version: [1.5.1] Old Version: [1.4.0]
+[2023-04-28 02:55:36] WARNING root fetch - processPackages [latest-earth-quake-Indonesia-chatur]: Skipping, unable to determine old version
+[2023-04-28 02:55:36] INFO root fetch - processPackages [latest-earth-quake-Indonesia-chatur]: Start processing: pycde
+[2023-04-28 02:55:36] INFO root fetch - main [MainThread]: End processing [latest-earth-quake-Indonesia-chatur] error
+[2023-04-28 02:55:36] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev80]
+[2023-04-28 02:55:36] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-28 02:55:36] INFO root fetch - processPackages [string2string]: New version: [0.0.3.2.141] Old Version: [0.0.3.2.140]
+[2023-04-28 02:55:36] INFO root fetch - processPackages [uvicorn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 02:55:36] WARNING root fetch - processPackages [allcuisines]: Skipping, unable to determine old version
+[2023-04-28 02:55:36] INFO root fetch - processPackages [allcuisines]: Start processing: bioversions
+[2023-04-28 02:55:36] INFO root fetch - main [MainThread]: End processing [allcuisines] error
+[2023-04-28 02:55:36] INFO root fetch - processPackages [adafruit-circuitpython-monsterm4sk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 02:55:36] INFO root fetch - processPackages [pygtrans]: executing diffoscope
+[2023-04-28 02:55:36] INFO root fetch - processPackages [pygtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygtrans-1.4.0.tar.gz tmp/pygtrans-1.5.1.tar.gz --markdown 20230428/p/pygtrans/1.4.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-28 02:55:36] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-04-28 02:55:36] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-28 02:55:36] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230428/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-28 02:55:36] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-04-28 02:55:36] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230428/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-04-28 02:55:36] INFO root fetch - processPackages [string2string]: Downloading https://files.pythonhosted.org/packages/2a/3b/b2b0fd703ca335d73c66c7fde31cbb09cf85b8d2cdfca3e90af1d06caf36/string2string-0.0.3.2.140.tar.gz
+[2023-04-28 02:55:36] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/5a/a9/2ab492155d9b76cf109c2370e201822ba3c7f4aed85f5a1b4d22907e7206/uvicorn-0.9.0.tar.gz
+[2023-04-28 02:55:36] INFO root fetch - processPackages [adafruit-circuitpython-monsterm4sk]: Downloading https://files.pythonhosted.org/packages/5f/0a/00cd6359b52984512c27abae657554270d40aa2ac16d6ad47782018b0fdf/adafruit-circuitpython-monsterm4sk-0.3.8.tar.gz
+[2023-04-28 02:55:36] INFO root fetch - processPackages [metallurgy]: executing diffoscope
+[2023-04-28 02:55:36] INFO root fetch - processPackages [metallurgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metallurgy-0.0.8.tar.gz tmp/metallurgy-0.0.9.tar.gz --markdown 20230428/m/metallurgy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 02:55:36] INFO root fetch - processPackages [flirimageextractor]: executing diffoscope
+[2023-04-28 02:55:36] INFO root fetch - processPackages [flirimageextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flirimageextractor-1.4.1.tar.gz tmp/flirimageextractor-1.5.0.tar.gz --markdown 20230428/f/flirimageextractor/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-28 02:55:36] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-04-28 02:55:36] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-04-28 02:55:36] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev80-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230428/p/pycde/0.2.1.dev80-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 02:55:36] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230428/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 02:55:37] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/37/b6/ceaccbf4af91bb6331ef8818fd845b3370fdca178f29b1d253406a284219/uvicorn-0.9.1.tar.gz
+[2023-04-28 02:55:37] INFO root fetch - processPackages [string2string]: Downloading https://files.pythonhosted.org/packages/44/fa/760a9bffe8d8fa4d89a80d71ea5dff80ad785f0f8034e3b5d5157165f54d/string2string-0.0.3.2.141.tar.gz
+[2023-04-28 02:55:37] INFO root fetch - processPackages [uvicorn]: executing diffoscope
+[2023-04-28 02:55:37] INFO root fetch - processPackages [uvicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvicorn-0.9.0.tar.gz tmp/uvicorn-0.9.1.tar.gz --markdown 20230428/u/uvicorn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 02:55:37] INFO root fetch - processPackages [adafruit-circuitpython-monsterm4sk]: Downloading https://files.pythonhosted.org/packages/77/51/60c16c033478fc63f35952c460e88b887cece54e0b8881f20af3095b4b18/adafruit-circuitpython-monsterm4sk-0.3.9.tar.gz
+[2023-04-28 02:55:37] INFO root fetch - processPackages [string2string]: executing diffoscope
+[2023-04-28 02:55:37] INFO root fetch - processPackages [string2string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string2string-0.0.3.2.140.tar.gz tmp/string2string-0.0.3.2.141.tar.gz --markdown 20230428/s/string2string/0.0.3.2.140-0.0.3.2.141/diff.md --exclude *.pyd
+[2023-04-28 02:55:37] INFO root fetch - processPackages [adafruit-circuitpython-monsterm4sk]: executing diffoscope
+[2023-04-28 02:55:37] INFO root fetch - processPackages [adafruit-circuitpython-monsterm4sk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-monsterm4sk-0.3.8.tar.gz tmp/adafruit-circuitpython-monsterm4sk-0.3.9.tar.gz --markdown 20230428/a/adafruit-circuitpython-monsterm4sk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 02:55:37] INFO root fetch - processPackages [pygtrans]: Start processing: zkt
+[2023-04-28 02:55:37] INFO root fetch - main [MainThread]: End processing [pygtrans]: success
+[2023-04-28 02:55:37] INFO root fetch - processPackages [zkt]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 02:55:38] INFO root fetch - processPackages [zkt]: Downloading https://files.pythonhosted.org/packages/83/1a/bbc989127b3d19b6f9ca964cedc8e847ee7628f02a6b673fbefa7897b7c3/zkt-1.0.0.tar.gz
+[2023-04-28 02:55:38] INFO root fetch - processPackages [zkt]: Downloading https://files.pythonhosted.org/packages/6d/bb/1c5d323144b152ede672bf459cd4e606c80286fc97b44780691416b1febe/zkt-1.0.1.tar.gz
+[2023-04-28 02:55:38] INFO root fetch - main [MainThread]: End processing [flirimageextractor]: success
+[2023-04-28 02:55:38] INFO root fetch - processPackages [zkt]: executing diffoscope
+[2023-04-28 02:55:38] INFO root fetch - processPackages [zkt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zkt-1.0.0.tar.gz tmp/zkt-1.0.1.tar.gz --markdown 20230428/z/zkt/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 02:55:38] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-04-28 02:55:38] INFO root fetch - main [MainThread]: End processing [uvicorn]: success
+[2023-04-28 02:55:38] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-28 02:55:38] INFO root fetch - main [MainThread]: End processing [string2string]: success
+[2023-04-28 02:55:38] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-monsterm4sk]: success
+[2023-04-28 02:55:39] INFO root fetch - main [MainThread]: End processing [metallurgy]: success
+[2023-04-28 02:55:39] INFO root fetch - main [MainThread]: End processing [zkt]: success
+[2023-04-28 02:55:57] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-04-28 02:56:19] ERROR root fetch - processPackages [pycde]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140435028713840)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140434894495264)
+
+[2023-04-28 02:56:19] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-04-28 02:56:19] INFO root fetch - main [MainThread]: Store serial: [17890850]
