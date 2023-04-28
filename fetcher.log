@@ -9544,3 +9544,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:34:19] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-04-28 09:35:04] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-04-28 09:35:04] INFO root fetch - main [MainThread]: Store serial: [17895051]
+[2023-04-28 09:40:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895051]
+[2023-04-28 09:40:13] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ipghrms-log
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nepattern
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-dreiattest
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seeme
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tpdk
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toucan-connectors
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-ipghrms-log
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-megumin
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.9] Old Version: [1.8]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-dreiattest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:40:13] WARNING root fetch - processPackages [nonebot-plugin-megumin]: Skipping, unable to determine old version
+[2023-04-28 09:40:13] INFO root fetch - processPackages [nonebot-plugin-megumin]: Start processing: SpamEmailDetector
+[2023-04-28 09:40:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-megumin] error
+[2023-04-28 09:40:13] INFO root fetch - processPackages [nepattern]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.9] Old Version: [1.8]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-04-28 09:40:13] WARNING root fetch - processPackages [SpamEmailDetector]: Skipping, unable to determine old version
+[2023-04-28 09:40:13] INFO root fetch - processPackages [SpamEmailDetector]: Start processing: odoo14-addon-stock-secondary-unit
+[2023-04-28 09:40:13] INFO root fetch - main [MainThread]: End processing [SpamEmailDetector] error
+[2023-04-28 09:40:13] INFO root fetch - processPackages [seeme]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-04-28 09:40:13] WARNING root fetch - processPackages [tpdk]: Skipping, unable to determine old version
+[2023-04-28 09:40:13] INFO root fetch - processPackages [tpdk]: Start processing: ASCIIcli
+[2023-04-28 09:40:13] INFO root fetch - main [MainThread]: End processing [tpdk] error
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-dreiattest]: executing diffoscope
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-dreiattest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dreiattest-0.0.8.tar.gz tmp/django-dreiattest-0.0.9.tar.gz --markdown 20230428/d/django-dreiattest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ASCIIcli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [odoo14-addon-stock-secondary-unit]: New version: [14.0.1.0.2.dev5] Old Version: [14.0.1.0.2.dev4]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [toucan-connectors]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 09:40:13] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/4a/2e/3bc87ea594df82e7f183b1660caf2f3708f1fb89a589124b91a70fbab5fa/nepattern-0.5.4.tar.gz
+[2023-04-28 09:40:13] INFO root fetch - processPackages [seeme]: Downloading https://files.pythonhosted.org/packages/7a/01/8e41dfb0af75615a2a85546a2721f6b63757d16e08038ba2f29070db12a7/seeme-0.9.5-py3-none-any.whl
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.8.tar.gz tmp/django-ipghrms-log-1.9.tar.gz --markdown 20230428/d/django-ipghrms-log/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 09:40:13] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.8.tar.gz tmp/django-ipghrms-log-1.9.tar.gz --markdown 20230428/d/django-ipghrms-log/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-28 09:40:13] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-04-28 09:40:13] INFO root fetch - processPackages [lalsuite]: Start processing: clearml-agent
+[2023-04-28 09:40:13] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-04-28 09:40:13] INFO root fetch - processPackages [odoo14-addon-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/0d/7c/7c5fd4d5139b035d07c6c47eaf3067ad4c8b160dc99aa182f914f39d6bd5/odoo14_addon_stock_secondary_unit-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-04-28 09:40:13] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-04-28 09:40:13] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230428/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-04-28 09:40:13] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/f0/76/4e40969c0a162e312bd45368b165590714434366d5bffe32eef74f76dcf1/nepattern-0.5.5.tar.gz
+[2023-04-28 09:40:13] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/84/13/cfbab5d1b408e2cbd3b8a3f0cf4bdcf1847f56a5bfd981262b9690ffc721/toucan_connectors-4.5.1.tar.gz
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ASCIIcli]: Downloading https://files.pythonhosted.org/packages/a1/d8/c959be362a0e7e25846b531298ec02c671c24b015ea4aa22d0fa9cd4e366/ASCIIcli-0.0.5.tar.gz
+[2023-04-28 09:40:13] INFO root fetch - processPackages [clearml-agent]: New version: [1.5.3rc2] Old Version: [1.5.3rc1]
+[2023-04-28 09:40:13] INFO root fetch - processPackages [nepattern]: executing diffoscope
+[2023-04-28 09:40:13] INFO root fetch - processPackages [nepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepattern-0.5.4.tar.gz tmp/nepattern-0.5.5.tar.gz --markdown 20230428/n/nepattern/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ASCIIcli]: executing diffoscope
+[2023-04-28 09:40:13] INFO root fetch - processPackages [ASCIIcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCIIcli-0.0.4.tar.gz tmp/ASCIIcli-0.0.5.tar.gz --markdown 20230428/A/ASCIIcli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 09:40:14] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2023-04-28 09:40:14] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-4.5.0.tar.gz tmp/toucan_connectors-4.5.1.tar.gz --markdown 20230428/t/toucan-connectors/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-04-28 09:40:14] INFO root fetch - processPackages [seeme]: Downloading https://files.pythonhosted.org/packages/e6/d1/fb88fdc3f4502bc95caee7783a5fcffd536959a1d71ddc8293f0c5ffce35/seeme-0.9.6-py3-none-any.whl
+[2023-04-28 09:40:14] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/e2/62/058260b169691fb69c4d56552f0ecb371b7aec5b4732bd03eaeb4f96f412/clearml_agent-1.5.3rc1-py3-none-any.whl
+[2023-04-28 09:40:14] INFO root fetch - processPackages [odoo14-addon-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/34/66/cf538261e1b8fa53985d6d087c98da452478af1efea2e55ec3ecdffa70ec/odoo14_addon_stock_secondary_unit-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-04-28 09:40:14] INFO root fetch - processPackages [seeme]: executing diffoscope
+[2023-04-28 09:40:14] INFO root fetch - processPackages [seeme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeme-0.9.5-py3-none-any.whl.zip tmp/seeme-0.9.6-py3-none-any.whl.zip --markdown 20230428/s/seeme/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-28 09:40:14] INFO root fetch - processPackages [odoo14-addon-stock-secondary-unit]: executing diffoscope
+[2023-04-28 09:40:14] INFO root fetch - processPackages [odoo14-addon-stock-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_secondary_unit-14.0.1.0.2.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_secondary_unit-14.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20230428/o/odoo14-addon-stock-secondary-unit/14.0.1.0.2.dev4-14.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2023-04-28 09:40:14] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/b2/b9/fe8bd53e72ebc3e0414d23e913dd1aa1d7711a14c89a3105cb66c745248d/clearml_agent-1.5.3rc2-py3-none-any.whl
+[2023-04-28 09:40:14] INFO root fetch - processPackages [clearml-agent]: executing diffoscope
+[2023-04-28 09:40:14] INFO root fetch - processPackages [clearml-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_agent-1.5.3rc1-py3-none-any.whl.zip tmp/clearml_agent-1.5.3rc2-py3-none-any.whl.zip --markdown 20230428/c/clearml-agent/1.5.3rc1-1.5.3rc2/diff.md --exclude *.pyd
+[2023-04-28 09:40:15] INFO root fetch - processPackages [django-dreiattest]: Start processing: ypricemagic
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [django-dreiattest]: success
+[2023-04-28 09:40:15] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev3] Old Version: [2.2.7.dev2]
+[2023-04-28 09:40:15] INFO root fetch - processPackages [nepattern]: Start processing: citizenk
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [nepattern]: success
+[2023-04-28 09:40:15] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 09:40:15] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.7.dev2.tar.gz tmp/ypricemagic-2.2.7.dev3.tar.gz --markdown 20230428/y/ypricemagic/2.2.7.dev2-2.2.7.dev3/diff.md --exclude *.pyd
+[2023-04-28 09:40:15] INFO root fetch - processPackages [django-ipghrms-log]: Start processing: PyQt6-Fluent-Widgets
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 09:40:15] INFO root fetch - processPackages [citizenk]: New version: [1.0.6] Old Version: [0.1.21]
+[2023-04-28 09:40:15] INFO root fetch - processPackages [ASCIIcli]: Start processing: pytest-suitemanager
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [ASCIIcli]: success
+[2023-04-28 09:40:15] WARNING root fetch - processPackages [pytest-suitemanager]: Skipping, unable to determine old version
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [pytest-suitemanager] error
+[2023-04-28 09:40:15] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [seeme]: success
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 09:40:15] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/f0/92/e42e787ede527ff672cb61e88120064263e3aa7c51beeb00ef2024635f98/citizenk-0.1.21.tar.gz
+[2023-04-28 09:40:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-secondary-unit]: success
+[2023-04-28 09:40:15] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/01/44/1bc4881bd675c11688b64dcad81ed392cfd1331e7ac44c5508e0ac724f02/PyQt6-Fluent-Widgets-0.8.0.tar.gz
+[2023-04-28 09:40:16] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/66/47/7e6f9a6f1ba7ef19976d9fbc8d6d0a9d26a6e6462089d99d09da14126435/citizenk-1.0.6.tar.gz
+[2023-04-28 09:40:16] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-28 09:40:16] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.21.tar.gz tmp/citizenk-1.0.6.tar.gz --markdown 20230428/c/citizenk/0.1.21-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 09:40:16] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-04-28 09:40:16] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.7.6.tar.gz tmp/PyQt6-Fluent-Widgets-0.8.0.tar.gz --markdown 20230428/P/PyQt6-Fluent-Widgets/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 09:40:16] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2023-04-28 09:40:17] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 09:40:17] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-28 09:40:17] INFO root fetch - main [MainThread]: End processing [clearml-agent]: success
+[2023-04-28 09:40:19] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-04-28 09:40:25] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-04-28 09:40:25] INFO root fetch - main [MainThread]: Store serial: [17895119]
