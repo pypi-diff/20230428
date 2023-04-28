@@ -19249,3 +19249,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
 [2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [bygg]: success
 [2023-04-28 18:56:46] INFO root fetch - main [MainThread]: Store serial: [17900932]
+[2023-04-28 19:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900932]
+[2023-04-28 19:01:55] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devex-sdk
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scorpionsql
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkite-engines
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdownparser
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amrendras
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mmda
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brevitas
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mmda
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: envpos
+[2023-04-28 19:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perlib
+[2023-04-28 19:01:56] INFO root fetch - processPackages [markdownparser]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [envpos]: New version: [0.8] Old Version: [0.7]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [brevitas]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [scorpionsql]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-28 19:01:56] WARNING root fetch - processPackages [mkite-engines]: Skipping, unable to determine old version
+[2023-04-28 19:01:56] INFO root fetch - processPackages [mkite-engines]: Start processing: mkite
+[2023-04-28 19:01:56] INFO root fetch - main [MainThread]: End processing [mkite-engines] error
+[2023-04-28 19:01:56] INFO root fetch - processPackages [devex-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 19:01:56] WARNING root fetch - processPackages [amrendras]: Skipping, unable to determine old version
+[2023-04-28 19:01:56] INFO root fetch - processPackages [mmda]: New version: [0.4.2] Old Version: [0.3.6]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [mmda]: New version: [0.4.2] Old Version: [0.3.6]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [amrendras]: Start processing: kof-parser
+[2023-04-28 19:01:56] INFO root fetch - main [MainThread]: End processing [amrendras] error
+[2023-04-28 19:01:56] INFO root fetch - processPackages [perlib]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-04-28 19:01:56] WARNING root fetch - processPackages [mkite]: Skipping, unable to determine old version
+[2023-04-28 19:01:56] INFO root fetch - processPackages [mkite]: Start processing: nonebot-plugin-chatgpt-on-qq
+[2023-04-28 19:01:56] INFO root fetch - main [MainThread]: End processing [mkite] error
+[2023-04-28 19:01:56] INFO root fetch - processPackages [kof-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [devex-sdk]: executing diffoscope
+[2023-04-28 19:01:56] INFO root fetch - processPackages [devex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devex_sdk-1.0.1.tar.gz tmp/devex_sdk-1.0.2.tar.gz --markdown 20230428/d/devex-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 19:01:56] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [envpos]: Downloading https://files.pythonhosted.org/packages/ec/ab/8b7060e6deffa1674ab4d93f3465705f9e9841f2a5c6d49cf7c7409199e0/envpos-0.7-py3-none-any.whl
+[2023-04-28 19:01:56] INFO root fetch - processPackages [brevitas]: Downloading https://files.pythonhosted.org/packages/7b/b9/aa8f9d945043348987e4afcfc752e70dd6bd8f6417e2365216c73c837146/brevitas-0.9.0.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [scorpionsql]: Downloading https://files.pythonhosted.org/packages/c1/c3/d9726b2265a358af607e376289bdaaba5e048ec8f1dfbaff33b04575ef1a/scorpionsql-0.0.6.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [mmda]: Downloading https://files.pythonhosted.org/packages/5a/3d/09f9bdb8a54162ae834972d74cc5e92603769a57d69abf78caeee0e4eebf/mmda-0.3.6.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [mmda]: Downloading https://files.pythonhosted.org/packages/5a/3d/09f9bdb8a54162ae834972d74cc5e92603769a57d69abf78caeee0e4eebf/mmda-0.3.6.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [perlib]: Downloading https://files.pythonhosted.org/packages/3f/77/88f26eeae9822c74284d24d41de90f5d74ca6f3897e239553a5f7ecff0b4/perlib-2.1.5.tar.gz
+[2023-04-28 19:01:56] WARNING root fetch - processPackages [envpos]: Skipping package: exceeds size limit 21521265>=10485760
+[2023-04-28 19:01:56] INFO root fetch - processPackages [envpos]: Start processing: django-autotask
+[2023-04-28 19:01:56] INFO root fetch - main [MainThread]: End processing [envpos] error
+[2023-04-28 19:01:56] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: Downloading https://files.pythonhosted.org/packages/8d/1e/cc3aaece4c7aee946ff20bd575bf79cfeda90b31624861a65f043c5d8806/nonebot-plugin-chatgpt-on-qq-1.2.0.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [scorpionsql]: executing diffoscope
+[2023-04-28 19:01:56] INFO root fetch - processPackages [scorpionsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorpionsql-0.0.5.tar.gz tmp/scorpionsql-0.0.6.tar.gz --markdown 20230428/s/scorpionsql/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-28 19:01:56] INFO root fetch - processPackages [brevitas]: Downloading https://files.pythonhosted.org/packages/3e/bd/6b51c47cbdb6edbeff7bff45bd128bfed41208daf85a7a4b6fd1ce7a43dc/brevitas-0.9.1.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [django-autotask]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 19:01:56] INFO root fetch - processPackages [kof-parser]: executing diffoscope
+[2023-04-28 19:01:56] INFO root fetch - processPackages [kof-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kof-parser-0.0.8.tar.gz tmp/kof-parser-0.0.9.tar.gz --markdown 20230428/k/kof-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 19:01:56] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-04-28 19:01:56] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.3.8.tar.gz tmp/markdownparser-0.3.9.tar.gz --markdown 20230428/m/markdownparser/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 19:01:56] INFO root fetch - processPackages [brevitas]: executing diffoscope
+[2023-04-28 19:01:56] INFO root fetch - processPackages [brevitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brevitas-0.9.0.tar.gz tmp/brevitas-0.9.1.tar.gz --markdown 20230428/b/brevitas/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 19:01:56] INFO root fetch - processPackages [perlib]: Downloading https://files.pythonhosted.org/packages/81/50/0ae87e3a440f2266ca2580fff4484e2882fdeab7f4f8a8e66aee2938ffa1/perlib-2.1.6.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [django-autotask]: Downloading https://files.pythonhosted.org/packages/34/1d/4ad1b34917a3153701c4cadb31ee62a534026e0eb9bb3f1ca4ff0f96e1b3/django-autotask-1.0.0.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: Downloading https://files.pythonhosted.org/packages/06/8f/9a5a9d1d83e785e642641905412e15b3759f7954cc583fa492a08fd1329e/nonebot-plugin-chatgpt-on-qq-1.3.0.tar.gz
+[2023-04-28 19:01:56] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: executing diffoscope
+[2023-04-28 19:01:56] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-chatgpt-on-qq-1.2.0.tar.gz tmp/nonebot-plugin-chatgpt-on-qq-1.3.0.tar.gz --markdown 20230428/n/nonebot-plugin-chatgpt-on-qq/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-28 19:01:56] INFO root fetch - processPackages [perlib]: executing diffoscope
+[2023-04-28 19:01:56] INFO root fetch - processPackages [perlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perlib-2.1.5.tar.gz tmp/perlib-2.1.6.tar.gz --markdown 20230428/p/perlib/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-04-28 19:01:56] INFO root fetch - processPackages [django-autotask]: Downloading https://files.pythonhosted.org/packages/52/df/8a1d7df09b715e9a97e1ecc295ae7d25c05dc04a528c65c6e7bab4be9089/django-autotask-1.0.1.tar.gz
+[2023-04-28 19:01:57] INFO root fetch - processPackages [django-autotask]: executing diffoscope
+[2023-04-28 19:01:57] INFO root fetch - processPackages [django-autotask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autotask-1.0.0.tar.gz tmp/django-autotask-1.0.1.tar.gz --markdown 20230428/d/django-autotask/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 19:01:57] INFO root fetch - main [MainThread]: End processing [devex-sdk]: success
+[2023-04-28 19:01:57] INFO root fetch - main [MainThread]: End processing [kof-parser]: success
+[2023-04-28 19:01:57] INFO root fetch - main [MainThread]: End processing [scorpionsql]: success
+[2023-04-28 19:01:58] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-04-28 19:01:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chatgpt-on-qq]: success
+[2023-04-28 19:01:58] INFO root fetch - processPackages [mmda]: Downloading https://files.pythonhosted.org/packages/b3/0d/9f9de5e020b6ede10a9cd13c7b55e17aeed5b45cf0fc7ce7a4d1f78d2513/mmda-0.4.2.tar.gz
+[2023-04-28 19:01:58] INFO root fetch - processPackages [mmda]: Downloading https://files.pythonhosted.org/packages/b3/0d/9f9de5e020b6ede10a9cd13c7b55e17aeed5b45cf0fc7ce7a4d1f78d2513/mmda-0.4.2.tar.gz
+[2023-04-28 19:01:59] WARNING root fetch - processPackages [mmda]: Skipping package: exceeds size limit 11167181>=10485760
+[2023-04-28 19:01:59] INFO root fetch - main [MainThread]: End processing [mmda] error
+[2023-04-28 19:01:59] WARNING root fetch - processPackages [mmda]: Skipping package: exceeds size limit 11167181>=10485760
+[2023-04-28 19:01:59] INFO root fetch - main [MainThread]: End processing [mmda] error
+[2023-04-28 19:01:59] INFO root fetch - main [MainThread]: End processing [perlib]: success
+[2023-04-28 19:02:01] INFO root fetch - main [MainThread]: End processing [django-autotask]: success
+[2023-04-28 19:02:01] INFO root fetch - main [MainThread]: End processing [brevitas]: success
+[2023-04-28 19:02:01] INFO root fetch - main [MainThread]: Store serial: [17900982]
