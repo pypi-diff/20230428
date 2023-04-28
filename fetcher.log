@@ -8017,3 +8017,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:35:47] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
 [2023-04-28 07:35:48] INFO root fetch - main [MainThread]: End processing [anbani]: success
 [2023-04-28 07:35:48] INFO root fetch - main [MainThread]: Store serial: [17894213]
+[2023-04-28 07:40:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894213]
+[2023-04-28 07:40:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepdriver
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdata
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-messaging-webpubsubclient
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql2mermaid-cli
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: echo-logger
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teda
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i2cylib
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vMedNLP
+[2023-04-28 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arkdata
+[2023-04-28 07:40:57] INFO root fetch - processPackages [teda]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-28 07:40:57] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 07:40:57] WARNING root fetch - processPackages [sql2mermaid-cli]: Skipping, unable to determine old version
+[2023-04-28 07:40:57] INFO root fetch - main [MainThread]: End processing [sql2mermaid-cli] error
+[2023-04-28 07:40:57] INFO root fetch - processPackages [vMedNLP]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-04-28 07:40:57] INFO root fetch - processPackages [i2cylib]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-28 07:40:57] INFO root fetch - processPackages [echo-logger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 07:40:57] WARNING root fetch - processPackages [azure-messaging-webpubsubclient]: Skipping, unable to determine old version
+[2023-04-28 07:40:57] INFO root fetch - main [MainThread]: End processing [azure-messaging-webpubsubclient] error
+[2023-04-28 07:40:57] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 07:40:57] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-28 07:40:57] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-28 07:40:57] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230428/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-28 07:40:57] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 07:40:57] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 07:40:57] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 07:40:57] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 07:40:57] INFO root fetch - processPackages [echo-logger]: Downloading https://files.pythonhosted.org/packages/a3/6f/db652c40a5d4caa36bb2f0967bada7474043ed68996a66f958726eddf9f4/echo_logger-0.0.1.tar.gz
+[2023-04-28 07:40:57] INFO root fetch - processPackages [teda]: Downloading https://files.pythonhosted.org/packages/22/a9/780909c30059cd92ef67ae1b41917eb0e00ad9838e8065ea22babf244380/teda-3.0.2.tar.gz
+[2023-04-28 07:40:57] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/01/07/542d1ed4c4f20289ddafa3f3ac1325357bb177aaec26a375e6ca17eb7b60/VMedNLP-0.0.1-py310-none-any.whl
+[2023-04-28 07:40:57] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/2c/bb/6cc12ceeb9a54372b2ba5e8bb183dfef520d25a0971d6a6526f02c487766/i2cylib-1.9.4.tar.gz
+[2023-04-28 07:40:57] INFO root fetch - processPackages [teda]: executing diffoscope
+[2023-04-28 07:40:57] INFO root fetch - processPackages [teda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teda-3.0.1.tar.gz tmp/teda-3.0.2.tar.gz --markdown 20230428/t/teda/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-28 07:40:57] INFO root fetch - processPackages [echo-logger]: Downloading https://files.pythonhosted.org/packages/a0/c8/67da1192211c718ede1b16d6a81a5ef8a5a9011eb2fa5e79d870ca0d3735/echo_logger-0.0.2.tar.gz
+[2023-04-28 07:40:57] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/c5/32/db4352b0ff90f430bf3ebbf09356d1d77342277a1310b70fd73160956120/vMedNLP-1.0.0-py310-none-any.whl
+[2023-04-28 07:40:57] INFO root fetch - processPackages [vMedNLP]: executing diffoscope
+[2023-04-28 07:40:57] INFO root fetch - processPackages [vMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VMedNLP-0.0.1-py310-none-any.whl.zip tmp/vMedNLP-1.0.0-py310-none-any.whl.zip --markdown 20230428/v/vMedNLP/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-28 07:40:57] INFO root fetch - processPackages [echo-logger]: executing diffoscope
+[2023-04-28 07:40:57] INFO root fetch - processPackages [echo-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echo_logger-0.0.1.tar.gz tmp/echo_logger-0.0.2.tar.gz --markdown 20230428/e/echo-logger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 07:40:57] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/07/db/4b9467cd012615b924c7bb3413be74a3993af003e56ff8eb772df32fbb35/i2cylib-1.9.5.tar.gz
+[2023-04-28 07:40:58] INFO root fetch - processPackages [i2cylib]: executing diffoscope
+[2023-04-28 07:40:58] INFO root fetch - processPackages [i2cylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2cylib-1.9.4.tar.gz tmp/i2cylib-1.9.5.tar.gz --markdown 20230428/i/i2cylib/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-28 07:40:58] INFO root fetch - main [MainThread]: End processing [vMedNLP]: success
+[2023-04-28 07:40:58] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-28 07:40:59] INFO root fetch - main [MainThread]: End processing [echo-logger]: success
+[2023-04-28 07:40:59] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 07:40:59] INFO root fetch - main [MainThread]: End processing [teda]: success
+[2023-04-28 07:40:59] INFO root fetch - main [MainThread]: End processing [i2cylib]: success
+[2023-04-28 07:41:00] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 07:41:00] INFO root fetch - main [MainThread]: Store serial: [17894244]
