@@ -16204,3 +16204,128 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 15:59:24] INFO root fetch - main [MainThread]: End processing [ms3]: success
 [2023-04-28 16:00:11] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-04-28 16:00:11] INFO root fetch - main [MainThread]: Store serial: [17898951]
+[2023-04-28 16:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898951]
+[2023-04-28 16:05:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notifications-sdk-preview
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ejtraderDB
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyon
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EdgeGPT
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turms
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CobWeb-lnx
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sitcom
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cluster-experiments
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydwrap
+[2023-04-28 16:05:20] INFO root fetch - processPackages [anyon]: New version: [3.1.25] Old Version: [3.1.24]
+[2023-04-28 16:05:20] INFO root fetch - processPackages [ejtraderDB]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [turms]: New version: [0.4.1] Old Version: [0.4.0a0]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [pydwrap]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [sitcom]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [CobWeb-lnx]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [EdgeGPT]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.654] Old Version: [0.1.627]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [cluster-experiments]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [turms]: Downloading https://files.pythonhosted.org/packages/5d/21/cf252bda19f827c6181f5f805e23f3ae28f2b2d82bfbbdf0e7526e1e7e90/turms-0.4.0a0.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/d8/42/2aa1ca03fb27de565d43d5ac2718b7c8eff1418f68fec73702662581878f/sitcom-1.4.4.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/a5/23/5fc3fcef8039309ba74e53ac9c01b79908694bd613b34c8612d65b2b9d97/EdgeGPT-0.3.0.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [ejtraderDB]: Downloading https://files.pythonhosted.org/packages/5b/a5/770fa03d50cb516452934d15583b6e1ccccaca273bdb1993d0418900c06b/ejtraderDB-1.0.2.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b0/39/d56ac7f0bce82aa846acc2d0541589a2bfcf78365a73ddb701d73322f5af/lusid-notifications-sdk-preview-0.1.627.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [CobWeb-lnx]: Downloading https://files.pythonhosted.org/packages/04/c9/d0eec1ededdd1ff101fd3f21124acdc221073b3524d676a2ae0796b8f358/CobWeb-lnx-1.0.0.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [pydwrap]: Downloading https://files.pythonhosted.org/packages/87/0a/7f64e402c87e4849b6d37974ce22d09d9a6525099fd620e4544449db59f7/pydwrap-0.5.8.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/48/c3/edaf04d3c3ee731878b46140ee41f53480ce3fcded8bb11caa2945ca0bf9/anyon-3.1.25-cp311-cp311-macosx_10_9_universal2.whl
+[2023-04-28 16:05:21] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689290>=10485760
+[2023-04-28 16:05:21] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/fe/97/1fd4592fe02046f9599d657eca4b4325276a98edeefe5c1e0067c5d6dd49/cluster_experiments-0.6.2.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [sitcom]: Start processing: concurrent-plugin
+[2023-04-28 16:05:21] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-28 16:05:21] INFO root fetch - processPackages [concurrent-plugin]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-28 16:05:21] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.1.24-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.1.25-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230428/a/anyon/3.1.24-3.1.25/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/dd/ce/d6b37cce26744b2587bbe2a0c12118172e59b28457df8f2f6e2b719f77fe/EdgeGPT-0.3.1.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.3.0.tar.gz tmp/EdgeGPT-0.3.1.tar.gz --markdown 20230428/E/EdgeGPT/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230428/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [pydwrap]: Downloading https://files.pythonhosted.org/packages/f2/b3/58894c4fade9a96fe878e8da8d44c4d483c35a0eaa021a472cc537fab31b/pydwrap-0.6.0.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [CobWeb-lnx]: Downloading https://files.pythonhosted.org/packages/c4/d5/07ab5523ca10ffeff573be8efbb51bdee6d9f446acef352be0e3474e0283/CobWeb-lnx-1.0.1.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [ejtraderDB]: Downloading https://files.pythonhosted.org/packages/35/3f/5b0333deb22dc06c8f4d55e84396c9351a88d6bba4f672f4f018b00b0eb2/ejtraderDB-1.0.4.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [turms]: Downloading https://files.pythonhosted.org/packages/71/60/daf0b90dabeb2d3a8312d6e8439b4cef898c5df81ce55965292d020b5276/turms-0.4.1.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c3/f0/364ae4fc4755e1357d8c3801b513c21deefa35161961af1c943a0a96fe2e/lusid-notifications-sdk-preview-0.1.654.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [CobWeb-lnx]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [pydwrap]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [pydwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwrap-0.5.8.tar.gz tmp/pydwrap-0.6.0.tar.gz --markdown 20230428/p/pydwrap/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [CobWeb-lnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CobWeb-lnx-1.0.0.tar.gz tmp/CobWeb-lnx-1.0.1.tar.gz --markdown 20230428/C/CobWeb-lnx/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/ef/bc/2bf511f3e6b83e04243632217ebf1c15494bc55eace9221e885a463e9a2d/concurrent_plugin-0.4.4-py3-none-any.whl
+[2023-04-28 16:05:21] INFO root fetch - processPackages [ejtraderDB]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [ejtraderDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ejtraderDB-1.0.2.tar.gz tmp/ejtraderDB-1.0.4.tar.gz --markdown 20230428/e/ejtraderDB/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.627.tar.gz tmp/lusid-notifications-sdk-preview-0.1.654.tar.gz --markdown 20230428/l/lusid-notifications-sdk-preview/0.1.627-0.1.654/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/3a/eb/efa58df558f9b5dad643e386c5bf7f712efc8602478424dd9641c6c98bc4/cluster_experiments-0.6.3.tar.gz
+[2023-04-28 16:05:21] INFO root fetch - processPackages [turms]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [turms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turms-0.4.0a0.tar.gz tmp/turms-0.4.1.tar.gz --markdown 20230428/t/turms/0.4.0a0-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-04-28 16:05:21] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.6.2.tar.gz tmp/cluster_experiments-0.6.3.tar.gz --markdown 20230428/c/cluster-experiments/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-28 16:05:21] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/be/cb/10e3ab1e2fc74aaac434405eeccc8810e1a620c641973817428ad2feb0ad/concurrent_plugin-0.4.5-py3-none-any.whl
+[2023-04-28 16:05:22] INFO root fetch - processPackages [concurrent-plugin]: executing diffoscope
+[2023-04-28 16:05:22] INFO root fetch - processPackages [concurrent-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_plugin-0.4.4-py3-none-any.whl.zip tmp/concurrent_plugin-0.4.5-py3-none-any.whl.zip --markdown 20230428/c/concurrent-plugin/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-28 16:05:22] INFO root fetch - processPackages [anyon]: Start processing: funtoo-metatools
+[2023-04-28 16:05:22] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-04-28 16:05:22] INFO root fetch - processPackages [funtoo-metatools]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-28 16:05:23] INFO root fetch - processPackages [funtoo-metatools]: Downloading https://files.pythonhosted.org/packages/df/b1/6efb77c29130128fd32a974ec20ec57e9f8334989f77b3016869c166f761/funtoo-metatools-1.1.1.tar.gz
+[2023-04-28 16:05:23] INFO root fetch - processPackages [pydwrap]: Start processing: scArches
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [pydwrap]: success
+[2023-04-28 16:05:23] INFO root fetch - processPackages [scArches]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-04-28 16:05:23] INFO root fetch - processPackages [EdgeGPT]: Start processing: contxt-sdk
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-04-28 16:05:23] INFO root fetch - processPackages [contxt-sdk]: New version: [6.2.1] Old Version: [6.2.0]
+[2023-04-28 16:05:23] INFO root fetch - processPackages [bagbag]: Start processing: ingester3
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ingester3]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-04-28 16:05:23] INFO root fetch - processPackages [scArches]: Downloading https://files.pythonhosted.org/packages/55/76/666f5924cc4f4032946726bbe312d981c529e08e22db99c8dda350353362/scArches-0.5.7.tar.gz
+[2023-04-28 16:05:23] INFO root fetch - processPackages [CobWeb-lnx]: Start processing: whisper-voice-commands
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [CobWeb-lnx]: success
+[2023-04-28 16:05:23] INFO root fetch - processPackages [contxt-sdk]: Downloading https://files.pythonhosted.org/packages/d8/d9/07b4844a1cab656c2be88936437e5e520c974f022dc4bdcb8d8ef8d5fc9e/contxt_sdk-6.2.0.tar.gz
+[2023-04-28 16:05:23] INFO root fetch - processPackages [funtoo-metatools]: Downloading https://files.pythonhosted.org/packages/be/4b/5e2345e3de77f8dba942423a88fa4d4cdd17ccdb96415c2e9c7d6913c4e4/funtoo-metatools-1.2.0.tar.gz
+[2023-04-28 16:05:23] INFO root fetch - processPackages [funtoo-metatools]: executing diffoscope
+[2023-04-28 16:05:23] INFO root fetch - processPackages [funtoo-metatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo-metatools-1.1.1.tar.gz tmp/funtoo-metatools-1.2.0.tar.gz --markdown 20230428/f/funtoo-metatools/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ejtraderDB]: Start processing: h2o
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [ejtraderDB]: success
+[2023-04-28 16:05:23] WARNING root fetch - processPackages [scArches]: Skipping package: exceeds size limit 41288920>=10485760
+[2023-04-28 16:05:23] INFO root fetch - processPackages [scArches]: Start processing: cyral-auth
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [scArches] error
+[2023-04-28 16:05:23] WARNING root fetch - processPackages [whisper-voice-commands]: Skipping, unable to determine old version
+[2023-04-28 16:05:23] INFO root fetch - processPackages [whisper-voice-commands]: Start processing: ejtraderTH
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [whisper-voice-commands] error
+[2023-04-28 16:05:23] INFO root fetch - processPackages [turms]: Start processing: azure-keyvault-stuff
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [turms]: success
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ingester3]: Downloading https://files.pythonhosted.org/packages/80/03/9cfee4eabef4deb766b9369bd6e6653c8649118021c28c9b18dfc21ec7c5/ingester3-1.8.6.tar.gz
+[2023-04-28 16:05:23] WARNING root fetch - processPackages [azure-keyvault-stuff]: Skipping, unable to determine old version
+[2023-04-28 16:05:23] INFO root fetch - processPackages [azure-keyvault-stuff]: Start processing: docchain
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [azure-keyvault-stuff] error
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
+[2023-04-28 16:05:23] INFO root fetch - processPackages [h2o]: New version: [3.40.0.4] Old Version: [3.40.0.3]
+[2023-04-28 16:05:23] INFO root fetch - processPackages [contxt-sdk]: Downloading https://files.pythonhosted.org/packages/3c/5b/a0e87a0c92f1579954f35f6af4055f88fa2ec1410382382a19d0bc5d1d69/contxt_sdk-6.2.1.tar.gz
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ejtraderTH]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 16:05:23] WARNING root fetch - processPackages [cyral-auth]: Skipping, unable to determine old version
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [cyral-auth] error
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-04-28 16:05:23] WARNING root fetch - processPackages [docchain]: Skipping, unable to determine old version
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [docchain] error
+[2023-04-28 16:05:23] INFO root fetch - processPackages [contxt-sdk]: executing diffoscope
+[2023-04-28 16:05:23] INFO root fetch - processPackages [contxt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contxt_sdk-6.2.0.tar.gz tmp/contxt_sdk-6.2.1.tar.gz --markdown 20230428/c/contxt-sdk/6.2.0-6.2.1/diff.md --exclude *.pyd
+[2023-04-28 16:05:23] INFO root fetch - processPackages [h2o]: Downloading https://files.pythonhosted.org/packages/bb/3b/97ca05e623b49e912e2764f05617c211b44d3f4d567ae1514a2c2b659b1c/h2o-3.40.0.3.tar.gz
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ejtraderTH]: Downloading https://files.pythonhosted.org/packages/52/4d/63504f9f7a308f386533e64e4c718e7c10d25ecc0f8250ad3ddc4831264c/ejtraderTH-1.0.3.tar.gz
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ingester3]: Downloading https://files.pythonhosted.org/packages/29/68/27096f730b02cfd0dc836f9523f485bd548675a09bf9629d87ed1ee9ef02/ingester3-1.9.0.tar.gz
+[2023-04-28 16:05:23] WARNING root fetch - processPackages [h2o]: Skipping package: exceeds size limit 177606817>=10485760
+[2023-04-28 16:05:23] INFO root fetch - main [MainThread]: End processing [h2o] error
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ingester3]: executing diffoscope
+[2023-04-28 16:05:23] INFO root fetch - processPackages [ingester3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingester3-1.8.6.tar.gz tmp/ingester3-1.9.0.tar.gz --markdown 20230428/i/ingester3/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:05:24] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-04-28 16:05:24] INFO root fetch - processPackages [ejtraderTH]: Downloading https://files.pythonhosted.org/packages/06/3a/bbd4102f1318de744ea5611c8e9f24fc9e08602d3604d0416489eb354f55/ejtraderTH-1.0.4.tar.gz
+[2023-04-28 16:05:24] INFO root fetch - processPackages [ejtraderTH]: executing diffoscope
+[2023-04-28 16:05:24] INFO root fetch - processPackages [ejtraderTH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ejtraderTH-1.0.3.tar.gz tmp/ejtraderTH-1.0.4.tar.gz --markdown 20230428/e/ejtraderTH/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 16:05:24] INFO root fetch - main [MainThread]: End processing [contxt-sdk]: success
+[2023-04-28 16:05:24] INFO root fetch - main [MainThread]: End processing [ingester3]: success
+[2023-04-28 16:05:25] INFO root fetch - main [MainThread]: End processing [ejtraderTH]: success
+[2023-04-28 16:05:26] INFO root fetch - main [MainThread]: End processing [funtoo-metatools]: success
+[2023-04-28 16:05:26] INFO root fetch - main [MainThread]: Store serial: [17899020]
