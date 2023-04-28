@@ -23070,3 +23070,46 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 23:24:11] INFO root fetch - main [MainThread]: End processing [globalsearch]: success
 [2023-04-28 23:24:12] INFO root fetch - main [MainThread]: End processing [roof-mask-Yv8]: success
 [2023-04-28 23:24:12] INFO root fetch - main [MainThread]: Store serial: [17903202]
+[2023-04-28 23:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903202]
+[2023-04-28 23:29:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 23:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featurizerai
+[2023-04-28 23:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-records-marc21
+[2023-04-28 23:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itkdb
+[2023-04-28 23:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molab
+[2023-04-28 23:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnxlink
+[2023-04-28 23:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tungstenkit
+[2023-04-28 23:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: git-add-co-author
+[2023-04-28 23:29:22] INFO root fetch - processPackages [featurizerai]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-04-28 23:29:22] INFO root fetch - processPackages [invenio-records-marc21]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-28 23:29:22] INFO root fetch - processPackages [git-add-co-author]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-28 23:29:22] INFO root fetch - processPackages [molab]: New version: [0.4.6] Old Version: [0.4.4]
+[2023-04-28 23:29:22] INFO root fetch - processPackages [lnxlink]: New version: [2023.5.0] Old Version: [2023.4.1]
+[2023-04-28 23:29:22] INFO root fetch - processPackages [itkdb]: New version: [0.4.1rc1] Old Version: [0.4.1]
+[2023-04-28 23:29:22] WARNING root fetch - processPackages [tungstenkit]: Skipping, unable to determine old version
+[2023-04-28 23:29:22] INFO root fetch - main [MainThread]: End processing [tungstenkit] error
+[2023-04-28 23:29:22] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/cb/dd/e9464943a7657cb7f2d0a59526321475c6cfe07fcfcfdc9a07a8a218a2cf/featurizerai-1.5.3.tar.gz
+[2023-04-28 23:29:22] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/e8/33/c507ab60d58416232c34ee6010408b1c877b93cb1b18f1bde1dc8f265ff2/itkdb-0.4.1.tar.gz
+[2023-04-28 23:29:22] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/3a/01/04b60cf398b0849f92ed14159f4470510e6ae0fa9c0467303686ba45358b/lnxlink-2023.4.1.tar.gz
+[2023-04-28 23:29:22] INFO root fetch - processPackages [git-add-co-author]: Downloading https://files.pythonhosted.org/packages/70/25/c06eaa61840698b6b692b7948a27dbbd501ff14479016b8cab84d2d9990a/git_add_co_author-0.3.0.tar.gz
+[2023-04-28 23:29:22] INFO root fetch - processPackages [molab]: Downloading https://files.pythonhosted.org/packages/b5/3f/134b5522069891ef0ccf8002e849f73e924e52898daefce46e1279583c9a/molab-0.4.6.tar.gz
+[2023-04-28 23:29:22] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2023-04-28 23:29:22] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.4.1.tar.gz tmp/itkdb-0.4.1rc1.tar.gz --markdown 20230428/i/itkdb/0.4.1-0.4.1rc1/diff.md --exclude *.pyd
+[2023-04-28 23:29:22] INFO root fetch - processPackages [git-add-co-author]: executing diffoscope
+[2023-04-28 23:29:22] INFO root fetch - processPackages [git-add-co-author]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_add_co_author-0.2.0.tar.gz tmp/git_add_co_author-0.3.0.tar.gz --markdown 20230428/g/git-add-co-author/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 23:29:22] INFO root fetch - processPackages [invenio-records-marc21]: executing diffoscope
+[2023-04-28 23:29:22] INFO root fetch - processPackages [invenio-records-marc21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-marc21-0.9.1.tar.gz tmp/invenio-records-marc21-0.9.2.tar.gz --markdown 20230428/i/invenio-records-marc21/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-28 23:29:22] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/1f/48/fc6f0933b2626d28a78323763ea667d56c9e7edc966d27724748ec4eb46a/featurizerai-1.5.4.tar.gz
+[2023-04-28 23:29:22] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/00/bc/71d2d6f0744225de1d52c921f743cfeb6ba7d44a46cbfb34ff8e3d1c91f8/lnxlink-2023.5.0.tar.gz
+[2023-04-28 23:29:22] INFO root fetch - processPackages [molab]: executing diffoscope
+[2023-04-28 23:29:22] INFO root fetch - processPackages [molab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molab-0.4.4.tar.gz tmp/molab-0.4.6.tar.gz --markdown 20230428/m/molab/0.4.4-0.4.6/diff.md --exclude *.pyd
+[2023-04-28 23:29:23] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-28 23:29:23] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.5.3.tar.gz tmp/featurizerai-1.5.4.tar.gz --markdown 20230428/f/featurizerai/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-04-28 23:29:23] INFO root fetch - processPackages [lnxlink]: executing diffoscope
+[2023-04-28 23:29:23] INFO root fetch - processPackages [lnxlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnxlink-2023.4.1.tar.gz tmp/lnxlink-2023.5.0.tar.gz --markdown 20230428/l/lnxlink/2023.4.1-2023.5.0/diff.md --exclude *.pyd
+[2023-04-28 23:29:24] INFO root fetch - main [MainThread]: End processing [git-add-co-author]: success
+[2023-04-28 23:29:24] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-28 23:29:24] INFO root fetch - main [MainThread]: End processing [molab]: success
+[2023-04-28 23:29:24] INFO root fetch - main [MainThread]: End processing [lnxlink]: success
+[2023-04-28 23:29:24] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2023-04-28 23:29:25] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
+[2023-04-28 23:29:25] INFO root fetch - main [MainThread]: Store serial: [17903228]
