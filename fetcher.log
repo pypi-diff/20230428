@@ -20315,3 +20315,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 19:54:50] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2023-04-28 19:54:58] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-04-28 19:54:58] INFO root fetch - main [MainThread]: Store serial: [17901533]
+[2023-04-28 20:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901533]
+[2023-04-28 20:00:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxet
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptdeploy
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-abot-place
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NNFAL
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CLAFX
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whatsapp-interface
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: protgraph
+[2023-04-28 20:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: causica
+[2023-04-28 20:00:08] INFO root fetch - processPackages [protgraph]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 20:00:08] INFO root fetch - processPackages [NNFAL]: New version: [1.9] Old Version: [1.8]
+[2023-04-28 20:00:08] INFO root fetch - processPackages [nonebot-plugin-abot-place]: New version: [0.1.0.post1] Old Version: [0.1.0]
+[2023-04-28 20:00:08] WARNING root fetch - processPackages [CLAFX]: Skipping, unable to determine old version
+[2023-04-28 20:00:08] INFO root fetch - main [MainThread]: End processing [CLAFX] error
+[2023-04-28 20:00:08] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-28 20:00:08] INFO root fetch - processPackages [pyxet]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 20:00:08] WARNING root fetch - processPackages [whatsapp-interface]: Skipping, unable to determine old version
+[2023-04-28 20:00:08] INFO root fetch - processPackages [causica]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 20:00:08] INFO root fetch - main [MainThread]: End processing [whatsapp-interface] error
+[2023-04-28 20:00:08] INFO root fetch - processPackages [NNFAL]: executing diffoscope
+[2023-04-28 20:00:08] INFO root fetch - processPackages [NNFAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NNFAL-1.8.tar.gz tmp/NNFAL-1.9.tar.gz --markdown 20230428/N/NNFAL/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-28 20:00:08] INFO root fetch - processPackages [nonebot-plugin-abot-place]: Downloading https://files.pythonhosted.org/packages/5f/dc/47fa8173abfb5b0cd5bb51f2e40b85d7785e2c7a570f5cf98be0072007ed/nonebot_plugin_abot_place-0.1.0.tar.gz
+[2023-04-28 20:00:08] INFO root fetch - processPackages [causica]: executing diffoscope
+[2023-04-28 20:00:08] INFO root fetch - processPackages [causica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causica-0.3.0.tar.gz tmp/causica-0.3.1.tar.gz --markdown 20230428/c/causica/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 20:00:08] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-28 20:00:08] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230428/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-28 20:00:08] INFO root fetch - processPackages [protgraph]: Downloading https://files.pythonhosted.org/packages/71/5d/03984b94cf2ca1e0a32937417ae9ac53dda730e010f9b66a7d0f7606424c/protgraph-0.3.8.tar.gz
+[2023-04-28 20:00:08] WARNING root fetch - processPackages [nonebot-plugin-abot-place]: Skipping package: exceeds size limit 12450856>=10485760
+[2023-04-28 20:00:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-abot-place] error
+[2023-04-28 20:00:08] INFO root fetch - processPackages [pyxet]: Downloading https://files.pythonhosted.org/packages/d3/b0/aef35612adffe98d3b97d4d2401a6883afcc6d474d95f61bad34a11f2e97/pyxet-0.0.3-cp37-abi3-manylinux_2_34_x86_64.whl
+[2023-04-28 20:00:08] INFO root fetch - processPackages [protgraph]: Downloading https://files.pythonhosted.org/packages/88/2f/b45883f2afd71e270fb660073ba7976cf9abf4f35011c92af970a4de8547/protgraph-0.3.9.tar.gz
+[2023-04-28 20:00:09] INFO root fetch - processPackages [pyxet]: executing diffoscope
+[2023-04-28 20:00:09] INFO root fetch - processPackages [pyxet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxet-0.0.2-cp37-abi3-manylinux_2_34_x86_64.whl.zip tmp/pyxet-0.0.3-cp37-abi3-manylinux_2_34_x86_64.whl.zip --markdown 20230428/p/pyxet/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 20:00:09] INFO root fetch - processPackages [protgraph]: executing diffoscope
+[2023-04-28 20:00:09] INFO root fetch - processPackages [protgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protgraph-0.3.8.tar.gz tmp/protgraph-0.3.9.tar.gz --markdown 20230428/p/protgraph/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 20:00:09] INFO root fetch - main [MainThread]: End processing [NNFAL]: success
+[2023-04-28 20:00:09] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-28 20:00:10] INFO root fetch - main [MainThread]: End processing [causica]: success
+[2023-04-28 20:00:10] INFO root fetch - main [MainThread]: End processing [protgraph]: success
+[2023-04-28 20:01:02] INFO root fetch - main [MainThread]: End processing [pyxet]: success
+[2023-04-28 20:01:02] INFO root fetch - main [MainThread]: Store serial: [17901557]
