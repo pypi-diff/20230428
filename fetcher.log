@@ -8149,3 +8149,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:46:14] INFO root fetch - main [MainThread]: End processing [lnhub_rest]: success
 [2023-04-28 07:46:15] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
 [2023-04-28 07:46:15] INFO root fetch - main [MainThread]: Store serial: [17894290]
+[2023-04-28 07:51:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894290]
+[2023-04-28 07:51:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yangsuite-grpc-telemetry
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-training
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: custardpy
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dytnsapi20200217
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nodered.py
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yangsuite-filemanager
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rime-sdk
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: locid
+[2023-04-28 07:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: singleton-class-decorator
+[2023-04-28 07:51:24] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: New version: [1.0.4] Old Version: [1.0.3.post0.dev1]
+[2023-04-28 07:51:24] INFO root fetch - processPackages [custardpy]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 07:51:24] INFO root fetch - processPackages [deep-training]: New version: [0.1.3rc4] Old Version: [0.1.3rc3]
+[2023-04-28 07:51:24] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 07:51:24] WARNING root fetch - processPackages [nodered.py]: Skipping, unable to determine old version
+[2023-04-28 07:51:24] INFO root fetch - main [MainThread]: End processing [nodered.py] error
+[2023-04-28 07:51:24] WARNING root fetch - processPackages [locid]: Skipping, unable to determine old version
+[2023-04-28 07:51:24] INFO root fetch - main [MainThread]: End processing [locid] error
+[2023-04-28 07:51:24] INFO root fetch - processPackages [yangsuite-filemanager]: New version: [1.9.4] Old Version: [1.9.3.post0.dev1]
+[2023-04-28 07:51:24] WARNING root fetch - processPackages [singleton-class-decorator]: Skipping, unable to determine old version
+[2023-04-28 07:51:24] INFO root fetch - main [MainThread]: End processing [singleton-class-decorator] error
+[2023-04-28 07:51:24] INFO root fetch - processPackages [rime-sdk]: New version: [2.0.0rc8] Old Version: [2.0.0rc7]
+[2023-04-28 07:51:24] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-04-28 07:51:24] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.3rc3-py3-none-any.whl.zip tmp/deep_training-0.1.3rc4-py3-none-any.whl.zip --markdown 20230428/d/deep-training/0.1.3rc3-0.1.3rc4/diff.md --exclude *.pyd
+[2023-04-28 07:51:24] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/50/23/1c86d8756ccf381b3f9c1e6b74cd7c2d0cd9a699357adc1144f63ac95a71/custardpy-0.3.1-py3-none-any.whl
+[2023-04-28 07:51:24] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/ca/e7/ea0e7b6fe52a3b06f8884ff07db7ef71da51bf7e1555622c7fd33f74ee60/alibabacloud_dytnsapi20200217-1.0.8.tar.gz
+[2023-04-28 07:51:24] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: Downloading https://files.pythonhosted.org/packages/6a/e9/cb816c3b35e894f82392736e6ce5c4f8dc48e2217e044ead658f875ee1f0/yangsuite_grpc_telemetry-1.0.3.post0.dev1-py3-none-any.whl
+[2023-04-28 07:51:24] INFO root fetch - processPackages [yangsuite-filemanager]: Downloading https://files.pythonhosted.org/packages/6f/56/437188ebf21f5056065fb1a75f23967cb6c95f663c9254e8194fdf913f55/yangsuite_filemanager-1.9.3.post0.dev1-py3-none-any.whl
+[2023-04-28 07:51:24] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-04-28 07:51:24] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.3.0-py3-none-any.whl.zip tmp/custardpy-0.3.1-py3-none-any.whl.zip --markdown 20230428/c/custardpy/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 07:51:24] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-04-28 07:51:24] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.0rc7.tar.gz tmp/rime_sdk-2.0.0rc8.tar.gz --markdown 20230428/r/rime-sdk/2.0.0rc7-2.0.0rc8/diff.md --exclude *.pyd
+[2023-04-28 07:51:24] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/90/e4/bfac9f37474d00b7053b752d73717630179a4aed5b0700f11ebf5327a4f4/alibabacloud_dytnsapi20200217-1.0.9.tar.gz
+[2023-04-28 07:51:24] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: executing diffoscope
+[2023-04-28 07:51:24] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20200217-1.0.8.tar.gz tmp/alibabacloud_dytnsapi20200217-1.0.9.tar.gz --markdown 20230428/a/alibabacloud-dytnsapi20200217/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 07:51:24] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: Downloading https://files.pythonhosted.org/packages/ae/8f/e1efa4c363d3424793a8cf11506c94bac21c08c64587c8f8ab6d8c725193/yangsuite_grpc_telemetry-1.0.4-py3-none-any.whl
+[2023-04-28 07:51:25] INFO root fetch - processPackages [yangsuite-filemanager]: Downloading https://files.pythonhosted.org/packages/c7/09/25bbfcb8868acd56e735b2c8651e5bb752978b5ccea83975f30fd0af7e68/yangsuite_filemanager-1.9.4-py3-none-any.whl
+[2023-04-28 07:51:25] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-04-28 07:51:25] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: executing diffoscope
+[2023-04-28 07:51:25] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_grpc_telemetry-1.0.3.post0.dev1-py3-none-any.whl.zip tmp/yangsuite_grpc_telemetry-1.0.4-py3-none-any.whl.zip --markdown 20230428/y/yangsuite-grpc-telemetry/1.0.3.post0.dev1-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 07:51:25] INFO root fetch - processPackages [yangsuite-filemanager]: executing diffoscope
+[2023-04-28 07:51:25] INFO root fetch - processPackages [yangsuite-filemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_filemanager-1.9.3.post0.dev1-py3-none-any.whl.zip tmp/yangsuite_filemanager-1.9.4-py3-none-any.whl.zip --markdown 20230428/y/yangsuite-filemanager/1.9.3.post0.dev1-1.9.4/diff.md --exclude *.pyd
+[2023-04-28 07:51:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20200217]: success
+[2023-04-28 07:51:26] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-04-28 07:51:29] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-04-28 07:51:31] INFO root fetch - main [MainThread]: End processing [yangsuite-grpc-telemetry]: success
+[2023-04-28 07:51:32] INFO root fetch - main [MainThread]: End processing [yangsuite-filemanager]: success
+[2023-04-28 07:51:32] INFO root fetch - main [MainThread]: Store serial: [17894322]
