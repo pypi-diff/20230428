@@ -14602,3 +14602,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 14:37:31] INFO root fetch - main [MainThread]: End processing [satpy]: success
 [2023-04-28 14:37:32] INFO root fetch - main [MainThread]: End processing [dlplan]: success
 [2023-04-28 14:37:32] INFO root fetch - main [MainThread]: Store serial: [17897951]
+[2023-04-28 14:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897951]
+[2023-04-28 14:42:42] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Fragmenstein
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-orca-spark3
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian-spark3
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ts-type
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dknovautils
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-chronos-spark3
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-spark3
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: regis
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: YOMAPI
+[2023-04-28 14:42:42] INFO root fetch - processPackages [Fragmenstein]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [dknovautils]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281225] Old Version: [99.0.202304281223]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [YOMAPI]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-28 14:42:42] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.35.tar.gz tmp/dknovautils-0.0.36.tar.gz --markdown 20230428/d/dknovautils/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ts-type]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/1d/a6/182547cd3c88b91a2c821e95084f5efd70430a743168e7dc120618661e3c/bigdl_orca_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl
+[2023-04-28 14:42:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/53/64/e45a4b46f263c603136b0cf8661b4f03c6087501986ccb488e8c6375b4a0/kcli-99.0.202304281223-py3-none-any.whl
+[2023-04-28 14:42:42] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/50/77/9829fbc340874e3e6cc19ff5de6ae10a2f4074a370c86f7fe768e61eebfd/YOMAPI-0.1.4.tar.gz
+[2023-04-28 14:42:42] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/c9/e7/75eea7eea55eeba4a82b26c9e85ed92d1e721d0908057ead79bb9901bcaf/ts_type-0.2.6.tar.gz
+[2023-04-28 14:42:42] INFO root fetch - processPackages [regis]: Downloading https://files.pythonhosted.org/packages/a9/19/a046cde404f181fda6ee27f5dc3222dda2311afcbdc14d6cbebde4c3e7ac/regis-0.1.8.tar.gz
+[2023-04-28 14:42:42] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207556>=10485760
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: kcli
+[2023-04-28 14:42:42] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip --markdown 20230428/b/bigdl-chronos-spark3/2.4.0b20230425-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip --markdown 20230428/b/bigdl-friesian-spark3/2.4.0b20230425-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-04-28 14:42:42] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip --markdown 20230428/b/bigdl-spark3/2.4.0b20230425-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-28 14:42:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281225] Old Version: [99.0.202304281223]
+[2023-04-28 14:42:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/53/64/e45a4b46f263c603136b0cf8661b4f03c6087501986ccb488e8c6375b4a0/kcli-99.0.202304281223-py3-none-any.whl
+[2023-04-28 14:42:42] INFO root fetch - processPackages [Fragmenstein]: executing diffoscope
+[2023-04-28 14:42:42] INFO root fetch - processPackages [Fragmenstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fragmenstein-0.9.8.tar.gz tmp/Fragmenstein-0.9.9.tar.gz --markdown 20230428/F/Fragmenstein/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 14:42:43] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/b0/90/1ce88afa394765c71ceb84935ee45481597659634ae09cbe796adb0e6bd5/YOMAPI-0.1.6.tar.gz
+[2023-04-28 14:42:43] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/fc/3b/f7a28407faf651fcd0b36e41619008df4158f620d771a06a765dd027bccc/ts_type-0.2.7.tar.gz
+[2023-04-28 14:42:43] INFO root fetch - processPackages [regis]: Downloading https://files.pythonhosted.org/packages/e0/25/74667bbd99d0acf4eb4064ce4d615ab4919fd700d07b132eea95030ea6ae/regis-0.1.9.tar.gz
+[2023-04-28 14:42:43] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-04-28 14:42:43] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230428/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 14:42:43] INFO root fetch - processPackages [ts-type]: executing diffoscope
+[2023-04-28 14:42:43] INFO root fetch - processPackages [ts-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_type-0.2.6.tar.gz tmp/ts_type-0.2.7.tar.gz --markdown 20230428/t/ts-type/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-28 14:42:43] INFO root fetch - processPackages [YOMAPI]: executing diffoscope
+[2023-04-28 14:42:43] INFO root fetch - processPackages [YOMAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YOMAPI-0.1.4.tar.gz tmp/YOMAPI-0.1.6.tar.gz --markdown 20230428/Y/YOMAPI/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 14:42:43] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/72/c6/241f523cc404060b628e9bdf8ea4a1bc8e8ca25b66c1e0265adec140e92f/kcli-99.0.202304281225-py3-none-any.whl
+[2023-04-28 14:42:43] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/72/c6/241f523cc404060b628e9bdf8ea4a1bc8e8ca25b66c1e0265adec140e92f/kcli-99.0.202304281225-py3-none-any.whl
+[2023-04-28 14:42:43] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 14:42:43] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281223-py3-none-any.whl.zip tmp/kcli-99.0.202304281225-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304281223-99.0.202304281225/diff.md --exclude *.pyd
+[2023-04-28 14:42:43] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 14:42:43] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281223-py3-none-any.whl.zip tmp/kcli-99.0.202304281225-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304281223-99.0.202304281225/diff.md --exclude *.pyd
+[2023-04-28 14:42:44] INFO root fetch - processPackages [dknovautils]: Start processing: django-districts
+[2023-04-28 14:42:44] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-28 14:42:44] WARNING root fetch - processPackages [django-districts]: Skipping, unable to determine old version
+[2023-04-28 14:42:44] INFO root fetch - processPackages [django-districts]: Start processing: space-invaders
+[2023-04-28 14:42:44] INFO root fetch - main [MainThread]: End processing [django-districts] error
+[2023-04-28 14:42:44] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 14:42:44] INFO root fetch - processPackages [space-invaders]: Start processing: monplugin
+[2023-04-28 14:42:44] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 14:42:44] INFO root fetch - processPackages [bigdl-spark3]: Start processing: tox-min-req
+[2023-04-28 14:42:44] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-04-28 14:42:44] INFO root fetch - processPackages [tox-min-req]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 14:42:44] INFO root fetch - processPackages [tox-min-req]: executing diffoscope
+[2023-04-28 14:42:44] INFO root fetch - processPackages [tox-min-req]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-min-req-0.0.4.tar.gz tmp/tox-min-req-0.0.5.tar.gz --markdown 20230428/t/tox-min-req/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 14:42:44] INFO root fetch - processPackages [monplugin]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-28 14:42:44] INFO root fetch - processPackages [monplugin]: Downloading https://files.pythonhosted.org/packages/03/da/d344e28d5cd561a5da4137e685fbf29d82154c5091a5c203a059e8fdb571/monplugin-0.6.0.tar.gz
+[2023-04-28 14:42:44] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: estimenergy
+[2023-04-28 14:42:44] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-04-28 14:42:44] INFO root fetch - processPackages [monplugin]: Downloading https://files.pythonhosted.org/packages/4c/dc/d21c64c98921077f777323b9d6c14be3a65533724fb7609efec2f4fb1ac5/monplugin-0.6.1.tar.gz
+[2023-04-28 14:42:44] INFO root fetch - processPackages [estimenergy]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 14:42:44] INFO root fetch - main [MainThread]: End processing [ts-type]: success
+[2023-04-28 14:42:44] INFO root fetch - main [MainThread]: End processing [YOMAPI]: success
+[2023-04-28 14:42:44] INFO root fetch - processPackages [monplugin]: executing diffoscope
+[2023-04-28 14:42:44] INFO root fetch - processPackages [monplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monplugin-0.6.0.tar.gz tmp/monplugin-0.6.1.tar.gz --markdown 20230428/m/monplugin/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-28 14:42:45] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/2f/bb/4eda676bf99260248adb23638b477cf5f4afd160660c7da53ac3c180f6fe/estimenergy-1.9.1.tar.gz
+[2023-04-28 14:42:45] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-04-28 14:42:45] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-04-28 14:42:45] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/9e/a2/39652fc98c9f9bc28a2f91fbfb1a05054e3cd2e32444090cb923483271d3/estimenergy-1.9.2.tar.gz
+[2023-04-28 14:42:45] INFO root fetch - main [MainThread]: End processing [tox-min-req]: success
+[2023-04-28 14:42:45] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-28 14:42:45] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-1.9.1.tar.gz tmp/estimenergy-1.9.2.tar.gz --markdown 20230428/e/estimenergy/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-28 14:42:46] INFO root fetch - main [MainThread]: End processing [monplugin]: success
+[2023-04-28 14:42:46] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-28 14:42:50] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
+[2023-04-28 14:42:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 14:42:51] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 14:42:51] INFO root fetch - main [MainThread]: Store serial: [17897999]
