@@ -12437,3 +12437,166 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 12:23:37] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
 [2023-04-28 12:23:37] INFO root fetch - main [MainThread]: End processing [in-dbt-spark]: success
 [2023-04-28 12:23:37] INFO root fetch - main [MainThread]: Store serial: [17896646]
+[2023-04-28 12:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896646]
+[2023-04-28 12:28:46] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gustaf
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-suitemanager
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelon-impact-client
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grizzly-loadtester-cli
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kqcircuits
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aequilibrae
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aequilibrae
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xformers
+[2023-04-28 12:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: illyrian
+[2023-04-28 12:28:46] INFO root fetch - processPackages [pytest-suitemanager]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [gustaf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [grizzly-loadtester-cli]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.16]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [illyrian]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [aequilibrae]: New version: [0.9.0.dev0] Old Version: [0.9.0]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [aequilibrae]: New version: [0.9.0.dev0] Old Version: [0.9.0]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281025] Old Version: [99.0.202304280930]
+[2023-04-28 12:28:46] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-04-28 12:28:46] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230428/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-28 12:28:46] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/21/e9/4c7706aa1534e6bb9625d89e0d01049bf2372ca33bf8abfde8b812ef0384/kqcircuits-4.6.16.tar.gz
+[2023-04-28 12:28:46] INFO root fetch - processPackages [pytest-suitemanager]: Downloading https://files.pythonhosted.org/packages/73/83/a9fc7f8d538076b170d35a114aa5a597a290832c0914c832baaa5da63baf/pytest-suitemanager-0.2.1.tar.gz
+[2023-04-28 12:28:46] INFO root fetch - processPackages [illyrian]: Downloading https://files.pythonhosted.org/packages/65/1a/da7e46441fd28f84aeefe1aa8a824e268c114069152a9fb8c74ed19a29e6/illyrian-0.2.2-py3-none-any.whl
+[2023-04-28 12:28:46] INFO root fetch - processPackages [grizzly-loadtester-cli]: Downloading https://files.pythonhosted.org/packages/76/7b/368e74827ecbe6f390d178af03b2944de8fdf27476a8c43b05363f901774/grizzly-loadtester-cli-3.1.8.tar.gz
+[2023-04-28 12:28:46] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/eb/cf/8e3eb79749df4bb5b23df59167f19b9fc6929d7c7bc6a1be13f6247deb7e/kcli-99.0.202304281025-py3-none-any.whl
+[2023-04-28 12:28:46] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-04-28 12:28:46] INFO root fetch - processPackages [pytest-suitemanager]: executing diffoscope
+[2023-04-28 12:28:46] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.16.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230428/k/kqcircuits/4.6.16-4.6.9rc1/diff.md --exclude *.pyd
+[2023-04-28 12:28:46] INFO root fetch - processPackages [pytest-suitemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-suitemanager-0.2.0.tar.gz tmp/pytest-suitemanager-0.2.1.tar.gz --markdown 20230428/p/pytest-suitemanager/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-28 12:28:46] INFO root fetch - processPackages [gustaf]: Downloading https://files.pythonhosted.org/packages/e0/23/236ead9189b8580affce8f81e0fd0486ce56358c10f2393d98cacb8c386a/gustaf-0.0.8.tar.gz
+[2023-04-28 12:28:47] INFO root fetch - processPackages [aequilibrae]: Downloading https://files.pythonhosted.org/packages/0c/8c/727134d999ac18d93a2ac983b22ed0dbc10fac52b4b024a1b67e90475d98/aequilibrae-0.9.0-cp39-cp39-win_amd64.whl
+[2023-04-28 12:28:47] INFO root fetch - processPackages [aequilibrae]: Downloading https://files.pythonhosted.org/packages/0c/8c/727134d999ac18d93a2ac983b22ed0dbc10fac52b4b024a1b67e90475d98/aequilibrae-0.9.0-cp39-cp39-win_amd64.whl
+[2023-04-28 12:28:47] INFO root fetch - processPackages [grizzly-loadtester-cli]: executing diffoscope
+[2023-04-28 12:28:47] INFO root fetch - processPackages [grizzly-loadtester-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-loadtester-cli-3.1.7.tar.gz tmp/grizzly-loadtester-cli-3.1.8.tar.gz --markdown 20230428/g/grizzly-loadtester-cli/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-04-28 12:28:47] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 12:28:47] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304280930-py3-none-any.whl.zip tmp/kcli-99.0.202304281025-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304280930-99.0.202304281025/diff.md --exclude *.pyd
+[2023-04-28 12:28:47] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-04-28 12:28:47] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230428/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 12:28:47] WARNING root fetch - processPackages [aequilibrae]: Skipping package: exceeds size limit 10588831>=10485760
+[2023-04-28 12:28:47] INFO root fetch - processPackages [aequilibrae]: Start processing: qgate-graph
+[2023-04-28 12:28:47] INFO root fetch - main [MainThread]: End processing [aequilibrae] error
+[2023-04-28 12:28:47] WARNING root fetch - processPackages [aequilibrae]: Skipping package: exceeds size limit 10588831>=10485760
+[2023-04-28 12:28:47] INFO root fetch - processPackages [aequilibrae]: Start processing: wildbook-ia
+[2023-04-28 12:28:47] INFO root fetch - main [MainThread]: End processing [aequilibrae] error
+[2023-04-28 12:28:47] INFO root fetch - processPackages [qgate-graph]: New version: [1.2rc1] Old Version: [1.1]
+[2023-04-28 12:28:47] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev9] Old Version: [4.0.5.dev7]
+[2023-04-28 12:28:47] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/40/85/5b53dde8c23f417276813ab5c417082c46f429e05a65e55774cc6246d065/wildbook_ia-4.0.5.dev7-py3-none-any.whl
+[2023-04-28 12:28:47] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662773>=10485760
+[2023-04-28 12:28:47] INFO root fetch - processPackages [wildbook-ia]: Start processing: tungl
+[2023-04-28 12:28:47] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-28 12:28:47] INFO root fetch - processPackages [tungl]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 12:28:47] INFO root fetch - processPackages [gustaf]: Downloading https://files.pythonhosted.org/packages/42/2c/f93542053ad74ad73eaa4106f276e9a512744cbfe493e9e9d636e78375de/gustaf-0.0.9.tar.gz
+[2023-04-28 12:28:47] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/6c/33/69769380287f14f3616618dfd55a61185a7b521ab289f6ee0a2f5304266b/qgate_graph-1.1.tar.gz
+[2023-04-28 12:28:47] INFO root fetch - processPackages [illyrian]: Downloading https://files.pythonhosted.org/packages/61/fe/9afece2b84dbf4ea8446d83e930649ca661618bf701a32623e0e065634e6/illyrian-0.3.0-py3-none-any.whl
+[2023-04-28 12:28:47] INFO root fetch - processPackages [illyrian]: executing diffoscope
+[2023-04-28 12:28:47] INFO root fetch - processPackages [illyrian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illyrian-0.2.2-py3-none-any.whl.zip tmp/illyrian-0.3.0-py3-none-any.whl.zip --markdown 20230428/i/illyrian/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 12:28:47] INFO root fetch - processPackages [tungl]: Downloading https://files.pythonhosted.org/packages/c4/c4/c7a1805708a1f702e51d2297f274be9ce709191ac7f5360e272478ac3695/tungl-0.1.2-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:47] INFO root fetch - processPackages [gustaf]: executing diffoscope
+[2023-04-28 12:28:47] INFO root fetch - processPackages [gustaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gustaf-0.0.8.tar.gz tmp/gustaf-0.0.9.tar.gz --markdown 20230428/g/gustaf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 12:28:47] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/43/55/2c3e0516b78f478a449a5a59ed40c0da1f61df36e308e01eafa4bb0db6f9/qgate_graph-1.2rc1.tar.gz
+[2023-04-28 12:28:47] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-04-28 12:28:47] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.1.tar.gz tmp/qgate_graph-1.2rc1.tar.gz --markdown 20230428/q/qgate-graph/1.1-1.2rc1/diff.md --exclude *.pyd
+[2023-04-28 12:28:47] INFO root fetch - processPackages [tungl]: Downloading https://files.pythonhosted.org/packages/a0/4e/bf91edfb2285f67f7fa0fa625a227d8c3bd4779ea852f42e1a29158c26e2/tungl-0.1.3-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:47] INFO root fetch - processPackages [tungl]: executing diffoscope
+[2023-04-28 12:28:47] INFO root fetch - processPackages [tungl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungl-0.1.2-py3-none-manylinux_2_17_x86_64.whl.zip tmp/tungl-0.1.3-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/t/tungl/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 12:28:48] INFO root fetch - processPackages [pytest-suitemanager]: Start processing: veda-pytorch
+[2023-04-28 12:28:48] INFO root fetch - main [MainThread]: End processing [pytest-suitemanager]: success
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: New version: [2.0.0.post7] Old Version: [1.13.1.post7]
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: Downloading https://files.pythonhosted.org/packages/46/f5/4e069a577183a32eed48494f1fec7e8450ade848ed4d6a42988c1dc3ea31/veda_pytorch-1.13.1.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:48] INFO root fetch - processPackages [grizzly-loadtester-cli]: Start processing: veda-pytorch
+[2023-04-28 12:28:48] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester-cli]: success
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: New version: [2.0.0.post7] Old Version: [1.13.1.post7]
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: Downloading https://files.pythonhosted.org/packages/b8/d3/b9149f880cc52973f0c626817904e8a607fb0c8ba337275050a30a8a3f69/veda_pytorch-2.0.0.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: executing diffoscope
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_pytorch-1.13.1.post7-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_pytorch-2.0.0.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-pytorch/1.13.1.post7-2.0.0.post7/diff.md --exclude *.pyd
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: executing diffoscope
+[2023-04-28 12:28:48] INFO root fetch - processPackages [veda-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_pytorch-1.13.1.post7-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_pytorch-2.0.0.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-pytorch/1.13.1.post7-2.0.0.post7/diff.md --exclude *.pyd
+[2023-04-28 12:28:48] INFO root fetch - processPackages [qgate-graph]: Start processing: veda-pytorch
+[2023-04-28 12:28:49] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: New version: [2.0.0.post7] Old Version: [1.13.1.post7]
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: executing diffoscope
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_pytorch-1.13.1.post7-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_pytorch-2.0.0.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-pytorch/1.13.1.post7-2.0.0.post7/diff.md --exclude *.pyd
+[2023-04-28 12:28:49] INFO root fetch - processPackages [modelon-impact-client]: Start processing: veda-pytorch
+[2023-04-28 12:28:49] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: New version: [2.0.0.post7] Old Version: [1.13.1.post7]
+[2023-04-28 12:28:49] INFO root fetch - processPackages [illyrian]: Start processing: veda-pytorch
+[2023-04-28 12:28:49] INFO root fetch - main [MainThread]: End processing [illyrian]: success
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: New version: [2.0.0.post7] Old Version: [1.13.1.post7]
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: executing diffoscope
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_pytorch-1.13.1.post7-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_pytorch-2.0.0.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-pytorch/1.13.1.post7-2.0.0.post7/diff.md --exclude *.pyd
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: executing diffoscope
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_pytorch-1.13.1.post7-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_pytorch-2.0.0.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-pytorch/1.13.1.post7-2.0.0.post7/diff.md --exclude *.pyd
+[2023-04-28 12:28:49] INFO root fetch - processPackages [gustaf]: Start processing: veda-tensors
+[2023-04-28 12:28:49] INFO root fetch - main [MainThread]: End processing [gustaf]: success
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-tensors]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 12:28:49] INFO root fetch - processPackages [veda-tensors]: Downloading https://files.pythonhosted.org/packages/32/24/89445dbe087ba31f27db1cc0f62eb3f9bbbae129721c4a0731841b1f0b55/veda_tensors-0.1.3-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:50] INFO root fetch - processPackages [veda-tensors]: Downloading https://files.pythonhosted.org/packages/e2/85/5f7f34db4d45179a10a71f44341d9b3251a454a1f9c8f8a1746278aced52/veda_tensors-0.1.4-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:50] INFO root fetch - processPackages [veda-tensors]: executing diffoscope
+[2023-04-28 12:28:50] INFO root fetch - processPackages [veda-tensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensors-0.1.3-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensors-0.1.4-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-tensors/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 12:28:50] INFO root fetch - processPackages [tungl]: Start processing: veda
+[2023-04-28 12:28:50] INFO root fetch - main [MainThread]: End processing [tungl]: success
+[2023-04-28 12:28:50] INFO root fetch - processPackages [xformers]: Start processing: veda-tensorflow
+[2023-04-28 12:28:50] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-04-28 12:28:50] INFO root fetch - processPackages [veda]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-28 12:28:50] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.2.post5] Old Version: [2.8.3.post5]
+[2023-04-28 12:28:50] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/f8/b2/135f5c5ab6db7944653be71313ba60dffa5bbbcb2fe472a7d82233c49e31/veda_tensorflow-2.8.3.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:50] INFO root fetch - processPackages [veda]: Downloading https://files.pythonhosted.org/packages/91/39/2f187940839a2477a3ff58b80d8aa99d9a7bfd4267619f6731e2beada837/veda-2.0.0-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:51] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:51] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-04-28 12:28:51] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.8.3.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-tensorflow/2.8.3.post5-2.9.2.post5/diff.md --exclude *.pyd
+[2023-04-28 12:28:51] INFO root fetch - processPackages [veda]: Downloading https://files.pythonhosted.org/packages/6f/39/f586f9bc187a538ad68e779f282bb2c106898d36a8b1dcd610bc8530fb53/veda-2.0.1-py3-none-manylinux_2_17_x86_64.whl
+[2023-04-28 12:28:51] INFO root fetch - processPackages [veda]: executing diffoscope
+[2023-04-28 12:28:51] INFO root fetch - processPackages [veda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda-2.0.0-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda-2.0.1-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 12:28:52] INFO root fetch - processPackages [kqcircuits]: Start processing: openxlab
+[2023-04-28 12:28:52] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-04-28 12:28:52] INFO root fetch - processPackages [openxlab]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-04-28 12:28:52] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2023-04-28 12:28:52] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-04-28 12:28:52] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.6.tar.gz tmp/openxlab-0.0.8.tar.gz --markdown 20230428/o/openxlab/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-pytorch]: Start processing: veda-tensorflow
+[2023-04-28 12:28:54] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.2.post5] Old Version: [2.8.3.post5]
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.8.3.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-tensorflow/2.8.3.post5-2.9.2.post5/diff.md --exclude *.pyd
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-pytorch]: Start processing: veda-tensorflow
+[2023-04-28 12:28:54] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.2.post5] Old Version: [2.8.3.post5]
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-pytorch]: Start processing: pycotap
+[2023-04-28 12:28:54] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
+[2023-04-28 12:28:54] INFO root fetch - processPackages [pycotap]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.8.3.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230428/v/veda-tensorflow/2.8.3.post5-2.9.2.post5/diff.md --exclude *.pyd
+[2023-04-28 12:28:54] INFO root fetch - processPackages [openxlab]: Start processing: neapolitan
+[2023-04-28 12:28:54] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-04-28 12:28:54] INFO root fetch - processPackages [pycotap]: Downloading https://files.pythonhosted.org/packages/5c/c0/62b2c4749c380b20e9cd8a4729b32d2ac99fac0540c026a4c9347a1a546f/pycotap-1.2.2.tar.gz
+[2023-04-28 12:28:54] INFO root fetch - processPackages [veda-pytorch]: Start processing: odoo-addon-account-financial-report
+[2023-04-28 12:28:54] INFO root fetch - processPackages [neapolitan]: New version: [23.9] Old Version: [23.8]
+[2023-04-28 12:28:54] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
+[2023-04-28 12:28:54] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [16.0.1.3.2] Old Version: [16.0.1.3.1]
+[2023-04-28 12:28:55] INFO root fetch - processPackages [neapolitan]: Downloading https://files.pythonhosted.org/packages/7b/7b/2d03a5807f56412945b2a1ddcf8b52897e7fa1fcb1723ca1b211d405b50f/neapolitan-23.8.tar.gz
+[2023-04-28 12:28:55] INFO root fetch - processPackages [pycotap]: Downloading https://files.pythonhosted.org/packages/ba/9d/6bfe212080f86f2ff56f02253dcb42b5cf92152f8012a3ba2525e9a6db79/pycotap-1.3.0.tar.gz
+[2023-04-28 12:28:55] INFO root fetch - processPackages [pycotap]: executing diffoscope
+[2023-04-28 12:28:55] INFO root fetch - processPackages [pycotap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycotap-1.2.2.tar.gz tmp/pycotap-1.3.0.tar.gz --markdown 20230428/p/pycotap/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-04-28 12:28:55] INFO root fetch - processPackages [neapolitan]: Downloading https://files.pythonhosted.org/packages/a6/12/dbc95c98864db8ac6cc54596d73965cbe135ae3885d921f776b22471e9ab/neapolitan-23.9.tar.gz
+[2023-04-28 12:28:55] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2023-04-28 12:28:55] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.3.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-16.0.1.3.2-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-account-financial-report/16.0.1.3.1-16.0.1.3.2/diff.md --exclude *.pyd
+[2023-04-28 12:28:55] INFO root fetch - processPackages [neapolitan]: executing diffoscope
+[2023-04-28 12:28:55] INFO root fetch - processPackages [neapolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neapolitan-23.8.tar.gz tmp/neapolitan-23.9.tar.gz --markdown 20230428/n/neapolitan/23.8-23.9/diff.md --exclude *.pyd
+[2023-04-28 12:28:55] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
+[2023-04-28 12:28:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 12:28:56] INFO root fetch - main [MainThread]: End processing [pycotap]: success
+[2023-04-28 12:28:57] INFO root fetch - main [MainThread]: End processing [neapolitan]: success
+[2023-04-28 12:28:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2023-04-28 12:29:00] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-04-28 12:29:01] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-04-28 12:29:03] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-04-28 12:29:03] INFO root fetch - main [MainThread]: End processing [veda-tensors]: success
+[2023-04-28 12:29:19] INFO root fetch - main [MainThread]: End processing [veda]: success
+[2023-04-28 12:29:19] INFO root fetch - main [MainThread]: Store serial: [17896724]
