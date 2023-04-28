@@ -8637,3 +8637,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:29:28] INFO root fetch - main [MainThread]: End processing [twigs]: success
 [2023-04-28 08:29:31] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-28 08:29:31] INFO root fetch - main [MainThread]: Store serial: [17894545]
+[2023-04-28 08:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894545]
+[2023-04-28 08:34:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AISimuToolKit
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IPAkor
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigquery-ml-utils
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-common
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ChatLLM
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplecm
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-purchase-stock-secondary-unit
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vbdataset-test
+[2023-04-28 08:34:41] INFO root fetch - processPackages [AISimuToolKit]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 08:34:41] INFO root fetch - processPackages [bigquery-ml-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 08:34:41] INFO root fetch - processPackages [vbdataset-test]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-04-28 08:34:41] WARNING root fetch - processPackages [databricks-common]: Skipping, unable to determine old version
+[2023-04-28 08:34:41] WARNING root fetch - processPackages [simplecm]: Skipping, unable to determine old version
+[2023-04-28 08:34:41] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-04-28 08:34:41] INFO root fetch - main [MainThread]: End processing [databricks-common] error
+[2023-04-28 08:34:41] INFO root fetch - processPackages [IPAkor]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.14.33.15] Old Version: [2023.4.28.14.25.57]
+[2023-04-28 08:34:41] INFO root fetch - main [MainThread]: End processing [simplecm] error
+[2023-04-28 08:34:41] INFO root fetch - processPackages [AISimuToolKit]: Downloading https://files.pythonhosted.org/packages/f8/b8/3495bf533e47441c0b0ab74098d12d864fd9f799da54b4e1a06ee80e00d9/AISimuToolKit-0.1.4.tar.gz
+[2023-04-28 08:34:41] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/d8/ac/5e7ed109e5d15c010de7c6ad9f1e58dc4bb3bdd9a5667ebc157c77bdadc8/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-28 08:34:41] INFO root fetch - processPackages [vbdataset-test]: Downloading https://files.pythonhosted.org/packages/08/37/eda0b794157cc58b3a6ab2bbafa2f8a26cb3c1729ec61e4e9f976d26d1fa/vbdataset_test-0.0.0.1-py3-none-any.whl
+[2023-04-28 08:34:41] INFO root fetch - processPackages [bigquery-ml-utils]: Downloading https://files.pythonhosted.org/packages/94/a4/6c822d4f172d196c0b3553d08b821ae300f74f29dff8c6b6075603d02eda/bigquery_ml_utils-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 08:34:41] INFO root fetch - processPackages [AISimuToolKit]: executing diffoscope
+[2023-04-28 08:34:41] INFO root fetch - processPackages [AISimuToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AISimuToolKit-0.1.3.tar.gz tmp/AISimuToolKit-0.1.4.tar.gz --markdown 20230428/A/AISimuToolKit/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 08:34:41] INFO root fetch - processPackages [IPAkor]: Downloading https://files.pythonhosted.org/packages/4b/14/295c383ff7b7a70175cb6622d60e933a948c1ea395c22fd71c798c6f63c3/IPAkor-2.5.2.tar.gz
+[2023-04-28 08:34:41] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/4d/bb/1019b1e19bd1ad9ae4f573fe98ea39d9888731756846882f98f908c0a9b7/ChatLLM-2023.4.28.14.33.15.tar.gz
+[2023-04-28 08:34:41] INFO root fetch - processPackages [bigquery-ml-utils]: executing diffoscope
+[2023-04-28 08:34:41] INFO root fetch - processPackages [bigquery-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigquery_ml_utils-0.1.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/bigquery_ml_utils-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/b/bigquery-ml-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 08:34:41] INFO root fetch - processPackages [IPAkor]: executing diffoscope
+[2023-04-28 08:34:41] INFO root fetch - processPackages [IPAkor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPAkor-2.5.1.tar.gz tmp/IPAkor-2.5.2.tar.gz --markdown 20230428/I/IPAkor/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-04-28 08:34:41] INFO root fetch - processPackages [vbdataset-test]: Downloading https://files.pythonhosted.org/packages/15/ce/c6b33d793a59ef25abe2273991e7dcd9c8d30f593cd43f9b6932204fede2/vbdataset_test-0.0.0.2-py3-none-any.whl
+[2023-04-28 08:34:41] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/b1/1a/9bd658b318e54f6ef355f815eb1ed6841a6222785f803e495eb31c3c1360/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-04-28 08:34:41] INFO root fetch - processPackages [vbdataset-test]: executing diffoscope
+[2023-04-28 08:34:41] INFO root fetch - processPackages [vbdataset-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbdataset_test-0.0.0.1-py3-none-any.whl.zip tmp/vbdataset_test-0.0.0.2-py3-none-any.whl.zip --markdown 20230428/v/vbdataset-test/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-04-28 08:34:41] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: executing diffoscope
+[2023-04-28 08:34:41] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230428/o/odoo14-addon-purchase-stock-secondary-unit/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-04-28 08:34:42] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 08:34:42] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.14.25.57.tar.gz tmp/ChatLLM-2023.4.28.14.33.15.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.14.25.57-2023.4.28.14.33.15/diff.md --exclude *.pyd
+[2023-04-28 08:34:42] INFO root fetch - main [MainThread]: End processing [AISimuToolKit]: success
+[2023-04-28 08:34:42] INFO root fetch - main [MainThread]: End processing [vbdataset-test]: success
+[2023-04-28 08:34:42] INFO root fetch - main [MainThread]: End processing [IPAkor]: success
+[2023-04-28 08:34:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-stock-secondary-unit]: success
+[2023-04-28 08:34:43] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
+[2023-04-28 08:34:44] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 08:34:44] INFO root fetch - main [MainThread]: Store serial: [17894568]
