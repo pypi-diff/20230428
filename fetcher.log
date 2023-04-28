@@ -9752,3 +9752,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:45:41] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
 [2023-04-28 09:45:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-computenestsupplier20210521]: success
 [2023-04-28 09:45:41] INFO root fetch - main [MainThread]: Store serial: [17895190]
+[2023-04-28 09:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895190]
+[2023-04-28 09:50:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-altinn3-util
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-suitemanager
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mage-ai
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perpetuo
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openscm-units
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spiritlong
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: innerverz-package
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansible-risk-insight
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hahomematic
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eis1600
+[2023-04-28 09:50:51] INFO root fetch - processPackages [perpetuo]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [pytest-suitemanager]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [innerverz-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.6rc1] Old Version: [0.1.5rc1]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [eis1600]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [hahomematic]: New version: [2023.4.3] Old Version: [2023.4.2]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-28 09:50:51] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230428/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [openscm-units]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [spiritlong]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:50:51] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-04-28 09:50:51] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.8.5.tar.gz tmp/eis1600-0.8.6.tar.gz --markdown 20230428/e/eis1600/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-28 09:50:51] INFO root fetch - processPackages [perpetuo]: executing diffoscope
+[2023-04-28 09:50:51] INFO root fetch - processPackages [perpetuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perpetuo-0.3.0.tar.gz tmp/perpetuo-0.3.1.tar.gz --markdown 20230428/p/perpetuo/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-04-28 09:50:51] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.5rc1.tar.gz tmp/ansible-risk-insight-0.1.6rc1.tar.gz --markdown 20230428/a/ansible-risk-insight/0.1.5rc1-0.1.6rc1/diff.md --exclude *.pyd
+[2023-04-28 09:50:51] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-04-28 09:50:51] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.4.2.tar.gz tmp/hahomematic-2023.4.3.tar.gz --markdown 20230428/h/hahomematic/2023.4.2-2023.4.3/diff.md --exclude *.pyd
+[2023-04-28 09:50:51] INFO root fetch - processPackages [innerverz-package]: Downloading https://files.pythonhosted.org/packages/96/40/bda74e7c2f6239da953dfdcee560799fcfc7e370cc936047ff990c32bb5d/innerverz_package-0.0.8.tar.gz
+[2023-04-28 09:50:51] INFO root fetch - processPackages [openscm-units]: Downloading https://files.pythonhosted.org/packages/0f/70/7b3ee2093060334c6ccf873b194816849d0d6c3361d535382a58a806c815/openscm-units-0.5.0.tar.gz
+[2023-04-28 09:50:51] INFO root fetch - processPackages [pytest-suitemanager]: Downloading https://files.pythonhosted.org/packages/7e/4a/b7a787ace358fbaff3325f04b4950fbfec2585021146693f73776f1e59cb/pytest-suitemanager-0.1.0.tar.gz
+[2023-04-28 09:50:51] INFO root fetch - processPackages [innerverz-package]: Downloading https://files.pythonhosted.org/packages/35/7f/13ecb936bc0cbaaf5afa2bfc2e6bfc806d1ec56f74b8367bb9b7ba6936c7/innerverz_package-0.0.9.tar.gz
+[2023-04-28 09:50:52] INFO root fetch - processPackages [pytest-suitemanager]: Downloading https://files.pythonhosted.org/packages/c0/d3/5959522da851f0af4ba879e1fb07ad3edb7767bf3668eb07763e4cae1582/pytest-suitemanager-0.1.2.tar.gz
+[2023-04-28 09:50:52] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-04-28 09:50:52] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230428/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:50:52] INFO root fetch - processPackages [spiritlong]: executing diffoscope
+[2023-04-28 09:50:52] INFO root fetch - processPackages [spiritlong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiritlong-0.0.8.tar.gz tmp/spiritlong-0.0.9.tar.gz --markdown 20230428/s/spiritlong/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:50:52] INFO root fetch - processPackages [openscm-units]: Downloading https://files.pythonhosted.org/packages/5f/92/51b2e984ee386f7d0d094b32b3190c6e6783b42b59f8e85551d8d8addcdf/openscm-units-0.5.1.tar.gz
+[2023-04-28 09:50:52] INFO root fetch - processPackages [innerverz-package]: executing diffoscope
+[2023-04-28 09:50:52] INFO root fetch - processPackages [innerverz-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz_package-0.0.8.tar.gz tmp/innerverz_package-0.0.9.tar.gz --markdown 20230428/i/innerverz-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:50:52] INFO root fetch - processPackages [pytest-suitemanager]: executing diffoscope
+[2023-04-28 09:50:52] INFO root fetch - processPackages [pytest-suitemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-suitemanager-0.1.0.tar.gz tmp/pytest-suitemanager-0.1.2.tar.gz --markdown 20230428/p/pytest-suitemanager/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 09:50:52] INFO root fetch - processPackages [openscm-units]: executing diffoscope
+[2023-04-28 09:50:52] INFO root fetch - processPackages [openscm-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openscm-units-0.5.0.tar.gz tmp/openscm-units-0.5.1.tar.gz --markdown 20230428/o/openscm-units/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-28 09:50:53] INFO root fetch - processPackages [ssb-altinn3-util]: Start processing: packitos
+[2023-04-28 09:50:53] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-04-28 09:50:53] INFO root fetch - processPackages [hahomematic]: Start processing: tf-nightly-cpu
+[2023-04-28 09:50:53] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-04-28 09:50:53] INFO root fetch - processPackages [packitos]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-28 09:50:53] INFO root fetch - main [MainThread]: End processing [pytest-suitemanager]: success
+[2023-04-28 09:50:53] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230428] Old Version: [2.13.0.dev20230427]
+[2023-04-28 09:50:53] INFO root fetch - main [MainThread]: End processing [innerverz-package]: success
+[2023-04-28 09:50:53] INFO root fetch - main [MainThread]: End processing [perpetuo]: success
+[2023-04-28 09:50:53] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/5c/47/2093b9d071eeb261fd2535a9da0230896be1d2f7238b23d00da98a2f18ab/packitos-0.8.1.tar.gz
+[2023-04-28 09:50:53] INFO root fetch - main [MainThread]: End processing [spiritlong]: success
+[2023-04-28 09:50:53] INFO root fetch - main [MainThread]: End processing [openscm-units]: success
+[2023-04-28 09:50:54] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-04-28 09:50:54] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/0c/84/3c86583681c7bba0d90651e6dca33b15e1f6079a9a8b453a571dcac122bb/tf_nightly_cpu-2.13.0.dev20230428-cp39-cp39-win_amd64.whl
+[2023-04-28 09:50:54] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-28 09:50:54] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230427-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230428-cp39-cp39-win_amd64.whl.zip --markdown 20230428/t/tf-nightly-cpu/2.13.0.dev20230427-2.13.0.dev20230428/diff.md --exclude *.pyd
+[2023-04-28 09:50:54] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-04-28 09:50:54] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/6a/56/790e643af99b402baa93360e3fa6d152247c44a8a1c76ced1f6d099107ab/packitos-0.9.0.tar.gz
+[2023-04-28 09:50:54] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-28 09:50:55] INFO root fetch - processPackages [packitos]: executing diffoscope
+[2023-04-28 09:50:55] INFO root fetch - processPackages [packitos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packitos-0.8.1.tar.gz tmp/packitos-0.9.0.tar.gz --markdown 20230428/p/packitos/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 09:50:58] INFO root fetch - main [MainThread]: End processing [packitos]: success
+[2023-04-28 09:51:01] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-28 09:51:01] INFO root fetch - main [MainThread]: Store serial: [17895231]
