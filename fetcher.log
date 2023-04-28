@@ -13819,3 +13819,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:46:12] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-28 13:46:17] INFO root fetch - main [MainThread]: End processing [elastic-helper]: success
 [2023-04-28 13:46:17] INFO root fetch - main [MainThread]: Store serial: [17897479]
+[2023-04-28 13:51:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897479]
+[2023-04-28 13:51:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-28 13:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycomex
+[2023-04-28 13:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ghastoolkit
+[2023-04-28 13:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-tomotwin
+[2023-04-28 13:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiogram-ext
+[2023-04-28 13:51:27] INFO root fetch - processPackages [pycomex]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 13:51:27] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:51:27] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:51:27] INFO root fetch - processPackages [napari-tomotwin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 13:51:27] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 13:51:27] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:51:27] INFO root fetch - processPackages [pycomex]: executing diffoscope
+[2023-04-28 13:51:27] INFO root fetch - processPackages [pycomex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomex-0.9.0.tar.gz tmp/pycomex-0.9.1.tar.gz --markdown 20230428/p/pycomex/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 13:51:27] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-04-28 13:51:27] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.8.tar.gz tmp/ghastoolkit-0.1.9.tar.gz --markdown 20230428/g/ghastoolkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:51:27] INFO root fetch - processPackages [napari-tomotwin]: Downloading https://files.pythonhosted.org/packages/c8/15/c6651589a93c9ebae8843503049f09ed4322c438f2f2a1a30725f2eee577/napari-tomotwin-0.1.1.tar.gz
+[2023-04-28 13:51:27] INFO root fetch - processPackages [napari-tomotwin]: Downloading https://files.pythonhosted.org/packages/c9/11/8822312052bd23d90c5ee9776630376b2899f78db8108bcb76c553cf59a5/napari-tomotwin-0.1.2.tar.gz
+[2023-04-28 13:51:28] INFO root fetch - processPackages [napari-tomotwin]: executing diffoscope
+[2023-04-28 13:51:28] INFO root fetch - processPackages [napari-tomotwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-tomotwin-0.1.1.tar.gz tmp/napari-tomotwin-0.1.2.tar.gz --markdown 20230428/n/napari-tomotwin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 13:51:28] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 13:51:28] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-04-28 13:51:29] INFO root fetch - main [MainThread]: End processing [pycomex]: success
+[2023-04-28 13:51:29] INFO root fetch - main [MainThread]: End processing [napari-tomotwin]: success
+[2023-04-28 13:51:29] INFO root fetch - main [MainThread]: Store serial: [17897491]
