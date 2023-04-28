@@ -10504,3 +10504,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 10:39:03] INFO root fetch - main [MainThread]: End processing [write-the]: success
 [2023-04-28 10:39:16] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-04-28 10:39:16] INFO root fetch - main [MainThread]: Store serial: [17895589]
+[2023-04-28 10:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895589]
+[2023-04-28 10:44:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: one-api-tool
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-it-riba-sale-commission
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lago-python-client
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tff-nightly
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pontos
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yamk
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: googletranslate-python
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ftw-django-utils
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-icons
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digitalAssistAnt
+[2023-04-28 10:44:27] INFO root fetch - processPackages [pontos]: New version: [23.4.9] Old Version: [23.4.8]
+[2023-04-28 10:44:27] INFO root fetch - processPackages [lago-python-client]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-28 10:44:27] WARNING root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: Skipping, unable to determine old version
+[2023-04-28 10:44:27] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: Start processing: wizata-dsapi
+[2023-04-28 10:44:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-riba-sale-commission] error
+[2023-04-28 10:44:27] INFO root fetch - processPackages [django-icons]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-04-28 10:44:27] WARNING root fetch - processPackages [ftw-django-utils]: Skipping, unable to determine old version
+[2023-04-28 10:44:27] INFO root fetch - processPackages [yamk]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-04-28 10:44:27] INFO root fetch - processPackages [ftw-django-utils]: Start processing: servicefoundry
+[2023-04-28 10:44:27] INFO root fetch - main [MainThread]: End processing [ftw-django-utils] error
+[2023-04-28 10:44:27] INFO root fetch - processPackages [one-api-tool]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-28 10:44:27] INFO root fetch - processPackages [googletranslate-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 10:44:27] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 10:44:27] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230428] Old Version: [0.0.1.dev20230427]
+[2023-04-28 10:44:27] WARNING root fetch - processPackages [digitalAssistAnt]: Skipping, unable to determine old version
+[2023-04-28 10:44:27] INFO root fetch - main [MainThread]: End processing [digitalAssistAnt] error
+[2023-04-28 10:44:27] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-28 10:44:27] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230428/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 10:44:27] INFO root fetch - processPackages [lago-python-client]: Downloading https://files.pythonhosted.org/packages/01/17/90119020d1e4cbd1b9c1280647c2cb67e8f6239107658e85b49ba696b97e/lago_python_client-0.6.2-py3-none-any.whl
+[2023-04-28 10:44:27] INFO root fetch - processPackages [servicefoundry]: New version: [0.8.6] Old Version: [0.8.5rc2]
+[2023-04-28 10:44:27] INFO root fetch - processPackages [django-icons]: Downloading https://files.pythonhosted.org/packages/2f/e6/d5ea01b28c69235a2a4521865b98fa99ed6af7166ad22a6868337c0854dd/django-icons-3.0.0.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [yamk]: Downloading https://files.pythonhosted.org/packages/43/dd/93f62d79fc5927608d064890619a00b8c289e51ef34b6019e5da80e25e4c/yamk-5.0.1.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/de/f0/007774c0dcb018759d3a18c79f4c4d687c0c3f53283406c1a7947c4f4ce4/one-api-tool-0.2.5.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/b6/80/b7ebffd93e11fdbc22df1a11122bb5e90cf88d314665183e9c5514792c01/pontos-23.4.9.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [googletranslate-python]: Downloading https://files.pythonhosted.org/packages/af/40/5d1a84851874bc491513a6a051de8d17fdea7df618ac2654425acb4ddda7/googletranslate-python-1.0.2.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1f/87/69bde3e1e3de05e98105de5e9f65a18828bcb01c98aa42a8383b2d474fbd/tff_nightly-0.0.1.dev20230427-py2.py3-none-any.whl
+[2023-04-28 10:44:27] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-04-28 10:44:27] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.4.8.tar.gz tmp/pontos-23.4.9.tar.gz --markdown 20230428/p/pontos/23.4.8-23.4.9/diff.md --exclude *.pyd
+[2023-04-28 10:44:27] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/e9/b9/241541dce70e3d2d362bfe330f3974d6433b971d9823d3a9ecedb2550c2f/servicefoundry-0.8.5rc2.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [yamk]: Downloading https://files.pythonhosted.org/packages/03/8b/53a4bb1b5af2d994ebd997529715cce5032b5fc8347fcee1bb8976ae7f6f/yamk-5.1.0.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/01/07/4a8660c24c51418b76a043fe79cd10f039a1a6e98d158cb96d4a3a576251/one-api-tool-0.2.6.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [lago-python-client]: Downloading https://files.pythonhosted.org/packages/71/4b/759008fa11aead832550f5a1093dbb6965c5a7efaf8e9226b712d3d01d32/lago_python_client-0.7.0-py3-none-any.whl
+[2023-04-28 10:44:27] INFO root fetch - processPackages [yamk]: executing diffoscope
+[2023-04-28 10:44:27] INFO root fetch - processPackages [googletranslate-python]: Downloading https://files.pythonhosted.org/packages/c0/55/2183a688ce9e5f393ff07d83818e14ff97caea04b786e13e320649d82505/googletranslate-python-1.0.3.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [yamk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamk-5.0.1.tar.gz tmp/yamk-5.1.0.tar.gz --markdown 20230428/y/yamk/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-04-28 10:44:27] INFO root fetch - processPackages [django-icons]: Downloading https://files.pythonhosted.org/packages/26/04/bda6944207a22d56675624fd52270fe5907fbce4ee88f2374cb21b4690d5/django-icons-4.0.0.tar.gz
+[2023-04-28 10:44:27] INFO root fetch - processPackages [googletranslate-python]: executing diffoscope
+[2023-04-28 10:44:27] INFO root fetch - processPackages [googletranslate-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googletranslate-python-1.0.2.tar.gz tmp/googletranslate-python-1.0.3.tar.gz --markdown 20230428/g/googletranslate-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 10:44:28] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-04-28 10:44:28] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.2.5.tar.gz tmp/one-api-tool-0.2.6.tar.gz --markdown 20230428/o/one-api-tool/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 10:44:28] INFO root fetch - processPackages [lago-python-client]: executing diffoscope
+[2023-04-28 10:44:28] INFO root fetch - processPackages [lago-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lago_python_client-0.6.2-py3-none-any.whl.zip tmp/lago_python_client-0.7.0-py3-none-any.whl.zip --markdown 20230428/l/lago-python-client/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 10:44:28] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/af/70/3b150c10e1b86904f5476077908c6db971ecf325b306aab6be13e90977d0/tff_nightly-0.0.1.dev20230428-py2.py3-none-any.whl
+[2023-04-28 10:44:28] INFO root fetch - processPackages [django-icons]: executing diffoscope
+[2023-04-28 10:44:28] INFO root fetch - processPackages [django-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-icons-3.0.0.tar.gz tmp/django-icons-4.0.0.tar.gz --markdown 20230428/d/django-icons/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-04-28 10:44:28] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/ff/e5/21a7dbca65d15e7e3489f1364caee428192839d26fa4058a423d82729928/servicefoundry-0.8.6.tar.gz
+[2023-04-28 10:44:28] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-04-28 10:44:28] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.8.5rc2.tar.gz tmp/servicefoundry-0.8.6.tar.gz --markdown 20230428/s/servicefoundry/0.8.5rc2-0.8.6/diff.md --exclude *.pyd
+[2023-04-28 10:44:28] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-04-28 10:44:28] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230427-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230428-py2.py3-none-any.whl.zip --markdown 20230428/t/tff-nightly/0.0.1.dev20230427-0.0.1.dev20230428/diff.md --exclude *.pyd
+[2023-04-28 10:44:29] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-28 10:44:29] INFO root fetch - main [MainThread]: End processing [yamk]: success
+[2023-04-28 10:44:29] INFO root fetch - main [MainThread]: End processing [googletranslate-python]: success
+[2023-04-28 10:44:29] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-04-28 10:44:29] INFO root fetch - main [MainThread]: End processing [lago-python-client]: success
+[2023-04-28 10:44:30] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-04-28 10:44:31] ERROR root fetch - processPackages [django-icons]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-04-28 10:44:31] INFO root fetch - main [MainThread]: End processing [django-icons] error
+[2023-04-28 10:44:32] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-04-28 10:44:32] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-04-28 10:44:32] INFO root fetch - main [MainThread]: Store serial: [17895632]
