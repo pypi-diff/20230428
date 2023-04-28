@@ -9314,3 +9314,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:18:34] INFO root fetch - main [MainThread]: End processing [mmengine]: success
 [2023-04-28 09:18:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-04-28 09:18:34] INFO root fetch - main [MainThread]: Store serial: [17894936]
+[2023-04-28 09:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894936]
+[2023-04-28 09:23:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SDTcloud
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChatLLM
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: interactions-restful
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pontos
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-hub-nightly
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: act-scio
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ASCIIcli
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tutor
+[2023-04-28 09:23:43] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [interactions-restful]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.15.6.19] Old Version: [2023.4.28.15.3.4]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ASCIIcli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [act-scio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [pontos]: New version: [23.4.8] Old Version: [23.4.7]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tutor]: New version: [15.3.5] Old Version: [15.3.4]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.15.3.4.tar.gz tmp/ChatLLM-2023.4.28.15.6.19.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.15.3.4-2023.4.28.15.6.19/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-04-28 09:23:43] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230428/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [interactions-restful]: Downloading https://files.pythonhosted.org/packages/c3/3b/01b3a10464c5c724049c538e0a2eb4297c37bfc81141479bb5937ebfd900/interactions-restful-1.0.0.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/a3/1f/bc08b975e24c577318c1338773533dcef0846960bc1478e9bc4ecf235586/pontos-23.4.8.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [act-scio]: Downloading https://files.pythonhosted.org/packages/cc/79/b3ecb2e35635fe3751ab12fe4d5e551974a5253e8355ed5d23cf96be3d2b/act-scio-0.0.8.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ASCIIcli]: Downloading https://files.pythonhosted.org/packages/5d/6a/b93b7fd0a8dfc1ab93fb573406866d942ea3a27939907bd3c052e9b403a2/ASCIIcli-0.0.4.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/a8/03/ac551b9e21bf72e3b711e62f6e6033c16a324c134b96ddf3a18961b92b3b/tutor-15.3.4.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/7d/e5/95f48c8276d557224be836860c184ca7df94ef204d6fd0ebfd756dd95373/SDTcloud-0.0.3.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.4.7.tar.gz tmp/pontos-23.4.8.tar.gz --markdown 20230428/p/pontos/23.4.7-23.4.8/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ASCIIcli]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.2.tar.gz tmp/SDTcloud-0.0.3.tar.gz --markdown 20230428/S/SDTcloud/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [ASCIIcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCIIcli-0.0.3.tar.gz tmp/ASCIIcli-0.0.4.tar.gz --markdown 20230428/A/ASCIIcli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230428/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [interactions-restful]: Downloading https://files.pythonhosted.org/packages/08/f9/7116b4c8c6a889822ae3847d4100bad5523b82aab3be0ba6fa7175742b5d/interactions-restful-1.0.1.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/fd/0d/791a148b7d1eee18c8dcd2ff6318e8c1792132e87f4a2a3938cf61308bae/tutor-15.3.5.tar.gz
+[2023-04-28 09:23:43] INFO root fetch - processPackages [interactions-restful]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [interactions-restful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactions-restful-1.0.0.tar.gz tmp/interactions-restful-1.0.1.tar.gz --markdown 20230428/i/interactions-restful/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tutor]: executing diffoscope
+[2023-04-28 09:23:43] INFO root fetch - processPackages [tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-15.3.4.tar.gz tmp/tutor-15.3.5.tar.gz --markdown 20230428/t/tutor/15.3.4-15.3.5/diff.md --exclude *.pyd
+[2023-04-28 09:23:44] INFO root fetch - processPackages [act-scio]: Downloading https://files.pythonhosted.org/packages/4e/5f/3f6f35286ec7966992c930e83b49be860cd2820687276994905004881d87/act-scio-0.0.9.tar.gz
+[2023-04-28 09:23:44] INFO root fetch - processPackages [act-scio]: executing diffoscope
+[2023-04-28 09:23:44] INFO root fetch - processPackages [act-scio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act-scio-0.0.8.tar.gz tmp/act-scio-0.0.9.tar.gz --markdown 20230428/a/act-scio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:23:45] INFO root fetch - processPackages [SDTcloud]: Start processing: rils-rols
+[2023-04-28 09:23:45] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-04-28 09:23:45] INFO root fetch - main [MainThread]: End processing [ASCIIcli]: success
+[2023-04-28 09:23:45] INFO root fetch - processPackages [rils-rols]: New version: [1.0] Old Version: [0.5]
+[2023-04-28 09:23:45] INFO root fetch - main [MainThread]: End processing [interactions-restful]: success
+[2023-04-28 09:23:45] INFO root fetch - processPackages [rils-rols]: Downloading https://files.pythonhosted.org/packages/69/5d/ffcda04a52f84d6cbd52297acc8bee9010b8bec863391f058f1ef81aa300/rils-rols-0.5.tar.gz
+[2023-04-28 09:23:45] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-04-28 09:23:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-28 09:23:45] INFO root fetch - processPackages [rils-rols]: Downloading https://files.pythonhosted.org/packages/3f/fe/9522859c29dc6a49502894198c8ca929ce162720f13c8271a322dac3abeb/rils-rols-1.0.tar.gz
+[2023-04-28 09:23:45] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 09:23:45] INFO root fetch - processPackages [rils-rols]: executing diffoscope
+[2023-04-28 09:23:45] INFO root fetch - processPackages [rils-rols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rils-rols-0.5.tar.gz tmp/rils-rols-1.0.tar.gz --markdown 20230428/r/rils-rols/0.5-1.0/diff.md --exclude *.pyd
+[2023-04-28 09:23:46] INFO root fetch - main [MainThread]: End processing [tutor]: success
+[2023-04-28 09:23:46] INFO root fetch - main [MainThread]: End processing [act-scio]: success
+[2023-04-28 09:23:46] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-04-28 09:23:47] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-04-28 09:23:47] INFO root fetch - main [MainThread]: End processing [rils-rols]: success
+[2023-04-28 09:23:47] INFO root fetch - main [MainThread]: Store serial: [17894968]
