@@ -21909,3 +21909,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 21:55:50] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
 [2023-04-28 21:55:56] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
 [2023-04-28 21:55:56] INFO root fetch - main [MainThread]: Store serial: [17902436]
+[2023-04-28 22:01:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902436]
+[2023-04-28 22:01:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itkdb
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calfire-wildfires
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redvox-pandas
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gen3
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textual
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SafoneAPI
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: georgio
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hpr-scratcher
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ypricemagic
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: giternity
+[2023-04-28 22:01:06] INFO root fetch - processPackages [itkdb]: New version: [0.4.1rc1] Old Version: [0.4.0rc9]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [calfire-wildfires]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [georgio]: New version: [2023.118.1197] Old Version: [2023.118.1193]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [giternity]: New version: [0.6] Old Version: [0.5]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [SafoneAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [redvox-pandas]: New version: [1.4.1] Old Version: [1.4.0a1]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [hpr-scratcher]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [gen3]: New version: [4.9.4] Old Version: [4.9.3]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev8] Old Version: [2.2.7.dev7]
+[2023-04-28 22:01:06] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-04-28 22:01:06] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230428/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 22:01:06] INFO root fetch - processPackages [georgio]: Downloading https://files.pythonhosted.org/packages/59/2b/3c35985a25cb0a6322738d87809153dad3214459c2fab45dbd0e991359bd/georgio-2023.118.1193-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 22:01:06] INFO root fetch - processPackages [giternity]: Downloading https://files.pythonhosted.org/packages/d7/bb/7e6afa3d2bc99d290cd37cabb0387762796e8d9667c4945c501b20c71969/giternity-0.5.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/34/e9/01d5e7220956cf12cdc04ad2d2ef8f0770a8fb64d590a5df87c7fb6b70ae/itkdb-0.4.0rc9.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [calfire-wildfires]: Downloading https://files.pythonhosted.org/packages/d7/59/d1064f91fd75d5ea968a363bc58f8ec11fd10b78e1145e78c5c1176eb3f8/calfire-wildfires-1.1.0.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/14/60/100f541b0714ea50eafd168a2e695f6bcf173e50ce02cdcbd13db7f6a192/SafoneAPI-1.0.8.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [hpr-scratcher]: Downloading https://files.pythonhosted.org/packages/3f/04/8e5f92d9cbdb5193e006f1673870001ec49d249018e0d3c5ac398c6a5e62/hpr_scratcher-0.6.0.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [redvox-pandas]: Downloading https://files.pythonhosted.org/packages/f1/2a/8fe1339d28f6854f56c4f4f223c5ac4fe9668f91c81fab032aed4b6bcb02/redvox-pandas-1.4.1.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [gen3]: Downloading https://files.pythonhosted.org/packages/2f/13/2c68c5cba631a653c831620ca28079be81a706665bc323e11f4c09868cd4/gen3-4.9.3.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/1e/36/9882f6c554a350d9bd18523eae9d16ded7df3baa74172b9328524a97430c/ypricemagic-2.2.7.dev8.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [redvox-pandas]: executing diffoscope
+[2023-04-28 22:01:06] INFO root fetch - processPackages [redvox-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvox-pandas-1.4.0a1.tar.gz tmp/redvox-pandas-1.4.1.tar.gz --markdown 20230428/r/redvox-pandas/1.4.0a1-1.4.1/diff.md --exclude *.pyd
+[2023-04-28 22:01:06] INFO root fetch - processPackages [giternity]: Downloading https://files.pythonhosted.org/packages/5c/13/7362a19ead1d129ec71f6b98b96094fe28d3d11ca8432c9ed20a6efd2143/giternity-0.6.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 22:01:06] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.7.dev7.tar.gz tmp/ypricemagic-2.2.7.dev8.tar.gz --markdown 20230428/y/ypricemagic/2.2.7.dev7-2.2.7.dev8/diff.md --exclude *.pyd
+[2023-04-28 22:01:06] INFO root fetch - processPackages [hpr-scratcher]: Downloading https://files.pythonhosted.org/packages/8b/49/f228a657c8a9c212e799d531d6702268ddc6341602bd8a35b8505d470c53/hpr_scratcher-0.6.1.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [georgio]: Downloading https://files.pythonhosted.org/packages/6d/8d/2be933cad778fe462f1741f0b0960d1cee7e14e987ff4a095127ce327002/georgio-2023.118.1197-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 22:01:06] INFO root fetch - processPackages [giternity]: executing diffoscope
+[2023-04-28 22:01:06] INFO root fetch - processPackages [giternity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giternity-0.5.tar.gz tmp/giternity-0.6.tar.gz --markdown 20230428/g/giternity/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-28 22:01:06] INFO root fetch - processPackages [calfire-wildfires]: Downloading https://files.pythonhosted.org/packages/83/23/abdd9560aa471592fc46843b299bf74f990e064a4bd8614f2c90763c0ad4/calfire-wildfires-1.1.1.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [hpr-scratcher]: executing diffoscope
+[2023-04-28 22:01:06] INFO root fetch - processPackages [hpr-scratcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpr_scratcher-0.6.0.tar.gz tmp/hpr_scratcher-0.6.1.tar.gz --markdown 20230428/h/hpr-scratcher/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-28 22:01:06] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/46/96/ce59fca22c5f72595a3481a42b0fbbb9592bb412f7b0916fbee2e6fb8c5b/SafoneAPI-1.0.9.tar.gz
+[2023-04-28 22:01:06] INFO root fetch - processPackages [calfire-wildfires]: executing diffoscope
+[2023-04-28 22:01:06] INFO root fetch - processPackages [calfire-wildfires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfire-wildfires-1.1.0.tar.gz tmp/calfire-wildfires-1.1.1.tar.gz --markdown 20230428/c/calfire-wildfires/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-28 22:01:07] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/76/c5/dc3cd07b52b5801b4a0bec5fd804eaa1c43dd7aa0127dcf5ded057af95d1/itkdb-0.4.1rc1.tar.gz
+[2023-04-28 22:01:07] INFO root fetch - processPackages [gen3]: Downloading https://files.pythonhosted.org/packages/df/b7/bda351b532852ae4a628e3fdb2260111169aba0bf5fb68e069dd6d5c3958/gen3-4.9.4.tar.gz
+[2023-04-28 22:01:07] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2023-04-28 22:01:07] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.4.0rc9.tar.gz tmp/itkdb-0.4.1rc1.tar.gz --markdown 20230428/i/itkdb/0.4.0rc9-0.4.1rc1/diff.md --exclude *.pyd
+[2023-04-28 22:01:07] INFO root fetch - processPackages [SafoneAPI]: executing diffoscope
+[2023-04-28 22:01:07] INFO root fetch - processPackages [SafoneAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SafoneAPI-1.0.8.tar.gz tmp/SafoneAPI-1.0.9.tar.gz --markdown 20230428/S/SafoneAPI/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 22:01:07] INFO root fetch - processPackages [georgio]: executing diffoscope
+[2023-04-28 22:01:07] INFO root fetch - processPackages [georgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georgio-2023.118.1193-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/georgio-2023.118.1197-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/g/georgio/2023.118.1193-2023.118.1197/diff.md --exclude *.pyd
+[2023-04-28 22:01:07] INFO root fetch - processPackages [gen3]: executing diffoscope
+[2023-04-28 22:01:07] INFO root fetch - processPackages [gen3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3-4.9.3.tar.gz tmp/gen3-4.9.4.tar.gz --markdown 20230428/g/gen3/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2023-04-28 22:01:08] INFO root fetch - processPackages [hpr-scratcher]: Start processing: owlml
+[2023-04-28 22:01:08] INFO root fetch - main [MainThread]: End processing [hpr-scratcher]: success
+[2023-04-28 22:01:08] INFO root fetch - processPackages [owlml]: New version: [0.1.1.dev1682711660] Old Version: [0.1.1.dev1682711592]
+[2023-04-28 22:01:08] INFO root fetch - processPackages [giternity]: Start processing: splight-cli
+[2023-04-28 22:01:08] INFO root fetch - main [MainThread]: End processing [giternity]: success
+[2023-04-28 22:01:08] INFO root fetch - processPackages [owlml]: executing diffoscope
+[2023-04-28 22:01:08] INFO root fetch - processPackages [owlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlml-0.1.1.dev1682711592.tar.gz tmp/owlml-0.1.1.dev1682711660.tar.gz --markdown 20230428/o/owlml/0.1.1.dev1682711592-0.1.1.dev1682711660/diff.md --exclude *.pyd
+[2023-04-28 22:01:08] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-28 22:01:08] INFO root fetch - processPackages [calfire-wildfires]: Start processing: q2rad
+[2023-04-28 22:01:08] INFO root fetch - main [MainThread]: End processing [calfire-wildfires]: success
+[2023-04-28 22:01:08] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-28 22:01:08] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-04-28 22:01:08] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230428/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-28 22:01:08] INFO root fetch - processPackages [ypricemagic]: Start processing: iac-test
+[2023-04-28 22:01:08] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 22:01:08] INFO root fetch - processPackages [SafoneAPI]: Start processing: georgio
+[2023-04-28 22:01:08] INFO root fetch - main [MainThread]: End processing [SafoneAPI]: success
+[2023-04-28 22:01:08] INFO root fetch - processPackages [iac-test]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-28 22:01:08] INFO root fetch - processPackages [georgio]: New version: [2023.118.1197] Old Version: [2023.118.1193]
+[2023-04-28 22:01:08] INFO root fetch - processPackages [georgio]: executing diffoscope
+[2023-04-28 22:01:08] INFO root fetch - processPackages [georgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georgio-2023.118.1193-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/georgio-2023.118.1197-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/g/georgio/2023.118.1193-2023.118.1197/diff.md --exclude *.pyd
+[2023-04-28 22:01:08] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-04-28 22:01:08] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230428/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-28 22:01:09] INFO root fetch - processPackages [iac-test]: Downloading https://files.pythonhosted.org/packages/ed/91/41d14894c4bf674dbae24b96182d02b4934129b778bf17a3d416edbdfb59/iac_test-0.2.3.tar.gz
+[2023-04-28 22:01:09] INFO root fetch - processPackages [iac-test]: Downloading https://files.pythonhosted.org/packages/4a/56/0467f95e2cd38290aad4d7bc60bf4040baaaaf280749ffd6003f6fc116f3/iac_test-0.2.4.tar.gz
+[2023-04-28 22:01:09] INFO root fetch - main [MainThread]: End processing [gen3]: success
+[2023-04-28 22:01:09] INFO root fetch - processPackages [iac-test]: executing diffoscope
+[2023-04-28 22:01:09] INFO root fetch - processPackages [iac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_test-0.2.3.tar.gz tmp/iac_test-0.2.4.tar.gz --markdown 20230428/i/iac-test/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 22:01:09] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2023-04-28 22:01:09] INFO root fetch - main [MainThread]: End processing [redvox-pandas]: success
+[2023-04-28 22:01:09] INFO root fetch - main [MainThread]: End processing [owlml]: success
+[2023-04-28 22:01:10] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-04-28 22:01:10] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-04-28 22:01:10] INFO root fetch - main [MainThread]: End processing [iac-test]: success
+[2023-04-28 22:01:10] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-04-28 22:01:20] INFO root fetch - main [MainThread]: End processing [georgio]: success
+[2023-04-28 22:01:22] INFO root fetch - main [MainThread]: End processing [georgio]: success
+[2023-04-28 22:01:22] INFO root fetch - main [MainThread]: Store serial: [17902485]
