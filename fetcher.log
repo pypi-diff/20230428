@@ -7806,3 +7806,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:07:24] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-04-28 07:09:45] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-04-28 07:09:45] INFO root fetch - main [MainThread]: Store serial: [17894098]
+[2023-04-28 07:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894098]
+[2023-04-28 07:14:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-runtime
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TreeSAK
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkdata
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TreeSAK
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-model-maker-nightly
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycodata
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: culturalconformity
+[2023-04-28 07:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxlib-rocm
+[2023-04-28 07:14:55] INFO root fetch - processPackages [culturalconformity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 07:14:55] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 07:14:55] INFO root fetch - processPackages [culturalconformity]: executing diffoscope
+[2023-04-28 07:14:55] INFO root fetch - processPackages [culturalconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/culturalconformity-0.0.8.tar.gz tmp/culturalconformity-0.0.9.tar.gz --markdown 20230428/c/culturalconformity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 07:14:55] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 07:14:55] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 07:14:55] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 07:14:55] INFO root fetch - processPackages [pycodata]: New version: [0.7.0] Old Version: [0.5.1]
+[2023-04-28 07:14:55] INFO root fetch - processPackages [jaxlib-rocm]: New version: [0.4.6.5401] Old Version: [0.4.6.540]
+[2023-04-28 07:14:55] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 07:14:55] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 07:14:55] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202304280512] Old Version: [0.4.3.dev202304200506]
+[2023-04-28 07:14:56] INFO root fetch - processPackages [jaxlib-rocm]: Downloading https://files.pythonhosted.org/packages/f1/e0/474eed284094d9cb67cd1b9efa86362bfbd6ac265af486d4473f3ef828b6/jaxlib_rocm-0.4.6.540-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-28 07:14:56] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/ea/e7/42e0f8e0a101472399a881a5f3fedaa178784145e9ac982fd336768cb614/tflite-model-maker-nightly-0.4.3.dev202304200506.tar.gz
+[2023-04-28 07:14:56] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/7a/e5/0f9f7b6b9273bc2eb88334f331b3513aa18e2ad70fe2433a94821720ac90/pycodata-0.5.1.tar.gz
+[2023-04-28 07:14:56] WARNING root fetch - processPackages [jaxlib-rocm]: Skipping package: exceeds size limit 90683127>=10485760
+[2023-04-28 07:14:56] INFO root fetch - main [MainThread]: End processing [jaxlib-rocm] error
+[2023-04-28 07:14:56] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-04-28 07:14:56] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230428/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 07:14:56] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-04-28 07:14:56] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230428/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-28 07:14:56] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-04-28 07:14:56] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230428/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-28 07:14:56] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/12/49/97aa54b4d77f40eb3f15aaf5d1adfa5f27a40e03dec678170c53202d3680/pycodata-0.7.0.tar.gz
+[2023-04-28 07:14:56] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/16/50/375ae89af11000e5c7f34514cbfb7928521547900c4e6702ab279c435fe1/tflite-model-maker-nightly-0.4.3.dev202304280512.tar.gz
+[2023-04-28 07:14:56] INFO root fetch - processPackages [pycodata]: executing diffoscope
+[2023-04-28 07:14:56] INFO root fetch - processPackages [pycodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycodata-0.5.1.tar.gz tmp/pycodata-0.7.0.tar.gz --markdown 20230428/p/pycodata/0.5.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 07:14:56] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-04-28 07:14:56] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202304200506.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202304280512.tar.gz --markdown 20230428/t/tflite-model-maker-nightly/0.4.3.dev202304200506-0.4.3.dev202304280512/diff.md --exclude *.pyd
+[2023-04-28 07:14:57] INFO root fetch - main [MainThread]: End processing [culturalconformity]: success
+[2023-04-28 07:14:57] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-04-28 07:14:57] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-04-28 07:14:58] INFO root fetch - main [MainThread]: End processing [pycodata]: success
+[2023-04-28 07:14:59] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-04-28 07:14:59] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 07:14:59] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-04-28 07:14:59] INFO root fetch - main [MainThread]: Store serial: [17894122]
