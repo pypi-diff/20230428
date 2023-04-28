@@ -13335,3 +13335,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:16:49] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
 [2023-04-28 13:16:49] INFO root fetch - main [MainThread]: End processing [EasyEquities]: success
 [2023-04-28 13:16:49] INFO root fetch - main [MainThread]: Store serial: [17897151]
+[2023-04-28 13:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897151]
+[2023-04-28 13:21:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiogram-ext
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exam-analyzer
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-neat
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperfast-python-template
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmem-plugin-kaggle
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hkkang-utils
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gis-conflation-toolchain
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-daw
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiwitcms-github-marketplace
+[2023-04-28 13:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cardiac-geometries
+[2023-04-28 13:21:57] WARNING root fetch - processPackages [cognite-neat]: Skipping, unable to determine old version
+[2023-04-28 13:21:57] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:21:57] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:21:57] INFO root fetch - main [MainThread]: End processing [cognite-neat] error
+[2023-04-28 13:21:57] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-28 13:21:58] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-28 13:21:58] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.3.tar.gz tmp/hyperfast_python_template-0.4.4.tar.gz --markdown 20230428/h/hyperfast-python-template/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-28 13:21:58] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 13:21:58] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:21:58] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-28 13:21:58] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230428/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:21:58] WARNING root fetch - processPackages [exam-analyzer]: Skipping, unable to determine old version
+[2023-04-28 13:21:58] INFO root fetch - main [MainThread]: End processing [exam-analyzer] error
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cmem-plugin-kaggle]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2023-04-28 13:21:58] INFO root fetch - processPackages [kiwitcms-github-marketplace]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-28 13:21:58] WARNING root fetch - processPackages [gis-conflation-toolchain]: Skipping, unable to determine old version
+[2023-04-28 13:21:58] INFO root fetch - main [MainThread]: End processing [gis-conflation-toolchain] error
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cardiac-geometries]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-04-28 13:21:58] INFO root fetch - processPackages [jupyterlab-daw]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/36/9b/5290d234b35bcef7b8196b596107a792d6ccd9248a66b69d65a98b6c35ed/cardiac_geometries-0.4.2.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cmem-plugin-kaggle]: Downloading https://files.pythonhosted.org/packages/f3/77/3295288f41552a39aa78e87a73fb30274b96f1e857bf08c5ba8b9d37e220/cmem_plugin_kaggle-1.0.0.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Downloading https://files.pythonhosted.org/packages/f0/c0/f08bfeba713afc75e5afc5ea3663ad693f1d45db55e3fe509383aaa98d06/kiwitcms-github-marketplace-2.3.1.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [jupyterlab-daw]: Downloading https://files.pythonhosted.org/packages/82/aa/c5fb9f77629134e43aee61e69553c7b00dd3b72d77ed93d083986236b628/jupyterlab_daw-0.1.0.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/04/17/a39878aa84fbe23afc3c157aa655e9a65f36962f26a726cac1616978c74b/cardiac_geometries-0.5.0.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [jupyterlab-daw]: Downloading https://files.pythonhosted.org/packages/87/27/390357f4e4fe9a910415f89a2f460adaf4799e7a6c1a02cca239621f97b4/jupyterlab_daw-0.2.0.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Downloading https://files.pythonhosted.org/packages/64/7f/797531fd07cdf7fe305feea82d3bcdd1bdb0f2848766ed90c9d3b938c218/kiwitcms-github-marketplace-2.3.2.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cmem-plugin-kaggle]: Downloading https://files.pythonhosted.org/packages/e5/0f/cbacecbf35b6d984705cbbf7449a2a83b47b7f5629e97b34b8ccecf03bc3/cmem_plugin_kaggle-1.0.0rc1.tar.gz
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cardiac-geometries]: executing diffoscope
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cardiac-geometries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardiac_geometries-0.4.2.tar.gz tmp/cardiac_geometries-0.5.0.tar.gz --markdown 20230428/c/cardiac-geometries/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-04-28 13:21:58] INFO root fetch - processPackages [jupyterlab-daw]: executing diffoscope
+[2023-04-28 13:21:58] INFO root fetch - processPackages [jupyterlab-daw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_daw-0.1.0.tar.gz tmp/jupyterlab_daw-0.2.0.tar.gz --markdown 20230428/j/jupyterlab-daw/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cmem-plugin-kaggle]: executing diffoscope
+[2023-04-28 13:21:58] INFO root fetch - processPackages [cmem-plugin-kaggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kaggle-1.0.0.tar.gz tmp/cmem_plugin_kaggle-1.0.0rc1.tar.gz --markdown 20230428/c/cmem-plugin-kaggle/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-04-28 13:21:58] INFO root fetch - processPackages [kiwitcms-github-marketplace]: executing diffoscope
+[2023-04-28 13:21:58] INFO root fetch - processPackages [kiwitcms-github-marketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwitcms-github-marketplace-2.3.1.tar.gz tmp/kiwitcms-github-marketplace-2.3.2.tar.gz --markdown 20230428/k/kiwitcms-github-marketplace/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-28 13:21:59] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-28 13:21:59] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 13:21:59] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-28 13:21:59] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kaggle]: success
+[2023-04-28 13:21:59] INFO root fetch - main [MainThread]: End processing [cardiac-geometries]: success
+[2023-04-28 13:22:00] INFO root fetch - main [MainThread]: End processing [kiwitcms-github-marketplace]: success
+[2023-04-28 13:22:01] INFO root fetch - main [MainThread]: End processing [jupyterlab-daw]: success
+[2023-04-28 13:22:01] INFO root fetch - main [MainThread]: Store serial: [17897187]
