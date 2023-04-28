@@ -19178,3 +19178,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:51:35] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
 [2023-04-28 18:51:35] INFO root fetch - main [MainThread]: End processing [cogsgpt]: success
 [2023-04-28 18:51:35] INFO root fetch - main [MainThread]: Store serial: [17900888]
+[2023-04-28 18:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900888]
+[2023-04-28 18:56:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amrendra
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tdw
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coppyr
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bygg
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: space-invaders
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odd-dbt
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkite-core
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airunner
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrefact
+[2023-04-28 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scorpionsql
+[2023-04-28 18:56:44] ERROR root fetch - processPackages [space-invaders]: Unable to get metadata: No such project 'space-invaders'
+[2023-04-28 18:56:44] INFO root fetch - processPackages [space-invaders]: Start processing: minivnn
+[2023-04-28 18:56:44] WARNING root fetch - processPackages [amrendra]: Skipping, unable to determine old version
+[2023-04-28 18:56:44] INFO root fetch - processPackages [coppyr]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-28 18:56:44] INFO root fetch - processPackages [amrendra]: Start processing: xia-agent
+[2023-04-28 18:56:44] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 18:56:44] INFO root fetch - processPackages [bygg]: New version: [0.0.dev2] Old Version: [0.0.dev1]
+[2023-04-28 18:56:44] INFO root fetch - processPackages [odd-dbt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 18:56:44] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-28 18:56:44] INFO root fetch - main [MainThread]: End processing [amrendra] error
+[2023-04-28 18:56:44] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [8]
+[2023-04-28 18:56:44] WARNING root fetch - processPackages [mkite-core]: Skipping, unable to determine old version
+[2023-04-28 18:56:44] INFO root fetch - processPackages [scorpionsql]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 18:56:44] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-04-28 18:56:44] INFO root fetch - processPackages [mkite-core]: Start processing: space-invaders
+[2023-04-28 18:56:44] INFO root fetch - main [MainThread]: End processing [mkite-core] error
+[2023-04-28 18:56:44] INFO root fetch - processPackages [minivnn]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 18:56:44] INFO root fetch - processPackages [xia-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 18:56:44] ERROR root fetch - processPackages [space-invaders]: Unable to get metadata: No such project 'space-invaders'
+[2023-04-28 18:56:44] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 18:56:44] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-04-28 18:56:44] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230428/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-28 18:56:44] INFO root fetch - processPackages [bygg]: Downloading https://files.pythonhosted.org/packages/23/b4/f6becf6b493910c124d448f042bf01edbde6e767ab0cc244513e95369858/bygg-0.0.dev1.tar.gz
+[2023-04-28 18:56:44] INFO root fetch - processPackages [scorpionsql]: Downloading https://files.pythonhosted.org/packages/4f/44/93670d3841a3c850811f6d2bd00b4c18b8905492522da53ce6b543d2ff05/scorpionsql-0.0.4.tar.gz
+[2023-04-28 18:56:44] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-04-28 18:56:44] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/59/8d/2f4a8f673d7fbb461b4c6e6d3f6f10fb983dbc730193c59f43372515e93a/pyrefact-8.tar.gz
+[2023-04-28 18:56:44] INFO root fetch - processPackages [minivnn]: Downloading https://files.pythonhosted.org/packages/cc/b2/9857f8d3f7e933eead6fc62de83d60ab5fe6ddcecf1653d25fe40f6b1a29/minivnn-0.1.0.tar.gz
+[2023-04-28 18:56:44] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/b8/1e/c0aad6ea87375758459ef76e9d20b8717e7b9bfe1913f8c89e9b1b6be7e0/xia_agent-0.0.8-cp39-none-win_amd64.whl
+[2023-04-28 18:56:44] INFO root fetch - processPackages [coppyr]: Downloading https://files.pythonhosted.org/packages/2b/db/4dbfa5afce5447d1ada1ed657846f6e749032cd77d105f2b90fdaea9595e/coppyr-0.9.2.tar.gz
+[2023-04-28 18:56:44] INFO root fetch - processPackages [odd-dbt]: executing diffoscope
+[2023-04-28 18:56:44] INFO root fetch - processPackages [odd-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_dbt-0.1.8.tar.gz tmp/odd_dbt-0.1.9.tar.gz --markdown 20230428/o/odd-dbt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 18:56:44] INFO root fetch - processPackages [coppyr]: executing diffoscope
+[2023-04-28 18:56:44] INFO root fetch - processPackages [coppyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coppyr-0.9.1.tar.gz tmp/coppyr-0.9.2.tar.gz --markdown 20230428/c/coppyr/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-28 18:56:45] INFO root fetch - processPackages [minivnn]: Downloading https://files.pythonhosted.org/packages/bd/3e/260ea79474a6d488950e321b2664a2d6263f4c4a8ebb55a0a73eda143be4/minivnn-0.1.1.tar.gz
+[2023-04-28 18:56:45] INFO root fetch - processPackages [scorpionsql]: Downloading https://files.pythonhosted.org/packages/89/30/7650ec4e80e3e9099e943e997fa7694f8ee69c7db4a5d7eb0f3b7c6d98f9/scorpionsql-0.0.5.tar.gz
+[2023-04-28 18:56:45] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-04-28 18:56:45] INFO root fetch - processPackages [bygg]: Downloading https://files.pythonhosted.org/packages/9e/19/cbf70ce9937ea2b4a171d114aca5ceb3c171fb7a0de8224c63dc19d40389/bygg-0.0.dev2.tar.gz
+[2023-04-28 18:56:45] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/8d/c2/15fcd69e0f716d4e83bf4a5a89a1d96f6605bc419ba878cfae3df4291ae2/xia_agent-0.0.9-cp39-none-win_amd64.whl
+[2023-04-28 18:56:45] INFO root fetch - processPackages [minivnn]: executing diffoscope
+[2023-04-28 18:56:45] INFO root fetch - processPackages [minivnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minivnn-0.1.0.tar.gz tmp/minivnn-0.1.1.tar.gz --markdown 20230428/m/minivnn/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 18:56:45] INFO root fetch - processPackages [scorpionsql]: executing diffoscope
+[2023-04-28 18:56:45] INFO root fetch - processPackages [scorpionsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorpionsql-0.0.4.tar.gz tmp/scorpionsql-0.0.5.tar.gz --markdown 20230428/s/scorpionsql/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 18:56:45] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-04-28 18:56:45] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-04-28 18:56:45] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-04-28 18:56:45] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-8.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230428/p/pyrefact/8-9/diff.md --exclude *.pyd
+[2023-04-28 18:56:45] INFO root fetch - processPackages [xia-agent]: executing diffoscope
+[2023-04-28 18:56:45] INFO root fetch - processPackages [xia-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_agent-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_agent-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230428/x/xia-agent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 18:56:45] INFO root fetch - processPackages [bygg]: executing diffoscope
+[2023-04-28 18:56:45] INFO root fetch - processPackages [bygg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bygg-0.0.dev1.tar.gz tmp/bygg-0.0.dev2.tar.gz --markdown 20230428/b/bygg/0.0.dev1-0.0.dev2/diff.md --exclude *.pyd
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [odd-dbt]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [coppyr]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [minivnn]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [scorpionsql]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [xia-agent]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: End processing [bygg]: success
+[2023-04-28 18:56:46] INFO root fetch - main [MainThread]: Store serial: [17900932]
