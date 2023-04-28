@@ -17139,3 +17139,152 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:48:33] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-04-28 16:48:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-04-28 16:48:41] INFO root fetch - main [MainThread]: Store serial: [17899528]
+[2023-04-28 16:53:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899528]
+[2023-04-28 16:53:52] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycloudlib
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cythonbuilder
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prefect-kubernetes
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibm-platform-services
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: up-pps
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk-preview
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: findmyorder
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genomehubs
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LightSim2Grid
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ibm-platform-services]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [cythonbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [prefect-kubernetes]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-04-28 16:53:52] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230428/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-04-28 16:53:52] WARNING root fetch - processPackages [up-pps]: Skipping, unable to determine old version
+[2023-04-28 16:53:52] INFO root fetch - processPackages [up-pps]: Start processing: psiz
+[2023-04-28 16:53:52] INFO root fetch - main [MainThread]: End processing [up-pps] error
+[2023-04-28 16:53:52] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-28 16:53:52] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230428/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:53:52] INFO root fetch - processPackages [LightSim2Grid]: New version: [0.7.2.dev1] Old Version: [0.7.2.dev0]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [genomehubs]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ibm-platform-services]: executing diffoscope
+[2023-04-28 16:53:52] INFO root fetch - processPackages [ibm-platform-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-platform-services-0.9.2.tar.gz tmp/ibm-platform-services-0.9.3.tar.gz --markdown 20230428/i/ibm-platform-services/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-28 16:53:52] INFO root fetch - processPackages [psiz]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2023-04-28 16:53:52] INFO root fetch - processPackages [prefect-kubernetes]: Downloading https://files.pythonhosted.org/packages/a1/37/e21d71cc8d004e937bdcbb6cfe792644bf6ea7cd18f866a3715139c1eac5/prefect-kubernetes-0.2.5.tar.gz
+[2023-04-28 16:53:52] INFO root fetch - processPackages [LightSim2Grid]: Downloading https://files.pythonhosted.org/packages/62/69/5bb2d25ed0e35da32c0fb6601d649ff3aa2be1766aca34a36d80280370a1/LightSim2Grid-0.7.2.dev0.tar.gz
+[2023-04-28 16:53:52] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-04-28 16:53:52] INFO root fetch - processPackages [psiz]: Downloading https://files.pythonhosted.org/packages/d8/00/a8e8ca85e8bd5f723467ce21c343945cf28914db89849a529fd0e2de73df/psiz-0.8.1.tar.gz
+[2023-04-28 16:53:52] INFO root fetch - processPackages [prefect-kubernetes]: Downloading https://files.pythonhosted.org/packages/ed/3c/43b65d52da125054ea284062d79d08108745ab0fba1f95adef6de6c471c1/prefect-kubernetes-0.2.6.tar.gz
+[2023-04-28 16:53:52] INFO root fetch - processPackages [cythonbuilder]: executing diffoscope
+[2023-04-28 16:53:52] INFO root fetch - processPackages [cythonbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonbuilder-0.1.8.tar.gz tmp/cythonbuilder-0.1.9.tar.gz --markdown 20230428/c/cythonbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 16:53:52] INFO root fetch - processPackages [genomehubs]: executing diffoscope
+[2023-04-28 16:53:52] INFO root fetch - processPackages [genomehubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomehubs-2.6.8.tar.gz tmp/genomehubs-2.6.9.tar.gz --markdown 20230428/g/genomehubs/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-04-28 16:53:53] WARNING root fetch - processPackages [psiz]: Skipping package: exceeds size limit 37022893>=10485760
+[2023-04-28 16:53:53] INFO root fetch - processPackages [psiz]: Start processing: iniUts
+[2023-04-28 16:53:53] INFO root fetch - main [MainThread]: End processing [psiz] error
+[2023-04-28 16:53:53] INFO root fetch - processPackages [LightSim2Grid]: Downloading https://files.pythonhosted.org/packages/82/58/8b667797a1fb310ef80cb7d0a2f3183a775bdcf19f81d64c0674aea881a2/LightSim2Grid-0.7.2.dev1.tar.gz
+[2023-04-28 16:53:53] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2023-04-28 16:53:53] INFO root fetch - processPackages [prefect-kubernetes]: executing diffoscope
+[2023-04-28 16:53:53] INFO root fetch - processPackages [prefect-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-kubernetes-0.2.5.tar.gz tmp/prefect-kubernetes-0.2.6.tar.gz --markdown 20230428/p/prefect-kubernetes/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 16:53:53] INFO root fetch - processPackages [iniUts]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 16:53:53] INFO root fetch - processPackages [LightSim2Grid]: executing diffoscope
+[2023-04-28 16:53:53] INFO root fetch - processPackages [LightSim2Grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LightSim2Grid-0.7.2.dev0.tar.gz tmp/LightSim2Grid-0.7.2.dev1.tar.gz --markdown 20230428/L/LightSim2Grid/0.7.2.dev0-0.7.2.dev1/diff.md --exclude *.pyd
+[2023-04-28 16:53:53] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2023-04-28 16:53:53] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20230428/p/pycloudlib/18.7-18.8/diff.md --exclude *.pyd
+[2023-04-28 16:53:53] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/0f/8a/f9b12ed258ca13d01f4959b852096ceea88c46d01438a20ac49cc7b7824c/iniUts-1.0.3.tar.gz
+[2023-04-28 16:53:53] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-04-28 16:53:53] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230428/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-04-28 16:53:53] INFO root fetch - processPackages [findmyorder]: Start processing: assemblyline-service-client
+[2023-04-28 16:53:53] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-28 16:53:53] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:53:53] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/a5/c3/fa12e614f2b47214d7d6f0abb147ba96c586f4ecd439b5773d819f046d6d/iniUts-1.0.4.tar.gz
+[2023-04-28 16:53:53] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-28 16:53:53] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:53:54] INFO root fetch - processPackages [cythonbuilder]: Start processing: assemblyline-service-server
+[2023-04-28 16:53:54] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
+[2023-04-28 16:53:54] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2023-04-28 16:53:54] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.0.3.tar.gz tmp/iniUts-1.0.4.tar.gz --markdown 20230428/i/iniUts/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 16:53:54] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:53:54] INFO root fetch - processPackages [ibm-platform-services]: Start processing: assemblyline-ui
+[2023-04-28 16:53:54] INFO root fetch - main [MainThread]: End processing [ibm-platform-services]: success
+[2023-04-28 16:53:54] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:53:54] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-28 16:53:54] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:53:54] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-28 16:53:54] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:53:54] INFO root fetch - processPackages [pycloudlib]: Start processing: saspy
+[2023-04-28 16:53:54] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2023-04-28 16:53:55] INFO root fetch - processPackages [saspy]: New version: [5.1.0] Old Version: [5.0.2]
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-v4-service
+[2023-04-28 16:53:55] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:53:55] INFO root fetch - processPackages [saspy]: Downloading https://files.pythonhosted.org/packages/f1/a8/0269b265da2bb8ced9623d19a45ecfc5577f88aece04872fe812f3b5e9ec/saspy-5.0.2.tar.gz
+[2023-04-28 16:53:55] INFO root fetch - processPackages [prefect-kubernetes]: Start processing: assemblyline
+[2023-04-28 16:53:55] INFO root fetch - main [MainThread]: End processing [prefect-kubernetes]: success
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-core
+[2023-04-28 16:53:55] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230428/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-28 16:53:55] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230428/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:53:56] INFO root fetch - processPackages [genomehubs]: Start processing: msaBase
+[2023-04-28 16:53:56] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
+[2023-04-28 16:53:56] INFO root fetch - processPackages [assemblyline-ui]: Start processing: slpkg
+[2023-04-28 16:53:56] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-28 16:53:56] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 16:53:56] INFO root fetch - processPackages [slpkg]: New version: [4.8.2] Old Version: [4.8.1]
+[2023-04-28 16:53:56] INFO root fetch - processPackages [LightSim2Grid]: Start processing: wikipedia_tools
+[2023-04-28 16:53:56] INFO root fetch - main [MainThread]: End processing [LightSim2Grid]: success
+[2023-04-28 16:53:56] INFO root fetch - processPackages [wikipedia_tools]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-04-28 16:53:56] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-04-28 16:53:56] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230428/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:53:56] INFO root fetch - processPackages [wikipedia_tools]: Downloading https://files.pythonhosted.org/packages/dc/10/7f73a116573854745e597f96a756e08e40ac1b19837a57f1a15926c7ec0c/wikipedia_tools-2.2.3.tar.gz
+[2023-04-28 16:53:56] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/e5/18/1444a6c3c67a5f26a7f94e7120798e67234d055e688ecdf86b989cae856d/slpkg-4.8.2.tar.gz
+[2023-04-28 16:53:56] INFO root fetch - processPackages [wikipedia_tools]: executing diffoscope
+[2023-04-28 16:53:56] INFO root fetch - processPackages [wikipedia_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikipedia_tools-2.2.2.tar.gz tmp/wikipedia_tools-2.2.3.tar.gz --markdown 20230428/w/wikipedia_tools/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-04-28 16:53:56] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2023-04-28 16:53:56] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-4.8.1.tar.gz tmp/slpkg-4.8.2.tar.gz --markdown 20230428/s/slpkg/4.8.1-4.8.2/diff.md --exclude *.pyd
+[2023-04-28 16:53:57] INFO root fetch - processPackages [saspy]: Downloading https://files.pythonhosted.org/packages/ae/a0/8ca89853dfc9c7669bce55592209e565aea3ef4e2d3a7b9863d1005f0e92/saspy-5.1.0.tar.gz
+[2023-04-28 16:53:57] INFO root fetch - processPackages [assemblyline-core]: Start processing: estimenergy
+[2023-04-28 16:53:57] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-28 16:53:57] INFO root fetch - processPackages [estimenergy]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-28 16:53:57] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/33/7c/a38fc9fb51fe41170e6fd037d1817616381abc05a8bb974c5cf45be721cf/estimenergy-2.0.2.tar.gz
+[2023-04-28 16:53:57] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-28 16:53:57] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-2.0.1.tar.gz tmp/estimenergy-2.0.2.tar.gz --markdown 20230428/e/estimenergy/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-28 16:53:58] INFO root fetch - processPackages [msaBase]: Start processing: alibi-detect
+[2023-04-28 16:53:58] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-04-28 16:53:58] INFO root fetch - processPackages [assemblyline]: Start processing: pygamd
+[2023-04-28 16:53:58] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-28 16:53:58] INFO root fetch - processPackages [alibi-detect]: New version: [0.9.1.dev0] Old Version: [0.9.1]
+[2023-04-28 16:53:58] INFO root fetch - processPackages [pygamd]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-04-28 16:53:58] INFO root fetch - processPackages [wikipedia_tools]: Start processing: osbnr
+[2023-04-28 16:53:58] INFO root fetch - main [MainThread]: End processing [wikipedia_tools]: success
+[2023-04-28 16:53:58] INFO root fetch - processPackages [pygamd]: Downloading https://files.pythonhosted.org/packages/37/0f/40c3c00ffc80c40cd6ea81bdc0ebf8b799387a187ae56a0219031586e7d3/pygamd-1.2.9.tar.gz
+[2023-04-28 16:53:58] INFO root fetch - processPackages [alibi-detect]: Downloading https://files.pythonhosted.org/packages/d2/07/5eaf406a4f7e004c4eaba779a37f9ff1ee34c0e776156e2f1592ce87bbc9/alibi-detect-0.9.1.tar.gz
+[2023-04-28 16:53:58] WARNING root fetch - processPackages [osbnr]: Skipping, unable to determine old version
+[2023-04-28 16:53:58] INFO root fetch - processPackages [osbnr]: Start processing: finalynx
+[2023-04-28 16:53:58] INFO root fetch - main [MainThread]: End processing [osbnr] error
+[2023-04-28 16:53:58] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-04-28 16:53:58] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-28 16:53:58] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-04-28 16:53:58] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230428/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:53:58] INFO root fetch - processPackages [alibi-detect]: Downloading https://files.pythonhosted.org/packages/0b/9c/a080ed4bf50848923d42061d7fc6db93a6cd6a16c838cf9b8343305930e1/alibi-detect-0.9.1.dev0.tar.gz
+[2023-04-28 16:53:59] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2023-04-28 16:53:59] INFO root fetch - processPackages [alibi-detect]: executing diffoscope
+[2023-04-28 16:53:59] INFO root fetch - processPackages [alibi-detect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibi-detect-0.9.1.tar.gz tmp/alibi-detect-0.9.1.dev0.tar.gz --markdown 20230428/a/alibi-detect/0.9.1-0.9.1.dev0/diff.md --exclude *.pyd
+[2023-04-28 16:53:59] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-28 16:53:59] WARNING root fetch - processPackages [pygamd]: Skipping package: exceeds size limit 25533685>=10485760
+[2023-04-28 16:53:59] INFO root fetch - main [MainThread]: End processing [pygamd] error
+[2023-04-28 16:54:00] INFO root fetch - main [MainThread]: End processing [alibi-detect]: success
+[2023-04-28 16:54:01] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-04-28 16:54:02] INFO root fetch - processPackages [saspy]: executing diffoscope
+[2023-04-28 16:54:02] INFO root fetch - processPackages [saspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saspy-5.0.2.tar.gz tmp/saspy-5.1.0.tar.gz --markdown 20230428/s/saspy/5.0.2-5.1.0/diff.md --exclude *.pyd
+[2023-04-28 16:54:04] INFO root fetch - main [MainThread]: End processing [saspy]: success
+[2023-04-28 16:54:05] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2023-04-28 16:54:10] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-04-28 16:54:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-04-28 16:54:29] INFO root fetch - main [MainThread]: Store serial: [17899622]
