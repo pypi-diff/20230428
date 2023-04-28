@@ -2211,3 +2211,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:06:43] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
 [2023-04-28 03:06:44] INFO root fetch - main [MainThread]: End processing [mktstructure]: success
 [2023-04-28 03:06:44] INFO root fetch - main [MainThread]: Store serial: [17890960]
+[2023-04-28 03:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890960]
+[2023-04-28 03:11:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latest-earth-quake-Indonesia-chatur
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharetop
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-user
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bytez
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alchemy-config
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cchenutils
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-xmodules
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bytez
+[2023-04-28 03:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cchenutils
+[2023-04-28 03:11:52] INFO root fetch - processPackages [latest-earth-quake-Indonesia-chatur]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [cchenutils]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [cchenutils]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [alchemy-config]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-28 03:11:52] WARNING root fetch - processPackages [sharetop]: Skipping, unable to determine old version
+[2023-04-28 03:11:52] INFO root fetch - processPackages [sharetop]: Start processing: bytez
+[2023-04-28 03:11:52] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 03:11:52] INFO root fetch - main [MainThread]: End processing [sharetop] error
+[2023-04-28 03:11:52] INFO root fetch - processPackages [cchenutils]: executing diffoscope
+[2023-04-28 03:11:52] INFO root fetch - processPackages [cchenutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cchenutils-0.6.2-py3-none-any.whl.zip tmp/cchenutils-0.6.3-py3-none-any.whl.zip --markdown 20230428/c/cchenutils/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-28 03:11:52] INFO root fetch - processPackages [cchenutils]: executing diffoscope
+[2023-04-28 03:11:52] INFO root fetch - processPackages [cchenutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cchenutils-0.6.2-py3-none-any.whl.zip tmp/cchenutils-0.6.3-py3-none-any.whl.zip --markdown 20230428/c/cchenutils/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-28 03:11:52] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-04-28 03:11:52] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230428/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-28 03:11:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-28 03:11:52] INFO root fetch - processPackages [latest-earth-quake-Indonesia-chatur]: Downloading https://files.pythonhosted.org/packages/72/36/475c584502a0f8d677f8e04474baedb9863b98d98689fa587f968e9b587f/latest_earth_quake_Indonesia_chatur-0.0.1.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/c6/5d/aeca89516ac349afff38eb9b72391270a156b5f6e0da7077f7a70b697167/bytez-0.1.8.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/c6/5d/aeca89516ac349afff38eb9b72391270a156b5f6e0da7077f7a70b697167/bytez-0.1.8.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/c6/5d/aeca89516ac349afff38eb9b72391270a156b5f6e0da7077f7a70b697167/bytez-0.1.8.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-04-28 03:11:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230428/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-28 03:11:53] INFO root fetch - processPackages [latest-earth-quake-Indonesia-chatur]: Downloading https://files.pythonhosted.org/packages/47/03/6f477e8f9794ff1fba3f0d0cb14605a4fd9fed99d022e6565e6ee42e3515/latest_earth_quake_Indonesia_chatur-0.0.2.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [latest-earth-quake-Indonesia-chatur]: executing diffoscope
+[2023-04-28 03:11:53] INFO root fetch - processPackages [latest-earth-quake-Indonesia-chatur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latest_earth_quake_Indonesia_chatur-0.0.1.tar.gz tmp/latest_earth_quake_Indonesia_chatur-0.0.2.tar.gz --markdown 20230428/l/latest-earth-quake-Indonesia-chatur/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 03:11:53] INFO root fetch - processPackages [alchemy-config]: Downloading https://files.pythonhosted.org/packages/04/ca/c91043ac319009dbaa0661ef929b768816bff0f4cee66a192006319c0cd2/alchemy-config-1.1.2.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/8c/e1/fe6d5a1a4501545e96696aaf1bd70163fa5bd5827f6c25755c7cfecb1af7/bytez-0.1.9.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/8c/e1/fe6d5a1a4501545e96696aaf1bd70163fa5bd5827f6c25755c7cfecb1af7/bytez-0.1.9.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/8c/e1/fe6d5a1a4501545e96696aaf1bd70163fa5bd5827f6c25755c7cfecb1af7/bytez-0.1.9.tar.gz
+[2023-04-28 03:11:53] INFO root fetch - processPackages [alchemy-config]: executing diffoscope
+[2023-04-28 03:11:53] INFO root fetch - processPackages [alchemy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemy-config-1.1.1.tar.gz tmp/alchemy-config-1.1.2.tar.gz --markdown 20230428/a/alchemy-config/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-28 03:11:53] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-04-28 03:11:53] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230428/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230428/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230428/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:11:53] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230428/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 03:11:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-04-28 03:11:54] INFO root fetch - main [MainThread]: End processing [latest-earth-quake-Indonesia-chatur]: success
+[2023-04-28 03:11:54] INFO root fetch - main [MainThread]: End processing [alchemy-config]: success
+[2023-04-28 03:11:54] INFO root fetch - main [MainThread]: End processing [cchenutils]: success
+[2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [cchenutils]: success
+[2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:11:55] INFO root fetch - main [MainThread]: Store serial: [17890993]
