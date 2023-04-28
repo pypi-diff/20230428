@@ -10201,3 +10201,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 10:17:53] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
 [2023-04-28 10:17:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-advanced-search]: success
 [2023-04-28 10:17:54] INFO root fetch - main [MainThread]: Store serial: [17895439]
+[2023-04-28 10:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895439]
+[2023-04-28 10:23:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-megumin
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akida
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumiverse-purrl
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyflow-workflow-generator
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avnet-scotty
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cnn2snn
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xrmap
+[2023-04-28 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kronbinations
+[2023-04-28 10:23:03] INFO root fetch - processPackages [nonebot-plugin-megumin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 10:23:03] INFO root fetch - processPackages [pulumiverse-purrl]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-04-28 10:23:03] INFO root fetch - processPackages [cnn2snn]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-04-28 10:23:03] WARNING root fetch - processPackages [pyflow-workflow-generator]: Skipping, unable to determine old version
+[2023-04-28 10:23:03] INFO root fetch - main [MainThread]: End processing [pyflow-workflow-generator] error
+[2023-04-28 10:23:03] INFO root fetch - processPackages [avnet-scotty]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-28 10:23:03] INFO root fetch - processPackages [kronbinations]: New version: [1.7] Old Version: [1.6]
+[2023-04-28 10:23:03] INFO root fetch - processPackages [akida]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-04-28 10:23:04] WARNING root fetch - processPackages [xrmap]: Skipping, unable to determine old version
+[2023-04-28 10:23:04] INFO root fetch - main [MainThread]: End processing [xrmap] error
+[2023-04-28 10:23:04] INFO root fetch - processPackages [nonebot-plugin-megumin]: Downloading https://files.pythonhosted.org/packages/1f/23/f46b6e219e8c96d609bc408d46974a55e4ce4cbb3071aa4ec760c4f6b4ee/nonebot-plugin-megumin-0.0.1.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/b8/56/568cb4a259b07980d2ccfe0dde16ed5f1840433a435ce40dd92b0d65809d/avnet-scotty-2023.3.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/44/b1/3753ccefd2a865ebc4a5f6bef67e1921d2747019761793c3ef0bf0828270/cnn2snn-2.3.4.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [pulumiverse-purrl]: Downloading https://files.pythonhosted.org/packages/b0/d3/c4b25aebfe1c0f7c1f0cd5869b29f0076477128546d9c54c06aae899b563/pulumiverse_purrl-0.3.1.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/b1/2f/723a4d612eaead677e1af80fae62aec752715caec8fd3eaf59b6f40f96a3/akida-2.3.4-cp39-cp39-win_amd64.whl
+[2023-04-28 10:23:04] INFO root fetch - processPackages [kronbinations]: Downloading https://files.pythonhosted.org/packages/2b/b6/f9d3ba1680574ade1f8e1c5f48dc37e2dde4287c23abc62965eb320ada2c/kronbinations-1.7.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [nonebot-plugin-megumin]: Downloading https://files.pythonhosted.org/packages/9c/c2/297673cfe589dbc3a34c1c33dce0987c2b217f17015fba49f0faa8d6e025/nonebot-plugin-megumin-0.0.2.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/96/63/729e772bc57691b7c3400873dc01f661623ebb7d2aa8eb9d00f143f359e2/cnn2snn-2.3.5.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [nonebot-plugin-megumin]: executing diffoscope
+[2023-04-28 10:23:04] INFO root fetch - processPackages [nonebot-plugin-megumin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-megumin-0.0.1.tar.gz tmp/nonebot-plugin-megumin-0.0.2.tar.gz --markdown 20230428/n/nonebot-plugin-megumin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 10:23:04] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/6f/a4/3d0494a0c976798c2f0fa54985c1155b42cab0bc0e16a272209c7a3c18bf/avnet-scotty-2023.4.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [pulumiverse-purrl]: Downloading https://files.pythonhosted.org/packages/d8/2a/63397789b5fb54c2538389df30302ecf3b68d5c110893a2b19bfb2325478/pulumiverse_purrl-0.4.0.tar.gz
+[2023-04-28 10:23:04] INFO root fetch - processPackages [kronbinations]: executing diffoscope
+[2023-04-28 10:23:04] INFO root fetch - processPackages [kronbinations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kronbinations-1.6.tar.gz tmp/kronbinations-1.7.tar.gz --markdown 20230428/k/kronbinations/1.6-1.7/diff.md --exclude *.pyd
+[2023-04-28 10:23:04] INFO root fetch - processPackages [cnn2snn]: executing diffoscope
+[2023-04-28 10:23:04] INFO root fetch - processPackages [cnn2snn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnn2snn-2.3.4.tar.gz tmp/cnn2snn-2.3.5.tar.gz --markdown 20230428/c/cnn2snn/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-04-28 10:23:04] INFO root fetch - processPackages [avnet-scotty]: executing diffoscope
+[2023-04-28 10:23:04] INFO root fetch - processPackages [avnet-scotty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avnet-scotty-2023.3.tar.gz tmp/avnet-scotty-2023.4.tar.gz --markdown 20230428/a/avnet-scotty/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-28 10:23:04] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/28/b4/e11bc90d2cd24e48d31fb3c4154385c8f719553e1d7aa98f159b1faa6a3e/akida-2.3.5-cp39-cp39-win_amd64.whl
+[2023-04-28 10:23:04] INFO root fetch - processPackages [pulumiverse-purrl]: executing diffoscope
+[2023-04-28 10:23:04] INFO root fetch - processPackages [pulumiverse-purrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_purrl-0.3.1.tar.gz tmp/pulumiverse_purrl-0.4.0.tar.gz --markdown 20230428/p/pulumiverse-purrl/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 10:23:04] INFO root fetch - processPackages [akida]: executing diffoscope
+[2023-04-28 10:23:04] INFO root fetch - processPackages [akida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akida-2.3.4-cp39-cp39-win_amd64.whl.zip tmp/akida-2.3.5-cp39-cp39-win_amd64.whl.zip --markdown 20230428/a/akida/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-04-28 10:23:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-megumin]: success
+[2023-04-28 10:23:05] INFO root fetch - main [MainThread]: End processing [kronbinations]: success
+[2023-04-28 10:23:05] INFO root fetch - main [MainThread]: End processing [pulumiverse-purrl]: success
+[2023-04-28 10:23:05] INFO root fetch - main [MainThread]: End processing [avnet-scotty]: success
+[2023-04-28 10:23:05] INFO root fetch - main [MainThread]: End processing [cnn2snn]: success
+[2023-04-28 10:23:12] INFO root fetch - main [MainThread]: End processing [akida]: success
+[2023-04-28 10:23:12] INFO root fetch - main [MainThread]: Store serial: [17895473]
