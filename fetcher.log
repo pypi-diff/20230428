@@ -8237,3 +8237,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:56:57] INFO root fetch - main [MainThread]: End processing [yangsuite-restconf]: success
 [2023-04-28 07:56:58] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
 [2023-04-28 07:56:58] INFO root fetch - main [MainThread]: Store serial: [17894340]
+[2023-04-28 08:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894340]
+[2023-04-28 08:02:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anbani
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lndb
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zope.mkzeoinstance
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-openupgrade-scripts
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiosow
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yangsuite-gnmi
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: featurizerai
+[2023-04-28 08:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lamindb
+[2023-04-28 08:02:15] INFO root fetch - processPackages [anbani]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-28 08:02:15] WARNING root fetch - processPackages [aiosow]: Skipping, unable to determine old version
+[2023-04-28 08:02:15] INFO root fetch - main [MainThread]: End processing [aiosow] error
+[2023-04-28 08:02:15] INFO root fetch - processPackages [yangsuite-gnmi]: New version: [2.7.6] Old Version: [2.7.5.post0.dev9]
+[2023-04-28 08:02:15] INFO root fetch - processPackages [lndb]: New version: [0.44.7] Old Version: [0.44.6]
+[2023-04-28 08:02:15] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-04-28 08:02:15] INFO root fetch - processPackages [zope.mkzeoinstance]: New version: [5.1] Old Version: [5.0]
+[2023-04-28 08:02:15] INFO root fetch - processPackages [featurizerai]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-28 08:02:15] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-04-28 08:02:15] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-04-28 08:02:15] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-04-28 08:02:15] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230428/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-04-28 08:02:15] INFO root fetch - processPackages [zope.mkzeoinstance]: Downloading https://files.pythonhosted.org/packages/a4/1b/cb0420780c56b312e13292e19ebb05d0a47d888cc9e50dff83ca7debaf87/zope.mkzeoinstance-5.0.tar.gz
+[2023-04-28 08:02:15] INFO root fetch - processPackages [lndb]: Downloading https://files.pythonhosted.org/packages/cb/94/05112bb628d2f87a5448261faa6f968886fb922c998564a0ce975ed8e1a9/lndb-0.44.7.tar.gz
+[2023-04-28 08:02:15] INFO root fetch - processPackages [yangsuite-gnmi]: Downloading https://files.pythonhosted.org/packages/40/88/944016edb289d4c082b1c2d6e99790465ae626f51126756dc3e8dd30c50a/yangsuite_gnmi-2.7.6-py3-none-any.whl
+[2023-04-28 08:02:15] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f4/b8/c4ded879ba5c4e996b787b0811f2047cd9955619a3e9cb7e2b844942fc14/odoo_addon_openupgrade_scripts-16.0.1.0.0.6-py3-none-any.whl
+[2023-04-28 08:02:15] INFO root fetch - processPackages [lndb]: executing diffoscope
+[2023-04-28 08:02:15] INFO root fetch - processPackages [lndb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lndb-0.44.6.tar.gz tmp/lndb-0.44.7.tar.gz --markdown 20230428/l/lndb/0.44.6-0.44.7/diff.md --exclude *.pyd
+[2023-04-28 08:02:15] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-04-28 08:02:15] INFO root fetch - processPackages [anbani]: Downloading https://files.pythonhosted.org/packages/b5/bf/d8ac934d874b1c8bc4e1674057c25ace293b6a4fbabaa3bff4ca06f26c1f/anbani-0.9.5.tar.gz
+[2023-04-28 08:02:15] INFO root fetch - processPackages [yangsuite-gnmi]: executing diffoscope
+[2023-04-28 08:02:15] INFO root fetch - processPackages [yangsuite-gnmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_gnmi-2.7.5.post0.dev9-py3-none-any.whl.zip tmp/yangsuite_gnmi-2.7.6-py3-none-any.whl.zip --markdown 20230428/y/yangsuite-gnmi/2.7.5.post0.dev9-2.7.6/diff.md --exclude *.pyd
+[2023-04-28 08:02:16] INFO root fetch - processPackages [anbani]: executing diffoscope
+[2023-04-28 08:02:16] INFO root fetch - processPackages [anbani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anbani-0.9.4.tar.gz tmp/anbani-0.9.5.tar.gz --markdown 20230428/a/anbani/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-28 08:02:16] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/f7/e4/56dd34682ae43ed7e17efd61a13e314be1662a69ec2b0d19bf994a2f1652/featurizerai-1.4.9.tar.gz
+[2023-04-28 08:02:16] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-28 08:02:16] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.4.8.tar.gz tmp/featurizerai-1.4.9.tar.gz --markdown 20230428/f/featurizerai/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-28 08:02:16] INFO root fetch - processPackages [zope.mkzeoinstance]: Downloading https://files.pythonhosted.org/packages/65/bf/27ff4fb8faac2c3ec901267760df753f97ae846be2dbb3edefbd803fb541/zope.mkzeoinstance-5.1.tar.gz
+[2023-04-28 08:02:16] INFO root fetch - processPackages [zope.mkzeoinstance]: executing diffoscope
+[2023-04-28 08:02:16] INFO root fetch - processPackages [zope.mkzeoinstance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.mkzeoinstance-5.0.tar.gz tmp/zope.mkzeoinstance-5.1.tar.gz --markdown 20230428/z/zope.mkzeoinstance/5.0-5.1/diff.md --exclude *.pyd
+[2023-04-28 08:02:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/5c/a8/85ee714599c3fab831e0904acba84ae7b5c49175973d58d479f00a8d6d5b/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl
+[2023-04-28 08:02:16] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-04-28 08:02:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-04-28 08:02:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-openupgrade-scripts/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-04-28 08:02:16] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-04-28 08:02:16] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230428/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-04-28 08:02:17] INFO root fetch - main [MainThread]: End processing [lndb]: success
+[2023-04-28 08:02:17] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-04-28 08:02:17] INFO root fetch - main [MainThread]: End processing [zope.mkzeoinstance]: success
+[2023-04-28 08:02:17] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-28 08:02:19] INFO root fetch - main [MainThread]: End processing [anbani]: success
+[2023-04-28 08:02:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-04-28 08:02:21] INFO root fetch - main [MainThread]: End processing [yangsuite-gnmi]: success
+[2023-04-28 08:02:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-04-28 08:02:24] INFO root fetch - main [MainThread]: Store serial: [17894367]
