@@ -15206,3 +15206,153 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 15:11:05] INFO root fetch - main [MainThread]: End processing [cloudfoundry-client]: success
 [2023-04-28 15:11:05] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-28 15:11:05] INFO root fetch - main [MainThread]: Store serial: [17898282]
+[2023-04-28 15:16:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898282]
+[2023-04-28 15:16:15] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pandas
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-seleniumlibrary
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dioptra
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-chatbot
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zoomaker
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wikipedia_tools
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: labgrid
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cardsort
+[2023-04-28 15:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyflow-workflow-generator
+[2023-04-28 15:16:15] WARNING root fetch - processPackages [streamlit-chatbot]: Skipping, unable to determine old version
+[2023-04-28 15:16:15] INFO root fetch - processPackages [streamlit-chatbot]: Start processing: nisdc
+[2023-04-28 15:16:15] INFO root fetch - main [MainThread]: End processing [streamlit-chatbot] error
+[2023-04-28 15:16:15] INFO root fetch - processPackages [zoomaker]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [dioptra]: New version: [1.0.9rc1] Old Version: [1.0.9]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [wikipedia_tools]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [robotframework-seleniumlibrary]: New version: [6.1.0rc1] Old Version: [6.0.0rc1]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [pyflow-workflow-generator]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [labgrid]: New version: [23.1a2] Old Version: [23.1a1]
+[2023-04-28 15:16:15] WARNING root fetch - processPackages [nisdc]: Skipping, unable to determine old version
+[2023-04-28 15:16:15] INFO root fetch - processPackages [nisdc]: Start processing: gkligo
+[2023-04-28 15:16:15] INFO root fetch - main [MainThread]: End processing [nisdc] error
+[2023-04-28 15:16:15] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [gkligo]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 15:16:15] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230428/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230428/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [wikipedia_tools]: Downloading https://files.pythonhosted.org/packages/07/0b/34bd8dcfa8526f8356d04cab168732c0850f24b2ffe966b5752bcc8ced62/wikipedia_tools-2.2.1.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [zoomaker]: Downloading https://files.pythonhosted.org/packages/aa/7a/e68ea6678fcd0c3f4d36f6761fbcabb7ac5de4a6c10b8f4e0a40dd029b7a/zoomaker-0.3.1.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/82/2f/837b373944c123d8a6000c134d2b0099e256b78bd456fd00268574bf05ec/robotframework-seleniumlibrary-6.0.0rc1.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/b7/75/ba9fd29b69494c03100a65473e614febd9e384e7f8c058acda2e4dd580dd/labgrid-23.1a1.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [pyflow-workflow-generator]: Downloading https://files.pythonhosted.org/packages/15/09/e539441f3f29d70b1ca25b10c48102354bc7e45b142cc3c483cac66e3c73/pyflow-workflow-generator-3.1.4.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/16/93/52c0e5e830b71ffdb5ba5e64f49386763d2e25f78c089cfd4fd11fc43cd8/gkligo-0.0.8.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [gkligo]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [gkligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkligo-0.0.7.tar.gz tmp/gkligo-0.0.8.tar.gz --markdown 20230428/g/gkligo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [zoomaker]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [zoomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoomaker-0.3.0.tar.gz tmp/zoomaker-0.3.1.tar.gz --markdown 20230428/z/zoomaker/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [pyflow-workflow-generator]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [pyflow-workflow-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflow-workflow-generator-3.1.3.tar.gz tmp/pyflow-workflow-generator-3.1.4.tar.gz --markdown 20230428/p/pyflow-workflow-generator/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [dioptra]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [dioptra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptra-1.0.9.tar.gz tmp/dioptra-1.0.9rc1.tar.gz --markdown 20230428/d/dioptra/1.0.9-1.0.9rc1/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/ef/e4/7b996d23b12c965914155bcd2c34fb66753d528d3eec19d6c532bfa16ad7/robotframework-seleniumlibrary-6.1.0rc1.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [wikipedia_tools]: Downloading https://files.pythonhosted.org/packages/e7/7d/ae820cfb357920691c03c6309ff03fdbbf73313c7a7e8c4b6540969ea187/wikipedia_tools-2.2.2.tar.gz
+[2023-04-28 15:16:15] INFO root fetch - processPackages [wikipedia_tools]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [wikipedia_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikipedia_tools-2.2.1.tar.gz tmp/wikipedia_tools-2.2.2.tar.gz --markdown 20230428/w/wikipedia_tools/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [robotframework-seleniumlibrary]: executing diffoscope
+[2023-04-28 15:16:15] INFO root fetch - processPackages [robotframework-seleniumlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-seleniumlibrary-6.0.0rc1.tar.gz tmp/robotframework-seleniumlibrary-6.1.0rc1.tar.gz --markdown 20230428/r/robotframework-seleniumlibrary/6.0.0rc1-6.1.0rc1/diff.md --exclude *.pyd
+[2023-04-28 15:16:15] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/25/a5/779401d2a1f4d2af32870b3b3076ba6b629b8627eef60e77cfa8be183edf/labgrid-23.1a2.tar.gz
+[2023-04-28 15:16:16] INFO root fetch - processPackages [labgrid]: executing diffoscope
+[2023-04-28 15:16:16] INFO root fetch - processPackages [labgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labgrid-23.1a1.tar.gz tmp/labgrid-23.1a2.tar.gz --markdown 20230428/l/labgrid/23.1a1-23.1a2/diff.md --exclude *.pyd
+[2023-04-28 15:16:16] INFO root fetch - processPackages [cardsort]: Start processing: nbdev-pytorch
+[2023-04-28 15:16:16] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-04-28 15:16:16] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:16:16] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-28 15:16:16] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230428/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:16:16] INFO root fetch - processPackages [zoomaker]: Start processing: adafruit-circuitpython-rgb-display
+[2023-04-28 15:16:16] INFO root fetch - main [MainThread]: End processing [zoomaker]: success
+[2023-04-28 15:16:17] INFO root fetch - processPackages [gkligo]: Start processing: tupa123
+[2023-04-28 15:16:17] INFO root fetch - main [MainThread]: End processing [gkligo]: success
+[2023-04-28 15:16:17] INFO root fetch - processPackages [adafruit-circuitpython-rgb-display]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-04-28 15:16:17] INFO root fetch - processPackages [tupa123]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-28 15:16:17] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-28 15:16:17] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.1.tar.gz tmp/tupa123-1.4.2.tar.gz --markdown 20230428/t/tupa123/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-28 15:16:17] INFO root fetch - processPackages [wikipedia_tools]: Start processing: linkedin-api
+[2023-04-28 15:16:17] INFO root fetch - main [MainThread]: End processing [wikipedia_tools]: success
+[2023-04-28 15:16:17] INFO root fetch - processPackages [adafruit-circuitpython-rgb-display]: executing diffoscope
+[2023-04-28 15:16:17] INFO root fetch - processPackages [adafruit-circuitpython-rgb-display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-rgb-display-3.9.2.tar.gz tmp/adafruit-circuitpython-rgb-display-3.9.3.tar.gz --markdown 20230428/a/adafruit-circuitpython-rgb-display/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-04-28 15:16:17] INFO root fetch - processPackages [dioptra]: Start processing: upgini
+[2023-04-28 15:16:17] INFO root fetch - main [MainThread]: End processing [dioptra]: success
+[2023-04-28 15:16:17] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-28 15:16:17] INFO root fetch - processPackages [linkedin-api]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2023-04-28 15:16:17] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-04-28 15:16:17] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230428/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-28 15:16:17] INFO root fetch - processPackages [linkedin-api]: Downloading https://files.pythonhosted.org/packages/50/6a/02e86f8e0a8a59d42fc772cfda0aa97e407763af8561cc244d8ab61ff220/linkedin_api-2.0.0a4.tar.gz
+[2023-04-28 15:16:17] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Start processing: sqlite-sync
+[2023-04-28 15:16:17] INFO root fetch - main [MainThread]: End processing [robotframework-seleniumlibrary]: success
+[2023-04-28 15:16:17] INFO root fetch - processPackages [sqlite-sync]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-04-28 15:16:17] INFO root fetch - processPackages [linkedin-api]: Downloading https://files.pythonhosted.org/packages/58/35/aa28d2761e06949c5f10d5c70f4aec848e8b1cf1c82ea451199812140d95/linkedin_api-2.0.0a5.tar.gz
+[2023-04-28 15:16:18] INFO root fetch - processPackages [sqlite-sync]: Downloading https://files.pythonhosted.org/packages/78/d8/4e53d7cd73df9b02798f8a2e3af76f2f5643f21abab7950f8c7eb331a013/sqlite_sync-0.0.1-py3-none-any.whl
+[2023-04-28 15:16:18] INFO root fetch - processPackages [linkedin-api]: executing diffoscope
+[2023-04-28 15:16:18] INFO root fetch - processPackages [linkedin-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin_api-2.0.0a4.tar.gz tmp/linkedin_api-2.0.0a5.tar.gz --markdown 20230428/l/linkedin-api/2.0.0a4-2.0.0a5/diff.md --exclude *.pyd
+[2023-04-28 15:16:18] INFO root fetch - processPackages [sqlite-sync]: Downloading https://files.pythonhosted.org/packages/78/9a/0e4b2c71793c6b55e90b92c9e20abfd2b4fbc971755daddc1b26e9622678/sqlite_sync-0.0.5-py3-none-any.whl
+[2023-04-28 15:16:18] INFO root fetch - processPackages [nbdev-pandas]: Start processing: few-shot-priming
+[2023-04-28 15:16:18] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-28 15:16:18] INFO root fetch - processPackages [tupa123]: Start processing: pomodoro-timer-cli
+[2023-04-28 15:16:18] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-28 15:16:18] INFO root fetch - processPackages [pomodoro-timer-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 15:16:18] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 15:16:18] INFO root fetch - processPackages [sqlite-sync]: executing diffoscope
+[2023-04-28 15:16:18] INFO root fetch - processPackages [sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_sync-0.0.1-py3-none-any.whl.zip tmp/sqlite_sync-0.0.5-py3-none-any.whl.zip --markdown 20230428/s/sqlite-sync/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 15:16:18] INFO root fetch - processPackages [pomodoro-timer-cli]: executing diffoscope
+[2023-04-28 15:16:18] INFO root fetch - processPackages [pomodoro-timer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomodoro_timer_cli-0.1.1.tar.gz tmp/pomodoro_timer_cli-0.1.2.tar.gz --markdown 20230428/p/pomodoro-timer-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 15:16:18] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 15:16:18] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:16:18] INFO root fetch - processPackages [adafruit-circuitpython-rgb-display]: Start processing: nbdev-scipy
+[2023-04-28 15:16:18] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-rgb-display]: success
+[2023-04-28 15:16:18] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:16:18] INFO root fetch - processPackages [pyflow-workflow-generator]: Start processing: pepperize.cdk-route53-health-check
+[2023-04-28 15:16:18] INFO root fetch - main [MainThread]: End processing [pyflow-workflow-generator]: success
+[2023-04-28 15:16:18] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:16:18] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-28 15:16:18] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230428/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:16:19] INFO root fetch - processPackages [few-shot-priming]: Start processing: obiba-opal
+[2023-04-28 15:16:19] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 15:16:19] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-04-28 15:16:19] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:16:19] INFO root fetch - processPackages [obiba-opal]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-04-28 15:16:19] INFO root fetch - processPackages [obiba-opal]: Downloading https://files.pythonhosted.org/packages/a0/2f/1f692a7f79afc038f41caa6a868a7816426a614506998c51c954ed5d4b6b/obiba_opal-5.1.0.tar.gz
+[2023-04-28 15:16:19] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: pyzfn
+[2023-04-28 15:16:19] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-28 15:16:19] INFO root fetch - processPackages [pyzfn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 15:16:19] INFO root fetch - processPackages [obiba-opal]: Downloading https://files.pythonhosted.org/packages/33/a6/119a04ecec0c327f75331d0d55ea00d584fca8671bbabab855c34201da5a/obiba_opal-5.1.1.tar.gz
+[2023-04-28 15:16:19] INFO root fetch - processPackages [linkedin-api]: Start processing: sqlite-sync
+[2023-04-28 15:16:19] INFO root fetch - main [MainThread]: End processing [linkedin-api]: success
+[2023-04-28 15:16:19] INFO root fetch - processPackages [pyzfn]: executing diffoscope
+[2023-04-28 15:16:19] INFO root fetch - processPackages [pyzfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzfn-0.1.1.tar.gz tmp/pyzfn-0.1.2.tar.gz --markdown 20230428/p/pyzfn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 15:16:19] INFO root fetch - processPackages [sqlite-sync]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-04-28 15:16:19] INFO root fetch - processPackages [obiba-opal]: executing diffoscope
+[2023-04-28 15:16:19] INFO root fetch - processPackages [obiba-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obiba_opal-5.1.0.tar.gz tmp/obiba_opal-5.1.1.tar.gz --markdown 20230428/o/obiba-opal/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-04-28 15:16:19] INFO root fetch - processPackages [sqlite-sync]: executing diffoscope
+[2023-04-28 15:16:19] INFO root fetch - processPackages [sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_sync-0.0.1-py3-none-any.whl.zip tmp/sqlite_sync-0.0.5-py3-none-any.whl.zip --markdown 20230428/s/sqlite-sync/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 15:16:19] INFO root fetch - processPackages [sqlite-sync]: Start processing: zwkit
+[2023-04-28 15:16:19] INFO root fetch - main [MainThread]: End processing [sqlite-sync]: success
+[2023-04-28 15:16:19] INFO root fetch - processPackages [zwkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 15:16:20] INFO root fetch - processPackages [zwkit]: executing diffoscope
+[2023-04-28 15:16:20] INFO root fetch - processPackages [zwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwkit-0.4.8.tar.gz tmp/zwkit-0.4.9.tar.gz --markdown 20230428/z/zwkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-28 15:16:20] INFO root fetch - processPackages [nbdev-scipy]: Start processing: runnerase
+[2023-04-28 15:16:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-28 15:16:20] INFO root fetch - main [MainThread]: End processing [labgrid]: success
+[2023-04-28 15:16:20] INFO root fetch - processPackages [runnerase]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-28 15:16:20] INFO root fetch - processPackages [runnerase]: Downloading https://files.pythonhosted.org/packages/0b/ce/713b2f5783a356d213adb2051aa0f465f3b0c459d0c4a3d086a4a62d082f/runnerase-0.3.3.tar.gz
+[2023-04-28 15:16:20] INFO root fetch - processPackages [runnerase]: executing diffoscope
+[2023-04-28 15:16:20] INFO root fetch - processPackages [runnerase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runnerase-0.3.2.tar.gz tmp/runnerase-0.3.3.tar.gz --markdown 20230428/r/runnerase/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-28 15:16:21] INFO root fetch - main [MainThread]: End processing [pyzfn]: success
+[2023-04-28 15:16:21] INFO root fetch - main [MainThread]: End processing [sqlite-sync]: success
+[2023-04-28 15:16:21] INFO root fetch - main [MainThread]: End processing [obiba-opal]: success
+[2023-04-28 15:16:21] INFO root fetch - main [MainThread]: End processing [zwkit]: success
+[2023-04-28 15:16:21] INFO root fetch - main [MainThread]: End processing [pomodoro-timer-cli]: success
+[2023-04-28 15:16:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-04-28 15:16:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-04-28 15:16:22] INFO root fetch - main [MainThread]: End processing [runnerase]: success
+[2023-04-28 15:16:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 15:16:22] INFO root fetch - main [MainThread]: Store serial: [17898366]
