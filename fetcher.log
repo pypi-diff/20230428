@@ -11470,3 +11470,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 11:27:52] INFO root fetch - main [MainThread]: End processing [diacamma-financial]: success
 [2023-04-28 11:28:25] INFO root fetch - main [MainThread]: End processing [lucterios]: success
 [2023-04-28 11:28:25] INFO root fetch - main [MainThread]: Store serial: [17896096]
+[2023-04-28 11:33:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896096]
+[2023-04-28 11:33:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ASCIIcli
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sequana-pipetools
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotemanager
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ramodels
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-autoreply
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MindsDB
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysql-type-plugin
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: consistent
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kollo
+[2023-04-28 11:33:37] INFO root fetch - processPackages [remotemanager]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [nonebot-plugin-autoreply]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [mysql-type-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [sequana-pipetools]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ASCIIcli]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [consistent]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [MindsDB]: New version: [23.4.4.3] Old Version: [23.4.4.2]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [kollo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202304280930] Old Version: [99.0.202304280924]
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-28 11:33:37] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230428/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/5a/29/72eb39a4eb77c0917f25d0b4294027387d91d941663025d169a9714f26be/mysql_type_plugin-0.1.8.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/94/ef/026b6a3731bc7a41a4e23e467182a62ecff3d6476ce96659a979213d4c1f/remotemanager-0.5.8.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Downloading https://files.pythonhosted.org/packages/e2/19/b8ccce38e0b3473f73d69b0d6806bbb222ae1041631716c06e1630b4267a/nonebot_plugin_autoreply-0.2.9.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/e0/e7/a2b99881974aa6336771442f01f4fbae09208bd241f4fb498f446514a839/MindsDB-23.4.4.2.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [consistent]: Downloading https://files.pythonhosted.org/packages/12/0e/ca925e3f2158557fc2c4e062c6f1f96cdbe8a5ef2b08043c57e9a25c44e8/consistent-0.0.5.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/91/5b/d4dd9ebb30aead645f254780b262917b7fd7c4c517bb4eec88b88b7fb73e/kcli-99.0.202304280930-py3-none-any.whl
+[2023-04-28 11:33:38] INFO root fetch - processPackages [kollo]: Downloading https://files.pythonhosted.org/packages/43/c5/eac2770f5fc6343a4b523d6a4c6608dead88efc2fcf20be68b435a6986b2/kollo-1.0.0-py3-none-any.whl
+[2023-04-28 11:33:38] INFO root fetch - processPackages [nonebot-plugin-autoreply]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [nonebot-plugin-autoreply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_autoreply-0.2.8.tar.gz tmp/nonebot_plugin_autoreply-0.2.9.tar.gz --markdown 20230428/n/nonebot-plugin-autoreply/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [consistent]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [consistent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consistent-0.0.4.tar.gz tmp/consistent-0.0.5.tar.gz --markdown 20230428/c/consistent/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304280924-py3-none-any.whl.zip tmp/kcli-99.0.202304280930-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304280924-99.0.202304280930/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [ASCIIcli]: Downloading https://files.pythonhosted.org/packages/07/7d/e1b7f0ea2abeea9aac7ec00e2f60aa56da13be5f8ac4151936cfa0d59aba/ASCIIcli-0.0.9.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [sequana-pipetools]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [sequana-pipetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_pipetools-0.9.5.tar.gz tmp/sequana_pipetools-0.9.6.tar.gz --markdown 20230428/s/sequana-pipetools/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [ASCIIcli]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [ASCIIcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCIIcli-0.0.7.tar.gz tmp/ASCIIcli-0.0.9.tar.gz --markdown 20230428/A/ASCIIcli/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/9b/07/1e2b2973642aee972715f3b174d96254cec99601964a5b5ee7339b640b07/mysql_type_plugin-0.1.9.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [kollo]: Downloading https://files.pythonhosted.org/packages/60/e2/be34665a9b90668da360b0ff6fbd16dd8e6fea90eb37b87a663eb1ca32b9/kollo-1.0.1-py3-none-any.whl
+[2023-04-28 11:33:38] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/77/f2/16b8e51fa74fde2cac1e520b5abfa1c3c35043cf2c707a4d5aa2ca460f00/remotemanager-0.5.9.tar.gz
+[2023-04-28 11:33:38] INFO root fetch - processPackages [kollo]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [kollo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kollo-1.0.0-py3-none-any.whl.zip tmp/kollo-1.0.1-py3-none-any.whl.zip --markdown 20230428/k/kollo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [mysql-type-plugin]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [mysql-type-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_type_plugin-0.1.8.tar.gz tmp/mysql_type_plugin-0.1.9.tar.gz --markdown 20230428/m/mysql-type-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-04-28 11:33:38] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.5.8.tar.gz tmp/remotemanager-0.5.9.tar.gz --markdown 20230428/r/remotemanager/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 11:33:38] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/1b/21/489dfeb80bc64c6776615af3199c5ce4a58857578d18f85c8824626cdea8/MindsDB-23.4.4.3.tar.gz
+[2023-04-28 11:33:39] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-04-28 11:33:39] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.4.4.2.tar.gz tmp/MindsDB-23.4.4.3.tar.gz --markdown 20230428/M/MindsDB/23.4.4.2-23.4.4.3/diff.md --exclude *.pyd
+[2023-04-28 11:33:39] INFO root fetch - processPackages [ramodels]: Start processing: pydantic-settings
+[2023-04-28 11:33:39] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-28 11:33:39] INFO root fetch - processPackages [pydantic-settings]: New version: [2.0a3] Old Version: [2.0a1]
+[2023-04-28 11:33:39] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Start processing: Chinese-webtext-spider
+[2023-04-28 11:33:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-autoreply]: success
+[2023-04-28 11:33:39] INFO root fetch - processPackages [Chinese-webtext-spider]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 11:33:39] INFO root fetch - processPackages [consistent]: Start processing: i3dFeatureExtraction
+[2023-04-28 11:33:39] INFO root fetch - main [MainThread]: End processing [consistent]: success
+[2023-04-28 11:33:39] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 11:33:39] INFO root fetch - processPackages [Chinese-webtext-spider]: Downloading https://files.pythonhosted.org/packages/7b/0d/61277ea96b797bc66ebfe2701d110a0f910c1a1bb791f57d2b83fe30a6ab/Chinese-webtext-spider-1.0.0.tar.gz
+[2023-04-28 11:33:39] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-28 11:33:39] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.2.8.tar.gz tmp/i3dFeatureExtraction-0.2.9.tar.gz --markdown 20230428/i/i3dFeatureExtraction/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 11:33:39] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/e2/fe/4c167cd283e848f4860299f44ba34bec221b6f73c2b4f08990fc0b0c6890/pydantic_settings-2.0a3.tar.gz
+[2023-04-28 11:33:39] INFO root fetch - processPackages [kollo]: Start processing: product-discounts
+[2023-04-28 11:33:39] INFO root fetch - main [MainThread]: End processing [kollo]: success
+[2023-04-28 11:33:39] INFO root fetch - processPackages [ASCIIcli]: Start processing: aligned
+[2023-04-28 11:33:39] INFO root fetch - main [MainThread]: End processing [ASCIIcli]: success
+[2023-04-28 11:33:39] INFO root fetch - processPackages [aligned]: New version: [0.0.9a0] Old Version: [0.0.9]
+[2023-04-28 11:33:39] INFO root fetch - processPackages [sequana-pipetools]: Start processing: pygrille
+[2023-04-28 11:33:39] INFO root fetch - main [MainThread]: End processing [sequana-pipetools]: success
+[2023-04-28 11:33:39] INFO root fetch - processPackages [pydantic-settings]: executing diffoscope
+[2023-04-28 11:33:39] INFO root fetch - processPackages [pydantic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_settings-2.0a1.tar.gz tmp/pydantic_settings-2.0a3.tar.gz --markdown 20230428/p/pydantic-settings/2.0a1-2.0a3/diff.md --exclude *.pyd
+[2023-04-28 11:33:39] WARNING root fetch - processPackages [product-discounts]: Skipping, unable to determine old version
+[2023-04-28 11:33:39] INFO root fetch - processPackages [product-discounts]: Start processing: pywencai
+[2023-04-28 11:33:39] INFO root fetch - main [MainThread]: End processing [product-discounts] error
+[2023-04-28 11:33:40] INFO root fetch - processPackages [Chinese-webtext-spider]: Downloading https://files.pythonhosted.org/packages/a4/ab/122deb8612f342b61b6c97cdaee28416b9cc6a752798e41cac61f1c0d082/Chinese-webtext-spider-1.0.1.tar.gz
+[2023-04-28 11:33:40] INFO root fetch - main [MainThread]: End processing [mysql-type-plugin]: success
+[2023-04-28 11:33:40] INFO root fetch - processPackages [Chinese-webtext-spider]: executing diffoscope
+[2023-04-28 11:33:40] INFO root fetch - processPackages [Chinese-webtext-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chinese-webtext-spider-1.0.0.tar.gz tmp/Chinese-webtext-spider-1.0.1.tar.gz --markdown 20230428/C/Chinese-webtext-spider/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 11:33:40] INFO root fetch - processPackages [aligned]: executing diffoscope
+[2023-04-28 11:33:40] INFO root fetch - processPackages [aligned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned-0.0.9.tar.gz tmp/aligned-0.0.9a0.tar.gz --markdown 20230428/a/aligned/0.0.9-0.0.9a0/diff.md --exclude *.pyd
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pygrille]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pywencai]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pygrille]: Downloading https://files.pythonhosted.org/packages/fb/24/4fc26864036b374fa24c9c3a37fc8fb57a38be3da3ed4b996e5ec8a6d25c/pygrille-0.2.1.tar.gz
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/54/cf/ac8fa00fd3987746430ef3d519dd2aa0b0d687b9b907e5440db695e1008a/pywencai-0.6.0.tar.gz
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pygrille]: Downloading https://files.pythonhosted.org/packages/9f/fe/f49136b274bf692a9afb81ad309df4f823e9527502987d0a5121b2939386/pygrille-0.3.0.tar.gz
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/f4/83/a8b4a815846908656f504732a1130897e524540e7613902e175c6d8ad8aa/pywencai-0.7.0.tar.gz
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.6.0.tar.gz tmp/pywencai-0.7.0.tar.gz --markdown 20230428/p/pywencai/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 11:33:40] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pygrille]: executing diffoscope
+[2023-04-28 11:33:40] INFO root fetch - processPackages [pygrille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrille-0.2.1.tar.gz tmp/pygrille-0.3.0.tar.gz --markdown 20230428/p/pygrille/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 11:33:41] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-28 11:33:41] INFO root fetch - main [MainThread]: End processing [pydantic-settings]: success
+[2023-04-28 11:33:41] INFO root fetch - main [MainThread]: End processing [Chinese-webtext-spider]: success
+[2023-04-28 11:33:41] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-04-28 11:33:41] INFO root fetch - main [MainThread]: End processing [pygrille]: success
+[2023-04-28 11:33:43] INFO root fetch - main [MainThread]: End processing [aligned]: success
+[2023-04-28 11:33:46] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 11:33:50] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-04-28 11:33:50] INFO root fetch - main [MainThread]: Store serial: [17896145]
