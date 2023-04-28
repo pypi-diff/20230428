@@ -6496,3 +6496,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 04:49:50] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-04-28 04:50:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-28 04:50:53] INFO root fetch - main [MainThread]: Store serial: [17893359]
+[2023-04-28 04:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893359]
+[2023-04-28 04:56:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasets2
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: difft
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-zj
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tccli-intl-en
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anki
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkov
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: primervcf
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arkdata
+[2023-04-28 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aqt
+[2023-04-28 04:56:04] WARNING root fetch - processPackages [datasets2]: Skipping, unable to determine old version
+[2023-04-28 04:56:04] INFO root fetch - main [MainThread]: End processing [datasets2] error
+[2023-04-28 04:56:04] INFO root fetch - processPackages [difft]: New version: [1.2.1] Old Version: [1.1.9]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [mynacode]: New version: [1.0.78] Old Version: [1.0.77]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: New version: [3.0.884] Old Version: [3.0.883]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [anki]: New version: [2.1.62rc1] Old Version: [2.1.62b1]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [primervcf]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [aqt]: New version: [2.1.62rc1] Old Version: [2.1.62b1]
+[2023-04-28 04:56:04] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 04:56:04] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 04:56:04] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-28 04:56:04] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230428/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-28 04:56:04] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/58/56/0a605a37b40ccd7374052dcba6004a9fb0762660edbad12a3a21c82284f4/mynacode-1.0.77-py3-none-any.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [difft]: Downloading https://files.pythonhosted.org/packages/5f/ff/5da001db92030865e47ea97787b8262163f425cdf2d2798b5cb7958cf696/difft-1.1.9-py3-none-any.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [anki]: Downloading https://files.pythonhosted.org/packages/ec/f4/5eeef5e8ab7d2d253c2a25f0fe5034e71cf115851cf0fcbd845bc9ef4f69/anki-2.1.62b1-cp39-abi3-win_amd64.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [primervcf]: Downloading https://files.pythonhosted.org/packages/25/e4/c026a8f8a035ec17830c74cfd45e8831e55dd02f072b75ffba9953eef46e/primervcf-0.1.2-py3-none-any.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/b6/df/007feca12bba84e652682c54564da44bbb8cf61dce34cb71e3c88b2648bd/aqt-2.1.62b1-py3-none-any.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/8f/54/2eea253b59930ac777e35ac59bba526711e6da98e474eb21667a16f3307b/tencentcloud-sdk-python-zj-3.0.884.tar.gz
+[2023-04-28 04:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: executing diffoscope
+[2023-04-28 04:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-zj-3.0.883.tar.gz tmp/tencentcloud-sdk-python-zj-3.0.884.tar.gz --markdown 20230428/t/tencentcloud-sdk-python-zj/3.0.883-3.0.884/diff.md --exclude *.pyd
+[2023-04-28 04:56:04] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-04-28 04:56:04] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230428/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-04-28 04:56:04] INFO root fetch - processPackages [difft]: Downloading https://files.pythonhosted.org/packages/0f/a9/3e6b52871163e46aae6928563d0678d9a7d5ffa12285cbc31fe9cc0d7321/difft-1.2.1-py3-none-any.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/99/57/3c20cbdde6e17eabc47008796fea6cd55f863d809dee462814999b828ee8/mynacode-1.0.78-py3-none-any.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-28 04:56:04] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.77-py3-none-any.whl.zip tmp/mynacode-1.0.78-py3-none-any.whl.zip --markdown 20230428/m/mynacode/1.0.77-1.0.78/diff.md --exclude *.pyd
+[2023-04-28 04:56:04] INFO root fetch - processPackages [primervcf]: Downloading https://files.pythonhosted.org/packages/6c/5d/213525902b7188c564561dc2676428c6cb9ceeed2195bd1eae9633a8fde7/primervcf-0.1.4-py3-none-any.whl
+[2023-04-28 04:56:04] INFO root fetch - processPackages [difft]: executing diffoscope
+[2023-04-28 04:56:04] INFO root fetch - processPackages [difft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difft-1.1.9-py3-none-any.whl.zip tmp/difft-1.2.1-py3-none-any.whl.zip --markdown 20230428/d/difft/1.1.9-1.2.1/diff.md --exclude *.pyd
+[2023-04-28 04:56:04] INFO root fetch - processPackages [primervcf]: executing diffoscope
+[2023-04-28 04:56:04] INFO root fetch - processPackages [primervcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primervcf-0.1.2-py3-none-any.whl.zip tmp/primervcf-0.1.4-py3-none-any.whl.zip --markdown 20230428/p/primervcf/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 04:56:05] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/c6/e9/6d1bf39cb6e1c1bac453a7c64edcb083a6a6a14e9608cb73d9dd5e7ef78b/aqt-2.1.62rc1-py3-none-any.whl
+[2023-04-28 04:56:05] INFO root fetch - processPackages [anki]: Downloading https://files.pythonhosted.org/packages/5c/81/ea5d1a88f79941c5c83f93f6fdbc8738b8467453e8a6a22a57d10bbc7843/anki-2.1.62rc1-cp39-abi3-win_amd64.whl
+[2023-04-28 04:56:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-zj]: success
+[2023-04-28 04:56:05] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-28 04:56:05] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 04:56:05] INFO root fetch - main [MainThread]: End processing [difft]: success
+[2023-04-28 04:56:06] INFO root fetch - main [MainThread]: End processing [primervcf]: success
+[2023-04-28 04:56:06] INFO root fetch - processPackages [anki]: executing diffoscope
+[2023-04-28 04:56:06] INFO root fetch - processPackages [anki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anki-2.1.62b1-cp39-abi3-win_amd64.whl.zip tmp/anki-2.1.62rc1-cp39-abi3-win_amd64.whl.zip --markdown 20230428/a/anki/2.1.62b1-2.1.62rc1/diff.md --exclude *.pyd
+[2023-04-28 04:56:07] INFO root fetch - processPackages [aqt]: executing diffoscope
+[2023-04-28 04:56:07] INFO root fetch - processPackages [aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqt-2.1.62b1-py3-none-any.whl.zip tmp/aqt-2.1.62rc1-py3-none-any.whl.zip --markdown 20230428/a/aqt/2.1.62b1-2.1.62rc1/diff.md --exclude *.pyd
+[2023-04-28 04:56:09] INFO root fetch - main [MainThread]: End processing [anki]: success
+[2023-04-28 04:56:09] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-04-28 04:56:44] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-28 04:57:41] INFO root fetch - main [MainThread]: End processing [aqt]: success
+[2023-04-28 04:57:41] INFO root fetch - main [MainThread]: Store serial: [17893391]
