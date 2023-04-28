@@ -21752,3 +21752,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 21:45:20] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2023-04-28 21:45:20] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-04-28 21:45:20] INFO root fetch - main [MainThread]: Store serial: [17902358]
+[2023-04-28 21:50:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902358]
+[2023-04-28 21:50:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equinox
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corut-fastapi-tools
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ewms-pilot
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-artifactory
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libquantum
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: actoolkit
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minirony
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gdptools
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstra-cli
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naluconfigs
+[2023-04-28 21:50:29] INFO root fetch - processPackages [minirony]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ewms-pilot]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [naluconfigs]: New version: [10.7.0] Old Version: [10.6.0]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [abstra-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [equinox]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [corut-fastapi-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [actoolkit]: New version: [2.6.4b1] Old Version: [2.6.3b2]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [libquantum]: New version: [1.5.0a1] Old Version: [1.5.0a0]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [gdptools]: New version: [0.0.9.dev0] Old Version: [0.0.8.dev0]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.4.0a1682710099] Old Version: [3.4.0a1682378112]
+[2023-04-28 21:50:29] INFO root fetch - processPackages [libquantum]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [libquantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libquantum-1.5.0a0.tar.gz tmp/libquantum-1.5.0a1.tar.gz --markdown 20230428/l/libquantum/1.5.0a0-1.5.0a1/diff.md --exclude *.pyd
+[2023-04-28 21:50:29] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/ba/06/ff98abf7cd21509efd77a08c7fcd7884c1e2ff2cd7a03a8bc730b3572458/actoolkit-2.6.4b1-py3-none-any.whl
+[2023-04-28 21:50:29] INFO root fetch - processPackages [corut-fastapi-tools]: Downloading https://files.pythonhosted.org/packages/a0/82/0c1e722b04e190859ca9624d248c17dcd23f86545e903d5bd501b292b33f/corut_fastapi_tools-0.0.2-py3-none-any.whl
+[2023-04-28 21:50:29] INFO root fetch - processPackages [equinox]: Downloading https://files.pythonhosted.org/packages/0e/84/68bfc44830cc6e8dd5dc0e623c20f53553beaebd225130e0bf4b11cba22d/equinox-0.9.1.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/db/a5/4be478531866060a386fa8567a08b1243ef1c65314e184a09b8a45d0a763/naluconfigs-10.6.0.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/69/a0/7e7f358e629909404982b0738c8dbf94a3af6428a4e6ade0fcfa192b0414/ewms-pilot-0.6.0.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [gdptools]: Downloading https://files.pythonhosted.org/packages/51/e5/3aac09c6ccfcf4e967080e078546d842d1812498c84d7297473beb177115/gdptools-0.0.8.dev0.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [minirony]: Downloading https://files.pythonhosted.org/packages/90/91/49f6ef57e391eea9adc526aa963a6e3ce990016e1bed56b9ac62d9860cc9/minirony-0.0.3.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/4a/f8/c5ba0063f4879e00e268b3323cdd3c1840c888396a3285da1065e16da0cf/pulumi_artifactory-3.4.0a1682710099.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [actoolkit]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [actoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actoolkit-2.6.3b2-py3-none-any.whl.zip tmp/actoolkit-2.6.4b1-py3-none-any.whl.zip --markdown 20230428/a/actoolkit/2.6.3b2-2.6.4b1/diff.md --exclude *.pyd
+[2023-04-28 21:50:29] INFO root fetch - processPackages [abstra-cli]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [abstra-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-cli-0.8.0.tar.gz tmp/abstra-cli-0.9.0.tar.gz --markdown 20230428/a/abstra-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 21:50:29] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/42/81/3a1ae92addfcf5358f0ff879be655ee6f7f8928ed6782e223a4faf519a42/naluconfigs-10.7.0.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [minirony]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [minirony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Minirony-0.0.1.tar.gz tmp/minirony-0.0.3.tar.gz --markdown 20230428/m/minirony/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/fd/c3/bfdd6d64bbe7e753798c8b9ff7e8e7a3a84a0d38e1b848ce6ab19c413a11/ewms-pilot-0.7.0.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.4.0a1682378112.tar.gz tmp/pulumi_artifactory-3.4.0a1682710099.tar.gz --markdown 20230428/p/pulumi-artifactory/3.4.0a1682378112-3.4.0a1682710099/diff.md --exclude *.pyd
+[2023-04-28 21:50:29] INFO root fetch - processPackages [corut-fastapi-tools]: Downloading https://files.pythonhosted.org/packages/77/09/dedeef28ed728acace69939f3ee12daeff60267cd6dacec11029e0cef1cb/corut_fastapi_tools-0.0.3-py3-none-any.whl
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.6.0.tar.gz tmp/ewms-pilot-0.7.0.tar.gz --markdown 20230428/e/ewms-pilot/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 21:50:29] INFO root fetch - processPackages [naluconfigs]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [naluconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naluconfigs-10.6.0.tar.gz tmp/naluconfigs-10.7.0.tar.gz --markdown 20230428/n/naluconfigs/10.6.0-10.7.0/diff.md --exclude *.pyd
+[2023-04-28 21:50:29] INFO root fetch - processPackages [equinox]: Downloading https://files.pythonhosted.org/packages/4d/1d/6a9ce6e7aa3e1286459ae80e5c81dfad0a455351ecc566b02cd493686370/equinox-0.9.2.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [gdptools]: Downloading https://files.pythonhosted.org/packages/46/d5/9548697133be71367d9fe45d61fbfca7de62520dc67f4c0a67ac7e602e90/gdptools-0.0.9.dev0.tar.gz
+[2023-04-28 21:50:29] INFO root fetch - processPackages [corut-fastapi-tools]: executing diffoscope
+[2023-04-28 21:50:29] INFO root fetch - processPackages [corut-fastapi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corut_fastapi_tools-0.0.2-py3-none-any.whl.zip tmp/corut_fastapi_tools-0.0.3-py3-none-any.whl.zip --markdown 20230428/c/corut-fastapi-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 21:50:30] INFO root fetch - processPackages [gdptools]: executing diffoscope
+[2023-04-28 21:50:30] INFO root fetch - processPackages [gdptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdptools-0.0.8.dev0.tar.gz tmp/gdptools-0.0.9.dev0.tar.gz --markdown 20230428/g/gdptools/0.0.8.dev0-0.0.9.dev0/diff.md --exclude *.pyd
+[2023-04-28 21:50:30] INFO root fetch - processPackages [equinox]: executing diffoscope
+[2023-04-28 21:50:30] INFO root fetch - processPackages [equinox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equinox-0.9.1.tar.gz tmp/equinox-0.9.2.tar.gz --markdown 20230428/e/equinox/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-28 21:50:30] INFO root fetch - processPackages [libquantum]: Start processing: python-mpd2
+[2023-04-28 21:50:30] INFO root fetch - main [MainThread]: End processing [libquantum]: success
+[2023-04-28 21:50:30] INFO root fetch - processPackages [python-mpd2]: New version: [3.1.0] Old Version: [3.0.5]
+[2023-04-28 21:50:31] INFO root fetch - processPackages [python-mpd2]: Downloading https://files.pythonhosted.org/packages/ed/c2/263621bdbbc37fa1a55fa1a7f66fd601bf08b3f87481e318a3509fb6c4bf/python-mpd2-3.0.5.tar.gz
+[2023-04-28 21:50:31] INFO root fetch - processPackages [minirony]: Start processing: pdt-extract
+[2023-04-28 21:50:31] INFO root fetch - main [MainThread]: End processing [minirony]: success
+[2023-04-28 21:50:31] INFO root fetch - processPackages [python-mpd2]: Downloading https://files.pythonhosted.org/packages/59/32/e57725251ce3117d2ed2a7b76d9722ea9bea26f54b2cc8981d03350e4103/python-mpd2-3.1.0.tar.gz
+[2023-04-28 21:50:31] INFO root fetch - processPackages [pdt-extract]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 21:50:31] INFO root fetch - processPackages [abstra-cli]: Start processing: pulumi-auth0
+[2023-04-28 21:50:31] INFO root fetch - main [MainThread]: End processing [abstra-cli]: success
+[2023-04-28 21:50:31] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-04-28 21:50:31] INFO root fetch - processPackages [python-mpd2]: executing diffoscope
+[2023-04-28 21:50:31] INFO root fetch - processPackages [python-mpd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-mpd2-3.0.5.tar.gz tmp/python-mpd2-3.1.0.tar.gz --markdown 20230428/p/python-mpd2/3.0.5-3.1.0/diff.md --exclude *.pyd
+[2023-04-28 21:50:31] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-04-28 21:50:31] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230428/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-04-28 21:50:31] INFO root fetch - main [MainThread]: End processing [actoolkit]: success
+[2023-04-28 21:50:31] INFO root fetch - processPackages [pdt-extract]: Downloading https://files.pythonhosted.org/packages/bf/ea/3f0fcf13470b6d79b7f778e750f18f975bb62b06a51d44c39870739c9f4d/pdt_extract-0.1.4-py3-none-any.whl
+[2023-04-28 21:50:31] INFO root fetch - processPackages [pdt-extract]: executing diffoscope
+[2023-04-28 21:50:31] INFO root fetch - processPackages [pdt-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdt_extract-0.1.3-py3-none-any.whl.zip tmp/pdt_extract-0.1.4-py3-none-any.whl.zip --markdown 20230428/p/pdt-extract/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 21:50:31] INFO root fetch - main [MainThread]: End processing [corut-fastapi-tools]: success
+[2023-04-28 21:50:31] INFO root fetch - main [MainThread]: End processing [gdptools]: success
+[2023-04-28 21:50:31] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-04-28 21:50:32] INFO root fetch - main [MainThread]: End processing [python-mpd2]: success
+[2023-04-28 21:50:32] INFO root fetch - main [MainThread]: End processing [pdt-extract]: success
+[2023-04-28 21:50:33] INFO root fetch - main [MainThread]: End processing [equinox]: success
+[2023-04-28 21:50:33] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-04-28 21:50:34] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
+[2023-04-28 21:50:37] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-04-28 21:50:37] INFO root fetch - main [MainThread]: Store serial: [17902399]
