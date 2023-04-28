@@ -8325,3 +8325,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:07:41] INFO root fetch - main [MainThread]: End processing [blacksheep]: success
 [2023-04-28 08:08:28] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
 [2023-04-28 08:08:28] INFO root fetch - main [MainThread]: Store serial: [17894401]
+[2023-04-28 08:13:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894401]
+[2023-04-28 08:13:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 08:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatialprompt
+[2023-04-28 08:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CUQIpy
+[2023-04-28 08:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lesscode-py
+[2023-04-28 08:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-log
+[2023-04-28 08:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aslookup
+[2023-04-28 08:13:45] WARNING root fetch - processPackages [spatialprompt]: Skipping, unable to determine old version
+[2023-04-28 08:13:45] INFO root fetch - main [MainThread]: End processing [spatialprompt] error
+[2023-04-28 08:13:45] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 08:13:45] INFO root fetch - processPackages [CUQIpy]: New version: [0.3.0.post0.dev7] Old Version: [0.3.0.post0.dev5]
+[2023-04-28 08:13:45] INFO root fetch - processPackages [aslookup]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-28 08:13:45] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.4] Old Version: [1.3]
+[2023-04-28 08:13:45] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-04-28 08:13:45] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230428/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 08:13:45] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2023-04-28 08:13:45] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-0.3.0.post0.dev5.tar.gz tmp/CUQIpy-0.3.0.post0.dev7.tar.gz --markdown 20230428/C/CUQIpy/0.3.0.post0.dev5-0.3.0.post0.dev7/diff.md --exclude *.pyd
+[2023-04-28 08:13:45] INFO root fetch - processPackages [aslookup]: Downloading https://files.pythonhosted.org/packages/58/c4/6cb7faf5322b0ff5fcec38180324752420b3fea59252cb9fdea9a711a07b/aslookup-1.3.0.tar.gz
+[2023-04-28 08:13:45] INFO root fetch - processPackages [django-ipghrms-log]: Downloading https://files.pythonhosted.org/packages/59/2d/142df3c65f1f15e121eb0f9b37611603626b02014a1763a1054b9b226aa5/django-ipghrms-log-1.3.tar.gz
+[2023-04-28 08:13:46] INFO root fetch - processPackages [django-ipghrms-log]: Downloading https://files.pythonhosted.org/packages/1b/1f/587b4c6337768d82f582d328151d7592d114e65633ac6faa32a870ca9b07/django-ipghrms-log-1.4.tar.gz
+[2023-04-28 08:13:46] INFO root fetch - processPackages [aslookup]: Downloading https://files.pythonhosted.org/packages/80/d5/34db45abe47c6801ba0f5a86de2f3cde4b03742600f5e91e2b62746f29c5/aslookup-1.4.0.tar.gz
+[2023-04-28 08:13:46] INFO root fetch - processPackages [aslookup]: executing diffoscope
+[2023-04-28 08:13:46] INFO root fetch - processPackages [aslookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aslookup-1.3.0.tar.gz tmp/aslookup-1.4.0.tar.gz --markdown 20230428/a/aslookup/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-28 08:13:46] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 08:13:46] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.3.tar.gz tmp/django-ipghrms-log-1.4.tar.gz --markdown 20230428/d/django-ipghrms-log/1.3-1.4/diff.md --exclude *.pyd
+[2023-04-28 08:13:47] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-04-28 08:13:47] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2023-04-28 08:13:47] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 08:13:47] INFO root fetch - main [MainThread]: End processing [aslookup]: success
+[2023-04-28 08:13:47] INFO root fetch - main [MainThread]: Store serial: [17894419]
