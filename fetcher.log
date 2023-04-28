@@ -21836,3 +21836,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 21:50:34] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
 [2023-04-28 21:50:37] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-04-28 21:50:37] INFO root fetch - main [MainThread]: Store serial: [17902399]
+[2023-04-28 21:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902399]
+[2023-04-28 21:55:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auth0
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: learninghouse
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owlml
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libquantum
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: triade
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scpkit
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: owlml
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kafkaconnect
+[2023-04-28 21:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: complex-network-link-prediction
+[2023-04-28 21:55:46] INFO root fetch - processPackages [learninghouse]: New version: [1.8.0] Old Version: [1.7.4]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [kafkaconnect]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [owlml]: New version: [0.1.1.dev1682711660] Old Version: [0.1.1.dev1682711592]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [triade]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [owlml]: New version: [0.1.1.dev1682711660] Old Version: [0.1.1.dev1682711592]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [libquantum]: New version: [1.5.1] Old Version: [1.5.0a1]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [complex-network-link-prediction]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [scpkit]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-28 21:55:46] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-04-28 21:55:46] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230428/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-04-28 21:55:46] INFO root fetch - processPackages [owlml]: Downloading https://files.pythonhosted.org/packages/7a/5a/af785f04b4838d269e6939eb558f6eebf7e35c50a29d21c00ac65bf4f277/owlml-0.1.1.dev1682711592.tar.gz
+[2023-04-28 21:55:46] INFO root fetch - processPackages [owlml]: Downloading https://files.pythonhosted.org/packages/7a/5a/af785f04b4838d269e6939eb558f6eebf7e35c50a29d21c00ac65bf4f277/owlml-0.1.1.dev1682711592.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [kafkaconnect]: Downloading https://files.pythonhosted.org/packages/50/0c/d14bc9a98328a0f9a317ecfea831d7559a77199816494e241efb629b689b/kafkaconnect-1.0.2.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/26/43/76a277875e0d7fbe68d87406269ff0c281ad432755345ffe559f6bd020e1/learninghouse-1.7.4.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [triade]: Downloading https://files.pythonhosted.org/packages/25/0e/aa380e41f0d8214fe6b651f45232d7ae0b5a39b480c12775967898fe0230/triade-0.1.1.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [libquantum]: Downloading https://files.pythonhosted.org/packages/29/ba/3d077176d89db2de4af12a3bc638624fe92232292343937468ebc4c9f8c4/libquantum-1.5.1.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [complex-network-link-prediction]: Downloading https://files.pythonhosted.org/packages/d2/52/290c9c2428f2b6999a8f4e5fc3df764fbf22b2debb1852c4cd5f260858c5/complex-network-link-prediction-1.0.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [scpkit]: Downloading https://files.pythonhosted.org/packages/da/a0/c7d274f53c77fe05ab4e0dad5e61bd51946132e6575c8aa5faa4d788a837/scpkit-0.2.0.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [libquantum]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [libquantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libquantum-1.5.0a1.tar.gz tmp/libquantum-1.5.1.tar.gz --markdown 20230428/l/libquantum/1.5.0a1-1.5.1/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230428/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [complex-network-link-prediction]: Downloading https://files.pythonhosted.org/packages/14/09/11a548ee9e5bd3573d36c8a3cc2d537bd5c39d0c118f3e11a17c94031fe9/complex-network-link-prediction-1.0.1.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [scpkit]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [scpkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scpkit-0.1.3.tar.gz tmp/scpkit-0.2.0.tar.gz --markdown 20230428/s/scpkit/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [triade]: Downloading https://files.pythonhosted.org/packages/61/b7/e933a98d2e932efd9325773f8e87022474a90e12d0f3d8c3252bde71a56d/triade-0.2.0.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [owlml]: Downloading https://files.pythonhosted.org/packages/97/fd/9cbed47b1276816200b4961d29396001b7af4e01ea11a33a60df9718055c/owlml-0.1.1.dev1682711660.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [owlml]: Downloading https://files.pythonhosted.org/packages/97/fd/9cbed47b1276816200b4961d29396001b7af4e01ea11a33a60df9718055c/owlml-0.1.1.dev1682711660.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [kafkaconnect]: Downloading https://files.pythonhosted.org/packages/b7/f9/8fd35c38ab08912d25d3beda4797a4a72b8bc2cf71cd6f728ebfdcb8ca08/kafkaconnect-1.1.0.tar.gz
+[2023-04-28 21:55:47] INFO root fetch - processPackages [triade]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [triade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triade-0.1.1.tar.gz tmp/triade-0.2.0.tar.gz --markdown 20230428/t/triade/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [complex-network-link-prediction]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [complex-network-link-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complex-network-link-prediction-1.0.tar.gz tmp/complex-network-link-prediction-1.0.1.tar.gz --markdown 20230428/c/complex-network-link-prediction/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [owlml]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [owlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlml-0.1.1.dev1682711592.tar.gz tmp/owlml-0.1.1.dev1682711660.tar.gz --markdown 20230428/o/owlml/0.1.1.dev1682711592-0.1.1.dev1682711660/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [owlml]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [owlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlml-0.1.1.dev1682711592.tar.gz tmp/owlml-0.1.1.dev1682711660.tar.gz --markdown 20230428/o/owlml/0.1.1.dev1682711592-0.1.1.dev1682711660/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [kafkaconnect]: executing diffoscope
+[2023-04-28 21:55:47] INFO root fetch - processPackages [kafkaconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaconnect-1.0.2.tar.gz tmp/kafkaconnect-1.1.0.tar.gz --markdown 20230428/k/kafkaconnect/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 21:55:47] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/76/fc/33e02094ed8869c21e1ad490e7483bfddb299e0f874bf4b9952cfe7d4f2a/learninghouse-1.8.0.tar.gz
+[2023-04-28 21:55:48] INFO root fetch - processPackages [learninghouse]: executing diffoscope
+[2023-04-28 21:55:48] INFO root fetch - processPackages [learninghouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learninghouse-1.7.4.tar.gz tmp/learninghouse-1.8.0.tar.gz --markdown 20230428/l/learninghouse/1.7.4-1.8.0/diff.md --exclude *.pyd
+[2023-04-28 21:55:48] INFO root fetch - processPackages [gpt-review]: Start processing: sphericalrht
+[2023-04-28 21:55:48] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-28 21:55:48] INFO root fetch - processPackages [sphericalrht]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-28 21:55:48] INFO root fetch - processPackages [sphericalrht]: Downloading https://files.pythonhosted.org/packages/0f/00/154fb806c091ac62a945650e6b2ad6e482b979635417e49b324961496074/sphericalrht-2.0.1.tar.gz
+[2023-04-28 21:55:48] INFO root fetch - main [MainThread]: End processing [triade]: success
+[2023-04-28 21:55:49] INFO root fetch - processPackages [sphericalrht]: executing diffoscope
+[2023-04-28 21:55:49] INFO root fetch - processPackages [sphericalrht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphericalrht-2.0.0.tar.gz tmp/sphericalrht-2.0.1.tar.gz --markdown 20230428/s/sphericalrht/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 21:55:49] INFO root fetch - main [MainThread]: End processing [complex-network-link-prediction]: success
+[2023-04-28 21:55:49] INFO root fetch - main [MainThread]: End processing [scpkit]: success
+[2023-04-28 21:55:49] INFO root fetch - main [MainThread]: End processing [owlml]: success
+[2023-04-28 21:55:49] INFO root fetch - main [MainThread]: End processing [owlml]: success
+[2023-04-28 21:55:49] INFO root fetch - main [MainThread]: End processing [kafkaconnect]: success
+[2023-04-28 21:55:49] INFO root fetch - main [MainThread]: End processing [libquantum]: success
+[2023-04-28 21:55:50] INFO root fetch - main [MainThread]: End processing [sphericalrht]: success
+[2023-04-28 21:55:50] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-04-28 21:55:56] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
+[2023-04-28 21:55:56] INFO root fetch - main [MainThread]: Store serial: [17902436]
