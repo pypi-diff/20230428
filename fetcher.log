@@ -11079,3 +11079,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 11:05:54] INFO root fetch - main [MainThread]: End processing [psdm-analysis]: success
 [2023-04-28 11:05:56] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
 [2023-04-28 11:05:56] INFO root fetch - main [MainThread]: Store serial: [17895871]
+[2023-04-28 11:11:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895871]
+[2023-04-28 11:11:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exudyn
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sd212review
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dafne-dl
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Quid
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inka
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stc-tools
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ramodels
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: returnn
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dafne
+[2023-04-28 11:11:05] INFO root fetch - processPackages [dafne-dl]: New version: [1.3a4] Old Version: [1.3a3]
+[2023-04-28 11:11:05] INFO root fetch - processPackages [Quid]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-28 11:11:05] INFO root fetch - processPackages [exudyn]: New version: [1.6.80.dev1] Old Version: [1.6.65.dev1]
+[2023-04-28 11:11:05] WARNING root fetch - processPackages [sd212review]: Skipping, unable to determine old version
+[2023-04-28 11:11:05] INFO root fetch - processPackages [inka]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-04-28 11:11:05] INFO root fetch - main [MainThread]: End processing [sd212review] error
+[2023-04-28 11:11:05] INFO root fetch - processPackages [stc-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 11:11:05] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-28 11:11:05] INFO root fetch - processPackages [returnn]: New version: [1.20230428.104458] Old Version: [1.20230427.101742]
+[2023-04-28 11:11:05] INFO root fetch - processPackages [stc-tools]: executing diffoscope
+[2023-04-28 11:11:05] INFO root fetch - processPackages [stc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-tools-1.0.8.tar.gz tmp/stc-tools-1.0.9.tar.gz --markdown 20230428/s/stc-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne]: New version: [1.3a3] Old Version: [1.3a2]
+[2023-04-28 11:11:06] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-28 11:11:06] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230428/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-28 11:11:06] INFO root fetch - processPackages [inka]: Downloading https://files.pythonhosted.org/packages/c6/2c/a01d4e4f50ca20e23ca1dfe73adaa659e16f8eed82533d79700a4d901a13/inka-2.2.2.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne-dl]: Downloading https://files.pythonhosted.org/packages/be/61/9a209997f7f398c0e5603db848cddf2622df1506d332dd0db278fa93b3a1/dafne-dl-1.3a3.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [exudyn]: Downloading https://files.pythonhosted.org/packages/ac/31/ba4e9d5c73453a96a249e0457f08b2f948b4dd1801beb0c9acb42f17512b/exudyn-1.6.65.dev1-cp39-cp39-win_amd64.whl
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne]: Downloading https://files.pythonhosted.org/packages/b7/4f/2cda543585d443ded1084690cfc280430bfc6390cdcb00dda19319dd0c7b/dafne-1.3a2.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [Quid]: Downloading https://files.pythonhosted.org/packages/00/72/259dfa6e4f90b0e7c29b6bde371f1d4dfaaa103472f6a7e74bb5938ee121/Quid-2.4.1.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [Quid]: executing diffoscope
+[2023-04-28 11:11:06] INFO root fetch - processPackages [Quid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quid-2.4.0.tar.gz tmp/Quid-2.4.1.tar.gz --markdown 20230428/Q/Quid/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-28 11:11:06] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/8e/d3/002af9c39706e19dcedf71a116f3ef7d9f1db64db23c05781e21c67d8361/returnn-1.20230428.104458.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-28 11:11:06] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230427.101742.tar.gz tmp/returnn-1.20230428.104458.tar.gz --markdown 20230428/r/returnn/1.20230427.101742-1.20230428.104458/diff.md --exclude *.pyd
+[2023-04-28 11:11:06] INFO root fetch - processPackages [inka]: Downloading https://files.pythonhosted.org/packages/e2/98/6719f47a186a9263c9c74fcd7763e5055f4dae101d7cedcf01b01c4ae9cb/inka-2.2.3.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne-dl]: Downloading https://files.pythonhosted.org/packages/ef/12/252b69c1dc0fbf3ac230c468cc00221055b3f7d47e17e1ca23ecf0ee33ca/dafne-dl-1.3a4.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [inka]: executing diffoscope
+[2023-04-28 11:11:06] INFO root fetch - processPackages [inka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inka-2.2.2.tar.gz tmp/inka-2.2.3.tar.gz --markdown 20230428/i/inka/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne]: Downloading https://files.pythonhosted.org/packages/e1/df/bddc307d9d2f06380132fcbae9e0715f6ecbb1b86a2a590d04dd39abc399/dafne-1.3a3.tar.gz
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne-dl]: executing diffoscope
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dafne-dl-1.3a3.tar.gz tmp/dafne-dl-1.3a4.tar.gz --markdown 20230428/d/dafne-dl/1.3a3-1.3a4/diff.md --exclude *.pyd
+[2023-04-28 11:11:06] INFO root fetch - processPackages [exudyn]: Downloading https://files.pythonhosted.org/packages/4d/9e/d58fcbab9546a07b49a33ae4df95cdbb2343d90472df74c4dc3b834c9e5d/exudyn-1.6.80.dev1-cp39-cp39-win_amd64.whl
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne]: executing diffoscope
+[2023-04-28 11:11:06] INFO root fetch - processPackages [dafne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dafne-1.3a2.tar.gz tmp/dafne-1.3a3.tar.gz --markdown 20230428/d/dafne/1.3a2-1.3a3/diff.md --exclude *.pyd
+[2023-04-28 11:11:06] INFO root fetch - processPackages [exudyn]: executing diffoscope
+[2023-04-28 11:11:06] INFO root fetch - processPackages [exudyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exudyn-1.6.65.dev1-cp39-cp39-win_amd64.whl.zip tmp/exudyn-1.6.80.dev1-cp39-cp39-win_amd64.whl.zip --markdown 20230428/e/exudyn/1.6.65.dev1-1.6.80.dev1/diff.md --exclude *.pyd
+[2023-04-28 11:11:07] INFO root fetch - main [MainThread]: End processing [stc-tools]: success
+[2023-04-28 11:11:07] INFO root fetch - main [MainThread]: End processing [Quid]: success
+[2023-04-28 11:11:07] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-28 11:11:08] INFO root fetch - main [MainThread]: End processing [inka]: success
+[2023-04-28 11:11:08] INFO root fetch - main [MainThread]: End processing [dafne-dl]: success
+[2023-04-28 11:11:08] INFO root fetch - main [MainThread]: End processing [exudyn]: success
+[2023-04-28 11:11:10] INFO root fetch - main [MainThread]: End processing [dafne]: success
+[2023-04-28 11:11:10] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-28 11:11:10] INFO root fetch - main [MainThread]: Store serial: [17895924]
