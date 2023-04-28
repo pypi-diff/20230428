@@ -7334,3 +7334,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:19:40] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
 [2023-04-28 06:19:40] INFO root fetch - main [MainThread]: End processing [odoo12-addons-oca-field-service]: success
 [2023-04-28 06:19:40] INFO root fetch - main [MainThread]: Store serial: [17893863]
+[2023-04-28 06:24:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893863]
+[2023-04-28 06:24:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 06:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: at-fetch
+[2023-04-28 06:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sf-hamilton
+[2023-04-28 06:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quorum-mininode-py
+[2023-04-28 06:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generic-path
+[2023-04-28 06:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sagemaker-pytorch-training
+[2023-04-28 06:24:49] INFO root fetch - processPackages [quorum-mininode-py]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-28 06:24:49] INFO root fetch - processPackages [at-fetch]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 06:24:49] INFO root fetch - processPackages [generic-path]: New version: [0.2] Old Version: [0.1]
+[2023-04-28 06:24:49] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-04-28 06:24:49] INFO root fetch - processPackages [sagemaker-pytorch-training]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-04-28 06:24:50] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/f7/63/44a0c3f4400e4cab7e70a4cf14fb272c70760b5be0fd64c0746ed3e356a2/quorum_mininode_py-1.2.4.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/7b/76/ef6d3f5c8254648ba3c481778af1562d9baf607a100111a5f4bfb4669ca6/generic-path-0.1.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sagemaker-pytorch-training]: Downloading https://files.pythonhosted.org/packages/e7/56/5e3180b7e804177822f747de29ba2b8534162e031bd9765c649c173e0734/sagemaker_pytorch_training-2.7.0.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [at-fetch]: Downloading https://files.pythonhosted.org/packages/2a/a8/0c57dcda20149a4c1194a653ad3e1a0e31b5fd8f7dbd15b64d8fcc2cb877/at_fetch-0.1.3.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [quorum-mininode-py]: executing diffoscope
+[2023-04-28 06:24:50] INFO root fetch - processPackages [quorum-mininode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_mininode_py-1.2.3.tar.gz tmp/quorum_mininode_py-1.2.4.tar.gz --markdown 20230428/q/quorum-mininode-py/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-28 06:24:50] INFO root fetch - processPackages [at-fetch]: executing diffoscope
+[2023-04-28 06:24:50] INFO root fetch - processPackages [at-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/at_fetch-0.1.2.tar.gz tmp/at_fetch-0.1.3.tar.gz --markdown 20230428/a/at-fetch/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 06:24:50] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/5b/3a/3fe7882ef938f68aaf6bfbb31ad4c732bbefa718238816bea5110ade33d4/generic-path-0.2.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sagemaker-pytorch-training]: Downloading https://files.pythonhosted.org/packages/05/f6/540fd5d19b8634f76c41e42777672db49fad075494019e8cc54e86ebc567/sagemaker_pytorch_training-2.8.0.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [generic-path]: executing diffoscope
+[2023-04-28 06:24:50] INFO root fetch - processPackages [generic-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-path-0.1.tar.gz tmp/generic-path-0.2.tar.gz --markdown 20230428/g/generic-path/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sagemaker-pytorch-training]: executing diffoscope
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sagemaker-pytorch-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker_pytorch_training-2.7.0.tar.gz tmp/sagemaker_pytorch_training-2.8.0.tar.gz --markdown 20230428/s/sagemaker-pytorch-training/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-04-28 06:24:50] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230428/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-04-28 06:24:51] INFO root fetch - main [MainThread]: End processing [at-fetch]: success
+[2023-04-28 06:24:51] INFO root fetch - main [MainThread]: End processing [quorum-mininode-py]: success
+[2023-04-28 06:24:51] INFO root fetch - main [MainThread]: End processing [generic-path]: success
+[2023-04-28 06:24:51] INFO root fetch - main [MainThread]: End processing [sagemaker-pytorch-training]: success
+[2023-04-28 06:24:52] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-04-28 06:24:52] INFO root fetch - main [MainThread]: Store serial: [17893877]
