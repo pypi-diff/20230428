@@ -12193,3 +12193,123 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 12:07:24] INFO root fetch - main [MainThread]: End processing [hostphot]: success
 [2023-04-28 12:07:47] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
 [2023-04-28 12:07:47] INFO root fetch - main [MainThread]: Store serial: [17896485]
+[2023-04-28 12:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896485]
+[2023-04-28 12:12:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tarvis-exchange-dydx
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyPhasesML
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causica
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tarvis-exchange-woo
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asone
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garpix-menu
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tarvis-indicators-webapi
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tantaroba
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sky-api-client
+[2023-04-28 12:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tarvis-tradingbot
+[2023-04-28 12:12:56] INFO root fetch - processPackages [causica]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [pyPhasesML]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [tarvis-exchange-dydx]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [tarvis-exchange-woo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [asone]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [tarvis-tradingbot]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [tantaroba]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [tarvis-indicators-webapi]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [sky-api-client]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-04-28 12:12:56] INFO root fetch - processPackages [garpix-menu]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-28 12:12:57] INFO root fetch - processPackages [sky-api-client]: Downloading https://files.pythonhosted.org/packages/68/e9/4c2adc328b4d3a789d7bfe7940677e0b716419648fda268f54982cc70c60/sky_api_client-3.2.5.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-tradingbot]: Downloading https://files.pythonhosted.org/packages/a7/d8/f767835aaf3a944e7b5d990469d0cde0f03ffc27eed9ae5bf89c76cdc8c2/tarvis-tradingbot-0.9.4.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [garpix-menu]: Downloading https://files.pythonhosted.org/packages/9c/28/f41882f5e57fe195e4a8c37f9ec48073b794c7a1bedf2e543f3843bd6ab2/garpix_menu-1.8.0.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [asone]: Downloading https://files.pythonhosted.org/packages/9f/5f/b8457b4ae84313806908d25b970f7217a0347d2951cc7cfa3d57eb4da6e6/asone-0.2.8-py3-none-any.whl
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-indicators-webapi]: Downloading https://files.pythonhosted.org/packages/88/3f/2377f4d15888216f9d8a648d70da5e11f7e0e5da7caa6d9f2fef5c6b73a3/tarvis-indicators-webapi-0.9.4.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tantaroba]: Downloading https://files.pythonhosted.org/packages/b8/b5/e7ec1b2e3fd23855f0f15f64ce8c08a0900bf807543c3bd0e09a21e65820/tantaroba-0.4.0.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-exchange-woo]: Downloading https://files.pythonhosted.org/packages/aa/a2/5ee4f1aeb11e1893cf2cec09012da3ee4ee7ff5756718b1c109fe2fb9ae6/tarvis-exchange-woo-0.9.4.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-indicators-webapi]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-indicators-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-indicators-webapi-0.9.3.tar.gz tmp/tarvis-indicators-webapi-0.9.4.tar.gz --markdown 20230428/t/tarvis-indicators-webapi/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/f4/66/bbcb19a519996f7a5a62419afe2f86cdcfceab5c56378c650f6b69d7df08/pyPhasesML-0.5.0.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-exchange-woo]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-exchange-woo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-exchange-woo-0.9.3.tar.gz tmp/tarvis-exchange-woo-0.9.4.tar.gz --markdown 20230428/t/tarvis-exchange-woo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [causica]: Downloading https://files.pythonhosted.org/packages/36/7b/4f5fd91c9859e278ee1d100047ce04da7983fa001c60230b7180f9d66c2c/causica-0.3.1.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-exchange-dydx]: Downloading https://files.pythonhosted.org/packages/0b/50/a15b41982cd1afe4dd99c712723daeae00b31c6b3469011a96df9afbe27b/tarvis-exchange-dydx-0.9.4.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-tradingbot]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-tradingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-tradingbot-0.9.3.tar.gz tmp/tarvis-tradingbot-0.9.4.tar.gz --markdown 20230428/t/tarvis-tradingbot/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.4.9.tar.gz tmp/pyPhasesML-0.5.0.tar.gz --markdown 20230428/p/pyPhasesML/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-exchange-dydx]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tarvis-exchange-dydx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-exchange-dydx-0.9.2.tar.gz tmp/tarvis-exchange-dydx-0.9.4.tar.gz --markdown 20230428/t/tarvis-exchange-dydx/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [causica]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [causica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causica-0.3.0.tar.gz tmp/causica-0.3.1.tar.gz --markdown 20230428/c/causica/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [sky-api-client]: Downloading https://files.pythonhosted.org/packages/16/1b/132f52a66c6d767912ee8faefa3d0c60732c6420136076076abba8138eb9/sky_api_client-3.2.6.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [asone]: Downloading https://files.pythonhosted.org/packages/c6/fb/f89c692d4355dae6e53097081b0bdfe9d6de6f1dbe34063fd2803ac25364/asone-0.2.9-py3-none-any.whl
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tantaroba]: Downloading https://files.pythonhosted.org/packages/24/5e/5ea9edb5f09620eae5c05fdb40611c905b7c2a473b563e4a35482e00d988/tantaroba-0.4.1.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tantaroba]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [tantaroba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tantaroba-0.4.0.tar.gz tmp/tantaroba-0.4.1.tar.gz --markdown 20230428/t/tantaroba/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [asone]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [asone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asone-0.2.8-py3-none-any.whl.zip tmp/asone-0.2.9-py3-none-any.whl.zip --markdown 20230428/a/asone/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [garpix-menu]: Downloading https://files.pythonhosted.org/packages/be/a8/202e384e086a5ca487b692a6e7436b9dab9fb6c2f3f89ecac1f8c9a77c34/garpix_menu-1.9.0.tar.gz
+[2023-04-28 12:12:57] INFO root fetch - processPackages [sky-api-client]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [sky-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sky_api_client-3.2.5.tar.gz tmp/sky_api_client-3.2.6.tar.gz --markdown 20230428/s/sky-api-client/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-04-28 12:12:57] INFO root fetch - processPackages [garpix-menu]: executing diffoscope
+[2023-04-28 12:12:57] INFO root fetch - processPackages [garpix-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_menu-1.8.0.tar.gz tmp/garpix_menu-1.9.0.tar.gz --markdown 20230428/g/garpix-menu/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 12:12:58] INFO root fetch - processPackages [tarvis-indicators-webapi]: Start processing: pygrille
+[2023-04-28 12:12:58] INFO root fetch - main [MainThread]: End processing [tarvis-indicators-webapi]: success
+[2023-04-28 12:12:58] INFO root fetch - processPackages [pygrille]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 12:12:58] INFO root fetch - processPackages [tarvis-tradingbot]: Start processing: nonebot-plugin-bawiki
+[2023-04-28 12:12:58] INFO root fetch - main [MainThread]: End processing [tarvis-tradingbot]: success
+[2023-04-28 12:12:58] INFO root fetch - processPackages [nonebot-plugin-bawiki]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-04-28 12:12:58] INFO root fetch - processPackages [tarvis-exchange-dydx]: Start processing: strangeworks-braket
+[2023-04-28 12:12:58] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-dydx]: success
+[2023-04-28 12:12:58] INFO root fetch - processPackages [tarvis-exchange-woo]: Start processing: pyprland
+[2023-04-28 12:12:58] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-woo]: success
+[2023-04-28 12:12:58] INFO root fetch - processPackages [strangeworks-braket]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 12:12:58] INFO root fetch - processPackages [pygrille]: Downloading https://files.pythonhosted.org/packages/67/f2/4574d0a8b55943666062a709876c0c63d0ddfc324eaaa5b4f15aba79662f/pygrille-0.3.1.tar.gz
+[2023-04-28 12:12:58] INFO root fetch - processPackages [pyprland]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 12:12:59] INFO root fetch - processPackages [pyPhasesML]: Start processing: cosmotech-api
+[2023-04-28 12:12:59] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-04-28 12:12:59] INFO root fetch - processPackages [pygrille]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [pygrille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrille-0.3.0.tar.gz tmp/pygrille-0.3.1.tar.gz --markdown 20230428/p/pygrille/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 12:12:59] INFO root fetch - processPackages [cosmotech-api]: New version: [2.4.0] Old Version: [2.2.0]
+[2023-04-28 12:12:59] INFO root fetch - processPackages [pyprland]: Downloading https://files.pythonhosted.org/packages/37/0c/6af0e42431a45abae73bacbceabc68d29571b4d40de3e17fddab69edc3ac/pyprland-1.0.0.tar.gz
+[2023-04-28 12:12:59] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/a7/40/1fea073304f81e308bfb67116ac36db6274d598c66440b678f1358ac6534/nonebot_plugin_bawiki-0.7.6.tar.gz
+[2023-04-28 12:12:59] INFO root fetch - processPackages [tantaroba]: Start processing: schoolware-api
+[2023-04-28 12:12:59] INFO root fetch - main [MainThread]: End processing [tantaroba]: success
+[2023-04-28 12:12:59] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-28 12:12:59] INFO root fetch - processPackages [nonebot-plugin-bawiki]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [nonebot-plugin-bawiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bawiki-0.7.5.tar.gz tmp/nonebot_plugin_bawiki-0.7.6.tar.gz --markdown 20230428/n/nonebot-plugin-bawiki/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-04-28 12:12:59] INFO root fetch - processPackages [sky-api-client]: Start processing: RaphaelSomaDIT
+[2023-04-28 12:12:59] INFO root fetch - main [MainThread]: End processing [sky-api-client]: success
+[2023-04-28 12:12:59] INFO root fetch - processPackages [strangeworks-braket]: Downloading https://files.pythonhosted.org/packages/5f/7a/f6974afcb4ffb06370898367204cc23541d2535b231aa145b45c2d73558d/strangeworks_braket-1.0.4.tar.gz
+[2023-04-28 12:12:59] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.4.tar.gz tmp/schoolware_api-1.0.5.tar.gz --markdown 20230428/s/schoolware-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-28 12:12:59] INFO root fetch - processPackages [strangeworks-braket]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [strangeworks-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_braket-1.0.3.tar.gz tmp/strangeworks_braket-1.0.4.tar.gz --markdown 20230428/s/strangeworks-braket/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 12:12:59] INFO root fetch - processPackages [cosmotech-api]: Downloading https://files.pythonhosted.org/packages/bc/d0/5e974b186e0061d0f5ff91102ff5e3ece0b5b660d63b7af543b1dbe00bc3/cosmotech-api-2.2.0.tar.gz
+[2023-04-28 12:12:59] INFO root fetch - processPackages [pyprland]: Downloading https://files.pythonhosted.org/packages/e3/df/448fc790d6f9857fddd9f220d4c36f2b40168a31870c4874956621d9b3a4/pyprland-1.0.1.tar.gz
+[2023-04-28 12:12:59] INFO root fetch - processPackages [RaphaelSomaDIT]: New version: [2.5] Old Version: [2.4]
+[2023-04-28 12:12:59] INFO root fetch - processPackages [pyprland]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [pyprland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprland-1.0.0.tar.gz tmp/pyprland-1.0.1.tar.gz --markdown 20230428/p/pyprland/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 12:12:59] INFO root fetch - processPackages [cosmotech-api]: Downloading https://files.pythonhosted.org/packages/16/9a/76d7159317d4a47e2771f86140d16292c72d36edccddb6ef4a7a4acce0c4/cosmotech-api-2.4.0.tar.gz
+[2023-04-28 12:12:59] INFO root fetch - processPackages [cosmotech-api]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [cosmotech-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmotech-api-2.2.0.tar.gz tmp/cosmotech-api-2.4.0.tar.gz --markdown 20230428/c/cosmotech-api/2.2.0-2.4.0/diff.md --exclude *.pyd
+[2023-04-28 12:12:59] INFO root fetch - processPackages [RaphaelSomaDIT]: Downloading https://files.pythonhosted.org/packages/63/20/048a46404f461c218994af8b40d068f10f33ae03056885f04e556bafb2e4/RaphaelSomaDIT-2.5-py3-none-any.whl
+[2023-04-28 12:12:59] INFO root fetch - processPackages [garpix-menu]: Start processing: px-django-lingua
+[2023-04-28 12:12:59] INFO root fetch - main [MainThread]: End processing [garpix-menu]: success
+[2023-04-28 12:12:59] INFO root fetch - processPackages [px-django-lingua]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 12:12:59] INFO root fetch - processPackages [RaphaelSomaDIT]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [RaphaelSomaDIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RaphaelSomaDIT-2.4-py3-none-any.whl.zip tmp/RaphaelSomaDIT-2.5-py3-none-any.whl.zip --markdown 20230428/R/RaphaelSomaDIT/2.4-2.5/diff.md --exclude *.pyd
+[2023-04-28 12:12:59] INFO root fetch - processPackages [px-django-lingua]: executing diffoscope
+[2023-04-28 12:12:59] INFO root fetch - processPackages [px-django-lingua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/px-django-lingua-0.1.5.tar.gz tmp/px-django-lingua-0.1.6.tar.gz --markdown 20230428/p/px-django-lingua/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 12:13:00] INFO root fetch - processPackages [pygrille]: Start processing: i3dFeatureExtraction
+[2023-04-28 12:13:00] INFO root fetch - main [MainThread]: End processing [pygrille]: success
+[2023-04-28 12:13:00] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 12:13:00] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-28 12:13:00] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.3.0.tar.gz tmp/i3dFeatureExtraction-0.3.1.tar.gz --markdown 20230428/i/i3dFeatureExtraction/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 12:13:00] INFO root fetch - main [MainThread]: End processing [strangeworks-braket]: success
+[2023-04-28 12:13:00] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-04-28 12:13:00] INFO root fetch - main [MainThread]: End processing [pyprland]: success
+[2023-04-28 12:13:01] INFO root fetch - main [MainThread]: End processing [asone]: success
+[2023-04-28 12:13:01] INFO root fetch - main [MainThread]: End processing [RaphaelSomaDIT]: success
+[2023-04-28 12:13:01] INFO root fetch - main [MainThread]: End processing [px-django-lingua]: success
+[2023-04-28 12:13:01] INFO root fetch - main [MainThread]: End processing [causica]: success
+[2023-04-28 12:13:01] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-28 12:13:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bawiki]: success
+[2023-04-28 12:13:04] INFO root fetch - main [MainThread]: End processing [cosmotech-api]: success
+[2023-04-28 12:13:04] INFO root fetch - main [MainThread]: Store serial: [17896540]
