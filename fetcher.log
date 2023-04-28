@@ -17449,3 +17449,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 17:04:59] INFO root fetch - main [MainThread]: End processing [curriculum-analysis]: success
 [2023-04-28 17:05:00] INFO root fetch - main [MainThread]: End processing [shtRipper-cpp]: success
 [2023-04-28 17:05:00] INFO root fetch - main [MainThread]: Store serial: [17899714]
+[2023-04-28 17:10:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899714]
+[2023-04-28 17:10:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coretex
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eir-auto-gp
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helicone
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prefect-spark-on-k8s-operator
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asgardpy
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-security-group
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CalSciPy
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scratchconnect
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psiz
+[2023-04-28 17:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frankAllSkyCam
+[2023-04-28 17:10:11] WARNING root fetch - processPackages [helicone]: Skipping, unable to determine old version
+[2023-04-28 17:10:11] INFO root fetch - processPackages [helicone]: Start processing: prismacloud-cli
+[2023-04-28 17:10:11] INFO root fetch - main [MainThread]: End processing [helicone] error
+[2023-04-28 17:10:11] INFO root fetch - processPackages [eir-auto-gp]: New version: [0.0.3a0] Old Version: [0.0.2a0]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [prefect-spark-on-k8s-operator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [asgardpy]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 17:10:11] WARNING root fetch - processPackages [frankAllSkyCam]: Skipping, unable to determine old version
+[2023-04-28 17:10:11] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam] error
+[2023-04-28 17:10:11] INFO root fetch - processPackages [psiz]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [CalSciPy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [scratchconnect]: New version: [5.0] Old Version: [4.5.2]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [psiz]: Downloading https://files.pythonhosted.org/packages/d8/00/a8e8ca85e8bd5f723467ce21c343945cf28914db89849a529fd0e2de73df/psiz-0.8.1.tar.gz
+[2023-04-28 17:10:11] WARNING root fetch - processPackages [psiz]: Skipping package: exceeds size limit 37022893>=10485760
+[2023-04-28 17:10:11] INFO root fetch - main [MainThread]: End processing [psiz] error
+[2023-04-28 17:10:11] INFO root fetch - processPackages [asgardpy]: Downloading https://files.pythonhosted.org/packages/d5/4e/b09714940a43035dec311f64a41f46946b986cea65a2f7e01a485f86e154/asgardpy-0.3.1.tar.gz
+[2023-04-28 17:10:11] INFO root fetch - processPackages [eir-auto-gp]: Downloading https://files.pythonhosted.org/packages/97/6f/8f77febbbe9ade28dbf388ec22c050105b629bd64539064cb8f287b7dbd5/eir_auto_gp-0.0.2a0.tar.gz
+[2023-04-28 17:10:11] INFO root fetch - processPackages [prismacloud-cli]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-28 17:10:11] INFO root fetch - processPackages [prefect-spark-on-k8s-operator]: Downloading https://files.pythonhosted.org/packages/3f/e8/77a80dad269781afa7b8b8d5db99e75286eb84c43de46a2a15acb3cdfd83/prefect-spark-on-k8s-operator-0.1.1.tar.gz
+[2023-04-28 17:10:11] INFO root fetch - processPackages [asgardpy]: executing diffoscope
+[2023-04-28 17:10:11] INFO root fetch - processPackages [asgardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgardpy-0.3.0.tar.gz tmp/asgardpy-0.3.1.tar.gz --markdown 20230428/a/asgardpy/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 17:10:11] INFO root fetch - processPackages [scratchconnect]: Downloading https://files.pythonhosted.org/packages/67/3b/447c9bcb82aeac1ef8d15cbb0e34b13a530988f8e6ed535405245c5e2d13/scratchconnect-4.5.2.tar.gz
+[2023-04-28 17:10:12] INFO root fetch - processPackages [CalSciPy]: Downloading https://files.pythonhosted.org/packages/55/b1/c9deb740985e6d4ac2673f303df5ac0a256a10afee59505b9199f4d4e3d9/CalSciPy-0.2.2.tar.gz
+[2023-04-28 17:10:12] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-04-28 17:10:12] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230428/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 17:10:12] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-04-28 17:10:12] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 17:10:12] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/10/60/36cfec1b8b42bbd572ecb6e0dbd0ccec34e4de32923b122f1a19d5fe68d6/prismacloud-cli-0.6.8.tar.gz
+[2023-04-28 17:10:12] INFO root fetch - processPackages [CalSciPy]: executing diffoscope
+[2023-04-28 17:10:12] INFO root fetch - processPackages [CalSciPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CalSciPy-0.2.1.tar.gz tmp/CalSciPy-0.2.2.tar.gz --markdown 20230428/C/CalSciPy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-28 17:10:12] INFO root fetch - processPackages [prefect-spark-on-k8s-operator]: Downloading https://files.pythonhosted.org/packages/16/7a/ee4ecaac15489161b83794877d313c8c3fd2afc481aab36611538c11785c/prefect-spark-on-k8s-operator-0.1.2.tar.gz
+[2023-04-28 17:10:12] INFO root fetch - processPackages [prefect-spark-on-k8s-operator]: executing diffoscope
+[2023-04-28 17:10:12] INFO root fetch - processPackages [prefect-spark-on-k8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-spark-on-k8s-operator-0.1.1.tar.gz tmp/prefect-spark-on-k8s-operator-0.1.2.tar.gz --markdown 20230428/p/prefect-spark-on-k8s-operator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 17:10:12] INFO root fetch - processPackages [scratchconnect]: Downloading https://files.pythonhosted.org/packages/17/b8/40dbb12a13e9c898b2a63a953ffe2969f3c84d7031b0cd5c9a8b96f7da03/scratchconnect-5.0.tar.gz
+[2023-04-28 17:10:12] INFO root fetch - processPackages [eir-auto-gp]: Downloading https://files.pythonhosted.org/packages/76/4d/bc91743cb73f62280c69d668d26136e5883938baad14f2274609725972ad/eir_auto_gp-0.0.3a0.tar.gz
+[2023-04-28 17:10:12] INFO root fetch - processPackages [scratchconnect]: executing diffoscope
+[2023-04-28 17:10:12] INFO root fetch - processPackages [scratchconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchconnect-4.5.2.tar.gz tmp/scratchconnect-5.0.tar.gz --markdown 20230428/s/scratchconnect/4.5.2-5.0/diff.md --exclude *.pyd
+[2023-04-28 17:10:12] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/af/0e/fa72b8483f8c01e8575ef6f961e2b6c4d1cdcab84f520c6f82d9d0ece079/prismacloud-cli-0.6.9.tar.gz
+[2023-04-28 17:10:12] INFO root fetch - processPackages [eir-auto-gp]: executing diffoscope
+[2023-04-28 17:10:12] INFO root fetch - processPackages [eir-auto-gp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eir_auto_gp-0.0.2a0.tar.gz tmp/eir_auto_gp-0.0.3a0.tar.gz --markdown 20230428/e/eir-auto-gp/0.0.2a0-0.0.3a0/diff.md --exclude *.pyd
+[2023-04-28 17:10:12] INFO root fetch - processPackages [prismacloud-cli]: executing diffoscope
+[2023-04-28 17:10:12] INFO root fetch - processPackages [prismacloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismacloud-cli-0.6.8.tar.gz tmp/prismacloud-cli-0.6.9.tar.gz --markdown 20230428/p/prismacloud-cli/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-28 17:10:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-04-28 17:10:13] INFO root fetch - main [MainThread]: End processing [asgardpy]: success
+[2023-04-28 17:10:13] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-04-28 17:10:13] INFO root fetch - main [MainThread]: End processing [prefect-spark-on-k8s-operator]: success
+[2023-04-28 17:10:14] INFO root fetch - main [MainThread]: End processing [CalSciPy]: success
+[2023-04-28 17:10:14] INFO root fetch - main [MainThread]: End processing [scratchconnect]: success
+[2023-04-28 17:10:14] INFO root fetch - main [MainThread]: End processing [prismacloud-cli]: success
+[2023-04-28 17:10:14] INFO root fetch - main [MainThread]: End processing [eir-auto-gp]: success
+[2023-04-28 17:10:14] INFO root fetch - main [MainThread]: Store serial: [17899750]
