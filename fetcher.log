@@ -21334,3 +21334,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 21:18:01] INFO root fetch - main [MainThread]: End processing [pyxet]: success
 [2023-04-28 21:18:19] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-28 21:18:19] INFO root fetch - main [MainThread]: Store serial: [17902115]
+[2023-04-28 21:23:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902115]
+[2023-04-28 21:23:37] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frouros
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brer-md
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxylookup
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tamp
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protobuf
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baffled-v3
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-automation-framework
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minirony
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Circles-Logger
+[2023-04-28 21:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fish-audio-preprocess
+[2023-04-28 21:23:37] INFO root fetch - processPackages [minirony]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 21:23:37] INFO root fetch - processPackages [brer-md]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-04-28 21:23:37] WARNING root fetch - processPackages [Circles-Logger]: Skipping, unable to determine old version
+[2023-04-28 21:23:37] INFO root fetch - processPackages [Circles-Logger]: Start processing: pydantic-view
+[2023-04-28 21:23:37] INFO root fetch - processPackages [frouros]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-28 21:23:37] INFO root fetch - processPackages [tamp]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-04-28 21:23:37] INFO root fetch - main [MainThread]: End processing [Circles-Logger] error
+[2023-04-28 21:23:37] WARNING root fetch - processPackages [baffled-v3]: Skipping, unable to determine old version
+[2023-04-28 21:23:37] INFO root fetch - processPackages [baffled-v3]: Start processing: tvb-widgets
+[2023-04-28 21:23:37] INFO root fetch - main [MainThread]: End processing [baffled-v3] error
+[2023-04-28 21:23:37] WARNING root fetch - processPackages [python-automation-framework]: Skipping, unable to determine old version
+[2023-04-28 21:23:37] WARNING root fetch - processPackages [pyxylookup]: Skipping, unable to determine old version
+[2023-04-28 21:23:37] INFO root fetch - processPackages [python-automation-framework]: Start processing: paayes
+[2023-04-28 21:23:37] INFO root fetch - main [MainThread]: End processing [python-automation-framework] error
+[2023-04-28 21:23:37] INFO root fetch - processPackages [fish-audio-preprocess]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-28 21:23:37] INFO root fetch - processPackages [pyxylookup]: Start processing: xia-agent
+[2023-04-28 21:23:37] INFO root fetch - main [MainThread]: End processing [pyxylookup] error
+[2023-04-28 21:23:37] INFO root fetch - processPackages [tvb-widgets]: New version: [1.4.0a1] Old Version: [1.4.0]
+[2023-04-28 21:23:37] INFO root fetch - processPackages [pydantic-view]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 21:23:37] INFO root fetch - processPackages [protobuf]: New version: [4.23.0rc2] Old Version: [4.22.3]
+[2023-04-28 21:23:37] WARNING root fetch - processPackages [paayes]: Skipping, unable to determine old version
+[2023-04-28 21:23:37] INFO root fetch - processPackages [paayes]: Start processing: assistant-fulfillment-helper
+[2023-04-28 21:23:37] INFO root fetch - main [MainThread]: End processing [paayes] error
+[2023-04-28 21:23:37] INFO root fetch - processPackages [xia-agent]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-28 21:23:37] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/e2/86/44a1e4990a81cb4248a2091a182bb76a6417fddcaff560ceb6b44eb05c55/protobuf-4.22.3.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/6e/29/1ae1dcbee860cdbe59a5fb5d09908408a9a755d432cec2204b1132653ada/frouros-0.2.4.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [assistant-fulfillment-helper]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-28 21:23:37] INFO root fetch - processPackages [minirony]: Downloading https://files.pythonhosted.org/packages/ca/73/0b16873b1d108b8a52375a80bf67e17c96cf510b8a885a4cff5a5f3a33f9/Minirony-0.0.1.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/88/05/70235c459ba0c2f1bc160e860a85fbbaea096c8481dfdb6745c1a25a38d2/tamp-0.0.0.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [tvb-widgets]: Downloading https://files.pythonhosted.org/packages/77/58/fa030926e639389a3b6f130b9460220712007ab2495abf78c03755a04e65/tvb-widgets-1.4.0.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [pydantic-view]: Downloading https://files.pythonhosted.org/packages/5a/77/d53e2e6e532a7908a940eda4122d475d41bb54a7b12ec0379d6b3a27a022/pydantic_view-0.1.1.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/b4/d2/67f068112511032a557ae41ba8650bf96f94d39e752fc9f9b0748006cb2a/protobuf-4.23.0rc2.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [tvb-widgets]: executing diffoscope
+[2023-04-28 21:23:37] INFO root fetch - processPackages [tvb-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvb-widgets-1.4.0.tar.gz tmp/tvb-widgets-1.4.0a1.tar.gz --markdown 20230428/t/tvb-widgets/1.4.0-1.4.0a1/diff.md --exclude *.pyd
+[2023-04-28 21:23:37] INFO root fetch - processPackages [fish-audio-preprocess]: Downloading https://files.pythonhosted.org/packages/14/e0/4aeb67788646ef94b36f776a1b8021f9cdd17afac7a60efdbbb493ea58cb/fish_audio_preprocess-0.2.1.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [assistant-fulfillment-helper]: Downloading https://files.pythonhosted.org/packages/82/e7/27b6744594b0bde6a9761188951c2da00cd5195283e5644044b23e8c913c/assistant-fulfillment-helper-1.0.4.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [minirony]: Downloading https://files.pythonhosted.org/packages/6a/44/c7a45e8d9c0ae0a8a795b0dd5fa3384e61ccb9543217adbd84fee48d5eba/minirony-0.0.2.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [brer-md]: Downloading https://files.pythonhosted.org/packages/ca/9d/c8dfd5a621cf518845bcf2fbf22d07b6b187058801448bad8724041010f3/brer-md-2.0.0b9.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/0d/9a/cf0714b56cde4b015836cc27f6104704987f3a8c50c68769166a1c63c6ba/frouros-0.2.5.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [protobuf]: executing diffoscope
+[2023-04-28 21:23:37] INFO root fetch - processPackages [protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protobuf-4.22.3.tar.gz tmp/protobuf-4.23.0rc2.tar.gz --markdown 20230428/p/protobuf/4.22.3-4.23.0rc2/diff.md --exclude *.pyd
+[2023-04-28 21:23:37] INFO root fetch - processPackages [minirony]: executing diffoscope
+[2023-04-28 21:23:37] INFO root fetch - processPackages [minirony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Minirony-0.0.1.tar.gz tmp/minirony-0.0.2.tar.gz --markdown 20230428/m/minirony/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 21:23:37] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/13/ff/c3263a8a7010ec0e242d98dc9df6af651b65260ebf3cb1466249886cab23/xia_agent-0.1.0-cp39-none-macosx_11_0_x86_64.whl
+[2023-04-28 21:23:37] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-04-28 21:23:37] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.2.4.tar.gz tmp/frouros-0.2.5.tar.gz --markdown 20230428/f/frouros/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-28 21:23:37] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/9e/13/c76f8235e86f204f536271512c04c7396d98bb92f60e688877394498b972/tamp-1.0.0.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [xia-agent]: executing diffoscope
+[2023-04-28 21:23:37] INFO root fetch - processPackages [xia-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_agent-0.0.9-cp39-none-win_amd64.whl.zip tmp/xia_agent-0.1.0-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230428/x/xia-agent/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-28 21:23:37] INFO root fetch - processPackages [pydantic-view]: Downloading https://files.pythonhosted.org/packages/05/55/1b6e56e214e0bdc82654fe1a057d2af543fcc3c6697b9f7d06bfe987ccb6/pydantic_view-0.1.2.tar.gz
+[2023-04-28 21:23:37] INFO root fetch - processPackages [pydantic-view]: executing diffoscope
+[2023-04-28 21:23:37] INFO root fetch - processPackages [pydantic-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_view-0.1.1.tar.gz tmp/pydantic_view-0.1.2.tar.gz --markdown 20230428/p/pydantic-view/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 21:23:38] INFO root fetch - processPackages [tamp]: executing diffoscope
+[2023-04-28 21:23:38] INFO root fetch - processPackages [tamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamp-0.0.0.tar.gz tmp/tamp-1.0.0.tar.gz --markdown 20230428/t/tamp/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-28 21:23:38] INFO root fetch - processPackages [assistant-fulfillment-helper]: Downloading https://files.pythonhosted.org/packages/07/e2/cd10c3e98066755b6f01e195df46aa10ac1e5aad02e2108f391009625b02/assistant-fulfillment-helper-1.0.5.tar.gz
+[2023-04-28 21:23:38] INFO root fetch - processPackages [assistant-fulfillment-helper]: executing diffoscope
+[2023-04-28 21:23:38] INFO root fetch - processPackages [assistant-fulfillment-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistant-fulfillment-helper-1.0.4.tar.gz tmp/assistant-fulfillment-helper-1.0.5.tar.gz --markdown 20230428/a/assistant-fulfillment-helper/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-28 21:23:38] INFO root fetch - processPackages [fish-audio-preprocess]: Downloading https://files.pythonhosted.org/packages/f4/49/18aa8361e51858f1c060cf6bc1b51987fdaf5fe038189d15a09b505632b5/fish_audio_preprocess-0.2.2.tar.gz
+[2023-04-28 21:23:38] INFO root fetch - processPackages [fish-audio-preprocess]: executing diffoscope
+[2023-04-28 21:23:38] INFO root fetch - processPackages [fish-audio-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_audio_preprocess-0.2.1.tar.gz tmp/fish_audio_preprocess-0.2.2.tar.gz --markdown 20230428/f/fish-audio-preprocess/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-28 21:23:39] INFO root fetch - processPackages [minirony]: Start processing: cashfree-lrs-client
+[2023-04-28 21:23:39] INFO root fetch - main [MainThread]: End processing [minirony]: success
+[2023-04-28 21:23:39] WARNING root fetch - processPackages [cashfree-lrs-client]: Skipping, unable to determine old version
+[2023-04-28 21:23:39] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client] error
+[2023-04-28 21:23:39] INFO root fetch - main [MainThread]: End processing [xia-agent]: success
+[2023-04-28 21:23:39] INFO root fetch - main [MainThread]: End processing [pydantic-view]: success
+[2023-04-28 21:23:39] INFO root fetch - processPackages [brer-md]: executing diffoscope
+[2023-04-28 21:23:39] INFO root fetch - processPackages [brer-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brer-md-2.0.0b8.tar.gz tmp/brer-md-2.0.0b9.tar.gz --markdown 20230428/b/brer-md/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-04-28 21:23:39] INFO root fetch - main [MainThread]: End processing [tamp]: success
+[2023-04-28 21:23:39] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-04-28 21:23:40] INFO root fetch - main [MainThread]: End processing [assistant-fulfillment-helper]: success
+[2023-04-28 21:23:40] INFO root fetch - main [MainThread]: End processing [tvb-widgets]: success
+[2023-04-28 21:23:40] INFO root fetch - main [MainThread]: End processing [fish-audio-preprocess]: success
+[2023-04-28 21:23:41] INFO root fetch - main [MainThread]: End processing [protobuf]: success
+[2023-04-28 21:23:41] INFO root fetch - main [MainThread]: End processing [brer-md]: success
+[2023-04-28 21:23:41] INFO root fetch - main [MainThread]: Store serial: [17902181]
