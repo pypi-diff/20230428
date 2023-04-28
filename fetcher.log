@@ -20615,3 +20615,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 20:16:56] INFO root fetch - main [MainThread]: End processing [gym-collision-avoidance]: success
 [2023-04-28 20:17:02] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-04-28 20:17:02] INFO root fetch - main [MainThread]: Store serial: [17901687]
+[2023-04-28 20:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901687]
+[2023-04-28 20:22:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andeplane-pyodide-kernel
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mell
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DGSD
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentient-switchblade
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: estimenergy
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxecm
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: circuitpython-isl29125
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bandripper
+[2023-04-28 20:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-repo-client
+[2023-04-28 20:22:11] INFO root fetch - processPackages [mell]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-28 20:22:11] INFO root fetch - processPackages [andeplane-pyodide-kernel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 20:22:11] INFO root fetch - processPackages [DGSD]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-04-28 20:22:11] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-28 20:22:11] WARNING root fetch - processPackages [pyxecm]: Skipping, unable to determine old version
+[2023-04-28 20:22:11] INFO root fetch - main [MainThread]: End processing [pyxecm] error
+[2023-04-28 20:22:11] INFO root fetch - processPackages [bandripper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 20:22:11] INFO root fetch - processPackages [estimenergy]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-28 20:22:11] INFO root fetch - processPackages [circuitpython-isl29125]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-04-28 20:22:11] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.476.0]
+[2023-04-28 20:22:11] INFO root fetch - processPackages [DGSD]: Downloading https://files.pythonhosted.org/packages/fb/0d/d37b8ff4428e9e38794c9787dba39cf35cb81ef412a632ea9cfd6139268b/DGSD-1.0.4.tar.gz
+[2023-04-28 20:22:11] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/01/d5/602d04197f619ea677c5b49072030c50c09bc872dc71d54a4fd2e5962fea/sentient_switchblade-0.2.0.tar.gz
+[2023-04-28 20:22:11] INFO root fetch - processPackages [bandripper]: Downloading https://files.pythonhosted.org/packages/2f/ad/0a2b5ea18bebd7ac22ed2e154da49999dca4f8a56278916af8d4f76407da/bandripper-0.1.5.tar.gz
+[2023-04-28 20:22:11] INFO root fetch - processPackages [circuitpython-isl29125]: Downloading https://files.pythonhosted.org/packages/18/81/17fb40bbe4e99cbf4658d0e1994bd645b91a8c11181b7c094a73602281b3/circuitpython-isl29125-0.2.1.tar.gz
+[2023-04-28 20:22:11] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/09/32/62fc9df393479f7a7f9fc9998898758f3f7f9cd22ae3ff607175e73b87a3/estimenergy-2.0.5.tar.gz
+[2023-04-28 20:22:12] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/6b/b2/9e73924e736b3c68057342ec09b76e2891073d195d7cee821180193c5af4/data-repo-client-1.476.0.tar.gz
+[2023-04-28 20:22:12] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.1.2.tar.gz tmp/sentient_switchblade-0.2.0.tar.gz --markdown 20230428/s/sentient-switchblade/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 20:22:12] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-2.0.4.tar.gz tmp/estimenergy-2.0.5.tar.gz --markdown 20230428/e/estimenergy/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-28 20:22:12] INFO root fetch - processPackages [mell]: Downloading https://files.pythonhosted.org/packages/6d/bf/673cd42a0beb9262151da2735c14e1e6d0f09e58a17f32e54d882e361f40/mell-2.0.4.tar.gz
+[2023-04-28 20:22:12] INFO root fetch - processPackages [andeplane-pyodide-kernel]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [andeplane-pyodide-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_pyodide_kernel-0.0.8-py3-none-any.whl.zip tmp/andeplane_pyodide_kernel-0.0.9-py3-none-any.whl.zip --markdown 20230428/a/andeplane-pyodide-kernel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 20:22:12] INFO root fetch - processPackages [mell]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [mell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mell-2.0.3.tar.gz tmp/mell-2.0.4.tar.gz --markdown 20230428/m/mell/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-28 20:22:12] INFO root fetch - processPackages [DGSD]: Downloading https://files.pythonhosted.org/packages/cc/8d/f34dbdc3eef0b8261223a51e9fe302067b5354ad74258202710f0bc1c5ed/DGSD-2.0.0.tar.gz
+[2023-04-28 20:22:12] INFO root fetch - processPackages [DGSD]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [DGSD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGSD-1.0.4.tar.gz tmp/DGSD-2.0.0.tar.gz --markdown 20230428/D/DGSD/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-04-28 20:22:12] INFO root fetch - processPackages [bandripper]: Downloading https://files.pythonhosted.org/packages/79/1e/9580eb10518a25e3fe4d3b682227855c153e5d109f3ff73b2313b299feb4/bandripper-0.1.6.tar.gz
+[2023-04-28 20:22:12] INFO root fetch - processPackages [circuitpython-isl29125]: Downloading https://files.pythonhosted.org/packages/d6/12/221995fafeb5763e1b392a36008654bddf01dca53c28d244c26e94f4798a/circuitpython-isl29125-0.2.3.tar.gz
+[2023-04-28 20:22:12] INFO root fetch - processPackages [circuitpython-isl29125]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [circuitpython-isl29125]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-isl29125-0.2.1.tar.gz tmp/circuitpython-isl29125-0.2.3.tar.gz --markdown 20230428/c/circuitpython-isl29125/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 20:22:12] INFO root fetch - processPackages [bandripper]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [bandripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandripper-0.1.5.tar.gz tmp/bandripper-0.1.6.tar.gz --markdown 20230428/b/bandripper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 20:22:12] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-04-28 20:22:12] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-04-28 20:22:12] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.476.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230428/d/data-repo-client/1.476.0-1.64.0/diff.md --exclude *.pyd
+[2023-04-28 20:22:13] INFO root fetch - main [MainThread]: End processing [mell]: success
+[2023-04-28 20:22:13] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-28 20:22:13] INFO root fetch - main [MainThread]: End processing [andeplane-pyodide-kernel]: success
+[2023-04-28 20:22:13] INFO root fetch - main [MainThread]: End processing [DGSD]: success
+[2023-04-28 20:22:13] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2023-04-28 20:22:14] INFO root fetch - main [MainThread]: End processing [circuitpython-isl29125]: success
+[2023-04-28 20:22:16] INFO root fetch - main [MainThread]: End processing [bandripper]: success
+[2023-04-28 20:22:16] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-04-28 20:22:16] INFO root fetch - main [MainThread]: Store serial: [17901723]
