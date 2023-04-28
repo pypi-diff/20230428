@@ -7987,3 +7987,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:30:36] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
 [2023-04-28 07:30:37] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-28 07:30:37] INFO root fetch - main [MainThread]: Store serial: [17894191]
+[2023-04-28 07:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894191]
+[2023-04-28 07:35:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anbani
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-runtime
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogram-ext
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-transform
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: echo-logger
+[2023-04-28 07:35:46] INFO root fetch - processPackages [anbani]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ai-transform]: New version: [0.30.9] Old Version: [0.30.8]
+[2023-04-28 07:35:46] WARNING root fetch - processPackages [echo-logger]: Skipping, unable to determine old version
+[2023-04-28 07:35:46] INFO root fetch - main [MainThread]: End processing [echo-logger] error
+[2023-04-28 07:35:46] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 07:35:46] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 07:35:46] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-04-28 07:35:46] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230428/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/84/00/e2b3549a00d60762396b11ce18df67c8758bcf5f7add6bf1e6d345b81121/ai_transform-0.30.8.tar.gz
+[2023-04-28 07:35:46] INFO root fetch - processPackages [anbani]: Downloading https://files.pythonhosted.org/packages/0b/38/48504eb998e46d7f63954705fa2da9def253fc9d5a7080a483f8beaba49e/anbani-0.9.4.tar.gz
+[2023-04-28 07:35:46] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/75/b6/219f1f2419b56fff06cd1ebef709e50e5762bcd92cc584841c45c951fa7b/aiogram-ext-0.1.8.tar.gz
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/f6/1e/2fd966fd7b337df349486362e6ae3bdf748aadaf4f3a257e6a5a04cc8ecd/ai_transform-0.30.9.tar.gz
+[2023-04-28 07:35:46] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 07:35:46] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 07:35:46] INFO root fetch - processPackages [anbani]: executing diffoscope
+[2023-04-28 07:35:46] INFO root fetch - processPackages [anbani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anbani-0.9.3.tar.gz tmp/anbani-0.9.4.tar.gz --markdown 20230428/a/anbani/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-04-28 07:35:46] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.30.8.tar.gz tmp/ai_transform-0.30.9.tar.gz --markdown 20230428/a/ai-transform/0.30.8-0.30.9/diff.md --exclude *.pyd
+[2023-04-28 07:35:47] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-04-28 07:35:47] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 07:35:47] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-04-28 07:35:48] INFO root fetch - main [MainThread]: End processing [anbani]: success
+[2023-04-28 07:35:48] INFO root fetch - main [MainThread]: Store serial: [17894213]
