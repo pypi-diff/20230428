@@ -18932,3 +18932,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:29:19] INFO root fetch - main [MainThread]: End processing [opensoundscape]: success
 [2023-04-28 18:29:27] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
 [2023-04-28 18:29:27] INFO root fetch - main [MainThread]: Store serial: [17900595]
+[2023-04-28 18:34:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900595]
+[2023-04-28 18:34:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clipped
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx-simplifier
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seed-farmer
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dexhub
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxsim
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rmsp-gui
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feathub-nightly
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emissions-allocation
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: picopins
+[2023-04-28 18:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wds-client
+[2023-04-28 18:34:37] WARNING root fetch - processPackages [rmsp-gui]: Skipping, unable to determine old version
+[2023-04-28 18:34:37] INFO root fetch - processPackages [rmsp-gui]: Start processing: django-drf-cms
+[2023-04-28 18:34:37] INFO root fetch - main [MainThread]: End processing [rmsp-gui] error
+[2023-04-28 18:34:37] INFO root fetch - processPackages [dexhub]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [clipped]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 18:34:37] WARNING root fetch - processPackages [emissions-allocation]: Skipping, unable to determine old version
+[2023-04-28 18:34:37] INFO root fetch - processPackages [emissions-allocation]: Start processing: edu-segmentation
+[2023-04-28 18:34:37] INFO root fetch - main [MainThread]: End processing [emissions-allocation] error
+[2023-04-28 18:34:37] INFO root fetch - processPackages [onnxsim]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [picopins]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230427] Old Version: [0.1.dev20230426]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [seed-farmer]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [onnx-simplifier]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 18:34:37] WARNING root fetch - processPackages [django-drf-cms]: Skipping, unable to determine old version
+[2023-04-28 18:34:37] INFO root fetch - processPackages [django-drf-cms]: Start processing: trawler-on-lake
+[2023-04-28 18:34:37] INFO root fetch - main [MainThread]: End processing [django-drf-cms] error
+[2023-04-28 18:34:37] WARNING root fetch - processPackages [edu-segmentation]: Skipping, unable to determine old version
+[2023-04-28 18:34:37] INFO root fetch - processPackages [edu-segmentation]: Start processing: selfcord.py
+[2023-04-28 18:34:37] INFO root fetch - main [MainThread]: End processing [edu-segmentation] error
+[2023-04-28 18:34:37] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/5e/e9/abe41062bb3fc9599be4453c55d84400ed74e5a1cb7e897089a82cd32515/dexhub-0.5.5.tar.gz
+[2023-04-28 18:34:37] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [picopins]: Downloading https://files.pythonhosted.org/packages/d3/77/1d2eb2de3833fb4d3bca1c05efceca9fa31b15dbe5139fe3f2644b3fc8d3/picopins-1.0.0.tar.gz
+[2023-04-28 18:34:37] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/7d/49/061f141a476bfeae4e99a19254b506946d5620c19ba9eda4553f5e4407d4/seed_farmer-2.6.3-py3-none-any.whl
+[2023-04-28 18:34:37] INFO root fetch - processPackages [onnx-simplifier]: Downloading https://files.pythonhosted.org/packages/d6/bb/4883248b3354d146d32371ede26d0194526a8c138b74c45fbaca5af54651/onnx-simplifier-0.4.8.tar.gz
+[2023-04-28 18:34:37] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/33/fd/3a50e408f1dfad005753bff0650ae046d95d1ae63b175bccb0bd2a02b679/feathub_nightly-0.1.dev20230427-py3-none-any.whl
+[2023-04-28 18:34:37] INFO root fetch - processPackages [selfcord.py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [onnxsim]: Downloading https://files.pythonhosted.org/packages/e7/b9/202cc2584a4ec999caa935e7e0fdb09bedec99bf28f3a8b35455ff6864eb/onnxsim-0.4.8.tar.gz
+[2023-04-28 18:34:37] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/33/a0/62132086659fff08d973cbf392307a1035455d5a89fb5de586bddd51a77f/clipped-0.3.1.tar.gz
+[2023-04-28 18:34:37] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-04-28 18:34:37] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230428/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 18:34:37] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/e1/e5/80cb25ab15597ece0782aee96e5f78be6a280b700b2341ebaf740724da69/dexhub-0.6.0.tar.gz
+[2023-04-28 18:34:37] WARNING root fetch - processPackages [onnx-simplifier]: Skipping package: exceeds size limit 18116655>=10485760
+[2023-04-28 18:34:37] INFO root fetch - processPackages [onnx-simplifier]: Start processing: charidotella
+[2023-04-28 18:34:37] INFO root fetch - main [MainThread]: End processing [onnx-simplifier] error
+[2023-04-28 18:34:37] INFO root fetch - processPackages [picopins]: Downloading https://files.pythonhosted.org/packages/37/10/54d458059818e0cbd2aa89f176d036a161c8d046b957724bb5d435533303/picopins-1.0.1.tar.gz
+[2023-04-28 18:34:37] WARNING root fetch - processPackages [onnxsim]: Skipping package: exceeds size limit 18121422>=10485760
+[2023-04-28 18:34:37] INFO root fetch - main [MainThread]: End processing [onnxsim] error
+[2023-04-28 18:34:37] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-04-28 18:34:37] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.3.0.tar.gz tmp/clipped-0.3.1.tar.gz --markdown 20230428/c/clipped/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 18:34:37] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-04-28 18:34:37] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.5.5.tar.gz tmp/dexhub-0.6.0.tar.gz --markdown 20230428/d/dexhub/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-04-28 18:34:37] INFO root fetch - processPackages [charidotella]: New version: [0.9] Old Version: [0.8]
+[2023-04-28 18:34:37] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/f3/a4/9c591e319a5ebe1400580e4cae8cd2679909d2b19341d4012cd1d1337f91/seed_farmer-2.6.4-py3-none-any.whl
+[2023-04-28 18:34:37] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-04-28 18:34:37] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230428/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-28 18:34:37] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/f8/ac/4373aa58ca847a0e494f570b6d763589dd245e6800ddf918ba9014a7a7eb/selfcord.py-0.1.0.tar.gz
+[2023-04-28 18:34:37] INFO root fetch - processPackages [picopins]: executing diffoscope
+[2023-04-28 18:34:37] INFO root fetch - processPackages [picopins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopins-1.0.0.tar.gz tmp/picopins-1.0.1.tar.gz --markdown 20230428/p/picopins/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 18:34:37] INFO root fetch - processPackages [seed-farmer]: executing diffoscope
+[2023-04-28 18:34:37] INFO root fetch - processPackages [seed-farmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seed_farmer-2.6.3-py3-none-any.whl.zip tmp/seed_farmer-2.6.4-py3-none-any.whl.zip --markdown 20230428/s/seed-farmer/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-04-28 18:34:37] INFO root fetch - processPackages [charidotella]: executing diffoscope
+[2023-04-28 18:34:37] INFO root fetch - processPackages [charidotella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charidotella-0.8.tar.gz tmp/charidotella-0.9.tar.gz --markdown 20230428/c/charidotella/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-28 18:34:38] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/e5/af/19bca4afff97de9031ad4233ab80c8e6a801e80caff1a60ca0c587628ca6/selfcord.py-0.1.1.tar.gz
+[2023-04-28 18:34:38] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-04-28 18:34:38] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.1.0.tar.gz tmp/selfcord.py-0.1.1.tar.gz --markdown 20230428/s/selfcord.py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 18:34:38] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [picopins]: success
+[2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-04-28 18:34:39] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-04-28 18:34:39] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230426-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230427-py3-none-any.whl.zip --markdown 20230428/f/feathub-nightly/0.1.dev20230426-0.1.dev20230427/diff.md --exclude *.pyd
+[2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [seed-farmer]: success
+[2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [charidotella]: success
+[2023-04-28 18:34:43] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-04-28 18:34:43] INFO root fetch - main [MainThread]: Store serial: [17900672]
