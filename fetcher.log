@@ -22632,3 +22632,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 22:57:46] INFO root fetch - main [MainThread]: End processing [naludaq-rs]: success
 [2023-04-28 22:57:48] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-04-28 22:57:48] INFO root fetch - main [MainThread]: Store serial: [17902958]
+[2023-04-28 23:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902958]
+[2023-04-28 23:02:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uproot-browser
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: featurizerai
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycstruct
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cryptical
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SciFiReaders
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-gitlab
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: staircase-kit
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yandex-noc-ck-cli
+[2023-04-28 23:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: habapp-rules
+[2023-04-28 23:02:57] INFO root fetch - processPackages [pycstruct]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [featurizerai]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [SciFiReaders]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [uproot-browser]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [cryptical]: New version: [0.4] Old Version: [0.3]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [habapp-rules]: New version: [3.0.0] Old Version: [2.1.1]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [staircase-kit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [pulumi-gitlab]: New version: [4.9.0a1666628674] Old Version: [4.9.0]
+[2023-04-28 23:02:57] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-28 23:02:58] WARNING root fetch - processPackages [yandex-noc-ck-cli]: Skipping, unable to determine old version
+[2023-04-28 23:02:58] INFO root fetch - processPackages [yandex-noc-ck-cli]: Start processing: pqam-dparamhu2021
+[2023-04-28 23:02:58] INFO root fetch - main [MainThread]: End processing [yandex-noc-ck-cli] error
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-4.9.0.tar.gz tmp/pulumi_gitlab-4.9.0a1666628674.tar.gz --markdown 20230428/p/pulumi-gitlab/4.9.0-4.9.0a1666628674/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pqam-dparamhu2021]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 23:02:58] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230428/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [staircase-kit]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [staircase-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staircase_kit-0.1.8.tar.gz tmp/staircase_kit-0.1.9.tar.gz --markdown 20230428/s/staircase-kit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [habapp-rules]: Downloading https://files.pythonhosted.org/packages/77/2e/6c7bc4a8f9beb71e8063ef26ee863a72e206a213df0e5ef50afcf345e266/habapp_rules-2.1.1.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pycstruct]: Downloading https://files.pythonhosted.org/packages/e0/df/0af28d996f1ab14fe6f5653e7ece81f73ffaeffd6233e772e7638e3d170a/pycstruct-0.9.0.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [SciFiReaders]: Downloading https://files.pythonhosted.org/packages/3e/f1/65051e420910722e5c34dba425b92c302fc4d385688be6e81212373c8db5/SciFiReaders-0.0.8.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/60/03/e86f7fab2894986f3ec08be433e3e4ad1d29a7d32bf584f6297eabf02444/featurizerai-1.5.2.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.5.1.tar.gz tmp/featurizerai-1.5.2.tar.gz --markdown 20230428/f/featurizerai/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [cryptical]: Downloading https://files.pythonhosted.org/packages/ab/aa/ab3cae5c70f271cf50b5076fedfa334ced5b0958608bd9536eb6a156b7c0/cryptical-0.4.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pqam-dparamhu2021]: Downloading https://files.pythonhosted.org/packages/e4/96/2dfd1ca3878002e48fa2834ea6037c7fa9c2c9691cb5ed3a0b4b2d352a0a/pqam_dparamhu2021-0.1.1.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [uproot-browser]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [uproot-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot_browser-0.4.2.tar.gz tmp/uproot_browser-0.5.0.tar.gz --markdown 20230428/u/uproot-browser/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [cryptical]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [cryptical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptical-0.3.tar.gz tmp/cryptical-0.4.tar.gz --markdown 20230428/c/cryptical/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [habapp-rules]: Downloading https://files.pythonhosted.org/packages/e1/a1/1c68ed3710acbd24935d33c01c83591f0fe22dfdd77eac972d2ede322e68/habapp_rules-3.0.0.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [SciFiReaders]: Downloading https://files.pythonhosted.org/packages/4a/82/73564e44d43e56b2bc7cd766039ac3898b68e799d5a50d8fe6ab88e73849/SciFiReaders-0.0.9.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [habapp-rules]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [habapp-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habapp_rules-2.1.1.tar.gz tmp/habapp_rules-3.0.0.tar.gz --markdown 20230428/h/habapp-rules/2.1.1-3.0.0/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [SciFiReaders]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [SciFiReaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciFiReaders-0.0.8.tar.gz tmp/SciFiReaders-0.0.9.tar.gz --markdown 20230428/S/SciFiReaders/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pqam-dparamhu2021]: Downloading https://files.pythonhosted.org/packages/0f/f0/2d59dadb8f082de13772fa59e206b98491f69ba118ab1a5fe61f13bd3631/pqam_dparamhu2021-0.1.2.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pycstruct]: Downloading https://files.pythonhosted.org/packages/7b/bc/edf644029bcc91fb4199363161a33ebdca563e846b1807c319524492d591/pycstruct-0.9.1.tar.gz
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pycstruct]: executing diffoscope
+[2023-04-28 23:02:58] INFO root fetch - processPackages [pycstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycstruct-0.9.0.tar.gz tmp/pycstruct-0.9.1.tar.gz --markdown 20230428/p/pycstruct/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 23:02:59] INFO root fetch - main [MainThread]: End processing [staircase-kit]: success
+[2023-04-28 23:02:59] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-28 23:02:59] INFO root fetch - processPackages [pqam-dparamhu2021]: executing diffoscope
+[2023-04-28 23:02:59] INFO root fetch - processPackages [pqam-dparamhu2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqam_dparamhu2021-0.1.1.tar.gz tmp/pqam_dparamhu2021-0.1.2.tar.gz --markdown 20230428/p/pqam-dparamhu2021/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 23:02:59] INFO root fetch - main [MainThread]: End processing [cryptical]: success
+[2023-04-28 23:03:00] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-04-28 23:03:00] INFO root fetch - main [MainThread]: End processing [pycstruct]: success
+[2023-04-28 23:03:00] INFO root fetch - main [MainThread]: End processing [SciFiReaders]: success
+[2023-04-28 23:03:00] INFO root fetch - main [MainThread]: End processing [uproot-browser]: success
+[2023-04-28 23:03:00] INFO root fetch - main [MainThread]: End processing [habapp-rules]: success
+[2023-04-28 23:03:01] INFO root fetch - main [MainThread]: End processing [pqam-dparamhu2021]: success
+[2023-04-28 23:03:05] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-28 23:03:05] INFO root fetch - main [MainThread]: Store serial: [17902990]
