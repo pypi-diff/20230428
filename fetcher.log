@@ -17288,3 +17288,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:54:10] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-04-28 16:54:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-04-28 16:54:29] INFO root fetch - main [MainThread]: Store serial: [17899622]
+[2023-04-28 16:59:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899622]
+[2023-04-28 16:59:38] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: normflows
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oianalytics
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wildbook-ia
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fitsnap3
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykonal
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teritorio
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airunner
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyaesm
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: veta
+[2023-04-28 16:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skytag
+[2023-04-28 16:59:38] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev9] Old Version: [4.0.5.dev7]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [oianalytics]: New version: [0.5.2b2] Old Version: [0.5.2b1]
+[2023-04-28 16:59:38] WARNING root fetch - processPackages [pyaesm]: Skipping, unable to determine old version
+[2023-04-28 16:59:38] INFO root fetch - processPackages [fitsnap3]: New version: [3.0.1.2] Old Version: [3.0.1]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [pyaesm]: Start processing: integratorsevents
+[2023-04-28 16:59:38] INFO root fetch - main [MainThread]: End processing [pyaesm] error
+[2023-04-28 16:59:38] INFO root fetch - processPackages [pykonal]: New version: [0.4.0] Old Version: [0.3.3b0]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [normflows]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [teritorio]: New version: [2023.4.28] Old Version: [2023.2.1]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [skytag]: New version: [0.2.0] Old Version: [0.1]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [veta]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-04-28 16:59:38] WARNING root fetch - processPackages [integratorsevents]: Skipping, unable to determine old version
+[2023-04-28 16:59:38] INFO root fetch - processPackages [integratorsevents]: Start processing: dreamai-pdf
+[2023-04-28 16:59:38] INFO root fetch - main [MainThread]: End processing [integratorsevents] error
+[2023-04-28 16:59:38] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/40/85/5b53dde8c23f417276813ab5c417082c46f429e05a65e55774cc6246d065/wildbook_ia-4.0.5.dev7-py3-none-any.whl
+[2023-04-28 16:59:38] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662773>=10485760
+[2023-04-28 16:59:38] INFO root fetch - processPackages [wildbook-ia]: Start processing: pycognaize
+[2023-04-28 16:59:38] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-28 16:59:38] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-04-28 16:59:38] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230428/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-28 16:59:38] WARNING root fetch - processPackages [dreamai-pdf]: Skipping, unable to determine old version
+[2023-04-28 16:59:38] INFO root fetch - processPackages [dreamai-pdf]: Start processing: belvys
+[2023-04-28 16:59:38] INFO root fetch - main [MainThread]: End processing [dreamai-pdf] error
+[2023-04-28 16:59:38] INFO root fetch - processPackages [oianalytics]: Downloading https://files.pythonhosted.org/packages/9e/b3/cc05fe313f6d95338899cba507f10b48e83e6b8ce37a4868d4e901e77215/oianalytics-0.5.2b1.tar.gz
+[2023-04-28 16:59:38] INFO root fetch - processPackages [belvys]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/5d/fa/ef91aa46e3bd0d2ebb4920073ea4dbcdd9ea68688e5bc8d563743e472155/normflows-1.6.1.tar.gz
+[2023-04-28 16:59:38] INFO root fetch - processPackages [teritorio]: Downloading https://files.pythonhosted.org/packages/08/83/9ba2c42ea0269ba6820875f11384e8baeb1f913f724558d584e5a826ff1c/teritorio-2023.2.1.tar.gz
+[2023-04-28 16:59:38] INFO root fetch - processPackages [pykonal]: Downloading https://files.pythonhosted.org/packages/9d/63/abecc052e2827d6949be50d2594fe26ef343f3ec9f71ca4efb6758ae486d/pykonal-0.3.3b0.tar.gz
+[2023-04-28 16:59:38] INFO root fetch - processPackages [pycognaize]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-28 16:59:38] INFO root fetch - processPackages [fitsnap3]: Downloading https://files.pythonhosted.org/packages/73/d6/18168242781a2e5b0d4fbbb5d8815a3c6f624cc0476966721bc3e56a6be9/fitsnap3-3.0.1.2.tar.gz
+[2023-04-28 16:59:38] INFO root fetch - processPackages [skytag]: Downloading https://files.pythonhosted.org/packages/eb/51/838807bdc0d37e6e4280e9d1f93871fdebb34b486aae12706e1cfb28c62d/skytag-0.1.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [belvys]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [belvys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belvys-0.1.4.tar.gz tmp/belvys-0.2.0.tar.gz --markdown 20230428/b/belvys/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] INFO root fetch - processPackages [fitsnap3]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [fitsnap3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsnap3-3.0.1.tar.gz tmp/fitsnap3-3.0.1.2.tar.gz --markdown 20230428/f/fitsnap3/3.0.1-3.0.1.2/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] WARNING root fetch - processPackages [pykonal]: Skipping package: exceeds size limit 10566591>=10485760
+[2023-04-28 16:59:39] INFO root fetch - processPackages [pykonal]: Start processing: GPy
+[2023-04-28 16:59:39] INFO root fetch - main [MainThread]: End processing [pykonal] error
+[2023-04-28 16:59:39] INFO root fetch - processPackages [oianalytics]: Downloading https://files.pythonhosted.org/packages/0e/23/6af180b6b271c033310aae647c7377aa8119989b479e205b0a211fc73664/oianalytics-0.5.2b2.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/92/9c/5513bfc3d4229b67edd6d92cda54024361364cd4221c5485a8c06aca8678/normflows-1.6.2.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [veta]: Downloading https://files.pythonhosted.org/packages/aa/22/5a5eb7ef6ca2b0c22e007833ffb26fbf6c95ad7911aa9a7e8c77f83ba9fa/veta-0.7.6.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/da/4f/7c89d06d44f9f2d0d9c0221b107d31f7aea70cc37d309b20ede459673a6a/pycognaize-1.3.8.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [normflows]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [normflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normflows-1.6.1.tar.gz tmp/normflows-1.6.2.tar.gz --markdown 20230428/n/normflows/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] INFO root fetch - processPackages [veta]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [veta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veta-0.7.5.tar.gz tmp/veta-0.7.6.tar.gz --markdown 20230428/v/veta/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] INFO root fetch - processPackages [GPy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-28 16:59:39] INFO root fetch - processPackages [teritorio]: Downloading https://files.pythonhosted.org/packages/0d/bc/d78172eea1ce3f4ada533662da921bd52d00f310a4d6ec8945398dcfcd6f/teritorio-2023.4.28.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [skytag]: Downloading https://files.pythonhosted.org/packages/74/9d/d3b397df5b2d19c280821350093d690d0c411997b971d53daa0080c73ca5/skytag-0.2.0.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [oianalytics]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [oianalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oianalytics-0.5.2b1.tar.gz tmp/oianalytics-0.5.2b2.tar.gz --markdown 20230428/o/oianalytics/0.5.2b1-0.5.2b2/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] INFO root fetch - processPackages [teritorio]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [teritorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teritorio-2023.2.1.tar.gz tmp/teritorio-2023.4.28.tar.gz --markdown 20230428/t/teritorio/2023.2.1-2023.4.28/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] INFO root fetch - processPackages [skytag]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [skytag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytag-0.1.tar.gz tmp/skytag-0.2.0.tar.gz --markdown 20230428/s/skytag/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] INFO root fetch - processPackages [GPy]: Downloading https://files.pythonhosted.org/packages/80/54/3a9ed4cd3a30e9e76adac11c658faca0c95499d1e995edfd1b0b6dbe0a40/GPy-1.9.8.win-amd64-py3.7.exe
+[2023-04-28 16:59:39] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/39/c6/575c1b460acfb68c92a3c38fa0258ea202eeec58600589362f7296032e62/pycognaize-1.3.9.tar.gz
+[2023-04-28 16:59:39] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-04-28 16:59:39] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.3.8.tar.gz tmp/pycognaize-1.3.9.tar.gz --markdown 20230428/p/pycognaize/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-28 16:59:39] INFO root fetch - processPackages [GPy]: Downloading https://files.pythonhosted.org/packages/3e/a7/78d5ab044e88a9de1f59dfb5cde26d7466a695e85cf56fe9532ac3a536df/GPy-1.9.9.win-amd64-py3.7.exe
+[2023-04-28 16:59:40] INFO root fetch - processPackages [airunner]: Start processing: saspy
+[2023-04-28 16:59:40] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-04-28 16:59:40] INFO root fetch - processPackages [saspy]: New version: [5.1.2] Old Version: [5.1.0]
+[2023-04-28 16:59:40] INFO root fetch - processPackages [saspy]: Downloading https://files.pythonhosted.org/packages/2d/cd/816d958c7f2c8a01e7eb32524e8dc1e9dee2e5a1e3875a5845c2d9c7dfaa/saspy-5.1.2.tar.gz
+[2023-04-28 16:59:40] INFO root fetch - processPackages [belvys]: Start processing: wikipedia_tools
+[2023-04-28 16:59:40] INFO root fetch - main [MainThread]: End processing [belvys]: success
+[2023-04-28 16:59:40] INFO root fetch - processPackages [wikipedia_tools]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-28 16:59:40] INFO root fetch - processPackages [wikipedia_tools]: Downloading https://files.pythonhosted.org/packages/1d/5c/b5b6127767ae197097278f727e85845a3f83577568f92bfb60c9cb43c3f5/wikipedia_tools-2.2.4.tar.gz
+[2023-04-28 16:59:40] INFO root fetch - processPackages [teritorio]: Start processing: iniUts
+[2023-04-28 16:59:40] INFO root fetch - main [MainThread]: End processing [teritorio]: success
+[2023-04-28 16:59:40] INFO root fetch - processPackages [iniUts]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 16:59:40] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2023-04-28 16:59:40] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.0.3.tar.gz tmp/iniUts-1.0.4.tar.gz --markdown 20230428/i/iniUts/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 16:59:40] INFO root fetch - processPackages [wikipedia_tools]: Downloading https://files.pythonhosted.org/packages/c2/e7/5dbc15bf4fa961c8dbf9505bd539af0eee738e0e7583ad8ae2f796b4863c/wikipedia_tools-2.2.5.tar.gz
+[2023-04-28 16:59:40] INFO root fetch - processPackages [skytag]: Start processing: messageflux
+[2023-04-28 16:59:40] INFO root fetch - main [MainThread]: End processing [skytag]: success
+[2023-04-28 16:59:41] INFO root fetch - processPackages [messageflux]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-28 16:59:41] INFO root fetch - main [MainThread]: End processing [normflows]: success
+[2023-04-28 16:59:41] INFO root fetch - main [MainThread]: End processing [oianalytics]: success
+[2023-04-28 16:59:41] INFO root fetch - processPackages [wikipedia_tools]: executing diffoscope
+[2023-04-28 16:59:41] INFO root fetch - processPackages [wikipedia_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikipedia_tools-2.2.4.tar.gz tmp/wikipedia_tools-2.2.5.tar.gz --markdown 20230428/w/wikipedia_tools/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-28 16:59:41] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-04-28 16:59:41] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.1.1.tar.gz tmp/messageflux-0.2.0.tar.gz --markdown 20230428/m/messageflux/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 16:59:41] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-04-28 16:59:41] INFO root fetch - main [MainThread]: End processing [fitsnap3]: success
+[2023-04-28 16:59:41] INFO root fetch - processPackages [GPy]: executing diffoscope
+[2023-04-28 16:59:41] INFO root fetch - processPackages [GPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPy-1.9.8.win-amd64-py3.7.exe tmp/GPy-1.9.9.win-amd64-py3.7.exe --markdown 20230428/G/GPy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-28 16:59:42] INFO root fetch - main [MainThread]: End processing [wikipedia_tools]: success
+[2023-04-28 16:59:42] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-04-28 16:59:42] INFO root fetch - main [MainThread]: End processing [veta]: success
+[2023-04-28 16:59:44] INFO root fetch - processPackages [saspy]: executing diffoscope
+[2023-04-28 16:59:44] INFO root fetch - processPackages [saspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saspy-5.1.0.tar.gz tmp/saspy-5.1.2.tar.gz --markdown 20230428/s/saspy/5.1.0-5.1.2/diff.md --exclude *.pyd
+[2023-04-28 16:59:46] INFO root fetch - main [MainThread]: End processing [GPy]: success
+[2023-04-28 16:59:46] INFO root fetch - main [MainThread]: End processing [saspy]: success
+[2023-04-28 16:59:48] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2023-04-28 16:59:48] INFO root fetch - main [MainThread]: Store serial: [17899686]
