@@ -17855,3 +17855,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 17:21:17] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-04-28 17:21:17] INFO root fetch - main [MainThread]: End processing [dcona]: success
 [2023-04-28 17:21:17] INFO root fetch - main [MainThread]: Store serial: [17899922]
+[2023-04-28 17:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899922]
+[2023-04-28 17:26:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-invaders
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iniUts
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SpamEmailDetector
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gerrytools
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hymd
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pgclone
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jina
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mthree
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: patchwork-client-kafka
+[2023-04-28 17:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: space-invaders
+[2023-04-28 17:26:26] INFO root fetch - processPackages [iniUts]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [space-invaders]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [space-invaders]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [SpamEmailDetector]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [django-pgclone]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [gerrytools]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [hymd]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [patchwork-client-kafka]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [mthree]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-28 17:26:26] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-28 17:26:26] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230428/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-28 17:26:26] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/ab/62/f1dd9ba3452c3c9ad1077724d346b5eb5753cd95fc4a386e24f6839293fa/space-invaders-0.1.46.tar.gz
+[2023-04-28 17:26:26] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/ab/62/f1dd9ba3452c3c9ad1077724d346b5eb5753cd95fc4a386e24f6839293fa/space-invaders-0.1.46.tar.gz
+[2023-04-28 17:26:26] INFO root fetch - processPackages [SpamEmailDetector]: Downloading https://files.pythonhosted.org/packages/d5/c8/def0008fb6a1431e1527f73668a2bcdce4e2b65d5202eb5a2cb8fa077526/SpamEmailDetector-0.1.0-py2.py3-none-any.whl
+[2023-04-28 17:26:26] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/0b/67/ea24981f72a2501212fe73411d6be73f61489a831974ae6f2056b23f5b38/iniUts-1.0.5.tar.gz
+[2023-04-28 17:26:26] INFO root fetch - processPackages [patchwork-client-kafka]: Downloading https://files.pythonhosted.org/packages/3f/f8/9901e8626b3e5f469f15c7df65f830baa97cc9637fbbc806f58ce2575ca9/patchwork-client-kafka-0.1.4.tar.gz
+[2023-04-28 17:26:26] INFO root fetch - processPackages [gerrytools]: Downloading https://files.pythonhosted.org/packages/79/8d/5fa3b128ba1e5dbdf9e2f813fe59fa868a9d0c5bc70f88ff3b9040efe575/gerrytools-1.0.2.tar.gz
+[2023-04-28 17:26:26] INFO root fetch - processPackages [hymd]: Downloading https://files.pythonhosted.org/packages/95/ee/5261f7a491b900159c0ed1cc5fc9d5f2cf7590c3b24aa26111c07103906f/hymd-2.0.1.tar.gz
+[2023-04-28 17:26:26] INFO root fetch - processPackages [mthree]: Downloading https://files.pythonhosted.org/packages/15/05/df8fe6d1e7574ab86b3146b205b524685361c08621ec47859b58b47a4739/mthree-2.4.0.tar.gz
+[2023-04-28 17:26:26] INFO root fetch - processPackages [django-pgclone]: Downloading https://files.pythonhosted.org/packages/cd/e5/9f9f5ea29f3bfeec61e9a19e1d10af725dab28c2bd7019b51f55f3d3fda7/django-pgclone-2.3.3.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [SpamEmailDetector]: Downloading https://files.pythonhosted.org/packages/ed/ad/6e1280d7140323ada53de495fb8daec0f45473960cc6492415da76f4d7b6/SpamEmailDetector-1.0.0.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [mthree]: Downloading https://files.pythonhosted.org/packages/4c/ee/141ba67f55f5bb32a0d43d3c0a2823edfd95042eba9cacc00c84f54d0e7c/mthree-2.5.0.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/97/41/cb99f386b525f5640cb4420e1eca4430ef38aee789c8ac20e110e09a9f46/iniUts-1.0.6.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [SpamEmailDetector]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [patchwork-client-kafka]: Downloading https://files.pythonhosted.org/packages/73/5d/2f3314f73d37b3174e943bec73abcf5483bd5ab9236cec650bcdbdaa8392/patchwork-client-kafka-0.1.5.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [SpamEmailDetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpamEmailDetector-0.1.0-py2.py3-none-any.whl.zip tmp/SpamEmailDetector-1.0.0.tar.gz --markdown 20230428/S/SpamEmailDetector/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [django-pgclone]: Downloading https://files.pythonhosted.org/packages/22/81/6270ef940712c0199c0361ded63f8e5e9b9de88410db01cc9ca7048e875c/django_pgclone-2.4.0.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/34/d5/628d888f45d5684c1d2e3101cd99d75279800e585d088b0255001b9e8c92/space-invaders-0.1.47.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/34/d5/628d888f45d5684c1d2e3101cd99d75279800e585d088b0255001b9e8c92/space-invaders-0.1.47.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [mthree]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [mthree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mthree-2.4.0.tar.gz tmp/mthree-2.5.0.tar.gz --markdown 20230428/m/mthree/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [gerrytools]: Downloading https://files.pythonhosted.org/packages/82/f9/a665f8a8197cd00ecd703663175b928b9e2b450e90dc395d148dbffc464b/gerrytools-1.1.0.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [django-pgclone]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [django-pgclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgclone-2.3.3.tar.gz tmp/django_pgclone-2.4.0.tar.gz --markdown 20230428/d/django-pgclone/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [gerrytools]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [gerrytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gerrytools-1.0.2.tar.gz tmp/gerrytools-1.1.0.tar.gz --markdown 20230428/g/gerrytools/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [patchwork-client-kafka]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [patchwork-client-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork-client-kafka-0.1.4.tar.gz tmp/patchwork-client-kafka-0.1.5.tar.gz --markdown 20230428/p/patchwork-client-kafka/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [hymd]: Downloading https://files.pythonhosted.org/packages/ff/5c/6b8f26d24e0afa08a5d9a8e391a67279c5699dd37fc1768e6f15860f1e12/hymd-2.0.2.tar.gz
+[2023-04-28 17:26:27] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.46.tar.gz tmp/space-invaders-0.1.47.tar.gz --markdown 20230428/s/space-invaders/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.46.tar.gz tmp/space-invaders-0.1.47.tar.gz --markdown 20230428/s/space-invaders/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [hymd]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [hymd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hymd-2.0.1.tar.gz tmp/hymd-2.0.2.tar.gz --markdown 20230428/h/hymd/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-28 17:26:27] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2023-04-28 17:26:27] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.0.5.tar.gz tmp/iniUts-1.0.6.tar.gz --markdown 20230428/i/iniUts/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 17:26:28] INFO root fetch - processPackages [SpamEmailDetector]: Start processing: fractal-server
+[2023-04-28 17:26:28] INFO root fetch - main [MainThread]: End processing [SpamEmailDetector]: success
+[2023-04-28 17:26:28] INFO root fetch - processPackages [fractal-server]: New version: [1.2.3a2] Old Version: [1.2.3a1]
+[2023-04-28 17:26:28] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-28 17:26:28] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.3a1.tar.gz tmp/fractal_server-1.2.3a2.tar.gz --markdown 20230428/f/fractal-server/1.2.3a1-1.2.3a2/diff.md --exclude *.pyd
+[2023-04-28 17:26:29] INFO root fetch - processPackages [django-pgclone]: Start processing: curriculum-analysis
+[2023-04-28 17:26:29] INFO root fetch - main [MainThread]: End processing [django-pgclone]: success
+[2023-04-28 17:26:29] INFO root fetch - processPackages [curriculum-analysis]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 17:26:29] INFO root fetch - processPackages [curriculum-analysis]: executing diffoscope
+[2023-04-28 17:26:29] INFO root fetch - processPackages [curriculum-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculum_analysis-0.2.2.tar.gz tmp/curriculum_analysis-0.2.3.tar.gz --markdown 20230428/c/curriculum-analysis/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 17:26:29] INFO root fetch - processPackages [patchwork-client-kafka]: Start processing: nci-cidc-api-modules
+[2023-04-28 17:26:29] INFO root fetch - main [MainThread]: End processing [patchwork-client-kafka]: success
+[2023-04-28 17:26:29] INFO root fetch - processPackages [nci-cidc-api-modules]: New version: [0.27.41rc0] Old Version: [0.27.41]
+[2023-04-28 17:26:29] INFO root fetch - processPackages [nci-cidc-api-modules]: executing diffoscope
+[2023-04-28 17:26:29] INFO root fetch - processPackages [nci-cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nci_cidc_api_modules-0.27.41.tar.gz tmp/nci_cidc_api_modules-0.27.41rc0.tar.gz --markdown 20230428/n/nci-cidc-api-modules/0.27.41-0.27.41rc0/diff.md --exclude *.pyd
+[2023-04-28 17:26:29] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-28 17:26:30] INFO root fetch - main [MainThread]: End processing [hymd]: success
+[2023-04-28 17:26:30] INFO root fetch - main [MainThread]: End processing [gerrytools]: success
+[2023-04-28 17:26:30] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-28 17:26:30] INFO root fetch - main [MainThread]: End processing [mthree]: success
+[2023-04-28 17:26:30] INFO root fetch - main [MainThread]: End processing [curriculum-analysis]: success
+[2023-04-28 17:26:30] INFO root fetch - main [MainThread]: End processing [nci-cidc-api-modules]: success
+[2023-04-28 17:26:32] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-28 17:26:33] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-28 17:26:35] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2023-04-28 17:26:35] INFO root fetch - main [MainThread]: Store serial: [17899989]
