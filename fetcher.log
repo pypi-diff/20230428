@@ -7370,3 +7370,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:24:51] INFO root fetch - main [MainThread]: End processing [sagemaker-pytorch-training]: success
 [2023-04-28 06:24:52] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
 [2023-04-28 06:24:52] INFO root fetch - main [MainThread]: Store serial: [17893877]
+[2023-04-28 06:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893877]
+[2023-04-28 06:30:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sanic-restful-api
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unisci
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ws-cli-chat
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmdsky-debug-py
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fhnw-nlp-utils
+[2023-04-28 06:30:01] INFO root fetch - processPackages [unisci]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ws-cli-chat]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-28 06:30:01] INFO root fetch - processPackages [sanic-restful-api]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-28 06:30:01] INFO root fetch - processPackages [fhnw-nlp-utils]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-04-28 06:30:01] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-04-28 06:30:01] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/a1/9f/4ebd43d37afd6d1cd3e56bf3b345ed7751f7c12b146aaa8c615bd68c4c14/pmdsky_debug_py-5.1.8-py3-none-any.whl
+[2023-04-28 06:30:01] INFO root fetch - processPackages [fhnw-nlp-utils]: Downloading https://files.pythonhosted.org/packages/94/9d/f4906ae5930b4457c8545ee10325d123d5499fbed7daf7ef98db2d4e72da/fhnw_nlp_utils-0.6.7-py3-none-any.whl
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ws-cli-chat]: Downloading https://files.pythonhosted.org/packages/e5/da/c649d115a41f5f2f7062c9ebd82e8bc5e02edbc00176adfe6cee24265751/ws_cli_chat-0.4.1.tar.gz
+[2023-04-28 06:30:01] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/7b/f4/b9df42f811a7ed5b3c002296c619dde672584912a2c18366b6c8f9995bf0/unisci-1.2.1.tar.gz
+[2023-04-28 06:30:01] INFO root fetch - processPackages [sanic-restful-api]: Downloading https://files.pythonhosted.org/packages/6a/c1/60675136fa32fce7011b3ffc66e5e5d80fb028fb806762aff2cc3e32a898/sanic-restful-api-0.1.7.tar.gz
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ws-cli-chat]: executing diffoscope
+[2023-04-28 06:30:01] INFO root fetch - processPackages [ws-cli-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_cli_chat-0.4.0.tar.gz tmp/ws_cli_chat-0.4.1.tar.gz --markdown 20230428/w/ws-cli-chat/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 06:30:01] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-04-28 06:30:01] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.2.0.tar.gz tmp/unisci-1.2.1.tar.gz --markdown 20230428/u/unisci/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-28 06:30:01] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/cd/d0/996c9b5291bf25dba8c6f2d7fc1fa4fdc00a7a4cd70b642aeed357578680/pmdsky_debug_py-5.1.9-py3-none-any.whl
+[2023-04-28 06:30:01] INFO root fetch - processPackages [fhnw-nlp-utils]: Downloading https://files.pythonhosted.org/packages/4b/e5/059be93d8937ccdbd9d41ffcffdd390fa27b267b9b4330c6eaf98df1777c/fhnw_nlp_utils-0.6.8-py3-none-any.whl
+[2023-04-28 06:30:01] INFO root fetch - processPackages [sanic-restful-api]: Downloading https://files.pythonhosted.org/packages/98/25/7844ddb288392c48eeaa0a6a03dc194c38b295b04dee29c1bd4423c9f17b/sanic-restful-api-0.1.8.tar.gz
+[2023-04-28 06:30:01] INFO root fetch - processPackages [fhnw-nlp-utils]: executing diffoscope
+[2023-04-28 06:30:01] INFO root fetch - processPackages [fhnw-nlp-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhnw_nlp_utils-0.6.7-py3-none-any.whl.zip tmp/fhnw_nlp_utils-0.6.8-py3-none-any.whl.zip --markdown 20230428/f/fhnw-nlp-utils/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-04-28 06:30:01] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-04-28 06:30:01] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip --markdown 20230428/p/pmdsky-debug-py/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-04-28 06:30:01] INFO root fetch - processPackages [sanic-restful-api]: executing diffoscope
+[2023-04-28 06:30:01] INFO root fetch - processPackages [sanic-restful-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-restful-api-0.1.7.tar.gz tmp/sanic-restful-api-0.1.8.tar.gz --markdown 20230428/s/sanic-restful-api/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-28 06:30:02] INFO root fetch - main [MainThread]: End processing [ws-cli-chat]: success
+[2023-04-28 06:30:02] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-04-28 06:30:03] INFO root fetch - main [MainThread]: End processing [fhnw-nlp-utils]: success
+[2023-04-28 06:30:03] INFO root fetch - main [MainThread]: End processing [sanic-restful-api]: success
+[2023-04-28 06:30:06] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-04-28 06:30:06] INFO root fetch - main [MainThread]: Store serial: [17893891]
