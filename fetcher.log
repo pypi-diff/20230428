@@ -21256,3 +21256,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 21:11:52] INFO root fetch - main [MainThread]: End processing [injective-py]: success
 [2023-04-28 21:11:57] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-28 21:11:57] INFO root fetch - main [MainThread]: Store serial: [17902078]
+[2023-04-28 21:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902078]
+[2023-04-28 21:17:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: releases
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-index
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybiolib
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxet
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: policyengine-canada
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domino-py
+[2023-04-28 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frigate
+[2023-04-28 21:17:08] INFO root fetch - processPackages [llama-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [gpt-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [releases]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [domino-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pyxet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [policyengine-us]: New version: [0.308.0] Old Version: [0.307.0]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [frigate]: New version: [0.8.0a0.post0.dev39] Old Version: [0.7.0a0.post0.dev38]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-04-28 21:17:08] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.5.8.tar.gz tmp/llama_index-0.5.9.tar.gz --markdown 20230428/l/llama-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.5.8.tar.gz tmp/gpt_index-0.5.9.tar.gz --markdown 20230428/g/gpt-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230428/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230428/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [releases]: Downloading https://files.pythonhosted.org/packages/71/a7/37cbf3e9f7c2591b4ba0453ef916cb2df9c4fd3cd06d5ddab2175a4c023b/releases-2.1.1.tar.gz
+[2023-04-28 21:17:08] INFO root fetch - processPackages [frigate]: Downloading https://files.pythonhosted.org/packages/9d/e6/edc1c0915672939beeb481be71b70a2c7fbcfa4ffa5b6bc5d6281d1be1d2/frigate-0.7.0a0.post0.dev38.tar.gz
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/65/d8/4a508af41f172e003ebd2f0a90f7639018d49338cd5803130633591e7d89/pybiolib-1.1.91.tar.gz
+[2023-04-28 21:17:08] INFO root fetch - processPackages [domino-py]: Downloading https://files.pythonhosted.org/packages/58/28/328e7d815844e21e4fe819c4e47dbf09dd91c46ffec69ec70dae18c5845d/domino-py-0.1.9.tar.gz
+[2023-04-28 21:17:08] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/bc/30/a46fe119f04a4c86b13e32ffabcbce45849f5a2ed0836f5a13bcbef092de/policyengine-us-0.308.0.tar.gz
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pyxet]: Downloading https://files.pythonhosted.org/packages/cd/b3/77437a724929e0be0cbb1071377d4ab4623b5170d42be9744931f8b7ef8c/pyxet-0.0.4-cp37-abi3-manylinux_2_34_x86_64.whl
+[2023-04-28 21:17:08] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.8.tar.gz tmp/domino-py-0.1.9.tar.gz --markdown 20230428/d/domino-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [releases]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [releases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/releases-2.1.0.tar.gz tmp/releases-2.1.1.tar.gz --markdown 20230428/r/releases/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.307.0.tar.gz tmp/policyengine-us-0.308.0.tar.gz --markdown 20230428/p/policyengine-us/0.307.0-0.308.0/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pyxet]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pyxet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxet-0.0.3-cp37-abi3-manylinux_2_34_x86_64.whl.zip tmp/pyxet-0.0.4-cp37-abi3-manylinux_2_34_x86_64.whl.zip --markdown 20230428/p/pyxet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [frigate]: Downloading https://files.pythonhosted.org/packages/0f/37/46e427645fa1eb0fd01c78073d03a825df8cbe5a81e75767bb43be6f5249/frigate-0.8.0a0.post0.dev39.tar.gz
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/c7/aa/2c649477538ec0014ca38f8199af730781eb7e1e33dc1052c0b20a6f973a/pybiolib-1.1.94.tar.gz
+[2023-04-28 21:17:08] INFO root fetch - processPackages [frigate]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [frigate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frigate-0.7.0a0.post0.dev38.tar.gz tmp/frigate-0.8.0a0.post0.dev39.tar.gz --markdown 20230428/f/frigate/0.7.0a0.post0.dev38-0.8.0a0.post0.dev39/diff.md --exclude *.pyd
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-04-28 21:17:08] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230428/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-04-28 21:17:10] INFO root fetch - processPackages [policyengine-canada]: Start processing: policyengine-canada
+[2023-04-28 21:17:10] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-04-28 21:17:10] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 21:17:10] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-04-28 21:17:10] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230428/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 21:17:10] INFO root fetch - processPackages [domino-py]: Start processing: arkdata
+[2023-04-28 21:17:10] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-04-28 21:17:10] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 21:17:10] INFO root fetch - processPackages [frigate]: Start processing: weconnect-mqtt
+[2023-04-28 21:17:10] INFO root fetch - main [MainThread]: End processing [frigate]: success
+[2023-04-28 21:17:10] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 21:17:10] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 21:17:10] INFO root fetch - processPackages [weconnect-mqtt]: New version: [0.9.0.dev6] Old Version: [0.9.0.dev5]
+[2023-04-28 21:17:10] INFO root fetch - main [MainThread]: End processing [releases]: success
+[2023-04-28 21:17:10] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/2e/d2/4f258e516258c22b847f2a003038f9ad0e3e0ccaf30061c4f76d5ad9c4ef/weconnect-mqtt-0.9.0.dev5.tar.gz
+[2023-04-28 21:17:11] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-04-28 21:17:11] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-04-28 21:17:11] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/5c/b8/26908f029bd8637cfc5ca40a4b8605fc3e7a651ed5ff373299b0e7289193/weconnect-mqtt-0.9.0.dev6.tar.gz
+[2023-04-28 21:17:11] INFO root fetch - processPackages [weconnect-mqtt]: executing diffoscope
+[2023-04-28 21:17:11] INFO root fetch - processPackages [weconnect-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-mqtt-0.9.0.dev5.tar.gz tmp/weconnect-mqtt-0.9.0.dev6.tar.gz --markdown 20230428/w/weconnect-mqtt/0.9.0.dev5-0.9.0.dev6/diff.md --exclude *.pyd
+[2023-04-28 21:17:11] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-28 21:17:11] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-04-28 21:17:12] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-04-28 21:17:12] INFO root fetch - main [MainThread]: End processing [weconnect-mqtt]: success
+[2023-04-28 21:17:13] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 21:18:01] INFO root fetch - main [MainThread]: End processing [pyxet]: success
+[2023-04-28 21:18:19] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-28 21:18:19] INFO root fetch - main [MainThread]: Store serial: [17902115]
