@@ -7073,3 +7073,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 05:37:57] INFO root fetch - main [MainThread]: End processing [openget]: success
 [2023-04-28 05:38:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-04-28 05:38:00] INFO root fetch - main [MainThread]: Store serial: [17893718]
+[2023-04-28 05:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893718]
+[2023-04-28 05:43:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-28 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmap
+[2023-04-28 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitranscode
+[2023-04-28 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promsoft-pecom-interface
+[2023-04-28 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-canada
+[2023-04-28 05:43:09] INFO root fetch - processPackages [promsoft-pecom-interface]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 05:43:09] INFO root fetch - processPackages [unitranscode]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-28 05:43:09] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304280337] Old Version: [1.0.1.dev202304280314]
+[2023-04-28 05:43:09] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 05:43:09] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-04-28 05:43:09] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230428/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 05:43:09] INFO root fetch - processPackages [unitranscode]: Downloading https://files.pythonhosted.org/packages/48/e1/84b6520fb2dff374a846b12964b95086a7e8223cf1dff202f8dbf935e84c/unitranscode-0.2.0.tar.gz
+[2023-04-28 05:43:09] INFO root fetch - processPackages [promsoft-pecom-interface]: Downloading https://files.pythonhosted.org/packages/92/48/cdb5cfef0340dfad4d2ec3975bf767b175a89c4e79f4bfc3294b29976447/promsoft_pecom_interface-0.1.3.tar.gz
+[2023-04-28 05:43:09] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/1c/77/049dd73ca6741016041a467ca908983e9bc07c65cb10f829f4c210b2fd72/cellmap-1.0.1.dev202304280337-py3-none-any.whl
+[2023-04-28 05:43:09] INFO root fetch - processPackages [promsoft-pecom-interface]: executing diffoscope
+[2023-04-28 05:43:09] INFO root fetch - processPackages [promsoft-pecom-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promsoft_pecom_interface-0.1.2.tar.gz tmp/promsoft_pecom_interface-0.1.3.tar.gz --markdown 20230428/p/promsoft-pecom-interface/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 05:43:09] INFO root fetch - processPackages [unitranscode]: Downloading https://files.pythonhosted.org/packages/3f/5e/58c98f2e6a365ad911e4c31e049c38a7e47bfc65ed10d27df65646b243d5/unitranscode-0.3.0.tar.gz
+[2023-04-28 05:43:09] INFO root fetch - processPackages [unitranscode]: executing diffoscope
+[2023-04-28 05:43:09] INFO root fetch - processPackages [unitranscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitranscode-0.2.0.tar.gz tmp/unitranscode-0.3.0.tar.gz --markdown 20230428/u/unitranscode/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 05:43:09] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-28 05:43:09] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304280314-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304280337-py3-none-any.whl.zip --markdown 20230428/c/cellmap/1.0.1.dev202304280314-1.0.1.dev202304280337/diff.md --exclude *.pyd
+[2023-04-28 05:43:10] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-04-28 05:43:10] INFO root fetch - main [MainThread]: End processing [promsoft-pecom-interface]: success
+[2023-04-28 05:43:10] INFO root fetch - main [MainThread]: End processing [unitranscode]: success
+[2023-04-28 05:43:11] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-28 05:43:11] INFO root fetch - main [MainThread]: Store serial: [17893728]
