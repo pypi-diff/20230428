@@ -6968,3 +6968,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 05:27:26] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
 [2023-04-28 05:27:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
 [2023-04-28 05:27:32] INFO root fetch - main [MainThread]: Store serial: [17893623]
+[2023-04-28 05:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893623]
+[2023-04-28 05:32:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aviatrix-discovery
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vinset
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aviatrix-migration
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-ttauto-crawler
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hagrid
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twitch-archiver
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anylearn
+[2023-04-28 05:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-community-data-files
+[2023-04-28 05:32:43] INFO root fetch - processPackages [vinset]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [anylearn]: New version: [0.17.5rc1] Old Version: [0.17.4]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [twitch-archiver]: New version: [3.0.0.dev6] Old Version: [3.0.0.dev5]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [odoo14-addons-oca-community-data-files]: New version: [14.0.20230427.0] Old Version: [14.0.20230216.0]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [hagrid]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/eb/5d/5d815901fd246f869c11597b89b558431d2380b03e96cfe1b922fb7f69b8/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/21/c0/ad0ada02f772026372950703ae1a0caa68d0dea582f9995503a07f9663ca/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl
+[2023-04-28 05:32:43] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/6d/dc/3710d7abfc8405b77229e47dc5b5a6cad35e037c027fff3f6945c49a73a8/vinset-4.1.0.tar.gz
+[2023-04-28 05:32:43] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/7e/a2/2e583cbd46cdd1877875e4dc5cd45b3a146f5032111a97f777e1c4d61071/twitch-archiver-3.0.0.dev5.tar.gz
+[2023-04-28 05:32:43] INFO root fetch - processPackages [odoo14-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/68/b8/068c8278efe44fde17db515db80362caa46456940a59c03bfb222b501b9f/odoo14_addons_oca_community_data_files-14.0.20230216.0-py3-none-any.whl
+[2023-04-28 05:32:43] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/2d/49/19ffcc978946ba6f94cc5e2ee40fd1a76fc2be832ff6f07c4b45f8b0bbea/hagrid-0.3.6.tar.gz
+[2023-04-28 05:32:43] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/ef/98/8d5c5e6f574d224bb0ec9d109908a7701e2639dfa848228b86de52752f22/anylearn-0.17.4.tar.gz
+[2023-04-28 05:32:43] INFO root fetch - processPackages [vinset]: executing diffoscope
+[2023-04-28 05:32:43] INFO root fetch - processPackages [vinset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinset-4.0.2.tar.gz tmp/vinset-4.1.0.tar.gz --markdown 20230428/v/vinset/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-04-28 05:32:43] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-04-28 05:32:43] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.5.tar.gz tmp/hagrid-0.3.6.tar.gz --markdown 20230428/h/hagrid/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-28 05:32:43] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-04-28 05:32:43] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230428/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:32:43] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/75/83/1a89c230f5208b05e1cecc581f1c5370768cd88aaa8c3b6c53fe9c0c7313/anylearn-0.17.5rc1.tar.gz
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2023-04-28 05:32:43] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/43/94/d1eaf44f5656de469a9d3a3413aa81fcef50b909215ecfcde2c98fa1c237/twitch-archiver-3.0.0.dev6.tar.gz
+[2023-04-28 05:32:43] INFO root fetch - processPackages [odoo14-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/1b/a4/3194851381399aedeb722cba1a3cc622e01b3af92e1326ebda8674ac42af/odoo14_addons_oca_community_data_files-14.0.20230427.0-py3-none-any.whl
+[2023-04-28 05:32:43] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-04-28 05:32:43] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.17.4.tar.gz tmp/anylearn-0.17.5rc1.tar.gz --markdown 20230428/a/anylearn/0.17.4-0.17.5rc1/diff.md --exclude *.pyd
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230428/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 05:32:43] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2023-04-28 05:32:43] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-archiver-3.0.0.dev5.tar.gz tmp/twitch-archiver-3.0.0.dev6.tar.gz --markdown 20230428/t/twitch-archiver/3.0.0.dev5-3.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-28 05:32:43] INFO root fetch - processPackages [odoo14-addons-oca-community-data-files]: executing diffoscope
+[2023-04-28 05:32:43] INFO root fetch - processPackages [odoo14-addons-oca-community-data-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_community_data_files-14.0.20230216.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_community_data_files-14.0.20230427.0-py3-none-any.whl.zip --markdown 20230428/o/odoo14-addons-oca-community-data-files/14.0.20230216.0-14.0.20230427.0/diff.md --exclude *.pyd
+[2023-04-28 05:32:43] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/d0/4d/d0fe16c903b7e89479e55158323464d5451705d11c44dbb079ae8034f3a5/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl
+[2023-04-28 05:32:44] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-04-28 05:32:44] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230428/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 05:32:44] INFO root fetch - main [MainThread]: End processing [vinset]: success
+[2023-04-28 05:32:44] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-04-28 05:32:44] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-04-28 05:32:45] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-04-28 05:32:45] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-community-data-files]: success
+[2023-04-28 05:32:45] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2023-04-28 05:32:45] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-04-28 05:32:45] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-04-28 05:32:45] INFO root fetch - main [MainThread]: Store serial: [17893691]
