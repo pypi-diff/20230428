@@ -13456,3 +13456,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:27:16] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
 [2023-04-28 13:27:17] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2023-04-28 13:27:17] INFO root fetch - main [MainThread]: Store serial: [17897233]
+[2023-04-28 13:32:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897233]
+[2023-04-28 13:32:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xblock-free-text-response
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EasyEquities
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchrec-nightly
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySide6-Fluent-Widgets
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SocketSwap
+[2023-04-28 13:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Chinese-webtext-spider
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [Chinese-webtext-spider]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.8.1] Old Version: [0.7.6]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-04-28 13:32:26] INFO root fetch - processPackages [xblock-free-text-response]: New version: [3.0.0] Old Version: [2.1.1]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [EasyEquities]: New version: [1.2.3] Old Version: [1.0.2]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [SocketSwap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230428/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230428/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:32:26] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-04-28 13:32:26] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.7.6.tar.gz tmp/PySide6-Fluent-Widgets-0.8.1.tar.gz --markdown 20230428/P/PySide6-Fluent-Widgets/0.7.6-0.8.1/diff.md --exclude *.pyd
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.4.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230428/t/torchx-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:32:26] INFO root fetch - processPackages [Chinese-webtext-spider]: Downloading https://files.pythonhosted.org/packages/2b/e5/f1f23a8ffdaa0525cc26b19e43fa7c643926a237f343ffec41e076ddf6a2/Chinese-webtext-spider-1.0.3.tar.gz
+[2023-04-28 13:32:26] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-04-28 13:32:26] INFO root fetch - processPackages [torchserve-nightly]: Start processing: PySide2-Fluent-Widgets
+[2023-04-28 13:32:26] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-04-28 13:32:26] WARNING root fetch - processPackages [Chinese-webtext-spider]: Skipping package: exceeds size limit 61382331>=10485760
+[2023-04-28 13:32:26] INFO root fetch - processPackages [Chinese-webtext-spider]: Start processing: exam-analyzer
+[2023-04-28 13:32:26] INFO root fetch - main [MainThread]: End processing [Chinese-webtext-spider] error
+[2023-04-28 13:32:26] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.8.1] Old Version: [0.7.6]
+[2023-04-28 13:32:27] INFO root fetch - processPackages [xblock-free-text-response]: Downloading https://files.pythonhosted.org/packages/08/0c/3284b057848d76cdf48d4a164236129e821fee812534b6fec3be34c13706/xblock-free-text-response-2.1.1.tar.gz
+[2023-04-28 13:32:27] WARNING root fetch - processPackages [exam-analyzer]: Skipping, unable to determine old version
+[2023-04-28 13:32:27] INFO root fetch - processPackages [exam-analyzer]: Start processing: syncmaster
+[2023-04-28 13:32:27] INFO root fetch - main [MainThread]: End processing [exam-analyzer] error
+[2023-04-28 13:32:27] INFO root fetch - processPackages [SocketSwap]: Downloading https://files.pythonhosted.org/packages/33/cd/8e78895e6555dd704666ec9abea62882a33179e2977e001b712a7acd89db/SocketSwap-0.1.8-py2.py3-none-any.whl
+[2023-04-28 13:32:27] INFO root fetch - processPackages [syncmaster]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 13:32:27] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-04-28 13:32:27] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.7.6.tar.gz tmp/PySide2-Fluent-Widgets-0.8.1.tar.gz --markdown 20230428/P/PySide2-Fluent-Widgets/0.7.6-0.8.1/diff.md --exclude *.pyd
+[2023-04-28 13:32:27] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/d2/70/a665f40750f8d312a1e519feaa9e38de37072db6c5a1702fdf7869bfcc44/torchrec_nightly-2023.4.7-py39-none-any.whl
+[2023-04-28 13:32:27] INFO root fetch - processPackages [syncmaster]: executing diffoscope
+[2023-04-28 13:32:27] INFO root fetch - processPackages [syncmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmaster-1.0.0.tar.gz tmp/syncmaster-1.0.1.tar.gz --markdown 20230428/s/syncmaster/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 13:32:27] INFO root fetch - processPackages [EasyEquities]: Downloading https://files.pythonhosted.org/packages/e1/05/86f1828a5079719af264c03f20ee02bb746b19a3752694a15fe25d34628f/EasyEquities-1.2.3.tar.gz
+[2023-04-28 13:32:27] INFO root fetch - processPackages [xblock-free-text-response]: Downloading https://files.pythonhosted.org/packages/c6/d5/956205d6e849889bd21d81e02dbb133d5979376df89f4791de1e878d528c/xblock-free-text-response-3.0.0.tar.gz
+[2023-04-28 13:32:27] INFO root fetch - processPackages [SocketSwap]: Downloading https://files.pythonhosted.org/packages/22/70/7b82a8f283f6872ba962425576f374af6dcc29b37c519eb0b19fb1e005b7/SocketSwap-0.1.9-py2.py3-none-any.whl
+[2023-04-28 13:32:27] INFO root fetch - processPackages [EasyEquities]: executing diffoscope
+[2023-04-28 13:32:27] INFO root fetch - processPackages [EasyEquities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyEquities-1.0.2.tar.gz tmp/EasyEquities-1.2.3.tar.gz --markdown 20230428/E/EasyEquities/1.0.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-28 13:32:27] INFO root fetch - processPackages [xblock-free-text-response]: executing diffoscope
+[2023-04-28 13:32:27] INFO root fetch - processPackages [xblock-free-text-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-free-text-response-2.1.1.tar.gz tmp/xblock-free-text-response-3.0.0.tar.gz --markdown 20230428/x/xblock-free-text-response/2.1.1-3.0.0/diff.md --exclude *.pyd
+[2023-04-28 13:32:27] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/72/b9/0b521c1a1a6fd45f1f49ab8405816497f31b06233ded2dfc7aff870ed898/torchrec_nightly-2023.4.9-py39-none-any.whl
+[2023-04-28 13:32:27] INFO root fetch - processPackages [SocketSwap]: executing diffoscope
+[2023-04-28 13:32:27] INFO root fetch - processPackages [SocketSwap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocketSwap-0.1.8-py2.py3-none-any.whl.zip tmp/SocketSwap-0.1.9-py2.py3-none-any.whl.zip --markdown 20230428/S/SocketSwap/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:32:27] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-04-28 13:32:27] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230428/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:32:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: cylc-flow
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-04-28 13:32:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: local-recruitment-employer-python-backend
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-04-28 13:32:28] WARNING root fetch - processPackages [local-recruitment-employer-python-backend]: Skipping, unable to determine old version
+[2023-04-28 13:32:28] INFO root fetch - processPackages [local-recruitment-employer-python-backend]: Start processing: EasyEquities
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [local-recruitment-employer-python-backend] error
+[2023-04-28 13:32:28] INFO root fetch - processPackages [cylc-flow]: New version: [8.1.3] Old Version: [8.1.2]
+[2023-04-28 13:32:28] INFO root fetch - processPackages [EasyEquities]: New version: [1.2.3] Old Version: [1.0.2]
+[2023-04-28 13:32:28] INFO root fetch - processPackages [EasyEquities]: executing diffoscope
+[2023-04-28 13:32:28] INFO root fetch - processPackages [EasyEquities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyEquities-1.0.2.tar.gz tmp/EasyEquities-1.2.3.tar.gz --markdown 20230428/E/EasyEquities/1.0.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-28 13:32:28] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/5b/5b/23aa072d735b15545b7925832c6d07c373b29040efcd1cea5984e6cff87f/cylc-flow-8.1.2.tar.gz
+[2023-04-28 13:32:28] INFO root fetch - processPackages [xblock-free-text-response]: Start processing: fastdfe
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [xblock-free-text-response]: success
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [syncmaster]: success
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [EasyEquities]: success
+[2023-04-28 13:32:28] WARNING root fetch - processPackages [fastdfe]: Skipping, unable to determine old version
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [fastdfe] error
+[2023-04-28 13:32:28] INFO root fetch - main [MainThread]: End processing [SocketSwap]: success
+[2023-04-28 13:32:28] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/e2/5c/017ebc546989238741a1bf82520599fa8fc5ebe335bbf325a2fa7b3a687d/cylc-flow-8.1.3.tar.gz
+[2023-04-28 13:32:29] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-04-28 13:32:29] INFO root fetch - processPackages [cylc-flow]: executing diffoscope
+[2023-04-28 13:32:29] INFO root fetch - processPackages [cylc-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylc-flow-8.1.2.tar.gz tmp/cylc-flow-8.1.3.tar.gz --markdown 20230428/c/cylc-flow/8.1.2-8.1.3/diff.md --exclude *.pyd
+[2023-04-28 13:32:29] INFO root fetch - main [MainThread]: End processing [EasyEquities]: success
+[2023-04-28 13:32:29] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-04-28 13:32:32] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-04-28 13:32:32] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-04-28 13:32:32] INFO root fetch - main [MainThread]: End processing [cylc-flow]: success
+[2023-04-28 13:32:32] INFO root fetch - main [MainThread]: Store serial: [17897287]
