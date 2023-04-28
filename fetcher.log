@@ -7297,3 +7297,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:14:29] INFO root fetch - main [MainThread]: End processing [pyGenieScript]: success
 [2023-04-28 06:14:29] INFO root fetch - main [MainThread]: End processing [py-fumen]: success
 [2023-04-28 06:14:29] INFO root fetch - main [MainThread]: Store serial: [17893849]
+[2023-04-28 06:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893849]
+[2023-04-28 06:19:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 06:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-sls-lambda-toolkit
+[2023-04-28 06:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperfast-python-template
+[2023-04-28 06:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: at-fetch
+[2023-04-28 06:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-fieldservice-calendar
+[2023-04-28 06:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addons-oca-field-service
+[2023-04-28 06:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: at-fetch
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 06:19:38] WARNING root fetch - processPackages [odoo12-addon-fieldservice-calendar]: Skipping, unable to determine old version
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 06:19:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-calendar] error
+[2023-04-28 06:19:38] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-28 06:19:38] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 06:19:38] INFO root fetch - processPackages [odoo12-addons-oca-field-service]: New version: [12.0.20230427.0] Old Version: [12.0.20211016.0]
+[2023-04-28 06:19:38] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/c1/9c/b2f8aa9915a9d2188c64c29e6396c1b2ec54b73ceb900c4c090db61693b2/hyperfast_python_template-0.3.2.tar.gz
+[2023-04-28 06:19:38] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-28 06:19:38] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.3.1.tar.gz tmp/hyperfast_python_template-0.3.2.tar.gz --markdown 20230428/h/hyperfast-python-template/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: Downloading https://files.pythonhosted.org/packages/53/df/faa85e61401e354104127d1c7874153208763a3b699ec3022acff0cb919f/at_fetch-0.1.2.tar.gz
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: Downloading https://files.pythonhosted.org/packages/53/df/faa85e61401e354104127d1c7874153208763a3b699ec3022acff0cb919f/at_fetch-0.1.2.tar.gz
+[2023-04-28 06:19:38] INFO root fetch - processPackages [odoo12-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/ae/28/eb0a84925564323e3efeb2a5647790c105527fc46faf827a89f27b4c68ab/odoo12_addons_oca_field_service-12.0.20211016.0-py3-none-any.whl
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: executing diffoscope
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/at_fetch-0.1.1.tar.gz tmp/at_fetch-0.1.2.tar.gz --markdown 20230428/a/at-fetch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: executing diffoscope
+[2023-04-28 06:19:38] INFO root fetch - processPackages [at-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/at_fetch-0.1.1.tar.gz tmp/at_fetch-0.1.2.tar.gz --markdown 20230428/a/at-fetch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 06:19:38] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/05/92/d087da9ad410a20cf7e686347e0a9be72ca6c7c1beadb28410e64072d249/py-sls-lambda-toolkit-0.0.5.tar.gz
+[2023-04-28 06:19:38] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-04-28 06:19:38] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.0.4.tar.gz tmp/py-sls-lambda-toolkit-0.0.5.tar.gz --markdown 20230428/p/py-sls-lambda-toolkit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 06:19:39] INFO root fetch - processPackages [odoo12-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/aa/bb/b16ea317c6f916dbe0fac5b6cb1ff95a31ce6848281615654052175db427/odoo12_addons_oca_field_service-12.0.20230427.0-py3-none-any.whl
+[2023-04-28 06:19:39] INFO root fetch - processPackages [odoo12-addons-oca-field-service]: executing diffoscope
+[2023-04-28 06:19:39] INFO root fetch - processPackages [odoo12-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addons_oca_field_service-12.0.20211016.0-py3-none-any.whl.zip tmp/odoo12_addons_oca_field_service-12.0.20230427.0-py3-none-any.whl.zip --markdown 20230428/o/odoo12-addons-oca-field-service/12.0.20211016.0-12.0.20230427.0/diff.md --exclude *.pyd
+[2023-04-28 06:19:39] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-28 06:19:39] INFO root fetch - main [MainThread]: End processing [at-fetch]: success
+[2023-04-28 06:19:39] INFO root fetch - main [MainThread]: End processing [at-fetch]: success
+[2023-04-28 06:19:40] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-04-28 06:19:40] INFO root fetch - main [MainThread]: End processing [odoo12-addons-oca-field-service]: success
+[2023-04-28 06:19:40] INFO root fetch - main [MainThread]: Store serial: [17893863]
