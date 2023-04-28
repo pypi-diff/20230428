@@ -11660,3 +11660,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 11:39:05] INFO root fetch - main [MainThread]: End processing [PyGenStability]: success
 [2023-04-28 11:40:16] INFO root fetch - main [MainThread]: End processing [jijbench]: success
 [2023-04-28 11:40:16] INFO root fetch - main [MainThread]: Store serial: [17896189]
+[2023-04-28 11:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896189]
+[2023-04-28 11:45:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipytone
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fractal-server
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: primap2
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exam-analyzer
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ndfind
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weaverbird
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mc-netease-sdk
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docarray
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Dokos
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: i3dFeatureExtraction
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ipytone]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-28 11:45:25] WARNING root fetch - processPackages [exam-analyzer]: Skipping, unable to determine old version
+[2023-04-28 11:45:25] INFO root fetch - processPackages [Dokos]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-28 11:45:25] INFO root fetch - processPackages [exam-analyzer]: Start processing: akshare
+[2023-04-28 11:45:25] WARNING root fetch - processPackages [ndfind]: Skipping, unable to determine old version
+[2023-04-28 11:45:25] INFO root fetch - main [MainThread]: End processing [exam-analyzer] error
+[2023-04-28 11:45:25] INFO root fetch - processPackages [ndfind]: Start processing: upgini
+[2023-04-28 11:45:25] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-04-28 11:45:25] INFO root fetch - main [MainThread]: End processing [ndfind] error
+[2023-04-28 11:45:25] INFO root fetch - processPackages [fractal-server]: New version: [1.2.3a1] Old Version: [1.2.3a0]
+[2023-04-28 11:45:25] INFO root fetch - processPackages [primap2]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-28 11:45:25] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 11:45:25] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.6.0.43327] Old Version: [2.6.0.43326]
+[2023-04-28 11:45:26] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-28 11:45:26] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-28 11:45:26] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-28 11:45:26] INFO root fetch - processPackages [Dokos]: Downloading https://files.pythonhosted.org/packages/d6/24/b8f71935829ab48942cefcf71168e09c37dd69c0a1b50bdcfd191add525e/dokos-1.0.5.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [primap2]: Downloading https://files.pythonhosted.org/packages/d6/fe/7985e6f15168ad5489c4ba3ed0b1fbc719331b070f917db6ed0e67da6ff1/primap2-0.9.5.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/c1/e3/b984d8f181c3dff04041d3b8221e99aac8a33afae1cc1d6e7d8bddeffe01/mc_netease_sdk-2.6.0.43326-py2-none-any.whl
+[2023-04-28 11:45:26] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230428/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [i3dFeatureExtraction]: Downloading https://files.pythonhosted.org/packages/66/a5/1240841e1ed5b779ceb4f247bc73be27d3a7cbd89c0f0590abb2c2e8a2bb/i3dFeatureExtraction-0.3.0.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/0f/8d/63d4b03346d33aa16d322b289b4794cefc92c5a048ec8f967887d9e9abed/akshare-1.9.8.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [ipytone]: Downloading https://files.pythonhosted.org/packages/cc/90/0d7f18dbcb8ea00195196b80b1b8d2c308e38f1315fcd3c1f1bed7f7a811/ipytone-0.5.1.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/22/f0/816d5f6371d68237a2e42110102e1e1540a3b1f88eff05fe2b27e16aecbe/fractal_server-1.2.3a1.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [Dokos]: Downloading https://files.pythonhosted.org/packages/ad/27/9dc90c85e418267e6aa3c56c7e570b85d783efdccd46e63c2e4fc330e1cc/dokos-1.0.6.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [i3dFeatureExtraction]: Downloading https://files.pythonhosted.org/packages/d2/32/f0779fdf23814871e47bbcd1f6a30c87a6460735e6cf513e7c66b4cc7cad/i3dFeatureExtraction-0.3.1.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [primap2]: Downloading https://files.pythonhosted.org/packages/8e/e2/901d3a0911010dd77ed71d6d5ebe3e8d8830158a69938956aec70cde9eb7/primap2-0.9.6.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230428/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.3a0.tar.gz tmp/fractal_server-1.2.3a1.tar.gz --markdown 20230428/f/fractal-server/1.2.3a0-1.2.3a1/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [primap2]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [primap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primap2-0.9.5.tar.gz tmp/primap2-0.9.6.tar.gz --markdown 20230428/p/primap2/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [ipytone]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [ipytone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipytone-0.5.0.tar.gz tmp/ipytone-0.5.1.tar.gz --markdown 20230428/i/ipytone/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [Dokos]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [Dokos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokos-1.0.5.tar.gz tmp/dokos-1.0.6.tar.gz --markdown 20230428/D/Dokos/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/b2/ca/ca4cd0898b09fcc7222f6668475e47a408697f03018da71362d58bfd6db1/mc_netease_sdk-2.6.0.43327-py2-none-any.whl
+[2023-04-28 11:45:26] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.3.0.tar.gz tmp/i3dFeatureExtraction-0.3.1.tar.gz --markdown 20230428/i/i3dFeatureExtraction/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/27/53/8689df1a9a49e3b8ac2951c57f49b57e27de41c067ec4709bdc8dbfebab1/akshare-1.9.9.tar.gz
+[2023-04-28 11:45:26] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.6.0.43326-py2-none-any.whl.zip tmp/mc_netease_sdk-2.6.0.43327-py2-none-any.whl.zip --markdown 20230428/m/mc-netease-sdk/2.6.0.43326-2.6.0.43327/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20230428/w/weaverbird/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 11:45:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-04-28 11:45:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230428/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-28 11:45:27] INFO root fetch - processPackages [Dokos]: Start processing: fastvector
+[2023-04-28 11:45:27] INFO root fetch - main [MainThread]: End processing [Dokos]: success
+[2023-04-28 11:45:27] INFO root fetch - processPackages [fastvector]: New version: [5.1.0] Old Version: [2.0.2]
+[2023-04-28 11:45:28] INFO root fetch - processPackages [i3dFeatureExtraction]: Start processing: spatialprompt
+[2023-04-28 11:45:28] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-28 11:45:28] INFO root fetch - processPackages [spatialprompt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 11:45:28] INFO root fetch - processPackages [fastvector]: Downloading https://files.pythonhosted.org/packages/6c/47/13fc6d2db2ead728492697a24b5d83fea1813dadf306697c04b298ce3803/fastvector-2.0.2.tar.gz
+[2023-04-28 11:45:28] INFO root fetch - processPackages [spatialprompt]: Downloading https://files.pythonhosted.org/packages/26/80/7737b8a654ed6a01aaf671952a7245855a24802e385b0e2d5fe5286bb5d2/spatialprompt-0.0.1.tar.gz
+[2023-04-28 11:45:28] INFO root fetch - processPackages [spatialprompt]: Downloading https://files.pythonhosted.org/packages/5f/e5/5c2ea3de647d3750e9a6523d05267fb437373e9c3343ee522c8cf9ed0f6a/spatialprompt-0.0.2.tar.gz
+[2023-04-28 11:45:28] INFO root fetch - processPackages [fastvector]: Downloading https://files.pythonhosted.org/packages/81/74/49fc62a90a371c4edc0df9fca1d1e498cb34269fa26d94727cad7ffe157d/fastvector-5.1.0.tar.gz
+[2023-04-28 11:45:28] INFO root fetch - processPackages [spatialprompt]: executing diffoscope
+[2023-04-28 11:45:28] INFO root fetch - processPackages [spatialprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialprompt-0.0.1.tar.gz tmp/spatialprompt-0.0.2.tar.gz --markdown 20230428/s/spatialprompt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 11:45:28] INFO root fetch - processPackages [fastvector]: executing diffoscope
+[2023-04-28 11:45:28] INFO root fetch - processPackages [fastvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastvector-2.0.2.tar.gz tmp/fastvector-5.1.0.tar.gz --markdown 20230428/f/fastvector/2.0.2-5.1.0/diff.md --exclude *.pyd
+[2023-04-28 11:45:28] INFO root fetch - processPackages [primap2]: Start processing: returnn
+[2023-04-28 11:45:28] INFO root fetch - main [MainThread]: End processing [primap2]: success
+[2023-04-28 11:45:28] INFO root fetch - processPackages [returnn]: New version: [1.20230428.113217] Old Version: [1.20230428.104458]
+[2023-04-28 11:45:29] INFO root fetch - processPackages [weaverbird]: Start processing: starlite
+[2023-04-28 11:45:29] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2023-04-28 11:45:29] INFO root fetch - processPackages [starlite]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-04-28 11:45:29] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/aa/92/cb9c9ef41403721040cf90828b717fa2df7bf4384bf12be2e3b746f9b02b/returnn-1.20230428.113217.tar.gz
+[2023-04-28 11:45:29] INFO root fetch - processPackages [starlite]: Downloading https://files.pythonhosted.org/packages/44/4e/ca45ad4d9ca7cc1fe1ef4b895da684ad409208c69bbbedcbc4730ac06f47/starlite-2.0.0a1.tar.gz
+[2023-04-28 11:45:29] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-28 11:45:29] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230428.104458.tar.gz tmp/returnn-1.20230428.113217.tar.gz --markdown 20230428/r/returnn/1.20230428.104458-1.20230428.113217/diff.md --exclude *.pyd
+[2023-04-28 11:45:29] INFO root fetch - processPackages [upgini]: Start processing: tracknado
+[2023-04-28 11:45:29] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-04-28 11:45:29] WARNING root fetch - processPackages [tracknado]: Skipping, unable to determine old version
+[2023-04-28 11:45:29] INFO root fetch - main [MainThread]: End processing [tracknado] error
+[2023-04-28 11:45:29] INFO root fetch - processPackages [starlite]: Downloading https://files.pythonhosted.org/packages/db/01/eae30b612e372f77d4db66f6ba8bc578968ab10ab0e8e198c91bc687c18d/starlite-2.0.0a2.tar.gz
+[2023-04-28 11:45:29] INFO root fetch - main [MainThread]: End processing [spatialprompt]: success
+[2023-04-28 11:45:29] INFO root fetch - main [MainThread]: End processing [fastvector]: success
+[2023-04-28 11:45:29] INFO root fetch - processPackages [starlite]: executing diffoscope
+[2023-04-28 11:45:29] INFO root fetch - processPackages [starlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlite-2.0.0a1.tar.gz tmp/starlite-2.0.0a2.tar.gz --markdown 20230428/s/starlite/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-04-28 11:45:30] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-28 11:45:30] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2023-04-28 11:45:31] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-28 11:45:33] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-04-28 11:45:33] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-28 11:45:33] INFO root fetch - main [MainThread]: End processing [starlite]: success
+[2023-04-28 11:45:35] INFO root fetch - main [MainThread]: End processing [ipytone]: success
+[2023-04-28 11:45:35] INFO root fetch - main [MainThread]: Store serial: [17896254]
