@@ -20259,3 +20259,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 19:49:35] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
 [2023-04-28 19:49:35] INFO root fetch - main [MainThread]: End processing [colemen-ra-manager]: success
 [2023-04-28 19:49:35] INFO root fetch - main [MainThread]: Store serial: [17901492]
+[2023-04-28 19:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901492]
+[2023-04-28 19:54:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-core
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: control-rod
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NNFAL
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bumerge
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nlp
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethconnect
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stirpy
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HoodPay
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: toolSSHtunnel
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supervisely
+[2023-04-28 19:54:44] INFO root fetch - processPackages [NNFAL]: New version: [1.9] Old Version: [1.8]
+[2023-04-28 19:54:44] INFO root fetch - processPackages [stirpy]: New version: [1.2.5] Old Version: [1.2.0]
+[2023-04-28 19:54:44] INFO root fetch - processPackages [keras-nlp]: New version: [0.5.0.dev0] Old Version: [0.4.1.dev0]
+[2023-04-28 19:54:44] WARNING root fetch - processPackages [bumerge]: Skipping, unable to determine old version
+[2023-04-28 19:54:44] INFO root fetch - processPackages [bumerge]: Start processing: NNFAL
+[2023-04-28 19:54:44] WARNING root fetch - processPackages [toolSSHtunnel]: Skipping, unable to determine old version
+[2023-04-28 19:54:44] WARNING root fetch - processPackages [ethconnect]: Skipping, unable to determine old version
+[2023-04-28 19:54:44] WARNING root fetch - processPackages [HoodPay]: Skipping, unable to determine old version
+[2023-04-28 19:54:44] INFO root fetch - main [MainThread]: End processing [bumerge] error
+[2023-04-28 19:54:44] INFO root fetch - main [MainThread]: End processing [toolSSHtunnel] error
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-04-28 19:54:44] INFO root fetch - main [MainThread]: End processing [ethconnect] error
+[2023-04-28 19:54:44] INFO root fetch - processPackages [control-rod]: New version: [2022.4.28.0] Old Version: [2022.4.27.0]
+[2023-04-28 19:54:44] INFO root fetch - main [MainThread]: End processing [HoodPay] error
+[2023-04-28 19:54:44] INFO root fetch - processPackages [NNFAL]: New version: [1.9] Old Version: [1.8]
+[2023-04-28 19:54:44] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-28 19:54:44] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/e9/3a/03e79ba260007a97c94ff724785a0b4e0b6c13f593f6ee3d43218c182d19/keras-nlp-0.4.1.dev0.tar.gz
+[2023-04-28 19:54:44] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-04-28 19:54:44] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230428/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-28 19:54:44] INFO root fetch - processPackages [stirpy]: Downloading https://files.pythonhosted.org/packages/b2/4d/b8654f2e983a965022c53db246346e3481c7ad5453ea2b00c3afcd799d1c/stirpy-1.2.5.tar.gz
+[2023-04-28 19:54:44] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/cf/5a/744a0b5fb8ae579049614b7e20f5c54e8eea4b602b00ae1f2a066778051d/control_rod-2022.4.28.0.tar.gz
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-04-28 19:54:44] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230428/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-04-28 19:54:45] INFO root fetch - processPackages [NNFAL]: Downloading https://files.pythonhosted.org/packages/f2/1b/b390048d083073f6aea212f776c914fe096f1083a825cd350743cbbde7b6/NNFAL-1.9.tar.gz
+[2023-04-28 19:54:45] INFO root fetch - processPackages [NNFAL]: Downloading https://files.pythonhosted.org/packages/f2/1b/b390048d083073f6aea212f776c914fe096f1083a825cd350743cbbde7b6/NNFAL-1.9.tar.gz
+[2023-04-28 19:54:45] INFO root fetch - processPackages [stirpy]: executing diffoscope
+[2023-04-28 19:54:45] INFO root fetch - processPackages [stirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stirpy-1.2.0.tar.gz tmp/stirpy-1.2.5.tar.gz --markdown 20230428/s/stirpy/1.2.0-1.2.5/diff.md --exclude *.pyd
+[2023-04-28 19:54:45] INFO root fetch - processPackages [control-rod]: executing diffoscope
+[2023-04-28 19:54:45] INFO root fetch - processPackages [control-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_rod-2022.4.27.0.tar.gz tmp/control_rod-2022.4.28.0.tar.gz --markdown 20230428/c/control-rod/2022.4.27.0-2022.4.28.0/diff.md --exclude *.pyd
+[2023-04-28 19:54:45] INFO root fetch - processPackages [NNFAL]: executing diffoscope
+[2023-04-28 19:54:45] INFO root fetch - processPackages [NNFAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NNFAL-1.8.tar.gz tmp/NNFAL-1.9.tar.gz --markdown 20230428/N/NNFAL/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-28 19:54:45] INFO root fetch - processPackages [NNFAL]: executing diffoscope
+[2023-04-28 19:54:45] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/cd/7c/578798f96e0849cc645a6b319c7115131e4f4a2e6d7be7b48107d33d3628/keras-nlp-0.5.0.dev0.tar.gz
+[2023-04-28 19:54:45] INFO root fetch - processPackages [NNFAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NNFAL-1.8.tar.gz tmp/NNFAL-1.9.tar.gz --markdown 20230428/N/NNFAL/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-28 19:54:45] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2023-04-28 19:54:45] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.4.1.dev0.tar.gz tmp/keras-nlp-0.5.0.dev0.tar.gz --markdown 20230428/k/keras-nlp/0.4.1.dev0-0.5.0.dev0/diff.md --exclude *.pyd
+[2023-04-28 19:54:46] INFO root fetch - main [MainThread]: End processing [stirpy]: success
+[2023-04-28 19:54:46] INFO root fetch - main [MainThread]: End processing [NNFAL]: success
+[2023-04-28 19:54:46] INFO root fetch - main [MainThread]: End processing [control-rod]: success
+[2023-04-28 19:54:46] INFO root fetch - main [MainThread]: End processing [NNFAL]: success
+[2023-04-28 19:54:48] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-04-28 19:54:50] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2023-04-28 19:54:58] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-04-28 19:54:58] INFO root fetch - main [MainThread]: Store serial: [17901533]
