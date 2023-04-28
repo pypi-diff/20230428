@@ -12993,3 +12993,52 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 12:50:41] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-04-28 12:50:42] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-04-28 12:50:42] INFO root fetch - main [MainThread]: Store serial: [17896947]
+[2023-04-28 12:55:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896947]
+[2023-04-28 12:55:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-observer
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qutewindow
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polygone-nms
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ghastoolkit
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbdataset
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rssfixer
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pollination-two-phase-daylight-coefficient
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Chinese-webtext-spider
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ypricemagic
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-reusable-testcases
+[2023-04-28 12:55:52] INFO root fetch - processPackages [qutewindow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 12:55:52] INFO root fetch - processPackages [python-observer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 12:55:52] INFO root fetch - processPackages [Chinese-webtext-spider]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 12:55:52] INFO root fetch - processPackages [rssfixer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 12:55:52] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev6] Old Version: [2.2.7.dev5]
+[2023-04-28 12:55:52] INFO root fetch - processPackages [qutewindow]: executing diffoscope
+[2023-04-28 12:55:52] INFO root fetch - processPackages [qutewindow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qutewindow-0.1.8.tar.gz tmp/qutewindow-0.1.9.tar.gz --markdown 20230428/q/qutewindow/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.8.tar.gz tmp/ghastoolkit-0.1.9.tar.gz --markdown 20230428/g/ghastoolkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 12:55:52] WARNING root fetch - processPackages [polygone-nms]: Skipping, unable to determine old version
+[2023-04-28 12:55:52] INFO root fetch - main [MainThread]: End processing [polygone-nms] error
+[2023-04-28 12:55:52] WARNING root fetch - processPackages [vbdataset]: Skipping, unable to determine old version
+[2023-04-28 12:55:52] INFO root fetch - main [MainThread]: End processing [vbdataset] error
+[2023-04-28 12:55:52] WARNING root fetch - processPackages [pytest-reusable-testcases]: Skipping, unable to determine old version
+[2023-04-28 12:55:52] INFO root fetch - main [MainThread]: End processing [pytest-reusable-testcases] error
+[2023-04-28 12:55:52] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: executing diffoscope
+[2023-04-28 12:55:52] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-two-phase-daylight-coefficient-1.0.8.tar.gz tmp/pollination-two-phase-daylight-coefficient-1.0.9.tar.gz --markdown 20230428/p/pollination-two-phase-daylight-coefficient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 12:55:52] INFO root fetch - processPackages [Chinese-webtext-spider]: executing diffoscope
+[2023-04-28 12:55:52] INFO root fetch - processPackages [Chinese-webtext-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chinese-webtext-spider-1.0.1.tar.gz tmp/Chinese-webtext-spider-1.0.2.tar.gz --markdown 20230428/C/Chinese-webtext-spider/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 12:55:52] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.7.dev5.tar.gz tmp/ypricemagic-2.2.7.dev6.tar.gz --markdown 20230428/y/ypricemagic/2.2.7.dev5-2.2.7.dev6/diff.md --exclude *.pyd
+[2023-04-28 12:55:52] INFO root fetch - processPackages [python-observer]: Downloading https://files.pythonhosted.org/packages/73/91/0ff601dee3749876d49e3245f824387c4d4c84d4c491fba63d197eda3d9f/python-observer-0.3.1.tar.gz
+[2023-04-28 12:55:52] INFO root fetch - processPackages [python-observer]: executing diffoscope
+[2023-04-28 12:55:52] INFO root fetch - processPackages [python-observer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-observer-0.3.0.tar.gz tmp/python-observer-0.3.1.tar.gz --markdown 20230428/p/python-observer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 12:55:53] INFO root fetch - processPackages [rssfixer]: Downloading https://files.pythonhosted.org/packages/79/3a/fec4ee39281ef294442601bf33967e96549b285edbb4bb35bbb3c894e416/rssfixer-0.1.4.tar.gz
+[2023-04-28 12:55:53] INFO root fetch - processPackages [rssfixer]: executing diffoscope
+[2023-04-28 12:55:53] INFO root fetch - processPackages [rssfixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssfixer-0.1.3.tar.gz tmp/rssfixer-0.1.4.tar.gz --markdown 20230428/r/rssfixer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 12:55:53] INFO root fetch - main [MainThread]: End processing [qutewindow]: success
+[2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [pollination-two-phase-daylight-coefficient]: success
+[2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [Chinese-webtext-spider]: success
+[2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [python-observer]: success
+[2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [rssfixer]: success
+[2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 12:55:54] INFO root fetch - main [MainThread]: Store serial: [17896985]
