@@ -10123,3 +10123,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 10:12:19] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
 [2023-04-28 10:12:40] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-04-28 10:12:40] INFO root fetch - main [MainThread]: Store serial: [17895405]
+[2023-04-28 10:17:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895405]
+[2023-04-28 10:17:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tarvis-indicators-webapi
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-advanced-search
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-financial-report
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vectorlab
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-helpdesk-mgmt
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rebotics-sdk
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-poe-chat
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-dreiattest
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-stock-request-mrp
+[2023-04-28 10:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-request
+[2023-04-28 10:17:49] INFO root fetch - processPackages [django-dreiattest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.6.1.dev9] Old Version: [14.0.2.6.1.dev8]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [django-dreiattest]: executing diffoscope
+[2023-04-28 10:17:49] INFO root fetch - processPackages [django-dreiattest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dreiattest-0.0.8.tar.gz tmp/django-dreiattest-0.0.9.tar.gz --markdown 20230428/d/django-dreiattest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: New version: [16.0.1.0.1] Old Version: [15.0.1.1.2]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [16.0.1.3.2] Old Version: [16.0.1.3.1]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [tarvis-indicators-webapi]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [vectorlab]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.6.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.6.1.dev9-py3-none-any.whl.zip --markdown 20230428/o/odoo14-addon-helpdesk-mgmt/14.0.2.6.1.dev8-14.0.2.6.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-stock-request-mrp]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [15.0.1.5.0] Old Version: [15.0.1.4.0.4]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-stock-request-mrp]: Downloading https://files.pythonhosted.org/packages/87/8b/eea04d186df0be7ded646fd6779ceac0594051a13307492deb85464b75f5/odoo_addon_stock_request_mrp-15.0.1.0.1-py3-none-any.whl
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/38/cc/babe7f19d3eb9431b456cf9abae99da2910a8d3d249f484e08f38996e619/odoo_addon_web_advanced_search-15.0.1.1.2-py3-none-any.whl
+[2023-04-28 10:17:49] INFO root fetch - processPackages [vectorlab]: Downloading https://files.pythonhosted.org/packages/46/f5/b5fc9c7f2474ef1519758b668dcc08b795e684c926fa80e9e1d742da0670/vectorlab-1.0.1.tar.gz
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ca/f5/2288c2a82219c515153f0e3f980e1dd257a2705e6d438ecd59c7753b21a7/odoo_addon_stock_request-15.0.1.4.0.4-py3-none-any.whl
+[2023-04-28 10:17:49] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/e1/67/314b0b36be282642ba5255b67046bebce142f533ddf4e6856c478f6a22bf/odoo_addon_account_financial_report-16.0.1.3.1-py3-none-any.whl
+[2023-04-28 10:17:49] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-04-28 10:17:49] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/8d/af/c0422805c008ecbf416cc003c5a75b1feac395581a9eeaa7ee5b786bdb93/nonebot_poe_chat-1.1.1.tar.gz
+[2023-04-28 10:17:50] INFO root fetch - processPackages [tarvis-indicators-webapi]: Downloading https://files.pythonhosted.org/packages/8e/84/89a1f96c93bccc8138023ad383e0cf3462cdaa6d9619ae5cf692dcf3268a/tarvis-indicators-webapi-0.9.3.tar.gz
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/63/b5/d848cf1093006d605f5a7a3a7251974d62b6bccb1c4883a8ee8b8504a031/odoo_addon_web_advanced_search-16.0.1.0.1-py3-none-any.whl
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-stock-request-mrp]: Downloading https://files.pythonhosted.org/packages/d5/6a/2e18dcabeb56ad8c5729fa71a8ea5dd50e062976912a9be535242ca09a77/odoo_addon_stock_request_mrp-15.0.1.1.0-py3-none-any.whl
+[2023-04-28 10:17:50] INFO root fetch - processPackages [vectorlab]: Downloading https://files.pythonhosted.org/packages/5f/0d/45cf6a41f01f61eac152ddda654202128bd5fc6a96bd904067014ee03a46/vectorlab-1.0.2.tar.gz
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/03/82/bb5bcadb79f763f68c6fc72927107e744019fb6b6d077ba3a29b8025b8cd/odoo_addon_stock_request-15.0.1.5.0-py3-none-any.whl
+[2023-04-28 10:17:50] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping package: exceeds size limit 13493029>=10485760
+[2023-04-28 10:17:50] INFO root fetch - processPackages [nonebot-poe-chat]: Start processing: yajbe
+[2023-04-28 10:17:50] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-04-28 10:17:50] INFO root fetch - processPackages [tarvis-indicators-webapi]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [tarvis-indicators-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-indicators-webapi-0.9.2.tar.gz tmp/tarvis-indicators-webapi-0.9.3.tar.gz --markdown 20230428/t/tarvis-indicators-webapi/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [yajbe]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-stock-request-mrp]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-stock-request-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request_mrp-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_request_mrp-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-stock-request-mrp/15.0.1.0.1-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [vectorlab]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [vectorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorlab-1.0.1.tar.gz tmp/vectorlab-1.0.2.tar.gz --markdown 20230428/v/vectorlab/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-15.0.1.4.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_request-15.0.1.5.0-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-stock-request/15.0.1.4.0.4-15.0.1.5.0/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/5b/d6/1c80157548f25b56f54762c99612e5b2208047af7ca0231869e91129d14e/odoo_addon_account_financial_report-16.0.1.3.2-py3-none-any.whl
+[2023-04-28 10:17:50] INFO root fetch - processPackages [yajbe]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [yajbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yajbe-0.0.1.tar.gz tmp/yajbe-0.0.2.tar.gz --markdown 20230428/y/yajbe/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_advanced_search-15.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_web_advanced_search-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-web-advanced-search/15.0.1.1.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.3.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-16.0.1.3.2-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-account-financial-report/16.0.1.3.1-16.0.1.3.2/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-04-28 10:17:50] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230428/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 10:17:50] INFO root fetch - processPackages [django-dreiattest]: Start processing: odoo-addon-stock-location-lockdown
+[2023-04-28 10:17:50] INFO root fetch - main [MainThread]: End processing [django-dreiattest]: success
+[2023-04-28 10:17:50] INFO root fetch - processPackages [odoo-addon-stock-location-lockdown]: New version: [16.0.1.0.1.3] Old Version: [15.0.1.0.1.2]
+[2023-04-28 10:17:51] INFO root fetch - processPackages [odoo-addon-stock-location-lockdown]: Downloading https://files.pythonhosted.org/packages/3d/9f/d5f09ab9c58f8a30e10eae23a7ea08b39da2aa8484fd4cf34dde7f9c49f6/odoo_addon_stock_location_lockdown-15.0.1.0.1.2-py3-none-any.whl
+[2023-04-28 10:17:51] INFO root fetch - processPackages [odoo-addon-stock-location-lockdown]: Downloading https://files.pythonhosted.org/packages/cb/78/6b85c3b3934f8d000ee61f3e5586658dc313aad66b65c323ad06e230c339/odoo_addon_stock_location_lockdown-16.0.1.0.1.3-py3-none-any.whl
+[2023-04-28 10:17:51] INFO root fetch - processPackages [odoo-addon-stock-location-lockdown]: executing diffoscope
+[2023-04-28 10:17:51] INFO root fetch - processPackages [odoo-addon-stock-location-lockdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_location_lockdown-15.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_location_lockdown-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-stock-location-lockdown/15.0.1.0.1.2-16.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-04-28 10:17:51] INFO root fetch - main [MainThread]: End processing [tarvis-indicators-webapi]: success
+[2023-04-28 10:17:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2023-04-28 10:17:51] INFO root fetch - main [MainThread]: End processing [yajbe]: success
+[2023-04-28 10:17:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request-mrp]: success
+[2023-04-28 10:17:52] INFO root fetch - main [MainThread]: End processing [vectorlab]: success
+[2023-04-28 10:17:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2023-04-28 10:17:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2023-04-28 10:17:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-location-lockdown]: success
+[2023-04-28 10:17:53] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-04-28 10:17:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-advanced-search]: success
+[2023-04-28 10:17:54] INFO root fetch - main [MainThread]: Store serial: [17895439]
