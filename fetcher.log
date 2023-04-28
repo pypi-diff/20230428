@@ -16329,3 +16329,98 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:05:25] INFO root fetch - main [MainThread]: End processing [ejtraderTH]: success
 [2023-04-28 16:05:26] INFO root fetch - main [MainThread]: End processing [funtoo-metatools]: success
 [2023-04-28 16:05:26] INFO root fetch - main [MainThread]: Store serial: [17899020]
+[2023-04-28 16:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899020]
+[2023-04-28 16:10:37] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-contributor-assets
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: space-invaders
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asleep
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxys
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arkitekt
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autosubmitconfigparser
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rosys
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genki-wave
+[2023-04-28 16:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: insights-extractor
+[2023-04-28 16:10:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post735] Old Version: [1.0.0.post734]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [asleep]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [arkitekt]: New version: [0.4.93] Old Version: [0.4.92]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [asleep]: Downloading https://files.pythonhosted.org/packages/2e/07/cda4b44b105ab18934418818c86148d27195e0fb0ddcff03830b63d126f0/asleep-0.3.6.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [proxys]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-28 16:10:37] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 16:10:37] INFO root fetch - processPackages [space-invaders]: Start processing: arkitekt
+[2023-04-28 16:10:37] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.92.tar.gz tmp/arkitekt-0.4.93.tar.gz --markdown 20230428/a/arkitekt/0.4.92-0.4.93/diff.md --exclude *.pyd
+[2023-04-28 16:10:37] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 16:10:37] INFO root fetch - processPackages [genki-wave]: New version: [0.5.1] Old Version: [0.4.1]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.26] Old Version: [1.0.25]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [insights-extractor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [rosys]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [arkitekt]: New version: [0.4.95] Old Version: [0.4.94]
+[2023-04-28 16:10:37] WARNING root fetch - processPackages [asleep]: Skipping package: exceeds size limit 41156096>=10485760
+[2023-04-28 16:10:37] INFO root fetch - processPackages [asleep]: Start processing: netbox-topology-views
+[2023-04-28 16:10:37] INFO root fetch - main [MainThread]: End processing [asleep] error
+[2023-04-28 16:10:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/1d/87/e77e581416591db027bcc51fb58dcd5df3d9f30222e7e5d2b61f8e85120c/nucliadb_contributor_assets-1.0.0.post735-py3-none-any.whl
+[2023-04-28 16:10:37] INFO root fetch - processPackages [insights-extractor]: Downloading https://files.pythonhosted.org/packages/2c/92/ca9d8d3192fe06f1b5305332636748d655ea5639568b846c62cfc7cdbe84/insights-extractor-0.1.1.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [genki-wave]: Downloading https://files.pythonhosted.org/packages/6a/1c/d3f475eb28b634e71cc29ed04689624799626edeab40dfa5229c9fa10462/genki-wave-0.4.1.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [proxys]: Downloading https://files.pythonhosted.org/packages/9f/73/fb206638f126a017a9345d6266205e18a373900bc1204984a1c06daaddaf/proxys-0.0.3-py3-none-any.whl
+[2023-04-28 16:10:37] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/06/aa/c56edb5b09845b5ce1d13d0679544f155a25ea6953f3d656eed47dd5973d/rosys-0.8.2.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [netbox-topology-views]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-04-28 16:10:37] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/ff/17/b9f242a8bb7bb16a2336cab824918498d3d098ddc45c5e6fe331e190985e/arkitekt-0.4.94.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-04-28 16:10:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post734-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post735-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-contributor-assets/1.0.0.post734-1.0.0.post735/diff.md --exclude *.pyd
+[2023-04-28 16:10:37] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/40/de/9d21605332be537c3cba4d64cd050f9010485c9b941690fdaf440b41f676/autosubmitconfigparser-1.0.26.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/a1/1f/834b8f4becd170a48200558859b88348eded12f0d9c0ece6d27296848faa/netbox-topology-views-3.3.0.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [insights-extractor]: Downloading https://files.pythonhosted.org/packages/c1/2c/b6cc865f1ea758a75e6e602cc5dfd2af5edc9343c137a6c76954df0ac170/insights-extractor-0.1.2.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-28 16:10:37] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230428/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-28 16:10:37] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-04-28 16:10:37] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.25.tar.gz tmp/autosubmitconfigparser-1.0.26.tar.gz --markdown 20230428/a/autosubmitconfigparser/1.0.25-1.0.26/diff.md --exclude *.pyd
+[2023-04-28 16:10:37] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/38/c9/91b25fe6c93e8d9f4db2a1f74f8f2620cec060d1f38688f75bf925bf7dc5/rosys-0.8.3.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [genki-wave]: Downloading https://files.pythonhosted.org/packages/3a/b5/c76fc9100d91e92c29cba1ac05195296635783f6fc5fe3af337a57586529/genki-wave-0.5.1.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [proxys]: Downloading https://files.pythonhosted.org/packages/1d/1b/e72b98392bd8d7ebffbd02ad548d70268fc7019744dfe2e087f8ac8768a7/proxys-0.0.4-py2.py3-none-any.whl
+[2023-04-28 16:10:37] INFO root fetch - processPackages [insights-extractor]: executing diffoscope
+[2023-04-28 16:10:37] INFO root fetch - processPackages [insights-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-extractor-0.1.1.tar.gz tmp/insights-extractor-0.1.2.tar.gz --markdown 20230428/i/insights-extractor/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 16:10:37] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/45/c4/95c93808fc7475c5eea1050b619096ffb37df2172574b37a5b1b4dbb26d6/arkitekt-0.4.95.tar.gz
+[2023-04-28 16:10:37] INFO root fetch - processPackages [rosys]: executing diffoscope
+[2023-04-28 16:10:37] INFO root fetch - processPackages [rosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosys-0.8.2.tar.gz tmp/rosys-0.8.3.tar.gz --markdown 20230428/r/rosys/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-28 16:10:37] INFO root fetch - processPackages [genki-wave]: executing diffoscope
+[2023-04-28 16:10:37] INFO root fetch - processPackages [genki-wave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genki-wave-0.4.1.tar.gz tmp/genki-wave-0.5.1.tar.gz --markdown 20230428/g/genki-wave/0.4.1-0.5.1/diff.md --exclude *.pyd
+[2023-04-28 16:10:37] INFO root fetch - processPackages [proxys]: executing diffoscope
+[2023-04-28 16:10:37] INFO root fetch - processPackages [proxys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxys-0.0.3-py3-none-any.whl.zip tmp/proxys-0.0.4-py2.py3-none-any.whl.zip --markdown 20230428/p/proxys/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 16:10:38] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/5b/8e/0444155a47334c1dff4893ec10446d8732509ecffc2087b8703344f868b0/netbox-topology-views-3.4.0.tar.gz
+[2023-04-28 16:10:38] INFO root fetch - processPackages [netbox-topology-views]: executing diffoscope
+[2023-04-28 16:10:38] INFO root fetch - processPackages [netbox-topology-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-topology-views-3.3.0.tar.gz tmp/netbox-topology-views-3.4.0.tar.gz --markdown 20230428/n/netbox-topology-views/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-04-28 16:10:38] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-28 16:10:38] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.94.tar.gz tmp/arkitekt-0.4.95.tar.gz --markdown 20230428/a/arkitekt/0.4.94-0.4.95/diff.md --exclude *.pyd
+[2023-04-28 16:10:38] INFO root fetch - processPackages [arkitekt]: Start processing: blackduck-c-cpp
+[2023-04-28 16:10:38] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-28 16:10:39] INFO root fetch - processPackages [blackduck-c-cpp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 16:10:39] INFO root fetch - processPackages [blackduck-c-cpp]: Downloading https://files.pythonhosted.org/packages/32/6b/1bf15999997054e560aa32b656cd316b9883f4f074a07ec9b0231f35eb26/blackduck-c-cpp-1.0.8.tar.gz
+[2023-04-28 16:10:39] INFO root fetch - processPackages [proxys]: Start processing: tsp-wrapper
+[2023-04-28 16:10:39] INFO root fetch - main [MainThread]: End processing [proxys]: success
+[2023-04-28 16:10:39] WARNING root fetch - processPackages [tsp-wrapper]: Skipping, unable to determine old version
+[2023-04-28 16:10:39] INFO root fetch - processPackages [tsp-wrapper]: Start processing: findmyorder
+[2023-04-28 16:10:39] INFO root fetch - main [MainThread]: End processing [tsp-wrapper] error
+[2023-04-28 16:10:39] INFO root fetch - processPackages [insights-extractor]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-04-28 16:10:39] INFO root fetch - main [MainThread]: End processing [insights-extractor]: success
+[2023-04-28 16:10:39] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 16:10:39] INFO root fetch - processPackages [blackduck-c-cpp]: Downloading https://files.pythonhosted.org/packages/f2/70/0ef7535f40488f457f17ca24951cd2699aed348ba1485034695947829567/blackduck-c-cpp-1.0.9.tar.gz
+[2023-04-28 16:10:39] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-28 16:10:39] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230428/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:10:39] INFO root fetch - processPackages [blackduck-c-cpp]: executing diffoscope
+[2023-04-28 16:10:39] INFO root fetch - processPackages [blackduck-c-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackduck-c-cpp-1.0.8.tar.gz tmp/blackduck-c-cpp-1.0.9.tar.gz --markdown 20230428/b/blackduck-c-cpp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:10:39] INFO root fetch - main [MainThread]: End processing [genki-wave]: success
+[2023-04-28 16:10:40] INFO root fetch - main [MainThread]: End processing [rosys]: success
+[2023-04-28 16:10:40] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 16:10:40] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-04-28 16:10:40] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 16:10:40] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-04-28 16:10:41] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-28 16:10:41] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-04-28 16:10:41] INFO root fetch - main [MainThread]: End processing [blackduck-c-cpp]: success
+[2023-04-28 16:10:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-04-28 16:10:41] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-28 16:10:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-28 16:10:43] INFO root fetch - main [MainThread]: End processing [netbox-topology-views]: success
+[2023-04-28 16:10:43] INFO root fetch - main [MainThread]: Store serial: [17899076]
