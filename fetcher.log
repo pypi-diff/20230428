@@ -14695,3 +14695,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 14:42:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-28 14:42:51] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-28 14:42:51] INFO root fetch - main [MainThread]: Store serial: [17897999]
+[2023-04-28 14:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897999]
+[2023-04-28 14:47:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shift-left-secure
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FuncsForSPO
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findmyorder
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyTestLog2DB
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: breeze-connect
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taskkit
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytap2
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csvthd
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: otsuwinhdlr
+[2023-04-28 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-recaptcha-enterprise
+[2023-04-28 14:48:00] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 14:48:00] WARNING root fetch - processPackages [PyTestLog2DB]: Skipping, unable to determine old version
+[2023-04-28 14:48:00] INFO root fetch - processPackages [PyTestLog2DB]: Start processing: MindsDB
+[2023-04-28 14:48:00] INFO root fetch - processPackages [shift-left-secure]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 14:48:00] INFO root fetch - main [MainThread]: End processing [PyTestLog2DB] error
+[2023-04-28 14:48:00] INFO root fetch - processPackages [csvthd]: New version: [0.5.0b0] Old Version: [0.4.0b0]
+[2023-04-28 14:48:00] INFO root fetch - processPackages [django-recaptcha-enterprise]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 14:48:00] INFO root fetch - processPackages [FuncsForSPO]: New version: [4.41.0] Old Version: [4.40.3]
+[2023-04-28 14:48:00] WARNING root fetch - processPackages [otsuwinhdlr]: Skipping, unable to determine old version
+[2023-04-28 14:48:00] INFO root fetch - processPackages [pytap2]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-04-28 14:48:00] INFO root fetch - processPackages [taskkit]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-28 14:48:00] INFO root fetch - processPackages [otsuwinhdlr]: Start processing: manticore
+[2023-04-28 14:48:00] INFO root fetch - main [MainThread]: End processing [otsuwinhdlr] error
+[2023-04-28 14:48:00] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 14:48:00] INFO root fetch - processPackages [MindsDB]: New version: [23.4.4.3] Old Version: [23.4.4.2]
+[2023-04-28 14:48:00] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230428/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.4.4.2.tar.gz tmp/MindsDB-23.4.4.3.tar.gz --markdown 20230428/M/MindsDB/23.4.4.2-23.4.4.3/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230428] Old Version: [0.3.8.dev230426]
+[2023-04-28 14:48:00] INFO root fetch - processPackages [shift-left-secure]: Downloading https://files.pythonhosted.org/packages/31/2b/cec9e40cc7ab18e679d5f25e576fa51d3eedcad8117c7a9a627f258d6b5e/shift_left_secure-0.2.2.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [django-recaptcha-enterprise]: Downloading https://files.pythonhosted.org/packages/eb/1d/6b57110e0b94f913777066e791e6ae99a968f165592c6c937251369561ae/django-recaptcha-enterprise-0.0.8.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/4c/f8/bb01d0c19930c2ec86161837b14939fa94635b8e9cbf8186e9a238fb00a8/FuncsForSPO-4.40.3.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [taskkit]: Downloading https://files.pythonhosted.org/packages/7c/1d/7c8fccae13884ec523eda614e966db1f6d36f14b5f3bc90507d7614c2586/taskkit-0.1.9.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [pytap2]: Downloading https://files.pythonhosted.org/packages/59/20/2e61756f6326cc9f8fa15892176efe7511e1bd0e524ce5b71aa5a0ee13c3/pytap2-2.2.0.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [csvthd]: Downloading https://files.pythonhosted.org/packages/a0/86/67860b6f7e141354162fa7d89f5dd58d3f873f91875a527895c5a06d03e6/csvthd-0.5.0b0.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [shift-left-secure]: Downloading https://files.pythonhosted.org/packages/f2/1c/3eeda2b0ff8c6b869d84cbb7a35df3908e417519525e45439f34d3053945/shift_left_secure-0.2.3.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/e4/90/93c3b210b5daea931c63a6596d02dce7c5041551d40580cbfdfcc49327a9/FuncsForSPO-4.41.0.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [csvthd]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [csvthd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvthd-0.4.0b0.tar.gz tmp/csvthd-0.5.0b0.tar.gz --markdown 20230428/c/csvthd/0.4.0b0-0.5.0b0/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [pytap2]: Downloading https://files.pythonhosted.org/packages/7d/4a/b554c4bd7c38a3a407ecb50627088e1147ff11ca02f66af36b8c3fbc6c91/pytap2-2.3.0.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/17/3e/905f624b8591ebec02e8ce3975aa92067ec0f6084dac7ec75a340571ca4c/manticore-0.3.8.dev230428.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [shift-left-secure]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [shift-left-secure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shift_left_secure-0.2.2.tar.gz tmp/shift_left_secure-0.2.3.tar.gz --markdown 20230428/s/shift-left-secure/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.40.3.tar.gz tmp/FuncsForSPO-4.41.0.tar.gz --markdown 20230428/F/FuncsForSPO/4.40.3-4.41.0/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [taskkit]: Downloading https://files.pythonhosted.org/packages/66/bd/4f1be9034036a52598d51686e510c2edaa5b8bc0275c42e16ab51dee516a/taskkit-0.2.0.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [pytap2]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [pytap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytap2-2.2.0.tar.gz tmp/pytap2-2.3.0.tar.gz --markdown 20230428/p/pytap2/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [django-recaptcha-enterprise]: Downloading https://files.pythonhosted.org/packages/5c/2b/0bfcde3dd1d58353b147c3b735e98091f355d663e93a6acb4072c55f649a/django-recaptcha-enterprise-0.0.9.tar.gz
+[2023-04-28 14:48:00] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230426.tar.gz tmp/manticore-0.3.8.dev230428.tar.gz --markdown 20230428/m/manticore/0.3.8.dev230426-0.3.8.dev230428/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [taskkit]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [taskkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskkit-0.1.9.tar.gz tmp/taskkit-0.2.0.tar.gz --markdown 20230428/t/taskkit/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20230428/b/breeze-connect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 14:48:00] INFO root fetch - processPackages [django-recaptcha-enterprise]: executing diffoscope
+[2023-04-28 14:48:00] INFO root fetch - processPackages [django-recaptcha-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-recaptcha-enterprise-0.0.8.tar.gz tmp/django-recaptcha-enterprise-0.0.9.tar.gz --markdown 20230428/d/django-recaptcha-enterprise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 14:48:01] INFO root fetch - processPackages [findmyorder]: Start processing: front
+[2023-04-28 14:48:01] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-28 14:48:01] INFO root fetch - processPackages [front]: New version: [0.1.9] Old Version: [0.1.89]
+[2023-04-28 14:48:01] INFO root fetch - processPackages [front]: Downloading https://files.pythonhosted.org/packages/b1/b6/4a758dcbc21bef3a88ffe76420cd8c3e535d08014dd41621a571901af0bd/front-0.1.89.tar.gz
+[2023-04-28 14:48:02] INFO root fetch - processPackages [front]: executing diffoscope
+[2023-04-28 14:48:02] INFO root fetch - processPackages [front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/front-0.1.89.tar.gz tmp/front-0.1.9.tar.gz --markdown 20230428/f/front/0.1.89-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 14:48:02] INFO root fetch - processPackages [csvthd]: Start processing: hdbcli
+[2023-04-28 14:48:02] INFO root fetch - main [MainThread]: End processing [csvthd]: success
+[2023-04-28 14:48:02] INFO root fetch - processPackages [hdbcli]: New version: [2.9.28] Old Version: [2.9.23]
+[2023-04-28 14:48:02] INFO root fetch - main [MainThread]: End processing [shift-left-secure]: success
+[2023-04-28 14:48:02] INFO root fetch - main [MainThread]: End processing [pytap2]: success
+[2023-04-28 14:48:02] INFO root fetch - processPackages [hdbcli]: Downloading https://files.pythonhosted.org/packages/1e/e5/f8f73481c75bbe2e895923b8b17da6db0f4f393a02cca6865ffd593b3eee/hdbcli-2.9.23-cp39-cp39-win_amd64.whl
+[2023-04-28 14:48:02] INFO root fetch - main [MainThread]: End processing [taskkit]: success
+[2023-04-28 14:48:02] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2023-04-28 14:48:03] INFO root fetch - main [MainThread]: End processing [front]: success
+[2023-04-28 14:48:03] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-04-28 14:48:03] INFO root fetch - main [MainThread]: End processing [django-recaptcha-enterprise]: success
+[2023-04-28 14:48:03] INFO root fetch - processPackages [hdbcli]: Downloading https://files.pythonhosted.org/packages/0e/40/9778206bcbad23cbee1755727d11528e17a0f244e3c131e4a479e5971eb7/hdbcli-2.9.28-cp39-cp39-win_amd64.whl
+[2023-04-28 14:48:04] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-04-28 14:48:04] INFO root fetch - processPackages [hdbcli]: executing diffoscope
+[2023-04-28 14:48:04] INFO root fetch - processPackages [hdbcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdbcli-2.9.23-cp39-cp39-win_amd64.whl.zip tmp/hdbcli-2.9.28-cp39-cp39-win_amd64.whl.zip --markdown 20230428/h/hdbcli/2.9.23-2.9.28/diff.md --exclude *.pyd
+[2023-04-28 14:48:05] INFO root fetch - main [MainThread]: End processing [hdbcli]: success
+[2023-04-28 14:48:09] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-04-28 14:48:09] INFO root fetch - main [MainThread]: Store serial: [17898046]
