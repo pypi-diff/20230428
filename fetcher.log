@@ -22698,3 +22698,209 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 23:03:01] INFO root fetch - main [MainThread]: End processing [pqam-dparamhu2021]: success
 [2023-04-28 23:03:05] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-28 23:03:05] INFO root fetch - main [MainThread]: Store serial: [17902990]
+[2023-04-28 23:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902990]
+[2023-04-28 23:08:15] INFO root fetch - main [MainThread]: Found 37 changed packages
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steamship-langchain
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-sql-connector
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: animegifs
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zaber-motion-bindings-windows
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-f5bigip
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: staircase-kit
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zaber-motion-bindings-linux
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zaber-motion-bindings-darwin
+[2023-04-28 23:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digital-diffeomorphism
+[2023-04-28 23:08:15] INFO root fetch - processPackages [animegifs]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [databricks-sql-connector]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2023-04-28 23:08:15] WARNING root fetch - processPackages [digital-diffeomorphism]: Skipping, unable to determine old version
+[2023-04-28 23:08:15] INFO root fetch - processPackages [digital-diffeomorphism]: Start processing: zaber-motion
+[2023-04-28 23:08:15] INFO root fetch - main [MainThread]: End processing [digital-diffeomorphism] error
+[2023-04-28 23:08:15] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [staircase-kit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [zaber-motion-bindings-windows]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230428.21.3.546881] Old Version: [20230428.12.50.646829]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [zaber-motion]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-04-28 23:08:15] INFO root fetch - processPackages [zaber-motion-bindings-linux]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-04-28 23:08:16] INFO root fetch - processPackages [databricks-sql-connector]: Downloading https://files.pythonhosted.org/packages/c6/99/5311639e1fdbf88668e219a8a6acd387c7ea1b593fd1ec7b22d2dead99af/databricks_sql_connector-2.5.0.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/3c/89/7738bf778585ab1bf0895b61f7b2f80af34a522d66c73e0b6819b2504c85/animegifs-0.3.4.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [staircase-kit]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [staircase-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staircase_kit-0.1.8.tar.gz tmp/staircase_kit-0.1.9.tar.gz --markdown 20230428/s/staircase-kit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Downloading https://files.pythonhosted.org/packages/34/19/22ba235a5be83c9f99dac70d266b12805cff91a066c47099a4608187c906/zaber_motion_bindings_darwin-3.2.1.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/28/9b/7d30260ef422e30d955c8e4ebaea1b7da8fe8e82ed497d0e37cfe71a5062/steamship-langchain-0.0.8.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/d7/24/1d9a07cd1c49323b9baadcc530377aba02d7b06b6d814227d28157f01aab/zaber_motion-3.2.1.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Downloading https://files.pythonhosted.org/packages/f5/31/1ff4b78771d206ef23ce329a19ccbb23ff5679a74c335e34e3917574b3d0/zaber_motion_bindings_linux-3.2.1.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Downloading https://files.pythonhosted.org/packages/7f/a7/63140c744d710b95f1d460bfdfa596a2452661e652ed0704be369d7cf84b/zaber_motion_bindings_windows-3.2.1.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/75/f4/16a6b79812584b4caa7d954b5a3714bd19f7ced9907dd66905588082ddae/certora-cli-alpha-master-20230428.12.50.646829.tar.gz
+[2023-04-28 23:08:16] WARNING root fetch - processPackages [zaber-motion-bindings-linux]: Skipping package: exceeds size limit 36831786>=10485760
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Start processing: tom-nonlocalizedevents
+[2023-04-28 23:08:16] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-linux] error
+[2023-04-28 23:08:16] WARNING root fetch - processPackages [zaber-motion-bindings-darwin]: Skipping package: exceeds size limit 20774566>=10485760
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Start processing: oceano-algos
+[2023-04-28 23:08:16] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-darwin] error
+[2023-04-28 23:08:16] INFO root fetch - processPackages [tom-nonlocalizedevents]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-28 23:08:16] WARNING root fetch - processPackages [zaber-motion-bindings-windows]: Skipping package: exceeds size limit 18670144>=10485760
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Start processing: AutoEis
+[2023-04-28 23:08:16] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-windows] error
+[2023-04-28 23:08:16] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 23:08:16] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20230428/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [AutoEis]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 23:08:16] INFO root fetch - processPackages [databricks-sql-connector]: Downloading https://files.pythonhosted.org/packages/a4/af/7c0175d3f795fc349ce297d2ce05d95a33ceb0b09918dc23d406d1cb003f/databricks_sql_connector-2.5.1.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/be/06/7d97ea69513cdf12c16cbb49c611670a8ac79dc85ae73bbada3b346251b5/animegifs-0.4.0.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230428/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [animegifs]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [animegifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animegifs-0.3.4.tar.gz tmp/animegifs-0.4.0.tar.gz --markdown 20230428/a/animegifs/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/e9/88/8c8901b1c1c21df4e7c322706417ad20b256bab826f242940c443390fdb8/zaber_motion-3.3.0.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/d3/e8/99fd7d90895f3d224f2fe3210c59f541a6187cc6e3aab13e92fa5e2da113/steamship-langchain-0.0.9.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [tom-nonlocalizedevents]: Downloading https://files.pythonhosted.org/packages/4c/f2/e7ce52b73472647a90235fcf1698075f9b49201ec9f69f373e1c4259572e/tom_nonlocalizedevents-0.7.2.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-3.2.1.tar.gz tmp/zaber_motion-3.3.0.tar.gz --markdown 20230428/z/zaber-motion/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [databricks-sql-connector]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [databricks-sql-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_sql_connector-2.5.0.tar.gz tmp/databricks_sql_connector-2.5.1.tar.gz --markdown 20230428/d/databricks-sql-connector/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [tom-nonlocalizedevents]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [tom-nonlocalizedevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tom_nonlocalizedevents-0.7.1.tar.gz tmp/tom_nonlocalizedevents-0.7.2.tar.gz --markdown 20230428/t/tom-nonlocalizedevents/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38067061>=10485760
+[2023-04-28 23:08:16] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: ofa2
+[2023-04-28 23:08:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-28 23:08:16] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281209] Old Version: [0.1.0.post202304281156]
+[2023-04-28 23:08:16] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230428/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [AutoEis]: Downloading https://files.pythonhosted.org/packages/00/26/988e7aed7dd0b576ab67f4c1539e1d9c25ff2bada850dee00535990d54cc/AutoEis-0.0.8.tar.gz
+[2023-04-28 23:08:16] INFO root fetch - processPackages [AutoEis]: executing diffoscope
+[2023-04-28 23:08:16] INFO root fetch - processPackages [AutoEis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoEis-0.0.7.tar.gz tmp/AutoEis-0.0.8.tar.gz --markdown 20230428/A/AutoEis/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 23:08:16] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/12/d4/9ec005696fdcaae641082cc2fa3e5e133aba28a3c7aeb87ba6b95e8122b3/ofa2-0.1.0.post202304281156.tar.gz
+[2023-04-28 23:08:17] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/70/8a/ecda9293d71dd337c71f46638687a7f62cea9144bd1ea6d88ef3d17d0a98/ofa2-0.1.0.post202304281209.tar.gz
+[2023-04-28 23:08:17] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:17] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281156.tar.gz tmp/ofa2-0.1.0.post202304281209.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281156-0.1.0.post202304281209/diff.md --exclude *.pyd
+[2023-04-28 23:08:17] INFO root fetch - processPackages [staircase-kit]: Start processing: ofa2
+[2023-04-28 23:08:17] INFO root fetch - main [MainThread]: End processing [staircase-kit]: success
+[2023-04-28 23:08:17] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:17] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/9e/66/62f95cf1ff6ef1009cc741587f0195d03268e7577f4b2b0fe0b3033539e2/ofa2-0.1.0.post202304281802.tar.gz
+[2023-04-28 23:08:17] INFO root fetch - processPackages [oceano-algos]: Start processing: ofa2
+[2023-04-28 23:08:17] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-28 23:08:17] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/04/4e/5c74bbc158f80face69cdcffe7c247dd3f5fe5fb73d3abf9aa390af81c1f/ofa2-0.1.0.post202304281805.tar.gz
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/04/4e/5c74bbc158f80face69cdcffe7c247dd3f5fe5fb73d3abf9aa390af81c1f/ofa2-0.1.0.post202304281805.tar.gz
+[2023-04-28 23:08:18] INFO root fetch - processPackages [animegifs]: Start processing: ofa2
+[2023-04-28 23:08:18] INFO root fetch - main [MainThread]: End processing [animegifs]: success
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/04/4e/5c74bbc158f80face69cdcffe7c247dd3f5fe5fb73d3abf9aa390af81c1f/ofa2-0.1.0.post202304281805.tar.gz
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:18] INFO root fetch - processPackages [AutoEis]: Start processing: ofa2
+[2023-04-28 23:08:18] INFO root fetch - main [MainThread]: End processing [AutoEis]: success
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:18] INFO root fetch - processPackages [steamship-langchain]: Start processing: ofa2
+[2023-04-28 23:08:18] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ofa2]: Start processing: ytchat
+[2023-04-28 23:08:18] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:18] INFO root fetch - processPackages [ytchat]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/b6/a7/6d0be2cd7cf14160ed70feb4a541f8ad138b2e8c3a4773ab3acac87c1977/ytchat-0.0.1.tar.gz
+[2023-04-28 23:08:19] WARNING root fetch - processPackages [ytchat]: Skipping package: exceeds size limit 12541446>=10485760
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ytchat]: Start processing: ofa2
+[2023-04-28 23:08:19] INFO root fetch - main [MainThread]: End processing [ytchat] error
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:19] INFO root fetch - processPackages [pulumi-f5bigip]: Start processing: ofa2
+[2023-04-28 23:08:19] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:19] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-04-28 23:08:20] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-04-28 23:08:20] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-04-28 23:08:20] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:20] INFO root fetch - processPackages [ofa2]: Start processing: strongmind-deployment
+[2023-04-28 23:08:20] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:20] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-04-28 23:08:20] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/ab/05/dbd7b4c7e693dd8ad643b23f7376249eddf5eccc5ab62a26552a3a9bda5e/strongmind_deployment-1.0.0-py3-none-any.whl
+[2023-04-28 23:08:21] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-04-28 23:08:21] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-0.0.9-py3-none-any.whl.zip tmp/strongmind_deployment-1.0.0-py3-none-any.whl.zip --markdown 20230428/s/strongmind-deployment/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-04-28 23:08:21] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-04-28 23:08:21] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-04-28 23:08:21] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:21] INFO root fetch - processPackages [tom-nonlocalizedevents]: Start processing: ofa2
+[2023-04-28 23:08:21] INFO root fetch - main [MainThread]: End processing [tom-nonlocalizedevents]: success
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:21] INFO root fetch - processPackages [zaber-motion]: Start processing: ofa2
+[2023-04-28 23:08:21] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:21] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:22] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-04-28 23:08:22] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:22] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202304281805] Old Version: [0.1.0.post202304281802]
+[2023-04-28 23:08:22] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-04-28 23:08:22] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281802.tar.gz tmp/ofa2-0.1.0.post202304281805.tar.gz --markdown 20230428/o/ofa2/0.1.0.post202304281802-0.1.0.post202304281805/diff.md --exclude *.pyd
+[2023-04-28 23:08:22] INFO root fetch - processPackages [databricks-sql-connector]: Start processing: tonconsole
+[2023-04-28 23:08:22] INFO root fetch - main [MainThread]: End processing [databricks-sql-connector]: success
+[2023-04-28 23:08:22] INFO root fetch - processPackages [tonconsole]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-04-28 23:08:22] INFO root fetch - processPackages [strongmind-deployment]: Start processing: pqam-dparamhu2021
+[2023-04-28 23:08:22] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-04-28 23:08:22] INFO root fetch - processPackages [tonconsole]: Downloading https://files.pythonhosted.org/packages/ff/5e/327d4965f6cdca4eb6c8f7561c30ce8f2c7c44e1b06363d0915169f35cc5/tonconsole-0.0.24.tar.gz
+[2023-04-28 23:08:22] INFO root fetch - processPackages [pqam-dparamhu2021]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 23:08:22] INFO root fetch - processPackages [tonconsole]: Downloading https://files.pythonhosted.org/packages/4e/91/ab386de0dc988d1e96ee2794934a6b456dc78016eafc3eacf1d95348c59d/tonconsole-0.0.25.tar.gz
+[2023-04-28 23:08:22] INFO root fetch - processPackages [pqam-dparamhu2021]: Downloading https://files.pythonhosted.org/packages/3f/37/31b12ce2bb6c49b5c3288330af6cae2119d992000983ab70f439d671cd40/pqam_dparamhu2021-0.1.3.tar.gz
+[2023-04-28 23:08:22] INFO root fetch - processPackages [tonconsole]: executing diffoscope
+[2023-04-28 23:08:22] INFO root fetch - processPackages [tonconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonconsole-0.0.24.tar.gz tmp/tonconsole-0.0.25.tar.gz --markdown 20230428/t/tonconsole/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-04-28 23:08:23] INFO root fetch - processPackages [ofa2]: Start processing: sphinxcontrib-matlabdomain
+[2023-04-28 23:08:23] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:23] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-04-28 23:08:23] INFO root fetch - processPackages [ofa2]: Start processing: capsolver-key
+[2023-04-28 23:08:23] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:23] WARNING root fetch - processPackages [capsolver-key]: Skipping, unable to determine old version
+[2023-04-28 23:08:23] INFO root fetch - main [MainThread]: End processing [capsolver-key] error
+[2023-04-28 23:08:23] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/27/9f/400da890f1d17b5a3eadcb477d83d44b79ab59e95ac28b04e1f8019c30f2/sphinxcontrib-matlabdomain-0.7.1.tar.gz
+[2023-04-28 23:08:23] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:23] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:23] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:23] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:23] INFO root fetch - processPackages [pqam-dparamhu2021]: executing diffoscope
+[2023-04-28 23:08:23] INFO root fetch - processPackages [pqam-dparamhu2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqam_dparamhu2021-0.1.2.tar.gz tmp/pqam_dparamhu2021-0.1.3.tar.gz --markdown 20230428/p/pqam-dparamhu2021/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 23:08:23] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/02/17/576fe56ac8622a964e69f7f314c46c1235b2a8447151a3df20102e5b45bc/sphinxcontrib-matlabdomain-0.8.0.tar.gz
+[2023-04-28 23:08:24] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:24] INFO root fetch - main [MainThread]: End processing [tonconsole]: success
+[2023-04-28 23:08:24] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-04-28 23:08:24] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230428/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 23:08:24] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-04-28 23:08:25] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-04-28 23:08:25] INFO root fetch - main [MainThread]: End processing [pqam-dparamhu2021]: success
+[2023-04-28 23:08:25] INFO root fetch - main [MainThread]: Store serial: [17903102]
