@@ -12712,3 +12712,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 12:34:49] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-28 12:34:53] INFO root fetch - main [MainThread]: End processing [mercury]: success
 [2023-04-28 12:34:53] INFO root fetch - main [MainThread]: Store serial: [17896786]
+[2023-04-28 12:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896786]
+[2023-04-28 12:40:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygrille
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: katalytic-pkg
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeUtils
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcm-processor
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MOMORING
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fuzzymap
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: innerverz-package
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fpdf2
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aspire
+[2023-04-28 12:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: telemulator3
+[2023-04-28 12:40:02] INFO root fetch - processPackages [katalytic-pkg]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-04-28 12:40:02] WARNING root fetch - processPackages [telemulator3]: Skipping, unable to determine old version
+[2023-04-28 12:40:02] INFO root fetch - processPackages [telemulator3]: Start processing: cf-speedtest
+[2023-04-28 12:40:02] INFO root fetch - processPackages [fuzzymap]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-04-28 12:40:02] INFO root fetch - main [MainThread]: End processing [telemulator3] error
+[2023-04-28 12:40:02] INFO root fetch - processPackages [MOMORING]: New version: [1.4.0] Old Version: [1.3.6]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [dcm-processor]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [pygrille]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [innerverz-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [MeUtils]: New version: [2023.4.6.14.28.33] Old Version: [2023.4.6.14.19.58]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [fpdf2]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [fuzzymap]: executing diffoscope
+[2023-04-28 12:40:02] INFO root fetch - processPackages [fuzzymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzymap-1.0.4.tar.gz tmp/fuzzymap-1.1.0.tar.gz --markdown 20230428/f/fuzzymap/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 12:40:02] INFO root fetch - processPackages [aspire]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [innerverz-package]: executing diffoscope
+[2023-04-28 12:40:02] INFO root fetch - processPackages [innerverz-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz_package-0.0.8.tar.gz tmp/innerverz_package-0.0.9.tar.gz --markdown 20230428/i/innerverz-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 12:40:02] INFO root fetch - processPackages [MOMORING]: executing diffoscope
+[2023-04-28 12:40:02] INFO root fetch - processPackages [MOMORING]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MOMORING-1.3.6.tar.gz tmp/MOMORING-1.4.0.tar.gz --markdown 20230428/M/MOMORING/1.3.6-1.4.0/diff.md --exclude *.pyd
+[2023-04-28 12:40:02] INFO root fetch - processPackages [cf-speedtest]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 12:40:02] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-04-28 12:40:02] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.4.6.14.19.58.tar.gz tmp/MeUtils-2023.4.6.14.28.33.tar.gz --markdown 20230428/M/MeUtils/2023.4.6.14.19.58-2023.4.6.14.28.33/diff.md --exclude *.pyd
+[2023-04-28 12:40:02] INFO root fetch - processPackages [katalytic-pkg]: Downloading https://files.pythonhosted.org/packages/fc/37/88f32e11ff7088376d1c1e2030c732bef823fed151622cae88869a7b2d75/katalytic-pkg-0.2.6.tar.gz
+[2023-04-28 12:40:02] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/b3/fb/09c0a34ac306588a32a1830bac5ec090725218aedd2efa680aad917d37f1/dcm-processor-1.0.5.tar.gz
+[2023-04-28 12:40:02] INFO root fetch - processPackages [pygrille]: Downloading https://files.pythonhosted.org/packages/72/bf/6530238d3c5dc921272b563431a74a0cec29772c762a645c599d4edafe94/pygrille-0.3.2.tar.gz
+[2023-04-28 12:40:02] INFO root fetch - processPackages [fpdf2]: Downloading https://files.pythonhosted.org/packages/ef/bb/b21a7e92f2085f3a97d4da194cc18dded2f4b35aafedde8407a8e23b655b/fpdf2-2.7.3.tar.gz
+[2023-04-28 12:40:02] INFO root fetch - processPackages [pygrille]: executing diffoscope
+[2023-04-28 12:40:02] INFO root fetch - processPackages [aspire]: Downloading https://files.pythonhosted.org/packages/48/f9/3c8540a57769f48ca5bfb6b4b6927664f7a52419b38b6db3d6b0424bcabf/aspire-0.9.1.tar.gz
+[2023-04-28 12:40:02] INFO root fetch - processPackages [pygrille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrille-0.3.1.tar.gz tmp/pygrille-0.3.2.tar.gz --markdown 20230428/p/pygrille/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-28 12:40:02] INFO root fetch - processPackages [cf-speedtest]: Downloading https://files.pythonhosted.org/packages/1e/23/06b7c0841f7eb5444dd0f7d5bd008762f28c48784e6fb6c9a2409771b589/cf_speedtest-0.1.6.tar.gz
+[2023-04-28 12:40:03] INFO root fetch - processPackages [katalytic-pkg]: Downloading https://files.pythonhosted.org/packages/30/f5/d017e1d2b45916b9e6ac5cbf8582f28a514f81a0b1379b9e1aa0b58382c3/katalytic-pkg-0.3.0.tar.gz
+[2023-04-28 12:40:03] INFO root fetch - processPackages [fpdf2]: Downloading https://files.pythonhosted.org/packages/8d/26/3de489416ddcf0e82dcd43e7f48ecd01ae2301581bd02a2d24d1741f6390/fpdf2-2.7.4.tar.gz
+[2023-04-28 12:40:03] INFO root fetch - processPackages [cf-speedtest]: Downloading https://files.pythonhosted.org/packages/c6/4f/e29ca35c7ad1980b165360921d0974f3cb7019d7ba61ef8659562dc5d18c/cf_speedtest-0.1.7.tar.gz
+[2023-04-28 12:40:03] INFO root fetch - processPackages [katalytic-pkg]: executing diffoscope
+[2023-04-28 12:40:03] INFO root fetch - processPackages [katalytic-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-pkg-0.2.6.tar.gz tmp/katalytic-pkg-0.3.0.tar.gz --markdown 20230428/k/katalytic-pkg/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 12:40:03] INFO root fetch - processPackages [aspire]: Downloading https://files.pythonhosted.org/packages/df/67/8b7a7ef834c2068171708e4ef58510d0af10b90d55eacd92a803a10f3a5f/aspire-0.9.2.tar.gz
+[2023-04-28 12:40:03] INFO root fetch - processPackages [fpdf2]: executing diffoscope
+[2023-04-28 12:40:03] INFO root fetch - processPackages [fpdf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpdf2-2.7.3.tar.gz tmp/fpdf2-2.7.4.tar.gz --markdown 20230428/f/fpdf2/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-04-28 12:40:03] INFO root fetch - processPackages [cf-speedtest]: executing diffoscope
+[2023-04-28 12:40:03] INFO root fetch - processPackages [cf-speedtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_speedtest-0.1.6.tar.gz tmp/cf_speedtest-0.1.7.tar.gz --markdown 20230428/c/cf-speedtest/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 12:40:03] INFO root fetch - processPackages [aspire]: executing diffoscope
+[2023-04-28 12:40:03] INFO root fetch - processPackages [aspire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspire-0.9.1.tar.gz tmp/aspire-0.9.2.tar.gz --markdown 20230428/a/aspire/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-28 12:40:03] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2023-04-28 12:40:03] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-1.0.4.tar.gz tmp/dcm-processor-1.0.5.tar.gz --markdown 20230428/d/dcm-processor/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-28 12:40:04] INFO root fetch - processPackages [fuzzymap]: Start processing: pyprland
+[2023-04-28 12:40:04] INFO root fetch - main [MainThread]: End processing [fuzzymap]: success
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pyprland]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 12:40:04] INFO root fetch - processPackages [MOMORING]: Start processing: python-barn
+[2023-04-28 12:40:04] INFO root fetch - main [MainThread]: End processing [MOMORING]: success
+[2023-04-28 12:40:04] INFO root fetch - processPackages [innerverz-package]: Start processing: pie-extended
+[2023-04-28 12:40:04] INFO root fetch - main [MainThread]: End processing [innerverz-package]: success
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pyprland]: executing diffoscope
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pyprland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprland-1.0.0.tar.gz tmp/pyprland-1.0.1.tar.gz --markdown 20230428/p/pyprland/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 12:40:04] INFO root fetch - processPackages [python-barn]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pie-extended]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pygrille]: Start processing: MOMORING
+[2023-04-28 12:40:04] INFO root fetch - main [MainThread]: End processing [pygrille]: success
+[2023-04-28 12:40:04] INFO root fetch - processPackages [MOMORING]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-28 12:40:04] INFO root fetch - processPackages [python-barn]: Downloading https://files.pythonhosted.org/packages/c9/5c/d9e5e3f5ba131a8b0d9f5843e57473648187183a4241f65d3a78b5d69c78/python-barn-0.3.0.tar.gz
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pie-extended]: Downloading https://files.pythonhosted.org/packages/53/03/bfa5442302349bfecb35cddcfda8ee0e9982965297d2733031fc4b489708/pie_extended-0.1.1.tar.gz
+[2023-04-28 12:40:04] INFO root fetch - processPackages [MOMORING]: Downloading https://files.pythonhosted.org/packages/ba/2b/64de4d7eaed89c68ca21933cb9685000d4d49e307acdd25341f64924ba1e/MOMORING-1.4.1.tar.gz
+[2023-04-28 12:40:04] INFO root fetch - main [MainThread]: End processing [katalytic-pkg]: success
+[2023-04-28 12:40:04] INFO root fetch - main [MainThread]: End processing [cf-speedtest]: success
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pie-extended]: Downloading https://files.pythonhosted.org/packages/02/95/4fee65f85fc39cb573a5e71737583c78e2b51e6da097a13d31aed6b80b42/pie_extended-0.1.2.tar.gz
+[2023-04-28 12:40:04] INFO root fetch - processPackages [python-barn]: Downloading https://files.pythonhosted.org/packages/db/87/b84b92f1b582a9c900e371e87319bc4173a08a697319cd0711968008292c/python-barn-0.4.0.tar.gz
+[2023-04-28 12:40:04] INFO root fetch - processPackages [MOMORING]: Downloading https://files.pythonhosted.org/packages/cf/d7/ab7eb7acb7b2b48c9b4b8c3b5f01cca6185b4a844a1f929938880b3b18c0/MOMORING-1.4.2.tar.gz
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pie-extended]: executing diffoscope
+[2023-04-28 12:40:04] INFO root fetch - processPackages [pie-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pie_extended-0.1.1.tar.gz tmp/pie_extended-0.1.2.tar.gz --markdown 20230428/p/pie-extended/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 12:40:05] INFO root fetch - processPackages [python-barn]: executing diffoscope
+[2023-04-28 12:40:05] INFO root fetch - processPackages [python-barn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-barn-0.3.0.tar.gz tmp/python-barn-0.4.0.tar.gz --markdown 20230428/p/python-barn/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 12:40:05] INFO root fetch - main [MainThread]: End processing [fpdf2]: success
+[2023-04-28 12:40:05] INFO root fetch - processPackages [MOMORING]: executing diffoscope
+[2023-04-28 12:40:05] INFO root fetch - processPackages [MOMORING]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MOMORING-1.4.1.tar.gz tmp/MOMORING-1.4.2.tar.gz --markdown 20230428/M/MOMORING/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-28 12:40:05] INFO root fetch - main [MainThread]: End processing [aspire]: success
+[2023-04-28 12:40:05] INFO root fetch - main [MainThread]: End processing [pyprland]: success
+[2023-04-28 12:40:06] INFO root fetch - main [MainThread]: End processing [MOMORING]: success
+[2023-04-28 12:40:06] INFO root fetch - main [MainThread]: End processing [python-barn]: success
+[2023-04-28 12:40:06] INFO root fetch - main [MainThread]: End processing [pie-extended]: success
+[2023-04-28 12:40:06] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2023-04-28 12:40:06] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-04-28 12:40:06] INFO root fetch - main [MainThread]: Store serial: [17896834]
