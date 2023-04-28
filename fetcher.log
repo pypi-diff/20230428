@@ -21142,3 +21142,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 21:01:18] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
 [2023-04-28 21:01:22] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-28 21:01:22] INFO root fetch - main [MainThread]: Store serial: [17902014]
+[2023-04-28 21:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902014]
+[2023-04-28 21:06:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Werkzeug
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: joulescope
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joulescope-ui
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owlml
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iscc-sdk
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oking
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-controllerDF
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whisper-voice-commands
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: together-worker
+[2023-04-28 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fluxgate-ctl
+[2023-04-28 21:06:32] INFO root fetch - processPackages [owlml]: New version: [0.1.1.dev1682708493] Old Version: [0.1.0]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [joulescope-ui]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [Werkzeug]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [streamlit-controllerDF]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [iscc-sdk]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [joulescope]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [together-worker]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [whisper-voice-commands]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [fluxgate-ctl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [fluxgate-ctl]: executing diffoscope
+[2023-04-28 21:06:32] INFO root fetch - processPackages [fluxgate-ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxgate_ctl-1.0.8-py3-none-any.whl.zip tmp/fluxgate_ctl-1.0.9-py3-none-any.whl.zip --markdown 20230428/f/fluxgate-ctl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 21:06:32] INFO root fetch - processPackages [together-worker]: executing diffoscope
+[2023-04-28 21:06:32] INFO root fetch - processPackages [together-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together_worker-0.1.3.tar.gz tmp/together_worker-0.1.9.tar.gz --markdown 20230428/t/together-worker/0.1.3-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 21:06:32] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-04-28 21:06:32] INFO root fetch - processPackages [oking]: Start processing: prelude-cli
+[2023-04-28 21:06:32] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-28 21:06:32] INFO root fetch - processPackages [owlml]: Downloading https://files.pythonhosted.org/packages/a8/26/7fbcd8ace5cb70bea6ae6bcbbe08b5fc18f0c647dbd3581da62080f12ce7/owlml-0.1.0.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [prelude-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 21:06:32] INFO root fetch - processPackages [iscc-sdk]: Downloading https://files.pythonhosted.org/packages/9a/9d/7da8efdf81e8fd36029e9efec1a2f91df4b8ee2ed6eecd948c76088d1103/iscc_sdk-0.5.5.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [streamlit-controllerDF]: Downloading https://files.pythonhosted.org/packages/b9/42/5be75fc54f1320590da113bb5819269f910db87436555a5abbd5fc8ee726/streamlit_controllerDF-0.1.2.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [joulescope]: Downloading https://files.pythonhosted.org/packages/b7/e9/af76be4148ae9ac1e13775a5b5d5c29a7741e0f5ef47f452c98f120fdfe4/joulescope-1.1.3.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [whisper-voice-commands]: Downloading https://files.pythonhosted.org/packages/a0/2a/d9ee20ce7310bcc7271e8ff3760814a0f1361b792f983c64416e82d37edb/whisper_voice_commands-0.0.6.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [streamlit-controllerDF]: executing diffoscope
+[2023-04-28 21:06:32] INFO root fetch - processPackages [streamlit-controllerDF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_controllerDF-0.1.1.tar.gz tmp/streamlit_controllerDF-0.1.2.tar.gz --markdown 20230428/s/streamlit-controllerDF/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 21:06:32] INFO root fetch - processPackages [whisper-voice-commands]: executing diffoscope
+[2023-04-28 21:06:32] INFO root fetch - processPackages [whisper-voice-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_voice_commands-0.0.5.tar.gz tmp/whisper_voice_commands-0.0.6.tar.gz --markdown 20230428/w/whisper-voice-commands/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-28 21:06:32] INFO root fetch - processPackages [Werkzeug]: Downloading https://files.pythonhosted.org/packages/fe/1a/2a4da2b4ae4f01522cf01a29d68ddc95a5ff338b56a3cbbd8b77475114cc/Werkzeug-2.3.2.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [owlml]: Downloading https://files.pythonhosted.org/packages/16/0d/88e5873e3281213d2723bf70117de95e76d165e16a871dab2997dcc89da0/owlml-0.1.1.dev1682708493.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [prelude-cli]: Downloading https://files.pythonhosted.org/packages/a2/ea/f8c628799c096c7fb543308aaba14ccd3f1caa96a6174808b052e1cd1f85/prelude-cli-1.0.1.tar.gz
+[2023-04-28 21:06:32] INFO root fetch - processPackages [Werkzeug]: executing diffoscope
+[2023-04-28 21:06:32] INFO root fetch - processPackages [Werkzeug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Werkzeug-2.3.1.tar.gz tmp/Werkzeug-2.3.2.tar.gz --markdown 20230428/W/Werkzeug/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-28 21:06:32] INFO root fetch - processPackages [iscc-sdk]: Downloading https://files.pythonhosted.org/packages/95/c1/2d0ec4c65bbc6d658eb71349ac92efe1f7d2c505a036452e0298c3a5476a/iscc_sdk-0.5.6.tar.gz
+[2023-04-28 21:06:33] INFO root fetch - processPackages [joulescope-ui]: executing diffoscope
+[2023-04-28 21:06:33] INFO root fetch - processPackages [joulescope-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joulescope_ui-1.0.8.tar.gz tmp/joulescope_ui-1.0.9.tar.gz --markdown 20230428/j/joulescope-ui/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 21:06:33] INFO root fetch - processPackages [joulescope]: Downloading https://files.pythonhosted.org/packages/54/5a/7eb940b83552100e1cfeec936b3e9ea25c17dc333e413f98b57874710c0f/joulescope-1.1.4.tar.gz
+[2023-04-28 21:06:33] INFO root fetch - processPackages [iscc-sdk]: executing diffoscope
+[2023-04-28 21:06:33] INFO root fetch - processPackages [iscc-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscc_sdk-0.5.5.tar.gz tmp/iscc_sdk-0.5.6.tar.gz --markdown 20230428/i/iscc-sdk/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-28 21:06:33] INFO root fetch - processPackages [owlml]: executing diffoscope
+[2023-04-28 21:06:33] INFO root fetch - processPackages [owlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlml-0.1.0.tar.gz tmp/owlml-0.1.1.dev1682708493.tar.gz --markdown 20230428/o/owlml/0.1.0-0.1.1.dev1682708493/diff.md --exclude *.pyd
+[2023-04-28 21:06:33] INFO root fetch - processPackages [joulescope]: executing diffoscope
+[2023-04-28 21:06:33] INFO root fetch - processPackages [joulescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joulescope-1.1.3.tar.gz tmp/joulescope-1.1.4.tar.gz --markdown 20230428/j/joulescope/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-28 21:06:33] INFO root fetch - processPackages [prelude-cli]: Downloading https://files.pythonhosted.org/packages/dd/f4/d5e1f5778e1ad7fc91e22d9a577ae27f2afccc35bd6f05b8593c337ba73d/prelude-cli-1.0.2.tar.gz
+[2023-04-28 21:06:33] INFO root fetch - processPackages [prelude-cli]: executing diffoscope
+[2023-04-28 21:06:33] INFO root fetch - processPackages [prelude-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prelude-cli-1.0.1.tar.gz tmp/prelude-cli-1.0.2.tar.gz --markdown 20230428/p/prelude-cli/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 21:06:34] INFO root fetch - main [MainThread]: End processing [fluxgate-ctl]: success
+[2023-04-28 21:06:34] INFO root fetch - main [MainThread]: End processing [together-worker]: success
+[2023-04-28 21:06:34] INFO root fetch - main [MainThread]: End processing [whisper-voice-commands]: success
+[2023-04-28 21:06:34] INFO root fetch - main [MainThread]: End processing [streamlit-controllerDF]: success
+[2023-04-28 21:06:34] INFO root fetch - main [MainThread]: End processing [owlml]: success
+[2023-04-28 21:06:34] INFO root fetch - main [MainThread]: End processing [iscc-sdk]: success
+[2023-04-28 21:06:35] INFO root fetch - main [MainThread]: End processing [prelude-cli]: success
+[2023-04-28 21:06:36] INFO root fetch - main [MainThread]: End processing [joulescope-ui]: success
+[2023-04-28 21:06:38] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
+[2023-04-28 21:06:39] INFO root fetch - main [MainThread]: End processing [joulescope]: success
+[2023-04-28 21:06:39] INFO root fetch - main [MainThread]: Store serial: [17902053]
