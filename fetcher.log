@@ -18914,3 +18914,21 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:23:59] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
 [2023-04-28 18:24:06] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
 [2023-04-28 18:24:06] INFO root fetch - main [MainThread]: Store serial: [17900577]
+[2023-04-28 18:29:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900577]
+[2023-04-28 18:29:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-28 18:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-ng-link
+[2023-04-28 18:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensoundscape
+[2023-04-28 18:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rigatoni
+[2023-04-28 18:29:17] INFO root fetch - processPackages [opensoundscape]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 18:29:17] INFO root fetch - processPackages [rigatoni]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 18:29:17] WARNING root fetch - processPackages [aind-ng-link]: Skipping, unable to determine old version
+[2023-04-28 18:29:17] INFO root fetch - main [MainThread]: End processing [aind-ng-link] error
+[2023-04-28 18:29:17] INFO root fetch - processPackages [rigatoni]: executing diffoscope
+[2023-04-28 18:29:17] INFO root fetch - processPackages [rigatoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigatoni-0.1.8.tar.gz tmp/rigatoni-0.1.9.tar.gz --markdown 20230428/r/rigatoni/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 18:29:17] INFO root fetch - processPackages [opensoundscape]: Downloading https://files.pythonhosted.org/packages/f9/75/c734c566d6ee21121d95c15a00599ce83066d3721b6cccb5db7d7ee8ccc1/opensoundscape-0.8.0.tar.gz
+[2023-04-28 18:29:17] INFO root fetch - processPackages [opensoundscape]: Downloading https://files.pythonhosted.org/packages/db/8f/e07590022cee8563109094a70ed9233010cfb32ffdc74ba5b055aca4e20a/opensoundscape-0.9.0.tar.gz
+[2023-04-28 18:29:17] INFO root fetch - processPackages [opensoundscape]: executing diffoscope
+[2023-04-28 18:29:17] INFO root fetch - processPackages [opensoundscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensoundscape-0.8.0.tar.gz tmp/opensoundscape-0.9.0.tar.gz --markdown 20230428/o/opensoundscape/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 18:29:19] INFO root fetch - main [MainThread]: End processing [opensoundscape]: success
+[2023-04-28 18:29:27] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
+[2023-04-28 18:29:27] INFO root fetch - main [MainThread]: Store serial: [17900595]
