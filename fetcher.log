@@ -20729,3 +20729,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 20:27:28] INFO root fetch - main [MainThread]: End processing [langmuir-trough]: success
 [2023-04-28 20:27:28] INFO root fetch - main [MainThread]: End processing [aimodelshare]: success
 [2023-04-28 20:27:28] INFO root fetch - main [MainThread]: Store serial: [17901752]
+[2023-04-28 20:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901752]
+[2023-04-28 20:32:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mssql-dataframe
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packagelister
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hahomematic
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MyoSuite
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mycgi
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plotarchive
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telliot-core
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nekoton
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nabPy
+[2023-04-28 20:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: durabletask
+[2023-04-28 20:32:37] INFO root fetch - processPackages [packagelister]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [mycgi]: New version: [0.0.2.post1] Old Version: [0.0.2]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [mssql-dataframe]: New version: [2.0.0] Old Version: [1.5.2rc3]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [nekoton]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [MyoSuite]: New version: [1.4.2] Old Version: [1.3.0]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [plotarchive]: New version: [0.0.9] Old Version: [0.0.5]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [telliot-core]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-28 20:32:37] WARNING root fetch - processPackages [durabletask]: Skipping, unable to determine old version
+[2023-04-28 20:32:37] INFO root fetch - processPackages [durabletask]: Start processing: stirpy
+[2023-04-28 20:32:37] INFO root fetch - main [MainThread]: End processing [durabletask] error
+[2023-04-28 20:32:37] INFO root fetch - processPackages [nabPy]: New version: [0.1.65] Old Version: [0.1.64]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [hahomematic]: New version: [2023.4.5] Old Version: [2023.4.4]
+[2023-04-28 20:32:37] INFO root fetch - processPackages [stirpy]: New version: [1.2.5] Old Version: [1.2.0]
+[2023-04-28 20:32:38] INFO root fetch - processPackages [stirpy]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [stirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stirpy-1.2.0.tar.gz tmp/stirpy-1.2.5.tar.gz --markdown 20230428/s/stirpy/1.2.0-1.2.5/diff.md --exclude *.pyd
+[2023-04-28 20:32:38] ERROR root fetch - processPackages [mycgi]: Unable to fetch info: No such project/version 'mycgi' 0.0.2
+[2023-04-28 20:32:38] INFO root fetch - processPackages [mycgi]: Start processing: perspective-parquet
+[2023-04-28 20:32:38] INFO root fetch - main [MainThread]: End processing [mycgi] error
+[2023-04-28 20:32:38] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/83/c5/c3fd5e867669f7f41fd61cfce7f7babbc13cb733a17d768dd3519287cad1/hahomematic-2023.4.4.tar.gz
+[2023-04-28 20:32:38] INFO root fetch - processPackages [mssql-dataframe]: Downloading https://files.pythonhosted.org/packages/18/b1/f3528c7004f15fa7091f448e5554b16e79bead8c1c69f0e8a56c27a5f5a8/mssql_dataframe-1.5.2rc3.tar.gz
+[2023-04-28 20:32:38] WARNING root fetch - processPackages [perspective-parquet]: Skipping, unable to determine old version
+[2023-04-28 20:32:38] INFO root fetch - main [MainThread]: End processing [perspective-parquet] error
+[2023-04-28 20:32:38] INFO root fetch - processPackages [MyoSuite]: Downloading https://files.pythonhosted.org/packages/40/9a/2f34b0b8842da4b95b5bd19999e72988584d80d5a267170feab1a0a7f201/MyoSuite-1.3.0-py2.py3-none-any.whl
+[2023-04-28 20:32:38] INFO root fetch - processPackages [nabPy]: Downloading https://files.pythonhosted.org/packages/96/f5/68fdb7203eba8775064f350518dbc6acdc39aa11276087ec8d5353090470/nabPy-0.1.64.tar.gz
+[2023-04-28 20:32:38] WARNING root fetch - processPackages [MyoSuite]: Skipping package: exceeds size limit 43639995>=10485760
+[2023-04-28 20:32:38] INFO root fetch - main [MainThread]: End processing [MyoSuite] error
+[2023-04-28 20:32:38] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/ae/f6/14cbde2d64653788d0a7a3af782dd77294cf6cb667c927f8d6370a92d999/packagelister-1.3.0.tar.gz
+[2023-04-28 20:32:38] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/7b/f8/f6e8664406c694bad269da46d0051278c2e3e7d70f39b8f84cae17411630/hahomematic-2023.4.5.tar.gz
+[2023-04-28 20:32:38] INFO root fetch - processPackages [telliot-core]: Downloading https://files.pythonhosted.org/packages/05/3b/6f18c442e187fc90346741bae2da8dee37ed639d3a478af7345e86734dca/telliot_core-0.2.6.tar.gz
+[2023-04-28 20:32:38] INFO root fetch - processPackages [plotarchive]: Downloading https://files.pythonhosted.org/packages/11/23/32bda7740f855a3dfc1f745b7805d003e5873195e23c5e702927f6aa5292/plotarchive-0.0.9-cp311-cp311-musllinux_1_1_x86_64.whl
+[2023-04-28 20:32:38] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [nekoton]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.4.4.tar.gz tmp/hahomematic-2023.4.5.tar.gz --markdown 20230428/h/hahomematic/2023.4.4-2023.4.5/diff.md --exclude *.pyd
+[2023-04-28 20:32:38] INFO root fetch - processPackages [nekoton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/n/nekoton/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 20:32:38] INFO root fetch - processPackages [mssql-dataframe]: Downloading https://files.pythonhosted.org/packages/aa/62/dbebcf66a1ca91e3d719ab5d1b46af42111c7e06e4cdc26f9e39435d1feb/mssql_dataframe-2.0.0.tar.gz
+[2023-04-28 20:32:38] INFO root fetch - processPackages [mssql-dataframe]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [mssql-dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mssql_dataframe-1.5.2rc3.tar.gz tmp/mssql_dataframe-2.0.0.tar.gz --markdown 20230428/m/mssql-dataframe/1.5.2rc3-2.0.0/diff.md --exclude *.pyd
+[2023-04-28 20:32:38] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/b6/21/75a1c06854b0b11b490262549327c6de6449141e5f2b577c52f0daaed49b/packagelister-1.3.1.tar.gz
+[2023-04-28 20:32:38] INFO root fetch - processPackages [plotarchive]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [plotarchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotarchive-0.0.5.tar.gz tmp/plotarchive-0.0.9-cp311-cp311-musllinux_1_1_x86_64.whl.zip --markdown 20230428/p/plotarchive/0.0.5-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 20:32:38] INFO root fetch - processPackages [packagelister]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [packagelister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagelister-1.3.0.tar.gz tmp/packagelister-1.3.1.tar.gz --markdown 20230428/p/packagelister/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-28 20:32:38] INFO root fetch - processPackages [nabPy]: Downloading https://files.pythonhosted.org/packages/2a/0f/8b9d359993864293b73efd6185af4b8ced092fe66a7695bc9fcbdeefb23b/nabPy-0.1.65-py3-none-any.whl
+[2023-04-28 20:32:38] INFO root fetch - processPackages [telliot-core]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [telliot-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telliot_core-0.2.5.tar.gz tmp/telliot_core-0.2.6.tar.gz --markdown 20230428/t/telliot-core/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 20:32:38] INFO root fetch - processPackages [nabPy]: executing diffoscope
+[2023-04-28 20:32:38] INFO root fetch - processPackages [nabPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nabPy-0.1.64.tar.gz tmp/nabPy-0.1.65-py3-none-any.whl.zip --markdown 20230428/n/nabPy/0.1.64-0.1.65/diff.md --exclude *.pyd
+[2023-04-28 20:32:39] INFO root fetch - main [MainThread]: End processing [stirpy]: success
+[2023-04-28 20:32:39] INFO root fetch - main [MainThread]: End processing [plotarchive]: success
+[2023-04-28 20:32:40] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-04-28 20:32:40] INFO root fetch - main [MainThread]: End processing [packagelister]: success
+[2023-04-28 20:32:40] INFO root fetch - main [MainThread]: End processing [nabPy]: success
+[2023-04-28 20:32:40] INFO root fetch - main [MainThread]: End processing [mssql-dataframe]: success
+[2023-04-28 20:32:41] INFO root fetch - main [MainThread]: End processing [telliot-core]: success
+[2023-04-28 20:34:57] INFO root fetch - main [MainThread]: End processing [nekoton]: success
+[2023-04-28 20:34:57] INFO root fetch - main [MainThread]: Store serial: [17901808]
