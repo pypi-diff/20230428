@@ -7445,3 +7445,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:35:18] INFO root fetch - main [MainThread]: End processing [pgx]: success
 [2023-04-28 06:35:19] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-28 06:35:19] INFO root fetch - main [MainThread]: Store serial: [17893908]
+[2023-04-28 06:40:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893908]
+[2023-04-28 06:40:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geotran
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geotran
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deep-training
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teda
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymovements
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ypricemagic
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fdk-rdf-parser
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-tts-plugin-piper
+[2023-04-28 06:40:28] INFO root fetch - processPackages [geotran]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 06:40:28] INFO root fetch - processPackages [geotran]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 06:40:28] INFO root fetch - processPackages [deep-training]: New version: [0.1.3rc4] Old Version: [0.1.3rc3]
+[2023-04-28 06:40:28] INFO root fetch - processPackages [teda]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-28 06:40:28] INFO root fetch - processPackages [pymovements]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 06:40:28] INFO root fetch - processPackages [fdk-rdf-parser]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-28 06:40:28] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-04-28 06:40:29] WARNING root fetch - processPackages [ovos-tts-plugin-piper]: Skipping, unable to determine old version
+[2023-04-28 06:40:29] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-piper] error
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/4e/57/99161f7ffe0be5e9096b48f891dcee79c3016f74beacac8991b275404724/geotran-0.0.7-py3-none-any.whl
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/4e/57/99161f7ffe0be5e9096b48f891dcee79c3016f74beacac8991b275404724/geotran-0.0.7-py3-none-any.whl
+[2023-04-28 06:40:29] INFO root fetch - processPackages [teda]: Downloading https://files.pythonhosted.org/packages/81/88/b7eef25da41581bf6eeaa3e0a4426909c2e1fcb712f255f8f4427b263b20/teda-3.0.1.tar.gz
+[2023-04-28 06:40:29] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/aa/9a/6974635c3d3bb1ad6106118095b1dad11669abc9712ade955264d09e063e/fdk_rdf_parser-2.2.8.tar.gz
+[2023-04-28 06:40:29] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/2e/b2/7ce1e72844a055573ae822507451d3802c99ab8fcd6dbe57b7c10d31b125/deep_training-0.1.3rc3-py3-none-any.whl
+[2023-04-28 06:40:29] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/68/2a/68a32b579505bd187abd3630ffc83abb3f39f3a0c3ecc5ff9cf3fc9e263c/ypricemagic-2.2.6.tar.gz
+[2023-04-28 06:40:29] INFO root fetch - processPackages [pymovements]: Downloading https://files.pythonhosted.org/packages/84/4e/46c2dac99c9ee7b97604c91e8fb36f40b596388dbf3c51e0b1ca06b429f7/pymovements-0.8.0.tar.gz
+[2023-04-28 06:40:29] INFO root fetch - processPackages [teda]: executing diffoscope
+[2023-04-28 06:40:29] INFO root fetch - processPackages [teda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teda-3.0.0.tar.gz tmp/teda-3.0.1.tar.gz --markdown 20230428/t/teda/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/0d/44/d3c65672f8ab1a2b6147d5aacbe30dcfa36af91daac3464a260b2514f304/geotran-0.0.8-py3-none-any.whl
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/0d/44/d3c65672f8ab1a2b6147d5aacbe30dcfa36af91daac3464a260b2514f304/geotran-0.0.8-py3-none-any.whl
+[2023-04-28 06:40:29] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/67/43/67d072e037e861296965c6ab4e9e1e15716cad233ab3bea903a6f69950f6/deep_training-0.1.3rc4-py3-none-any.whl
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: executing diffoscope
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotran-0.0.7-py3-none-any.whl.zip tmp/geotran-0.0.8-py3-none-any.whl.zip --markdown 20230428/g/geotran/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: executing diffoscope
+[2023-04-28 06:40:29] INFO root fetch - processPackages [geotran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotran-0.0.7-py3-none-any.whl.zip tmp/geotran-0.0.8-py3-none-any.whl.zip --markdown 20230428/g/geotran/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 06:40:29] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 06:40:29] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.5.tar.gz tmp/ypricemagic-2.2.6.tar.gz --markdown 20230428/y/ypricemagic/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-04-28 06:40:29] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/39/b8/73c97bb47444516a7c4dfac4ac3d17fd54f46f2591b64e7ce5b3cdc9fdfb/fdk_rdf_parser-2.2.9.tar.gz
+[2023-04-28 06:40:29] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-04-28 06:40:29] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.3rc3-py3-none-any.whl.zip tmp/deep_training-0.1.3rc4-py3-none-any.whl.zip --markdown 20230428/d/deep-training/0.1.3rc3-0.1.3rc4/diff.md --exclude *.pyd
+[2023-04-28 06:40:29] INFO root fetch - processPackages [fdk-rdf-parser]: executing diffoscope
+[2023-04-28 06:40:29] INFO root fetch - processPackages [fdk-rdf-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk_rdf_parser-2.2.8.tar.gz tmp/fdk_rdf_parser-2.2.9.tar.gz --markdown 20230428/f/fdk-rdf-parser/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-28 06:40:29] INFO root fetch - processPackages [pymovements]: Downloading https://files.pythonhosted.org/packages/b8/95/8fa925c54e07f7bca4ad8850c566562df2f9d4a670450954f10240911a80/pymovements-0.9.0.tar.gz
+[2023-04-28 06:40:30] INFO root fetch - processPackages [pymovements]: executing diffoscope
+[2023-04-28 06:40:30] INFO root fetch - processPackages [pymovements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymovements-0.8.0.tar.gz tmp/pymovements-0.9.0.tar.gz --markdown 20230428/p/pymovements/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 06:40:30] INFO root fetch - main [MainThread]: End processing [geotran]: success
+[2023-04-28 06:40:30] INFO root fetch - main [MainThread]: End processing [geotran]: success
+[2023-04-28 06:40:30] INFO root fetch - main [MainThread]: End processing [teda]: success
+[2023-04-28 06:40:31] INFO root fetch - main [MainThread]: End processing [fdk-rdf-parser]: success
+[2023-04-28 06:40:31] INFO root fetch - main [MainThread]: End processing [pymovements]: success
+[2023-04-28 06:40:31] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-04-28 06:40:32] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 06:40:32] INFO root fetch - main [MainThread]: Store serial: [17893931]
