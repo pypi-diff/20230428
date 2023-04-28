@@ -8912,3 +8912,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:50:24] INFO root fetch - main [MainThread]: End processing [sklearndf]: success
 [2023-04-28 08:50:25] INFO root fetch - main [MainThread]: End processing [robotoff]: success
 [2023-04-28 08:50:25] INFO root fetch - main [MainThread]: Store serial: [17894695]
+[2023-04-28 08:55:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894695]
+[2023-04-28 08:55:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: math-package-xgqfrms
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-image-changelog
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpptools
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiogram-ext
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigquery-ml-utils
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gbd-tools
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-tag-fields
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-automation-framework
+[2023-04-28 08:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FreeTVG-karjakak
+[2023-04-28 08:55:35] INFO root fetch - processPackages [math-package-xgqfrms]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 08:55:35] INFO root fetch - processPackages [odoo-image-changelog]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 08:55:35] INFO root fetch - processPackages [bigquery-ml-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 08:55:35] INFO root fetch - processPackages [cpptools]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-04-28 08:55:35] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 08:55:35] WARNING root fetch - processPackages [django-tag-fields]: Skipping, unable to determine old version
+[2023-04-28 08:55:35] INFO root fetch - main [MainThread]: End processing [django-tag-fields] error
+[2023-04-28 08:55:35] INFO root fetch - processPackages [python-automation-framework]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 08:55:35] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-04-28 08:55:35] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-04-28 08:55:35] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 08:55:35] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 08:55:36] INFO root fetch - processPackages [odoo-image-changelog]: Downloading https://files.pythonhosted.org/packages/0c/ba/944aea8566173f03a3bbf7908b1df0a07c1b84d1a5ef093f1b1786952e90/odoo_image_changelog-0.1.0.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [cpptools]: Downloading https://files.pythonhosted.org/packages/f7/52/ab08e0e6d0764e63eb8c213e9e6c2b8f7009706bcc79f2aada00a0685342/cpptools-0.0.1.win-amd64.zip
+[2023-04-28 08:55:36] INFO root fetch - processPackages [bigquery-ml-utils]: Downloading https://files.pythonhosted.org/packages/83/5b/cf791abbb016bc4b68acdf0b8fc20fb00dda015d37352789a45b3dbc15a7/bigquery_ml_utils-0.1.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 08:55:36] INFO root fetch - processPackages [math-package-xgqfrms]: Downloading https://files.pythonhosted.org/packages/04/ae/3e40ac594cc96667fbf38f73e797764a23328a13263f3f7e101e8e95d006/math_package_xgqfrms-0.0.1.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [python-automation-framework]: Downloading https://files.pythonhosted.org/packages/ac/82/60ce1810d82d29c8086ec0bb32d7e5319ec179c4e08564dbbd046d9ee70b/python-automation-framework-0.0.5.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/8a/33/e04efb9cd91c533c06912253c988c07c05b49118309da3c313e173589b87/FreeTVG-karjakak-3.1.8.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [python-automation-framework]: executing diffoscope
+[2023-04-28 08:55:36] INFO root fetch - processPackages [python-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-framework-0.0.4.tar.gz tmp/python-automation-framework-0.0.5.tar.gz --markdown 20230428/p/python-automation-framework/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 08:55:36] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/32/b4/e5dc56324809e9d825c91f7f40ff41938fb60b3b0e5c9d28f93d65cc62f0/gbd_tools-4.5.1.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [math-package-xgqfrms]: Downloading https://files.pythonhosted.org/packages/25/a1/493d3d9fa8de21ba1c94877d704a1b2812c19f822eb36b91034c00e7f36a/math_package_xgqfrms-0.0.2.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [math-package-xgqfrms]: executing diffoscope
+[2023-04-28 08:55:36] INFO root fetch - processPackages [math-package-xgqfrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_package_xgqfrms-0.0.1.tar.gz tmp/math_package_xgqfrms-0.0.2.tar.gz --markdown 20230428/m/math-package-xgqfrms/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 08:55:36] INFO root fetch - processPackages [bigquery-ml-utils]: executing diffoscope
+[2023-04-28 08:55:36] INFO root fetch - processPackages [bigquery-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigquery_ml_utils-0.1.5-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/bigquery_ml_utils-0.1.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/b/bigquery-ml-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 08:55:36] INFO root fetch - processPackages [odoo-image-changelog]: Downloading https://files.pythonhosted.org/packages/4e/e5/7f1d5f8d1d8f3c9180e982e4562291fb0527ac3d62c69bb03ac6b599db58/odoo_image_changelog-0.1.1.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [cpptools]: Downloading https://files.pythonhosted.org/packages/aa/6d/e770109785bc5b24339b2d2b6185636183436ea9270ae0936c9395a0c409/cpptools-1.0.0.win-amd64.zip
+[2023-04-28 08:55:36] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-04-28 08:55:36] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.0.tar.gz tmp/gbd_tools-4.5.1.tar.gz --markdown 20230428/g/gbd-tools/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-04-28 08:55:36] INFO root fetch - processPackages [odoo-image-changelog]: executing diffoscope
+[2023-04-28 08:55:36] INFO root fetch - processPackages [odoo-image-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_image_changelog-0.1.0.tar.gz tmp/odoo_image_changelog-0.1.1.tar.gz --markdown 20230428/o/odoo-image-changelog/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 08:55:36] INFO root fetch - processPackages [cpptools]: executing diffoscope
+[2023-04-28 08:55:36] INFO root fetch - processPackages [cpptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpptools-0.0.1.win-amd64.zip tmp/cpptools-1.0.0.win-amd64.zip --markdown 20230428/c/cpptools/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-28 08:55:36] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/49/44/f418fb9547083914b4db8003e4a5988a22cb2bd854295a3f76714be21700/FreeTVG-karjakak-3.1.9.tar.gz
+[2023-04-28 08:55:36] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-04-28 08:55:36] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.1.8.tar.gz tmp/FreeTVG-karjakak-3.1.9.tar.gz --markdown 20230428/F/FreeTVG-karjakak/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-04-28 08:55:37] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 08:55:37] INFO root fetch - main [MainThread]: End processing [math-package-xgqfrms]: success
+[2023-04-28 08:55:37] INFO root fetch - main [MainThread]: End processing [python-automation-framework]: success
+[2023-04-28 08:55:37] INFO root fetch - main [MainThread]: End processing [odoo-image-changelog]: success
+[2023-04-28 08:55:37] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-04-28 08:55:37] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
+[2023-04-28 08:55:38] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-04-28 08:55:38] INFO root fetch - main [MainThread]: End processing [cpptools]: success
+[2023-04-28 08:55:38] INFO root fetch - main [MainThread]: Store serial: [17894721]
