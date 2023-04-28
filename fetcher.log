@@ -13680,3 +13680,142 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:38:12] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2023-04-28 13:40:48] INFO root fetch - main [MainThread]: End processing [vineyard]: success
 [2023-04-28 13:40:48] INFO root fetch - main [MainThread]: Store serial: [17897367]
+[2023-04-28 13:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897367]
+[2023-04-28 13:45:58] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkpipelineframework
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dop-integration-libs
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vineyard-bdist
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textual
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drift-mqtt
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pca
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insight-python-linux
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nextcode-platform-kit
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exam-analyzer
+[2023-04-28 13:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elastic-helper
+[2023-04-28 13:45:58] INFO root fetch - processPackages [vineyard-bdist]: New version: [0.14.3] Old Version: [0.14.2]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [pca]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [drift-mqtt]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [nextcode-platform-kit]: New version: [1.1.6.dev3] Old Version: [1.1.6.dev2]
+[2023-04-28 13:45:58] WARNING root fetch - processPackages [exam-analyzer]: Skipping, unable to determine old version
+[2023-04-28 13:45:58] INFO root fetch - processPackages [exam-analyzer]: Start processing: matter-persistence
+[2023-04-28 13:45:58] INFO root fetch - main [MainThread]: End processing [exam-analyzer] error
+[2023-04-28 13:45:58] INFO root fetch - processPackages [insight-python-linux]: New version: [4.3.0] Old Version: [4.2.2]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [elastic-helper]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [drift-mqtt]: Downloading https://files.pythonhosted.org/packages/3b/74/8f36a313dd9504eacfcfdd346d326adde66e08de0ad459302145ca1fc309/drift_mqtt-0.1.1-py3-none-any.whl
+[2023-04-28 13:45:58] INFO root fetch - processPackages [vineyard-bdist]: Downloading https://files.pythonhosted.org/packages/fd/b5/920e325735948fd651de57b8a85c47b421d1cdbd6109f051e10002741132/vineyard_bdist-0.14.2-py3-none-manylinux2014_x86_64.whl
+[2023-04-28 13:45:58] INFO root fetch - processPackages [matter-persistence]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [pca]: Downloading https://files.pythonhosted.org/packages/ab/dd/cf4fbd3932b901b18e0a7d5507ae557c9b435cac65a24ed52d4c3fa7a314/pca-2.0.0.tar.gz
+[2023-04-28 13:45:58] INFO root fetch - processPackages [insight-python-linux]: Downloading https://files.pythonhosted.org/packages/97/5f/57ee94ceb506ba5b7de63cf24afbd6177b29b46e280e8c30491ddf296576/insight_python_linux-4.2.2.tar.gz
+[2023-04-28 13:45:58] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230428/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:45:58] INFO root fetch - processPackages [elastic-helper]: Downloading https://files.pythonhosted.org/packages/2b/f7/785e426ffe9431999370c0c1cd56a728162fd5ab0c0ba0917467e7a5a9b9/elastic_helper-1.2.3.tar.gz
+[2023-04-28 13:45:58] WARNING root fetch - processPackages [vineyard-bdist]: Skipping package: exceeds size limit 22937900>=10485760
+[2023-04-28 13:45:58] INFO root fetch - processPackages [vineyard-bdist]: Start processing: tenant-schemas-celery
+[2023-04-28 13:45:58] INFO root fetch - main [MainThread]: End processing [vineyard-bdist] error
+[2023-04-28 13:45:58] INFO root fetch - processPackages [nextcode-platform-kit]: Downloading https://files.pythonhosted.org/packages/ee/22/3278e911c75c7c32c4420b2065e64f34b94da80a111222e1eecce9885bd1/nextcode-platform-kit-1.1.6.dev3.tar.gz
+[2023-04-28 13:45:58] INFO root fetch - processPackages [matter-persistence]: Downloading https://files.pythonhosted.org/packages/c8/c5/d91710077aafb126fd23a3fa0b9ec5214978409cfc08941f790bb08b401d/matter_persistence-0.5.0-py3-none-any.whl
+[2023-04-28 13:45:58] INFO root fetch - processPackages [pca]: Downloading https://files.pythonhosted.org/packages/7c/96/e0c91b254a3e07092609f7eb0f7c494d24ae1d54fd07cb6e79c70a112f35/pca-2.0.1.tar.gz
+[2023-04-28 13:45:58] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230428/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-28 13:45:58] INFO root fetch - processPackages [tenant-schemas-celery]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [pca]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [pca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pca-2.0.0.tar.gz tmp/pca-2.0.1.tar.gz --markdown 20230428/p/pca/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 13:45:58] INFO root fetch - processPackages [drift-mqtt]: Downloading https://files.pythonhosted.org/packages/04/79/72303a2970aec0122b21d0778c8fcfe9469f8846b6fb93417b1f8d21f201/drift_mqtt-0.2.0-py3-none-any.whl
+[2023-04-28 13:45:58] INFO root fetch - processPackages [nextcode-platform-kit]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [nextcode-platform-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcode-platform-kit-1.1.6.dev2.tar.gz tmp/nextcode-platform-kit-1.1.6.dev3.tar.gz --markdown 20230428/n/nextcode-platform-kit/1.1.6.dev2-1.1.6.dev3/diff.md --exclude *.pyd
+[2023-04-28 13:45:58] INFO root fetch - processPackages [drift-mqtt]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [drift-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_mqtt-0.1.1-py3-none-any.whl.zip tmp/drift_mqtt-0.2.0-py3-none-any.whl.zip --markdown 20230428/d/drift-mqtt/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 13:45:58] INFO root fetch - processPackages [elastic-helper]: Downloading https://files.pythonhosted.org/packages/90/5b/fe0cf2292d6e7bcc3ca0571ed550a74eef0cecd0715500890df6234a7762/elastic_helper-1.2.4.tar.gz
+[2023-04-28 13:45:58] WARNING root fetch - processPackages [insight-python-linux]: Skipping package: exceeds size limit 81649759>=10485760
+[2023-04-28 13:45:58] INFO root fetch - processPackages [insight-python-linux]: Start processing: lakeside
+[2023-04-28 13:45:58] INFO root fetch - main [MainThread]: End processing [insight-python-linux] error
+[2023-04-28 13:45:58] INFO root fetch - processPackages [tenant-schemas-celery]: Downloading https://files.pythonhosted.org/packages/0d/c0/0d57db9301a7fd3e666ff715f4079b503e28553f5f26bd1596ea10e739e7/tenant-schemas-celery-2.1.0.tar.gz
+[2023-04-28 13:45:58] INFO root fetch - processPackages [matter-persistence]: Downloading https://files.pythonhosted.org/packages/92/5a/395faf50f477cb8c1fca24f4a3c8f59117d627fa0e12a32a6da7b26cd619/matter_persistence-0.6.0-py3-none-any.whl
+[2023-04-28 13:45:58] INFO root fetch - processPackages [elastic-helper]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [elastic-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic_helper-1.2.3.tar.gz tmp/elastic_helper-1.2.4.tar.gz --markdown 20230428/e/elastic-helper/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-28 13:45:58] INFO root fetch - processPackages [lakeside]: New version: [0.9] Old Version: [0.8]
+[2023-04-28 13:45:58] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230428/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 13:45:58] INFO root fetch - processPackages [tenant-schemas-celery]: Downloading https://files.pythonhosted.org/packages/56/21/5ece86a257bc98534d7f54dbbcdebdee7d1545b1a3e296c335b42a755114/tenant-schemas-celery-2.2.0.tar.gz
+[2023-04-28 13:45:58] INFO root fetch - processPackages [matter-persistence]: executing diffoscope
+[2023-04-28 13:45:58] INFO root fetch - processPackages [matter-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_persistence-0.5.0-py3-none-any.whl.zip tmp/matter_persistence-0.6.0-py3-none-any.whl.zip --markdown 20230428/m/matter-persistence/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-28 13:45:59] INFO root fetch - processPackages [lakeside]: Downloading https://files.pythonhosted.org/packages/32/52/9bd95f70d1ca4ed141a393d3c61f31a66d73abae0333f381f48fdf37bf2d/lakeside-0.8.tar.gz
+[2023-04-28 13:45:59] INFO root fetch - processPackages [tenant-schemas-celery]: executing diffoscope
+[2023-04-28 13:45:59] INFO root fetch - processPackages [tenant-schemas-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenant-schemas-celery-2.1.0.tar.gz tmp/tenant-schemas-celery-2.2.0.tar.gz --markdown 20230428/t/tenant-schemas-celery/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-28 13:45:59] INFO root fetch - processPackages [lakeside]: Downloading https://files.pythonhosted.org/packages/ef/81/6e11e4f4f0077323efe940c907bcb5aa0cf87be36f6285c4a04787a95b2b/lakeside-0.9.tar.gz
+[2023-04-28 13:45:59] INFO root fetch - processPackages [lakeside]: executing diffoscope
+[2023-04-28 13:45:59] INFO root fetch - processPackages [lakeside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeside-0.8.tar.gz tmp/lakeside-0.9.tar.gz --markdown 20230428/l/lakeside/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-28 13:45:59] INFO root fetch - processPackages [dop-integration-libs]: Start processing: mash-shell
+[2023-04-28 13:45:59] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-28 13:45:59] INFO root fetch - processPackages [mash-shell]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-28 13:46:00] INFO root fetch - processPackages [drift-mqtt]: Start processing: chowlk-unofficial-fork
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [drift-mqtt]: success
+[2023-04-28 13:46:00] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/39/e5/5089c8c5df88a75a681b543ed20ff81c7842cd11739abf40df754b620250/mash-shell-0.2.5.tar.gz
+[2023-04-28 13:46:00] WARNING root fetch - processPackages [chowlk-unofficial-fork]: Skipping, unable to determine old version
+[2023-04-28 13:46:00] INFO root fetch - processPackages [chowlk-unofficial-fork]: Start processing: mpm-msftool
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [chowlk-unofficial-fork] error
+[2023-04-28 13:46:00] WARNING root fetch - processPackages [mpm-msftool]: Skipping, unable to determine old version
+[2023-04-28 13:46:00] INFO root fetch - processPackages [mpm-msftool]: Start processing: tllab-common
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [mpm-msftool] error
+[2023-04-28 13:46:00] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/ac/ee/347f196f9554b286b26ec56cb8a44e1a8ed2941b6ae38e1f0c9b0b7bd0cd/mash-shell-0.2.6.tar.gz
+[2023-04-28 13:46:00] INFO root fetch - processPackages [tllab-common]: New version: [2023.4.0] Old Version: [2023.3.1]
+[2023-04-28 13:46:00] INFO root fetch - processPackages [pca]: Start processing: brucelee
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [pca]: success
+[2023-04-28 13:46:00] INFO root fetch - processPackages [matter-persistence]: Start processing: pytest-ruff
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [matter-persistence]: success
+[2023-04-28 13:46:00] WARNING root fetch - processPackages [brucelee]: Skipping, unable to determine old version
+[2023-04-28 13:46:00] INFO root fetch - processPackages [brucelee]: Start processing: jinja2-simple-tags
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [brucelee] error
+[2023-04-28 13:46:00] INFO root fetch - processPackages [jinja2-simple-tags]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-28 13:46:00] INFO root fetch - processPackages [mash-shell]: executing diffoscope
+[2023-04-28 13:46:00] INFO root fetch - processPackages [mash-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mash-shell-0.2.5.tar.gz tmp/mash-shell-0.2.6.tar.gz --markdown 20230428/m/mash-shell/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 13:46:00] INFO root fetch - processPackages [pytest-ruff]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-28 13:46:00] INFO root fetch - processPackages [tenant-schemas-celery]: Start processing: scarlet-shark-python
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [tenant-schemas-celery]: success
+[2023-04-28 13:46:00] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/1e/58/98ac9e9b7a3553d6d28be8fa9c288c14266330296538f23b5a19cf51b71f/tllab_common-2023.3.1.tar.gz
+[2023-04-28 13:46:00] INFO root fetch - processPackages [nextcode-platform-kit]: Start processing: dynamicfluency
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [nextcode-platform-kit]: success
+[2023-04-28 13:46:00] INFO root fetch - processPackages [jinja2-simple-tags]: Downloading https://files.pythonhosted.org/packages/30/c4/9d270d8782f9286effa23a686a0c164460a7f19f3a66f2b7f54c00f60ab6/jinja2-simple-tags-0.4.0.tar.gz
+[2023-04-28 13:46:00] WARNING root fetch - processPackages [scarlet-shark-python]: Skipping, unable to determine old version
+[2023-04-28 13:46:00] INFO root fetch - processPackages [scarlet-shark-python]: Start processing: TMD
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [scarlet-shark-python] error
+[2023-04-28 13:46:00] INFO root fetch - processPackages [pytest-ruff]: Downloading https://files.pythonhosted.org/packages/1a/b4/60ec9ec08cfb88b56b7fdfb7e197e43352d08ec38898781d96b1cf16b363/pytest_ruff-0.0.5.tar.gz
+[2023-04-28 13:46:00] INFO root fetch - processPackages [dynamicfluency]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 13:46:00] INFO root fetch - processPackages [TMD]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-04-28 13:46:00] INFO root fetch - processPackages [lakeside]: Start processing: cg
+[2023-04-28 13:46:00] INFO root fetch - main [MainThread]: End processing [lakeside]: success
+[2023-04-28 13:46:01] INFO root fetch - processPackages [cg]: New version: [29.4.9] Old Version: [29.4.8]
+[2023-04-28 13:46:01] INFO root fetch - processPackages [dynamicfluency]: Downloading https://files.pythonhosted.org/packages/f4/06/f60d8eac92589bd2be2d650f3e3698d0fed1cd28e5ca42888e5b44f44b81/dynamicfluency-0.1.0.tar.gz
+[2023-04-28 13:46:01] INFO root fetch - processPackages [TMD]: Downloading https://files.pythonhosted.org/packages/cd/0b/ee081c996cadf649ddfdc98322e288548473c8ab9e0ab9c32482ac3cccfe/tmd-2.2.0.tar.gz
+[2023-04-28 13:46:01] INFO root fetch - processPackages [jinja2-simple-tags]: Downloading https://files.pythonhosted.org/packages/f4/64/1714b60fa2572a351582a37cebce7394786d562b85e769aaac5e86a566d4/jinja2-simple-tags-0.4.1.tar.gz
+[2023-04-28 13:46:01] INFO root fetch - processPackages [pytest-ruff]: Downloading https://files.pythonhosted.org/packages/d1/1f/af356e88708529433107cf46fca2fb29bfba1d717c866296b85b6f6b3e9f/pytest_ruff-0.0.6.tar.gz
+[2023-04-28 13:46:01] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-28 13:46:01] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.8.tar.gz tmp/cg-29.4.9.tar.gz --markdown 20230428/c/cg/29.4.8-29.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:46:01] INFO root fetch - processPackages [textual]: Start processing: space-invaders
+[2023-04-28 13:46:01] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-04-28 13:46:01] INFO root fetch - processPackages [jinja2-simple-tags]: executing diffoscope
+[2023-04-28 13:46:01] INFO root fetch - processPackages [jinja2-simple-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2-simple-tags-0.4.0.tar.gz tmp/jinja2-simple-tags-0.4.1.tar.gz --markdown 20230428/j/jinja2-simple-tags/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 13:46:01] INFO root fetch - processPackages [pytest-ruff]: executing diffoscope
+[2023-04-28 13:46:01] INFO root fetch - processPackages [pytest-ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ruff-0.0.5.tar.gz tmp/pytest_ruff-0.0.6.tar.gz --markdown 20230428/p/pytest-ruff/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-28 13:46:01] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 13:46:01] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 13:46:01] INFO root fetch - processPackages [dynamicfluency]: Downloading https://files.pythonhosted.org/packages/99/88/bd8dab6ec6befa3a87f28effd4e2354bf50732b4dc611e036f87d8a951d6/dynamicfluency-0.1.1.tar.gz
+[2023-04-28 13:46:01] INFO root fetch - processPackages [TMD]: Downloading https://files.pythonhosted.org/packages/56/87/05e0e85b8d7d6983c0b3f5247eba55457b88fbc224944fa95f17f558acdf/TMD-2.3.0.tar.gz
+[2023-04-28 13:46:01] INFO root fetch - processPackages [dynamicfluency]: executing diffoscope
+[2023-04-28 13:46:01] INFO root fetch - processPackages [dynamicfluency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicfluency-0.1.0.tar.gz tmp/dynamicfluency-0.1.1.tar.gz --markdown 20230428/d/dynamicfluency/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 13:46:01] INFO root fetch - processPackages [TMD]: executing diffoscope
+[2023-04-28 13:46:01] INFO root fetch - processPackages [TMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmd-2.2.0.tar.gz tmp/TMD-2.3.0.tar.gz --markdown 20230428/T/TMD/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-04-28 13:46:02] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
+[2023-04-28 13:46:02] WARNING root fetch - processPackages [tllab-common]: Skipping package: exceeds size limit 12838090>=10485760
+[2023-04-28 13:46:02] INFO root fetch - main [MainThread]: End processing [tllab-common] error
+[2023-04-28 13:46:02] INFO root fetch - main [MainThread]: End processing [pytest-ruff]: success
+[2023-04-28 13:46:02] INFO root fetch - main [MainThread]: End processing [jinja2-simple-tags]: success
+[2023-04-28 13:46:02] INFO root fetch - main [MainThread]: End processing [dynamicfluency]: success
+[2023-04-28 13:46:03] INFO root fetch - main [MainThread]: End processing [TMD]: success
+[2023-04-28 13:46:05] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-04-28 13:46:12] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-28 13:46:17] INFO root fetch - main [MainThread]: End processing [elastic-helper]: success
+[2023-04-28 13:46:17] INFO root fetch - main [MainThread]: Store serial: [17897479]
