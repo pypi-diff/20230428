@@ -20357,3 +20357,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 20:00:10] INFO root fetch - main [MainThread]: End processing [protgraph]: success
 [2023-04-28 20:01:02] INFO root fetch - main [MainThread]: End processing [pyxet]: success
 [2023-04-28 20:01:02] INFO root fetch - main [MainThread]: Store serial: [17901557]
+[2023-04-28 20:06:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901557]
+[2023-04-28 20:06:18] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redis-simple-orm
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conservator-cli
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shoal-client
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semgrep
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rootmd
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newspaper-scraper
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adaux
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: audioprocessor
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sellix-python-sdk
+[2023-04-28 20:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piedomains
+[2023-04-28 20:06:18] INFO root fetch - processPackages [rootmd]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [shoal-client]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [redis-simple-orm]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [conservator-cli]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [newspaper-scraper]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [adaux]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [piedomains]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [sellix-python-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [audioprocessor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 20:06:18] INFO root fetch - processPackages [conservator-cli]: Downloading https://files.pythonhosted.org/packages/a6/13/a57804fdd583cf73e8f75f0d20f3366d70cd521f00858c41e27e1f82d5cf/conservator-cli-2.9.0.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [audioprocessor]: Downloading https://files.pythonhosted.org/packages/f0/6f/3cee963e3f2156f0364c28fd82aac48ef08b1f085430d5f23d96d3dcf7fe/audioprocessor-0.1.1.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [rootmd]: Downloading https://files.pythonhosted.org/packages/35/9f/ff8296e0ce20f8086c369317b40c3a4b488a3f4ed0416d2fae31f463c96e/rootmd-0.5.5.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/db/71/9bdd5c1b15f69ad6572a0ef4a101ab98cbbc6f68b1ac8da46b8429567843/adaux-2.4.2.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [shoal-client]: Downloading https://files.pythonhosted.org/packages/a8/e2/997c2c18dd4e65563df12e37caf569898b9cf90d36fe3b9941870231cf52/shoal-client-1.0.2.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [sellix-python-sdk]: Downloading https://files.pythonhosted.org/packages/1a/9f/e49ebe74aaa81e10caa116b58ce73710b43707b756fb48df2b0c825562d5/sellix-python-sdk-1.0.5.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [piedomains]: Downloading https://files.pythonhosted.org/packages/9e/bd/0e1a1d8e16b8cf4500c71d5fed1a5b9e3857338f3996f75ed7b2ff082382/piedomains-0.0.8.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [redis-simple-orm]: Downloading https://files.pythonhosted.org/packages/8c/e3/48d4ca06d1fa99d5c67eb67f876db86e61cd782e83b262dd15a2e4dc1b3c/redis_simple_orm-1.2.6.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [newspaper-scraper]: Downloading https://files.pythonhosted.org/packages/95/1e/6d8782bcd9b3f23f19679105169a8396a06747ee4cffb13b9d088d8f88aa/newspaper_scraper-0.1.3.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [audioprocessor]: Downloading https://files.pythonhosted.org/packages/fe/dd/e8998f7b5fe59cb4a4c932c3d87333757fb1820bdea8d14eaba6b8dae274/audioprocessor-0.1.2.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [shoal-client]: Downloading https://files.pythonhosted.org/packages/ac/2d/d1d4d4b4b66658cb60139f6a9b0ecd72b8e616ad9cd19db19a1dde20edd9/shoal-client-1.0.3.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/d4/d4/6c78ae93692b0c4819fa75db3394e4c2a56866426780b18496e918f2d9ab/adaux-2.4.3.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [audioprocessor]: executing diffoscope
+[2023-04-28 20:06:18] INFO root fetch - processPackages [audioprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioprocessor-0.1.1.tar.gz tmp/audioprocessor-0.1.2.tar.gz --markdown 20230428/a/audioprocessor/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 20:06:18] INFO root fetch - processPackages [redis-simple-orm]: Downloading https://files.pythonhosted.org/packages/11/2b/99197e214d6e9d61be95945bcbab478e2e06c02b24f0f6d3910fd78be3c3/redis_simple_orm-1.2.7.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [conservator-cli]: Downloading https://files.pythonhosted.org/packages/e2/a7/c63fd687dbcacf580db5ab5830edbf8f6addfcefd1aeb6a1547e30c3f60f/conservator-cli-2.9.1.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [rootmd]: Downloading https://files.pythonhosted.org/packages/d6/bf/5b03c4f8b394b1b473cc3875d286300afa061cd22d38b70b02f26eba07b6/rootmd-0.5.6.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [newspaper-scraper]: Downloading https://files.pythonhosted.org/packages/15/a0/e6dc8135daa2d773ccd6857d9e367da17fe3280147906e2c95ed80ba148a/newspaper_scraper-0.2.0.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [sellix-python-sdk]: Downloading https://files.pythonhosted.org/packages/cc/d0/5040a5f8d33019adec3b2079ee38072490efdcbf68643d6cabf4b5fdc349/sellix-python-sdk-1.0.6.tar.gz
+[2023-04-28 20:06:18] INFO root fetch - processPackages [shoal-client]: executing diffoscope
+[2023-04-28 20:06:18] INFO root fetch - processPackages [shoal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoal-client-1.0.2.tar.gz tmp/shoal-client-1.0.3.tar.gz --markdown 20230428/s/shoal-client/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2023-04-28 20:06:19] INFO root fetch - processPackages [redis-simple-orm]: executing diffoscope
+[2023-04-28 20:06:19] INFO root fetch - processPackages [redis-simple-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_simple_orm-1.2.6.tar.gz tmp/redis_simple_orm-1.2.7.tar.gz --markdown 20230428/r/redis-simple-orm/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [adaux]: executing diffoscope
+[2023-04-28 20:06:19] INFO root fetch - processPackages [adaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaux-2.4.2.tar.gz tmp/adaux-2.4.3.tar.gz --markdown 20230428/a/adaux/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [rootmd]: executing diffoscope
+[2023-04-28 20:06:19] INFO root fetch - processPackages [rootmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rootmd-0.5.5.tar.gz tmp/rootmd-0.5.6.tar.gz --markdown 20230428/r/rootmd/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [newspaper-scraper]: executing diffoscope
+[2023-04-28 20:06:19] INFO root fetch - processPackages [newspaper-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newspaper_scraper-0.1.3.tar.gz tmp/newspaper_scraper-0.2.0.tar.gz --markdown 20230428/n/newspaper-scraper/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [sellix-python-sdk]: executing diffoscope
+[2023-04-28 20:06:19] INFO root fetch - processPackages [sellix-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sellix-python-sdk-1.0.5.tar.gz tmp/sellix-python-sdk-1.0.6.tar.gz --markdown 20230428/s/sellix-python-sdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [conservator-cli]: executing diffoscope
+[2023-04-28 20:06:19] INFO root fetch - processPackages [conservator-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conservator-cli-2.9.0.tar.gz tmp/conservator-cli-2.9.1.tar.gz --markdown 20230428/c/conservator-cli/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-04-28 20:06:19] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230428/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 20:06:19] INFO root fetch - processPackages [piedomains]: Downloading https://files.pythonhosted.org/packages/fc/7e/a44e73fb1cd930f37a918bafd242a70aed1154a1b9603fcbc16361585134/piedomains-0.0.9.tar.gz
+[2023-04-28 20:06:20] INFO root fetch - processPackages [audioprocessor]: Start processing: aind-ng-link
+[2023-04-28 20:06:20] INFO root fetch - main [MainThread]: End processing [audioprocessor]: success
+[2023-04-28 20:06:20] INFO root fetch - processPackages [aind-ng-link]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 20:06:20] INFO root fetch - processPackages [aind-ng-link]: Downloading https://files.pythonhosted.org/packages/20/f5/ed857f3bc2ad7c060471734808717de6f87c878fb5639214c4bea2d2fedf/aind-ng-link-1.0.3.tar.gz
+[2023-04-28 20:06:20] INFO root fetch - processPackages [shoal-client]: Start processing: dbt-materialize
+[2023-04-28 20:06:20] INFO root fetch - main [MainThread]: End processing [shoal-client]: success
+[2023-04-28 20:06:20] INFO root fetch - processPackages [dbt-materialize]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-28 20:06:20] INFO root fetch - processPackages [aind-ng-link]: Downloading https://files.pythonhosted.org/packages/85/97/5ff3224fae96e09de685ca7bac9baede4660c1cfd60eedbb69c5efe962e6/aind-ng-link-1.0.4.tar.gz
+[2023-04-28 20:06:20] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/9c/7d/9623974c47b432d87a0c967f3dfa94564ac0749177984dc905497b604389/dbt-materialize-1.4.0.tar.gz
+[2023-04-28 20:06:20] INFO root fetch - processPackages [aind-ng-link]: executing diffoscope
+[2023-04-28 20:06:20] INFO root fetch - processPackages [aind-ng-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-ng-link-1.0.3.tar.gz tmp/aind-ng-link-1.0.4.tar.gz --markdown 20230428/a/aind-ng-link/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 20:06:20] INFO root fetch - processPackages [piedomains]: executing diffoscope
+[2023-04-28 20:06:20] INFO root fetch - processPackages [piedomains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piedomains-0.0.8.tar.gz tmp/piedomains-0.0.9.tar.gz --markdown 20230428/p/piedomains/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 20:06:20] INFO root fetch - processPackages [redis-simple-orm]: Start processing: andeplane-pyodide-kernel
+[2023-04-28 20:06:20] INFO root fetch - main [MainThread]: End processing [redis-simple-orm]: success
+[2023-04-28 20:06:20] INFO root fetch - processPackages [andeplane-pyodide-kernel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 20:06:20] INFO root fetch - processPackages [newspaper-scraper]: Start processing: netbox-napalm-plugin
+[2023-04-28 20:06:20] INFO root fetch - main [MainThread]: End processing [newspaper-scraper]: success
+[2023-04-28 20:06:20] INFO root fetch - processPackages [andeplane-pyodide-kernel]: executing diffoscope
+[2023-04-28 20:06:20] INFO root fetch - processPackages [andeplane-pyodide-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_pyodide_kernel-0.0.8-py3-none-any.whl.zip tmp/andeplane_pyodide_kernel-0.0.9-py3-none-any.whl.zip --markdown 20230428/a/andeplane-pyodide-kernel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 20:06:20] INFO root fetch - processPackages [netbox-napalm-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 20:06:21] INFO root fetch - processPackages [sellix-python-sdk]: Start processing: sdss-cherno
+[2023-04-28 20:06:21] INFO root fetch - main [MainThread]: End processing [sellix-python-sdk]: success
+[2023-04-28 20:06:21] INFO root fetch - processPackages [sdss-cherno]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-28 20:06:21] INFO root fetch - processPackages [netbox-napalm-plugin]: Downloading https://files.pythonhosted.org/packages/62/9a/8c51ebb681d9af78b85e11bf6a379979ce33736ac08c9abb93e7e7539193/netbox_napalm_plugin-0.1.0.tar.gz
+[2023-04-28 20:06:21] INFO root fetch - processPackages [rootmd]: Start processing: absl-extra
+[2023-04-28 20:06:21] INFO root fetch - main [MainThread]: End processing [rootmd]: success
+[2023-04-28 20:06:21] INFO root fetch - processPackages [absl-extra]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 20:06:21] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/d7/fe/85dc1afb1555c1770447dc2ef1ebbcedbe971768e5dc20249df2d7a35825/dbt-materialize-1.4.1.tar.gz
+[2023-04-28 20:06:21] INFO root fetch - main [MainThread]: End processing [conservator-cli]: success
+[2023-04-28 20:06:21] INFO root fetch - processPackages [dbt-materialize]: executing diffoscope
+[2023-04-28 20:06:21] INFO root fetch - processPackages [dbt-materialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-materialize-1.4.0.tar.gz tmp/dbt-materialize-1.4.1.tar.gz --markdown 20230428/d/dbt-materialize/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-28 20:06:21] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/bd/7c/73692c2305157b70cb4c0272fe021631a83f72850d518d2fd2a0b1ac3df1/absl_extra-0.0.4.tar.gz
+[2023-04-28 20:06:21] INFO root fetch - processPackages [netbox-napalm-plugin]: Downloading https://files.pythonhosted.org/packages/9c/32/d9af7e1b18ee05e2fc829fea9e3a4501f55c1cea6af0f97ef99842612818/netbox_napalm_plugin-0.1.1.tar.gz
+[2023-04-28 20:06:21] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-04-28 20:06:21] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.3.tar.gz tmp/absl_extra-0.0.4.tar.gz --markdown 20230428/a/absl-extra/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 20:06:21] INFO root fetch - processPackages [sdss-cherno]: Downloading https://files.pythonhosted.org/packages/ff/3e/036b481556b0c4cc5f341c092aecb2d8ba9d714244f9852e73a2b69caee6/sdss_cherno-0.6.2.tar.gz
+[2023-04-28 20:06:21] INFO root fetch - processPackages [netbox-napalm-plugin]: executing diffoscope
+[2023-04-28 20:06:21] INFO root fetch - processPackages [netbox-napalm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_napalm_plugin-0.1.0.tar.gz tmp/netbox_napalm_plugin-0.1.1.tar.gz --markdown 20230428/n/netbox-napalm-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 20:06:21] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-04-28 20:06:21] INFO root fetch - processPackages [sdss-cherno]: executing diffoscope
+[2023-04-28 20:06:21] INFO root fetch - processPackages [sdss-cherno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_cherno-0.6.1.tar.gz tmp/sdss_cherno-0.6.2.tar.gz --markdown 20230428/s/sdss-cherno/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-28 20:06:22] INFO root fetch - main [MainThread]: End processing [aind-ng-link]: success
+[2023-04-28 20:06:22] INFO root fetch - main [MainThread]: End processing [adaux]: success
+[2023-04-28 20:06:22] INFO root fetch - main [MainThread]: End processing [andeplane-pyodide-kernel]: success
+[2023-04-28 20:06:22] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-04-28 20:06:22] INFO root fetch - main [MainThread]: End processing [sdss-cherno]: success
+[2023-04-28 20:06:23] INFO root fetch - main [MainThread]: End processing [dbt-materialize]: success
+[2023-04-28 20:06:23] INFO root fetch - main [MainThread]: End processing [netbox-napalm-plugin]: success
+[2023-04-28 20:06:24] INFO root fetch - main [MainThread]: End processing [piedomains]: success
+[2023-04-28 20:06:24] INFO root fetch - main [MainThread]: Store serial: [17901606]
