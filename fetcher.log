@@ -15092,3 +15092,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 15:05:46] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-04-28 15:05:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-28 15:05:50] INFO root fetch - main [MainThread]: Store serial: [17898218]
+[2023-04-28 15:10:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898218]
+[2023-04-28 15:11:00] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphkit-learn
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: curies
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dreamai
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RobertCommonBasic
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cc-py-commons
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-numpy
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: consistent
+[2023-04-28 15:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: few-shot-priming
+[2023-04-28 15:11:00] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [dreamai]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [consistent]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [curies]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-28 15:11:00] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-04-28 15:11:00] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-28 15:11:00] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230428/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 15:11:00] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230428/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:11:00] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/39/7c/e514823f796e175b9cf6edc3fca79c87a7ea69cdb106da84580ef4de731e/dreamai-0.2.0.tar.gz
+[2023-04-28 15:11:00] INFO root fetch - processPackages [consistent]: Downloading https://files.pythonhosted.org/packages/96/94/504e6e79c1498daa6a9109ecd45af0e87fa4476c10eba0e1242fb298d4d9/consistent-0.0.9.tar.gz
+[2023-04-28 15:11:00] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-28 15:11:00] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/79/7a/a75a71330d223cf084f603d56b9315c13b5a271241cf9beb17f34f2bcf86/curies-0.5.3.tar.gz
+[2023-04-28 15:11:00] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230428/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:11:00] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-28 15:11:00] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230428/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-28 15:11:00] INFO root fetch - processPackages [consistent]: executing diffoscope
+[2023-04-28 15:11:00] INFO root fetch - processPackages [consistent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consistent-0.0.7.tar.gz tmp/consistent-0.0.9.tar.gz --markdown 20230428/c/consistent/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 15:11:00] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/89/7d/100cd7ffe0b58f557009b9f056fca1a500dc7597900b6aadbbd7f38fba41/RobertCommonBasic-0.1.38.tar.gz
+[2023-04-28 15:11:00] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 15:11:00] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:11:00] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-28 15:11:00] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230428/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-28 15:11:00] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/b2/13/6ad892e1040b3479cc2b6aaae4455760dbe06d21399c89902ce047a37894/curies-0.5.4.tar.gz
+[2023-04-28 15:11:01] INFO root fetch - processPackages [curies]: executing diffoscope
+[2023-04-28 15:11:01] INFO root fetch - processPackages [curies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curies-0.5.3.tar.gz tmp/curies-0.5.4.tar.gz --markdown 20230428/c/curies/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-28 15:11:01] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/ca/1b/df1e9d06cbaa0c7bedd3f18ce5a808e20be4b9c41017ed862535d0134d6d/dreamai-0.3.0.tar.gz
+[2023-04-28 15:11:01] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-04-28 15:11:01] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.37.tar.gz tmp/RobertCommonBasic-0.1.38.tar.gz --markdown 20230428/R/RobertCommonBasic/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-04-28 15:11:01] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-04-28 15:11:01] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.2.0.tar.gz tmp/dreamai-0.3.0.tar.gz --markdown 20230428/d/dreamai/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 15:11:02] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: odoo-addon-stock-move-line-reserved-quant
+[2023-04-28 15:11:02] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-28 15:11:02] WARNING root fetch - processPackages [odoo-addon-stock-move-line-reserved-quant]: Skipping, unable to determine old version
+[2023-04-28 15:11:02] INFO root fetch - processPackages [odoo-addon-stock-move-line-reserved-quant]: Start processing: pomodoro-timer-cli
+[2023-04-28 15:11:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-line-reserved-quant] error
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pomodoro-timer-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 15:11:02] INFO root fetch - processPackages [cc-py-commons]: Start processing: sink-pypi
+[2023-04-28 15:11:02] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pomodoro-timer-cli]: Downloading https://files.pythonhosted.org/packages/19/d4/6df94cfc6701f2645edde797468a2ac3cf6fe2f4292610a83474bcb6373e/pomodoro_timer_cli-0.1.1.tar.gz
+[2023-04-28 15:11:02] INFO root fetch - processPackages [sink-pypi]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-28 15:11:02] INFO root fetch - processPackages [consistent]: Start processing: figures-07659443
+[2023-04-28 15:11:02] INFO root fetch - main [MainThread]: End processing [consistent]: success
+[2023-04-28 15:11:02] WARNING root fetch - processPackages [figures-07659443]: Skipping, unable to determine old version
+[2023-04-28 15:11:02] INFO root fetch - processPackages [figures-07659443]: Start processing: custardpy
+[2023-04-28 15:11:02] INFO root fetch - main [MainThread]: End processing [figures-07659443] error
+[2023-04-28 15:11:02] INFO root fetch - processPackages [custardpy]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-28 15:11:02] INFO root fetch - processPackages [few-shot-priming]: Start processing: pepperize.cdk-route53-health-check
+[2023-04-28 15:11:02] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:11:02] INFO root fetch - processPackages [curies]: Start processing: ngstrefftz-src
+[2023-04-28 15:11:02] INFO root fetch - main [MainThread]: End processing [curies]: success
+[2023-04-28 15:11:02] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/23/4f/7992155a8293f370d1e6288ece61eea9b58fbd1405bf11b7e521daee9a12/custardpy-0.3.3-py3-none-any.whl
+[2023-04-28 15:11:02] INFO root fetch - processPackages [ngstrefftz-src]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-28 15:11:02] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-04-28 15:11:02] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.3.2-py3-none-any.whl.zip tmp/custardpy-0.3.3-py3-none-any.whl.zip --markdown 20230428/c/custardpy/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-28 15:11:02] INFO root fetch - processPackages [sink-pypi]: Downloading https://files.pythonhosted.org/packages/e0/f0/8e9d96190d34b15f944f1de3f0853711add82e16810a456ba1e45d7b95e1/sink_pypi-0.2.5.tar.gz
+[2023-04-28 15:11:02] INFO root fetch - processPackages [sink-pypi]: executing diffoscope
+[2023-04-28 15:11:02] INFO root fetch - processPackages [sink-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sink_pypi-0.2.4.tar.gz tmp/sink_pypi-0.2.5.tar.gz --markdown 20230428/s/sink-pypi/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pomodoro-timer-cli]: Downloading https://files.pythonhosted.org/packages/d3/46/e569d18293bfcff12710f29f73a783d68eb07ebe9555c628b785ac8c602c/pomodoro_timer_cli-0.1.2.tar.gz
+[2023-04-28 15:11:02] INFO root fetch - processPackages [ngstrefftz-src]: Downloading https://files.pythonhosted.org/packages/4c/33/820adedfea79d60e82f5b50497bdb500003242a51a159ed1df9f9d79cc95/ngstrefftz-src-0.2.4.tar.gz
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pomodoro-timer-cli]: executing diffoscope
+[2023-04-28 15:11:02] INFO root fetch - processPackages [pomodoro-timer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomodoro_timer_cli-0.1.1.tar.gz tmp/pomodoro_timer_cli-0.1.2.tar.gz --markdown 20230428/p/pomodoro-timer-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 15:11:02] INFO root fetch - processPackages [ngstrefftz-src]: executing diffoscope
+[2023-04-28 15:11:02] INFO root fetch - processPackages [ngstrefftz-src]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstrefftz-src-0.2.3.tar.gz tmp/ngstrefftz-src-0.2.4.tar.gz --markdown 20230428/n/ngstrefftz-src/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 15:11:03] INFO root fetch - processPackages [dreamai]: Start processing: cloudfoundry-client
+[2023-04-28 15:11:03] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-04-28 15:11:03] INFO root fetch - processPackages [cloudfoundry-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-28 15:11:03] INFO root fetch - processPackages [cloudfoundry-client]: Downloading https://files.pythonhosted.org/packages/20/9d/99e5d890e6765de459205dc09268f793312a5677c6c6c01fe5bdfcd3cfd0/cloudfoundry-client-1.8.0.tar.gz
+[2023-04-28 15:11:03] INFO root fetch - processPackages [cloudfoundry-client]: Downloading https://files.pythonhosted.org/packages/55/78/4daaeca27bd3ade38295a089555f453630d5f2b13180002f6f74c5807c43/cloudfoundry-client-1.9.0.tar.gz
+[2023-04-28 15:11:03] INFO root fetch - processPackages [nbdev-numpy]: Start processing: mpose
+[2023-04-28 15:11:03] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-28 15:11:03] INFO root fetch - processPackages [cloudfoundry-client]: executing diffoscope
+[2023-04-28 15:11:03] INFO root fetch - processPackages [cloudfoundry-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudfoundry-client-1.8.0.tar.gz tmp/cloudfoundry-client-1.9.0.tar.gz --markdown 20230428/c/cloudfoundry-client/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 15:11:03] INFO root fetch - processPackages [mpose]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 15:11:04] INFO root fetch - processPackages [mpose]: Downloading https://files.pythonhosted.org/packages/d1/56/6f909b52ed5456dd06136399ef0d28d3ae49ef04c85220c7a9a783e1ae98/mpose-1.0.8.tar.gz
+[2023-04-28 15:11:04] INFO root fetch - processPackages [custardpy]: Start processing: nbdev-pandas
+[2023-04-28 15:11:04] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-04-28 15:11:04] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:11:04] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-04-28 15:11:04] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-28 15:11:04] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230428/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:11:04] INFO root fetch - main [MainThread]: End processing [pomodoro-timer-cli]: success
+[2023-04-28 15:11:04] INFO root fetch - processPackages [mpose]: Downloading https://files.pythonhosted.org/packages/70/4c/d686c2cbf9663efc0f454f159afd538cbc99cafefc445246e6afc4953d20/mpose-1.0.9.tar.gz
+[2023-04-28 15:11:04] INFO root fetch - processPackages [mpose]: executing diffoscope
+[2023-04-28 15:11:04] INFO root fetch - processPackages [mpose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpose-1.0.8.tar.gz tmp/mpose-1.0.9.tar.gz --markdown 20230428/m/mpose/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 15:11:04] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-28 15:11:04] INFO root fetch - main [MainThread]: End processing [ngstrefftz-src]: success
+[2023-04-28 15:11:04] INFO root fetch - main [MainThread]: End processing [sink-pypi]: success
+[2023-04-28 15:11:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-04-28 15:11:05] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-28 15:11:05] INFO root fetch - main [MainThread]: End processing [mpose]: success
+[2023-04-28 15:11:05] INFO root fetch - main [MainThread]: End processing [cloudfoundry-client]: success
+[2023-04-28 15:11:05] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-28 15:11:05] INFO root fetch - main [MainThread]: Store serial: [17898282]
