@@ -15356,3 +15356,123 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 15:16:22] INFO root fetch - main [MainThread]: End processing [runnerase]: success
 [2023-04-28 15:16:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-04-28 15:16:22] INFO root fetch - main [MainThread]: Store serial: [17898366]
+[2023-04-28 15:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898366]
+[2023-04-28 15:21:31] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotmk
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: farm-haystack
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-contributor-assets
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: movia
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-django
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pomodoro-timer-cli
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: instawow
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: locust-plugins
+[2023-04-28 15:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: methodism
+[2023-04-28 15:21:31] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post734] Old Version: [1.0.0.post733]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [locust-plugins]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [pomodoro-timer-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [movia]: New version: [1.0a1] Old Version: [1.0.0b3]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [methodism]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [instawow]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 15:21:31] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2023-04-28 15:21:31] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20230428/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2023-04-28 15:21:31] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-28 15:21:31] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230428/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-28 15:21:31] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-28 15:21:31] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230428/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:21:31] INFO root fetch - processPackages [movia]: Downloading https://files.pythonhosted.org/packages/c2/a0/f029923e82ff1079f7a3e6c63d74297c4e440eb7cdab63114d31f7ace40a/movia-1.0.0b3.tar.gz
+[2023-04-28 15:21:31] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-28 15:21:31] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230428/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:21:31] INFO root fetch - processPackages [locust-plugins]: Downloading https://files.pythonhosted.org/packages/e4/ad/9f81075dce8231b6a05a40498040a7a0b7796188810e020dea3cfa88035b/locust-plugins-3.2.1.tar.gz
+[2023-04-28 15:21:31] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/ee/aa/a27264acd00dc50b1754e7f1b9d1b4ec4ed6895928eaa2901ae4f9a6f491/methodism-0.0.62.tar.gz
+[2023-04-28 15:21:31] INFO root fetch - processPackages [instawow]: Downloading https://files.pythonhosted.org/packages/79/5e/5c63f127332c7af342a6ceb066021ba2d47e0c96641b10423e16f020e5ce/instawow-2.2.0.tar.gz
+[2023-04-28 15:21:32] INFO root fetch - processPackages [pomodoro-timer-cli]: Downloading https://files.pythonhosted.org/packages/b1/ff/fbd43dde2c3908622102e01816dfac062edf8e67105367a6356fe0e141d0/pomodoro_timer_cli-0.1.3.tar.gz
+[2023-04-28 15:21:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/92/97/8477e20bb9fb0cb043c88fafc84e762b7b7760fda859e54513d522f92c14/nucliadb_contributor_assets-1.0.0.post734-py3-none-any.whl
+[2023-04-28 15:21:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-04-28 15:21:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post733-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post734-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-contributor-assets/1.0.0.post733-1.0.0.post734/diff.md --exclude *.pyd
+[2023-04-28 15:21:32] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-04-28 15:21:32] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.0.61.tar.gz tmp/methodism-0.0.62.tar.gz --markdown 20230428/m/methodism/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-04-28 15:21:32] INFO root fetch - processPackages [pomodoro-timer-cli]: executing diffoscope
+[2023-04-28 15:21:32] INFO root fetch - processPackages [pomodoro-timer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomodoro_timer_cli-0.1.2.tar.gz tmp/pomodoro_timer_cli-0.1.3.tar.gz --markdown 20230428/p/pomodoro-timer-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 15:21:32] INFO root fetch - processPackages [movia]: Downloading https://files.pythonhosted.org/packages/db/0c/ef433f91f7821aec5a80f996969e1bfdbfd1be5eff126647e9cbeb053845/movia-1.0a1.tar.gz
+[2023-04-28 15:21:32] INFO root fetch - processPackages [movia]: executing diffoscope
+[2023-04-28 15:21:32] INFO root fetch - processPackages [movia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movia-1.0.0b3.tar.gz tmp/movia-1.0a1.tar.gz --markdown 20230428/m/movia/1.0.0b3-1.0a1/diff.md --exclude *.pyd
+[2023-04-28 15:21:32] INFO root fetch - processPackages [instawow]: Downloading https://files.pythonhosted.org/packages/bb/11/c23e96a2807b9cd0e6c10709f94163aa8986bd2176cb27c66811e2df5b23/instawow-2.3.0.tar.gz
+[2023-04-28 15:21:32] INFO root fetch - processPackages [instawow]: executing diffoscope
+[2023-04-28 15:21:32] INFO root fetch - processPackages [instawow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instawow-2.2.0.tar.gz tmp/instawow-2.3.0.tar.gz --markdown 20230428/i/instawow/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-04-28 15:21:33] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: fbgemm-gpu-nightly
+[2023-04-28 15:21:33] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-28 15:21:33] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.4.28] Old Version: [2023.4.27]
+[2023-04-28 15:21:33] INFO root fetch - processPackages [methodism]: Start processing: google-chad
+[2023-04-28 15:21:33] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-04-28 15:21:33] INFO root fetch - processPackages [google-chad]: New version: [3.3] Old Version: [3.2]
+[2023-04-28 15:21:33] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/e9/25/0487f0c38f4f409fe83b1397beae8a48a05e82a0e591cbdaeeecc78552a7/fbgemm_gpu_nightly-2023.4.27-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-28 15:21:33] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 265717654>=10485760
+[2023-04-28 15:21:33] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: inventronet
+[2023-04-28 15:21:33] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-04-28 15:21:33] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/d8/a0/0d887b5ca49dc649cb4a525e94b3659ec12ba88fd84f1695d9d3862f19ce/google-chad-3.2.tar.gz
+[2023-04-28 15:21:33] INFO root fetch - processPackages [inventronet]: New version: [0.0.8a0] Old Version: [0.0.7a0]
+[2023-04-28 15:21:33] INFO root fetch - processPackages [pomodoro-timer-cli]: Start processing: checkpoint-tool
+[2023-04-28 15:21:33] INFO root fetch - main [MainThread]: End processing [pomodoro-timer-cli]: success
+[2023-04-28 15:21:33] INFO root fetch - processPackages [inventronet]: Downloading https://files.pythonhosted.org/packages/a1/91/8269017f517828e14074a68e7aebd13411d8a37474ea8fd484394f476a6f/inventronet-0.0.7a0.tar.gz
+[2023-04-28 15:21:33] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 15:21:33] INFO root fetch - processPackages [robotmk]: Start processing: nbdev-apl
+[2023-04-28 15:21:33] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-28 15:21:33] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.741] Old Version: [0.0.740]
+[2023-04-28 15:21:33] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/0b/60/2d5f06d41740a1b0fca590cd11af7d46507c83eb9d374992fd38d70c80ae/google-chad-3.3.tar.gz
+[2023-04-28 15:21:34] INFO root fetch - processPackages [google-chad]: executing diffoscope
+[2023-04-28 15:21:34] INFO root fetch - processPackages [google-chad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-chad-3.2.tar.gz tmp/google-chad-3.3.tar.gz --markdown 20230428/g/google-chad/3.2-3.3/diff.md --exclude *.pyd
+[2023-04-28 15:21:34] INFO root fetch - processPackages [nbdev-django]: Start processing: cardsort
+[2023-04-28 15:21:34] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-28 15:21:34] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/52/68/c6de3ba299c09ec341edbeed98bb1a4f22709b71475f070ae888b877f6e3/nbdev-apl-0.0.741.tar.gz
+[2023-04-28 15:21:34] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-04-28 15:21:34] INFO root fetch - processPackages [inventronet]: Downloading https://files.pythonhosted.org/packages/bb/c2/eb4f26e51418df96abc471eca31fa5571303dec05ecf6329a967a98d414f/inventronet-0.0.8a0.tar.gz
+[2023-04-28 15:21:34] INFO root fetch - processPackages [movia]: Start processing: linkedin-api
+[2023-04-28 15:21:34] INFO root fetch - main [MainThread]: End processing [movia]: success
+[2023-04-28 15:21:34] INFO root fetch - processPackages [linkedin-api]: New version: [2.0.1] Old Version: [2.0.0a5]
+[2023-04-28 15:21:34] INFO root fetch - processPackages [checkpoint-tool]: Downloading https://files.pythonhosted.org/packages/71/cd/bc585520a31350978a569eb57ef13a5362ab48fbb76485d7743d7f23013e/checkpoint_tool-0.3.1.tar.gz
+[2023-04-28 15:21:34] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-04-28 15:21:34] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230428/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 15:21:34] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-28 15:21:34] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.740.tar.gz tmp/nbdev-apl-0.0.741.tar.gz --markdown 20230428/n/nbdev-apl/0.0.740-0.0.741/diff.md --exclude *.pyd
+[2023-04-28 15:21:34] INFO root fetch - processPackages [inventronet]: executing diffoscope
+[2023-04-28 15:21:34] INFO root fetch - processPackages [inventronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventronet-0.0.7a0.tar.gz tmp/inventronet-0.0.8a0.tar.gz --markdown 20230428/i/inventronet/0.0.7a0-0.0.8a0/diff.md --exclude *.pyd
+[2023-04-28 15:21:34] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-04-28 15:21:34] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.3.0.tar.gz tmp/checkpoint_tool-0.3.1.tar.gz --markdown 20230428/c/checkpoint-tool/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 15:21:34] INFO root fetch - processPackages [linkedin-api]: Downloading https://files.pythonhosted.org/packages/25/3e/3ec0b9972181b96d8b3f5e787be257a6c076c22555845e632c895dfd6abf/linkedin_api-2.0.1.tar.gz
+[2023-04-28 15:21:34] INFO root fetch - processPackages [linkedin-api]: executing diffoscope
+[2023-04-28 15:21:34] INFO root fetch - processPackages [linkedin-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin_api-2.0.0a5.tar.gz tmp/linkedin_api-2.0.1.tar.gz --markdown 20230428/l/linkedin-api/2.0.0a5-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 15:21:34] INFO root fetch - processPackages [locust-plugins]: Downloading https://files.pythonhosted.org/packages/b8/0b/7d1bc7aa2720d8c03216868eef2aa3fda6f433722199666187d19a89c39c/locust-plugins-3.3.0.tar.gz
+[2023-04-28 15:21:35] INFO root fetch - processPackages [locust-plugins]: executing diffoscope
+[2023-04-28 15:21:35] INFO root fetch - processPackages [locust-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-plugins-3.2.1.tar.gz tmp/locust-plugins-3.3.0.tar.gz --markdown 20230428/l/locust-plugins/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-04-28 15:21:35] INFO root fetch - processPackages [google-chad]: Start processing: few-shot-priming
+[2023-04-28 15:21:35] INFO root fetch - main [MainThread]: End processing [google-chad]: success
+[2023-04-28 15:21:35] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 15:21:35] INFO root fetch - processPackages [cardsort]: Start processing: ngstrefftz
+[2023-04-28 15:21:35] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-04-28 15:21:35] INFO root fetch - processPackages [ngstrefftz]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-28 15:21:35] INFO root fetch - processPackages [nbdev-apl]: Start processing: dwh-oppfolging
+[2023-04-28 15:21:35] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-28 15:21:35] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 15:21:35] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 15:21:35] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:21:35] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-04-28 15:21:35] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/ac/2b/54e2aa6820d5279403aa6611316a139d98c3882e06f73a9495289d257120/ngstrefftz-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 15:21:35] INFO root fetch - main [MainThread]: End processing [linkedin-api]: success
+[2023-04-28 15:21:35] INFO root fetch - processPackages [ngstrefftz]: executing diffoscope
+[2023-04-28 15:21:35] INFO root fetch - processPackages [ngstrefftz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstrefftz-0.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ngstrefftz-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/n/ngstrefftz/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 15:21:35] INFO root fetch - main [MainThread]: End processing [inventronet]: success
+[2023-04-28 15:21:36] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2023-04-28 15:21:36] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.8.tar.gz tmp/dwh_oppfolging-0.0.9.tar.gz --markdown 20230428/d/dwh-oppfolging/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 15:21:36] INFO root fetch - main [MainThread]: End processing [locust-plugins]: success
+[2023-04-28 15:21:37] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 15:21:37] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2023-04-28 15:21:38] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2023-04-28 15:21:42] INFO root fetch - main [MainThread]: End processing [instawow]: success
+[2023-04-28 15:21:44] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
+[2023-04-28 15:21:46] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-04-28 15:21:46] INFO root fetch - main [MainThread]: Store serial: [17898436]
