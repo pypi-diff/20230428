@@ -19436,3 +19436,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 19:07:21] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-04-28 19:07:41] INFO root fetch - main [MainThread]: End processing [mlagility]: success
 [2023-04-28 19:07:41] INFO root fetch - main [MainThread]: Store serial: [17901068]
+[2023-04-28 19:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901068]
+[2023-04-28 19:12:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkite-vasp
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terrario
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: publishing-service-api
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-lambda-deno
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stable-ts
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bslm
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkwind
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: textual
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pequena
+[2023-04-28 19:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pequena
+[2023-04-28 19:12:51] WARNING root fetch - processPackages [bslm]: Skipping, unable to determine old version
+[2023-04-28 19:12:51] INFO root fetch - main [MainThread]: End processing [bslm] error
+[2023-04-28 19:12:51] WARNING root fetch - processPackages [publishing-service-api]: Skipping, unable to determine old version
+[2023-04-28 19:12:51] INFO root fetch - main [MainThread]: End processing [publishing-service-api] error
+[2023-04-28 19:12:51] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 19:12:51] WARNING root fetch - processPackages [mkwind]: Skipping, unable to determine old version
+[2023-04-28 19:12:51] INFO root fetch - main [MainThread]: End processing [mkwind] error
+[2023-04-28 19:12:51] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 19:12:51] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 19:12:51] INFO root fetch - processPackages [stable-ts]: New version: [2.5.2] Old Version: [2.5.0]
+[2023-04-28 19:12:51] WARNING root fetch - processPackages [mkite-vasp]: Skipping, unable to determine old version
+[2023-04-28 19:12:51] INFO root fetch - main [MainThread]: End processing [mkite-vasp] error
+[2023-04-28 19:12:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 19:12:51] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-04-28 19:12:51] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230428/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 19:12:51] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 19:12:51] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-04-28 19:12:51] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230428/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 19:12:51] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-28 19:12:51] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230428/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 19:12:51] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/77/dd/6fea512af54add79b24271b4c3228ba6078898e3de4bdbe3ade316e0ff44/stable-ts-2.5.0.tar.gz
+[2023-04-28 19:12:51] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-04-28 19:12:51] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230428/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 19:12:51] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/d6/1e/af58ab04663e05598cdfa2ed02ebfa3031db3243a097dce1fa5f1116d304/stable-ts-2.5.2.tar.gz
+[2023-04-28 19:12:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-04-28 19:12:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 19:12:51] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2023-04-28 19:12:51] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.5.0.tar.gz tmp/stable-ts-2.5.2.tar.gz --markdown 20230428/s/stable-ts/2.5.0-2.5.2/diff.md --exclude *.pyd
+[2023-04-28 19:12:52] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-04-28 19:12:52] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-04-28 19:12:52] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-28 19:12:53] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2023-04-28 19:12:53] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-04-28 19:12:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-04-28 19:12:53] INFO root fetch - main [MainThread]: Store serial: [17901118]
