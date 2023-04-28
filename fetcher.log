@@ -9642,3 +9642,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:40:19] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2023-04-28 09:40:25] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-04-28 09:40:25] INFO root fetch - main [MainThread]: Store serial: [17895119]
+[2023-04-28 09:45:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895119]
+[2023-04-28 09:45:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-studio
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swdl
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noaa-coops
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yajbe
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dknovautils
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digital-assist-ant
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: citizenk
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyprocessors-openai_completion
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: commitizen
+[2023-04-28 09:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantplay
+[2023-04-28 09:45:36] INFO root fetch - processPackages [citizenk]: New version: [1.0.6] Old Version: [0.1.21]
+[2023-04-28 09:45:36] INFO root fetch - processPackages [pyprocessors-openai_completion]: New version: [0.5.9] Old Version: [0.5.53]
+[2023-04-28 09:45:36] INFO root fetch - processPackages [noaa-coops]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 09:45:36] WARNING root fetch - processPackages [yajbe]: Skipping, unable to determine old version
+[2023-04-28 09:45:36] INFO root fetch - processPackages [yajbe]: Start processing: pyTenable
+[2023-04-28 09:45:36] INFO root fetch - main [MainThread]: End processing [yajbe] error
+[2023-04-28 09:45:36] INFO root fetch - processPackages [dknovautils]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-04-28 09:45:36] WARNING root fetch - processPackages [digital-assist-ant]: Skipping, unable to determine old version
+[2023-04-28 09:45:36] INFO root fetch - processPackages [seven-studio]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-04-28 09:45:36] INFO root fetch - processPackages [digital-assist-ant]: Start processing: xchembku
+[2023-04-28 09:45:36] INFO root fetch - main [MainThread]: End processing [digital-assist-ant] error
+[2023-04-28 09:45:36] INFO root fetch - processPackages [swdl]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-28 09:45:36] INFO root fetch - processPackages [commitizen]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-04-28 09:45:36] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-28 09:45:36] INFO root fetch - processPackages [pyprocessors-openai_completion]: executing diffoscope
+[2023-04-28 09:45:36] INFO root fetch - processPackages [pyprocessors-openai_completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-openai_completion-0.5.53.tar.gz tmp/pyprocessors-openai_completion-0.5.9.tar.gz --markdown 20230428/p/pyprocessors-openai_completion/0.5.53-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 09:45:36] INFO root fetch - processPackages [pyTenable]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-28 09:45:36] INFO root fetch - processPackages [xchembku]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-28 09:45:37] INFO root fetch - processPackages [noaa-coops]: Downloading https://files.pythonhosted.org/packages/9e/22/cf73e6001b20742760be1228de369949e4f74bdd96c143753cefea9bac10/noaa_coops-0.3.0.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [swdl]: Downloading https://files.pythonhosted.org/packages/ec/52/8e0b77c7410b44f369a83e5c3b472882ae4da393e327a17d28f06d0465b7/swdl-1.8.2-py3-none-any.whl
+[2023-04-28 09:45:37] INFO root fetch - processPackages [pyTenable]: Downloading https://files.pythonhosted.org/packages/41/11/d192530497f1c74a73841473a67013acd520ec42102317c287e9a8184292/pyTenable-1.4.8.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/14/2a/abe8f3e779220f115c8b94100167ab2c3b8e4f6d4a557a61a6e9296f298e/commitizen-3.1.1.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/a1/d7/f85d4b1bcc66a66b341b2bf8cecb8f3108756fe8ff16c8751fb56715437f/xchembku-1.2.0.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [seven-studio]: Downloading https://files.pythonhosted.org/packages/39/74/b051620044097b888021dfa1b9d495310aabab86a29ef1b19fc70b3c72c5/seven_studio-1.4.0.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [noaa-coops]: Downloading https://files.pythonhosted.org/packages/79/98/9050482cf57a15da9a07598f5ed16ecbff6a46069b0be181e6d3f4f89af5/noaa_coops-0.3.1.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/3d/cd/a8e371b3bce42f4e1ca418ff0c1c6649a9747aa54e0d131e3ef3481592c7/dknovautils-0.0.35.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230428/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.1.0.tar.gz tmp/commitizen-3.1.1.tar.gz --markdown 20230428/c/commitizen/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [seven-studio]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [seven-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_studio-1.3.2.tar.gz tmp/seven_studio-1.4.0.tar.gz --markdown 20230428/s/seven-studio/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [noaa-coops]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [noaa-coops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noaa_coops-0.3.0.tar.gz tmp/noaa_coops-0.3.1.tar.gz --markdown 20230428/n/noaa-coops/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.34.tar.gz tmp/dknovautils-0.0.35.tar.gz --markdown 20230428/d/dknovautils/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/ae/fc/a4c83169d9ae7fb39b5d98fd36215f8da8a5bb378ecedf54b5cdbd8cf8a7/xchembku-1.3.0.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.21.tar.gz tmp/citizenk-1.0.6.tar.gz --markdown 20230428/c/citizenk/0.1.21-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [xchembku]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [xchembku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchembku-1.2.0.tar.gz tmp/xchembku-1.3.0.tar.gz --markdown 20230428/x/xchembku/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [pyTenable]: Downloading https://files.pythonhosted.org/packages/16/52/b27c618f8c6459ab9ff64038c357d9cb1f00b6ec163fd4bf21e1907ae3e2/pyTenable-1.4.9.tar.gz
+[2023-04-28 09:45:37] INFO root fetch - processPackages [swdl]: Downloading https://files.pythonhosted.org/packages/cb/1d/8c5454eaed8ae4b9ddade1b9899169c9d351283cbf730eb1e81f09a424c6/swdl-1.8.3-py3-none-any.whl
+[2023-04-28 09:45:37] INFO root fetch - processPackages [pyTenable]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [pyTenable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTenable-1.4.8.tar.gz tmp/pyTenable-1.4.9.tar.gz --markdown 20230428/p/pyTenable/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-28 09:45:37] INFO root fetch - processPackages [swdl]: executing diffoscope
+[2023-04-28 09:45:37] INFO root fetch - processPackages [swdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swdl-1.8.2-py3-none-any.whl.zip tmp/swdl-1.8.3-py3-none-any.whl.zip --markdown 20230428/s/swdl/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-28 09:45:38] INFO root fetch - processPackages [pyprocessors-openai_completion]: Start processing: logicgate
+[2023-04-28 09:45:38] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
+[2023-04-28 09:45:38] INFO root fetch - processPackages [logicgate]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 09:45:38] INFO root fetch - processPackages [dknovautils]: Start processing: OpenGeode-core
+[2023-04-28 09:45:38] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-28 09:45:38] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.0.9]
+[2023-04-28 09:45:39] INFO root fetch - processPackages [commitizen]: Start processing: inhandtest
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-04-28 09:45:39] INFO root fetch - processPackages [inhandtest]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-04-28 09:45:39] INFO root fetch - processPackages [logicgate]: Downloading https://files.pythonhosted.org/packages/24/d1/96f859b5ae1dcf4f1652846f358c97aedad5f0406af0cfff9d4b2ab84da2/LogicGate-0.1.2.tar.gz
+[2023-04-28 09:45:39] INFO root fetch - processPackages [noaa-coops]: Start processing: SDTcloud
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [noaa-coops]: success
+[2023-04-28 09:45:39] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 09:45:39] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/f4/d6/c03770d6a9178257977a810f85df4252ebce3b549f00a6a4ad2bc5cd7a5b/OpenGeode_core-14.0.9-cp39-cp39-win_amd64.whl
+[2023-04-28 09:45:39] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-04-28 09:45:39] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.38.tar.gz tmp/inhandtest-0.0.39.tar.gz --markdown 20230428/i/inhandtest/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-04-28 09:45:39] INFO root fetch - processPackages [quantplay]: Start processing: django-ipghrms-log
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-28 09:45:39] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17911399>=10485760
+[2023-04-28 09:45:39] INFO root fetch - processPackages [OpenGeode-core]: Start processing: pyprocessors-openai_completion
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-04-28 09:45:39] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.9] Old Version: [1.8]
+[2023-04-28 09:45:39] INFO root fetch - processPackages [pyprocessors-openai_completion]: New version: [0.5.9] Old Version: [0.5.58]
+[2023-04-28 09:45:39] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-04-28 09:45:39] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.4.tar.gz tmp/SDTcloud-0.0.5.tar.gz --markdown 20230428/S/SDTcloud/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 09:45:39] INFO root fetch - processPackages [seven-studio]: Start processing: alibabacloud-computenestsupplier20210521
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [seven-studio]: success
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [swdl]: success
+[2023-04-28 09:45:39] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 09:45:39] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.8.tar.gz tmp/django-ipghrms-log-1.9.tar.gz --markdown 20230428/d/django-ipghrms-log/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-28 09:45:39] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/f3/3b/0db041e2ec9429515a7eec74668a7cf0432d6376148b2dc7920a3c6cf037/pyprocessors-openai_completion-0.5.58.tar.gz
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-28 09:45:39] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-28 09:45:39] INFO root fetch - processPackages [logicgate]: Downloading https://files.pythonhosted.org/packages/78/f9/5373647c4e7c10ac059b7b0e4180e35778f9783298ed1dbd7ba361cb29af/LogicGate-0.1.3.tar.gz
+[2023-04-28 09:45:39] INFO root fetch - processPackages [logicgate]: executing diffoscope
+[2023-04-28 09:45:39] INFO root fetch - processPackages [logicgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogicGate-0.1.2.tar.gz tmp/LogicGate-0.1.3.tar.gz --markdown 20230428/l/logicgate/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 09:45:39] INFO root fetch - processPackages [pyprocessors-openai_completion]: executing diffoscope
+[2023-04-28 09:45:39] INFO root fetch - processPackages [pyprocessors-openai_completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-openai_completion-0.5.58.tar.gz tmp/pyprocessors-openai_completion-0.5.9.tar.gz --markdown 20230428/p/pyprocessors-openai_completion/0.5.58-0.5.9/diff.md --exclude *.pyd
+[2023-04-28 09:45:39] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: Downloading https://files.pythonhosted.org/packages/35/e5/69c4ff19739a3469e6f759bc5e01eaf0491307feb3569229f90c62259204/alibabacloud_computenestsupplier20210521-1.1.2.tar.gz
+[2023-04-28 09:45:39] INFO root fetch - main [MainThread]: End processing [xchembku]: success
+[2023-04-28 09:45:39] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: Downloading https://files.pythonhosted.org/packages/e6/b4/7abd469ca87053dcc91c6dacc6b6bedb66dbed71e86ce2094bbc739834dd/alibabacloud_computenestsupplier20210521-1.2.0.tar.gz
+[2023-04-28 09:45:40] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: executing diffoscope
+[2023-04-28 09:45:40] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_computenestsupplier20210521-1.1.2.tar.gz tmp/alibabacloud_computenestsupplier20210521-1.2.0.tar.gz --markdown 20230428/a/alibabacloud-computenestsupplier20210521/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-28 09:45:40] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-04-28 09:45:40] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-04-28 09:45:40] INFO root fetch - main [MainThread]: End processing [pyTenable]: success
+[2023-04-28 09:45:40] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 09:45:40] INFO root fetch - main [MainThread]: End processing [logicgate]: success
+[2023-04-28 09:45:41] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
+[2023-04-28 09:45:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-computenestsupplier20210521]: success
+[2023-04-28 09:45:41] INFO root fetch - main [MainThread]: Store serial: [17895190]
