@@ -20854,3 +20854,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 20:40:19] INFO root fetch - main [MainThread]: End processing [together-worker]: success
 [2023-04-28 20:40:20] INFO root fetch - main [MainThread]: End processing [weconnect]: success
 [2023-04-28 20:40:20] INFO root fetch - main [MainThread]: Store serial: [17901847]
+[2023-04-28 20:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901847]
+[2023-04-28 20:45:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: control-rod
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python3-capsolver
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: searchcode
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iniUts
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-measure-process-lib
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podaac-data-subscriber
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oking
+[2023-04-28 20:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toolSSHtunnel
+[2023-04-28 20:45:29] INFO root fetch - processPackages [iniUts]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-28 20:45:29] INFO root fetch - processPackages [control-rod]: New version: [2022.4.28.1] Old Version: [2022.4.28.0]
+[2023-04-28 20:45:29] INFO root fetch - processPackages [python3-capsolver]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-04-28 20:45:29] INFO root fetch - processPackages [searchcode]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 20:45:29] WARNING root fetch - processPackages [toolSSHtunnel]: Skipping, unable to determine old version
+[2023-04-28 20:45:29] INFO root fetch - processPackages [test-measure-process-lib]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-28 20:45:29] INFO root fetch - main [MainThread]: End processing [toolSSHtunnel] error
+[2023-04-28 20:45:29] INFO root fetch - processPackages [podaac-data-subscriber]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-28 20:45:29] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-04-28 20:45:29] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-04-28 20:45:29] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-04-28 20:45:29] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-28 20:45:29] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/eb/d9/1e1a9f492765eb9a366dbf9f4b36dec1c22777cbb246cc049fc05ddec460/iniUts-1.0.7.tar.gz
+[2023-04-28 20:45:29] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/d1/a2/de9d67da90bac3c0c52c0154a86fd3ebe999365af030424bcfb8eb87270f/control_rod-2022.4.28.1.tar.gz
+[2023-04-28 20:45:29] INFO root fetch - processPackages [test-measure-process-lib]: Downloading https://files.pythonhosted.org/packages/5f/a6/bb9b9dbbcc0f5ac3e4be89b774c2245184b31c470924d0eabbd0f220591e/test_measure_process_lib-1.0.7.tar.gz
+[2023-04-28 20:45:29] INFO root fetch - processPackages [searchcode]: Downloading https://files.pythonhosted.org/packages/d3/e5/bc4642608da12eca89b08bcba09b644ab3781a665b8619be426a606bb639/searchcode-0.0.1.tar.gz
+[2023-04-28 20:45:29] INFO root fetch - processPackages [python3-capsolver]: Downloading https://files.pythonhosted.org/packages/1e/a4/1dd53c73d54a73d6bf2eccf9fb1be62f2bd2c70dde77dc73089ae53249fa/python3-capsolver-0.5.7.tar.gz
+[2023-04-28 20:45:29] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2023-04-28 20:45:29] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.0.6.tar.gz tmp/iniUts-1.0.7.tar.gz --markdown 20230428/i/iniUts/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-28 20:45:29] INFO root fetch - processPackages [python3-capsolver]: executing diffoscope
+[2023-04-28 20:45:29] INFO root fetch - processPackages [python3-capsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-capsolver-0.5.6.tar.gz tmp/python3-capsolver-0.5.7.tar.gz --markdown 20230428/p/python3-capsolver/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-04-28 20:45:29] INFO root fetch - processPackages [control-rod]: executing diffoscope
+[2023-04-28 20:45:29] INFO root fetch - processPackages [control-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_rod-2022.4.28.0.tar.gz tmp/control_rod-2022.4.28.1.tar.gz --markdown 20230428/c/control-rod/2022.4.28.0-2022.4.28.1/diff.md --exclude *.pyd
+[2023-04-28 20:45:29] INFO root fetch - processPackages [podaac-data-subscriber]: executing diffoscope
+[2023-04-28 20:45:29] INFO root fetch - processPackages [podaac-data-subscriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podaac-data-subscriber-1.9.0.tar.gz tmp/podaac-data-subscriber-1.9.1.tar.gz --markdown 20230428/p/podaac-data-subscriber/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-28 20:45:29] INFO root fetch - processPackages [searchcode]: Downloading https://files.pythonhosted.org/packages/5c/a5/cb6724d9e51c10ccc83bc5b2f9ff0f8fc74e2b9b947a75b52d1f260da981/searchcode-0.0.2.tar.gz
+[2023-04-28 20:45:29] INFO root fetch - processPackages [test-measure-process-lib]: Downloading https://files.pythonhosted.org/packages/aa/3b/3af3296f14e545f6c6d27edad23649dbc24c51abcd3f74c6138830f61268/test_measure_process_lib-1.0.8.tar.gz
+[2023-04-28 20:45:29] INFO root fetch - processPackages [searchcode]: executing diffoscope
+[2023-04-28 20:45:29] INFO root fetch - processPackages [searchcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchcode-0.0.1.tar.gz tmp/searchcode-0.0.2.tar.gz --markdown 20230428/s/searchcode/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 20:45:29] INFO root fetch - processPackages [test-measure-process-lib]: executing diffoscope
+[2023-04-28 20:45:29] INFO root fetch - processPackages [test-measure-process-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_measure_process_lib-1.0.7.tar.gz tmp/test_measure_process_lib-1.0.8.tar.gz --markdown 20230428/t/test-measure-process-lib/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-28 20:45:30] INFO root fetch - main [MainThread]: End processing [python3-capsolver]: success
+[2023-04-28 20:45:30] INFO root fetch - main [MainThread]: End processing [podaac-data-subscriber]: success
+[2023-04-28 20:45:31] INFO root fetch - main [MainThread]: End processing [control-rod]: success
+[2023-04-28 20:45:31] INFO root fetch - main [MainThread]: End processing [test-measure-process-lib]: success
+[2023-04-28 20:45:31] INFO root fetch - main [MainThread]: End processing [searchcode]: success
+[2023-04-28 20:45:36] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2023-04-28 20:45:36] INFO root fetch - main [MainThread]: Store serial: [17901881]
