@@ -6915,3 +6915,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 05:20:56] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
 [2023-04-28 05:22:00] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-28 05:22:00] INFO root fetch - main [MainThread]: Store serial: [17893577]
+[2023-04-28 05:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893577]
+[2023-04-28 05:27:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gqt
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-banking-mandate
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: femr
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: femr-cuda
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zys0428
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: best-sort
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pilotlight-tools
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stereopy
+[2023-04-28 05:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: circuitpython-simnple-dial
+[2023-04-28 05:27:11] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-04-28 05:27:11] INFO root fetch - processPackages [best-sort]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 05:27:11] INFO root fetch - processPackages [gqt]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-28 05:27:11] INFO root fetch - processPackages [femr]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 05:27:11] INFO root fetch - processPackages [pilotlight-tools]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-28 05:27:11] WARNING root fetch - processPackages [zys0428]: Skipping, unable to determine old version
+[2023-04-28 05:27:11] INFO root fetch - processPackages [femr-cuda]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 05:27:11] INFO root fetch - processPackages [stereopy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 05:27:11] INFO root fetch - main [MainThread]: End processing [zys0428] error
+[2023-04-28 05:27:11] INFO root fetch - processPackages [circuitpython-simnple-dial]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 05:27:11] INFO root fetch - processPackages [best-sort]: executing diffoscope
+[2023-04-28 05:27:11] INFO root fetch - processPackages [best-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/best-sort-0.0.8.tar.gz tmp/best-sort-0.0.9.tar.gz --markdown 20230428/b/best-sort/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:27:11] INFO root fetch - processPackages [pilotlight-tools]: Downloading https://files.pythonhosted.org/packages/47/4c/7efd2ef0ba4625c303930d10bced517b1e2482cad9d91422200de79a7721/pilotlight_tools-0.8.0.tar.gz
+[2023-04-28 05:27:12] INFO root fetch - processPackages [circuitpython-simnple-dial]: Downloading https://files.pythonhosted.org/packages/f1/54/df418cf9e67fddd6be94ff391efbd34c655d9fd79ed6eee257d151656662/circuitpython_simnple_dial-0.1.0.tar.gz
+[2023-04-28 05:27:12] INFO root fetch - processPackages [stereopy]: Downloading https://files.pythonhosted.org/packages/7b/de/1542748b1d34390dc25728d4380b4c6930792d307b36acb9639a85712470/stereopy-0.8.0.tar.gz
+[2023-04-28 05:27:12] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/9b/0c/d135578a36b2d090cb3795089f236eb60ba80dffab10d3150c53edd3aa53/odoo_addon_account_banking_mandate-16.0.1.0.0.9-py3-none-any.whl
+[2023-04-28 05:27:12] INFO root fetch - processPackages [femr-cuda]: Downloading https://files.pythonhosted.org/packages/ef/12/e6bc63956ca1d30bcce51206b48941bb3a05946ed081ae87fe693a56278c/femr_cuda-0.1.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 05:27:12] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/a2/e7/e8d3be01c35be4335bd19978792b9370ca0b3f8bb15e89a8c3b4a3e46803/femr-0.1.6.tar.gz
+[2023-04-28 05:27:12] WARNING root fetch - processPackages [stereopy]: Skipping package: exceeds size limit 72848612>=10485760
+[2023-04-28 05:27:12] INFO root fetch - main [MainThread]: End processing [stereopy] error
+[2023-04-28 05:27:12] INFO root fetch - processPackages [femr]: executing diffoscope
+[2023-04-28 05:27:12] INFO root fetch - processPackages [femr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr-0.1.5.tar.gz tmp/femr-0.1.6.tar.gz --markdown 20230428/f/femr/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 05:27:12] INFO root fetch - processPackages [gqt]: executing diffoscope
+[2023-04-28 05:27:12] INFO root fetch - processPackages [gqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqt-0.98.0.tar.gz tmp/gqt-0.99.0.tar.gz --markdown 20230428/g/gqt/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-28 05:27:12] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-04-28 05:27:12] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-account-banking-mandate/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:27:12] INFO root fetch - processPackages [pilotlight-tools]: Downloading https://files.pythonhosted.org/packages/a6/ca/4ba9a1b59256a07491321f75822fd62bfc23ac4b0dcfb575eda60cd84143/pilotlight_tools-0.8.1.tar.gz
+[2023-04-28 05:27:12] INFO root fetch - processPackages [femr-cuda]: executing diffoscope
+[2023-04-28 05:27:12] INFO root fetch - processPackages [femr-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr_cuda-0.1.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/femr_cuda-0.1.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/f/femr-cuda/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 05:27:12] INFO root fetch - processPackages [pilotlight-tools]: executing diffoscope
+[2023-04-28 05:27:12] INFO root fetch - processPackages [pilotlight-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilotlight_tools-0.8.0.tar.gz tmp/pilotlight_tools-0.8.1.tar.gz --markdown 20230428/p/pilotlight-tools/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-28 05:27:13] INFO root fetch - main [MainThread]: End processing [best-sort]: success
+[2023-04-28 05:27:13] INFO root fetch - main [MainThread]: End processing [gqt]: success
+[2023-04-28 05:27:13] INFO root fetch - main [MainThread]: End processing [pilotlight-tools]: success
+[2023-04-28 05:27:13] INFO root fetch - processPackages [circuitpython-simnple-dial]: Downloading https://files.pythonhosted.org/packages/10/54/d5bf3dda60ae86cae73fd1d98daa265a0f183380c18c1991eaeff39ae6fb/circuitpython_simnple_dial-0.2.0.tar.gz
+[2023-04-28 05:27:15] INFO root fetch - processPackages [circuitpython-simnple-dial]: executing diffoscope
+[2023-04-28 05:27:15] INFO root fetch - processPackages [circuitpython-simnple-dial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython_simnple_dial-0.1.0.tar.gz tmp/circuitpython_simnple_dial-0.2.0.tar.gz --markdown 20230428/c/circuitpython-simnple-dial/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 05:27:15] INFO root fetch - main [MainThread]: End processing [femr]: success
+[2023-04-28 05:27:17] INFO root fetch - main [MainThread]: End processing [circuitpython-simnple-dial]: success
+[2023-04-28 05:27:26] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
+[2023-04-28 05:27:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-04-28 05:27:32] INFO root fetch - main [MainThread]: Store serial: [17893623]
