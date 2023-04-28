@@ -22455,3 +22455,49 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 22:40:28] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
 [2023-04-28 22:42:01] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-04-28 22:42:01] INFO root fetch - main [MainThread]: Store serial: [17902761]
+[2023-04-28 22:47:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902761]
+[2023-04-28 22:47:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-nightly-cuda102
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findmyorder
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nocodb
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mexa
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: together-worker
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: async-openai
+[2023-04-28 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fpbinary
+[2023-04-28 22:47:11] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 22:47:11] INFO root fetch - processPackages [nocodb]: New version: [2.0.1] Old Version: [2.0.0a2]
+[2023-04-28 22:47:11] INFO root fetch - processPackages [async-openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 22:47:11] INFO root fetch - processPackages [together-worker]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-04-28 22:47:11] INFO root fetch - processPackages [mexa]: New version: [0.6] Old Version: [0.5]
+[2023-04-28 22:47:11] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-28 22:47:11] WARNING root fetch - processPackages [nvidia-dali-nightly-cuda102]: Skipping, unable to determine old version
+[2023-04-28 22:47:11] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda102] error
+[2023-04-28 22:47:11] INFO root fetch - processPackages [together-worker]: executing diffoscope
+[2023-04-28 22:47:11] INFO root fetch - processPackages [together-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together_worker-0.1.3.tar.gz tmp/together_worker-0.1.9.tar.gz --markdown 20230428/t/together-worker/0.1.3-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 22:47:11] INFO root fetch - processPackages [fpbinary]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-04-28 22:47:11] INFO root fetch - processPackages [mexa]: Downloading https://files.pythonhosted.org/packages/fc/7a/fc88b535e117804e5d07ce2ed4a8dfb091542903f5a002fa3661bfeecfb0/mexa-0.5.tar.gz
+[2023-04-28 22:47:11] INFO root fetch - processPackages [nocodb]: Downloading https://files.pythonhosted.org/packages/31/53/088ee8cf35ec4e1831ec6f0851b5ab2aa7ba58d4ade3d68b1aa8bdde5ce8/nocodb-2.0.1-py3.9.egg
+[2023-04-28 22:47:11] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-28 22:47:11] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230428/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 22:47:11] INFO root fetch - processPackages [fpbinary]: Downloading https://files.pythonhosted.org/packages/b8/6a/d86211d51f255c26ce639eb37aa2aa2a21aa52e8986721669700530f3c24/fpbinary-1.5.7.zip
+[2023-04-28 22:47:11] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-28 22:47:11] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230428/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-28 22:47:11] INFO root fetch - processPackages [nocodb]: executing diffoscope
+[2023-04-28 22:47:11] INFO root fetch - processPackages [nocodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nocodb-2.0.0a2-py3-none-any.whl.zip tmp/nocodb-2.0.1-py3.9.egg --markdown 20230428/n/nocodb/2.0.0a2-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 22:47:11] INFO root fetch - processPackages [async-openai]: executing diffoscope
+[2023-04-28 22:47:11] INFO root fetch - processPackages [async-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_openai-0.0.8.tar.gz tmp/async_openai-0.0.9.tar.gz --markdown 20230428/a/async-openai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 22:47:11] INFO root fetch - processPackages [mexa]: Downloading https://files.pythonhosted.org/packages/d5/26/3b36daae4248797f9e92c73dbbf25d73da8dcef46c38068647389b87b8df/mexa-0.6.tar.gz
+[2023-04-28 22:47:12] INFO root fetch - processPackages [mexa]: executing diffoscope
+[2023-04-28 22:47:12] INFO root fetch - processPackages [mexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mexa-0.5.tar.gz tmp/mexa-0.6.tar.gz --markdown 20230428/m/mexa/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-28 22:47:12] INFO root fetch - processPackages [fpbinary]: Downloading https://files.pythonhosted.org/packages/de/3c/466723f4d2a3236d42d9b1083608a5cdef24a6564b2774fabc33af7abd87/fpbinary-1.5.8-cp39-cp39-win32.whl
+[2023-04-28 22:47:12] INFO root fetch - processPackages [fpbinary]: executing diffoscope
+[2023-04-28 22:47:12] INFO root fetch - processPackages [fpbinary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpbinary-1.5.7.zip tmp/fpbinary-1.5.8-cp39-cp39-win32.whl.zip --markdown 20230428/f/fpbinary/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-04-28 22:47:12] INFO root fetch - main [MainThread]: End processing [together-worker]: success
+[2023-04-28 22:47:13] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-28 22:47:13] INFO root fetch - main [MainThread]: End processing [nocodb]: success
+[2023-04-28 22:47:13] INFO root fetch - main [MainThread]: End processing [async-openai]: success
+[2023-04-28 22:47:13] INFO root fetch - main [MainThread]: End processing [mexa]: success
+[2023-04-28 22:47:13] INFO root fetch - main [MainThread]: End processing [fpbinary]: success
+[2023-04-28 22:47:17] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-28 22:47:17] INFO root fetch - main [MainThread]: Store serial: [17902791]
