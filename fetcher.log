@@ -21079,3 +21079,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 20:56:02] INFO root fetch - main [MainThread]: End processing [rcsb.app.file]: success
 [2023-04-28 20:56:03] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-04-28 20:56:03] INFO root fetch - main [MainThread]: Store serial: [17901976]
+[2023-04-28 21:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901976]
+[2023-04-28 21:01:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xoa-driver
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: control-rod
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chgksuite
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CharacterAPI
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultracart-rest-sdk
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perspective-parquet
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: actoolkit
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imfp
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyjls
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyjoulescope-driver
+[2023-04-28 21:01:12] INFO root fetch - processPackages [control-rod]: New version: [2023.4.28.2] Old Version: [2022.4.28.1]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [actoolkit]: New version: [2.6.3b2] Old Version: [2.6.3]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [xoa-driver]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [CharacterAPI]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [perspective-parquet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [pyjoulescope-driver]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [imfp]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [pyjls]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-28 21:01:12] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/a3/d9/add0e973be18b2d58a7c452fa638e00fbc82ac6f1059b772265c1d85b94e/actoolkit-2.6.3-py3-none-any.whl
+[2023-04-28 21:01:12] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/c5/b7/7fecd8c92cb63c536cc18f999b9621fce2a2a4052d6c037dc6558ee8dce1/xoa-driver-1.3.2.tar.gz
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-28 21:01:12] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230428/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [pyjoulescope-driver]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [pyjls]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [pyjoulescope-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjoulescope_driver-1.3.5.tar.gz tmp/pyjoulescope_driver-1.3.6.tar.gz --markdown 20230428/p/pyjoulescope-driver/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [pyjls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjls-0.6.0.tar.gz tmp/pyjls-0.6.1.tar.gz --markdown 20230428/p/pyjls/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/5c/03/7796e117be13724c6edc6b44b34735ef55b67e1c3a148bb77c62deaa14d5/control_rod-2023.4.28.2.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/08/2b/0f75e642fcf6761c9237515450091e8f2eada4286e45f82cc52053558c7b/chgksuite-0.9.0.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [CharacterAPI]: Downloading https://files.pythonhosted.org/packages/cd/59/59b38af98d036449c8850f70821a13a17b33e43c67b793c488c6e58350a6/CharacterAPI-0.1.3.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [control-rod]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [control-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_rod-2022.4.28.1.tar.gz tmp/control_rod-2023.4.28.2.tar.gz --markdown 20230428/c/control-rod/2022.4.28.1-2023.4.28.2/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [imfp]: Downloading https://files.pythonhosted.org/packages/7b/ce/a467244e95f9765d7ff99951469b212a94daf9fb8923b43cf933e761a356/imfp-1.0.7.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [perspective-parquet]: Downloading https://files.pythonhosted.org/packages/33/cc/15e80a5c34d42136fbd476ccf4adc8e3ced713053a192f71689535694a55/perspective_parquet-0.1.0.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [CharacterAPI]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [CharacterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CharacterAPI-0.1.1.tar.gz tmp/CharacterAPI-0.1.3.tar.gz --markdown 20230428/C/CharacterAPI/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [imfp]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [imfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imfp-1.0.6.tar.gz tmp/imfp-1.0.7.tar.gz --markdown 20230428/i/imfp/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/7a/4f/80faa7f3ab24f1196941953ec3512d59862123a60e466182fac706f28c11/xoa-driver-1.3.3.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [actoolkit]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [actoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actoolkit-2.6.3-py3-none-any.whl.zip tmp/actoolkit-2.6.3b2-py3-none-any.whl.zip --markdown 20230428/a/actoolkit/2.6.3-2.6.3b2/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/cd/f6/800bb5f46eb8b4639b4c81f8c7ad31a582abdb353fd822359c239ec699fd/chgksuite-0.9.1.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [xoa-driver]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [xoa-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-driver-1.3.2.tar.gz tmp/xoa-driver-1.3.3.tar.gz --markdown 20230428/x/xoa-driver/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20230428/c/chgksuite/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 21:01:13] INFO root fetch - processPackages [perspective-parquet]: Downloading https://files.pythonhosted.org/packages/7b/83/5c81fbf581663acd79ea0c6e09230306faed9ad585c766e499399e20fd9b/perspective_parquet-0.1.1.tar.gz
+[2023-04-28 21:01:13] INFO root fetch - processPackages [perspective-parquet]: executing diffoscope
+[2023-04-28 21:01:13] INFO root fetch - processPackages [perspective-parquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perspective_parquet-0.1.0.tar.gz tmp/perspective_parquet-0.1.1.tar.gz --markdown 20230428/p/perspective-parquet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 21:01:14] INFO root fetch - main [MainThread]: End processing [CharacterAPI]: success
+[2023-04-28 21:01:15] INFO root fetch - main [MainThread]: End processing [imfp]: success
+[2023-04-28 21:01:15] INFO root fetch - main [MainThread]: End processing [pyjls]: success
+[2023-04-28 21:01:15] INFO root fetch - main [MainThread]: End processing [actoolkit]: success
+[2023-04-28 21:01:15] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2023-04-28 21:01:15] INFO root fetch - main [MainThread]: End processing [control-rod]: success
+[2023-04-28 21:01:17] INFO root fetch - main [MainThread]: End processing [perspective-parquet]: success
+[2023-04-28 21:01:18] INFO root fetch - main [MainThread]: End processing [pyjoulescope-driver]: success
+[2023-04-28 21:01:18] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
+[2023-04-28 21:01:22] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-28 21:01:22] INFO root fetch - main [MainThread]: Store serial: [17902014]
