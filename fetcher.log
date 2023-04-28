@@ -20902,3 +20902,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 20:45:31] INFO root fetch - main [MainThread]: End processing [searchcode]: success
 [2023-04-28 20:45:36] INFO root fetch - main [MainThread]: End processing [iniUts]: success
 [2023-04-28 20:45:36] INFO root fetch - main [MainThread]: Store serial: [17901881]
+[2023-04-28 20:50:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901881]
+[2023-04-28 20:50:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: estimenergy
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calixa-proto-py
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-graphbox
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anova-wifi
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edx-enterprise-subsidy-client
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mrdoxmrgt
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SSHtunnelTool
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lasso-python
+[2023-04-28 20:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frankAllSkyCam
+[2023-04-28 20:50:45] INFO root fetch - processPackages [estimenergy]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [django-graphbox]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [mrdoxmrgt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [lasso-python]: New version: [2.0.1] Old Version: [2.0.0rc1]
+[2023-04-28 20:50:45] WARNING root fetch - processPackages [SSHtunnelTool]: Skipping, unable to determine old version
+[2023-04-28 20:50:45] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [SSHtunnelTool]: Start processing: searchcode
+[2023-04-28 20:50:45] WARNING root fetch - processPackages [frankAllSkyCam]: Skipping, unable to determine old version
+[2023-04-28 20:50:45] INFO root fetch - processPackages [frankAllSkyCam]: Start processing: cbmc.py
+[2023-04-28 20:50:45] INFO root fetch - main [MainThread]: End processing [SSHtunnelTool] error
+[2023-04-28 20:50:45] INFO root fetch - processPackages [calixa-proto-py]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-28 20:50:45] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam] error
+[2023-04-28 20:50:45] INFO root fetch - processPackages [anova-wifi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [searchcode]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [cbmc.py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 20:50:45] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 20:50:45] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 20:50:45] INFO root fetch - processPackages [mrdoxmrgt]: Downloading https://files.pythonhosted.org/packages/a9/e1/b0c74dd0c6026da8b6f466e6f815dd45d3aae72c44b478039c018d096177/mrdoxmrgt-0.0.8.tar.gz
+[2023-04-28 20:50:45] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Downloading https://files.pythonhosted.org/packages/94/2d/2f1d26c5bd7533f9dccb7a1044a009b4552c45f71d4e00d1946524b235bd/edx-enterprise-subsidy-client-0.2.6.tar.gz
+[2023-04-28 20:50:45] INFO root fetch - processPackages [lasso-python]: Downloading https://files.pythonhosted.org/packages/11/91/d7d1c2b158ae4145308ee7f171ff8a1b32859d0b6de63f62373b0817807a/lasso_python-2.0.0rc1.tar.gz
+[2023-04-28 20:50:45] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/a2/1b/cc9cb79b68ebf5863a737184e4e4d1a648f66484748cc723b130933f8997/estimenergy-2.0.6.tar.gz
+[2023-04-28 20:50:45] INFO root fetch - processPackages [django-graphbox]: Downloading https://files.pythonhosted.org/packages/ef/e1/efcd166d31a7c54f11ec6aa746d267f3f67493059edc1c2f26565bee9376/django_graphbox-1.2.1.tar.gz
+[2023-04-28 20:50:45] INFO root fetch - processPackages [anova-wifi]: Downloading https://files.pythonhosted.org/packages/95/67/687d5c30c18fe48385dbdc6c9b7e014b1ec91f13aac162bc2887b727848f/anova_wifi-0.8.0.tar.gz
+[2023-04-28 20:50:45] INFO root fetch - processPackages [calixa-proto-py]: Downloading https://files.pythonhosted.org/packages/27/dc/1cf17f2821980cbec5b9227d53697bc45bd153a9b5546f2da3895414859f/calixa-proto-py-2.0.8.tar.gz
+[2023-04-28 20:50:45] INFO root fetch - processPackages [searchcode]: Downloading https://files.pythonhosted.org/packages/3d/20/5e50fbd58d4209d3ad29fef5aab0e32ca74a0addc3e6269d9739a04b86c3/searchcode-0.0.3.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-2.0.5.tar.gz tmp/estimenergy-2.0.6.tar.gz --markdown 20230428/e/estimenergy/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-04-28 20:50:46] INFO root fetch - processPackages [searchcode]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [searchcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchcode-0.0.2.tar.gz tmp/searchcode-0.0.3.tar.gz --markdown 20230428/s/searchcode/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 20:50:46] INFO root fetch - processPackages [cbmc.py]: Downloading https://files.pythonhosted.org/packages/3e/08/40c648ea783db37be88a4ac2bbb4769e29101f665b3f9b67a001cf5c3e03/cbmc.py-0.0.4.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Downloading https://files.pythonhosted.org/packages/ad/97/0f35523cb51ff15e98fec3d67df8cd14c24ecbde0ee8f3970cfd1225250b/edx-enterprise-subsidy-client-0.3.0.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [mrdoxmrgt]: Downloading https://files.pythonhosted.org/packages/cb/f7/2a0c7e077d361e028f7d0b7673e76eb47ec3f99b6e0185f3fc12367e7414/mrdoxmrgt-0.0.9.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [anova-wifi]: Downloading https://files.pythonhosted.org/packages/b4/ac/13d1ee9694792e5db2eb1972dc726e3ce77c1dbd032d8b5e887b95a73b39/anova_wifi-0.9.0.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [django-graphbox]: Downloading https://files.pythonhosted.org/packages/92/53/7d2f27457e2619c24e730ec812df67de6e2d15aa5647b77fe99a2cd73046/django_graphbox-1.2.2.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [cbmc.py]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [cbmc.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbmc.py-0.0.3.tar.gz tmp/cbmc.py-0.0.4.tar.gz --markdown 20230428/c/cbmc.py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 20:50:46] INFO root fetch - processPackages [mrdoxmrgt]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [mrdoxmrgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrdoxmrgt-0.0.8.tar.gz tmp/mrdoxmrgt-0.0.9.tar.gz --markdown 20230428/m/mrdoxmrgt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 20:50:46] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-subsidy-client-0.2.6.tar.gz tmp/edx-enterprise-subsidy-client-0.3.0.tar.gz --markdown 20230428/e/edx-enterprise-subsidy-client/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 20:50:46] INFO root fetch - processPackages [anova-wifi]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [anova-wifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anova_wifi-0.8.0.tar.gz tmp/anova_wifi-0.9.0.tar.gz --markdown 20230428/a/anova-wifi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 20:50:46] INFO root fetch - processPackages [django-graphbox]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [django-graphbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_graphbox-1.2.1.tar.gz tmp/django_graphbox-1.2.2.tar.gz --markdown 20230428/d/django-graphbox/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-28 20:50:46] WARNING root fetch - processPackages [lasso-python]: Skipping package: exceeds size limit 24555257>=10485760
+[2023-04-28 20:50:46] INFO root fetch - processPackages [lasso-python]: Start processing: rapidtide
+[2023-04-28 20:50:46] INFO root fetch - main [MainThread]: End processing [lasso-python] error
+[2023-04-28 20:50:46] INFO root fetch - processPackages [rapidtide]: New version: [2.5.1] Old Version: [2.5]
+[2023-04-28 20:50:46] INFO root fetch - processPackages [calixa-proto-py]: Downloading https://files.pythonhosted.org/packages/01/30/86465543b3806024012227bd625eeaee344a1d145c297042b83becfd8a64/calixa-proto-py-2.0.9.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [rapidtide]: Downloading https://files.pythonhosted.org/packages/53/8a/0990c2897b3a9babf46aba568aeff933d2552bfeb445adf3c9e520fb38b3/rapidtide-2.5.tar.gz
+[2023-04-28 20:50:46] WARNING root fetch - processPackages [rapidtide]: Skipping package: exceeds size limit 10760331>=10485760
+[2023-04-28 20:50:46] INFO root fetch - processPackages [rapidtide]: Start processing: lusid-notifications-sdk-preview
+[2023-04-28 20:50:46] INFO root fetch - main [MainThread]: End processing [rapidtide] error
+[2023-04-28 20:50:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.657] Old Version: [0.1.655]
+[2023-04-28 20:50:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/95/7f/8306eceb181579f9bec08035093eb4a27b941d16be224002478205a22eb4/lusid-notifications-sdk-preview-0.1.657.tar.gz
+[2023-04-28 20:50:46] INFO root fetch - processPackages [calixa-proto-py]: executing diffoscope
+[2023-04-28 20:50:46] INFO root fetch - processPackages [calixa-proto-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calixa-proto-py-2.0.8.tar.gz tmp/calixa-proto-py-2.0.9.tar.gz --markdown 20230428/c/calixa-proto-py/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-28 20:50:47] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-04-28 20:50:47] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.655.tar.gz tmp/lusid-notifications-sdk-preview-0.1.657.tar.gz --markdown 20230428/l/lusid-notifications-sdk-preview/0.1.655-0.1.657/diff.md --exclude *.pyd
+[2023-04-28 20:50:47] INFO root fetch - processPackages [few-shot-priming]: Start processing: pydantic-chatcompletion
+[2023-04-28 20:50:47] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 20:50:47] INFO root fetch - processPackages [pydantic-chatcompletion]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 20:50:47] INFO root fetch - processPackages [searchcode]: Start processing: whisper-voice-commands
+[2023-04-28 20:50:47] INFO root fetch - main [MainThread]: End processing [searchcode]: success
+[2023-04-28 20:50:47] INFO root fetch - processPackages [pydantic-chatcompletion]: Downloading https://files.pythonhosted.org/packages/63/64/df510eaa19f603ad4666c307104049fc8a354240a1c699a45a0aad9dbe1c/pydantic_chatcompletion-0.0.1.tar.gz
+[2023-04-28 20:50:47] INFO root fetch - processPackages [whisper-voice-commands]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 20:50:47] INFO root fetch - processPackages [whisper-voice-commands]: Downloading https://files.pythonhosted.org/packages/70/aa/12f48d7bda8a5050269da2bfce7ccb29e953eec20eb93fe56b847deaae87/whisper_voice_commands-0.0.5.tar.gz
+[2023-04-28 20:50:47] INFO root fetch - processPackages [pydantic-chatcompletion]: Downloading https://files.pythonhosted.org/packages/ad/a7/e35f90e542ff4071382ec664fb05b93e8adb9a0dba0a1b43d123110671a9/pydantic_chatcompletion-0.0.2.tar.gz
+[2023-04-28 20:50:47] INFO root fetch - processPackages [estimenergy]: Start processing: pyxecm
+[2023-04-28 20:50:47] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-28 20:50:47] INFO root fetch - processPackages [pyxecm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 20:50:47] INFO root fetch - main [MainThread]: End processing [mrdoxmrgt]: success
+[2023-04-28 20:50:47] INFO root fetch - processPackages [pydantic-chatcompletion]: executing diffoscope
+[2023-04-28 20:50:47] INFO root fetch - processPackages [pydantic-chatcompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_chatcompletion-0.0.1.tar.gz tmp/pydantic_chatcompletion-0.0.2.tar.gz --markdown 20230428/p/pydantic-chatcompletion/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 20:50:47] INFO root fetch - processPackages [whisper-voice-commands]: executing diffoscope
+[2023-04-28 20:50:47] INFO root fetch - processPackages [whisper-voice-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_voice_commands-0.0.4.tar.gz tmp/whisper_voice_commands-0.0.5.tar.gz --markdown 20230428/w/whisper-voice-commands/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 20:50:48] INFO root fetch - processPackages [pyxecm]: Downloading https://files.pythonhosted.org/packages/34/6f/9958f83dda96fa68e3011065f76d47f4e0ec924b02462be2397c9081664a/pyxecm-0.0.8.tar.gz
+[2023-04-28 20:50:48] INFO root fetch - main [MainThread]: End processing [django-graphbox]: success
+[2023-04-28 20:50:48] INFO root fetch - main [MainThread]: End processing [cbmc.py]: success
+[2023-04-28 20:50:48] INFO root fetch - main [MainThread]: End processing [anova-wifi]: success
+[2023-04-28 20:50:48] INFO root fetch - processPackages [pyxecm]: Downloading https://files.pythonhosted.org/packages/db/ab/72acdbab614048486d2060f15a76fa19899dfba58f16fab7a1c556969171/pyxecm-0.0.9.tar.gz
+[2023-04-28 20:50:48] INFO root fetch - main [MainThread]: End processing [edx-enterprise-subsidy-client]: success
+[2023-04-28 20:50:48] INFO root fetch - processPackages [pyxecm]: executing diffoscope
+[2023-04-28 20:50:48] INFO root fetch - processPackages [pyxecm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxecm-0.0.8.tar.gz tmp/pyxecm-0.0.9.tar.gz --markdown 20230428/p/pyxecm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 20:50:49] INFO root fetch - main [MainThread]: End processing [pydantic-chatcompletion]: success
+[2023-04-28 20:50:49] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-04-28 20:50:49] INFO root fetch - main [MainThread]: End processing [whisper-voice-commands]: success
+[2023-04-28 20:50:49] INFO root fetch - main [MainThread]: End processing [pyxecm]: success
+[2023-04-28 20:50:49] INFO root fetch - main [MainThread]: End processing [calixa-proto-py]: success
+[2023-04-28 20:50:49] INFO root fetch - main [MainThread]: Store serial: [17901936]
