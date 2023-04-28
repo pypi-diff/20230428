@@ -7134,3 +7134,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 05:48:22] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
 [2023-04-28 05:48:23] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2023-04-28 05:48:23] INFO root fetch - main [MainThread]: Store serial: [17893756]
+[2023-04-28 05:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893756]
+[2023-04-28 05:53:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langsa-system
+[2023-04-28 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb
+[2023-04-28 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkdata
+[2023-04-28 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: techbureau-symbol-sdk-python
+[2023-04-28 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimikit
+[2023-04-28 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audioprocessor
+[2023-04-28 05:53:33] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: New version: [3.0.7.dev1] Old Version: [3.0.3.dev3]
+[2023-04-28 05:53:33] WARNING root fetch - processPackages [audioprocessor]: Skipping, unable to determine old version
+[2023-04-28 05:53:33] WARNING root fetch - processPackages [langsa-system]: Skipping, unable to determine old version
+[2023-04-28 05:53:33] INFO root fetch - main [MainThread]: End processing [audioprocessor] error
+[2023-04-28 05:53:33] INFO root fetch - main [MainThread]: End processing [langsa-system] error
+[2023-04-28 05:53:33] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 05:53:33] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-04-28 05:53:33] INFO root fetch - processPackages [mimikit]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-28 05:53:33] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 05:53:33] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:53:33] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-04-28 05:53:33] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230428/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-04-28 05:53:33] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/eb/ae/5806c258aa0f03a5faac29da7c50d4a32de813493991b01e85309ee2dbb1/techbureau-symbol-sdk-python-3.0.3.dev3.tar.gz
+[2023-04-28 05:53:33] INFO root fetch - processPackages [mimikit]: Downloading https://files.pythonhosted.org/packages/aa/c2/bbce14589cc2bb4fba8a58df92639d4692cef8210900fc3f180c7c27d69d/mimikit-0.4.3-py3-none-any.whl
+[2023-04-28 05:53:33] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/af/b1/73911473605adcf02afc14936245f49adde8bfc1175c20e0456893cca2af/techbureau-symbol-sdk-python-3.0.7.dev1.tar.gz
+[2023-04-28 05:53:33] INFO root fetch - processPackages [mimikit]: executing diffoscope
+[2023-04-28 05:53:33] INFO root fetch - processPackages [mimikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimikit-0.4.2-py3-none-any.whl.zip tmp/mimikit-0.4.3-py3-none-any.whl.zip --markdown 20230428/m/mimikit/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-28 05:53:33] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: executing diffoscope
+[2023-04-28 05:53:33] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techbureau-symbol-sdk-python-3.0.3.dev3.tar.gz tmp/techbureau-symbol-sdk-python-3.0.7.dev1.tar.gz --markdown 20230428/t/techbureau-symbol-sdk-python/3.0.3.dev3-3.0.7.dev1/diff.md --exclude *.pyd
+[2023-04-28 05:53:34] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 05:53:34] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-04-28 05:53:35] INFO root fetch - main [MainThread]: End processing [techbureau-symbol-sdk-python]: success
+[2023-04-28 05:53:35] INFO root fetch - main [MainThread]: End processing [mimikit]: success
+[2023-04-28 05:53:35] INFO root fetch - main [MainThread]: Store serial: [17893773]
