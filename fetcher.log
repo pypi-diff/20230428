@@ -2278,3 +2278,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
 [2023-04-28 03:11:55] INFO root fetch - main [MainThread]: End processing [bytez]: success
 [2023-04-28 03:11:55] INFO root fetch - main [MainThread]: Store serial: [17890993]
+[2023-04-28 03:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890993]
+[2023-04-28 03:17:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 03:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2023-04-28 03:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-04-28 03:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bytez
+[2023-04-28 03:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-subminute
+[2023-04-28 03:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firestoned
+[2023-04-28 03:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bytez
+[2023-04-28 03:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpc-obscodes
+[2023-04-28 03:17:03] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 03:17:03] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 03:17:03] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 03:17:04] INFO root fetch - processPackages [alacorder]: New version: [79.8.9] Old Version: [79.8.8]
+[2023-04-28 03:17:04] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-28 03:17:04] INFO root fetch - processPackages [firestoned]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-28 03:17:04] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.4.28] Old Version: [2023.4.27]
+[2023-04-28 03:17:04] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-04-28 03:17:04] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230428/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-28 03:17:04] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-04-28 03:17:04] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230428/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:17:04] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/17/3a/0c0f9419d7459b7ce72bf5af712d8a04d79da99e042268b03f5e13146160/alacorder-79.8.8.tar.gz
+[2023-04-28 03:17:04] INFO root fetch - processPackages [firestoned]: Downloading https://files.pythonhosted.org/packages/d6/a7/a6601e4f99d112b0739d0bdd7b0567234f05e2d44f6c32b03019b2061843/firestoned-0.2.7.tar.gz
+[2023-04-28 03:17:04] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:17:04] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230428/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 03:17:04] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-28 03:17:04] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230428/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 03:17:04] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/f9/a5/d01695a776ac665627fbb4a42d60675cdc3541c4ccc182d001cd1ad59fd2/alacorder-79.8.9.tar.gz
+[2023-04-28 03:17:04] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-28 03:17:04] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.8.8.tar.gz tmp/alacorder-79.8.9.tar.gz --markdown 20230428/a/alacorder/79.8.8-79.8.9/diff.md --exclude *.pyd
+[2023-04-28 03:17:04] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/ff/8a/1f799f85e39e6f812015dfef6e4b53c9cd4eeb399c988fcd9cab6757a6fb/mpc_obscodes-2023.4.28.tar.gz
+[2023-04-28 03:17:04] INFO root fetch - processPackages [firestoned]: executing diffoscope
+[2023-04-28 03:17:04] INFO root fetch - processPackages [firestoned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestoned-0.2.6.tar.gz tmp/firestoned-0.2.7.tar.gz --markdown 20230428/f/firestoned/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-28 03:17:04] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-04-28 03:17:04] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.4.27.tar.gz tmp/mpc_obscodes-2023.4.28.tar.gz --markdown 20230428/m/mpc-obscodes/2023.4.27-2023.4.28/diff.md --exclude *.pyd
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: End processing [firestoned]: success
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-04-28 03:17:05] INFO root fetch - main [MainThread]: Store serial: [17891015]
