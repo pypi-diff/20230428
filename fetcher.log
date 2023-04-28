@@ -18840,3 +18840,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:18:41] INFO root fetch - main [MainThread]: End processing [h2o-client]: success
 [2023-04-28 18:18:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-28 18:18:44] INFO root fetch - main [MainThread]: Store serial: [17900521]
+[2023-04-28 18:23:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900521]
+[2023-04-28 18:23:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picopins
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trawler-on-lake
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PTArcade
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora-runner-firebase-prolific
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dockerode-api-proxy-client
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyaon
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: efficiency
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyflow-workflow-generator
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: h2o-client
+[2023-04-28 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rigatoni
+[2023-04-28 18:23:54] INFO root fetch - processPackages [dockerode-api-proxy-client]: New version: [5.0.0] Old Version: [4.0.0]
+[2023-04-28 18:23:54] WARNING root fetch - processPackages [autora-runner-firebase-prolific]: Skipping, unable to determine old version
+[2023-04-28 18:23:54] INFO root fetch - processPackages [autora-runner-firebase-prolific]: Start processing: lusid-notifications-sdk-preview
+[2023-04-28 18:23:54] INFO root fetch - main [MainThread]: End processing [autora-runner-firebase-prolific] error
+[2023-04-28 18:23:54] WARNING root fetch - processPackages [picopins]: Skipping, unable to determine old version
+[2023-04-28 18:23:54] INFO root fetch - processPackages [picopins]: Start processing: pyfed
+[2023-04-28 18:23:54] INFO root fetch - main [MainThread]: End processing [picopins] error
+[2023-04-28 18:23:54] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyaon]: New version: [1.1.2] Old Version: [1.0.9]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [h2o-client]: New version: [3.40.0.4] Old Version: [3.40.0.3]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyflow-workflow-generator]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [efficiency]: New version: [1.2.1] Old Version: [1.2]
+[2023-04-28 18:23:54] WARNING root fetch - processPackages [PTArcade]: Skipping, unable to determine old version
+[2023-04-28 18:23:54] INFO root fetch - processPackages [rigatoni]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [PTArcade]: Start processing: finbourne-access-sdk
+[2023-04-28 18:23:54] INFO root fetch - main [MainThread]: End processing [PTArcade] error
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.655] Old Version: [0.1.654]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyaon]: Downloading https://files.pythonhosted.org/packages/b5/bf/2e254dbe228eec505b121f9e02b7512c4dc089da94ff036e7f2a64f4555f/pyaon-1.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 18:23:54] INFO root fetch - processPackages [rigatoni]: Downloading https://files.pythonhosted.org/packages/8e/10/44aac7566a1f6ef9519202c62866a402849b4ab81e9edf23b66390a4e421/rigatoni-0.1.8.tar.gz
+[2023-04-28 18:23:54] INFO root fetch - processPackages [trawler-on-lake]: Downloading https://files.pythonhosted.org/packages/b5/e1/e62c1fd132cb2ef972418600d65f717d16eadd8ab37e2137fb993c834da1/trawler-on-lake-1.0.8.tar.gz
+[2023-04-28 18:23:54] INFO root fetch - processPackages [dockerode-api-proxy-client]: Downloading https://files.pythonhosted.org/packages/2c/a6/1f6b9de0a1ee2745f46a7e2c680d1ae8170c857e1cc5755dae1a35f8b4c1/dockerode_api_proxy_client-5.0.0.tar.gz
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyflow-workflow-generator]: Downloading https://files.pythonhosted.org/packages/b2/94/2403b3f219bed6c436f536d7ef4898a011dfd0cf75b52813c169d9d5baf9/pyflow-workflow-generator-3.1.5.tar.gz
+[2023-04-28 18:23:54] INFO root fetch - processPackages [efficiency]: Downloading https://files.pythonhosted.org/packages/cf/9d/ceec3bcb7eefd428779d772ca388317adbca0c23e83346c90de85422e0a5/efficiency-1.2.tar.gz
+[2023-04-28 18:23:54] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-04-28 18:23:54] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230428/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-04-28 18:23:54] INFO root fetch - processPackages [h2o-client]: Downloading https://files.pythonhosted.org/packages/2f/0f/0117d87c5716ceebae9b992174e81c3fba2d7ca70dfb8b06075fcc2c0d24/h2o_client-3.40.0.4-py2.py3-none-any.whl
+[2023-04-28 18:23:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a1/01/20a2fc5f9f5c0e5e79735002e931ab572396325cff06a3b3e77b65ec7402/lusid-notifications-sdk-preview-0.1.655.tar.gz
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyflow-workflow-generator]: executing diffoscope
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyflow-workflow-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflow-workflow-generator-3.1.4.tar.gz tmp/pyflow-workflow-generator-3.1.5.tar.gz --markdown 20230428/p/pyflow-workflow-generator/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-04-28 18:23:54] INFO root fetch - processPackages [dockerode-api-proxy-client]: executing diffoscope
+[2023-04-28 18:23:54] INFO root fetch - processPackages [dockerode-api-proxy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockerode_api_proxy_client-4.0.0.tar.gz tmp/dockerode_api_proxy_client-5.0.0.tar.gz --markdown 20230428/d/dockerode-api-proxy-client/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2023-04-28 18:23:54] INFO root fetch - processPackages [h2o-client]: executing diffoscope
+[2023-04-28 18:23:54] INFO root fetch - processPackages [h2o-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_client-3.40.0.3-py2.py3-none-any.whl.zip tmp/h2o_client-3.40.0.4-py2.py3-none-any.whl.zip --markdown 20230428/h/h2o-client/3.40.0.3-3.40.0.4/diff.md --exclude *.pyd
+[2023-04-28 18:23:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-04-28 18:23:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.654.tar.gz tmp/lusid-notifications-sdk-preview-0.1.655.tar.gz --markdown 20230428/l/lusid-notifications-sdk-preview/0.1.654-0.1.655/diff.md --exclude *.pyd
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230428/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyaon]: Downloading https://files.pythonhosted.org/packages/c8/d7/8618110f199d9448ad14395aaabeef0cfee1b860abe70d73c526ff6d0967/pyaon-1.1.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyaon]: executing diffoscope
+[2023-04-28 18:23:54] INFO root fetch - processPackages [pyaon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaon-1.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyaon-1.1.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/p/pyaon/1.0.9-1.1.2/diff.md --exclude *.pyd
+[2023-04-28 18:23:54] INFO root fetch - processPackages [trawler-on-lake]: Downloading https://files.pythonhosted.org/packages/3a/a5/c4e54f361b70bb47f06258494e235e811b1b57ecadef6266bda0da8711a6/trawler-on-lake-1.0.9.tar.gz
+[2023-04-28 18:23:55] INFO root fetch - processPackages [rigatoni]: Downloading https://files.pythonhosted.org/packages/14/9e/9771b6d857652901e235414a4af2572e2b2bd653e06a7e67ffdd24620beb/rigatoni-0.1.9.tar.gz
+[2023-04-28 18:23:55] INFO root fetch - processPackages [efficiency]: Downloading https://files.pythonhosted.org/packages/b8/ef/0a8fc466d8076104a2d83ff81b79ddac4a3ebcc1122e70de6c06df9da2e6/efficiency-1.2.1.tar.gz
+[2023-04-28 18:23:55] INFO root fetch - processPackages [efficiency]: executing diffoscope
+[2023-04-28 18:23:55] INFO root fetch - processPackages [efficiency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efficiency-1.2.tar.gz tmp/efficiency-1.2.1.tar.gz --markdown 20230428/e/efficiency/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-04-28 18:23:55] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-04-28 18:23:55] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230428/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 18:23:55] INFO root fetch - processPackages [rigatoni]: executing diffoscope
+[2023-04-28 18:23:55] INFO root fetch - processPackages [rigatoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigatoni-0.1.8.tar.gz tmp/rigatoni-0.1.9.tar.gz --markdown 20230428/r/rigatoni/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 18:23:56] INFO root fetch - main [MainThread]: End processing [dockerode-api-proxy-client]: success
+[2023-04-28 18:23:56] INFO root fetch - main [MainThread]: End processing [pyflow-workflow-generator]: success
+[2023-04-28 18:23:56] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-04-28 18:23:56] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-04-28 18:23:57] INFO root fetch - main [MainThread]: End processing [efficiency]: success
+[2023-04-28 18:23:57] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-04-28 18:23:57] INFO root fetch - main [MainThread]: End processing [h2o-client]: success
+[2023-04-28 18:23:57] INFO root fetch - main [MainThread]: End processing [pyaon]: success
+[2023-04-28 18:23:59] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-04-28 18:24:06] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
+[2023-04-28 18:24:06] INFO root fetch - main [MainThread]: Store serial: [17900577]
