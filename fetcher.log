@@ -13310,3 +13310,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:11:37] INFO root fetch - main [MainThread]: End processing [aws-data-mesh-utils]: success
 [2023-04-28 13:11:38] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
 [2023-04-28 13:11:38] INFO root fetch - main [MainThread]: Store serial: [17897123]
+[2023-04-28 13:16:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897123]
+[2023-04-28 13:16:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-28 13:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proteus-preprocessing
+[2023-04-28 13:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locid
+[2023-04-28 13:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refractio
+[2023-04-28 13:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyEquities
+[2023-04-28 13:16:47] INFO root fetch - processPackages [locid]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 13:16:47] INFO root fetch - processPackages [proteus-preprocessing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 13:16:47] INFO root fetch - processPackages [refractio]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 13:16:47] INFO root fetch - processPackages [locid]: executing diffoscope
+[2023-04-28 13:16:47] INFO root fetch - processPackages [locid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locid-0.0.7.tar.gz tmp/locid-0.0.8.tar.gz --markdown 20230428/l/locid/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 13:16:47] INFO root fetch - processPackages [EasyEquities]: New version: [1.2.1] Old Version: [1.0.2]
+[2023-04-28 13:16:47] INFO root fetch - processPackages [refractio]: executing diffoscope
+[2023-04-28 13:16:47] INFO root fetch - processPackages [refractio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refractio-1.0.0.tar.gz tmp/refractio-1.0.1.tar.gz --markdown 20230428/r/refractio/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 13:16:47] INFO root fetch - processPackages [proteus-preprocessing]: executing diffoscope
+[2023-04-28 13:16:47] INFO root fetch - processPackages [proteus-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_preprocessing-0.2.8.tar.gz tmp/proteus_preprocessing-0.2.9.tar.gz --markdown 20230428/p/proteus-preprocessing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 13:16:48] INFO root fetch - processPackages [EasyEquities]: Downloading https://files.pythonhosted.org/packages/d6/8d/99edccd8ce0c2e54d06ba5bfe32fe3490299e98a7d455bab64ede2a93821/EasyEquities-1.0.2.tar.gz
+[2023-04-28 13:16:48] INFO root fetch - processPackages [EasyEquities]: Downloading https://files.pythonhosted.org/packages/16/b6/194acb8bdc273afbc68a809134fecd18c5a3d91aa9657b53b71a2de77d57/EasyEquities-1.2.1.tar.gz
+[2023-04-28 13:16:48] INFO root fetch - processPackages [EasyEquities]: executing diffoscope
+[2023-04-28 13:16:48] INFO root fetch - processPackages [EasyEquities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyEquities-1.0.2.tar.gz tmp/EasyEquities-1.2.1.tar.gz --markdown 20230428/E/EasyEquities/1.0.2-1.2.1/diff.md --exclude *.pyd
+[2023-04-28 13:16:48] INFO root fetch - main [MainThread]: End processing [locid]: success
+[2023-04-28 13:16:48] INFO root fetch - main [MainThread]: End processing [refractio]: success
+[2023-04-28 13:16:49] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
+[2023-04-28 13:16:49] INFO root fetch - main [MainThread]: End processing [EasyEquities]: success
+[2023-04-28 13:16:49] INFO root fetch - main [MainThread]: Store serial: [17897151]
