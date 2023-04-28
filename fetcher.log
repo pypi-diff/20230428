@@ -19071,3 +19071,73 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:40:04] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
 [2023-04-28 18:41:03] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-04-28 18:41:03] INFO root fetch - main [MainThread]: Store serial: [17900820]
+[2023-04-28 18:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900820]
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wildbook-ia
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: porter-bench
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rm545-xd
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stirpy
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python3-capsolver
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FAaDO
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stirpy
+[2023-04-28 18:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edu-segmentation
+[2023-04-28 18:46:12] WARNING root fetch - processPackages [rm545-xd]: Skipping, unable to determine old version
+[2023-04-28 18:46:12] INFO root fetch - processPackages [rm545-xd]: Start processing: space-invaders
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: End processing [rm545-xd] error
+[2023-04-28 18:46:12] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev9] Old Version: [4.0.5.dev7]
+[2023-04-28 18:46:12] WARNING root fetch - processPackages [porter-bench]: Skipping, unable to determine old version
+[2023-04-28 18:46:12] INFO root fetch - processPackages [porter-bench]: Start processing: odoo-addon-project-timesheet-time-control
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: End processing [porter-bench] error
+[2023-04-28 18:46:12] INFO root fetch - processPackages [stirpy]: New version: [1.1.5] Old Version: [1.1.0]
+[2023-04-28 18:46:12] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 18:46:12] WARNING root fetch - processPackages [FAaDO]: Skipping, unable to determine old version
+[2023-04-28 18:46:12] INFO root fetch - processPackages [FAaDO]: Start processing: fuckass
+[2023-04-28 18:46:12] INFO root fetch - processPackages [python3-capsolver]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: End processing [FAaDO] error
+[2023-04-28 18:46:12] INFO root fetch - processPackages [stirpy]: New version: [1.1.5] Old Version: [1.1.0]
+[2023-04-28 18:46:12] WARNING root fetch - processPackages [edu-segmentation]: Skipping, unable to determine old version
+[2023-04-28 18:46:12] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 18:46:12] INFO root fetch - processPackages [edu-segmentation]: Start processing: vents
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: End processing [edu-segmentation] error
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 18:46:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281640] Old Version: [99.0.202304281616]
+[2023-04-28 18:46:12] INFO root fetch - processPackages [vents]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 18:46:12] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/40/85/5b53dde8c23f417276813ab5c417082c46f429e05a65e55774cc6246d065/wildbook_ia-4.0.5.dev7-py3-none-any.whl
+[2023-04-28 18:46:12] WARNING root fetch - processPackages [fuckass]: Skipping, unable to determine old version
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: End processing [fuckass] error
+[2023-04-28 18:46:12] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662773>=10485760
+[2023-04-28 18:46:12] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-28 18:46:12] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1.5]
+[2023-04-28 18:46:12] INFO root fetch - processPackages [stirpy]: Downloading https://files.pythonhosted.org/packages/d1/ae/a64626c24319bab4b7c528c422b8185c5a4d30225ae63e9e33733cf37b88/stirpy-1.1.0.tar.gz
+[2023-04-28 18:46:12] INFO root fetch - processPackages [vents]: executing diffoscope
+[2023-04-28 18:46:12] INFO root fetch - processPackages [vents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vents-0.0.1.tar.gz tmp/vents-0.0.2.tar.gz --markdown 20230428/v/vents/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 18:46:12] INFO root fetch - processPackages [stirpy]: Downloading https://files.pythonhosted.org/packages/d1/ae/a64626c24319bab4b7c528c422b8185c5a4d30225ae63e9e33733cf37b88/stirpy-1.1.0.tar.gz
+[2023-04-28 18:46:12] INFO root fetch - processPackages [python3-capsolver]: Downloading https://files.pythonhosted.org/packages/17/fb/b3ee82a2f14de1a41a8e7780751b28e8d66994443b11f0c221dc285f76cc/python3_capsolver-0.5.3-py3-none-any.whl
+[2023-04-28 18:46:12] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/57/ba/2fe97f949de5cc9fb9e9dfad0310b5704e9e13c432d6b1b1099f4b384797/odoo_addon_project_timesheet_time_control-15.0.1.0.1.5-py3-none-any.whl
+[2023-04-28 18:46:13] INFO root fetch - processPackages [stirpy]: Downloading https://files.pythonhosted.org/packages/3f/b6/081b7d410ca54128a0b3de243ea4297c2903daa848a74527d7cb776cd1a8/stirpy-1.1.5.tar.gz
+[2023-04-28 18:46:13] INFO root fetch - processPackages [stirpy]: Downloading https://files.pythonhosted.org/packages/3f/b6/081b7d410ca54128a0b3de243ea4297c2903daa848a74527d7cb776cd1a8/stirpy-1.1.5.tar.gz
+[2023-04-28 18:46:13] INFO root fetch - processPackages [python3-capsolver]: Downloading https://files.pythonhosted.org/packages/58/48/18a4d7a871ed4f86d846db06b0d04c421bb7a0664d6f88739b094a245c55/python3_capsolver-0.5.4-py3-none-any.whl
+[2023-04-28 18:46:13] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-28 18:46:13] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230428/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 18:46:13] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b2/e9/d298d5fce514060bed0ca93a0a426ab6362c76987eeef70b0bb536e8fd72/kcli-99.0.202304281640-py3-none-any.whl
+[2023-04-28 18:46:13] INFO root fetch - processPackages [python3-capsolver]: executing diffoscope
+[2023-04-28 18:46:13] INFO root fetch - processPackages [python3-capsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3_capsolver-0.5.3-py3-none-any.whl.zip tmp/python3_capsolver-0.5.4-py3-none-any.whl.zip --markdown 20230428/p/python3-capsolver/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-28 18:46:13] INFO root fetch - processPackages [stirpy]: executing diffoscope
+[2023-04-28 18:46:13] INFO root fetch - processPackages [stirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stirpy-1.1.0.tar.gz tmp/stirpy-1.1.5.tar.gz --markdown 20230428/s/stirpy/1.1.0-1.1.5/diff.md --exclude *.pyd
+[2023-04-28 18:46:13] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/d3/40/8cb154c1e64682ebf1064306355a73eeb2da5182f05065acb1e2260e1fda/odoo_addon_project_timesheet_time_control-15.0.1.1.0-py3-none-any.whl
+[2023-04-28 18:46:13] INFO root fetch - processPackages [stirpy]: executing diffoscope
+[2023-04-28 18:46:13] INFO root fetch - processPackages [stirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stirpy-1.1.0.tar.gz tmp/stirpy-1.1.5.tar.gz --markdown 20230428/s/stirpy/1.1.0-1.1.5/diff.md --exclude *.pyd
+[2023-04-28 18:46:13] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 18:46:13] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281616-py3-none-any.whl.zip tmp/kcli-99.0.202304281640-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304281616-99.0.202304281640/diff.md --exclude *.pyd
+[2023-04-28 18:46:13] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: executing diffoscope
+[2023-04-28 18:46:13] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timesheet_time_control-15.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_project_timesheet_time_control-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-project-timesheet-time-control/15.0.1.0.1.5-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-28 18:46:14] INFO root fetch - main [MainThread]: End processing [vents]: success
+[2023-04-28 18:46:14] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-28 18:46:14] INFO root fetch - main [MainThread]: End processing [stirpy]: success
+[2023-04-28 18:46:14] INFO root fetch - main [MainThread]: End processing [stirpy]: success
+[2023-04-28 18:46:14] INFO root fetch - main [MainThread]: End processing [python3-capsolver]: success
+[2023-04-28 18:46:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timesheet-time-control]: success
+[2023-04-28 18:46:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 18:46:23] INFO root fetch - main [MainThread]: Store serial: [17900869]
