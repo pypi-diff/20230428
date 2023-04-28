@@ -23113,3 +23113,180 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 23:29:24] INFO root fetch - main [MainThread]: End processing [itkdb]: success
 [2023-04-28 23:29:25] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
 [2023-04-28 23:29:25] INFO root fetch - main [MainThread]: Store serial: [17903228]
+[2023-04-28 23:34:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903228]
+[2023-04-28 23:34:35] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-add-co-author
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ws-cli-chat
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webexbotsdk
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-gitlab
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-logs
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: featurizerai
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-object-safety
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-times
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: treeswift
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sage-conf
+[2023-04-28 23:34:35] INFO root fetch - processPackages [git-add-co-author]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [featurizerai]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [webexbotsdk]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ws-cli-chat]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [mo-times]: New version: [5.53.21241] Old Version: [5.371.23118]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [django-object-safety]: New version: [1.1.2] Old Version: [0.4.0]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [mo-logs]: New version: [7.4.21313] Old Version: [7.371.23118]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [pulumi-gitlab]: New version: [4.9.0a1666628674] Old Version: [4.9.0]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [treeswift]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-04-28 23:34:35] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-4.9.0.tar.gz tmp/pulumi_gitlab-4.9.0a1666628674.tar.gz --markdown 20230428/p/pulumi-gitlab/4.9.0-4.9.0a1666628674/diff.md --exclude *.pyd
+[2023-04-28 23:34:35] INFO root fetch - processPackages [sage-conf]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:35] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/11/51/d7b4959b6278c7d340d027d1a4b6c99fdf0acb41037fcb661079013ba2a8/mo_times-5.371.23118-py2.py3-none-any.whl
+[2023-04-28 23:34:35] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/d4/50/eee87067d97ea524bfbef43708d018461a668c87991ad1d50d97735d3554/mo_logs-7.371.23118-py2.py3-none-any.whl
+[2023-04-28 23:34:35] INFO root fetch - processPackages [webexbotsdk]: Downloading https://files.pythonhosted.org/packages/c0/35/9f66f452027001ddc07c04d9cde1f991b5ddd000521eaa46019218fedfe6/webexbotsdk-0.2.3.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/01/a7/022ba8c4979919ccabb1f1e01a3a6febb4d916f2e9101e3ade853abbc54e/featurizerai-1.5.5.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ws-cli-chat]: Downloading https://files.pythonhosted.org/packages/39/07/7a22862f7e03d4b2d2c0f561ae127c3c824a9af9d6efeb8b5a1ff6290909/ws_cli_chat-0.4.3.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/e3/b0/9ec1b935d796500902097f3d1490aa9e1abb1bb02effb278c2ca1f7a0fcb/django_object_safety-1.1.2.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [webexbotsdk]: executing diffoscope
+[2023-04-28 23:34:35] INFO root fetch - processPackages [webexbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webexbotsdk-0.2.2.tar.gz tmp/webexbotsdk-0.2.3.tar.gz --markdown 20230428/w/webexbotsdk/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 23:34:35] INFO root fetch - processPackages [treeswift]: Downloading https://files.pythonhosted.org/packages/29/68/b5def30e349e8b2d28ff5742b5a86564724c82506c882bf0af38a776574a/treeswift-1.1.8.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ws-cli-chat]: executing diffoscope
+[2023-04-28 23:34:35] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.5.4.tar.gz tmp/featurizerai-1.5.5.tar.gz --markdown 20230428/f/featurizerai/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-04-28 23:34:35] INFO root fetch - processPackages [ws-cli-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_cli_chat-0.4.2.tar.gz tmp/ws_cli_chat-0.4.3.tar.gz --markdown 20230428/w/ws-cli-chat/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-28 23:34:35] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/87/21/012f950f98f90bb49afff7f0aa106a1d0f3f83f7686b6c7639257300de07/sage-conf-9.8b7.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-28 23:34:35] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-0.4.0.tar.gz tmp/django_object_safety-1.1.2.tar.gz --markdown 20230428/d/django-object-safety/0.4.0-1.1.2/diff.md --exclude *.pyd
+[2023-04-28 23:34:35] INFO root fetch - processPackages [git-add-co-author]: Downloading https://files.pythonhosted.org/packages/f3/eb/7f5ce781bbc6717db6f8bf32a70eccd4552f553c9d574ef61c14eeb2e63a/git_add_co_author-0.4.0.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/03/e0/c83ec4a44a093d55ad4d2ccac4a0a0e96cd7f9ef6d58f0c10a06ce767009/mo-times-5.53.21241.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/0c/0a/90e0c43e163f6018467d4f5f3322697b7529b7eb8708da24aee5cee11d85/mo-logs-7.4.21313.tar.gz
+[2023-04-28 23:34:35] INFO root fetch - processPackages [git-add-co-author]: executing diffoscope
+[2023-04-28 23:34:35] INFO root fetch - processPackages [git-add-co-author]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_add_co_author-0.3.0.tar.gz tmp/git_add_co_author-0.4.0.tar.gz --markdown 20230428/g/git-add-co-author/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 23:34:36] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2023-04-28 23:34:36] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.371.23118-py2.py3-none-any.whl.zip tmp/mo-times-5.53.21241.tar.gz --markdown 20230428/m/mo-times/5.371.23118-5.53.21241/diff.md --exclude *.pyd
+[2023-04-28 23:34:36] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2023-04-28 23:34:36] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-7.371.23118-py2.py3-none-any.whl.zip tmp/mo-logs-7.4.21313.tar.gz --markdown 20230428/m/mo-logs/7.371.23118-7.4.21313/diff.md --exclude *.pyd
+[2023-04-28 23:34:36] INFO root fetch - processPackages [treeswift]: Downloading https://files.pythonhosted.org/packages/34/7d/1242a49554692ff7a7cce109d06207a302b7e394b2f675675f80cea3589f/treeswift-1.1.9.tar.gz
+[2023-04-28 23:34:36] INFO root fetch - processPackages [treeswift]: executing diffoscope
+[2023-04-28 23:34:36] INFO root fetch - processPackages [treeswift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treeswift-1.1.8.tar.gz tmp/treeswift-1.1.9.tar.gz --markdown 20230428/t/treeswift/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-28 23:34:36] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/e9/96/cd18c202ff97cf2010773c4ddf2e91c5e8ec79bf2dd6466b16139b499233/sage-conf-9.8rc0.tar.gz
+[2023-04-28 23:34:36] INFO root fetch - processPackages [sage-conf]: executing diffoscope
+[2023-04-28 23:34:36] INFO root fetch - processPackages [sage-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-conf-9.8b7.tar.gz tmp/sage-conf-9.8rc0.tar.gz --markdown 20230428/s/sage-conf/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:37] INFO root fetch - processPackages [ws-cli-chat]: Start processing: sage-docbuild
+[2023-04-28 23:34:37] INFO root fetch - main [MainThread]: End processing [ws-cli-chat]: success
+[2023-04-28 23:34:37] INFO root fetch - processPackages [featurizerai]: Start processing: nucliadb
+[2023-04-28 23:34:37] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-28 23:34:37] INFO root fetch - processPackages [webexbotsdk]: Start processing: sage-setup
+[2023-04-28 23:34:37] INFO root fetch - main [MainThread]: End processing [webexbotsdk]: success
+[2023-04-28 23:34:37] INFO root fetch - processPackages [nucliadb]: New version: [2.8.2.post226] Old Version: [2.8.2.post221]
+[2023-04-28 23:34:37] INFO root fetch - processPackages [sage-docbuild]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:37] INFO root fetch - processPackages [sage-setup]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:37] INFO root fetch - processPackages [git-add-co-author]: Start processing: nucliadb-client
+[2023-04-28 23:34:37] INFO root fetch - main [MainThread]: End processing [git-add-co-author]: success
+[2023-04-28 23:34:37] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.2.post226] Old Version: [2.8.2.post221]
+[2023-04-28 23:34:37] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b7/bf/97df222f0ccf90c042e40f64a2ba8817e2722fc2f45f12f118e8703d83e4/nucliadb-2.8.2.post226-py3-none-any.whl
+[2023-04-28 23:34:37] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/68/e5/530ac4d218aa81bb055436ab8553554b883e0e460c773cbd530d7442463a/sage-docbuild-9.8b7.tar.gz
+[2023-04-28 23:34:37] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/bb/16/bd3221dd969ef83cdb78698299f6e3cfa8be59d749daa81b4dc97f6d24ed/sage-setup-9.8b7.tar.gz
+[2023-04-28 23:34:37] INFO root fetch - processPackages [mo-times]: Start processing: sage-sws2rst
+[2023-04-28 23:34:37] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2023-04-28 23:34:37] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/28/fa/80a7b9b82dc172ea712faf47cc27e70f28921c0b92a449c8a06442d40818/nucliadb_client-2.8.2.post226-py3-none-any.whl
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-sws2rst]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:38] INFO root fetch - processPackages [mo-logs]: Start processing: nucliadb-dataset
+[2023-04-28 23:34:38] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.2.post226] Old Version: [2.8.2.post221]
+[2023-04-28 23:34:38] INFO root fetch - processPackages [pulumi-gitlab]: Start processing: sagemath-categories
+[2023-04-28 23:34:38] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-04-28 23:34:38] INFO root fetch - processPackages [django-object-safety]: Start processing: nucliadb-models
+[2023-04-28 23:34:38] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.2.post226] Old Version: [2.8.2.post221]
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/aa/ea/ed314950f3374f03b1417e552a4f31d8618f2811e6eacf3fe3332268f07c/sage-setup-9.8rc0.tar.gz
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.2.post221-py3-none-any.whl.zip tmp/nucliadb_client-2.8.2.post226-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-client/2.8.2.post221-2.8.2.post226/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.2.post221-py3-none-any.whl.zip tmp/nucliadb-2.8.2.post226-py3-none-any.whl.zip --markdown 20230428/n/nucliadb/2.8.2.post221-2.8.2.post226/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/83/bc/944e941625ce0a283b49b178d1b3dc9b9c8af78512a7f2fd8ec2c617e1eb/sage-docbuild-9.8rc0.tar.gz
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-categories]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-docbuild]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-docbuild-9.8b7.tar.gz tmp/sage-docbuild-9.8rc0.tar.gz --markdown 20230428/s/sage-docbuild/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-setup]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-setup-9.8b7.tar.gz tmp/sage-setup-9.8rc0.tar.gz --markdown 20230428/s/sage-setup/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/c7/9a/24d44916ef366f957e246ba99527efc0b4893673067aa991646a73886e88/sage-sws2rst-9.8b7.tar.gz
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d9/5e/413d83668e586aac02eccd9071271e11372314fb4c729f5dcf52a7038e91/nucliadb_dataset-2.8.2.post226-py3-none-any.whl
+[2023-04-28 23:34:38] INFO root fetch - processPackages [treeswift]: Start processing: sagemath-environment
+[2023-04-28 23:34:38] INFO root fetch - main [MainThread]: End processing [treeswift]: success
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.2.post221-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.2.post226-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-dataset/2.8.2.post221-2.8.2.post226/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/59/35/86217b5c79263c4014e46f3860440348a2955ffd2caac84ae4468436b863/nucliadb_models-2.8.2.post226-py3-none-any.whl
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/fe/5b4220d8485b9b1ea1e00d27d4033da6b77ab9bb3d90f96c2b0f69915cd9/sagemath-categories-9.8b7.tar.gz
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.2.post221-py3-none-any.whl.zip tmp/nucliadb_models-2.8.2.post226-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-models/2.8.2.post221-2.8.2.post226/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-environment]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/e2/13/be8c4c1c6ddab4fd81239014b8596bd4a65576cb4ec8fd36b8295e719cd8/sage-sws2rst-9.8rc0.tar.gz
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/dd/0daa405ce2567bb39e004c123601d2ec55ede2bc549eb306d07ba35eb456/sagemath-categories-9.8rc0.tar.gz
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-sws2rst]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sage-sws2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-sws2rst-9.8b7.tar.gz tmp/sage-sws2rst-9.8rc0.tar.gz --markdown 20230428/s/sage-sws2rst/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/63/7d/1a322711621a03371daf041779f473d569145e98561ddd9039e79a30255e/sagemath-environment-9.8b7.tar.gz
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-categories]: executing diffoscope
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-categories-9.8b7.tar.gz tmp/sagemath-categories-9.8rc0.tar.gz --markdown 20230428/s/sagemath-categories/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:38] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/25/81/ca7c2bcc4784c3075bcbf1849d48cee85027d56bdb107f8a0bf943b919ad/sagemath-environment-9.8rc0.tar.gz
+[2023-04-28 23:34:39] INFO root fetch - processPackages [sagemath-environment]: executing diffoscope
+[2023-04-28 23:34:39] INFO root fetch - processPackages [sagemath-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-environment-9.8b7.tar.gz tmp/sagemath-environment-9.8rc0.tar.gz --markdown 20230428/s/sagemath-environment/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:39] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-protos
+[2023-04-28 23:34:39] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-28 23:34:39] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.2.post226] Old Version: [2.8.2.post221]
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/0e/e0/01cb991fa85c76dca53a0d8b49bafa7f26ef90ee51760506e07a48b4d59a/nucliadb_protos-2.8.2.post226-py3-none-any.whl
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-models]: Start processing: sagemath-objects
+[2023-04-28 23:34:40] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.2.post221-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.2.post226-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-protos/2.8.2.post221-2.8.2.post226/diff.md --exclude *.pyd
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-04-28 23:34:40] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.2.post226] Old Version: [2.8.2.post221]
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sagemath-objects]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sage-sws2rst]: Start processing: sagemath-repl
+[2023-04-28 23:34:40] INFO root fetch - main [MainThread]: End processing [sage-sws2rst]: success
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/cd/ec/ace17db1534711f4664cc65f5c6c747239724de26ee96dc1c6b23cb63666/nucliadb_sdk-2.8.2.post226-py3-none-any.whl
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sagemath-repl]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/4c/41/42559ab77e0184ee4c3cc7719ba4348e5aa1307506fab7a306aa4a483214/sagemath-objects-9.8b7.tar.gz
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.2.post221-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.2.post226-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-sdk/2.8.2.post221-2.8.2.post226/diff.md --exclude *.pyd
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/a4/e3/3abe6fb13b6aec05d433260a637c57426bc40016a26515ce1de2f6ccb547/sagemath-repl-9.8b7.tar.gz
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sage-setup]: Start processing: nucliadb-utils
+[2023-04-28 23:34:40] INFO root fetch - main [MainThread]: End processing [sage-setup]: success
+[2023-04-28 23:34:40] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.2.post226] Old Version: [2.8.2.post221]
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sagemath-environment]: Start processing: sagemath-standard
+[2023-04-28 23:34:40] INFO root fetch - main [MainThread]: End processing [sagemath-environment]: success
+[2023-04-28 23:34:40] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/3e/ec/de38e0fcc76454c395321b4d2989ffe5f56e6334e310d1d9c6ad53f991f4/sagemath-objects-9.8rc0.tar.gz
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/fb/3c/6493d3c2a0f3a5c6276a510bac2fc348d682e8e826d3565dfc4f047ed8a2/sagemath-repl-9.8rc0.tar.gz
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-standard]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-repl]: executing diffoscope
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-repl-9.8b7.tar.gz tmp/sagemath-repl-9.8rc0.tar.gz --markdown 20230428/s/sagemath-repl/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:41] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/c8/0c/27e468d7b8fe89874f72af95cf873a5fcaf3664dcef3f98b3b94a9615ae0/nucliadb_utils-2.8.2.post226-py3-none-any.whl
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-standard]: Downloading https://files.pythonhosted.org/packages/ca/44/3341aa128d2058989dc35be67a94f004ad9873fc2cece58881abf81f3091/sagemath-standard-9.8b7.tar.gz
+[2023-04-28 23:34:41] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-28 23:34:41] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.2.post221-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.2.post226-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-utils/2.8.2.post221-2.8.2.post226/diff.md --exclude *.pyd
+[2023-04-28 23:34:41] WARNING root fetch - processPackages [sagemath-standard]: Skipping package: exceeds size limit 18194906>=10485760
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-standard]: Start processing: minitrino
+[2023-04-28 23:34:41] INFO root fetch - main [MainThread]: End processing [sagemath-standard] error
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sage-docbuild]: Start processing: mo-json
+[2023-04-28 23:34:41] INFO root fetch - main [MainThread]: End processing [sage-docbuild]: success
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-objects]: executing diffoscope
+[2023-04-28 23:34:41] INFO root fetch - processPackages [sagemath-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-objects-9.8b7.tar.gz tmp/sagemath-objects-9.8rc0.tar.gz --markdown 20230428/s/sagemath-objects/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-04-28 23:34:41] INFO root fetch - processPackages [mo-json]: New version: [6.371.23118] Old Version: [6.370.23104]
+[2023-04-28 23:34:41] INFO root fetch - processPackages [minitrino]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-28 23:34:41] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-28 23:34:41] INFO root fetch - processPackages [minitrino]: Downloading https://files.pythonhosted.org/packages/51/69/52945a954e10f65fdad43c251e2a565cda98dffabbf6974f50056158d57c/minitrino-2.0.2.tar.gz
+[2023-04-28 23:34:41] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/6f/fc/b49a2bb9d39e875c43a975b4db1be1a89da34c33d1e53edc21555b21a09c/mo_json-6.370.23104-py2.py3-none-any.whl
+[2023-04-28 23:34:41] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-28 23:34:41] INFO root fetch - processPackages [minitrino]: Downloading https://files.pythonhosted.org/packages/b9/3d/52957889a147a826a8fe0846401920354786fe8893b2e414fac5f0080e8d/minitrino-2.0.3.tar.gz
+[2023-04-28 23:34:41] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/ed/4f/17abde970951cbad2a561698dc250db34a7a652487fa7c12b2d353b1ad04/mo_json-6.371.23118-py2.py3-none-any.whl
+[2023-04-28 23:34:42] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-28 23:34:42] INFO root fetch - processPackages [minitrino]: executing diffoscope
+[2023-04-28 23:34:42] INFO root fetch - processPackages [minitrino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minitrino-2.0.2.tar.gz tmp/minitrino-2.0.3.tar.gz --markdown 20230428/m/minitrino/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-28 23:34:42] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2023-04-28 23:34:42] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.370.23104-py2.py3-none-any.whl.zip tmp/mo_json-6.371.23118-py2.py3-none-any.whl.zip --markdown 20230428/m/mo-json/6.370.23104-6.371.23118/diff.md --exclude *.pyd
+[2023-04-28 23:34:42] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-28 23:34:43] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2023-04-28 23:34:43] INFO root fetch - main [MainThread]: End processing [minitrino]: success
+[2023-04-28 23:34:44] INFO root fetch - main [MainThread]: End processing [sagemath-objects]: success
+[2023-04-28 23:34:44] INFO root fetch - main [MainThread]: End processing [sagemath-repl]: success
+[2023-04-28 23:34:44] INFO root fetch - main [MainThread]: End processing [sagemath-categories]: success
+[2023-04-28 23:37:36] ERROR root fetch - processPackages [sage-conf]: Timeout during execution of pkgdiff
+[2023-04-28 23:37:36] INFO root fetch - main [MainThread]: End processing [sage-conf] error
+[2023-04-28 23:37:36] INFO root fetch - main [MainThread]: Store serial: [17903288]
