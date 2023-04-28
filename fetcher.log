@@ -20231,3 +20231,31 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 19:44:24] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-04-28 19:44:24] INFO root fetch - main [MainThread]: End processing [funmap]: success
 [2023-04-28 19:44:24] INFO root fetch - main [MainThread]: Store serial: [17901474]
+[2023-04-28 19:49:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17901474]
+[2023-04-28 19:49:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 19:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodai-ltm
+[2023-04-28 19:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pequena
+[2023-04-28 19:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradeforce
+[2023-04-28 19:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multidimio
+[2023-04-28 19:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colemen-ra-manager
+[2023-04-28 19:49:33] WARNING root fetch - processPackages [tradeforce]: Skipping, unable to determine old version
+[2023-04-28 19:49:33] INFO root fetch - main [MainThread]: End processing [tradeforce] error
+[2023-04-28 19:49:33] INFO root fetch - processPackages [goodai-ltm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 19:49:33] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 19:49:33] INFO root fetch - processPackages [multidimio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 19:49:33] INFO root fetch - processPackages [colemen-ra-manager]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 19:49:34] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-04-28 19:49:34] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230428/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 19:49:34] INFO root fetch - processPackages [colemen-ra-manager]: Downloading https://files.pythonhosted.org/packages/b1/a1/482f0a73a9d6e3a2018a7bc2decb4b5c17843bd4ec8269c11456129d6f1a/colemen_ra_manager-0.0.4.tar.gz
+[2023-04-28 19:49:34] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-04-28 19:49:34] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.0.4.tar.gz tmp/goodai-ltm-0.0.5.tar.gz --markdown 20230428/g/goodai-ltm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 19:49:34] INFO root fetch - processPackages [multidimio]: executing diffoscope
+[2023-04-28 19:49:34] INFO root fetch - processPackages [multidimio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimio-0.2.8.tar.gz tmp/multidimio-0.2.9.tar.gz --markdown 20230428/m/multidimio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 19:49:34] INFO root fetch - processPackages [colemen-ra-manager]: Downloading https://files.pythonhosted.org/packages/c2/1f/75d299b784b63bbff318f240e25286eeca6b3c354748aa79512881964285/colemen_ra_manager-0.0.5.tar.gz
+[2023-04-28 19:49:34] INFO root fetch - processPackages [colemen-ra-manager]: executing diffoscope
+[2023-04-28 19:49:34] INFO root fetch - processPackages [colemen-ra-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colemen_ra_manager-0.0.4.tar.gz tmp/colemen_ra_manager-0.0.5.tar.gz --markdown 20230428/c/colemen-ra-manager/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 19:49:35] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-04-28 19:49:35] INFO root fetch - main [MainThread]: End processing [multidimio]: success
+[2023-04-28 19:49:35] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-04-28 19:49:35] INFO root fetch - main [MainThread]: End processing [colemen-ra-manager]: success
+[2023-04-28 19:49:35] INFO root fetch - main [MainThread]: Store serial: [17901492]
