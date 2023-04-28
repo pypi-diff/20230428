@@ -8068,3 +8068,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:40:59] INFO root fetch - main [MainThread]: End processing [i2cylib]: success
 [2023-04-28 07:41:00] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-04-28 07:41:00] INFO root fetch - main [MainThread]: Store serial: [17894244]
+[2023-04-28 07:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894244]
+[2023-04-28 07:46:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-account-invoice-margin
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: govee-local-api
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdriver
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperfast-python-template
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnhub_rest
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pref
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-dytnsapi
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lvpyio-wrapped
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: generic-path
+[2023-04-28 07:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: annofabcli
+[2023-04-28 07:46:10] INFO root fetch - processPackages [govee-local-api]: New version: [1.3.1] Old Version: [1.2.1]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [generic-path]: New version: [0.2] Old Version: [0.1]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [pref]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [odoo12-addon-account-invoice-margin]: New version: [12.0.3.0.3.99.dev1] Old Version: [12.0.3.0.3]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [lnhub_rest]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-28 07:46:10] WARNING root fetch - processPackages [lvpyio-wrapped]: Skipping, unable to determine old version
+[2023-04-28 07:46:10] INFO root fetch - processPackages [lvpyio-wrapped]: Start processing: deepdriver
+[2023-04-28 07:46:10] INFO root fetch - main [MainThread]: End processing [lvpyio-wrapped] error
+[2023-04-28 07:46:10] INFO root fetch - processPackages [generic-path]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [generic-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-path-0.1.tar.gz tmp/generic-path-0.2.tar.gz --markdown 20230428/g/generic-path/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-28 07:46:10] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230428/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-28 07:46:10] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [govee-local-api]: Downloading https://files.pythonhosted.org/packages/d4/76/5297344779b278dd6b5232c9a5fc604f7a392e949f01fcd8ba76811401ca/govee-local-api-1.2.1.tar.gz
+[2023-04-28 07:46:10] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/42/fa/a4e4f21a6082fbb07ee9f39423f3a4499be6e7e850b92b8c843682aadcb4/hyperfast_python_template-0.3.3.tar.gz
+[2023-04-28 07:46:10] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-28 07:46:10] INFO root fetch - processPackages [pref]: Downloading https://files.pythonhosted.org/packages/40/1f/305fde4dc88005eda798a57b6a8a79d810ba066165b0e059ed08d0f38abd/pref-0.1.0-py3-none-any.whl
+[2023-04-28 07:46:10] INFO root fetch - processPackages [odoo12-addon-account-invoice-margin]: Downloading https://files.pythonhosted.org/packages/f2/65/693688f713884da5a859abe6a2d6b951aef3a2508d10d36382cca043aa37/odoo12_addon_account_invoice_margin-12.0.3.0.3-py3-none-any.whl
+[2023-04-28 07:46:10] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.3.2.tar.gz tmp/hyperfast_python_template-0.3.3.tar.gz --markdown 20230428/h/hyperfast-python-template/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-28 07:46:10] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230428/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-28 07:46:10] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/c8/0e/1177ced0186c76e0c67b21ffa3877d1ff80c5c2bb0ec4eccbf9f42c5d5bb/aliyun-python-sdk-dytnsapi-1.1.4.tar.gz
+[2023-04-28 07:46:10] INFO root fetch - processPackages [lnhub_rest]: Downloading https://files.pythonhosted.org/packages/99/0a/0201350cec9723df83d6ab5ce5d2483abcbd43613b6832943e106facab4d/lnhub_rest-0.9.4.tar.gz
+[2023-04-28 07:46:10] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2023-04-28 07:46:10] INFO root fetch - processPackages [lnhub_rest]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [lnhub_rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnhub_rest-0.9.3.tar.gz tmp/lnhub_rest-0.9.4.tar.gz --markdown 20230428/l/lnhub_rest/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-28 07:46:10] INFO root fetch - processPackages [odoo12-addon-account-invoice-margin]: Downloading https://files.pythonhosted.org/packages/c7/50/4f82ac5a3f53a6b1e860e48bc6c35b168bab63e5d49d880b39be035711d5/odoo12_addon_account_invoice_margin-12.0.3.0.3.99.dev1-py3-none-any.whl
+[2023-04-28 07:46:10] INFO root fetch - processPackages [govee-local-api]: Downloading https://files.pythonhosted.org/packages/ef/c2/1f35b7fc214cf1efc71842c488f3920c4273d463c84826c2b3b7024aeacf/govee-local-api-1.3.1.tar.gz
+[2023-04-28 07:46:10] INFO root fetch - processPackages [pref]: Downloading https://files.pythonhosted.org/packages/44/52/05fc360a6adae259e7b98b8d03250266a77aa8aee9506f7243eb633a6f05/pref-0.2.0-py3-none-any.whl
+[2023-04-28 07:46:10] INFO root fetch - processPackages [pref]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [pref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref-0.1.0-py3-none-any.whl.zip tmp/pref-0.2.0-py3-none-any.whl.zip --markdown 20230428/p/pref/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 07:46:10] INFO root fetch - processPackages [govee-local-api]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [govee-local-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govee-local-api-1.2.1.tar.gz tmp/govee-local-api-1.3.1.tar.gz --markdown 20230428/g/govee-local-api/1.2.1-1.3.1/diff.md --exclude *.pyd
+[2023-04-28 07:46:10] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/78/4e/a0cd177b4b6746f4d3d0511a8b944492a42dc55d71bbd9ade2e633a0ab34/aliyun-python-sdk-dytnsapi-1.1.5.tar.gz
+[2023-04-28 07:46:10] INFO root fetch - processPackages [odoo12-addon-account-invoice-margin]: executing diffoscope
+[2023-04-28 07:46:10] INFO root fetch - processPackages [odoo12-addon-account-invoice-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_margin-12.0.3.0.3-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_margin-12.0.3.0.3.99.dev1-py3-none-any.whl.zip --markdown 20230428/o/odoo12-addon-account-invoice-margin/12.0.3.0.3-12.0.3.0.3.99.dev1/diff.md --exclude *.pyd
+[2023-04-28 07:46:11] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2023-04-28 07:46:11] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: executing diffoscope
+[2023-04-28 07:46:11] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dytnsapi-1.1.4.tar.gz tmp/aliyun-python-sdk-dytnsapi-1.1.5.tar.gz --markdown 20230428/a/aliyun-python-sdk-dytnsapi/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-28 07:46:11] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2023-04-28 07:46:11] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20230428/a/annofabcli/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-28 07:46:11] INFO root fetch - processPackages [generic-path]: Start processing: design.plone.contenttypes
+[2023-04-28 07:46:11] INFO root fetch - main [MainThread]: End processing [generic-path]: success
+[2023-04-28 07:46:12] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: html2notion
+[2023-04-28 07:46:12] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-28 07:46:12] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-04-28 07:46:12] INFO root fetch - processPackages [html2notion]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 07:46:12] INFO root fetch - main [MainThread]: End processing [pref]: success
+[2023-04-28 07:46:12] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/52/57/d00bbdce828652f46ad3f570aa4e59c85461b055d5799353631b1f765dab/design.plone.contenttypes-6.0.4.tar.gz
+[2023-04-28 07:46:12] INFO root fetch - main [MainThread]: End processing [govee-local-api]: success
+[2023-04-28 07:46:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-margin]: success
+[2023-04-28 07:46:12] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/06/a2/fd0b7a67e84080bd47d3c6ef1b72807d3e812f8d3515d1a5f0b575f903c9/html2notion-0.1.6.tar.gz
+[2023-04-28 07:46:12] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dytnsapi]: success
+[2023-04-28 07:46:12] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/61/12/6f83230f448b2cec5c83bc5c67d26e7fdabc0ca40bad740d464faf1f48c2/design.plone.contenttypes-6.0.5.tar.gz
+[2023-04-28 07:46:12] INFO root fetch - processPackages [html2notion]: executing diffoscope
+[2023-04-28 07:46:12] INFO root fetch - processPackages [html2notion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2notion-0.1.5.tar.gz tmp/html2notion-0.1.6.tar.gz --markdown 20230428/h/html2notion/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 07:46:12] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2023-04-28 07:46:12] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-04-28 07:46:12] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.4.tar.gz tmp/design.plone.contenttypes-6.0.5.tar.gz --markdown 20230428/d/design.plone.contenttypes/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-04-28 07:46:13] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-28 07:46:13] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-28 07:46:13] INFO root fetch - main [MainThread]: End processing [html2notion]: success
+[2023-04-28 07:46:14] INFO root fetch - main [MainThread]: End processing [lnhub_rest]: success
+[2023-04-28 07:46:15] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-04-28 07:46:15] INFO root fetch - main [MainThread]: Store serial: [17894290]
