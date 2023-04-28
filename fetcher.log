@@ -1656,3 +1656,88 @@
 [2023-04-28 02:29:23] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-04-28 02:29:24] INFO root fetch - main [MainThread]: End processing [FlipperNested]: success
 [2023-04-28 02:29:24] INFO root fetch - main [MainThread]: Store serial: [17890588]
+[2023-04-28 02:34:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890588]
+[2023-04-28 02:34:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-github-actions
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-proxmox
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-operator
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-tweet-queue
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aeppl-nightly
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ypricemagic
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: everdrop-aws-cdk-constructs
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mp-api
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shekhar-bmi-calculator
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [shekhar-bmi-calculator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.3.dev20230427] Old Version: [0.1.3.dev20230426]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [mp-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.8.tar.gz tmp/cdktf-proxmox-0.0.9.tar.gz --markdown 20230428/c/cdktf-proxmox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230428/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [shekhar-bmi-calculator]: Downloading https://files.pythonhosted.org/packages/20/03/66f22e1f7bca402f35ee3e0e1027fc5601093f9ccdc5f0ae457973b86e96/shekhar_bmi_calculator-0.0.2.tar.gz
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230428/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/8a/2a/df512ebbf35f9302111163303414c88bb7918b5a6e6e29fb19acdd37c553/cdk8s-operator-0.1.96.tar.gz
+[2023-04-28 02:34:33] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/d0/3b/c0f76330b2f702efab6d6b22672c31c3a367b6d2af4b70db241a553c0097/mp-api-0.9.0.tar.gz
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/83/0c/42539dd24fa36180f53cd00356934675c2dfb9cb07d4ae8df97d5e2b8ec3/ypricemagic-2.2.5.tar.gz
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.95.tar.gz tmp/cdk8s-operator-0.1.96.tar.gz --markdown 20230428/c/cdk8s-operator/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/df/5e/af89a7fd658376855fdaa3368d32ff8b9208b929232edcd86005860041ab/aeppl-nightly-0.1.3.dev20230427.tar.gz
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.4.tar.gz tmp/ypricemagic-2.2.5.tar.gz --markdown 20230428/y/ypricemagic/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230428/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [shekhar-bmi-calculator]: Downloading https://files.pythonhosted.org/packages/f1/a8/1cb3de60bfbf4ea57fe8e194f7328740b72fda3f0085b059ee14f4f955bf/shekhar_bmi_calculator-0.0.3.tar.gz
+[2023-04-28 02:34:33] INFO root fetch - processPackages [shekhar-bmi-calculator]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [shekhar-bmi-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shekhar_bmi_calculator-0.0.2.tar.gz tmp/shekhar_bmi_calculator-0.0.3.tar.gz --markdown 20230428/s/shekhar-bmi-calculator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.3.dev20230426.tar.gz tmp/aeppl-nightly-0.1.3.dev20230427.tar.gz --markdown 20230428/a/aeppl-nightly/0.1.3.dev20230426-0.1.3.dev20230427/diff.md --exclude *.pyd
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-04-28 02:34:33] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230428/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 02:34:34] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/6c/0e/759b93c4da8606f9bb1b3db9c592fb1b8eeaddcd0f0b6a2d901b6889bc2f/mp-api-0.9.1.tar.gz
+[2023-04-28 02:34:34] INFO root fetch - processPackages [mp-api]: executing diffoscope
+[2023-04-28 02:34:34] INFO root fetch - processPackages [mp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp-api-0.9.0.tar.gz tmp/mp-api-0.9.1.tar.gz --markdown 20230428/m/mp-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 02:34:35] INFO root fetch - processPackages [cdk8s-operator]: Start processing: scientisttools
+[2023-04-28 02:34:35] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-04-28 02:34:35] INFO root fetch - processPackages [scientisttools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 02:34:35] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: arkdata
+[2023-04-28 02:34:35] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-04-28 02:34:35] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 02:34:35] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Start processing: python4yahdlc
+[2023-04-28 02:34:35] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-04-28 02:34:35] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 02:34:35] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 02:34:35] INFO root fetch - processPackages [scientisttools]: Downloading https://files.pythonhosted.org/packages/71/c9/f240f91ea1d57ca993ca18ef9aa5ef711a708adf5711e98dbe60b17cdd9b/scientisttools-0.0.2.tar.gz
+[2023-04-28 02:34:35] INFO root fetch - processPackages [cdk-tweet-queue]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-04-28 02:34:35] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-04-28 02:34:35] INFO root fetch - main [MainThread]: End processing [shekhar-bmi-calculator]: success
+[2023-04-28 02:34:35] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 02:34:35] INFO root fetch - processPackages [python4yahdlc]: New version: [1.3.5] Old Version: [1.2.0]
+[2023-04-28 02:34:35] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-04-28 02:34:35] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230428/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 02:34:35] INFO root fetch - processPackages [python4yahdlc]: Downloading https://files.pythonhosted.org/packages/79/f5/858f74f2048227411c048c71428e791881141cbaac81949a936acc1efdbf/python4yahdlc-1.2.0.tar.gz
+[2023-04-28 02:34:35] INFO root fetch - processPackages [scientisttools]: Downloading https://files.pythonhosted.org/packages/50/d9/94469d244527c7842d012a3a3da2bc4aafa9d9a2487167e45434b9a1327c/scientisttools-0.0.3.tar.gz
+[2023-04-28 02:34:35] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 02:34:35] INFO root fetch - processPackages [scientisttools]: executing diffoscope
+[2023-04-28 02:34:35] INFO root fetch - processPackages [scientisttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientisttools-0.0.2.tar.gz tmp/scientisttools-0.0.3.tar.gz --markdown 20230428/s/scientisttools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 02:34:36] INFO root fetch - processPackages [python4yahdlc]: Downloading https://files.pythonhosted.org/packages/52/19/d4a3b4df6f00e970ba703c623cf6462aed54e190d838fb781ee2450f81a6/python4yahdlc-1.3.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 02:34:36] INFO root fetch - processPackages [python4yahdlc]: executing diffoscope
+[2023-04-28 02:34:36] INFO root fetch - processPackages [python4yahdlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python4yahdlc-1.2.0.tar.gz tmp/python4yahdlc-1.3.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/p/python4yahdlc/1.2.0-1.3.5/diff.md --exclude *.pyd
+[2023-04-28 02:34:36] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-04-28 02:34:36] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 02:34:37] INFO root fetch - main [MainThread]: End processing [python4yahdlc]: success
+[2023-04-28 02:34:37] INFO root fetch - main [MainThread]: End processing [scientisttools]: success
+[2023-04-28 02:34:37] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-04-28 02:34:37] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-04-28 02:34:37] INFO root fetch - main [MainThread]: End processing [mp-api]: success
+[2023-04-28 02:34:38] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-04-28 02:34:38] INFO root fetch - main [MainThread]: Store serial: [17890638]
