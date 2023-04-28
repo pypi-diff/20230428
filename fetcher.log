@@ -10339,3 +10339,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 10:28:31] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2023-04-28 10:28:36] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
 [2023-04-28 10:28:36] INFO root fetch - main [MainThread]: Store serial: [17895512]
+[2023-04-28 10:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895512]
+[2023-04-28 10:33:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crepes
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nip-config
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ASCIIcli
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-btripopen20220520
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brucelee
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aptos-brownie
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tello-asyncio
+[2023-04-28 10:33:45] INFO root fetch - processPackages [crepes]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ASCIIcli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [brucelee]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [nip-config]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [aptos-brownie]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [tello-asyncio]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ASCIIcli]: Downloading https://files.pythonhosted.org/packages/8c/8a/41eda5067d1f1c60260c506a2609beab26a7b257002e882a730d80871239/ASCIIcli-0.0.6.tar.gz
+[2023-04-28 10:33:45] INFO root fetch - processPackages [crepes]: Downloading https://files.pythonhosted.org/packages/60/32/12363997ca9b9c02e3840a550b35aa19b1faf0c691877bda87706696f7f4/crepes-0.1.0.tar.gz
+[2023-04-28 10:33:45] INFO root fetch - processPackages [aptos-brownie]: Downloading https://files.pythonhosted.org/packages/d0/bd/302812f502f4a0f3cfb9d8e09377333aea571be5eb0497c58aa9a274d528/aptos_brownie-3.0.0-py3-none-any.whl
+[2023-04-28 10:33:45] INFO root fetch - processPackages [nip-config]: Downloading https://files.pythonhosted.org/packages/da/43/9b9b913d2402d9354a00b7660d306516b61317eaa8b892ca21e60aa7c803/nip-config-0.9.1.tar.gz
+[2023-04-28 10:33:45] INFO root fetch - processPackages [tello-asyncio]: Downloading https://files.pythonhosted.org/packages/53/96/9f8156e4290b5e1f3cd3304577bcd22b2801b1ae217e9e05fd72bab504fd/tello_asyncio-2.1.2.tar.gz
+[2023-04-28 10:33:45] INFO root fetch - processPackages [nip-config]: executing diffoscope
+[2023-04-28 10:33:45] INFO root fetch - processPackages [nip-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nip-config-0.9.0.tar.gz tmp/nip-config-0.9.1.tar.gz --markdown 20230428/n/nip-config/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ASCIIcli]: Downloading https://files.pythonhosted.org/packages/da/82/abbb1b1310d7eb91f4f31acb5633258dd431816308b3c768b3615f20a8c3/ASCIIcli-0.0.7.tar.gz
+[2023-04-28 10:33:45] INFO root fetch - processPackages [brucelee]: Downloading https://files.pythonhosted.org/packages/f1/7e/9f829c9c1d6b4783fd96616f81c3f3feb81e0380f90c7fc607d067418798/brucelee-1.0.3.tar.gz
+[2023-04-28 10:33:45] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-04-28 10:33:45] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230428/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ASCIIcli]: executing diffoscope
+[2023-04-28 10:33:45] INFO root fetch - processPackages [ASCIIcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCIIcli-0.0.6.tar.gz tmp/ASCIIcli-0.0.7.tar.gz --markdown 20230428/A/ASCIIcli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-28 10:33:45] INFO root fetch - processPackages [brucelee]: executing diffoscope
+[2023-04-28 10:33:45] INFO root fetch - processPackages [brucelee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brucelee-1.0.2.tar.gz tmp/brucelee-1.0.3.tar.gz --markdown 20230428/b/brucelee/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-28 10:33:45] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-04-28 10:33:45] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230428/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 10:33:46] INFO root fetch - processPackages [crepes]: Downloading https://files.pythonhosted.org/packages/63/d9/dcf0e4f6e29238f3ea7a3b3f122faa3ea2a413c2f3a2a24732bc41ebfcec/crepes-0.2.0.tar.gz
+[2023-04-28 10:33:46] INFO root fetch - processPackages [aptos-brownie]: Downloading https://files.pythonhosted.org/packages/90/b8/b0d7d755934bfb9e8c8151c6fc2f859c3cf8c90c4a68c8acd954c2c5f924/aptos_brownie-3.0.1-py3-none-any.whl
+[2023-04-28 10:33:46] INFO root fetch - processPackages [crepes]: executing diffoscope
+[2023-04-28 10:33:46] INFO root fetch - processPackages [crepes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepes-0.1.0.tar.gz tmp/crepes-0.2.0.tar.gz --markdown 20230428/c/crepes/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 10:33:46] INFO root fetch - processPackages [aptos-brownie]: executing diffoscope
+[2023-04-28 10:33:46] INFO root fetch - processPackages [aptos-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_brownie-3.0.0-py3-none-any.whl.zip tmp/aptos_brownie-3.0.1-py3-none-any.whl.zip --markdown 20230428/a/aptos-brownie/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-28 10:33:46] INFO root fetch - processPackages [tello-asyncio]: Downloading https://files.pythonhosted.org/packages/ee/bb/8cc68c0df4fc0b4b38c245992f7fc9fa889090dab4e80f6dce8cc89b71aa/tello_asyncio-2.1.3.tar.gz
+[2023-04-28 10:33:46] INFO root fetch - processPackages [tello-asyncio]: executing diffoscope
+[2023-04-28 10:33:46] INFO root fetch - processPackages [tello-asyncio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tello_asyncio-2.1.2.tar.gz tmp/tello_asyncio-2.1.3.tar.gz --markdown 20230428/t/tello-asyncio/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [nip-config]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [ASCIIcli]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [crepes]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [aptos-brownie]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [brucelee]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: End processing [tello-asyncio]: success
+[2023-04-28 10:33:47] INFO root fetch - main [MainThread]: Store serial: [17895535]
