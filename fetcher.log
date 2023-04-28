@@ -22965,3 +22965,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 23:13:38] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
 [2023-04-28 23:13:46] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
 [2023-04-28 23:13:46] INFO root fetch - main [MainThread]: Store serial: [17903133]
+[2023-04-28 23:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903133]
+[2023-04-28 23:18:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ploomber-engine
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neosca
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bumerge
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamsync
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtale
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartsheet-pydantic
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cf-pandas
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: not1mm
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: featurizerai
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pollination-honeybee-radiance-postprocess
+[2023-04-28 23:18:57] WARNING root fetch - processPackages [bumerge]: Skipping, unable to determine old version
+[2023-04-28 23:18:57] INFO root fetch - processPackages [bumerge]: Start processing: oceano-algos
+[2023-04-28 23:18:57] INFO root fetch - main [MainThread]: End processing [bumerge] error
+[2023-04-28 23:18:57] INFO root fetch - processPackages [featurizerai]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [dtale]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [cf-pandas]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ploomber-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [streamsync]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [smartsheet-pydantic]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [neosca]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230428/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 23:18:57] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-honeybee-radiance-postprocess-0.0.8.tar.gz tmp/pollination-honeybee-radiance-postprocess-0.0.9.tar.gz --markdown 20230428/p/pollination-honeybee-radiance-postprocess/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 23:18:57] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.5.1.tar.gz tmp/featurizerai-1.5.2.tar.gz --markdown 20230428/f/featurizerai/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-28 23:18:57] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [cf-pandas]: Downloading https://files.pythonhosted.org/packages/38/7c/fa3c72b8bf765a31a2fecad06bf9e0ca0657a1d9cbf72c9396a6cadc27f0/cf_pandas-0.6.0.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [streamsync]: Downloading https://files.pythonhosted.org/packages/5d/6f/5b9d69e62193fb474d653bb018cc6aa5b15f905998232860bed08b1d597c/streamsync-0.1.3.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [dtale]: Downloading https://files.pythonhosted.org/packages/c1/c6/ab5d1138d237eee2688e08ff5f5599aa2d13fed583836410991c5ce855bd/dtale-2.9.0.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ploomber-engine]: Downloading https://files.pythonhosted.org/packages/fd/8f/1534ca0f4773c1d53e4c46d2933bcbbbbf536ef57a950be80b6e4d77406e/ploomber-engine-0.0.8.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [smartsheet-pydantic]: Downloading https://files.pythonhosted.org/packages/53/e3/9a9893d20ccfa8cc4dec7a3c3e453cd109c2a223f4870b4de0ff772ba4a7/smartsheet-pydantic-1.3.0.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [neosca]: Downloading https://files.pythonhosted.org/packages/43/f8/826bb74c72d05a830673d4080c56bd11aa114ffeea638d601328617e5a02/neosca-0.0.39.tar.gz
+[2023-04-28 23:18:57] WARNING root fetch - processPackages [streamsync]: Skipping package: exceeds size limit 45386221>=10485760
+[2023-04-28 23:18:57] INFO root fetch - processPackages [streamsync]: Start processing: git-add-co-author
+[2023-04-28 23:18:57] INFO root fetch - main [MainThread]: End processing [streamsync] error
+[2023-04-28 23:18:57] WARNING root fetch - processPackages [dtale]: Skipping package: exceeds size limit 12406657>=10485760
+[2023-04-28 23:18:57] INFO root fetch - main [MainThread]: End processing [dtale] error
+[2023-04-28 23:18:57] INFO root fetch - processPackages [git-add-co-author]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 23:18:57] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230428/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-28 23:18:57] INFO root fetch - processPackages [cf-pandas]: Downloading https://files.pythonhosted.org/packages/ca/61/654a836d7cf95aa042a7fd3b52cbf62b796facaee387030aa883b638b78e/cf_pandas-0.7.0.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [smartsheet-pydantic]: Downloading https://files.pythonhosted.org/packages/4b/3e/b61bb46e680a2af410c2db626d8709ef8b147c86cbd2abb21b19606ab2d9/smartsheet-pydantic-1.3.1.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [git-add-co-author]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [git-add-co-author]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_add_co_author-0.1.0.tar.gz tmp/git_add_co_author-0.2.0.tar.gz --markdown 20230428/g/git-add-co-author/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 23:18:57] INFO root fetch - processPackages [cf-pandas]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [cf-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_pandas-0.6.0.tar.gz tmp/cf_pandas-0.7.0.tar.gz --markdown 20230428/c/cf-pandas/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 23:18:57] INFO root fetch - processPackages [smartsheet-pydantic]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [smartsheet-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsheet-pydantic-1.3.0.tar.gz tmp/smartsheet-pydantic-1.3.1.tar.gz --markdown 20230428/s/smartsheet-pydantic/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-28 23:18:57] INFO root fetch - processPackages [neosca]: Downloading https://files.pythonhosted.org/packages/80/8a/4434a5a5391366fcb3f67a5c1fddc2470f35dbd3f4ecb76743951709fa0a/neosca-0.0.40-py3.10.egg
+[2023-04-28 23:18:57] INFO root fetch - processPackages [ploomber-engine]: Downloading https://files.pythonhosted.org/packages/f8/12/39298f8e41daa40cfea3e7cb55f86e11034436e31c97988dc69b9fd2c082/ploomber-engine-0.0.9.tar.gz
+[2023-04-28 23:18:57] INFO root fetch - processPackages [neosca]: executing diffoscope
+[2023-04-28 23:18:57] INFO root fetch - processPackages [neosca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosca-0.0.39.tar.gz tmp/neosca-0.0.40-py3.10.egg --markdown 20230428/n/neosca/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-04-28 23:18:58] INFO root fetch - processPackages [ploomber-engine]: executing diffoscope
+[2023-04-28 23:18:58] INFO root fetch - processPackages [ploomber-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-engine-0.0.8.tar.gz tmp/ploomber-engine-0.0.9.tar.gz --markdown 20230428/p/ploomber-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 23:18:58] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-28 23:18:58] INFO root fetch - main [MainThread]: End processing [pollination-honeybee-radiance-postprocess]: success
+[2023-04-28 23:18:58] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-28 23:18:59] INFO root fetch - main [MainThread]: End processing [git-add-co-author]: success
+[2023-04-28 23:18:59] INFO root fetch - main [MainThread]: End processing [smartsheet-pydantic]: success
+[2023-04-28 23:18:59] INFO root fetch - main [MainThread]: End processing [cf-pandas]: success
+[2023-04-28 23:18:59] INFO root fetch - main [MainThread]: End processing [ploomber-engine]: success
+[2023-04-28 23:18:59] INFO root fetch - main [MainThread]: End processing [neosca]: success
+[2023-04-28 23:19:00] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-28 23:19:00] INFO root fetch - main [MainThread]: Store serial: [17903183]
