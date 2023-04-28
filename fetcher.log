@@ -16957,3 +16957,110 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:37:44] INFO root fetch - main [MainThread]: End processing [netorca-sdk]: success
 [2023-04-28 16:37:45] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
 [2023-04-28 16:37:45] INFO root fetch - main [MainThread]: Store serial: [17899360]
+[2023-04-28 16:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899360]
+[2023-04-28 16:42:54] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastdup
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AMDirT
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rawpy
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: estimenergy
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: konfuzio-sdk
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lithic
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liccheck
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BlockFrame
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-user
+[2023-04-28 16:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-04-28 16:42:54] INFO root fetch - processPackages [estimenergy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [fastdup]: New version: [0.924] Old Version: [0.923]
+[2023-04-28 16:42:54] WARNING root fetch - processPackages [AMDirT]: Skipping, unable to determine old version
+[2023-04-28 16:42:54] INFO root fetch - processPackages [AMDirT]: Start processing: doppkit
+[2023-04-28 16:42:54] INFO root fetch - main [MainThread]: End processing [AMDirT] error
+[2023-04-28 16:42:54] INFO root fetch - processPackages [liccheck]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [BlockFrame]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [rawpy]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/39/60/dcace663a2d2f568ad9c27d81422514560926919910688e35f4dd1390232/estimenergy-2.0.1.tar.gz
+[2023-04-28 16:42:54] INFO root fetch - processPackages [doppkit]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/24/4c/d3d000ff3d43a2e1b9d15969ad8017422ba80692a85edefb98dcbf325261/fastdup-0.923-cp39-cp39-win_amd64.whl
+[2023-04-28 16:42:54] INFO root fetch - processPackages [liccheck]: Downloading https://files.pythonhosted.org/packages/7a/42/f58e9d83a3fe67d701ea862925db75fa8fef8c0d79b2c91fbdbaac50b38e/liccheck-0.8.3.tar.gz
+[2023-04-28 16:42:54] INFO root fetch - processPackages [xia-user]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 16:42:54] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-28 16:42:54] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-2.0.0.tar.gz tmp/estimenergy-2.0.1.tar.gz --markdown 20230428/e/estimenergy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 16:42:54] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 35327354>=10485760
+[2023-04-28 16:42:54] INFO root fetch - processPackages [fastdup]: Start processing: linearmodels
+[2023-04-28 16:42:54] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-04-28 16:42:55] INFO root fetch - processPackages [BlockFrame]: Downloading https://files.pythonhosted.org/packages/07/8d/aded5fc6125a6d4423063439c925f5f5cab028104c7c279bb1b3ae0c4fc7/BlockFrame-0.1.2.tar.gz
+[2023-04-28 16:42:55] INFO root fetch - processPackages [doppkit]: Downloading https://files.pythonhosted.org/packages/23/70/932d0b0a8d3f685079a0a5f06cf863b3d00595c009728e7a572df1e76482/doppkit-0.1.6.tar.gz
+[2023-04-28 16:42:55] INFO root fetch - processPackages [rawpy]: Downloading https://files.pythonhosted.org/packages/30/b0/0104866c887717e9c16c6f6dc401760a941cca0a403bf97238002ef4df2f/rawpy-0.8.1-cp35-cp35m-win_amd64.whl
+[2023-04-28 16:42:55] INFO root fetch - processPackages [linearmodels]: New version: [4.9] Old Version: [4.8]
+[2023-04-28 16:42:55] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/a9/95/ad9396049b5ef12db8c1bdf17f2d99db7b747818ffb6846c8e4dd3f69b6f/xia_user-0.1.8-cp39-none-win_amd64.whl
+[2023-04-28 16:42:55] INFO root fetch - processPackages [liccheck]: Downloading https://files.pythonhosted.org/packages/16/de/e6797bdedbd36fa4545581b5844dfc133cec61c9f99d04f0f2435d6bc0d5/liccheck-0.9.0.tar.gz
+[2023-04-28 16:42:55] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-helpdesk-mgmt/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20230428/l/lithic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230428/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [BlockFrame]: Downloading https://files.pythonhosted.org/packages/37/93/9f9ff2c1aa5c42b5f55a05c6145e56f6ef9148fd58e9d8adcce9dedff07f/BlockFrame-0.1.3.tar.gz
+[2023-04-28 16:42:55] INFO root fetch - processPackages [liccheck]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [liccheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liccheck-0.8.3.tar.gz tmp/liccheck-0.9.0.tar.gz --markdown 20230428/l/liccheck/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [doppkit]: Downloading https://files.pythonhosted.org/packages/9b/ec/507a7c2d334f271c1de8cc68b4aa33971aee619ee28f9242d1bee3f16806/doppkit-0.1.7.tar.gz
+[2023-04-28 16:42:55] INFO root fetch - processPackages [rawpy]: Downloading https://files.pythonhosted.org/packages/f7/00/4b929082e5fe887250f1f6cbe2bbc61e8fa8e828c0a9155ab0385c9df2d5/rawpy-0.9.0-cp36-cp36m-win_amd64.whl
+[2023-04-28 16:42:55] INFO root fetch - processPackages [BlockFrame]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [BlockFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlockFrame-0.1.2.tar.gz tmp/BlockFrame-0.1.3.tar.gz --markdown 20230428/B/BlockFrame/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/cb/5c/0ce1704a0b9091679ff36c5e64e86be3aff60524a47e7c66389d9bd7aa35/xia_user-0.1.9-cp39-none-win_amd64.whl
+[2023-04-28 16:42:55] INFO root fetch - processPackages [doppkit]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [doppkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doppkit-0.1.6.tar.gz tmp/doppkit-0.1.7.tar.gz --markdown 20230428/d/doppkit/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [linearmodels]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [linearmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linearmodels-4.8.tar.gz tmp/linearmodels-4.9.tar.gz --markdown 20230428/l/linearmodels/4.8-4.9/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [rawpy]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [rawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rawpy-0.8.1-cp35-cp35m-win_amd64.whl.zip tmp/rawpy-0.9.0-cp36-cp36m-win_amd64.whl.zip --markdown 20230428/r/rawpy/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:42:55] INFO root fetch - processPackages [xia-user]: executing diffoscope
+[2023-04-28 16:42:55] INFO root fetch - processPackages [xia-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_user-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_user-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230428/x/xia-user/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 16:42:56] INFO root fetch - processPackages [estimenergy]: Start processing: pykonal
+[2023-04-28 16:42:56] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-28 16:42:56] INFO root fetch - processPackages [pykonal]: New version: [0.3.3b0] Old Version: [0.3.2b6]
+[2023-04-28 16:42:56] INFO root fetch - processPackages [BlockFrame]: Start processing: gptdeploy
+[2023-04-28 16:42:56] INFO root fetch - main [MainThread]: End processing [BlockFrame]: success
+[2023-04-28 16:42:56] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-28 16:42:57] INFO root fetch - processPackages [pykonal]: Downloading https://files.pythonhosted.org/packages/4c/76/c75424e86942a5183268d75683fb29e8954e645267bf9a33a4ad316ad170/pykonal-0.3.2b6.tar.gz
+[2023-04-28 16:42:57] INFO root fetch - processPackages [liccheck]: Start processing: conversation-control
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [liccheck]: success
+[2023-04-28 16:42:57] WARNING root fetch - processPackages [conversation-control]: Skipping, unable to determine old version
+[2023-04-28 16:42:57] INFO root fetch - processPackages [conversation-control]: Start processing: BlockFrame
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [conversation-control] error
+[2023-04-28 16:42:57] INFO root fetch - processPackages [BlockFrame]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 16:42:57] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Start processing: aws-excom
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-04-28 16:42:57] INFO root fetch - processPackages [xia-user]: Start processing: space-invaders
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [xia-user]: success
+[2023-04-28 16:42:57] INFO root fetch - processPackages [BlockFrame]: executing diffoscope
+[2023-04-28 16:42:57] INFO root fetch - processPackages [BlockFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlockFrame-0.1.2.tar.gz tmp/BlockFrame-0.1.3.tar.gz --markdown 20230428/B/BlockFrame/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 16:42:57] INFO root fetch - processPackages [doppkit]: Start processing: fitsnap3
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [doppkit]: success
+[2023-04-28 16:42:57] INFO root fetch - processPackages [aws-excom]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 16:42:57] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 16:42:57] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-28 16:42:57] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230428/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-28 16:42:57] INFO root fetch - processPackages [fitsnap3]: New version: [3.0.1] Old Version: [3.0.0.1]
+[2023-04-28 16:42:57] INFO root fetch - processPackages [aws-excom]: Downloading https://files.pythonhosted.org/packages/02/c7/3d148e654b9266d45b9100f60b3a674fd2fd3a526bd446e61d70cbe3bfec/aws-excom-0.0.8.tar.gz
+[2023-04-28 16:42:57] INFO root fetch - processPackages [fitsnap3]: Downloading https://files.pythonhosted.org/packages/ad/b8/a7449d4ebdb75fa4135bd9204d47f4071bab2654557e56ac86a8231fe4f5/fitsnap3-3.0.0.1.tar.gz
+[2023-04-28 16:42:57] WARNING root fetch - processPackages [pykonal]: Skipping package: exceeds size limit 10549470>=10485760
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [pykonal] error
+[2023-04-28 16:42:57] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-04-28 16:42:57] INFO root fetch - processPackages [aws-excom]: Downloading https://files.pythonhosted.org/packages/43/78/5e294123e995f042c152fe03b349d8536293a2bb60763d4cd0aaf540d520/aws-excom-0.0.9.tar.gz
+[2023-04-28 16:42:57] INFO root fetch - processPackages [fitsnap3]: Downloading https://files.pythonhosted.org/packages/26/63/a673b5bbdb081c3bdda732f2411d1b7a34d7cff41744d48e65366736e8d9/fitsnap3-3.0.1.tar.gz
+[2023-04-28 16:42:58] INFO root fetch - processPackages [aws-excom]: executing diffoscope
+[2023-04-28 16:42:58] INFO root fetch - processPackages [aws-excom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-excom-0.0.8.tar.gz tmp/aws-excom-0.0.9.tar.gz --markdown 20230428/a/aws-excom/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:42:58] INFO root fetch - processPackages [fitsnap3]: executing diffoscope
+[2023-04-28 16:42:58] INFO root fetch - processPackages [fitsnap3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsnap3-3.0.0.1.tar.gz tmp/fitsnap3-3.0.1.tar.gz --markdown 20230428/f/fitsnap3/3.0.0.1-3.0.1/diff.md --exclude *.pyd
+[2023-04-28 16:42:58] INFO root fetch - main [MainThread]: End processing [BlockFrame]: success
+[2023-04-28 16:42:58] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2023-04-28 16:42:58] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-28 16:42:59] INFO root fetch - main [MainThread]: End processing [aws-excom]: success
+[2023-04-28 16:43:00] INFO root fetch - main [MainThread]: End processing [fitsnap3]: success
+[2023-04-28 16:43:00] INFO root fetch - main [MainThread]: End processing [linearmodels]: success
+[2023-04-28 16:43:02] INFO root fetch - main [MainThread]: End processing [rawpy]: success
+[2023-04-28 16:43:02] INFO root fetch - main [MainThread]: Store serial: [17899439]
