@@ -19012,3 +19012,62 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:34:39] INFO root fetch - main [MainThread]: End processing [charidotella]: success
 [2023-04-28 18:34:43] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
 [2023-04-28 18:34:43] INFO root fetch - main [MainThread]: Store serial: [17900672]
+[2023-04-28 18:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900672]
+[2023-04-28 18:39:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimum
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddtrace
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rigatoni
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fschat
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-auth0
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grimoire-elk
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stirpy
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mthree
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python3-capsolver
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domolibrary
+[2023-04-28 18:39:52] INFO root fetch - processPackages [rigatoni]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [optimum]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [mthree]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-28 18:39:52] WARNING root fetch - processPackages [stirpy]: Skipping, unable to determine old version
+[2023-04-28 18:39:52] INFO root fetch - processPackages [stirpy]: Start processing: belvys
+[2023-04-28 18:39:52] INFO root fetch - main [MainThread]: End processing [stirpy] error
+[2023-04-28 18:39:52] WARNING root fetch - processPackages [python3-capsolver]: Skipping, unable to determine old version
+[2023-04-28 18:39:52] INFO root fetch - main [MainThread]: End processing [python3-capsolver] error
+[2023-04-28 18:39:52] INFO root fetch - processPackages [fschat]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [belvys]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [rigatoni]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230428/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [rigatoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigatoni-0.1.8.tar.gz tmp/rigatoni-0.1.9.tar.gz --markdown 20230428/r/rigatoni/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ddtrace]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-28 18:39:52] INFO root fetch - processPackages [mthree]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [mthree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mthree-2.4.0.tar.gz tmp/mthree-2.5.0.tar.gz --markdown 20230428/m/mthree/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/50/28/cb29184c4ec757eddedd39e52106b126391a095992b54a2ff0de2078ec6d/optimum-1.8.2.tar.gz
+[2023-04-28 18:39:52] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/5d/a1/e53846c1bf3b3d59117db3463519d78c29ccb9cd22e176dd07c9e02512fd/fschat-0.2.3.tar.gz
+[2023-04-28 18:39:52] INFO root fetch - processPackages [belvys]: Downloading https://files.pythonhosted.org/packages/c9/f7/dea4a149531dae069073a19199aaa46dad2e394521d7bea6512216f94dea/belvys-0.2.1.tar.gz
+[2023-04-28 18:39:52] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230428/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230428/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/fb/82/37d1b1484122a71a51f1696dddcdad8fce7fd495face594069bac375a922/fschat-0.2.4.tar.gz
+[2023-04-28 18:39:52] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/88/b4/2ab76a0b0248c1a2cc8511ee36f6438802596d9f983e7aca4ae8f6bf59e5/optimum-1.8.3.tar.gz
+[2023-04-28 18:39:52] INFO root fetch - processPackages [belvys]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [belvys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belvys-0.2.0.tar.gz tmp/belvys-0.2.1.tar.gz --markdown 20230428/b/belvys/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.8.2.tar.gz tmp/optimum-1.8.3.tar.gz --markdown 20230428/o/optimum/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.5.tar.gz tmp/ddtrace-1.9.6.tar.gz --markdown 20230428/d/ddtrace/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-28 18:39:52] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-04-28 18:39:52] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.3.tar.gz tmp/fschat-0.2.4.tar.gz --markdown 20230428/f/fschat/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 18:39:54] INFO root fetch - main [MainThread]: End processing [belvys]: success
+[2023-04-28 18:39:54] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-04-28 18:39:54] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2023-04-28 18:39:55] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-04-28 18:39:55] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-04-28 18:39:56] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-28 18:39:57] INFO root fetch - main [MainThread]: End processing [mthree]: success
+[2023-04-28 18:40:04] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
+[2023-04-28 18:41:03] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-04-28 18:41:03] INFO root fetch - main [MainThread]: Store serial: [17900820]
