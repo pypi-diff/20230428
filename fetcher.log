@@ -15595,3 +15595,147 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 15:27:02] INFO root fetch - main [MainThread]: End processing [charidotella]: success
 [2023-04-28 15:27:02] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
 [2023-04-28 15:27:02] INFO root fetch - main [MainThread]: Store serial: [17898532]
+[2023-04-28 15:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898532]
+[2023-04-28 15:32:11] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymilvus
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zwkit
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: property-lister
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcp-pilot
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: worky
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utilki
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyaon
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf
+[2023-04-28 15:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: balena-sdk
+[2023-04-28 15:32:11] INFO root fetch - processPackages [worky]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [property-lister]: New version: [2.0] Old Version: [1.9]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [pymilvus]: New version: [2.3.0b1] Old Version: [2.2.8]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [utilki]: New version: [0.1.7] Old Version: [0.1.3]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [pyaon]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [zwkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-04-28 15:32:11] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230428/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-28 15:32:11] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-04-28 15:32:11] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230428/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-04-28 15:32:11] INFO root fetch - processPackages [gcp-pilot]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-28 15:32:11] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/12/b4/129a3d309fc71e4fc96c07a3c697822e67a770f5ef53d2ad919cf63d4f2a/pymilvus-2.2.8.tar.gz
+[2023-04-28 15:32:11] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/96/b8/d0f08b78578bd8de94414672466bbf58807a71ed9df092beffa973f0ff27/worky-0.1.7.tar.gz
+[2023-04-28 15:32:11] INFO root fetch - processPackages [property-lister]: Downloading https://files.pythonhosted.org/packages/b0/1f/ecd708e0d26ab77d8829486f5e9a5e1f8160d117db01df2d796a0401ce07/property-lister-1.9.tar.gz
+[2023-04-28 15:32:11] INFO root fetch - processPackages [pyaon]: Downloading https://files.pythonhosted.org/packages/53/d5/dbd6a2a57b765823aca78fd183a2433482cd461a347d17fbe19e2601ff6e/pyaon-1.0.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 15:32:11] INFO root fetch - processPackages [utilki]: Downloading https://files.pythonhosted.org/packages/af/c9/658e86400a11691acf9cd0910b54909efebf7ce158d0c27c54b8d0b87640/utilki-0.1.3.tar.gz
+[2023-04-28 15:32:12] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.6.tar.gz tmp/worky-0.1.7.tar.gz --markdown 20230428/w/worky/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 15:32:12] INFO root fetch - processPackages [zwkit]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [zwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwkit-0.4.8.tar.gz tmp/zwkit-0.4.9.tar.gz --markdown 20230428/z/zwkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-28 15:32:12] INFO root fetch - processPackages [gcp-pilot]: Downloading https://files.pythonhosted.org/packages/78/4c/904d9bfad08e100e7292aa65ba02bb2970a1847c9b70f40c2e5b5f7c0394/gcp_pilot-1.8.0.tar.gz
+[2023-04-28 15:32:12] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:32:12] INFO root fetch - processPackages [pyaon]: Downloading https://files.pythonhosted.org/packages/c3/23/14b66aa758c8a6c1eeb3fbf573aaeb2e7de94253b07a110e43b2cb5121c9/pyaon-1.0.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-28 15:32:12] INFO root fetch - processPackages [utilki]: Downloading https://files.pythonhosted.org/packages/e9/8a/cfdcb8116dded2eca038e37744256a839ee4eda1786c59433c5b30a595db/utilki-0.1.7.tar.gz
+[2023-04-28 15:32:12] INFO root fetch - processPackages [pyaon]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [pyaon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaon-1.0.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyaon-1.0.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230428/p/pyaon/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-28 15:32:12] INFO root fetch - processPackages [utilki]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [utilki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilki-0.1.3.tar.gz tmp/utilki-0.1.7.tar.gz --markdown 20230428/u/utilki/0.1.3-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 15:32:12] INFO root fetch - processPackages [property-lister]: Downloading https://files.pythonhosted.org/packages/cb/a4/37c07ff0164935ed8a76dd47747a1903c72d10b7eaf04f6f218ae7bd692b/property-lister-2.0.tar.gz
+[2023-04-28 15:32:12] INFO root fetch - processPackages [gcp-pilot]: Downloading https://files.pythonhosted.org/packages/77/21/e21af36c6a9ae3ffd798bb349a5af13504c2c3ec3e5361bdfcd34b9fa888/gcp_pilot-1.9.0.tar.gz
+[2023-04-28 15:32:12] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/06/c8/17548136463c170e3cb532bee55f33d39c529cee88c93c5b974af521c524/pymilvus-2.3.0b1.tar.gz
+[2023-04-28 15:32:12] INFO root fetch - processPackages [gcp-pilot]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [gcp-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pilot-1.8.0.tar.gz tmp/gcp_pilot-1.9.0.tar.gz --markdown 20230428/g/gcp-pilot/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 15:32:12] INFO root fetch - processPackages [pymilvus]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [pymilvus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilvus-2.2.8.tar.gz tmp/pymilvus-2.3.0b1.tar.gz --markdown 20230428/p/pymilvus/2.2.8-2.3.0b1/diff.md --exclude *.pyd
+[2023-04-28 15:32:12] INFO root fetch - processPackages [property-lister]: executing diffoscope
+[2023-04-28 15:32:12] INFO root fetch - processPackages [property-lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/property-lister-1.9.tar.gz tmp/property-lister-2.0.tar.gz --markdown 20230428/p/property-lister/1.9-2.0/diff.md --exclude *.pyd
+[2023-04-28 15:32:13] INFO root fetch - processPackages [cdktf]: Start processing: cardsort
+[2023-04-28 15:32:13] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-04-28 15:32:13] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-04-28 15:32:13] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-04-28 15:32:13] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230428/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 15:32:13] INFO root fetch - processPackages [zwkit]: Start processing: certora-cli-alpha-shelly-certoraclibeta
+[2023-04-28 15:32:13] INFO root fetch - main [MainThread]: End processing [zwkit]: success
+[2023-04-28 15:32:13] WARNING root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Skipping, unable to determine old version
+[2023-04-28 15:32:13] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Start processing: kcli
+[2023-04-28 15:32:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-certoraclibeta] error
+[2023-04-28 15:32:13] INFO root fetch - processPackages [worky]: Start processing: netbox-circuitmaintenance
+[2023-04-28 15:32:13] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-28 15:32:13] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281330] Old Version: [99.0.202304281328]
+[2023-04-28 15:32:13] INFO root fetch - processPackages [netbox-circuitmaintenance]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-28 15:32:13] INFO root fetch - processPackages [utilki]: Start processing: kcli
+[2023-04-28 15:32:13] INFO root fetch - main [MainThread]: End processing [utilki]: success
+[2023-04-28 15:32:13] INFO root fetch - processPackages [pyaon]: Start processing: cylp
+[2023-04-28 15:32:13] INFO root fetch - main [MainThread]: End processing [pyaon]: success
+[2023-04-28 15:32:13] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f9/9a/49d0976254e7446dcd7d209f665ee58f69ef83bbb2de46839e5c2a739b47/kcli-99.0.202304281328-py3-none-any.whl
+[2023-04-28 15:32:13] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281330] Old Version: [99.0.202304281328]
+[2023-04-28 15:32:13] INFO root fetch - processPackages [netbox-circuitmaintenance]: Downloading https://files.pythonhosted.org/packages/68/2d/357b61bfa9dbf1ec2fe44d4632c8190582ee70a5a6f29fa09be9f361182f/netbox-circuitmaintenance-0.2.2.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f9/9a/49d0976254e7446dcd7d209f665ee58f69ef83bbb2de46839e5c2a739b47/kcli-99.0.202304281328-py3-none-any.whl
+[2023-04-28 15:32:14] INFO root fetch - processPackages [balena-sdk]: Start processing: pretix-fontpack-free
+[2023-04-28 15:32:14] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-04-28 15:32:14] INFO root fetch - processPackages [cylp]: New version: [0.91.6] Old Version: [0.91.5]
+[2023-04-28 15:32:14] INFO root fetch - processPackages [gcp-pilot]: Start processing: kedro-azureml
+[2023-04-28 15:32:14] INFO root fetch - main [MainThread]: End processing [gcp-pilot]: success
+[2023-04-28 15:32:14] INFO root fetch - processPackages [pretix-fontpack-free]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 15:32:14] INFO root fetch - processPackages [cylp]: Downloading https://files.pythonhosted.org/packages/d3/43/2b58dedba20f000865f19544fceeeacb1412f5e4f0ed0ff5e5f06876ed15/cylp-0.91.5.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [netbox-circuitmaintenance]: Downloading https://files.pythonhosted.org/packages/54/30/c8e374a4b7a4518badbb6fa433ae116a78a1c35a978ef900797574fc8abf/netbox-circuitmaintenance-0.3.0.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kedro-azureml]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-04-28 15:32:14] INFO root fetch - processPackages [property-lister]: Start processing: django-google-cloud-tasks
+[2023-04-28 15:32:14] INFO root fetch - main [MainThread]: End processing [property-lister]: success
+[2023-04-28 15:32:14] INFO root fetch - processPackages [pretix-fontpack-free]: Downloading https://files.pythonhosted.org/packages/d3/8e/ea4282e2a3c30236c10d2887293bfa112d8c41130d8058526e6bc2a852ba/pretix-fontpack-free-1.9.1.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [django-google-cloud-tasks]: New version: [2.2.0] Old Version: [2.1.5]
+[2023-04-28 15:32:14] INFO root fetch - processPackages [cylp]: Downloading https://files.pythonhosted.org/packages/8a/f7/57885f993df615a7c7fa609307a8b482b2caf21911f7393744a8b06a55ce/cylp-0.91.6.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kedro-azureml]: Downloading https://files.pythonhosted.org/packages/81/7c/c5471fb2199168e7f9aa0c8aa612621539bc5f9c8711c8bc7bab17cf0882/kedro_azureml-0.3.6.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [cardsort]: Start processing: npyx
+[2023-04-28 15:32:14] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-04-28 15:32:14] INFO root fetch - processPackages [netbox-circuitmaintenance]: executing diffoscope
+[2023-04-28 15:32:14] INFO root fetch - processPackages [netbox-circuitmaintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-circuitmaintenance-0.2.2.tar.gz tmp/netbox-circuitmaintenance-0.3.0.tar.gz --markdown 20230428/n/netbox-circuitmaintenance/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/df/f0/c3499bb3f0fc88846720dd18e80fa2e7e5646ce209c8e7d849cf638499ea/kcli-99.0.202304281330-py3-none-any.whl
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/df/f0/c3499bb3f0fc88846720dd18e80fa2e7e5646ce209c8e7d849cf638499ea/kcli-99.0.202304281330-py3-none-any.whl
+[2023-04-28 15:32:14] INFO root fetch - processPackages [cylp]: executing diffoscope
+[2023-04-28 15:32:14] INFO root fetch - processPackages [cylp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylp-0.91.5.tar.gz tmp/cylp-0.91.6.tar.gz --markdown 20230428/c/cylp/0.91.5-0.91.6/diff.md --exclude *.pyd
+[2023-04-28 15:32:14] INFO root fetch - processPackages [django-google-cloud-tasks]: Downloading https://files.pythonhosted.org/packages/4d/6b/2bbc1ece3f554779d7f9da8f2d341a419ec7b7902b9576897b2c7838d8fb/django_google_cloud_tasks-2.1.5.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [npyx]: New version: [2.8.3] Old Version: [2.8.2]
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kedro-azureml]: Downloading https://files.pythonhosted.org/packages/df/72/5a9979559fcabce6ed623c2359eb732671e4e590f7990c2f3a6f2a2619bf/kedro_azureml-0.4.0.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [npyx]: Downloading https://files.pythonhosted.org/packages/6a/ef/09224a2835dedfcbfbce8c29b1bd915ddd1b66d604ae36f6efb73b932e2a/npyx-2.8.2.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281328-py3-none-any.whl.zip tmp/kcli-99.0.202304281330-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304281328-99.0.202304281330/diff.md --exclude *.pyd
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kedro-azureml]: executing diffoscope
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kedro-azureml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_azureml-0.3.6.tar.gz tmp/kedro_azureml-0.4.0.tar.gz --markdown 20230428/k/kedro-azureml/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 15:32:14] INFO root fetch - processPackages [django-google-cloud-tasks]: Downloading https://files.pythonhosted.org/packages/d1/0e/d3e09176c49a80a76b49b38ba8d207c1abf2d1370c395b09215149b10d43/django_google_cloud_tasks-2.2.0.tar.gz
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-28 15:32:14] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281328-py3-none-any.whl.zip tmp/kcli-99.0.202304281330-py3-none-any.whl.zip --markdown 20230428/k/kcli/99.0.202304281328-99.0.202304281330/diff.md --exclude *.pyd
+[2023-04-28 15:32:14] INFO root fetch - processPackages [npyx]: Downloading https://files.pythonhosted.org/packages/3f/20/e02c36b781edb92b44cf4a1bd66053ecd9d9ac9ba0dbd9c952fd4a85ff54/npyx-2.8.3.tar.gz
+[2023-04-28 15:32:15] INFO root fetch - processPackages [django-google-cloud-tasks]: executing diffoscope
+[2023-04-28 15:32:15] INFO root fetch - processPackages [django-google-cloud-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_google_cloud_tasks-2.1.5.tar.gz tmp/django_google_cloud_tasks-2.2.0.tar.gz --markdown 20230428/d/django-google-cloud-tasks/2.1.5-2.2.0/diff.md --exclude *.pyd
+[2023-04-28 15:32:15] INFO root fetch - processPackages [npyx]: executing diffoscope
+[2023-04-28 15:32:15] INFO root fetch - processPackages [npyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npyx-2.8.2.tar.gz tmp/npyx-2.8.3.tar.gz --markdown 20230428/n/npyx/2.8.2-2.8.3/diff.md --exclude *.pyd
+[2023-04-28 15:32:15] INFO root fetch - processPackages [netbox-circuitmaintenance]: Start processing: scrape-schema
+[2023-04-28 15:32:15] INFO root fetch - main [MainThread]: End processing [netbox-circuitmaintenance]: success
+[2023-04-28 15:32:16] INFO root fetch - processPackages [few-shot-priming]: Start processing: mikro
+[2023-04-28 15:32:16] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 15:32:16] INFO root fetch - processPackages [scrape-schema]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-28 15:32:16] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 15:32:16] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-28 15:32:16] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230428/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 15:32:16] INFO root fetch - processPackages [kedro-azureml]: Start processing: prefect-dask
+[2023-04-28 15:32:16] INFO root fetch - main [MainThread]: End processing [kedro-azureml]: success
+[2023-04-28 15:32:16] WARNING root fetch - processPackages [pretix-fontpack-free]: Skipping package: exceeds size limit 13080180>=10485760
+[2023-04-28 15:32:16] INFO root fetch - main [MainThread]: End processing [pretix-fontpack-free] error
+[2023-04-28 15:32:16] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/35/30/1fb6aa3be47e201e32cc72e3691e4b9f4ace5039c4eebbe37b4a2c395b4b/scrape_schema-0.1.0.tar.gz
+[2023-04-28 15:32:16] INFO root fetch - processPackages [prefect-dask]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-28 15:32:16] INFO root fetch - main [MainThread]: End processing [django-google-cloud-tasks]: success
+[2023-04-28 15:32:16] INFO root fetch - processPackages [prefect-dask]: Downloading https://files.pythonhosted.org/packages/f4/25/cfcdbe50f010caf74caca82ae4eb5af0e65f5825a0c75adce25f7f8e25f0/prefect-dask-0.2.3.tar.gz
+[2023-04-28 15:32:16] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-04-28 15:32:16] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.0.9.tar.gz tmp/scrape_schema-0.1.0.tar.gz --markdown 20230428/s/scrape-schema/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-28 15:32:16] INFO root fetch - main [MainThread]: End processing [cylp]: success
+[2023-04-28 15:32:16] INFO root fetch - processPackages [prefect-dask]: Downloading https://files.pythonhosted.org/packages/69/45/d616fd4d8b559327c86189dd47813cf7fa20f3945e5b733016fa0e5e933b/prefect-dask-0.2.4.tar.gz
+[2023-04-28 15:32:16] INFO root fetch - main [MainThread]: End processing [npyx]: success
+[2023-04-28 15:32:16] INFO root fetch - processPackages [prefect-dask]: executing diffoscope
+[2023-04-28 15:32:16] INFO root fetch - processPackages [prefect-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-dask-0.2.3.tar.gz tmp/prefect-dask-0.2.4.tar.gz --markdown 20230428/p/prefect-dask/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 15:32:17] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-04-28 15:32:18] INFO root fetch - main [MainThread]: End processing [prefect-dask]: success
+[2023-04-28 15:32:18] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-28 15:32:18] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
+[2023-04-28 15:32:22] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 15:32:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-28 15:32:23] INFO root fetch - main [MainThread]: Store serial: [17898631]
