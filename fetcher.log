@@ -22135,3 +22135,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 22:11:51] INFO root fetch - main [MainThread]: End processing [gantry]: success
 [2023-04-28 22:12:01] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
 [2023-04-28 22:12:01] INFO root fetch - main [MainThread]: Store serial: [17902564]
+[2023-04-28 22:17:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902564]
+[2023-04-28 22:17:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-stubs
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invoke
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpggen
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aim-ui
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d2c-mp-sales-forecaster
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybiolib
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deployfish
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: the-best-distance-calculator
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snaptrade-python-sdk
+[2023-04-28 22:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aim
+[2023-04-28 22:17:13] INFO root fetch - processPackages [cpggen]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 22:17:13] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 22:17:13] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev3] Old Version: [4.0.0.dev2]
+[2023-04-28 22:17:13] WARNING root fetch - processPackages [the-best-distance-calculator]: Skipping, unable to determine old version
+[2023-04-28 22:17:13] INFO root fetch - processPackages [the-best-distance-calculator]: Start processing: policyengine-us
+[2023-04-28 22:17:13] INFO root fetch - main [MainThread]: End processing [the-best-distance-calculator] error
+[2023-04-28 22:17:13] INFO root fetch - processPackages [invoke]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [policyengine-us]: New version: [0.308.0] Old Version: [0.307.0]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/d6/c0/8412600d01de28dac29fc7f2821e1c045150709439ee3cb7a4fd3bce8312/aim-ui-4.0.0.dev2.tar.gz
+[2023-04-28 22:17:14] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev3] Old Version: [4.0.0.dev2]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.307.0.tar.gz tmp/policyengine-us-0.308.0.tar.gz --markdown 20230428/p/policyengine-us/0.307.0-0.308.0/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [invoke]: Downloading https://files.pythonhosted.org/packages/43/59/42a4d8336c01a8df19e62b25949b551f9d3dc0d4292eea25eddacc9e329e/invoke-2.0.0.tar.gz
+[2023-04-28 22:17:14] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: Downloading https://files.pythonhosted.org/packages/50/62/341c3395bfd4e08b83bf8fc5fbc5ca7b090670be1e21e8d44db9ba7ca50b/d2c_mp_sales_forecaster-0.0.1.tar.gz
+[2023-04-28 22:17:14] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/6d/52/7282a8c395ca573954ef1bc7df075104d3d33b19f0620b643f0adf57f82f/cpggen-1.0.0.tar.gz
+[2023-04-28 22:17:14] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 27060349>=10485760
+[2023-04-28 22:17:14] INFO root fetch - processPackages [aim-ui]: Start processing: ewms-pilot
+[2023-04-28 22:17:14] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-04-28 22:17:14] INFO root fetch - processPackages [ewms-pilot]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-28 22:17:14] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230428/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-04-28 22:17:14] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230428/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.6.0.tar.gz tmp/ewms-pilot-0.7.0.tar.gz --markdown 20230428/e/ewms-pilot/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20230428/d/deployfish/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/4a/38/2d34689080d4376c43d6c343995c1521aa04d914e7988702cea4ab5d0835/cpggen-1.0.1.tar.gz
+[2023-04-28 22:17:14] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: Downloading https://files.pythonhosted.org/packages/fa/dd/76a64ea74d1ad2e69b5041dddc50ac206dbfd6de93aa642f65240befbba0/d2c_mp_sales_forecaster-0.0.2.tar.gz
+[2023-04-28 22:17:14] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev2.tar.gz tmp/aim-4.0.0.dev3.tar.gz --markdown 20230428/a/aim/4.0.0.dev2-4.0.0.dev3/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [invoke]: Downloading https://files.pythonhosted.org/packages/b0/29/a509301332714aacc10ff98b7fe6539a9a1f96b18698efe9666ceae1485c/invoke-2.1.0.tar.gz
+[2023-04-28 22:17:14] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-1.0.0.tar.gz tmp/cpggen-1.0.1.tar.gz --markdown 20230428/c/cpggen/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2c_mp_sales_forecaster-0.0.1.tar.gz tmp/d2c_mp_sales_forecaster-0.0.2.tar.gz --markdown 20230428/d/d2c-mp-sales-forecaster/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [invoke]: executing diffoscope
+[2023-04-28 22:17:14] INFO root fetch - processPackages [invoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoke-2.0.0.tar.gz tmp/invoke-2.1.0.tar.gz --markdown 20230428/i/invoke/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-28 22:17:14] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-04-28 22:17:15] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-04-28 22:17:15] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230428/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-28 22:17:15] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-04-28 22:17:16] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-04-28 22:17:16] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-04-28 22:17:16] INFO root fetch - main [MainThread]: End processing [d2c-mp-sales-forecaster]: success
+[2023-04-28 22:17:17] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-04-28 22:17:17] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2023-04-28 22:17:19] INFO root fetch - main [MainThread]: End processing [invoke]: success
+[2023-04-28 22:17:21] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-04-28 22:17:22] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-04-28 22:18:19] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-28 22:18:19] INFO root fetch - main [MainThread]: Store serial: [17902600]
