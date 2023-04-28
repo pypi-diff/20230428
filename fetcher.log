@@ -23290,3 +23290,110 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 23:37:36] ERROR root fetch - processPackages [sage-conf]: Timeout during execution of pkgdiff
 [2023-04-28 23:37:36] INFO root fetch - main [MainThread]: End processing [sage-conf] error
 [2023-04-28 23:37:36] INFO root fetch - main [MainThread]: Store serial: [17903288]
+[2023-04-28 23:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903288]
+[2023-04-28 23:42:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salt-analytics-framework
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chlore
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unisci
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ws-cli-chat
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tts-arranger
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccsi-foqus
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ploomber-engine
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: git-add-co-author
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycstruct
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CoLT5-attention
+[2023-04-28 23:42:47] INFO root fetch - processPackages [chlore]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [salt-analytics-framework]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ccsi-foqus]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [unisci]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [git-add-co-author]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ploomber-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [tts-arranger]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ws-cli-chat]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [pycstruct]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 23:42:47] INFO root fetch - processPackages [chlore]: Downloading https://files.pythonhosted.org/packages/a1/5e/3d5d4951f1717d193f4c4925f65ad3a1a5535018e7c102387fbf27251ce0/chlore-0.8.1.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [salt-analytics-framework]: Downloading https://files.pythonhosted.org/packages/74/6f/3f751a720d2e66272649f750be89df92bd396d42a4788523d05fef4d3756/salt-analytics-framework-0.0.1.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ccsi-foqus]: Downloading https://files.pythonhosted.org/packages/b7/2e/d089cd452e5dd5cbc679f98905fa4b3804eb5ccae5071863c302dabf3a5d/ccsi-foqus-3.8.0.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/89/4e/87b2e3caaaa0c3c587543e6762509a7a8d7b926f279bc43f2265cf2fb10d/CoLT5-attention-0.2.4.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [tts-arranger]: Downloading https://files.pythonhosted.org/packages/b6/d5/b91f213bcf7016ed92dbd3884f8b7775b3b2fa1d91cf1a3b7c2153a1be8d/tts_arranger-0.3.1.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/6c/f8/991f71af772763dd16b6429e92f7bc06b7408c5fa1558613e11b3232e417/unisci-1.3.0.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ploomber-engine]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ploomber-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-engine-0.0.8.tar.gz tmp/ploomber-engine-0.0.9.tar.gz --markdown 20230428/p/ploomber-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 23:42:47] INFO root fetch - processPackages [git-add-co-author]: Downloading https://files.pythonhosted.org/packages/2f/b0/814585515d4478f38c454f12fbcb50247f7578609cd0e3376b0126133139/git_add_co_author-0.4.1.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ws-cli-chat]: Downloading https://files.pythonhosted.org/packages/43/73/9ade7127747ca6d6b2ad66eca5156e2e94bb6b18872ec60f99a40008e23b/ws_cli_chat-0.4.4.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [pycstruct]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [pycstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycstruct-0.9.0.tar.gz tmp/pycstruct-0.9.1.tar.gz --markdown 20230428/p/pycstruct/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 23:42:47] INFO root fetch - processPackages [tts-arranger]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [tts-arranger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tts_arranger-0.3.0.tar.gz tmp/tts_arranger-0.3.1.tar.gz --markdown 20230428/t/tts-arranger/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 23:42:47] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.2.1.tar.gz tmp/unisci-1.3.0.tar.gz --markdown 20230428/u/unisci/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-04-28 23:42:47] INFO root fetch - processPackages [git-add-co-author]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [git-add-co-author]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_add_co_author-0.4.0.tar.gz tmp/git_add_co_author-0.4.1.tar.gz --markdown 20230428/g/git-add-co-author/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ws-cli-chat]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [ws-cli-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_cli_chat-0.4.3.tar.gz tmp/ws_cli_chat-0.4.4.tar.gz --markdown 20230428/w/ws-cli-chat/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-28 23:42:47] INFO root fetch - processPackages [chlore]: Downloading https://files.pythonhosted.org/packages/6e/15/3bfc98783c3b9bca688305cf08a7340d8e355d56d7dca15f12aadaadbbbd/chlore-0.9.0.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [salt-analytics-framework]: Downloading https://files.pythonhosted.org/packages/b5/76/f5c7e880421bf1435f5523f6bd257af6052d31ef7a18fa8960a54215a17b/salt-analytics-framework-0.1.0.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/e8/79/695529ad18177e0ed72e209159612b7283b16a5c1ff2e75cdcc746c08a03/CoLT5-attention-0.2.5.tar.gz
+[2023-04-28 23:42:47] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.2.4.tar.gz tmp/CoLT5-attention-0.2.5.tar.gz --markdown 20230428/C/CoLT5-attention/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-28 23:42:47] INFO root fetch - processPackages [chlore]: executing diffoscope
+[2023-04-28 23:42:47] INFO root fetch - processPackages [chlore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chlore-0.8.1.tar.gz tmp/chlore-0.9.0.tar.gz --markdown 20230428/c/chlore/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 23:42:48] INFO root fetch - processPackages [salt-analytics-framework]: executing diffoscope
+[2023-04-28 23:42:48] INFO root fetch - processPackages [salt-analytics-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt-analytics-framework-0.0.1.tar.gz tmp/salt-analytics-framework-0.1.0.tar.gz --markdown 20230428/s/salt-analytics-framework/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-28 23:42:48] WARNING root fetch - processPackages [ccsi-foqus]: Skipping package: exceeds size limit 80594197>=10485760
+[2023-04-28 23:42:48] INFO root fetch - processPackages [ccsi-foqus]: Start processing: chat-miner
+[2023-04-28 23:42:48] INFO root fetch - main [MainThread]: End processing [ccsi-foqus] error
+[2023-04-28 23:42:48] INFO root fetch - processPackages [chat-miner]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 23:42:48] INFO root fetch - processPackages [chat-miner]: Downloading https://files.pythonhosted.org/packages/f4/07/3f55638a9bec2d27fec8384022ded917bfce938110bd9fc3ffd5711e2f7e/chat-miner-0.3.0.tar.gz
+[2023-04-28 23:42:48] INFO root fetch - processPackages [chat-miner]: Downloading https://files.pythonhosted.org/packages/40/db/42436d329eeb279f5adab59d54c35c77196066192159281ba5d075053d8e/chat-miner-0.3.1.tar.gz
+[2023-04-28 23:42:48] INFO root fetch - processPackages [chat-miner]: executing diffoscope
+[2023-04-28 23:42:48] INFO root fetch - processPackages [chat-miner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-miner-0.3.0.tar.gz tmp/chat-miner-0.3.1.tar.gz --markdown 20230428/c/chat-miner/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 23:42:49] INFO root fetch - processPackages [ploomber-engine]: Start processing: sidetrek
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [ploomber-engine]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 23:42:49] INFO root fetch - processPackages [pycstruct]: Start processing: dsgen
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [pycstruct]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [dsgen]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-28 23:42:49] INFO root fetch - processPackages [tts-arranger]: Start processing: ringneck
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [tts-arranger]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [ringneck]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 23:42:49] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/a6/8a/a6176d3f1012708b4ccaf2b4452150bbcc42bea315ff88ebacd209e69bb8/sidetrek-0.0.8.tar.gz
+[2023-04-28 23:42:49] INFO root fetch - processPackages [dsgen]: Downloading https://files.pythonhosted.org/packages/65/2e/ddf84fac176235f7a40c491eba5dc9b4c0a70c27b184f56ece34b237efd5/dsgen-2.4.0-py3-none-any.whl
+[2023-04-28 23:42:49] INFO root fetch - processPackages [unisci]: Start processing: featurizerai
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [ringneck]: Downloading https://files.pythonhosted.org/packages/2c/d8/86675ad7b65c473c04db9639be133ae444384675479004e3a280559ea86d/ringneck-0.0.2.tar.gz
+[2023-04-28 23:42:49] INFO root fetch - processPackages [featurizerai]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-04-28 23:42:49] INFO root fetch - processPackages [CoLT5-attention]: Start processing: salt-analytics-framework
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [salt-analytics-framework]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-28 23:42:49] INFO root fetch - processPackages [chlore]: Start processing: goxlrutilityapi
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [chlore]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev3] Old Version: [1.0.0.dev2]
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [git-add-co-author]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [salt-analytics-framework]: executing diffoscope
+[2023-04-28 23:42:49] INFO root fetch - processPackages [salt-analytics-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt-analytics-framework-0.0.1.tar.gz tmp/salt-analytics-framework-0.1.0.tar.gz --markdown 20230428/s/salt-analytics-framework/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-28 23:42:49] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/82/5c/9e08518e4f9b9b99085f15a8d7dd45852185b9a02e7ce200620fcd687248/sidetrek-0.0.9.tar.gz
+[2023-04-28 23:42:49] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/3c/b3/f7507940078f449210bfacf74c62e77db1fbd0ac45aef1ca05fb72d246f1/featurizerai-1.5.6.tar.gz
+[2023-04-28 23:42:49] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-28 23:42:49] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev2.tar.gz tmp/goxlrutilityapi-1.0.0.dev3.tar.gz --markdown 20230428/g/goxlrutilityapi/1.0.0.dev2-1.0.0.dev3/diff.md --exclude *.pyd
+[2023-04-28 23:42:49] INFO root fetch - main [MainThread]: End processing [ws-cli-chat]: success
+[2023-04-28 23:42:49] INFO root fetch - processPackages [ringneck]: Downloading https://files.pythonhosted.org/packages/36/a2/6290bc045b9f9b875533030deddc9a954df52598274e2de9da05610faf31/ringneck-0.0.3.tar.gz
+[2023-04-28 23:42:49] INFO root fetch - processPackages [dsgen]: Downloading https://files.pythonhosted.org/packages/03/5e/a337601b25713a9ee409aa7450f0619ffbfe38151a8fd498a866c81af3fa/dsgen-2.4.1-py3-none-any.whl
+[2023-04-28 23:42:50] INFO root fetch - processPackages [ringneck]: executing diffoscope
+[2023-04-28 23:42:50] INFO root fetch - processPackages [ringneck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringneck-0.0.2.tar.gz tmp/ringneck-0.0.3.tar.gz --markdown 20230428/r/ringneck/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 23:42:50] INFO root fetch - processPackages [dsgen]: executing diffoscope
+[2023-04-28 23:42:50] INFO root fetch - processPackages [dsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsgen-2.4.0-py3-none-any.whl.zip tmp/dsgen-2.4.1-py3-none-any.whl.zip --markdown 20230428/d/dsgen/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-28 23:42:50] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-04-28 23:42:50] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230428/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 23:42:50] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-28 23:42:50] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.5.5.tar.gz tmp/featurizerai-1.5.6.tar.gz --markdown 20230428/f/featurizerai/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-04-28 23:42:50] INFO root fetch - main [MainThread]: End processing [chat-miner]: success
+[2023-04-28 23:42:51] INFO root fetch - main [MainThread]: End processing [salt-analytics-framework]: success
+[2023-04-28 23:42:51] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-28 23:42:51] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-28 23:42:51] INFO root fetch - main [MainThread]: End processing [ringneck]: success
+[2023-04-28 23:42:51] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-04-28 23:42:51] INFO root fetch - main [MainThread]: End processing [salt-analytics-framework]: success
+[2023-04-28 23:43:12] INFO root fetch - main [MainThread]: End processing [dsgen]: success
+[2023-04-28 23:43:12] INFO root fetch - main [MainThread]: Store serial: [17903342]
