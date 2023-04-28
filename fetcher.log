@@ -4735,3 +4735,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:55:50] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
 [2023-04-28 03:55:50] INFO root fetch - main [MainThread]: End processing [pyfredapi]: success
 [2023-04-28 03:55:50] INFO root fetch - main [MainThread]: Store serial: [17892461]
+[2023-04-28 04:00:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17892461]
+[2023-04-28 04:01:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-ame
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-ams
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplechain
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: regpredict
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validator-and-token-generator
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-bootstrapless-synthesizer
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seven-framework
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kneed
+[2023-04-28 04:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-antiddos
+[2023-04-28 04:01:03] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 04:01:03] INFO root fetch - processPackages [simplechain]: New version: [0.0.5.2] Old Version: [0.0.5.1]
+[2023-04-28 04:01:03] INFO root fetch - processPackages [kneed]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-28 04:01:03] INFO root fetch - processPackages [cdk-bootstrapless-synthesizer]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-28 04:01:03] WARNING root fetch - processPackages [validator-and-token-generator]: Skipping, unable to determine old version
+[2023-04-28 04:01:03] INFO root fetch - main [MainThread]: End processing [validator-and-token-generator] error
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: New version: [3.0.884] Old Version: [3.0.883]
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: New version: [3.0.884] Old Version: [3.0.883]
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: executing diffoscope
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ame-3.0.883.tar.gz tmp/tencentcloud-sdk-python-ame-3.0.884.tar.gz --markdown 20230428/t/tencentcloud-sdk-python-ame/3.0.883-3.0.884/diff.md --exclude *.pyd
+[2023-04-28 04:01:03] INFO root fetch - processPackages [seven-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: New version: [3.0.884] Old Version: [3.0.883]
+[2023-04-28 04:01:03] INFO root fetch - processPackages [kneed]: Downloading https://files.pythonhosted.org/packages/0c/e7/f7727bf7c68ded3e645f6d97a3137a547b18b45bb8888ddaf6e4d23031a2/kneed-0.8.1.tar.gz
+[2023-04-28 04:01:03] INFO root fetch - processPackages [cdk-bootstrapless-synthesizer]: Downloading https://files.pythonhosted.org/packages/e9/51/3323ab5f7b6abd4c957673a41815dcaede80c61f1a7973081a3a55195069/cdk-bootstrapless-synthesizer-2.3.0.tar.gz
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/7e/e3/f42d97701b1557001a94592317a49627cdace0944030ff2aae1a0d7244de/tencentcloud-sdk-python-ams-3.0.883.tar.gz
+[2023-04-28 04:01:03] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/7f/6a/8dd7364d2a60d0b5147d14dcf9083999ee4ad4942275a8800135cac11a2c/seven_framework-1.1.8.tar.gz
+[2023-04-28 04:01:03] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/63/28/b6d2cdf648e922367cfdb5b646808b7f069d708d50221655ce3b4a3c02a3/simplechain-0.0.5.2.tar.gz
+[2023-04-28 04:01:03] INFO root fetch - processPackages [simplechain]: executing diffoscope
+[2023-04-28 04:01:03] INFO root fetch - processPackages [simplechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplechain-0.0.5.1.tar.gz tmp/simplechain-0.0.5.2.tar.gz --markdown 20230428/s/simplechain/0.0.5.1-0.0.5.2/diff.md --exclude *.pyd
+[2023-04-28 04:01:03] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-04-28 04:01:03] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230428/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/da/25/d962bbbbad54ce32f0b5d206d3a8ca7053a5049a8cfd182c1999a8cb2129/tencentcloud-sdk-python-antiddos-3.0.883.tar.gz
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/e4/36/2c787fb38ff5fa926932e7dcb7c7b25cf011e3a9fabe88d0e5f1036242d4/tencentcloud-sdk-python-ams-3.0.884.tar.gz
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: executing diffoscope
+[2023-04-28 04:01:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ams-3.0.883.tar.gz tmp/tencentcloud-sdk-python-ams-3.0.884.tar.gz --markdown 20230428/t/tencentcloud-sdk-python-ams/3.0.883-3.0.884/diff.md --exclude *.pyd
+[2023-04-28 04:01:03] INFO root fetch - processPackages [cdk-bootstrapless-synthesizer]: Downloading https://files.pythonhosted.org/packages/d4/24/5e1d74e2ec6e890a6f9b74db07ca6324bb27b86326ce0cc149aafba3012c/cdk-bootstrapless-synthesizer-2.3.1.tar.gz
+[2023-04-28 04:01:04] INFO root fetch - processPackages [kneed]: Downloading https://files.pythonhosted.org/packages/f1/d9/950577bf64c10bcc5caf238bc64b477bc4dae00d30b41df4a1a58e6a0908/kneed-0.8.2.tar.gz
+[2023-04-28 04:01:04] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/28/c0/458db664a69b4b4618ad287bbb4ab4422019f23d75759d591959d27422be/seven_framework-1.1.9.tar.gz
+[2023-04-28 04:01:04] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/96/8c/fa0787748782369d2a37a4815ed528c415170c0af3d3059b6e0c5628cf81/tencentcloud-sdk-python-antiddos-3.0.884.tar.gz
+[2023-04-28 04:01:04] INFO root fetch - processPackages [cdk-bootstrapless-synthesizer]: executing diffoscope
+[2023-04-28 04:01:04] INFO root fetch - processPackages [cdk-bootstrapless-synthesizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-bootstrapless-synthesizer-2.3.0.tar.gz tmp/cdk-bootstrapless-synthesizer-2.3.1.tar.gz --markdown 20230428/c/cdk-bootstrapless-synthesizer/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-28 04:01:04] INFO root fetch - processPackages [kneed]: executing diffoscope
+[2023-04-28 04:01:04] INFO root fetch - processPackages [kneed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kneed-0.8.1.tar.gz tmp/kneed-0.8.2.tar.gz --markdown 20230428/k/kneed/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-28 04:01:04] INFO root fetch - processPackages [seven-framework]: executing diffoscope
+[2023-04-28 04:01:04] INFO root fetch - processPackages [seven-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_framework-1.1.8.tar.gz tmp/seven_framework-1.1.9.tar.gz --markdown 20230428/s/seven-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-28 04:01:04] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: executing diffoscope
+[2023-04-28 04:01:04] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-antiddos-3.0.883.tar.gz tmp/tencentcloud-sdk-python-antiddos-3.0.884.tar.gz --markdown 20230428/t/tencentcloud-sdk-python-antiddos/3.0.883-3.0.884/diff.md --exclude *.pyd
+[2023-04-28 04:01:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ame]: success
+[2023-04-28 04:01:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ams]: success
+[2023-04-28 04:01:05] INFO root fetch - main [MainThread]: End processing [cdk-bootstrapless-synthesizer]: success
+[2023-04-28 04:01:05] INFO root fetch - main [MainThread]: End processing [kneed]: success
+[2023-04-28 04:01:05] INFO root fetch - main [MainThread]: End processing [simplechain]: success
+[2023-04-28 04:01:05] INFO root fetch - main [MainThread]: End processing [seven-framework]: success
+[2023-04-28 04:01:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-antiddos]: success
+[2023-04-28 04:01:06] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-04-28 04:01:06] INFO root fetch - main [MainThread]: Store serial: [17892491]
