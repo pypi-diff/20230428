@@ -22005,3 +22005,79 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 22:01:20] INFO root fetch - main [MainThread]: End processing [georgio]: success
 [2023-04-28 22:01:22] INFO root fetch - main [MainThread]: End processing [georgio]: success
 [2023-04-28 22:01:22] INFO root fetch - main [MainThread]: Store serial: [17902485]
+[2023-04-28 22:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902485]
+[2023-04-28 22:06:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-object-safety
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptlytics
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kepconfig
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CharacterAPI
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naludaq
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydmt
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: embedbase
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: molab
+[2023-04-28 22:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dag-factory
+[2023-04-28 22:06:32] INFO root fetch - processPackages [promptlytics]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [CharacterAPI]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [django-object-safety]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [kepconfig]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [naludaq]: New version: [0.17.3] Old Version: [0.17.2]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [pydmt]: New version: [0.1.88] Old Version: [0.1.86]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [embedbase]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [molab]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-28 22:06:32] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230428/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-28 22:06:32] INFO root fetch - processPackages [dag-factory]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 22:06:32] INFO root fetch - processPackages [promptlytics]: Downloading https://files.pythonhosted.org/packages/1d/66/0739e299d8b84a336c0d9cd31495b7f916c2c6b4b32ca1ffa0f33e7398e6/promptlytics-0.0.1.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/41/8b/a6fe6de6a282bc63a16d29cb20cdd8228459d5de507c91b876b36f5f65c7/pydmt-0.1.86.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/13/28/9fa6dcbbf0e3f963e743f5f4daf5894a5d2a94e59120b9f627ea6bbb47ae/naludaq-0.17.2.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [CharacterAPI]: Downloading https://files.pythonhosted.org/packages/c1/ca/7a890de9fb5775844df00115233e318fd92ccee6574961a792b207975f08/CharacterAPI-0.1.4.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/b8/c0/ee34b71a5df140cf38ac92951f4fe905dcd763f9898de6a653352283f2a8/django_object_safety-0.3.1.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [kepconfig]: Downloading https://files.pythonhosted.org/packages/c2/79/f658c96080c53b53a1a820bc2e8b42746114bd6cefe41b327bdb58176799/kepconfig-1.2.0.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/ec/d0/1d9b43c15f94befd47eb2727da145f4ba37b6a075c20c1e9bfdc7d77d4f0/embedbase-1.0.8.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [CharacterAPI]: executing diffoscope
+[2023-04-28 22:06:32] INFO root fetch - processPackages [CharacterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CharacterAPI-0.1.3.tar.gz tmp/CharacterAPI-0.1.4.tar.gz --markdown 20230428/C/CharacterAPI/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 22:06:32] INFO root fetch - processPackages [molab]: Downloading https://files.pythonhosted.org/packages/42/7a/92588d9867ff86f3fd084b5e4e23bbed174bdf6a7eca7c138f6bd3dd2f77/molab-0.4.3.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [embedbase]: executing diffoscope
+[2023-04-28 22:06:32] INFO root fetch - processPackages [embedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase-1.0.7.tar.gz tmp/embedbase-1.0.8.tar.gz --markdown 20230428/e/embedbase/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-28 22:06:32] INFO root fetch - processPackages [dag-factory]: Downloading https://files.pythonhosted.org/packages/28/b9/933843bdde84c696d53d36a98d71e6698a890c0b9456aa9c23e9954d9558/dag-factory-0.9.0.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [promptlytics]: Downloading https://files.pythonhosted.org/packages/7d/b0/9be86924307e3f7f4604be2ebb0e30a3d7d7e4800ce26efcaaaf343c659f/promptlytics-0.0.2.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [kepconfig]: Downloading https://files.pythonhosted.org/packages/73/84/e1ee54441b8aa34599434d96da6b4ad67e2223f756e5f234dc37a1214542/kepconfig-1.2.1.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/f7/5f/62f0e6f44a0cbce6b1f0d159248f39aa96d5d8451677afb182c01fb00550/pydmt-0.1.88.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/d3/ed/0e503412f816316e76d7585a9825d1889701a2dab8700104ce952a724256/django_object_safety-0.4.0.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/fb/a6/50ac7888e273c17a5389013b58d0570ce5f399e9fdd9fe0746160a7f5a26/naludaq-0.17.3.tar.gz
+[2023-04-28 22:06:32] INFO root fetch - processPackages [kepconfig]: executing diffoscope
+[2023-04-28 22:06:32] INFO root fetch - processPackages [kepconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kepconfig-1.2.0.tar.gz tmp/kepconfig-1.2.1.tar.gz --markdown 20230428/k/kepconfig/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-28 22:06:32] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-28 22:06:32] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-0.3.1.tar.gz tmp/django_object_safety-0.4.0.tar.gz --markdown 20230428/d/django-object-safety/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 22:06:33] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-04-28 22:06:33] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.86.tar.gz tmp/pydmt-0.1.88.tar.gz --markdown 20230428/p/pydmt/0.1.86-0.1.88/diff.md --exclude *.pyd
+[2023-04-28 22:06:33] INFO root fetch - processPackages [promptlytics]: executing diffoscope
+[2023-04-28 22:06:33] INFO root fetch - processPackages [promptlytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlytics-0.0.1.tar.gz tmp/promptlytics-0.0.2.tar.gz --markdown 20230428/p/promptlytics/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 22:06:33] INFO root fetch - processPackages [naludaq]: executing diffoscope
+[2023-04-28 22:06:33] INFO root fetch - processPackages [naludaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq-0.17.2.tar.gz tmp/naludaq-0.17.3.tar.gz --markdown 20230428/n/naludaq/0.17.2-0.17.3/diff.md --exclude *.pyd
+[2023-04-28 22:06:33] INFO root fetch - processPackages [molab]: Downloading https://files.pythonhosted.org/packages/46/b1/44a2a15a43a62f833f937979b21bce335534be3c3856733dbf11196c8b2a/molab-0.4.4.tar.gz
+[2023-04-28 22:06:33] INFO root fetch - processPackages [molab]: executing diffoscope
+[2023-04-28 22:06:33] INFO root fetch - processPackages [molab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molab-0.4.3.tar.gz tmp/molab-0.4.4.tar.gz --markdown 20230428/m/molab/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-28 22:06:33] INFO root fetch - processPackages [dag-factory]: Downloading https://files.pythonhosted.org/packages/42/85/a350ac7ecf11f72b03deae9696465bc85e4babb046ec3e8ba8fbdf7385b3/dag-factory-0.9.1.tar.gz
+[2023-04-28 22:06:33] INFO root fetch - processPackages [dag-factory]: executing diffoscope
+[2023-04-28 22:06:33] INFO root fetch - processPackages [dag-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dag-factory-0.9.0.tar.gz tmp/dag-factory-0.9.1.tar.gz --markdown 20230428/d/dag-factory/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 22:06:33] INFO root fetch - processPackages [always-updates]: Start processing: skosprovider-sqlalchemy
+[2023-04-28 22:06:33] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-28 22:06:33] INFO root fetch - processPackages [skosprovider-sqlalchemy]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-28 22:06:34] INFO root fetch - processPackages [skosprovider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/b7/69/35f56c0e878109c81cda4a3ea355cc00abe22cf7f5ffbc928ce067a58754/skosprovider_sqlalchemy-2.1.0.tar.gz
+[2023-04-28 22:06:34] INFO root fetch - main [MainThread]: End processing [embedbase]: success
+[2023-04-28 22:06:34] INFO root fetch - main [MainThread]: End processing [CharacterAPI]: success
+[2023-04-28 22:06:34] INFO root fetch - processPackages [skosprovider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1b/ad/396b7b21f8a7722fed63d815fe464ecfa721cbd52159949e5aef3c15836d/skosprovider_sqlalchemy-2.1.1.tar.gz
+[2023-04-28 22:06:34] INFO root fetch - main [MainThread]: End processing [promptlytics]: success
+[2023-04-28 22:06:34] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-28 22:06:34] INFO root fetch - processPackages [skosprovider-sqlalchemy]: executing diffoscope
+[2023-04-28 22:06:34] INFO root fetch - processPackages [skosprovider-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skosprovider_sqlalchemy-2.1.0.tar.gz tmp/skosprovider_sqlalchemy-2.1.1.tar.gz --markdown 20230428/s/skosprovider-sqlalchemy/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-28 22:06:34] INFO root fetch - main [MainThread]: End processing [molab]: success
+[2023-04-28 22:06:34] INFO root fetch - main [MainThread]: End processing [dag-factory]: success
+[2023-04-28 22:06:35] INFO root fetch - main [MainThread]: End processing [kepconfig]: success
+[2023-04-28 22:06:35] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-04-28 22:06:35] INFO root fetch - main [MainThread]: End processing [skosprovider-sqlalchemy]: success
+[2023-04-28 22:06:38] INFO root fetch - main [MainThread]: End processing [naludaq]: success
+[2023-04-28 22:06:38] INFO root fetch - main [MainThread]: Store serial: [17902518]
