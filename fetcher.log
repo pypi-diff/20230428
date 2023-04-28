@@ -16849,3 +16849,111 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:32:30] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-04-28 16:32:31] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-04-28 16:32:31] INFO root fetch - main [MainThread]: Store serial: [17899294]
+[2023-04-28 16:37:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899294]
+[2023-04-28 16:37:40] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idem-vault
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patchwork-websoccer
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: livesolid
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dop-integration-libs
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuickMQ
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fieldedge-utilities
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adaux
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whisper-voice-commands
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: equasolver
+[2023-04-28 16:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyon
+[2023-04-28 16:37:40] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 16:37:40] WARNING root fetch - processPackages [livesolid]: Skipping, unable to determine old version
+[2023-04-28 16:37:40] INFO root fetch - processPackages [livesolid]: Start processing: azure-keyvault-stuff
+[2023-04-28 16:37:40] INFO root fetch - main [MainThread]: End processing [livesolid] error
+[2023-04-28 16:37:40] INFO root fetch - processPackages [adaux]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-28 16:37:40] WARNING root fetch - processPackages [anyon]: Skipping, unable to determine old version
+[2023-04-28 16:37:40] INFO root fetch - processPackages [anyon]: Start processing: idem-k8s
+[2023-04-28 16:37:40] INFO root fetch - processPackages [idem-vault]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-04-28 16:37:40] INFO root fetch - processPackages [patchwork-websoccer]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-28 16:37:40] INFO root fetch - main [MainThread]: End processing [anyon] error
+[2023-04-28 16:37:40] INFO root fetch - processPackages [QuickMQ]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-28 16:37:40] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-28 16:37:40] INFO root fetch - processPackages [azure-keyvault-stuff]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 16:37:40] WARNING root fetch - processPackages [equasolver]: Skipping, unable to determine old version
+[2023-04-28 16:37:40] INFO root fetch - processPackages [equasolver]: Start processing: idem-helm
+[2023-04-28 16:37:40] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-28 16:37:40] INFO root fetch - main [MainThread]: End processing [equasolver] error
+[2023-04-28 16:37:40] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230428/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 16:37:40] INFO root fetch - processPackages [whisper-voice-commands]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 16:37:40] INFO root fetch - processPackages [adaux]: executing diffoscope
+[2023-04-28 16:37:40] INFO root fetch - processPackages [adaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaux-2.4.0.tar.gz tmp/adaux-2.4.1.tar.gz --markdown 20230428/a/adaux/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-28 16:37:40] INFO root fetch - processPackages [idem-k8s]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-28 16:37:40] INFO root fetch - processPackages [idem-helm]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-28 16:37:40] INFO root fetch - processPackages [QuickMQ]: Downloading https://files.pythonhosted.org/packages/44/8c/e35f1d0beebe58e6d2cbbf61dd05ae79ba2c0a8f8ae5fc5ec1e2009eb295/QuickMQ-0.8.0.tar.gz
+[2023-04-28 16:37:40] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/94/51/27351e27b84fb88e4cafeee9829c12c91fa3a932466885fd524f7745c83c/fieldedge-utilities-0.9.4.tar.gz
+[2023-04-28 16:37:40] INFO root fetch - processPackages [whisper-voice-commands]: Downloading https://files.pythonhosted.org/packages/f9/2b/0b4a3bb190950c442449cbd9545c232f236a29a7d3d520f4488020ef1659/whisper_voice_commands-0.0.1.tar.gz
+[2023-04-28 16:37:40] INFO root fetch - processPackages [idem-vault]: Downloading https://files.pythonhosted.org/packages/77/d5/a053be7f583f97dbd456f017b01ca427da37a3392b9cdaca98710650354b/idem-vault-0.3.1.tar.gz
+[2023-04-28 16:37:40] INFO root fetch - processPackages [azure-keyvault-stuff]: Downloading https://files.pythonhosted.org/packages/30/c4/8f2e8b14f3143ba0a0bca589bb7f8f73c3e73ffa34a5c315c2745a2db2b8/azure-keyvault-stuff-0.0.1.tar.gz
+[2023-04-28 16:37:40] INFO root fetch - processPackages [idem-k8s]: Downloading https://files.pythonhosted.org/packages/af/53/ce48b48d5c9271256a95dbd8f8d3e433cec87ccd1909181744c9edeb97dd/idem-k8s-0.5.0.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-helm]: Downloading https://files.pythonhosted.org/packages/9e/1d/b3c074172cb26e09aac955c591021ce7f44afe4cd5f7dea5122bc092888f/idem-helm-0.2.1.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [patchwork-websoccer]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [patchwork-websoccer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork-websoccer-0.1.7.tar.gz tmp/patchwork-websoccer-0.1.8.tar.gz --markdown 20230428/p/patchwork-websoccer/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [whisper-voice-commands]: Downloading https://files.pythonhosted.org/packages/85/8b/ebfc78bcc8eafe9597cdbc5929e26bd25de9837efb36f8f73540a865c088/whisper_voice_commands-0.0.2.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [azure-keyvault-stuff]: Downloading https://files.pythonhosted.org/packages/6c/ca/365d7cb134f32b1f2a31bb413035cc53c062ef2d051f5bb01e22a5a4eae0/azure-keyvault-stuff-0.0.2.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-k8s]: Downloading https://files.pythonhosted.org/packages/57/8c/d183e2f03bf0ba11f8fb031c8b61c969ea01c3612985834350b2c7e14e3d/idem-k8s-0.6.0.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [QuickMQ]: Downloading https://files.pythonhosted.org/packages/ad/d0/c8eeda233dba22eb9d8a63413b21a4158666760622c9ebbc4b2d7915c1ad/QuickMQ-0.8.1.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [whisper-voice-commands]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [whisper-voice-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_voice_commands-0.0.1.tar.gz tmp/whisper_voice_commands-0.0.2.tar.gz --markdown 20230428/w/whisper-voice-commands/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-vault]: Downloading https://files.pythonhosted.org/packages/66/69/26f2871695855c2ab2a84b10b0a11a2eb012caf36469ff5e96871443bd0f/idem-vault-0.4.0.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/a4/cc/5e3cca6cf81fd198ab60061c1fc2991aa7d6101683864c4fac3709547e03/fieldedge-utilities-0.9.5.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-k8s]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-k8s-0.5.0.tar.gz tmp/idem-k8s-0.6.0.tar.gz --markdown 20230428/i/idem-k8s/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-vault]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-vault-0.3.1.tar.gz tmp/idem-vault-0.4.0.tar.gz --markdown 20230428/i/idem-vault/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [QuickMQ]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [QuickMQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuickMQ-0.8.0.tar.gz tmp/QuickMQ-0.8.1.tar.gz --markdown 20230428/Q/QuickMQ/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [azure-keyvault-stuff]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [azure-keyvault-stuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-keyvault-stuff-0.0.1.tar.gz tmp/azure-keyvault-stuff-0.0.2.tar.gz --markdown 20230428/a/azure-keyvault-stuff/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-helm]: Downloading https://files.pythonhosted.org/packages/9c/a1/4eca85d4324a747288eeb14dbd59c1751b6cd29543facc94f7ae59000ef9/idem-helm-0.3.0.tar.gz
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-helm]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [idem-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-helm-0.2.1.tar.gz tmp/idem-helm-0.3.0.tar.gz --markdown 20230428/i/idem-helm/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-04-28 16:37:41] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230428/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-28 16:37:41] INFO root fetch - processPackages [dop-integration-libs]: Start processing: girdgui
+[2023-04-28 16:37:41] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-28 16:37:41] INFO root fetch - processPackages [girdgui]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-28 16:37:42] INFO root fetch - processPackages [girdgui]: Downloading https://files.pythonhosted.org/packages/90/bd/230692c088cc3487490007e405109ada06939f506aa4cbd30887bf0bf071/girdgui-1.0.1.tar.gz
+[2023-04-28 16:37:42] INFO root fetch - processPackages [girdgui]: Downloading https://files.pythonhosted.org/packages/8e/b6/593ba668876d913921d1c53fb92faaf2b0b3520bc8ada7feab6fb4240521/girdgui-1.1.0.tar.gz
+[2023-04-28 16:37:42] INFO root fetch - processPackages [whisper-voice-commands]: Start processing: asleep
+[2023-04-28 16:37:42] INFO root fetch - main [MainThread]: End processing [whisper-voice-commands]: success
+[2023-04-28 16:37:42] INFO root fetch - processPackages [asleep]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-28 16:37:42] INFO root fetch - processPackages [girdgui]: executing diffoscope
+[2023-04-28 16:37:42] INFO root fetch - processPackages [girdgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girdgui-1.0.1.tar.gz tmp/girdgui-1.1.0.tar.gz --markdown 20230428/g/girdgui/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 16:37:42] INFO root fetch - processPackages [patchwork-websoccer]: Start processing: django-tsp
+[2023-04-28 16:37:42] INFO root fetch - main [MainThread]: End processing [patchwork-websoccer]: success
+[2023-04-28 16:37:42] WARNING root fetch - processPackages [django-tsp]: Skipping, unable to determine old version
+[2023-04-28 16:37:42] INFO root fetch - processPackages [django-tsp]: Start processing: netorca-sdk
+[2023-04-28 16:37:42] INFO root fetch - main [MainThread]: End processing [django-tsp] error
+[2023-04-28 16:37:42] INFO root fetch - processPackages [asleep]: Downloading https://files.pythonhosted.org/packages/00/d0/bf03ba06be03ba21d86473c211bf1779924addaa6191baa96e022d1e309d/asleep-0.3.7.tar.gz
+[2023-04-28 16:37:42] INFO root fetch - processPackages [netorca-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 16:37:42] WARNING root fetch - processPackages [asleep]: Skipping package: exceeds size limit 41156337>=10485760
+[2023-04-28 16:37:42] INFO root fetch - processPackages [asleep]: Start processing: dequeai
+[2023-04-28 16:37:42] INFO root fetch - main [MainThread]: End processing [asleep] error
+[2023-04-28 16:37:42] INFO root fetch - processPackages [dequeai]: New version: [0.770] Old Version: [0.768]
+[2023-04-28 16:37:42] INFO root fetch - processPackages [azure-keyvault-stuff]: Start processing: farm-haystack
+[2023-04-28 16:37:42] INFO root fetch - main [MainThread]: End processing [azure-keyvault-stuff]: success
+[2023-04-28 16:37:42] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2023-04-28 16:37:42] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-28 16:37:42] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.768.tar.gz tmp/dequeai-0.770.tar.gz --markdown 20230428/d/dequeai/0.768-0.770/diff.md --exclude *.pyd
+[2023-04-28 16:37:43] INFO root fetch - main [MainThread]: End processing [idem-vault]: success
+[2023-04-28 16:37:43] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/27/05/336984f7c58634cb8f02e301f6e805f99223c0083277573c15a08b65daa4/netorca_sdk-0.0.8.tar.gz
+[2023-04-28 16:37:43] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2023-04-28 16:37:43] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20230428/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2023-04-28 16:37:43] INFO root fetch - main [MainThread]: End processing [QuickMQ]: success
+[2023-04-28 16:37:43] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-04-28 16:37:43] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/04/f9/d6bae7241d181e2251d4906691b472dab5bf8e30a053a5d8fe581627f769/netorca_sdk-0.0.9.tar.gz
+[2023-04-28 16:37:43] INFO root fetch - main [MainThread]: End processing [idem-k8s]: success
+[2023-04-28 16:37:43] INFO root fetch - processPackages [netorca-sdk]: executing diffoscope
+[2023-04-28 16:37:43] INFO root fetch - processPackages [netorca-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netorca_sdk-0.0.8.tar.gz tmp/netorca_sdk-0.0.9.tar.gz --markdown 20230428/n/netorca-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:37:43] INFO root fetch - main [MainThread]: End processing [adaux]: success
+[2023-04-28 16:37:43] INFO root fetch - main [MainThread]: End processing [idem-helm]: success
+[2023-04-28 16:37:44] INFO root fetch - main [MainThread]: End processing [girdgui]: success
+[2023-04-28 16:37:44] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-28 16:37:44] INFO root fetch - main [MainThread]: End processing [netorca-sdk]: success
+[2023-04-28 16:37:45] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2023-04-28 16:37:45] INFO root fetch - main [MainThread]: Store serial: [17899360]
