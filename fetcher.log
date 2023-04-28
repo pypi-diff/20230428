@@ -15476,3 +15476,122 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 15:21:44] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
 [2023-04-28 15:21:46] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-04-28 15:21:46] INFO root fetch - main [MainThread]: Store serial: [17898436]
+[2023-04-28 15:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898436]
+[2023-04-28 15:26:56] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyuftp
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fractal-server
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oking
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dreamai
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wildbook-ia
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: estimenergy
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utilities-hki
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: charidotella
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SCALECAST
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stauth
+[2023-04-28 15:26:56] INFO root fetch - processPackages [dreamai]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev9] Old Version: [4.0.5.dev7]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [estimenergy]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/40/85/5b53dde8c23f417276813ab5c417082c46f429e05a65e55774cc6246d065/wildbook_ia-4.0.5.dev7-py3-none-any.whl
+[2023-04-28 15:26:56] WARNING root fetch - processPackages [pyuftp]: Skipping, unable to determine old version
+[2023-04-28 15:26:56] INFO root fetch - processPackages [pyuftp]: Start processing: docx-word-instance-generator
+[2023-04-28 15:26:56] INFO root fetch - main [MainThread]: End processing [pyuftp] error
+[2023-04-28 15:26:56] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-04-28 15:26:56] INFO root fetch - processPackages [oking]: Start processing: ethpm-types
+[2023-04-28 15:26:56] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-28 15:26:56] INFO root fetch - processPackages [fractal-server]: New version: [1.2.3a2] Old Version: [1.2.3a1]
+[2023-04-28 15:26:56] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662773>=10485760
+[2023-04-28 15:26:56] INFO root fetch - processPackages [wildbook-ia]: Start processing: few-shot-priming
+[2023-04-28 15:26:56] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-28 15:26:56] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-04-28 15:26:56] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.2.0.tar.gz tmp/dreamai-0.3.0.tar.gz --markdown 20230428/d/dreamai/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 15:26:56] INFO root fetch - processPackages [stauth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [utilities-hki]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [SCALECAST]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [charidotella]: New version: [0.9] Old Version: [0.8]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-28 15:26:56] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-1.9.1.tar.gz tmp/estimenergy-1.9.2.tar.gz --markdown 20230428/e/estimenergy/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-28 15:26:56] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [docx-word-instance-generator]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ethpm-types]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-28 15:26:56] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 15:26:56] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:26:56] INFO root fetch - processPackages [utilities-hki]: Downloading https://files.pythonhosted.org/packages/e0/a8/929be7a28c2b489984da437e8ceaeda34946b36034426a1869ddf768e1c4/utilities_hki-0.1.2.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [stauth]: Downloading https://files.pythonhosted.org/packages/e6/01/b771d2629c628c34b96a54ee36c85245c7b06e592c1b7ce0f0e3c0a506ec/stauth-0.1.8.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/73/06/0be2546f7ab47d5f04df64688f9e7e15e62ba9a76512c61f1fbe4203f198/SCALECAST-0.9.8.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [charidotella]: Downloading https://files.pythonhosted.org/packages/44/00/f993156ceee5e85f2bc08a076f848e35c7490e3f91b27ab40810114dd20b/charidotella-0.8.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ethpm-types]: Downloading https://files.pythonhosted.org/packages/7a/b6/ad6472b0ec789aca83d1d6eb137951f3658387e4efee521652367b761de7/ethpm-types-0.4.3.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/ae/fa/95e093cfff2101c975e0c942f4d9d2b8a870877c67c4dd547ead532bde86/fractal_server-1.2.3a2.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [docx-word-instance-generator]: executing diffoscope
+[2023-04-28 15:26:56] INFO root fetch - processPackages [docx-word-instance-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_word_instance_generator-0.7.0-py3-none-any.whl.zip tmp/docx_word_instance_generator-0.8.0-py3-none-any.whl.zip --markdown 20230428/d/docx-word-instance-generator/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 15:26:56] INFO root fetch - processPackages [utilities-hki]: Downloading https://files.pythonhosted.org/packages/6a/28/a6b74d209c3bd4e6c8051820669c9589e26e8148dc0aaf69536137a281ac/utilities_hki-0.1.3.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-28 15:26:56] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.3a1.tar.gz tmp/fractal_server-1.2.3a2.tar.gz --markdown 20230428/f/fractal-server/1.2.3a1-1.2.3a2/diff.md --exclude *.pyd
+[2023-04-28 15:26:56] INFO root fetch - processPackages [ethpm-types]: Downloading https://files.pythonhosted.org/packages/ba/78/d8f18bbb46fb1c04bdba1b94b022295c9dfeb5d1c7f4e4c45b1080f7a520/ethpm-types-0.4.4.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [charidotella]: Downloading https://files.pythonhosted.org/packages/20/57/86f7f42e58e3c00d6246a627ba4bdfa5f913fd94447949fa4c39223d6b5d/charidotella-0.9.tar.gz
+[2023-04-28 15:26:56] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/97/84/a40b0cf229ccc710ac89d010acac4e409d1a556ce05bedf45679f58d1719/SCALECAST-0.9.9.tar.gz
+[2023-04-28 15:26:57] INFO root fetch - processPackages [utilities-hki]: executing diffoscope
+[2023-04-28 15:26:57] INFO root fetch - processPackages [utilities-hki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilities_hki-0.1.2.tar.gz tmp/utilities_hki-0.1.3.tar.gz --markdown 20230428/u/utilities-hki/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 15:26:57] INFO root fetch - processPackages [stauth]: Downloading https://files.pythonhosted.org/packages/74/8e/43995a5ac867d5a8a8db30867a6410fa5f8c681161710c23124f88fb10c4/stauth-0.1.9.tar.gz
+[2023-04-28 15:26:57] INFO root fetch - processPackages [charidotella]: executing diffoscope
+[2023-04-28 15:26:57] INFO root fetch - processPackages [charidotella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charidotella-0.8.tar.gz tmp/charidotella-0.9.tar.gz --markdown 20230428/c/charidotella/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-28 15:26:57] INFO root fetch - processPackages [ethpm-types]: executing diffoscope
+[2023-04-28 15:26:57] INFO root fetch - processPackages [ethpm-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethpm-types-0.4.3.tar.gz tmp/ethpm-types-0.4.4.tar.gz --markdown 20230428/e/ethpm-types/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-28 15:26:57] INFO root fetch - processPackages [stauth]: executing diffoscope
+[2023-04-28 15:26:57] INFO root fetch - processPackages [stauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stauth-0.1.8.tar.gz tmp/stauth-0.1.9.tar.gz --markdown 20230428/s/stauth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 15:26:57] INFO root fetch - processPackages [dreamai]: Start processing: dwh-oppfolging
+[2023-04-28 15:26:57] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-04-28 15:26:57] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 15:26:57] INFO root fetch - processPackages [estimenergy]: Start processing: space-invaders
+[2023-04-28 15:26:57] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-28 15:26:57] INFO root fetch - processPackages [space-invaders]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-04-28 15:26:57] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2023-04-28 15:26:57] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.8.tar.gz tmp/dwh_oppfolging-0.0.9.tar.gz --markdown 20230428/d/dwh-oppfolging/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 15:26:57] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/41/11/3cb33abe55677a0f06148e2d2001e8ccd2b0713f12cd69efe43bb4109f23/space-invaders-0.1.12.tar.gz
+[2023-04-28 15:26:58] INFO root fetch - processPackages [docx-word-instance-generator]: Start processing: upgini
+[2023-04-28 15:26:58] INFO root fetch - main [MainThread]: End processing [docx-word-instance-generator]: success
+[2023-04-28 15:26:58] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-28 15:26:58] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/53/7f/9cf1a68d085377ba3add49674bde9e1bb087ca1a521430992481ffa2a4f8/space-invaders-0.1.13.tar.gz
+[2023-04-28 15:26:58] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-04-28 15:26:58] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230428/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-28 15:26:58] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-28 15:26:58] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.12.tar.gz tmp/space-invaders-0.1.13.tar.gz --markdown 20230428/s/space-invaders/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-04-28 15:26:58] INFO root fetch - processPackages [stauth]: Start processing: asleep
+[2023-04-28 15:26:58] INFO root fetch - main [MainThread]: End processing [stauth]: success
+[2023-04-28 15:26:58] INFO root fetch - processPackages [asleep]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-28 15:26:58] INFO root fetch - processPackages [SCALECAST]: executing diffoscope
+[2023-04-28 15:26:58] INFO root fetch - processPackages [SCALECAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCALECAST-0.9.8.tar.gz tmp/SCALECAST-0.9.9.tar.gz --markdown 20230428/S/SCALECAST/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 15:26:58] INFO root fetch - processPackages [asleep]: Downloading https://files.pythonhosted.org/packages/2e/07/cda4b44b105ab18934418818c86148d27195e0fb0ddcff03830b63d126f0/asleep-0.3.6.tar.gz
+[2023-04-28 15:26:58] INFO root fetch - processPackages [dwh-oppfolging]: Start processing: cybrid-api-bank-python
+[2023-04-28 15:26:58] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2023-04-28 15:26:58] WARNING root fetch - processPackages [asleep]: Skipping package: exceeds size limit 41156096>=10485760
+[2023-04-28 15:26:58] INFO root fetch - processPackages [asleep]: Start processing: cybrid-api-id-python
+[2023-04-28 15:26:58] INFO root fetch - main [MainThread]: End processing [asleep] error
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 15:26:59] INFO root fetch - processPackages [fractal-server]: Start processing: cybrid-api-organization-python
+[2023-04-28 15:26:59] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230428/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230428/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-28 15:26:59] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230428/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 15:26:59] INFO root fetch - processPackages [utilities-hki]: Start processing: few-shot-priming
+[2023-04-28 15:26:59] INFO root fetch - main [MainThread]: End processing [utilities-hki]: success
+[2023-04-28 15:26:59] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-28 15:26:59] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-28 15:26:59] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230428/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 15:26:59] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-04-28 15:26:59] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-28 15:27:00] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 15:27:00] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-28 15:27:00] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-28 15:27:01] INFO root fetch - main [MainThread]: End processing [ethpm-types]: success
+[2023-04-28 15:27:01] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-28 15:27:02] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-28 15:27:02] INFO root fetch - main [MainThread]: End processing [charidotella]: success
+[2023-04-28 15:27:02] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
+[2023-04-28 15:27:02] INFO root fetch - main [MainThread]: Store serial: [17898532]
