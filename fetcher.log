@@ -4342,3 +4342,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 03:39:14] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
 [2023-04-28 03:39:18] INFO root fetch - main [MainThread]: End processing [pyfredapi]: success
 [2023-04-28 03:39:18] INFO root fetch - main [MainThread]: Store serial: [17892211]
+[2023-04-28 03:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17892211]
+[2023-04-28 03:44:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pytorch
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VaspGibbs
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domain-admin
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-thread
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teiphy
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplechain
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cyberdrop-dl
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-wget
+[2023-04-28 03:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-sphinx
+[2023-04-28 03:44:26] WARNING root fetch - processPackages [VaspGibbs]: Skipping, unable to determine old version
+[2023-04-28 03:44:26] INFO root fetch - processPackages [VaspGibbs]: Start processing: polyfactory
+[2023-04-28 03:44:26] INFO root fetch - main [MainThread]: End processing [VaspGibbs] error
+[2023-04-28 03:44:26] INFO root fetch - processPackages [teiphy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-28 03:44:26] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-28 03:44:26] INFO root fetch - processPackages [simplechain]: New version: [0.0.5.1] Old Version: [0.0.5]
+[2023-04-28 03:44:26] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:44:27] INFO root fetch - processPackages [polyfactory]: New version: [2.0.1] Old Version: [2.0.0a1]
+[2023-04-28 03:44:27] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.1.17] Old Version: [4.1.16]
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:44:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 03:44:27] INFO root fetch - processPackages [teiphy]: Downloading https://files.pythonhosted.org/packages/f8/f9/ff480ac55e14c559bb90fd1e9fc497a576596fa7ad69c026a2c195007dcf/teiphy-0.1.5.tar.gz
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230428/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230428/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230428/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/5b/e0/395e5ccd88e1a31d6ab60b43d9174c4c434b1f5ecc3fb81c471183a2b7c3/polyfactory-2.0.0a1.tar.gz
+[2023-04-28 03:44:27] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/1e/7b/7bed20a7d5f62ddccb6bdfe8248f000a0f6d2d2c74c9af59c642a692a0ce/simplechain-0.0.5.1.tar.gz
+[2023-04-28 03:44:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230428/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [simplechain]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [simplechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplechain-0.0.5.tar.gz tmp/simplechain-0.0.5.1.tar.gz --markdown 20230428/s/simplechain/0.0.5-0.0.5.1/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/9f/f6/ac83d24f213cfe315f8a4b515ec4cf0959d9001796b99c1c44dbdc66e76c/cyberdrop-dl-4.1.17.tar.gz
+[2023-04-28 03:44:27] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230428/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.1.16.tar.gz tmp/cyberdrop-dl-4.1.17.tar.gz --markdown 20230428/c/cyberdrop-dl/4.1.16-4.1.17/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [teiphy]: Downloading https://files.pythonhosted.org/packages/03/35/3eaab5c0d021927640a774d85cde0b64f58a5066bedf3b612831c84b12ea/teiphy-0.1.6.tar.gz
+[2023-04-28 03:44:27] INFO root fetch - processPackages [teiphy]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [teiphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teiphy-0.1.5.tar.gz tmp/teiphy-0.1.6.tar.gz --markdown 20230428/t/teiphy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/81/19/fd784ffa0c746aa876311e6cf8f3ac25cace41b1b452ff53ee6121b8269d/polyfactory-2.0.1.tar.gz
+[2023-04-28 03:44:27] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230428/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 03:44:27] INFO root fetch - processPackages [polyfactory]: executing diffoscope
+[2023-04-28 03:44:27] INFO root fetch - processPackages [polyfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyfactory-2.0.0a1.tar.gz tmp/polyfactory-2.0.1.tar.gz --markdown 20230428/p/polyfactory/2.0.0a1-2.0.1/diff.md --exclude *.pyd
+[2023-04-28 03:44:28] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: proactive
+[2023-04-28 03:44:28] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-28 03:44:28] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-28 03:44:28] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-28 03:44:28] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-28 03:44:28] INFO root fetch - processPackages [proactive]: Start processing: sphericalrht
+[2023-04-28 03:44:28] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-28 03:44:28] INFO root fetch - processPackages [sphericalrht]: New version: [2.0.0] Old Version: [1.2.2]
+[2023-04-28 03:44:28] INFO root fetch - processPackages [simplechain]: Start processing: mpm-msftool
+[2023-04-28 03:44:28] INFO root fetch - main [MainThread]: End processing [simplechain]: success
+[2023-04-28 03:44:29] WARNING root fetch - processPackages [mpm-msftool]: Skipping, unable to determine old version
+[2023-04-28 03:44:29] INFO root fetch - processPackages [mpm-msftool]: Start processing: domain-admin
+[2023-04-28 03:44:29] INFO root fetch - main [MainThread]: End processing [mpm-msftool] error
+[2023-04-28 03:44:29] INFO root fetch - processPackages [sphericalrht]: Downloading https://files.pythonhosted.org/packages/df/6f/48a45117ce816426806adfbb19b8d1b340a271b2edaa65447b703a211384/sphericalrht-1.2.2.tar.gz
+[2023-04-28 03:44:29] INFO root fetch - processPackages [teiphy]: Start processing: pyBCV
+[2023-04-28 03:44:29] INFO root fetch - main [MainThread]: End processing [teiphy]: success
+[2023-04-28 03:44:29] INFO root fetch - processPackages [pyBCV]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-28 03:44:29] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-28 03:44:29] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: proactive-jupyter-kernel
+[2023-04-28 03:44:29] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-28 03:44:29] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-28 03:44:29] INFO root fetch - main [MainThread]: End processing [polyfactory]: success
+[2023-04-28 03:44:29] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-04-28 03:44:29] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230428/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-28 03:44:29] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-28 03:44:29] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230428/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-28 03:44:29] INFO root fetch - processPackages [pyBCV]: Downloading https://files.pythonhosted.org/packages/b6/0d/8fba30991a01d87698875b62950aa75ecd0243c92419a3df560667e3f571/pyBCV-1.0.6-py3-none-any.whl
+[2023-04-28 03:44:29] INFO root fetch - processPackages [sphericalrht]: Downloading https://files.pythonhosted.org/packages/73/93/4a87633add4bcfd040bdcd1e47e572326e46e30e50811905744bc56f3d77/sphericalrht-2.0.0.tar.gz
+[2023-04-28 03:44:29] INFO root fetch - processPackages [pyBCV]: executing diffoscope
+[2023-04-28 03:44:29] INFO root fetch - processPackages [pyBCV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBCV-1.0.5-py3-none-any.whl.zip tmp/pyBCV-1.0.6-py3-none-any.whl.zip --markdown 20230428/p/pyBCV/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 03:44:29] INFO root fetch - processPackages [sphericalrht]: executing diffoscope
+[2023-04-28 03:44:29] INFO root fetch - processPackages [sphericalrht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphericalrht-1.2.2.tar.gz tmp/sphericalrht-2.0.0.tar.gz --markdown 20230428/s/sphericalrht/1.2.2-2.0.0/diff.md --exclude *.pyd
+[2023-04-28 03:44:29] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-04-28 03:44:29] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-28 03:44:29] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-28 03:44:30] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-04-28 03:44:30] INFO root fetch - main [MainThread]: End processing [pyBCV]: success
+[2023-04-28 03:44:30] INFO root fetch - main [MainThread]: End processing [sphericalrht]: success
+[2023-04-28 03:44:30] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-28 03:44:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-28 03:44:32] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-04-28 03:44:32] INFO root fetch - main [MainThread]: Store serial: [17892286]
