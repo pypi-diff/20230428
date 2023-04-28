@@ -7406,3 +7406,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:30:03] INFO root fetch - main [MainThread]: End processing [sanic-restful-api]: success
 [2023-04-28 06:30:06] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2023-04-28 06:30:06] INFO root fetch - main [MainThread]: Store serial: [17893891]
+[2023-04-28 06:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893891]
+[2023-04-28 06:35:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgx
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: studentgradesconverter
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-hr-attendance
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wildbook-ia
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ChatLLM
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepdriver
+[2023-04-28 06:35:15] INFO root fetch - processPackages [odoo-addons-oca-hr-attendance]: New version: [16.0.20230117.0] Old Version: [15.0.20230427.0]
+[2023-04-28 06:35:15] INFO root fetch - processPackages [studentgradesconverter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.12.8.1] Old Version: [2023.4.28.12.32.38]
+[2023-04-28 06:35:15] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev9] Old Version: [4.0.5.dev7]
+[2023-04-28 06:35:15] INFO root fetch - processPackages [pgx]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-28 06:35:15] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-28 06:35:15] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/40/85/5b53dde8c23f417276813ab5c417082c46f429e05a65e55774cc6246d065/wildbook_ia-4.0.5.dev7-py3-none-any.whl
+[2023-04-28 06:35:15] INFO root fetch - processPackages [odoo-addons-oca-hr-attendance]: Downloading https://files.pythonhosted.org/packages/7d/ef/a096926396103ea60e95b33917e8115470c7733e0f5aa243a871ae08b5f0/odoo_addons_oca_hr_attendance-15.0.20230427.0-py3-none-any.whl
+[2023-04-28 06:35:15] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662773>=10485760
+[2023-04-28 06:35:15] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-28 06:35:15] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/08/f4/fe40115dc3f104a44093c3974c10b4d98b90cd237c5d30bf4808346cb6d0/ChatLLM-2023.4.28.12.32.38.tar.gz
+[2023-04-28 06:35:15] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230428/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-28 06:35:15] INFO root fetch - processPackages [studentgradesconverter]: Downloading https://files.pythonhosted.org/packages/0e/f4/2fc1157aef9aaae225ec3b4af78334613eb1e076e72a9950517e035359ac/studentgradesconverter-0.0.3.tar.gz
+[2023-04-28 06:35:15] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/a0/7e/708bef51c77d52caaa1b4eb87f6c5093efdf1bd51dcc0d1e78281b010e7e/pgx-0.6.1.tar.gz
+[2023-04-28 06:35:15] INFO root fetch - processPackages [studentgradesconverter]: executing diffoscope
+[2023-04-28 06:35:15] INFO root fetch - processPackages [studentgradesconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/studentgradesconverter-0.0.2.tar.gz tmp/studentgradesconverter-0.0.3.tar.gz --markdown 20230428/s/studentgradesconverter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 06:35:15] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.12.32.38.tar.gz tmp/ChatLLM-2023.4.28.12.8.1.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.12.32.38-2023.4.28.12.8.1/diff.md --exclude *.pyd
+[2023-04-28 06:35:15] INFO root fetch - processPackages [odoo-addons-oca-hr-attendance]: Downloading https://files.pythonhosted.org/packages/e4/26/40e6145614a2b37cd7d4a16e9428c848dff386f9d8b3348069314e2f9feb/odoo_addons_oca_hr_attendance-16.0.20230117.0-py3-none-any.whl
+[2023-04-28 06:35:15] INFO root fetch - processPackages [odoo-addons-oca-hr-attendance]: executing diffoscope
+[2023-04-28 06:35:15] INFO root fetch - processPackages [odoo-addons-oca-hr-attendance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr_attendance-15.0.20230427.0-py3-none-any.whl.zip tmp/odoo_addons_oca_hr_attendance-16.0.20230117.0-py3-none-any.whl.zip --markdown 20230428/o/odoo-addons-oca-hr-attendance/15.0.20230427.0-16.0.20230117.0/diff.md --exclude *.pyd
+[2023-04-28 06:35:15] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/c6/8e/63aac033ce674c0b54f5bae38f8411c64b1bd350eef0dfe5722fa08ffc87/pgx-0.7.0.tar.gz
+[2023-04-28 06:35:15] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-04-28 06:35:15] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.6.1.tar.gz tmp/pgx-0.7.0.tar.gz --markdown 20230428/p/pgx/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 06:35:16] INFO root fetch - main [MainThread]: End processing [studentgradesconverter]: success
+[2023-04-28 06:35:16] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-28 06:35:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr-attendance]: success
+[2023-04-28 06:35:18] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-04-28 06:35:19] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 06:35:19] INFO root fetch - main [MainThread]: Store serial: [17893908]
