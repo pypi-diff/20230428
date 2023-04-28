@@ -1218,3 +1218,48 @@
 [2023-04-28 02:02:23] INFO root fetch - processPackages [streamline-trp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamline_trp-0.1.3.tar.gz tmp/streamline_trp-0.1.4.tar.gz --markdown 20230428/s/streamline-trp/0.1.3-0.1.4/diff.md --exclude *.pyd
 [2023-04-28 02:02:26] INFO root fetch - main [MainThread]: End processing [streamline-trp]: success
 [2023-04-28 02:02:26] INFO root fetch - main [MainThread]: Store serial: [17890250]
+[2023-04-28 02:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890250]
+[2023-04-28 02:07:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-28 02:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchdatasets-nightly
+[2023-04-28 02:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: energinet-ml-sdk
+[2023-04-28 02:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-04-28 02:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getpack
+[2023-04-28 02:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: com-digitalruiz-shopify-tools
+[2023-04-28 02:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: culturalconformity
+[2023-04-28 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinohub-seedwork-be
+[2023-04-28 02:07:35] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 02:07:35] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1682553772] Old Version: [1682467392]
+[2023-04-28 02:07:35] INFO root fetch - processPackages [energinet-ml-sdk]: New version: [0.9.2.dev87] Old Version: [0.9.2.dev86]
+[2023-04-28 02:07:35] INFO root fetch - processPackages [getpack]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-28 02:07:35] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-04-28 02:07:35] INFO root fetch - processPackages [culturalconformity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 02:07:35] INFO root fetch - processPackages [com-digitalruiz-shopify-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 02:07:35] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-28 02:07:35] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230428/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 02:07:35] INFO root fetch - processPackages [getpack]: Downloading https://files.pythonhosted.org/packages/9e/2e/336249710522a1aefd4e5fbc358ec84becb041a1362133145228c8bfc2b2/getpack-0.2.3.tar.gz
+[2023-04-28 02:07:35] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-04-28 02:07:35] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230428/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-04-28 02:07:35] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/5a/c8/304cfaffed33f8d95bc386ab9f2094cadae094c0fb5c402078445fe203f7/torchdatasets-nightly-1682553772.tar.gz
+[2023-04-28 02:07:35] INFO root fetch - processPackages [com-digitalruiz-shopify-tools]: Downloading https://files.pythonhosted.org/packages/b5/f4/1a9a404b405c4bda41db8f6b84f23854bc3f13ec854e87638334a474aa40/com_digitalruiz_shopify_tools-0.0.8.tar.gz
+[2023-04-28 02:07:35] INFO root fetch - processPackages [culturalconformity]: Downloading https://files.pythonhosted.org/packages/4b/7e/d4203e86e7bb1e0a75af264fff83c845dc880bb8c2bfef06f527c60df37b/culturalconformity-0.0.8.tar.gz
+[2023-04-28 02:07:35] INFO root fetch - processPackages [energinet-ml-sdk]: executing diffoscope
+[2023-04-28 02:07:35] INFO root fetch - processPackages [energinet-ml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energinet-ml-sdk-0.9.2.dev86.tar.gz tmp/energinet-ml-sdk-0.9.2.dev87.tar.gz --markdown 20230428/e/energinet-ml-sdk/0.9.2.dev86-0.9.2.dev87/diff.md --exclude *.pyd
+[2023-04-28 02:07:35] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-04-28 02:07:35] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1682467392.tar.gz tmp/torchdatasets-nightly-1682553772.tar.gz --markdown 20230428/t/torchdatasets-nightly/1682467392-1682553772/diff.md --exclude *.pyd
+[2023-04-28 02:07:35] INFO root fetch - processPackages [getpack]: Downloading https://files.pythonhosted.org/packages/e1/c1/037344f7ef30d5dc20889c2305bff769fbf3ab97e26af4497be4a7e60d10/getpack-0.2.4.tar.gz
+[2023-04-28 02:07:35] INFO root fetch - processPackages [culturalconformity]: Downloading https://files.pythonhosted.org/packages/55/14/e2729d192b98ff598370e6e782ad68ce649d0989787c1f50eb8b59736503/culturalconformity-0.0.9.tar.gz
+[2023-04-28 02:07:35] INFO root fetch - processPackages [getpack]: executing diffoscope
+[2023-04-28 02:07:35] INFO root fetch - processPackages [getpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpack-0.2.3.tar.gz tmp/getpack-0.2.4.tar.gz --markdown 20230428/g/getpack/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-28 02:07:35] INFO root fetch - processPackages [com-digitalruiz-shopify-tools]: Downloading https://files.pythonhosted.org/packages/b1/c1/12f707eae3572fc7414002fae9a88b4ef426b5ac1b87147d1f7801385894/com_digitalruiz_shopify_tools-0.0.9.tar.gz
+[2023-04-28 02:07:35] INFO root fetch - processPackages [culturalconformity]: executing diffoscope
+[2023-04-28 02:07:35] INFO root fetch - processPackages [culturalconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/culturalconformity-0.0.8.tar.gz tmp/culturalconformity-0.0.9.tar.gz --markdown 20230428/c/culturalconformity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 02:07:35] INFO root fetch - processPackages [com-digitalruiz-shopify-tools]: executing diffoscope
+[2023-04-28 02:07:35] INFO root fetch - processPackages [com-digitalruiz-shopify-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com_digitalruiz_shopify_tools-0.0.8.tar.gz tmp/com_digitalruiz_shopify_tools-0.0.9.tar.gz --markdown 20230428/c/com-digitalruiz-shopify-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 02:07:36] INFO root fetch - main [MainThread]: End processing [culturalconformity]: success
+[2023-04-28 02:07:37] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
+[2023-04-28 02:07:37] INFO root fetch - main [MainThread]: End processing [getpack]: success
+[2023-04-28 02:07:37] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-04-28 02:07:37] INFO root fetch - main [MainThread]: End processing [com-digitalruiz-shopify-tools]: success
+[2023-04-28 02:07:40] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-04-28 02:07:57] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-28 02:07:57] INFO root fetch - main [MainThread]: Store serial: [17890269]
