@@ -16751,3 +16751,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 16:26:55] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
 [2023-04-28 16:27:13] INFO root fetch - main [MainThread]: End processing [python-chi]: success
 [2023-04-28 16:27:13] INFO root fetch - main [MainThread]: Store serial: [17899245]
+[2023-04-28 16:32:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17899245]
+[2023-04-28 16:32:22] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gentrace-py
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prismacloud-api
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-keycloak
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sssom
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titan-iris
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-client
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-server
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-ui
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-v4-service
+[2023-04-28 16:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline
+[2023-04-28 16:32:23] INFO root fetch - processPackages [gentrace-py]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [prismacloud-api]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [sssom]: New version: [0.3.9] Old Version: [0.3.8.dev0]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [python-keycloak]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:32:23] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230428/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/fb/68/76e9ee21114a0826710c8716908a5548e11a334caeca846a34ca6f680f8e/sssom-0.3.8.dev0.tar.gz
+[2023-04-28 16:32:23] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-2.8.0.tar.gz tmp/python_keycloak-2.9.0.tar.gz --markdown 20230428/p/python-keycloak/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/70/e7/f36bd5f60d71bcedbd1a4f91c4c739ee65f8dba1e51e31682e3a085acfe6/gentrace_py-0.7.0.tar.gz
+[2023-04-28 16:32:23] INFO root fetch - processPackages [prismacloud-api]: Downloading https://files.pythonhosted.org/packages/34/06/b6664a40cc20a601505fd84762d7ce9fd92b71c7de13305dcfc239971c06/prismacloud-api-5.2.2.tar.gz
+[2023-04-28 16:32:23] INFO root fetch - processPackages [prismacloud-api]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [prismacloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismacloud-api-5.2.1.tar.gz tmp/prismacloud-api-5.2.2.tar.gz --markdown 20230428/p/prismacloud-api/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.6.1.tar.gz tmp/gentrace_py-0.7.0.tar.gz --markdown 20230428/g/gentrace-py/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230428/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230428/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:32:23] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/84/31/7dc51a85fbd7f7e60e1db58b033cf3b40b15106d5b17432f262f77358673/sssom-0.3.9.tar.gz
+[2023-04-28 16:32:23] INFO root fetch - processPackages [sssom]: executing diffoscope
+[2023-04-28 16:32:23] INFO root fetch - processPackages [sssom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssom-0.3.8.dev0.tar.gz tmp/sssom-0.3.9.tar.gz --markdown 20230428/s/sssom/0.3.8.dev0-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 16:32:25] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-core
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: kolibri-ml
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-28 16:32:25] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-28 16:32:25] INFO root fetch - processPackages [prismacloud-api]: Start processing: gkligo
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [prismacloud-api]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [gkligo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 16:32:25] INFO root fetch - processPackages [python-keycloak]: Start processing: NEMO-billing
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [NEMO-billing]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-28 16:32:25] INFO root fetch - processPackages [titan-iris]: Start processing: Turk-game
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [Turk-game]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-28 16:32:25] INFO root fetch - processPackages [gentrace-py]: Start processing: chellow
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-04-28 16:32:25] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-28 16:32:25] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230428/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-28 16:32:25] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-04-28 16:32:25] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.7-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230428/k/kolibri-ml/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-28 16:32:25] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/98/f8/5acbdc9f5e91f25d3c109a12334a65df65b08801c5ed4f97be50f5ba30e9/NEMO_billing-2.1.0-py3-none-any.whl
+[2023-04-28 16:32:25] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-04-28 16:32:25] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230428/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-04-28 16:32:25] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/5e/35/45bf303a2d9ac6f4a86de65ec7ca0901ed3c077bcc4e441540163a945de2/gkligo-0.0.9.tar.gz
+[2023-04-28 16:32:25] INFO root fetch - processPackages [Turk-game]: Downloading https://files.pythonhosted.org/packages/b2/74/bb657d40b343a56c5450b4c04265091a98593d167c7971d0ff1f878ecb99/Turk_game-1.0.5.tar.gz
+[2023-04-28 16:32:25] INFO root fetch - processPackages [assemblyline-ui]: Start processing: phdu
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [phdu]: New version: [1.8b3] Old Version: [1.8b2]
+[2023-04-28 16:32:25] INFO root fetch - processPackages [gkligo]: executing diffoscope
+[2023-04-28 16:32:25] INFO root fetch - processPackages [gkligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkligo-0.0.8.tar.gz tmp/gkligo-0.0.9.tar.gz --markdown 20230428/g/gkligo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 16:32:25] INFO root fetch - main [MainThread]: End processing [sssom]: success
+[2023-04-28 16:32:25] INFO root fetch - processPackages [Turk-game]: executing diffoscope
+[2023-04-28 16:32:25] INFO root fetch - processPackages [Turk-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Turk_game-1.0.4.tar.gz tmp/Turk_game-1.0.5.tar.gz --markdown 20230428/T/Turk-game/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-28 16:32:25] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/27/63/c54ca74c02033c96cf2917fc52ec57467208f5b684d0a5dcb74683554461/phdu-1.8b2.tar.gz
+[2023-04-28 16:32:25] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/cf/8b/a8293688cd82f6f84f847ba467b4198373cbd9c7bf8216ca33844171f144/NEMO_billing-2.1.1-py3-none-any.whl
+[2023-04-28 16:32:26] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2023-04-28 16:32:26] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.1.0-py3-none-any.whl.zip tmp/NEMO_billing-2.1.1-py3-none-any.whl.zip --markdown 20230428/N/NEMO-billing/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-28 16:32:26] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/5b/d5/cd4b95e71f18804b0273e3c38a92dd8786093ab89417d14fac6bda7634d3/phdu-1.8b3.tar.gz
+[2023-04-28 16:32:26] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2023-04-28 16:32:26] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-1.8b2.tar.gz tmp/phdu-1.8b3.tar.gz --markdown 20230428/p/phdu/1.8b2-1.8b3/diff.md --exclude *.pyd
+[2023-04-28 16:32:26] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-28 16:32:27] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-28 16:32:27] INFO root fetch - main [MainThread]: End processing [gkligo]: success
+[2023-04-28 16:32:27] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-28 16:32:27] INFO root fetch - main [MainThread]: End processing [Turk-game]: success
+[2023-04-28 16:32:27] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2023-04-28 16:32:28] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2023-04-28 16:32:30] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-04-28 16:32:31] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-04-28 16:32:31] INFO root fetch - main [MainThread]: Store serial: [17899294]
