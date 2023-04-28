@@ -7955,3 +7955,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:25:24] INFO root fetch - main [MainThread]: End processing [mxcurpy]: success
 [2023-04-28 07:25:24] INFO root fetch - main [MainThread]: End processing [QuantumIntelligence]: success
 [2023-04-28 07:25:24] INFO root fetch - main [MainThread]: Store serial: [17894173]
+[2023-04-28 07:30:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894173]
+[2023-04-28 07:30:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qt-custom
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuantumIntelligence
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansible-risk-insight
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.6rc1] Old Version: [0.1.5rc1]
+[2023-04-28 07:30:34] INFO root fetch - processPackages [QuantumIntelligence]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-28 07:30:34] INFO root fetch - processPackages [qt-custom]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-04-28 07:30:34] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-28 07:30:34] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-28 07:30:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-28 07:30:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230428/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-28 07:30:34] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-28 07:30:34] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230428/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-28 07:30:34] INFO root fetch - processPackages [QuantumIntelligence]: Downloading https://files.pythonhosted.org/packages/ee/38/d4154e541f94b23ffb2a9830ca3e152056bf02b21572056c0cb14c19f375/QuantumIntelligence-0.0.6.tar.gz
+[2023-04-28 07:30:34] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/ca/c2/afc33acd5351dcc3c4bd8b34c4965ede3e5e3182c0c7d36cbb85c46bbdca/qt-custom-0.1.9.tar.gz
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/00/06/0da8a9cb0acff367278fc9b3ce45f0e845fbff66694721b4063d18f111c4/ansible-risk-insight-0.1.6rc1.tar.gz
+[2023-04-28 07:30:34] INFO root fetch - processPackages [QuantumIntelligence]: executing diffoscope
+[2023-04-28 07:30:34] INFO root fetch - processPackages [QuantumIntelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumIntelligence-0.0.5.tar.gz tmp/QuantumIntelligence-0.0.6.tar.gz --markdown 20230428/Q/QuantumIntelligence/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-04-28 07:30:34] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.5rc1.tar.gz tmp/ansible-risk-insight-0.1.6rc1.tar.gz --markdown 20230428/a/ansible-risk-insight/0.1.5rc1-0.1.6rc1/diff.md --exclude *.pyd
+[2023-04-28 07:30:34] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/34/15/bc5785053a9ecd48f5a0b65ed2d6cc38c79eff61f36deb673ea32242c952/qt-custom-0.2.1.tar.gz
+[2023-04-28 07:30:35] INFO root fetch - processPackages [qt-custom]: executing diffoscope
+[2023-04-28 07:30:35] INFO root fetch - processPackages [qt-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-custom-0.1.9.tar.gz tmp/qt-custom-0.2.1.tar.gz --markdown 20230428/q/qt-custom/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-04-28 07:30:35] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-28 07:30:35] INFO root fetch - main [MainThread]: End processing [QuantumIntelligence]: success
+[2023-04-28 07:30:36] INFO root fetch - main [MainThread]: End processing [qt-custom]: success
+[2023-04-28 07:30:36] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-04-28 07:30:37] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-28 07:30:37] INFO root fetch - main [MainThread]: Store serial: [17894191]
