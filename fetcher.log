@@ -14120,3 +14120,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 14:09:12] INFO root fetch - processPackages [kedro-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-viz-6.0.1.tar.gz tmp/kedro-viz-6.1.0.tar.gz --markdown 20230428/k/kedro-viz/6.0.1-6.1.0/diff.md --exclude *.pyd
 [2023-04-28 14:10:17] INFO root fetch - main [MainThread]: End processing [kedro-viz]: success
 [2023-04-28 14:10:17] INFO root fetch - main [MainThread]: Store serial: [17897635]
+[2023-04-28 14:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897635]
+[2023-04-28 14:15:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objectwalker
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polygone-nms
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-lw-data-provider
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyXhUtils
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zwkit
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantificationlib
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymx2
+[2023-04-28 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chinoscriba
+[2023-04-28 14:15:39] INFO root fetch - processPackages [objectwalker]: New version: [2.0] Old Version: [1.9.5]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [zwkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [pymx2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [chinoscriba]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [quantificationlib]: New version: [0.1.1] Old Version: [0.0.7]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [polygone-nms]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [pyXhUtils]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4830407673]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [cg]: New version: [29.5.0] Old Version: [29.4.9]
+[2023-04-28 14:15:39] INFO root fetch - processPackages [pyXhUtils]: executing diffoscope
+[2023-04-28 14:15:39] INFO root fetch - processPackages [pyXhUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyXhUtils-1.3.8.tar.gz tmp/pyXhUtils-1.3.9.tar.gz --markdown 20230428/p/pyXhUtils/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-28 14:15:39] INFO root fetch - processPackages [zwkit]: Downloading https://files.pythonhosted.org/packages/0d/73/8d80546fa4d9e78bee5c3de435d1aa9eb1f51aaa0fe5f15c57f610552c77/zwkit-0.4.8.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [chinoscriba]: Downloading https://files.pythonhosted.org/packages/e3/ab/2bcab72d1b019b404c3cdbf85d9cdb7d0ca1a5f384836347641632640e20/chinoscriba-1.0.5.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [objectwalker]: Downloading https://files.pythonhosted.org/packages/01/a2/4a3e290172ee4967b11950748512c524383b42f07b150edd21b6ff083ef3/objectwalker-1.9.5.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [quantificationlib]: Downloading https://files.pythonhosted.org/packages/cc/7c/7bad95a48652fd1677854ef19ad7918f7fb52f3b8eb3c8b259084f999011/quantificationlib-0.0.7.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [polygone-nms]: Downloading https://files.pythonhosted.org/packages/2f/7f/8e3e99d0a3ff91bad0ba12c9365e0b0f96f7b7347decacba10af154c921e/polygone-nms-0.1.6.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pymx2]: Downloading https://files.pythonhosted.org/packages/fd/e9/b74d44bf0dd57e4c0c664d1df51f5b03aee3eb096e67fbded9d3ea8178f2/pymx2-0.1.1.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b7/7f/9706d626cb6c31e4180f2392c5b28956b7ba6907fc8fde8ddd8bab7ed578/cg-29.5.0.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/66/d6/b311e50f23e40952ec12a412277a4770b2f5e843ff923132eba934afa733/th2_grpc_lw_data_provider-2.0.0.dev4830407673.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.9.tar.gz tmp/cg-29.5.0.tar.gz --markdown 20230428/c/cg/29.4.9-29.5.0/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [chinoscriba]: Downloading https://files.pythonhosted.org/packages/47/d7/f5f467497ef195ad02037d84162da3179fa9cbe5ce79f4e343d93942f7a5/chinoscriba-1.0.6.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [objectwalker]: Downloading https://files.pythonhosted.org/packages/ba/59/14f20a0be2f02085c92501a9f3df67bd3a66f694c4b7a2f2f4264f20fc03/objectwalker-2.0.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [polygone-nms]: Downloading https://files.pythonhosted.org/packages/fe/68/7ad39b4953740d390f982468d34a651670d5cdb737a7825597fe1bff21bd/polygone-nms-0.1.7.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [chinoscriba]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [chinoscriba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chinoscriba-1.0.5.tar.gz tmp/chinoscriba-1.0.6.tar.gz --markdown 20230428/c/chinoscriba/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [objectwalker]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [objectwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectwalker-1.9.5.tar.gz tmp/objectwalker-2.0.tar.gz --markdown 20230428/o/objectwalker/1.9.5-2.0/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [polygone-nms]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [polygone-nms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygone-nms-0.1.6.tar.gz tmp/polygone-nms-0.1.7.tar.gz --markdown 20230428/p/polygone-nms/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [quantificationlib]: Downloading https://files.pythonhosted.org/packages/2a/fd/6f64dbdeec53586263cd1de61e1d55520486b2c5e074634ec6209842586f/quantificationlib-0.1.1.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pymx2]: Downloading https://files.pythonhosted.org/packages/ac/1b/c8a45f630bedc22c02f91f40fa2b78c04ae6a49f415b9efae81755da5b9a/pymx2-0.1.2.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pymx2]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pymx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymx2-0.1.1.tar.gz tmp/pymx2-0.1.2.tar.gz --markdown 20230428/p/pymx2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [zwkit]: Downloading https://files.pythonhosted.org/packages/aa/88/5b45ace5e9ba0b3218d3a90d9666e2b36f097ec6fef13233ec5c10b3ff0b/zwkit-0.4.9.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-04-28 14:15:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4830407673.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230428/t/th2-grpc-lw-data-provider/2.0.0.dev4830407673-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [quantificationlib]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [quantificationlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantificationlib-0.0.7.tar.gz tmp/quantificationlib-0.1.1.tar.gz --markdown 20230428/q/quantificationlib/0.0.7-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [zwkit]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [zwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwkit-0.4.8.tar.gz tmp/zwkit-0.4.9.tar.gz --markdown 20230428/z/zwkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-04-28 14:15:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 14:15:41] INFO root fetch - processPackages [pyXhUtils]: Start processing: deepfloyd-if
+[2023-04-28 14:15:41] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
+[2023-04-28 14:15:41] INFO root fetch - processPackages [deepfloyd-if]: New version: [1.0.1rc0] Old Version: [1.0.1]
+[2023-04-28 14:15:41] INFO root fetch - processPackages [deepfloyd-if]: Downloading https://files.pythonhosted.org/packages/65/6b/b9d4449a31f1fe1508d347edd573138597e61acc855c47a6c20c79307d83/deepfloyd_if-1.0.1.tar.gz
+[2023-04-28 14:15:41] INFO root fetch - processPackages [deepfloyd-if]: Downloading https://files.pythonhosted.org/packages/77/88/8c946fb3d43dfc9468757bbd893152c2cc0f7b966ebf7523a002d0d89254/deepfloyd_if-1.0.1rc0.tar.gz
+[2023-04-28 14:15:41] INFO root fetch - processPackages [zwkit]: Start processing: etm-dgraham
+[2023-04-28 14:15:41] INFO root fetch - main [MainThread]: End processing [zwkit]: success
+[2023-04-28 14:15:41] INFO root fetch - processPackages [etm-dgraham]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-04-28 14:15:41] INFO root fetch - processPackages [deepfloyd-if]: executing diffoscope
+[2023-04-28 14:15:41] INFO root fetch - processPackages [deepfloyd-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfloyd_if-1.0.1.tar.gz tmp/deepfloyd_if-1.0.1rc0.tar.gz --markdown 20230428/d/deepfloyd-if/1.0.1-1.0.1rc0/diff.md --exclude *.pyd
+[2023-04-28 14:15:42] INFO root fetch - processPackages [polygone-nms]: Start processing: ipython
+[2023-04-28 14:15:42] INFO root fetch - main [MainThread]: End processing [polygone-nms]: success
+[2023-04-28 14:15:42] INFO root fetch - processPackages [ipython]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-04-28 14:15:42] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/ca/90/a597c3304ea0cbc03edb649d49de2ecead58613fa23228dc01d6ab6992e4/etm-dgraham-4.9.6.tar.gz
+[2023-04-28 14:15:42] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-28 14:15:42] INFO root fetch - processPackages [ipython]: executing diffoscope
+[2023-04-28 14:15:42] INFO root fetch - processPackages [ipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-8.8.0.tar.gz tmp/ipython-8.9.0.tar.gz --markdown 20230428/i/ipython/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-04-28 14:15:42] INFO root fetch - main [MainThread]: End processing [objectwalker]: success
+[2023-04-28 14:15:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-04-28 14:15:42] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/23/a7/73d34def7b81da50f7fc86f1d707ce66a359621e6c84284b9c8c7dde6a23/etm-dgraham-4.9.7.tar.gz
+[2023-04-28 14:15:42] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-04-28 14:15:42] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-4.9.6.tar.gz tmp/etm-dgraham-4.9.7.tar.gz --markdown 20230428/e/etm-dgraham/4.9.6-4.9.7/diff.md --exclude *.pyd
+[2023-04-28 14:15:42] INFO root fetch - main [MainThread]: End processing [pymx2]: success
+[2023-04-28 14:15:43] INFO root fetch - main [MainThread]: End processing [chinoscriba]: success
+[2023-04-28 14:15:43] INFO root fetch - main [MainThread]: End processing [deepfloyd-if]: success
+[2023-04-28 14:15:43] INFO root fetch - main [MainThread]: End processing [quantificationlib]: success
+[2023-04-28 14:15:44] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-04-28 14:15:47] INFO root fetch - main [MainThread]: End processing [ipython]: success
+[2023-04-28 14:15:54] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-28 14:15:54] INFO root fetch - main [MainThread]: Store serial: [17897675]
