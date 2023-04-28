@@ -7264,3 +7264,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 06:09:16] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.27.18.6.56.tar.gz tmp/ChatLLM-2023.4.28.12.8.1.tar.gz --markdown 20230428/C/ChatLLM/2023.4.27.18.6.56-2023.4.28.12.8.1/diff.md --exclude *.pyd
 [2023-04-28 06:09:19] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-28 06:09:19] INFO root fetch - main [MainThread]: Store serial: [17893833]
+[2023-04-28 06:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893833]
+[2023-04-28 06:14:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ws-cli-chat
+[2023-04-28 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quorum-mininode-py
+[2023-04-28 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-fumen
+[2023-04-28 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyGenieScript
+[2023-04-28 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mintyper
+[2023-04-28 06:14:27] INFO root fetch - processPackages [py-fumen]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-28 06:14:27] INFO root fetch - processPackages [ws-cli-chat]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-04-28 06:14:27] ERROR root fetch - processPackages [mintyper]: Unable to get metadata: No such project 'mintyper'
+[2023-04-28 06:14:27] INFO root fetch - main [MainThread]: End processing [mintyper] error
+[2023-04-28 06:14:27] INFO root fetch - processPackages [quorum-mininode-py]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-28 06:14:27] INFO root fetch - processPackages [pyGenieScript]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-04-28 06:14:27] INFO root fetch - processPackages [py-fumen]: Downloading https://files.pythonhosted.org/packages/09/ba/bd7934f12164b6f99c8174bf15bddc83afb6a81e86e7ee681dbc82ba1e03/py_fumen-0.1.3.tar.gz
+[2023-04-28 06:14:27] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/65/c1/0e160a34ebb0c3e04941f033b4cec945471998c7d0fcd9b52161460d05bb/quorum_mininode_py-1.2.2.tar.gz
+[2023-04-28 06:14:27] INFO root fetch - processPackages [pyGenieScript]: Downloading https://files.pythonhosted.org/packages/55/49/aef024b119b9dd24aa39e6baab931cd009b04219ba4e4ffc7470c2f55245/pyGenieScript-0.0.0b8.tar.gz
+[2023-04-28 06:14:27] INFO root fetch - processPackages [ws-cli-chat]: Downloading https://files.pythonhosted.org/packages/d5/ea/f5c6df824cb24d2d9d332685e8705fb553080c24ffee3a4e5d8a7b91c015/ws_cli_chat-0.4.0.tar.gz
+[2023-04-28 06:14:28] INFO root fetch - processPackages [ws-cli-chat]: executing diffoscope
+[2023-04-28 06:14:28] INFO root fetch - processPackages [ws-cli-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_cli_chat-0.3.7.tar.gz tmp/ws_cli_chat-0.4.0.tar.gz --markdown 20230428/w/ws-cli-chat/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-04-28 06:14:28] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/c5/e8/c7b3476211a7187e3e8776df7ae5834f15d38871e3401986d47aaf2b58ca/quorum_mininode_py-1.2.3.tar.gz
+[2023-04-28 06:14:28] INFO root fetch - processPackages [quorum-mininode-py]: executing diffoscope
+[2023-04-28 06:14:28] INFO root fetch - processPackages [quorum-mininode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_mininode_py-1.2.2.tar.gz tmp/quorum_mininode_py-1.2.3.tar.gz --markdown 20230428/q/quorum-mininode-py/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-28 06:14:28] INFO root fetch - processPackages [py-fumen]: Downloading https://files.pythonhosted.org/packages/f4/c0/64c42f98f8fc0e82704dccf76faaaa1e6fb14685064fb6e01a3cd544e3d9/py_fumen-0.1.4.tar.gz
+[2023-04-28 06:14:28] INFO root fetch - processPackages [py-fumen]: executing diffoscope
+[2023-04-28 06:14:28] INFO root fetch - processPackages [py-fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen-0.1.3.tar.gz tmp/py_fumen-0.1.4.tar.gz --markdown 20230428/p/py-fumen/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-28 06:14:28] INFO root fetch - processPackages [pyGenieScript]: Downloading https://files.pythonhosted.org/packages/6b/b0/1568d27fd88cc29d7968fa41d785c41453002dd7478fe6a59811e610be88/pyGenieScript-0.0.0b9.tar.gz
+[2023-04-28 06:14:28] INFO root fetch - processPackages [pyGenieScript]: executing diffoscope
+[2023-04-28 06:14:28] INFO root fetch - processPackages [pyGenieScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGenieScript-0.0.0b8.tar.gz tmp/pyGenieScript-0.0.0b9.tar.gz --markdown 20230428/p/pyGenieScript/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-04-28 06:14:29] INFO root fetch - main [MainThread]: End processing [ws-cli-chat]: success
+[2023-04-28 06:14:29] INFO root fetch - main [MainThread]: End processing [quorum-mininode-py]: success
+[2023-04-28 06:14:29] INFO root fetch - main [MainThread]: End processing [pyGenieScript]: success
+[2023-04-28 06:14:29] INFO root fetch - main [MainThread]: End processing [py-fumen]: success
+[2023-04-28 06:14:29] INFO root fetch - main [MainThread]: Store serial: [17893849]
