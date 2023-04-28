@@ -18636,3 +18636,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 18:07:41] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2023-04-28 18:08:12] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-28 18:08:12] INFO root fetch - main [MainThread]: Store serial: [17900395]
+[2023-04-28 18:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17900395]
+[2023-04-28 18:13:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: georef-ar-py
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jwst-mast-query
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dd-import
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatcli-gpt
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-vpc
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: payla-utils
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-shelly-certoraclibeta
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ixcom
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: space-invaders
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-afip
+[2023-04-28 18:13:21] WARNING root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Skipping, unable to determine old version
+[2023-04-28 18:13:21] INFO root fetch - processPackages [space-invaders]: New version: [0.1.54] Old Version: [0.1.53]
+[2023-04-28 18:13:21] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Start processing: openhexa.cli
+[2023-04-28 18:13:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-certoraclibeta] error
+[2023-04-28 18:13:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 18:13:21] INFO root fetch - processPackages [jwst-mast-query]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 18:13:21] WARNING root fetch - processPackages [georef-ar-py]: Skipping, unable to determine old version
+[2023-04-28 18:13:21] INFO root fetch - processPackages [georef-ar-py]: Start processing: dockerode-api-proxy-client
+[2023-04-28 18:13:21] INFO root fetch - main [MainThread]: End processing [georef-ar-py] error
+[2023-04-28 18:13:21] INFO root fetch - processPackages [ixcom]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-28 18:13:21] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-28 18:13:21] INFO root fetch - processPackages [dd-import]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 18:13:21] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.53.tar.gz tmp/space-invaders-0.1.54.tar.gz --markdown 20230428/s/space-invaders/0.1.53-0.1.54/diff.md --exclude *.pyd
+[2023-04-28 18:13:21] INFO root fetch - processPackages [chatcli-gpt]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-28 18:13:21] INFO root fetch - processPackages [payla-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 18:13:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-04-28 18:13:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 18:13:21] WARNING root fetch - processPackages [openhexa.cli]: Skipping, unable to determine old version
+[2023-04-28 18:13:21] INFO root fetch - processPackages [openhexa.cli]: Start processing: polywrap-http-plugin
+[2023-04-28 18:13:21] INFO root fetch - main [MainThread]: End processing [openhexa.cli] error
+[2023-04-28 18:13:22] INFO root fetch - processPackages [polywrap-http-plugin]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dockerode-api-proxy-client]: New version: [4.0.0] Old Version: [3.0.3]
+[2023-04-28 18:13:22] INFO root fetch - processPackages [jwst-mast-query]: Downloading https://files.pythonhosted.org/packages/4b/a5/01ba8622211593f4334726d08e4b8ca61b3642845bba4c4e416555ab341d/jwst_mast_query-0.0.3.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dd-import]: Downloading https://files.pythonhosted.org/packages/93/c5/f6fd2da688509074714866b69ff9643cc0a65dd41db4f26dbe17ccda13dc/dd-import-1.0.8.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [django-afip]: New version: [9.0.0] Old Version: [8.0.4]
+[2023-04-28 18:13:22] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/5d/c4/4607ccd00f223c01e7d2c0afc6aef57830efd4fb338729a133dae0fd9cbb/payla_utils-0.2.8.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [polywrap-http-plugin]: Downloading https://files.pythonhosted.org/packages/a2/79/44165426d48798409404a0193cd935c8232a1480609ecc2806a94d79b471/polywrap_http_plugin-0.1.0a3.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dockerode-api-proxy-client]: Downloading https://files.pythonhosted.org/packages/ba/b0/20d963ef4233bdd988c8c9f4cd826b7975900fc7ea44cefa190a08f325c4/dockerode_api_proxy_client-3.0.3.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [ixcom]: Downloading https://files.pythonhosted.org/packages/b4/82/c451579d4948faaa4ae6bcd7e26c3be885212ca8237494ecea0e25d7ef0d/ixcom-1.3.2.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [django-afip]: Downloading https://files.pythonhosted.org/packages/e1/99/e43c470e326e0ec570d096126ced763b39e6fc3838e9649bda121687bc43/django-afip-8.0.4.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [chatcli-gpt]: Downloading https://files.pythonhosted.org/packages/9e/3b/5ceae8d2eb56f101c3770c0e7dce1035e17cffd5edc4249637043a36cde9/chatcli_gpt-0.5.2.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [jwst-mast-query]: Downloading https://files.pythonhosted.org/packages/70/fa/91fc7cc6726939a21ab0b24ba3d07ac69b9a8895e222ba5bee8deaea90be/jwst_mast_query-0.0.4.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [ixcom]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [ixcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixcom-1.3.1.tar.gz tmp/ixcom-1.3.2.tar.gz --markdown 20230428/i/ixcom/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-28 18:13:22] INFO root fetch - processPackages [polywrap-http-plugin]: Downloading https://files.pythonhosted.org/packages/16/73/09ef18410ee3f9e4dfb4b23e05b2966812de5319cad8f0bdee9483ba8ca6/polywrap_http_plugin-0.1.0a4.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [chatcli-gpt]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [chatcli-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcli_gpt-0.5.1.tar.gz tmp/chatcli_gpt-0.5.2.tar.gz --markdown 20230428/c/chatcli-gpt/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dd-import]: Downloading https://files.pythonhosted.org/packages/55/54/f814fdb0496b73fa929b297a6b64897fb2e8abf876cda180ea4113978239/dd-import-1.0.9.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/ba/58/d6dfd8fb5418e882493f9a3696283556628f2ae4592866363cecbb70fc3d/payla_utils-0.2.9.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [jwst-mast-query]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [jwst-mast-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwst_mast_query-0.0.3.tar.gz tmp/jwst_mast_query-0.0.4.tar.gz --markdown 20230428/j/jwst-mast-query/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dockerode-api-proxy-client]: Downloading https://files.pythonhosted.org/packages/fe/a1/668ea772d693bd0bed9a3ebbf9c63143a0c3c684bc667b6dfc3f95c10c40/dockerode_api_proxy_client-4.0.0.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [polywrap-http-plugin]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [polywrap-http-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_http_plugin-0.1.0a3.tar.gz tmp/polywrap_http_plugin-0.1.0a4.tar.gz --markdown 20230428/p/polywrap-http-plugin/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dd-import]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dd-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dd-import-1.0.8.tar.gz tmp/dd-import-1.0.9.tar.gz --markdown 20230428/d/dd-import/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 18:13:22] INFO root fetch - processPackages [payla-utils]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [payla-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payla_utils-0.2.8.tar.gz tmp/payla_utils-0.2.9.tar.gz --markdown 20230428/p/payla-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dockerode-api-proxy-client]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [dockerode-api-proxy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockerode_api_proxy_client-3.0.3.tar.gz tmp/dockerode_api_proxy_client-4.0.0.tar.gz --markdown 20230428/d/dockerode-api-proxy-client/3.0.3-4.0.0/diff.md --exclude *.pyd
+[2023-04-28 18:13:22] INFO root fetch - processPackages [django-afip]: Downloading https://files.pythonhosted.org/packages/19/79/580512447a4ed18f6a2812d0bdb89f47a3a910acbe0a0ff9ddb6d84e2e76/django-afip-9.0.0.tar.gz
+[2023-04-28 18:13:22] INFO root fetch - processPackages [django-afip]: executing diffoscope
+[2023-04-28 18:13:22] INFO root fetch - processPackages [django-afip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-afip-8.0.4.tar.gz tmp/django-afip-9.0.0.tar.gz --markdown 20230428/d/django-afip/8.0.4-9.0.0/diff.md --exclude *.pyd
+[2023-04-28 18:13:23] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: antimeridian
+[2023-04-28 18:13:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-04-28 18:13:23] INFO root fetch - processPackages [antimeridian]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-28 18:13:23] INFO root fetch - processPackages [antimeridian]: executing diffoscope
+[2023-04-28 18:13:23] INFO root fetch - processPackages [antimeridian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimeridian-0.2.0.tar.gz tmp/antimeridian-0.2.1.tar.gz --markdown 20230428/a/antimeridian/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-28 18:13:23] INFO root fetch - processPackages [ixcom]: Start processing: alethiometer
+[2023-04-28 18:13:23] INFO root fetch - main [MainThread]: End processing [ixcom]: success
+[2023-04-28 18:13:23] INFO root fetch - processPackages [alethiometer]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-28 18:13:24] INFO root fetch - processPackages [alethiometer]: executing diffoscope
+[2023-04-28 18:13:24] INFO root fetch - processPackages [alethiometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alethiometer-1.0.5.tar.gz tmp/alethiometer-1.0.6.tar.gz --markdown 20230428/a/alethiometer/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 18:13:24] INFO root fetch - processPackages [polywrap-http-plugin]: Start processing: AbsBox
+[2023-04-28 18:13:24] INFO root fetch - main [MainThread]: End processing [polywrap-http-plugin]: success
+[2023-04-28 18:13:24] INFO root fetch - processPackages [jwst-mast-query]: Start processing: livesolid
+[2023-04-28 18:13:24] INFO root fetch - main [MainThread]: End processing [jwst-mast-query]: success
+[2023-04-28 18:13:24] INFO root fetch - processPackages [livesolid]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 18:13:24] INFO root fetch - main [MainThread]: End processing [chatcli-gpt]: success
+[2023-04-28 18:13:24] INFO root fetch - processPackages [AbsBox]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-28 18:13:24] INFO root fetch - processPackages [livesolid]: executing diffoscope
+[2023-04-28 18:13:24] INFO root fetch - processPackages [livesolid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livesolid-0.0.1.tar.gz tmp/livesolid-0.0.2.tar.gz --markdown 20230428/l/livesolid/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 18:13:24] INFO root fetch - main [MainThread]: End processing [dockerode-api-proxy-client]: success
+[2023-04-28 18:13:24] INFO root fetch - main [MainThread]: End processing [payla-utils]: success
+[2023-04-28 18:13:24] INFO root fetch - processPackages [AbsBox]: Downloading https://files.pythonhosted.org/packages/60/3a/4cd6ec4b5e802abaf193b908605ffc77c52c9dba3b276a1152f6fd47a63f/AbsBox-0.9.2.tar.gz
+[2023-04-28 18:13:24] INFO root fetch - main [MainThread]: End processing [dd-import]: success
+[2023-04-28 18:13:24] INFO root fetch - processPackages [AbsBox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2023-04-28 18:13:24] INFO root fetch - main [MainThread]: End processing [antimeridian]: success
+[2023-04-28 18:13:24] INFO root fetch - processPackages [AbsBox]: executing diffoscope
+[2023-04-28 18:13:24] INFO root fetch - processPackages [AbsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.9.2.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20230428/A/AbsBox/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-28 18:13:25] INFO root fetch - main [MainThread]: End processing [django-afip]: success
+[2023-04-28 18:13:25] INFO root fetch - main [MainThread]: End processing [livesolid]: success
+[2023-04-28 18:13:25] INFO root fetch - main [MainThread]: End processing [alethiometer]: success
+[2023-04-28 18:13:25] INFO root fetch - main [MainThread]: End processing [AbsBox]: success
+[2023-04-28 18:13:26] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-28 18:13:26] INFO root fetch - main [MainThread]: Store serial: [17900451]
