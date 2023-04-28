@@ -7166,3 +7166,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 05:53:35] INFO root fetch - main [MainThread]: End processing [techbureau-symbol-sdk-python]: success
 [2023-04-28 05:53:35] INFO root fetch - main [MainThread]: End processing [mimikit]: success
 [2023-04-28 05:53:35] INFO root fetch - main [MainThread]: Store serial: [17893773]
+[2023-04-28 05:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17893773]
+[2023-04-28 05:58:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-28 05:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarkstudio
+[2023-04-28 05:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-build-core
+[2023-04-28 05:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DecisionTreeClassifier
+[2023-04-28 05:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arkdata
+[2023-04-28 05:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prettyqt
+[2023-04-28 05:58:43] INFO root fetch - processPackages [quarkstudio]: New version: [6.5.0rc9] Old Version: [6.5.0rc11]
+[2023-04-28 05:58:43] INFO root fetch - processPackages [DecisionTreeClassifier]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-28 05:58:43] INFO root fetch - processPackages [scikit-build-core]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-28 05:58:43] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 05:58:43] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 05:58:43] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 05:58:43] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 05:58:43] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/4b/8c/d5ff485277116c354985eb904bafc2245d0e85ccd3ff02e1324d2eb11a1c/quarkstudio-6.5.0rc11-cp311-cp311-win_amd64.whl
+[2023-04-28 05:58:43] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-28 05:58:43] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230428/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-28 05:58:43] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/67/c0/1ebdedc851f951924ee3fe4e92f413241b68b83dc9de68c10db118210823/scikit_build_core-0.3.2.tar.gz
+[2023-04-28 05:58:44] INFO root fetch - processPackages [DecisionTreeClassifier]: Downloading https://files.pythonhosted.org/packages/68/a2/7b0f39f567331a14962d55d22a5bf98755e7819e9fad03817acab9ee2411/DecisionTreeClassifier-0.0.7.tar.gz
+[2023-04-28 05:58:44] INFO root fetch - processPackages [DecisionTreeClassifier]: executing diffoscope
+[2023-04-28 05:58:44] INFO root fetch - processPackages [DecisionTreeClassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DecisionTreeClassifier-0.0.6.tar.gz tmp/DecisionTreeClassifier-0.0.7.tar.gz --markdown 20230428/D/DecisionTreeClassifier/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-28 05:58:44] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/9a/1c/c672bb90cd1bdf966f47ba3b88be8ee355aad92a2b0624c2b96f1b206d2c/scikit_build_core-0.3.3.tar.gz
+[2023-04-28 05:58:44] INFO root fetch - processPackages [scikit-build-core]: executing diffoscope
+[2023-04-28 05:58:44] INFO root fetch - processPackages [scikit-build-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core-0.3.2.tar.gz tmp/scikit_build_core-0.3.3.tar.gz --markdown 20230428/s/scikit-build-core/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-28 05:58:44] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/89/d1/a610070a0c4e12502f945e5186fc93b71b4900441d02c031ffa815f9a6e2/quarkstudio-6.5.0rc9-cp311-cp311-win_amd64.whl
+[2023-04-28 05:58:45] INFO root fetch - main [MainThread]: End processing [DecisionTreeClassifier]: success
+[2023-04-28 05:58:45] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 05:58:46] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2023-04-28 05:58:46] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.5.0rc11-cp311-cp311-win_amd64.whl.zip tmp/quarkstudio-6.5.0rc9-cp311-cp311-win_amd64.whl.zip --markdown 20230428/q/quarkstudio/6.5.0rc11-6.5.0rc9/diff.md --exclude *.pyd
+[2023-04-28 05:58:46] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
+[2023-04-28 05:58:47] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2023-04-28 05:58:50] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-28 05:58:50] INFO root fetch - main [MainThread]: Store serial: [17893789]
