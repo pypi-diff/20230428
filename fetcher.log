@@ -13042,3 +13042,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [rssfixer]: success
 [2023-04-28 12:55:54] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
 [2023-04-28 12:55:54] INFO root fetch - main [MainThread]: Store serial: [17896985]
+[2023-04-28 13:00:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896985]
+[2023-04-28 13:01:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: config-yml
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Foodfacts
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vtmmpy
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visaplan.plone.tools
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: squad-foundries-plugins
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyXhUtils
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moptipy
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onlinepayments-sdk-python2
+[2023-04-28 13:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dpi-maps
+[2023-04-28 13:01:03] INFO root fetch - processPackages [squad-foundries-plugins]: New version: [1.1] Old Version: [1.0]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [squad-foundries-plugins]: executing diffoscope
+[2023-04-28 13:01:03] INFO root fetch - processPackages [squad-foundries-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-foundries-plugins-1.0.tar.gz tmp/squad-foundries-plugins-1.1.tar.gz --markdown 20230428/s/squad-foundries-plugins/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-28 13:01:03] INFO root fetch - processPackages [config-yml]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-28 13:01:03] WARNING root fetch - processPackages [Foodfacts]: Skipping, unable to determine old version
+[2023-04-28 13:01:03] INFO root fetch - processPackages [Foodfacts]: Start processing: onlinepayments-sdk-python3
+[2023-04-28 13:01:03] INFO root fetch - main [MainThread]: End processing [Foodfacts] error
+[2023-04-28 13:01:03] INFO root fetch - processPackages [dpi-maps]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [vtmmpy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [onlinepayments-sdk-python2]: New version: [4.8.0] Old Version: [4.7.0]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [pyXhUtils]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [visaplan.plone.tools]: New version: [1.4.9] Old Version: [1.4.17]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [onlinepayments-sdk-python3]: New version: [4.8.0] Old Version: [4.7.0]
+[2023-04-28 13:01:03] INFO root fetch - processPackages [dpi-maps]: Downloading https://files.pythonhosted.org/packages/12/0b/6fc926a4b93281a6de19f736bf2fda6ff130eb1a133b7bb4842f7a001d72/dpi_maps-0.0.1.tar.gz
+[2023-04-28 13:01:03] INFO root fetch - processPackages [visaplan.plone.tools]: Downloading https://files.pythonhosted.org/packages/36/25/38dc6abb758f1916937618ad9851d2a49ebc7b754f1c641d85ea6c7e5969/visaplan.plone.tools-1.4.17.tar.gz
+[2023-04-28 13:01:03] INFO root fetch - processPackages [vtmmpy]: Downloading https://files.pythonhosted.org/packages/34/df/f600547422505999b01cf923bc7080e34047dc0eecc0e8a3b7ca821848d1/vtmmpy-1.0.5.tar.gz
+[2023-04-28 13:01:03] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/97/b1/cb0465cfd153688606af739060849401d0cf5c240c451135a3b0ffd6a91e/onlinepayments-sdk-python2-4.7.0.zip
+[2023-04-28 13:01:03] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/37/8b/74d0dbb9477a611f08a2464647db2370a3176cbe67db0aa368280349b4cb/onlinepayments-sdk-python3-4.7.0.zip
+[2023-04-28 13:01:03] INFO root fetch - processPackages [config-yml]: Downloading https://files.pythonhosted.org/packages/27/50/2d05ed548ac0f6da27d067fba759467e5ca6f0d71f9f4ea81b7125e106b9/config_yml-0.2.2.tar.gz
+[2023-04-28 13:01:03] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/7f/5279c5a66253c3acc29a2b1baa2ae5e5c13f14d8ed5e613af26af0568f80/moptipy-0.9.8.tar.gz
+[2023-04-28 13:01:03] INFO root fetch - processPackages [pyXhUtils]: Downloading https://files.pythonhosted.org/packages/f4/da/a06553a6de3e26a2a4ef4819c70099a2ba156242cda9f278c23dd0dcfbf8/pyXhUtils-1.3.9.tar.gz
+[2023-04-28 13:01:03] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-04-28 13:01:03] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230428/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-04-28 13:01:03] INFO root fetch - processPackages [config-yml]: executing diffoscope
+[2023-04-28 13:01:03] INFO root fetch - processPackages [config-yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_yml-0.2.1.tar.gz tmp/config_yml-0.2.2.tar.gz --markdown 20230428/c/config-yml/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-28 13:01:03] INFO root fetch - processPackages [vtmmpy]: Downloading https://files.pythonhosted.org/packages/e4/ec/9253ad6b0bd78045cf1fab363962ab14fc7420654736b3fabf5562714994/vtmmpy-1.0.6.tar.gz
+[2023-04-28 13:01:03] INFO root fetch - processPackages [dpi-maps]: Downloading https://files.pythonhosted.org/packages/12/9c/87772deec1994a0890243c634934f652bddb533f14e03c20066a1668da30/dpi_maps-0.0.2.tar.gz
+[2023-04-28 13:01:04] INFO root fetch - processPackages [visaplan.plone.tools]: Downloading https://files.pythonhosted.org/packages/09/5c/bcfb9946c19670b01479b2aafe8460da5087f623a2ac5a3005aa4a413ae4/visaplan.plone.tools-1.4.9.tar.gz
+[2023-04-28 13:01:04] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/43/c7/7ad08f50743b8a1bcdcbeec11af7b20b4393a657c09a98069fd77af21b4c/onlinepayments-sdk-python2-4.8.0.zip
+[2023-04-28 13:01:04] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/e0/ef/4acd5fb2defed529b138b70b00cd735addd1359fc93e39c030792ae47d75/onlinepayments-sdk-python3-4.8.0.zip
+[2023-04-28 13:01:04] INFO root fetch - processPackages [pyXhUtils]: executing diffoscope
+[2023-04-28 13:01:04] INFO root fetch - processPackages [pyXhUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyXhUtils-1.3.8.tar.gz tmp/pyXhUtils-1.3.9.tar.gz --markdown 20230428/p/pyXhUtils/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-28 13:01:04] INFO root fetch - processPackages [vtmmpy]: executing diffoscope
+[2023-04-28 13:01:04] INFO root fetch - processPackages [vtmmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtmmpy-1.0.5.tar.gz tmp/vtmmpy-1.0.6.tar.gz --markdown 20230428/v/vtmmpy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-28 13:01:04] INFO root fetch - processPackages [dpi-maps]: executing diffoscope
+[2023-04-28 13:01:04] INFO root fetch - processPackages [dpi-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpi_maps-0.0.1.tar.gz tmp/dpi_maps-0.0.2.tar.gz --markdown 20230428/d/dpi-maps/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-28 13:01:04] INFO root fetch - processPackages [visaplan.plone.tools]: executing diffoscope
+[2023-04-28 13:01:04] INFO root fetch - processPackages [visaplan.plone.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visaplan.plone.tools-1.4.17.tar.gz tmp/visaplan.plone.tools-1.4.9.tar.gz --markdown 20230428/v/visaplan.plone.tools/1.4.17-1.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:01:04] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-04-28 13:01:04] INFO root fetch - processPackages [onlinepayments-sdk-python3]: executing diffoscope
+[2023-04-28 13:01:04] INFO root fetch - processPackages [onlinepayments-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python3-4.7.0.zip tmp/onlinepayments-sdk-python3-4.8.0.zip --markdown 20230428/o/onlinepayments-sdk-python3/4.7.0-4.8.0/diff.md --exclude *.pyd
+[2023-04-28 13:01:04] INFO root fetch - processPackages [onlinepayments-sdk-python2]: executing diffoscope
+[2023-04-28 13:01:04] INFO root fetch - processPackages [onlinepayments-sdk-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python2-4.7.0.zip tmp/onlinepayments-sdk-python2-4.8.0.zip --markdown 20230428/o/onlinepayments-sdk-python2/4.7.0-4.8.0/diff.md --exclude *.pyd
+[2023-04-28 13:01:04] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-04-28 13:01:04] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230428/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 13:01:04] INFO root fetch - processPackages [squad-foundries-plugins]: Start processing: RWexptest
+[2023-04-28 13:01:04] INFO root fetch - main [MainThread]: End processing [squad-foundries-plugins]: success
+[2023-04-28 13:01:04] INFO root fetch - processPackages [RWexptest]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-28 13:01:05] INFO root fetch - processPackages [RWexptest]: executing diffoscope
+[2023-04-28 13:01:05] INFO root fetch - processPackages [RWexptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwexptest-0.0.2.tar.gz tmp/rwexptest-0.0.3.tar.gz --markdown 20230428/R/RWexptest/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-28 13:01:05] INFO root fetch - main [MainThread]: End processing [config-yml]: success
+[2023-04-28 13:01:05] INFO root fetch - main [MainThread]: End processing [dpi-maps]: success
+[2023-04-28 13:01:05] INFO root fetch - main [MainThread]: End processing [vtmmpy]: success
+[2023-04-28 13:01:05] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
+[2023-04-28 13:01:06] INFO root fetch - main [MainThread]: End processing [RWexptest]: success
+[2023-04-28 13:01:06] INFO root fetch - main [MainThread]: End processing [visaplan.plone.tools]: success
+[2023-04-28 13:01:06] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-04-28 13:01:07] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python3]: success
+[2023-04-28 13:01:07] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python2]: success
+[2023-04-28 13:01:10] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-04-28 13:01:10] INFO root fetch - main [MainThread]: Store serial: [17897019]
