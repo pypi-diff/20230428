@@ -14049,3 +14049,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 14:02:32] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
 [2023-04-28 14:03:38] INFO root fetch - main [MainThread]: End processing [lanelet2]: success
 [2023-04-28 14:03:38] INFO root fetch - main [MainThread]: Store serial: [17897589]
+[2023-04-28 14:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897589]
+[2023-04-28 14:09:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epiccore
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scarlet-shark-python
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinjafx
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psyke
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: space-invaders
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kedro-viz
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up2b
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib-spark2
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torcheval-nightly
+[2023-04-28 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-telemetry
+[2023-04-28 14:09:08] INFO root fetch - processPackages [up2b]: New version: [0.7.1a2] Old Version: [0.7.1a1]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [jinjafx]: New version: [1.9.5] Old Version: [1.9.2]
+[2023-04-28 14:09:08] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 14:09:08] INFO root fetch - processPackages [space-invaders]: Start processing: gkligo
+[2023-04-28 14:09:08] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 14:09:08] INFO root fetch - processPackages [kedro-viz]: New version: [6.1.0] Old Version: [6.0.1]
+[2023-04-28 14:09:08] WARNING root fetch - processPackages [scarlet-shark-python]: Skipping, unable to determine old version
+[2023-04-28 14:09:08] INFO root fetch - processPackages [scarlet-shark-python]: Start processing: SocketSwap
+[2023-04-28 14:09:08] INFO root fetch - main [MainThread]: End processing [scarlet-shark-python] error
+[2023-04-28 14:09:08] INFO root fetch - processPackages [epiccore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [psyke]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev8]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230428] Old Version: [2.4.0b20230427]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [SocketSwap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [gkligo]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-28 14:09:08] INFO root fetch - processPackages [SocketSwap]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [SocketSwap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocketSwap-0.1.8-py2.py3-none-any.whl.zip tmp/SocketSwap-0.1.9-py2.py3-none-any.whl.zip --markdown 20230428/S/SocketSwap/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 14:09:08] INFO root fetch - processPackages [kedro-viz]: Downloading https://files.pythonhosted.org/packages/b8/ea/a6452232b362a7241836c3e66f9f72bd424f6a7156685598e9736c8ca1a1/kedro-viz-6.0.1.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [up2b]: Downloading https://files.pythonhosted.org/packages/b3/76/9b3c813133fe2b3f2d0174db00c4d4c4d1848f6a3891ccc4579b33a4ecf1/up2b-0.7.1a1.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [jinjafx]: Downloading https://files.pythonhosted.org/packages/8c/ef/a913b01ddc5057869372b3ee2c19887721f59f66289a06bc02a85562bb6b/jinjafx-1.9.2.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [epiccore]: Downloading https://files.pythonhosted.org/packages/34/91/bbea905460ad58719a5215d690abe4edd800567cf008f53dfef8117df6ed/epiccore-0.0.8.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/03/40/f163f1490666ad7bb2440507acb14cf3b1dd31575324b3809a6defd3fa95/bigdl-dllib-spark2-2.4.0b20230427.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/bb/a2/c343a30437826e4c8301bf6953d00d3ca950668dee29f623e2002c0c7421/nucliadb_telemetry-1.9.1-py3-none-any.whl
+[2023-04-28 14:09:08] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/ae/1d/07aab1f41ce84a1c8bbbaa4670cd39e0260381e412476aaf3610acc96850/gkligo-0.0.6.tar.gz
+[2023-04-28 14:09:08] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560048>=10485760
+[2023-04-28 14:09:08] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-04-28 14:09:08] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.3.3.dev8.tar.gz tmp/psyke-0.3.3.dev9.tar.gz --markdown 20230428/p/psyke/0.3.3.dev8-0.3.3.dev9/diff.md --exclude *.pyd
+[2023-04-28 14:09:08] INFO root fetch - processPackages [up2b]: Downloading https://files.pythonhosted.org/packages/4a/fb/3d1015f99ff05534d5ef6915ae0878d1145d6dfeb6f99cbf3e71a3b09fa3/up2b-0.7.1a2.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230428/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-28 14:09:08] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/35/21/995ddd7a29af7f55e964ec222871e50936c13c32d551dfb81a26cfc571e7/gkligo-0.0.7.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [jinjafx]: Downloading https://files.pythonhosted.org/packages/a5/27/2fffa807f4f77b0840a8b46246372c35430b21be959dd230da134d6bf3f0/jinjafx-1.9.5.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [epiccore]: Downloading https://files.pythonhosted.org/packages/fd/ae/7f3c70f9bba96304602ebddb55e0d9bcf36548d60c5d64c19eb5ac13256c/epiccore-0.0.9.tar.gz
+[2023-04-28 14:09:08] INFO root fetch - processPackages [up2b]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [up2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up2b-0.7.1a1.tar.gz tmp/up2b-0.7.1a2.tar.gz --markdown 20230428/u/up2b/0.7.1a1-0.7.1a2/diff.md --exclude *.pyd
+[2023-04-28 14:09:08] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3a/54/9200f09d9a6b81276206b432708a96f265f7df33ce31f30ab0b20cf14f9c/nucliadb_telemetry-1.9.2-py3-none-any.whl
+[2023-04-28 14:09:08] INFO root fetch - processPackages [gkligo]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [gkligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkligo-0.0.6.tar.gz tmp/gkligo-0.0.7.tar.gz --markdown 20230428/g/gkligo/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-28 14:09:08] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-1.9.1-py3-none-any.whl.zip tmp/nucliadb_telemetry-1.9.2-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-telemetry/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-28 14:09:08] INFO root fetch - processPackages [epiccore]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [epiccore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epiccore-0.0.8.tar.gz tmp/epiccore-0.0.9.tar.gz --markdown 20230428/e/epiccore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 14:09:08] INFO root fetch - processPackages [jinjafx]: executing diffoscope
+[2023-04-28 14:09:08] INFO root fetch - processPackages [jinjafx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjafx-1.9.2.tar.gz tmp/jinjafx-1.9.5.tar.gz --markdown 20230428/j/jinjafx/1.9.2-1.9.5/diff.md --exclude *.pyd
+[2023-04-28 14:09:09] INFO root fetch - main [MainThread]: End processing [SocketSwap]: success
+[2023-04-28 14:09:09] INFO root fetch - processPackages [kedro-viz]: Downloading https://files.pythonhosted.org/packages/2f/37/aa444ceb34c24ed325dfab21a01fcdae8df64c120370624efc726853446d/kedro-viz-6.1.0.tar.gz
+[2023-04-28 14:09:10] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2023-04-28 14:09:10] INFO root fetch - main [MainThread]: End processing [gkligo]: success
+[2023-04-28 14:09:10] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-04-28 14:09:10] INFO root fetch - main [MainThread]: End processing [up2b]: success
+[2023-04-28 14:09:10] INFO root fetch - main [MainThread]: End processing [jinjafx]: success
+[2023-04-28 14:09:10] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-04-28 14:09:10] INFO root fetch - main [MainThread]: End processing [epiccore]: success
+[2023-04-28 14:09:12] INFO root fetch - processPackages [kedro-viz]: executing diffoscope
+[2023-04-28 14:09:12] INFO root fetch - processPackages [kedro-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-viz-6.0.1.tar.gz tmp/kedro-viz-6.1.0.tar.gz --markdown 20230428/k/kedro-viz/6.0.1-6.1.0/diff.md --exclude *.pyd
+[2023-04-28 14:10:17] INFO root fetch - main [MainThread]: End processing [kedro-viz]: success
+[2023-04-28 14:10:17] INFO root fetch - main [MainThread]: Store serial: [17897635]
