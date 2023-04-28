@@ -9441,3 +9441,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:29:02] INFO root fetch - main [MainThread]: End processing [injective-py]: success
 [2023-04-28 09:29:03] INFO root fetch - main [MainThread]: End processing [kgcnn]: success
 [2023-04-28 09:29:03] INFO root fetch - main [MainThread]: Store serial: [17894999]
+[2023-04-28 09:34:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894999]
+[2023-04-28 09:34:13] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyattest
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volcengine
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trading-strategy
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rils-rols
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SDTcloud
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ausbildungsnachweise-utils
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pgx
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-dreiattest
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyjhub
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: housekeeper
+[2023-04-28 09:34:13] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [volcengine]: New version: [1.0.9] Old Version: [1.0.87]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [rils-rols]: New version: [1.2] Old Version: [1.1]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [pyattest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ausbildungsnachweise-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [django-dreiattest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:34:13] WARNING root fetch - processPackages [hyjhub]: Skipping, unable to determine old version
+[2023-04-28 09:34:13] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [hyjhub]: Start processing: chargebee
+[2023-04-28 09:34:13] INFO root fetch - main [MainThread]: End processing [hyjhub] error
+[2023-04-28 09:34:13] INFO root fetch - processPackages [housekeeper]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [pgx]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2023-04-28 09:34:13] INFO root fetch - processPackages [pyattest]: executing diffoscope
+[2023-04-28 09:34:13] INFO root fetch - processPackages [pyattest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyattest-0.0.8.tar.gz tmp/pyattest-0.0.9.tar.gz --markdown 20230428/p/pyattest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:34:13] INFO root fetch - processPackages [django-dreiattest]: executing diffoscope
+[2023-04-28 09:34:13] INFO root fetch - processPackages [django-dreiattest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dreiattest-0.0.8.tar.gz tmp/django-dreiattest-0.0.9.tar.gz --markdown 20230428/d/django-dreiattest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:34:13] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/b7/31/376000d878a58e888465a2e8e3ed59cbc5f3a7a66cb64088bd315ca2f653/volcengine-1.0.87.tar.gz
+[2023-04-28 09:34:13] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/27/40/f69db04dd9d8198f93ce3ef47e2858def47307dad724689f63fef8b301ac/SDTcloud-0.0.5.tar.gz
+[2023-04-28 09:34:13] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-04-28 09:34:13] INFO root fetch - processPackages [rils-rols]: Downloading https://files.pythonhosted.org/packages/3a/58/b6adc0a5dec7bae859c3bf4365e4c19fe8864e5b4d1820294c13a3c503bd/rils-rols-1.2.tar.gz
+[2023-04-28 09:34:13] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.4.tar.gz tmp/SDTcloud-0.0.5.tar.gz --markdown 20230428/S/SDTcloud/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 09:34:13] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/5c/08/dba93b92047aa752cc8505e889ebcf52105323fb4508dd08bef80e1eed9d/pgx-0.7.1.tar.gz
+[2023-04-28 09:34:13] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/ef/db/cd3ff8efe6cae935b76889796fae0e73dbff0e09b269d049406dd64339c6/trading_strategy-0.9.0.tar.gz
+[2023-04-28 09:34:13] INFO root fetch - processPackages [rils-rols]: executing diffoscope
+[2023-04-28 09:34:13] INFO root fetch - processPackages [rils-rols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rils-rols-1.1.tar.gz tmp/rils-rols-1.2.tar.gz --markdown 20230428/r/rils-rols/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-28 09:34:13] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2023-04-28 09:34:13] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-04-28 09:34:13] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.7.0.tar.gz tmp/pgx-0.7.1.tar.gz --markdown 20230428/p/pgx/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-28 09:34:13] INFO root fetch - processPackages [ausbildungsnachweise-utils]: Downloading https://files.pythonhosted.org/packages/73/80/8d8cfa96f3ebbfd6a9f33bb6b2df8ffae0baee67352386ab6dcfbfdad44f/ausbildungsnachweise_utils-0.0.5.tar.gz
+[2023-04-28 09:34:14] INFO root fetch - processPackages [ausbildungsnachweise-utils]: executing diffoscope
+[2023-04-28 09:34:14] INFO root fetch - processPackages [ausbildungsnachweise-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ausbildungsnachweise_utils-0.0.4.tar.gz tmp/ausbildungsnachweise_utils-0.0.5.tar.gz --markdown 20230428/a/ausbildungsnachweise-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 09:34:14] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/7d/21/be537b0e3f0aff8499de61344a060b1fed95dae7358f28a8cfbccdcbb59a/housekeeper-4.1.2.tar.gz
+[2023-04-28 09:34:14] INFO root fetch - processPackages [housekeeper]: executing diffoscope
+[2023-04-28 09:34:14] INFO root fetch - processPackages [housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housekeeper-4.1.1.tar.gz tmp/housekeeper-4.1.2.tar.gz --markdown 20230428/h/housekeeper/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-04-28 09:34:14] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/5c/56/6a3bae759cb2d96b94978afb98541c2d384070652678881d1ec20043940b/trading_strategy-0.9.1.tar.gz
+[2023-04-28 09:34:14] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/53/8e/c42675cf6a8cca4482d840e06c5931139c07b2745f56af9c6e07ce5b45c8/volcengine-1.0.9.tar.gz
+[2023-04-28 09:34:14] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2023-04-28 09:34:14] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-04-28 09:34:14] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230428/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 09:34:14] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-04-28 09:34:14] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.87.tar.gz tmp/volcengine-1.0.9.tar.gz --markdown 20230428/v/volcengine/1.0.87-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:34:14] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2023-04-28 09:34:14] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20230428/c/chargebee/2.8.4-2.9.0/diff.md --exclude *.pyd
+[2023-04-28 09:34:15] INFO root fetch - processPackages [pyattest]: Start processing: nonebot-plugin-megumin
+[2023-04-28 09:34:15] INFO root fetch - main [MainThread]: End processing [pyattest]: success
+[2023-04-28 09:34:15] INFO root fetch - processPackages [SDTcloud]: Start processing: ypricemagic
+[2023-04-28 09:34:15] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-04-28 09:34:15] WARNING root fetch - processPackages [nonebot-plugin-megumin]: Skipping, unable to determine old version
+[2023-04-28 09:34:15] INFO root fetch - processPackages [nonebot-plugin-megumin]: Start processing: arkdata
+[2023-04-28 09:34:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-megumin] error
+[2023-04-28 09:34:15] INFO root fetch - processPackages [django-dreiattest]: Start processing: django-ipghrms-log
+[2023-04-28 09:34:15] INFO root fetch - main [MainThread]: End processing [django-dreiattest]: success
+[2023-04-28 09:34:15] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 09:34:15] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.9] Old Version: [1.8]
+[2023-04-28 09:34:15] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev3] Old Version: [2.2.7.dev2]
+[2023-04-28 09:34:15] INFO root fetch - processPackages [rils-rols]: Start processing: PureCloudPlatformClientV2
+[2023-04-28 09:34:15] INFO root fetch - main [MainThread]: End processing [rils-rols]: success
+[2023-04-28 09:34:15] INFO root fetch - processPackages [ausbildungsnachweise-utils]: Start processing: PyNyaaTa
+[2023-04-28 09:34:15] INFO root fetch - main [MainThread]: End processing [ausbildungsnachweise-utils]: success
+[2023-04-28 09:34:15] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-04-28 09:34:15] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-28 09:34:15] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230428/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:34:15] INFO root fetch - processPackages [PyNyaaTa]: New version: [202304270737] Old Version: [202304261143]
+[2023-04-28 09:34:15] INFO root fetch - processPackages [django-ipghrms-log]: Downloading https://files.pythonhosted.org/packages/5e/1e/6fbecb60fd6ed385123888015be7ff4d033454dabd3340825304cc9ed81d/django-ipghrms-log-1.9.tar.gz
+[2023-04-28 09:34:15] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/c4/40/6e25bd39a79bd52c27b0ffbcb6154cd994d170856343abdf9a2b309d64f4/ypricemagic-2.2.7.dev3.tar.gz
+[2023-04-28 09:34:15] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 09:34:15] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.8.tar.gz tmp/django-ipghrms-log-1.9.tar.gz --markdown 20230428/d/django-ipghrms-log/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-28 09:34:15] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-04-28 09:34:15] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-28 09:34:15] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.7.dev2.tar.gz tmp/ypricemagic-2.2.7.dev3.tar.gz --markdown 20230428/y/ypricemagic/2.2.7.dev2-2.2.7.dev3/diff.md --exclude *.pyd
+[2023-04-28 09:34:15] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/74/fa/345b72a587ee3af0a3f4becc7dc77cb8884eede2b85efcd1b9d82af7608e/PyNyaaTa-202304270737.tar.gz
+[2023-04-28 09:34:15] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-04-28 09:34:15] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202304261143.tar.gz tmp/PyNyaaTa-202304270737.tar.gz --markdown 20230428/P/PyNyaaTa/202304261143-202304270737/diff.md --exclude *.pyd
+[2023-04-28 09:34:16] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-04-28 09:34:16] INFO root fetch - processPackages [chargebee]: Start processing: ASCIIcli
+[2023-04-28 09:34:16] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2023-04-28 09:34:16] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-04-28 09:34:16] WARNING root fetch - processPackages [ASCIIcli]: Skipping, unable to determine old version
+[2023-04-28 09:34:16] INFO root fetch - main [MainThread]: End processing [ASCIIcli] error
+[2023-04-28 09:34:16] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
+[2023-04-28 09:34:16] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-04-28 09:34:16] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230428/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-04-28 09:34:16] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 09:34:17] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-04-28 09:34:17] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-04-28 09:34:19] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-28 09:34:19] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-04-28 09:34:19] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-28 09:35:04] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-04-28 09:35:04] INFO root fetch - main [MainThread]: Store serial: [17895051]
