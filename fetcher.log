@@ -13222,3 +13222,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:06:23] INFO root fetch - main [MainThread]: End processing [andeplane-pyodide-kernel]: success
 [2023-04-28 13:06:24] INFO root fetch - main [MainThread]: End processing [frouros]: success
 [2023-04-28 13:06:24] INFO root fetch - main [MainThread]: Store serial: [17897070]
+[2023-04-28 13:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897070]
+[2023-04-28 13:11:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jina
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-tado
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-theme-classic
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiogram-ext
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RWexptest
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inverter-connect
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refractio
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pollination-leed-daylight-option-one
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arkitekt
+[2023-04-28 13:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-private-bucket
+[2023-04-28 13:11:33] INFO root fetch - processPackages [inverter-connect]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-04-28 13:11:33] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:11:33] INFO root fetch - processPackages [pollination-leed-daylight-option-one]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 13:11:33] INFO root fetch - processPackages [RWexptest]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 13:11:33] INFO root fetch - processPackages [python-tado]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-28 13:11:33] INFO root fetch - processPackages [odoo-addon-web-theme-classic]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.3]
+[2023-04-28 13:11:34] INFO root fetch - processPackages [refractio]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 13:11:34] INFO root fetch - processPackages [arkitekt]: New version: [0.4.9] Old Version: [0.4.87]
+[2023-04-28 13:11:34] INFO root fetch - processPackages [inverter-connect]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [inverter-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverter-connect-0.1.0.tar.gz tmp/inverter-connect-0.3.0.tar.gz --markdown 20230428/i/inverter-connect/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-28 13:11:34] INFO root fetch - processPackages [RWexptest]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [RWexptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwexptest-0.0.3.tar.gz tmp/RWexptest-0.0.4.tar.gz --markdown 20230428/R/RWexptest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [pollination-leed-daylight-option-one]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [pollination-leed-daylight-option-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-leed-daylight-option-one-0.0.8.tar.gz tmp/pollination-leed-daylight-option-one-0.0.9.tar.gz --markdown 20230428/p/pollination-leed-daylight-option-one/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/7b/61/ce1cd2ce44009720824913ec74a791a1d75e9b5cb2998d07fffcee6801d5/arkitekt-0.4.87.tar.gz
+[2023-04-28 13:11:34] INFO root fetch - processPackages [python-tado]: Downloading https://files.pythonhosted.org/packages/39/30/edd85748b0a061f3d7157abd06815caf4c5e90bcf7e3a42aa9a3168446a5/python-tado-0.8.0.tar.gz
+[2023-04-28 13:11:34] INFO root fetch - processPackages [odoo-addon-web-theme-classic]: Downloading https://files.pythonhosted.org/packages/5d/45/8868abd8777a960a41f111597f51a79cc6869c03cf4ab906665b5c3bfc32/odoo_addon_web_theme_classic-16.0.1.0.1.3-py3-none-any.whl
+[2023-04-28 13:11:34] INFO root fetch - processPackages [refractio]: Downloading https://files.pythonhosted.org/packages/3b/02/11f16209274fa8b5efc88c87b0686ada043b2adc686e825247c736d9f139/refractio-1.0.0.tar.gz
+[2023-04-28 13:11:34] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 13:11:34] INFO root fetch - processPackages [refractio]: Downloading https://files.pythonhosted.org/packages/6b/ee/87beab1bd87fdb60ebdb9040e4b8da27c63778946fae271283f65b341af0/refractio-1.0.1.tar.gz
+[2023-04-28 13:11:34] INFO root fetch - processPackages [odoo-addon-web-theme-classic]: Downloading https://files.pythonhosted.org/packages/08/9b/ff9897c8920e86bf93ee3955957905ef539112b27795b9b76aefc5d86d42/odoo_addon_web_theme_classic-16.0.1.0.2-py3-none-any.whl
+[2023-04-28 13:11:34] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/46/75/bea92baa2b5fb8ae3f84353228effb8dccdb7f500f8bc6e3eb53824c72f0/arkitekt-0.4.9.tar.gz
+[2023-04-28 13:11:34] INFO root fetch - processPackages [python-tado]: Downloading https://files.pythonhosted.org/packages/3d/5b/3c69bc8776771f1413bd7ade70f01ebc08f67241f0fbe20498de2d7cb055/python-tado-0.8.1.tar.gz
+[2023-04-28 13:11:34] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230428/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-04-28 13:11:34] INFO root fetch - processPackages [refractio]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [refractio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refractio-1.0.0.tar.gz tmp/refractio-1.0.1.tar.gz --markdown 20230428/r/refractio/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [odoo-addon-web-theme-classic]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [odoo-addon-web-theme-classic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_theme_classic-16.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_web_theme_classic-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230428/o/odoo-addon-web-theme-classic/16.0.1.0.1.3-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [python-tado]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [python-tado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-tado-0.8.0.tar.gz tmp/python-tado-0.8.1.tar.gz --markdown 20230428/p/python-tado/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-28 13:11:34] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.87.tar.gz tmp/arkitekt-0.4.9.tar.gz --markdown 20230428/a/arkitekt/0.4.87-0.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:11:34] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-04-28 13:11:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-04-28 13:11:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230428/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 13:11:35] INFO root fetch - processPackages [aiogram-ext]: Start processing: starknet-py
+[2023-04-28 13:11:35] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 13:11:35] INFO root fetch - processPackages [RWexptest]: Start processing: arkindex-base-worker
+[2023-04-28 13:11:35] INFO root fetch - main [MainThread]: End processing [RWexptest]: success
+[2023-04-28 13:11:35] INFO root fetch - processPackages [starknet-py]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-28 13:11:35] INFO root fetch - processPackages [arkindex-base-worker]: New version: [0.3.3rc3] Old Version: [0.3.3rc2]
+[2023-04-28 13:11:35] INFO root fetch - processPackages [pollination-leed-daylight-option-one]: Start processing: schoolware-api
+[2023-04-28 13:11:35] INFO root fetch - main [MainThread]: End processing [pollination-leed-daylight-option-one]: success
+[2023-04-28 13:11:35] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-28 13:11:35] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/df/05/e0d6957562bbfbaa99e85c746a7dbeb6677e95fa82ce3050158233a3c8f0/starknet_py-0.8.0a0.tar.gz
+[2023-04-28 13:11:35] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-04-28 13:11:35] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.6.tar.gz tmp/schoolware_api-1.0.7.tar.gz --markdown 20230428/s/schoolware-api/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-28 13:11:35] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/62/83/e1d170154c0f1b17ebdafc161c9abf9aa2b53476a4178bcc0ca2992e3f89/arkindex-base-worker-0.3.3rc3.tar.gz
+[2023-04-28 13:11:36] INFO root fetch - processPackages [arkindex-base-worker]: executing diffoscope
+[2023-04-28 13:11:36] INFO root fetch - processPackages [arkindex-base-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkindex-base-worker-0.3.3rc2.tar.gz tmp/arkindex-base-worker-0.3.3rc3.tar.gz --markdown 20230428/a/arkindex-base-worker/0.3.3rc2-0.3.3rc3/diff.md --exclude *.pyd
+[2023-04-28 13:11:36] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/39/85/cb9d711715372b05df51856aded3536333f1465c7c78e81db5c569fa46ff/starknet_py-0.9.0a0.tar.gz
+[2023-04-28 13:11:36] INFO root fetch - processPackages [odoo-addon-web-theme-classic]: Start processing: aws-data-mesh-utils
+[2023-04-28 13:11:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-theme-classic]: success
+[2023-04-28 13:11:36] INFO root fetch - main [MainThread]: End processing [refractio]: success
+[2023-04-28 13:11:36] INFO root fetch - processPackages [aws-data-mesh-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 13:11:36] INFO root fetch - processPackages [starknet-py]: executing diffoscope
+[2023-04-28 13:11:36] INFO root fetch - processPackages [starknet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starknet_py-0.8.0a0.tar.gz tmp/starknet_py-0.9.0a0.tar.gz --markdown 20230428/s/starknet-py/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-28 13:11:36] INFO root fetch - main [MainThread]: End processing [python-tado]: success
+[2023-04-28 13:11:36] INFO root fetch - main [MainThread]: End processing [inverter-connect]: success
+[2023-04-28 13:11:36] INFO root fetch - processPackages [aws-data-mesh-utils]: Downloading https://files.pythonhosted.org/packages/cb/9f/4481e440556b59a9fa0b9175f2874fb598e09d5695f07500cbc5b007d077/aws-data-mesh-utils-1.0.8.tar.gz
+[2023-04-28 13:11:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-04-28 13:11:36] INFO root fetch - processPackages [aws-data-mesh-utils]: Downloading https://files.pythonhosted.org/packages/23/94/b6317fd6a0153857da86f367e063bd849c4d480f88f5c96b0d41b13d0b4e/aws-data-mesh-utils-1.0.9.tar.gz
+[2023-04-28 13:11:36] INFO root fetch - processPackages [aws-data-mesh-utils]: executing diffoscope
+[2023-04-28 13:11:36] INFO root fetch - processPackages [aws-data-mesh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-data-mesh-utils-1.0.8.tar.gz tmp/aws-data-mesh-utils-1.0.9.tar.gz --markdown 20230428/a/aws-data-mesh-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 13:11:36] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-04-28 13:11:37] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-28 13:11:37] INFO root fetch - main [MainThread]: End processing [arkindex-base-worker]: success
+[2023-04-28 13:11:37] INFO root fetch - main [MainThread]: End processing [starknet-py]: success
+[2023-04-28 13:11:37] INFO root fetch - main [MainThread]: End processing [aws-data-mesh-utils]: success
+[2023-04-28 13:11:38] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-28 13:11:38] INFO root fetch - main [MainThread]: Store serial: [17897123]
