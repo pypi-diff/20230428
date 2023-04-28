@@ -9890,3 +9890,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:56:14] INFO root fetch - main [MainThread]: End processing [deep-training]: success
 [2023-04-28 09:56:14] INFO root fetch - main [MainThread]: End processing [judoscale]: success
 [2023-04-28 09:56:14] INFO root fetch - main [MainThread]: Store serial: [17895264]
+[2023-04-28 10:01:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17895264]
+[2023-04-28 10:01:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bareasgi
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ampapi
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-image-changelog
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-suitemanager
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quorum-eth-py
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsxquant
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: generate-corr-sequence
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inventronet
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chaosmagpy
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: interactions-restful
+[2023-04-28 10:01:23] INFO root fetch - processPackages [odoo-image-changelog]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [inventronet]: New version: [0.0.6a0] Old Version: [0.0.5a0]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [pytest-suitemanager]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [bareasgi]: New version: [4.4.0a1] Old Version: [4.4.0]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ampapi]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-28 10:01:23] WARNING root fetch - processPackages [quorum-eth-py]: Skipping, unable to determine old version
+[2023-04-28 10:01:23] INFO root fetch - processPackages [quorum-eth-py]: Start processing: tarvis-btb
+[2023-04-28 10:01:23] INFO root fetch - main [MainThread]: End processing [quorum-eth-py] error
+[2023-04-28 10:01:23] WARNING root fetch - processPackages [generate-corr-sequence]: Skipping, unable to determine old version
+[2023-04-28 10:01:23] INFO root fetch - processPackages [interactions-restful]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [chaosmagpy]: New version: [0.9] Old Version: [0.8]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [dsxquant]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [generate-corr-sequence]: Start processing: spiritlong
+[2023-04-28 10:01:23] INFO root fetch - main [MainThread]: End processing [generate-corr-sequence] error
+[2023-04-28 10:01:23] INFO root fetch - processPackages [spiritlong]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [inventronet]: executing diffoscope
+[2023-04-28 10:01:23] INFO root fetch - processPackages [inventronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventronet-0.0.5a0.tar.gz tmp/inventronet-0.0.6a0.tar.gz --markdown 20230428/i/inventronet/0.0.5a0-0.0.6a0/diff.md --exclude *.pyd
+[2023-04-28 10:01:23] INFO root fetch - processPackages [tarvis-btb]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/b1/8b/ac7f148d77539fb2fb920f6fe53fa58cd36f33455997995221bce07cdd9d/ampapi-1.0.9.tar.gz
+[2023-04-28 10:01:23] INFO root fetch - processPackages [odoo-image-changelog]: executing diffoscope
+[2023-04-28 10:01:23] INFO root fetch - processPackages [odoo-image-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_image_changelog-0.1.0.tar.gz tmp/odoo_image_changelog-0.1.1.tar.gz --markdown 20230428/o/odoo-image-changelog/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 10:01:23] INFO root fetch - processPackages [bareasgi]: Downloading https://files.pythonhosted.org/packages/b6/5c/befc0c87490149472683cf9a50635b715cf00ed472088757366850bc702f/bareasgi-4.4.0.tar.gz
+[2023-04-28 10:01:23] INFO root fetch - processPackages [pytest-suitemanager]: Downloading https://files.pythonhosted.org/packages/c3/33/f19a45bb739b4be4d84fbc8f4496f8df6093fd7091410a0f1dece91e865c/pytest-suitemanager-0.1.3.tar.gz
+[2023-04-28 10:01:23] INFO root fetch - processPackages [spiritlong]: executing diffoscope
+[2023-04-28 10:01:23] INFO root fetch - processPackages [spiritlong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiritlong-0.0.8.tar.gz tmp/spiritlong-0.0.9.tar.gz --markdown 20230428/s/spiritlong/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 10:01:23] INFO root fetch - processPackages [interactions-restful]: Downloading https://files.pythonhosted.org/packages/a1/d4/35c31048a46107612fd3a6afb0790250bf7267d63453bdcd9c3fa13c294d/interactions-restful-1.0.2.tar.gz
+[2023-04-28 10:01:23] INFO root fetch - processPackages [dsxquant]: Downloading https://files.pythonhosted.org/packages/79/a1/ae73c63489d05d85f388bc6c5805deb61143ef0e3acabc82ad3d59f7f663/dsxquant-1.1.0.tar.gz
+[2023-04-28 10:01:23] INFO root fetch - processPackages [pytest-suitemanager]: executing diffoscope
+[2023-04-28 10:01:23] INFO root fetch - processPackages [pytest-suitemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-suitemanager-0.1.2.tar.gz tmp/pytest-suitemanager-0.1.3.tar.gz --markdown 20230428/p/pytest-suitemanager/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 10:01:23] INFO root fetch - processPackages [interactions-restful]: executing diffoscope
+[2023-04-28 10:01:23] INFO root fetch - processPackages [interactions-restful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactions-restful-1.0.1.tar.gz tmp/interactions-restful-1.0.2.tar.gz --markdown 20230428/i/interactions-restful/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 10:01:23] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/d2/dd/654b87e6e3294a65de4379f62fb81d02a762d43011cd0f9ed9ff756adc34/ampapi-1.1.0.tar.gz
+[2023-04-28 10:01:23] INFO root fetch - processPackages [bareasgi]: Downloading https://files.pythonhosted.org/packages/d7/bd/665ee4f8bf790bd8f60f45f6191076ae26df81061a8c483e8560496b2f03/bareasgi-4.4.0a1.tar.gz
+[2023-04-28 10:01:23] INFO root fetch - processPackages [tarvis-btb]: Downloading https://files.pythonhosted.org/packages/d1/6c/88e179eda71910d154d9099f8a77bf377ecb696bf2558b7c6592ceeb2c6b/tarvis-btb-0.9.3.tar.gz
+[2023-04-28 10:01:24] INFO root fetch - processPackages [bareasgi]: executing diffoscope
+[2023-04-28 10:01:24] INFO root fetch - processPackages [bareasgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareasgi-4.4.0.tar.gz tmp/bareasgi-4.4.0a1.tar.gz --markdown 20230428/b/bareasgi/4.4.0-4.4.0a1/diff.md --exclude *.pyd
+[2023-04-28 10:01:24] INFO root fetch - processPackages [tarvis-btb]: executing diffoscope
+[2023-04-28 10:01:24] INFO root fetch - processPackages [tarvis-btb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-btb-0.9.2.tar.gz tmp/tarvis-btb-0.9.3.tar.gz --markdown 20230428/t/tarvis-btb/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-28 10:01:24] INFO root fetch - processPackages [dsxquant]: Downloading https://files.pythonhosted.org/packages/7a/32/dda5454dcab1b81da1c5aeb203e82afad0127d7c14d4aaebf028b0e7ecb1/dsxquant-2.0.0.tar.gz
+[2023-04-28 10:01:24] INFO root fetch - processPackages [ampapi]: executing diffoscope
+[2023-04-28 10:01:24] INFO root fetch - processPackages [ampapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampapi-1.0.9.tar.gz tmp/ampapi-1.1.0.tar.gz --markdown 20230428/a/ampapi/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-28 10:01:24] INFO root fetch - processPackages [dsxquant]: executing diffoscope
+[2023-04-28 10:01:24] INFO root fetch - processPackages [dsxquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsxquant-1.1.0.tar.gz tmp/dsxquant-2.0.0.tar.gz --markdown 20230428/d/dsxquant/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-28 10:01:24] INFO root fetch - processPackages [odoo-image-changelog]: Start processing: bw2regional
+[2023-04-28 10:01:24] INFO root fetch - main [MainThread]: End processing [odoo-image-changelog]: success
+[2023-04-28 10:01:24] INFO root fetch - processPackages [chaosmagpy]: Downloading https://files.pythonhosted.org/packages/ac/1c/35e2dc13250ed5e826622e21936afb01de020d5cccaede82439be1723ea7/chaosmagpy-0.8.tar.gz
+[2023-04-28 10:01:24] INFO root fetch - processPackages [bw2regional]: New version: [0.7.dev1] Old Version: [0.6.dev9]
+[2023-04-28 10:01:25] INFO root fetch - processPackages [interactions-restful]: Start processing: bareasgi
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [interactions-restful]: success
+[2023-04-28 10:01:25] INFO root fetch - processPackages [bareasgi]: New version: [4.4.0a1] Old Version: [4.4.0]
+[2023-04-28 10:01:25] INFO root fetch - processPackages [pytest-suitemanager]: Start processing: kidronekit
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [pytest-suitemanager]: success
+[2023-04-28 10:01:25] INFO root fetch - processPackages [bareasgi]: executing diffoscope
+[2023-04-28 10:01:25] INFO root fetch - processPackages [bareasgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareasgi-4.4.0.tar.gz tmp/bareasgi-4.4.0a1.tar.gz --markdown 20230428/b/bareasgi/4.4.0-4.4.0a1/diff.md --exclude *.pyd
+[2023-04-28 10:01:25] INFO root fetch - processPackages [kidronekit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 10:01:25] INFO root fetch - processPackages [spiritlong]: Start processing: arclet-alconna
+[2023-04-28 10:01:25] INFO root fetch - processPackages [bw2regional]: Downloading https://files.pythonhosted.org/packages/e9/4a/690eab242285b8f6d1d2a4fe8cc5078708a907a44e6d0cd4778c23aa7d3c/bw2regional-0.7.dev1.tar.gz
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [spiritlong]: success
+[2023-04-28 10:01:25] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.0rc4] Old Version: [1.7.0rc3]
+[2023-04-28 10:01:25] INFO root fetch - processPackages [bw2regional]: executing diffoscope
+[2023-04-28 10:01:25] INFO root fetch - processPackages [bw2regional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2regional-0.6.dev9.tar.gz tmp/bw2regional-0.7.dev1.tar.gz --markdown 20230428/b/bw2regional/0.6.dev9-0.7.dev1/diff.md --exclude *.pyd
+[2023-04-28 10:01:25] INFO root fetch - processPackages [chaosmagpy]: Downloading https://files.pythonhosted.org/packages/9d/52/7ca9ba1de65192febd883e1381be6567736f2baaa3005510513e45fe0e9d/chaosmagpy-0.9.tar.gz
+[2023-04-28 10:01:25] INFO root fetch - processPackages [kidronekit]: Downloading https://files.pythonhosted.org/packages/07/8e/fecac61f4432a9eb26be4b42d86cb5295bcc16c5562ed2a27909623d6171/kidronekit-1.0.0.tar.gz
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [tarvis-btb]: success
+[2023-04-28 10:01:25] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/2b/71/805082dd5c68c7200512b8246dac02bb5a420131013d8e951c7357712acf/arclet-alconna-1.7.0rc3.tar.gz
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [dsxquant]: success
+[2023-04-28 10:01:25] INFO root fetch - processPackages [kidronekit]: Downloading https://files.pythonhosted.org/packages/18/93/e3caee6683961bb197fc781d971b2ddce50e40075c5ce816cdbb9cb28cc9/kidronekit-1.0.1.tar.gz
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [inventronet]: success
+[2023-04-28 10:01:25] INFO root fetch - processPackages [kidronekit]: executing diffoscope
+[2023-04-28 10:01:25] INFO root fetch - processPackages [kidronekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidronekit-1.0.0.tar.gz tmp/kidronekit-1.0.1.tar.gz --markdown 20230428/k/kidronekit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 10:01:25] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/b5/60/2aff57b425bb90472e1cd037eeeb94242d947eba1c315497bdc72c60fd17/arclet-alconna-1.7.0rc4.tar.gz
+[2023-04-28 10:01:25] INFO root fetch - processPackages [chaosmagpy]: executing diffoscope
+[2023-04-28 10:01:25] INFO root fetch - processPackages [chaosmagpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaosmagpy-0.8.tar.gz tmp/chaosmagpy-0.9.tar.gz --markdown 20230428/c/chaosmagpy/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [bareasgi]: success
+[2023-04-28 10:01:25] INFO root fetch - main [MainThread]: End processing [ampapi]: success
+[2023-04-28 10:01:26] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-04-28 10:01:26] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.0rc3.tar.gz tmp/arclet-alconna-1.7.0rc4.tar.gz --markdown 20230428/a/arclet-alconna/1.7.0rc3-1.7.0rc4/diff.md --exclude *.pyd
+[2023-04-28 10:01:26] INFO root fetch - main [MainThread]: End processing [kidronekit]: success
+[2023-04-28 10:01:26] INFO root fetch - main [MainThread]: End processing [bareasgi]: success
+[2023-04-28 10:01:28] INFO root fetch - main [MainThread]: End processing [bw2regional]: success
+[2023-04-28 10:01:31] INFO root fetch - main [MainThread]: End processing [chaosmagpy]: success
+[2023-04-28 10:01:47] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-04-28 10:01:47] INFO root fetch - main [MainThread]: Store serial: [17895313]
