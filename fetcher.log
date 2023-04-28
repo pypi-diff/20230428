@@ -14781,3 +14781,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 14:48:05] INFO root fetch - main [MainThread]: End processing [hdbcli]: success
 [2023-04-28 14:48:09] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
 [2023-04-28 14:48:09] INFO root fetch - main [MainThread]: Store serial: [17898046]
+[2023-04-28 14:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17898046]
+[2023-04-28 14:53:20] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-geopandas
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-bot
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notebook
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphkit-learn
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foursight-core
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-id-python
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aihandler
+[2023-04-28 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-organization-python
+[2023-04-28 14:53:20] INFO root fetch - processPackages [dask-geopandas]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [notebook]: New version: [7.0.0b1] Old Version: [7.0.0b0]
+[2023-04-28 14:53:20] WARNING root fetch - processPackages [llm-bot]: Skipping, unable to determine old version
+[2023-04-28 14:53:20] INFO root fetch - processPackages [llm-bot]: Start processing: pyuftp
+[2023-04-28 14:53:20] INFO root fetch - main [MainThread]: End processing [llm-bot] error
+[2023-04-28 14:53:20] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230427.9.25.348041] Old Version: [20230427.20.35.842249]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b58] Old Version: [4.1.0.5b57]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [aihandler]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-04-28 14:53:20] WARNING root fetch - processPackages [pyuftp]: Skipping, unable to determine old version
+[2023-04-28 14:53:20] INFO root fetch - processPackages [pyuftp]: Start processing: code-bert-score
+[2023-04-28 14:53:20] INFO root fetch - main [MainThread]: End processing [pyuftp] error
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230428/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230428/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 14:53:20] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/b1/1e/c0fe308cb22cc533dda010cbc2b9155a833e5c5fe33f81fd350af70e13d0/notebook-7.0.0b0.tar.gz
+[2023-04-28 14:53:20] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/50/1b/4c559203ed0d71dd74ad66980bb4766df7c68514437b92f3abec8c7819c8/certora-cli-alpha-master-20230427.20.35.842249.tar.gz
+[2023-04-28 14:53:20] INFO root fetch - processPackages [dask-geopandas]: Downloading https://files.pythonhosted.org/packages/d7/ee/c652abdea48ab2905bd0c392e3a1d247f00294e151ee3aad62d7148a13d2/dask-geopandas-0.3.0.tar.gz
+[2023-04-28 14:53:20] WARNING root fetch - processPackages [code-bert-score]: Skipping, unable to determine old version
+[2023-04-28 14:53:20] INFO root fetch - processPackages [code-bert-score]: Start processing: cybrid-api-bank-python
+[2023-04-28 14:53:20] INFO root fetch - main [MainThread]: End processing [code-bert-score] error
+[2023-04-28 14:53:20] INFO root fetch - processPackages [graphkit-learn]: Downloading https://files.pythonhosted.org/packages/d2/f8/0280dbd958a335838cf715e5d299a621a6208c84e3a0b50386a632d362eb/graphkit-learn-0.2b2.tar.gz
+[2023-04-28 14:53:20] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/63/8d/3f2d909b4276e54cf03d9e600b14de5bbf7a985068b8a059512e3de528f8/aihandler-1.9.7.tar.gz
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 14:53:20] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38049088>=10485760
+[2023-04-28 14:53:20] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: nucliadb
+[2023-04-28 14:53:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-28 14:53:20] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/e2/46/21c7f31c9a97ae36b95f214d813de0899cc09ede449d54c812bcad9b4e97/foursight_core-4.1.0.5b58.tar.gz
+[2023-04-28 14:53:20] INFO root fetch - processPackages [nucliadb]: New version: [2.8.2.post221] Old Version: [2.8.2.post220]
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-28 14:53:20] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230428/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 14:53:21] INFO root fetch - processPackages [dask-geopandas]: Downloading https://files.pythonhosted.org/packages/ae/0f/6ed20067cab8f933579af6d37e9a76afce129bb50aa212d51f5905059ebc/dask-geopandas-0.3.1.tar.gz
+[2023-04-28 14:53:21] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-04-28 14:53:21] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-28 14:53:21] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230428/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-28 14:53:21] INFO root fetch - processPackages [graphkit-learn]: Downloading https://files.pythonhosted.org/packages/3e/60/5cd53f9e70126c6a9260223c1ed0bc52c9c5d612ca98a6246517c8df0ea1/graphkit-learn-0.2b3.tar.gz
+[2023-04-28 14:53:21] INFO root fetch - processPackages [dask-geopandas]: executing diffoscope
+[2023-04-28 14:53:21] INFO root fetch - processPackages [dask-geopandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-geopandas-0.3.0.tar.gz tmp/dask-geopandas-0.3.1.tar.gz --markdown 20230428/d/dask-geopandas/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-28 14:53:21] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-04-28 14:53:21] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.7.tar.gz tmp/aihandler-1.9.8.tar.gz --markdown 20230428/a/aihandler/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-04-28 14:53:21] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d9/1f/96cf1d02094f3db0f1fe4e9610e2f3f3d139fbd1eb7ee1411ccc7644604a/nucliadb-2.8.2.post221-py3-none-any.whl
+[2023-04-28 14:53:21] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-28 14:53:21] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.2.post220-py3-none-any.whl.zip tmp/nucliadb-2.8.2.post221-py3-none-any.whl.zip --markdown 20230428/n/nucliadb/2.8.2.post220-2.8.2.post221/diff.md --exclude *.pyd
+[2023-04-28 14:53:21] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-28 14:53:21] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230428/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-28 14:53:21] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/ea/cd/f854735b0ebbd1d92e1b9aef677a3082686b31dbb9f649f272fc1034d471/notebook-7.0.0b1.tar.gz
+[2023-04-28 14:53:22] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-28 14:53:22] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.5b57.tar.gz tmp/foursight_core-4.1.0.5b58.tar.gz --markdown 20230428/f/foursight-core/4.1.0.5b57-4.1.0.5b58/diff.md --exclude *.pyd
+[2023-04-28 14:53:22] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: nucliadb-client
+[2023-04-28 14:53:22] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.2.post221] Old Version: [2.8.2.post220]
+[2023-04-28 14:53:22] INFO root fetch - processPackages [langchain-serve]: Start processing: nucliadb-dataset
+[2023-04-28 14:53:22] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/81/1a/c172f807c2e0c7b07c03d9229383c18accb1191109eb800e48af2e085ec1/nucliadb_client-2.8.2.post221-py3-none-any.whl
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.2.post221] Old Version: [2.8.2.post220]
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.2.post220-py3-none-any.whl.zip tmp/nucliadb_client-2.8.2.post221-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-client/2.8.2.post220-2.8.2.post221/diff.md --exclude *.pyd
+[2023-04-28 14:53:22] INFO root fetch - processPackages [aihandler]: Start processing: nucliadb-models
+[2023-04-28 14:53:22] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.2.post221] Old Version: [2.8.2.post220]
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/c1/3362a6e31f2438c1b0e3ed535967b0e7c00836da56d10afd557dd691a24d/nucliadb_dataset-2.8.2.post221-py3-none-any.whl
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.2.post220-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.2.post221-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-dataset/2.8.2.post220-2.8.2.post221/diff.md --exclude *.pyd
+[2023-04-28 14:53:22] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2023-04-28 14:53:22] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.0.0b0.tar.gz tmp/notebook-7.0.0b1.tar.gz --markdown 20230428/n/notebook/7.0.0b0-7.0.0b1/diff.md --exclude *.pyd
+[2023-04-28 14:53:22] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/bf/25/92c28de228a02094c8f3b31cef3f9208477bd471c65ba89ea04899cc9cee/nucliadb_models-2.8.2.post221-py3-none-any.whl
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.2.post220-py3-none-any.whl.zip tmp/nucliadb_models-2.8.2.post221-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-models/2.8.2.post220-2.8.2.post221/diff.md --exclude *.pyd
+[2023-04-28 14:53:23] INFO root fetch - processPackages [graphkit-learn]: Start processing: nucliadb-protos
+[2023-04-28 14:53:23] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.2.post221] Old Version: [2.8.2.post220]
+[2023-04-28 14:53:23] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: nucliadb-sdk
+[2023-04-28 14:53:23] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.2.post221] Old Version: [2.8.2.post220]
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/aa/56/468683818da66868a3f17ae9d8c43031604d3add662bee5866ae54586df6/nucliadb_protos-2.8.2.post221-py3-none-any.whl
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.2.post220-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.2.post221-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-protos/2.8.2.post220-2.8.2.post221/diff.md --exclude *.pyd
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a7/61/88cb0d6ca12bb4237b45aad4cf17fbd15c9fdc508c3b8627c26db135edb3/nucliadb_sdk-2.8.2.post221-py3-none-any.whl
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-04-28 14:53:23] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.2.post220-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.2.post221-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-sdk/2.8.2.post220-2.8.2.post221/diff.md --exclude *.pyd
+[2023-04-28 14:53:23] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.2.post221] Old Version: [2.8.2.post220]
+[2023-04-28 14:53:24] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/01/b3/cf6655c369f1fc8f273fd35a1f04c4e09857e12a20bf148dac18d12931ae/nucliadb_utils-2.8.2.post221-py3-none-any.whl
+[2023-04-28 14:53:24] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-28 14:53:24] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.2.post220-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.2.post221-py3-none-any.whl.zip --markdown 20230428/n/nucliadb-utils/2.8.2.post220-2.8.2.post221/diff.md --exclude *.pyd
+[2023-04-28 14:53:24] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: langchain-serve
+[2023-04-28 14:53:24] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-28 14:53:24] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-28 14:53:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Start processing: aspring
+[2023-04-28 14:53:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-28 14:53:24] INFO root fetch - processPackages [aspring]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-28 14:53:24] INFO root fetch - processPackages [dask-geopandas]: Start processing: pomodoro-timer-cli
+[2023-04-28 14:53:24] INFO root fetch - main [MainThread]: End processing [dask-geopandas]: success
+[2023-04-28 14:53:24] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-28 14:53:24] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230428/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-28 14:53:24] WARNING root fetch - processPackages [pomodoro-timer-cli]: Skipping, unable to determine old version
+[2023-04-28 14:53:24] INFO root fetch - main [MainThread]: End processing [pomodoro-timer-cli] error
+[2023-04-28 14:53:24] INFO root fetch - processPackages [aspring]: executing diffoscope
+[2023-04-28 14:53:24] INFO root fetch - processPackages [aspring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspring-1.2.0.tar.gz tmp/aspring-1.3.0.tar.gz --markdown 20230428/a/aspring/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-28 14:53:24] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-28 14:53:25] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-28 14:53:25] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-28 14:53:25] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-28 14:53:25] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-28 14:53:25] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-28 14:53:26] INFO root fetch - main [MainThread]: End processing [aspring]: success
+[2023-04-28 14:53:27] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-28 14:55:15] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2023-04-28 14:55:15] INFO root fetch - main [MainThread]: Store serial: [17898119]
