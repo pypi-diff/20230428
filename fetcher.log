@@ -9022,3 +9022,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 09:00:51] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-28 09:00:54] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-28 09:00:54] INFO root fetch - main [MainThread]: Store serial: [17894751]
+[2023-04-28 09:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894751]
+[2023-04-28 09:06:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-order-secondary-unit
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ASCIIcli
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inhandtest
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QuNet
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ChatLLM
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lk-logger
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-image-annotation
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tomwer
+[2023-04-28 09:06:03] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-04-28 09:06:03] WARNING root fetch - processPackages [ASCIIcli]: Skipping, unable to determine old version
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ASCIIcli]: Start processing: py-sls-lambda-toolkit
+[2023-04-28 09:06:03] INFO root fetch - processPackages [inhandtest]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-04-28 09:06:03] INFO root fetch - main [MainThread]: End processing [ASCIIcli] error
+[2023-04-28 09:06:03] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.15.3.4] Old Version: [2023.4.28.14.58.43]
+[2023-04-28 09:06:03] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 09:06:03] INFO root fetch - processPackages [lk-logger]: New version: [5.4.9] Old Version: [5.4.8]
+[2023-04-28 09:06:03] INFO root fetch - processPackages [tomwer]: New version: [1.2.0a0] Old Version: [1.1.2]
+[2023-04-28 09:06:03] INFO root fetch - processPackages [streamlit-image-annotation]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-28 09:06:03] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-28 09:06:03] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-04-28 09:06:03] INFO root fetch - processPackages [cg]: New version: [29.4.9] Old Version: [29.4.8]
+[2023-04-28 09:06:04] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-04-28 09:06:04] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230428/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-04-28 09:06:04] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/06/b7/e6946f70cae9110cffc1e420de58f0fe25291b7fbf5f8ad20aaa276e14be/tomwer-1.1.2.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: Downloading https://files.pythonhosted.org/packages/4c/a0/0dac699d985a837edb1b03491e3a91ac54b060050a7dbadfaf74dd219e0e/odoo14_addon_sale_order_secondary_unit-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-04-28 09:06:04] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-04-28 09:06:04] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230428/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 09:06:04] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/e4/f4/d5812e81841606230c7da237b10fd246c70a41e9dbf9f7f0870d83bc03cf/lk_logger-5.4.8-py3-none-any.whl
+[2023-04-28 09:06:04] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/ab/e4/d122800e3f35f565543ce30765b3fcb76afb3255d0d26ba7c1a3cfd6edb2/py-sls-lambda-toolkit-0.0.6.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/9b/5e/feb5f620c0796b4e767fe8cc242d7886f9888ab05a8a89d0b22bc0d078c5/inhandtest-0.0.38.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [streamlit-image-annotation]: Downloading https://files.pythonhosted.org/packages/c6/35/5ea1d03b0d9a85993d6319299188360673e672db105b82aab25e67a1d71c/streamlit_image_annotation-0.1.0.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-04-28 09:06:04] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.0.5.tar.gz tmp/py-sls-lambda-toolkit-0.0.6.tar.gz --markdown 20230428/p/py-sls-lambda-toolkit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-28 09:06:04] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/84/58/56bfa4fe5cba8592a5dca22e779329fadd9a83a353882bfa9721fc989f92/ChatLLM-2023.4.28.15.3.4.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/97/a9/cd3b737f3358466889b52884b2afca8952615ad8c589b4d018d94fe95866/cg-29.4.9.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/54/d5/450df7985a2aca93a96033a2755de9745bd69936cd33710f689990d166bb/inhandtest-0.0.39.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/90/d0/337ac51b6b36e27cce32d840a04c35d48a88064a6268eed8e2d31ff496e8/lk_logger-5.4.9-py3-none-any.whl
+[2023-04-28 09:06:04] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-04-28 09:06:04] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.38.tar.gz tmp/inhandtest-0.0.39.tar.gz --markdown 20230428/i/inhandtest/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-04-28 09:06:04] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: Downloading https://files.pythonhosted.org/packages/49/e2/f2dd13433b73aa231dc34868dff60456366572ce6b6aeff16d0cf7e4cc13/odoo14_addon_sale_order_secondary_unit-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-28 09:06:04] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/55/e2/51deca77c72c63d2cf45e1e2662ae01f72e3bf6634c8491cb56d4ff29361/tomwer-1.2.0a0.tar.gz
+[2023-04-28 09:06:04] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2023-04-28 09:06:04] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.4.8-py3-none-any.whl.zip tmp/lk_logger-5.4.9-py3-none-any.whl.zip --markdown 20230428/l/lk-logger/5.4.8-5.4.9/diff.md --exclude *.pyd
+[2023-04-28 09:06:04] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: executing diffoscope
+[2023-04-28 09:06:04] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_secondary_unit-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_secondary_unit-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230428/o/odoo14-addon-sale-order-secondary-unit/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-04-28 09:06:04] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-28 09:06:04] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.8.tar.gz tmp/cg-29.4.9.tar.gz --markdown 20230428/c/cg/29.4.8-29.4.9/diff.md --exclude *.pyd
+[2023-04-28 09:06:04] INFO root fetch - processPackages [streamlit-image-annotation]: Downloading https://files.pythonhosted.org/packages/75/c4/4746a61fe038d3e9df8af145bff10480fe0b6c7a8cf466dd9cbafaa25325/streamlit_image_annotation-0.2.0.tar.gz
+[2023-04-28 09:06:05] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2023-04-28 09:06:05] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.1.2.tar.gz tmp/tomwer-1.2.0a0.tar.gz --markdown 20230428/t/tomwer/1.1.2-1.2.0a0/diff.md --exclude *.pyd
+[2023-04-28 09:06:05] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 09:06:05] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.14.58.43.tar.gz tmp/ChatLLM-2023.4.28.15.3.4.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.14.58.43-2023.4.28.15.3.4/diff.md --exclude *.pyd
+[2023-04-28 09:06:05] INFO root fetch - processPackages [QuNet]: Start processing: py-sls-lambda-toolkit
+[2023-04-28 09:06:05] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-04-28 09:06:05] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-28 09:06:05] INFO root fetch - processPackages [streamlit-image-annotation]: executing diffoscope
+[2023-04-28 09:06:05] INFO root fetch - processPackages [streamlit-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_image_annotation-0.1.0.tar.gz tmp/streamlit_image_annotation-0.2.0.tar.gz --markdown 20230428/s/streamlit-image-annotation/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-28 09:06:05] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/d4/9b/ca3ccaf6e6bd2508565a89de01799b16512b0a8a2675d2ba43940c2596f1/py-sls-lambda-toolkit-0.0.7.tar.gz
+[2023-04-28 09:06:05] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Start processing: qoqo
+[2023-04-28 09:06:05] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-04-28 09:06:05] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-04-28 09:06:05] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-04-28 09:06:05] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.0.6.tar.gz tmp/py-sls-lambda-toolkit-0.0.7.tar.gz --markdown 20230428/p/py-sls-lambda-toolkit/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-28 09:06:05] INFO root fetch - processPackages [qoqo]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-04-28 09:06:05] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-04-28 09:06:05] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/b7/a8/2ea344737c44392406a7fab4baa027fdd9b5e43156642af921a00626577b/qoqo-1.3.2.tar.gz
+[2023-04-28 09:06:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-secondary-unit]: success
+[2023-04-28 09:06:06] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2023-04-28 09:06:06] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/7f/c5/37f1aab8d93c62e0e18608ddfa2c34aab26bae2b7cbb34cf709453491248/qoqo-1.4.0-cp37-cp37m-macosx_10_7_x86_64.whl
+[2023-04-28 09:06:06] INFO root fetch - processPackages [qoqo]: executing diffoscope
+[2023-04-28 09:06:06] INFO root fetch - processPackages [qoqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo-1.3.2.tar.gz tmp/qoqo-1.4.0-cp37-cp37m-macosx_10_7_x86_64.whl.zip --markdown 20230428/q/qoqo/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-04-28 09:06:06] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-04-28 09:06:07] INFO root fetch - main [MainThread]: End processing [qoqo]: success
+[2023-04-28 09:06:09] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 09:06:15] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-28 09:06:17] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2023-04-28 09:07:57] INFO root fetch - main [MainThread]: End processing [streamlit-image-annotation]: success
+[2023-04-28 09:07:57] INFO root fetch - main [MainThread]: Store serial: [17894790]
