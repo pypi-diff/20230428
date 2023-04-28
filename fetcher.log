@@ -8969,3 +8969,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 08:55:38] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
 [2023-04-28 08:55:38] INFO root fetch - main [MainThread]: End processing [cpptools]: success
 [2023-04-28 08:55:38] INFO root fetch - main [MainThread]: Store serial: [17894721]
+[2023-04-28 09:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894721]
+[2023-04-28 09:00:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ChatLLM
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-print
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow-providers-aerofoil
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: design.plone.contenttypes
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepdriver
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ChatLLM
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ipghrms-log
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-suitemanager
+[2023-04-28 09:00:47] INFO root fetch - processPackages [simple-print]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-04-28 09:00:47] WARNING root fetch - processPackages [apache-airflow-providers-aerofoil]: Skipping, unable to determine old version
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.14.58.43] Old Version: [2023.4.28.14.55.55]
+[2023-04-28 09:00:47] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-aerofoil] error
+[2023-04-28 09:00:47] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.28.14.58.43] Old Version: [2023.4.28.14.55.55]
+[2023-04-28 09:00:47] INFO root fetch - processPackages [django-ipghrms-log]: New version: [1.6] Old Version: [1.5]
+[2023-04-28 09:00:47] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230428065621] Old Version: [2.0.3.dev20230427095027]
+[2023-04-28 09:00:47] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-28 09:00:47] WARNING root fetch - processPackages [pytest-suitemanager]: Skipping, unable to determine old version
+[2023-04-28 09:00:47] INFO root fetch - main [MainThread]: End processing [pytest-suitemanager] error
+[2023-04-28 09:00:47] INFO root fetch - processPackages [django-ipghrms-log]: executing diffoscope
+[2023-04-28 09:00:47] INFO root fetch - processPackages [django-ipghrms-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-log-1.5.tar.gz tmp/django-ipghrms-log-1.6.tar.gz --markdown 20230428/d/django-ipghrms-log/1.5-1.6/diff.md --exclude *.pyd
+[2023-04-28 09:00:47] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-28 09:00:47] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230428/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/6e/36/755dd6c4c2d4c4d803912dd8d6d4f87f45204cda4ff4a1eb7c8902828d80/ChatLLM-2023.4.28.14.55.55.tar.gz
+[2023-04-28 09:00:47] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/6e/36/755dd6c4c2d4c4d803912dd8d6d4f87f45204cda4ff4a1eb7c8902828d80/ChatLLM-2023.4.28.14.55.55.tar.gz
+[2023-04-28 09:00:47] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/d8/00/476482776b6efad315ed791e2ddc6d9d517d150908bd62b940cebba0344d/design.plone.contenttypes-6.0.6.tar.gz
+[2023-04-28 09:00:47] INFO root fetch - processPackages [simple-print]: Downloading https://files.pythonhosted.org/packages/a6/a1/2e5413b28ac4f4366d3d65ddf299f1a4668bcda5e591bdb0ab1747374328/simple_print-1.7.0-py3-none-any.whl
+[2023-04-28 09:00:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9d/ee/e8ea97b4eea39d61a48517b3d98fdbaaa83f06dbc70ec0e3917cb09e41cc/localstack-core-2.0.3.dev20230427095027.tar.gz
+[2023-04-28 09:00:47] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-04-28 09:00:47] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.5.tar.gz tmp/design.plone.contenttypes-6.0.6.tar.gz --markdown 20230428/d/design.plone.contenttypes/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-04-28 09:00:48] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/1e/b3/b1d172838e7570afcfa7820d37777a8837ad3772b7bec65100eef08a942b/ChatLLM-2023.4.28.14.58.43.tar.gz
+[2023-04-28 09:00:48] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/1e/b3/b1d172838e7570afcfa7820d37777a8837ad3772b7bec65100eef08a942b/ChatLLM-2023.4.28.14.58.43.tar.gz
+[2023-04-28 09:00:48] INFO root fetch - processPackages [simple-print]: Downloading https://files.pythonhosted.org/packages/7b/03/6ac8363bf201700c95563ec63f64e03bf4ee95975060ab341d470178cc8f/simple_print-1.7.1-py3-none-any.whl
+[2023-04-28 09:00:48] INFO root fetch - processPackages [simple-print]: executing diffoscope
+[2023-04-28 09:00:48] INFO root fetch - processPackages [simple-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_print-1.7.0-py3-none-any.whl.zip tmp/simple_print-1.7.1-py3-none-any.whl.zip --markdown 20230428/s/simple-print/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-04-28 09:00:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/58/81/dbb3465be0ef95060b359e42829117688440d03c261249c54d71a699d7ee/localstack-core-2.0.3.dev20230428065621.tar.gz
+[2023-04-28 09:00:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-28 09:00:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230427095027.tar.gz tmp/localstack-core-2.0.3.dev20230428065621.tar.gz --markdown 20230428/l/localstack-core/2.0.3.dev20230427095027-2.0.3.dev20230428065621/diff.md --exclude *.pyd
+[2023-04-28 09:00:48] INFO root fetch - main [MainThread]: End processing [django-ipghrms-log]: success
+[2023-04-28 09:00:49] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-28 09:00:49] INFO root fetch - main [MainThread]: End processing [simple-print]: success
+[2023-04-28 09:00:49] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 09:00:49] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.14.55.55.tar.gz tmp/ChatLLM-2023.4.28.14.58.43.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.14.55.55-2023.4.28.14.58.43/diff.md --exclude *.pyd
+[2023-04-28 09:00:49] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-28 09:00:49] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.14.55.55.tar.gz tmp/ChatLLM-2023.4.28.14.58.43.tar.gz --markdown 20230428/C/ChatLLM/2023.4.28.14.55.55-2023.4.28.14.58.43/diff.md --exclude *.pyd
+[2023-04-28 09:00:50] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-04-28 09:00:51] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 09:00:51] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-28 09:00:54] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-28 09:00:54] INFO root fetch - main [MainThread]: Store serial: [17894751]
