@@ -12600,3 +12600,115 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 12:29:03] INFO root fetch - main [MainThread]: End processing [veda-tensors]: success
 [2023-04-28 12:29:19] INFO root fetch - main [MainThread]: End processing [veda]: success
 [2023-04-28 12:29:19] INFO root fetch - main [MainThread]: Store serial: [17896724]
+[2023-04-28 12:34:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17896724]
+[2023-04-28 12:34:44] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: methodism
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc-py-commons
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmem-plugin-parameters
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trex-analytic
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bareasgi-auth-common
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: consistent
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trex-model
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Chinese-webtext-spider
+[2023-04-28 12:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micropython-eduponics
+[2023-04-28 12:34:44] INFO root fetch - processPackages [bareasgi-auth-common]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cmem-plugin-parameters]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [methodism]: New version: [0.0.61] Old Version: [0.0.6]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [consistent]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-model]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [Chinese-webtext-spider]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-analytic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [micropython-eduponics]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [returnn]: New version: [1.20230428.121803] Old Version: [1.20230428.113217]
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cmem-plugin-parameters]: Downloading https://files.pythonhosted.org/packages/ad/92/d1fdecd1bf971151f577a0b3fd728e335780cb8bcf4fa6b401a85bc6069b/cmem_plugin_parameters-1.0.1.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/dc/df/dd6f33d21d69167f54b57860f614e749dd3b93d2a0d42c39be0e5885fb89/methodism-0.0.6.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [bareasgi-auth-common]: Downloading https://files.pythonhosted.org/packages/2a/6d/3e4817dbd77b906e3e2e9b6aec1cb940368b431b36fe9b0aabd95f17bd28/bareasgi_auth_common-4.1.1.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/80/39/628b9f594d3e86b636a77e3287f0fd9166bb60c509afe646f7f8bc9439c8/trex-model-1.0.0.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [consistent]: Downloading https://files.pythonhosted.org/packages/60/1e/40385f41419467def4db454240f4daebe9011a2fc6cb1d3b814726b715e2/consistent-0.0.7.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [Chinese-webtext-spider]: Downloading https://files.pythonhosted.org/packages/0e/27/e38989e76262e13d8ee04ede2932052a2e77703165c16b76697b8bf3d104/Chinese-webtext-spider-1.0.2.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/72/25/268944abf3ab789099ad66ba4a4d0a5d90391b69bb441c6f4314a9ebbc17/trex-analytic-1.0.0.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [bareasgi-auth-common]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [bareasgi-auth-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareasgi_auth_common-4.1.0.tar.gz tmp/bareasgi_auth_common-4.1.1.tar.gz --markdown 20230428/b/bareasgi-auth-common/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/2e/ca/717c921d384d61f9e5a70858be8cb5103c2c539dd4bdf09c41ec6b082e5b/returnn-1.20230428.121803.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [micropython-eduponics]: Downloading https://files.pythonhosted.org/packages/03/2d/e46c317cb0008dd08b892c4e15b22775f85e82c38ccd67a8b5db096c60ea/micropython-eduponics-2.0.2.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [consistent]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [consistent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consistent-0.0.5.tar.gz tmp/consistent-0.0.7.tar.gz --markdown 20230428/c/consistent/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [Chinese-webtext-spider]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [Chinese-webtext-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chinese-webtext-spider-1.0.1.tar.gz tmp/Chinese-webtext-spider-1.0.2.tar.gz --markdown 20230428/C/Chinese-webtext-spider/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/10/c7/5cc61fe29092216d25b6b811481d0797acd2af44c344afbe68c651157766/methodism-0.0.61.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [micropython-eduponics]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [micropython-eduponics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-eduponics-2.0.1.tar.gz tmp/micropython-eduponics-2.0.2.tar.gz --markdown 20230428/m/micropython-eduponics/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cmem-plugin-parameters]: Downloading https://files.pythonhosted.org/packages/05/85/a719dd5231b8f0475f539d4963466ed12555a842154470df69cf92e4c7e1/cmem_plugin_parameters-1.0.2.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230428.113217.tar.gz tmp/returnn-1.20230428.121803.tar.gz --markdown 20230428/r/returnn/1.20230428.113217-1.20230428.121803/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230428/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.0.6.tar.gz tmp/methodism-0.0.61.tar.gz --markdown 20230428/m/methodism/0.0.6-0.0.61/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cmem-plugin-parameters]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [cmem-plugin-parameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_parameters-1.0.1.tar.gz tmp/cmem_plugin_parameters-1.0.2.tar.gz --markdown 20230428/c/cmem-plugin-parameters/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/8e/1c/23f726528fc2926fa36542d61a33e1288232e6c752455a708c2637b26b99/trex-model-1.0.1.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/b6/21/5527cb4d333d63cf45e22a56ec4558eb09ec71488b12da2947d379646df8/trex-analytic-1.0.1.tar.gz
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-model]: executing diffoscope
+[2023-04-28 12:34:44] INFO root fetch - processPackages [trex-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-model-1.0.0.tar.gz tmp/trex-model-1.0.1.tar.gz --markdown 20230428/t/trex-model/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 12:34:45] INFO root fetch - processPackages [trex-analytic]: executing diffoscope
+[2023-04-28 12:34:45] INFO root fetch - processPackages [trex-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-analytic-1.0.0.tar.gz tmp/trex-analytic-1.0.1.tar.gz --markdown 20230428/t/trex-analytic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 12:34:46] INFO root fetch - processPackages [bareasgi-auth-common]: Start processing: sdkit
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [bareasgi-auth-common]: success
+[2023-04-28 12:34:46] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.82]
+[2023-04-28 12:34:46] INFO root fetch - processPackages [consistent]: Start processing: sai-dhawanjewar
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [consistent]: success
+[2023-04-28 12:34:46] WARNING root fetch - processPackages [sai-dhawanjewar]: Skipping, unable to determine old version
+[2023-04-28 12:34:46] INFO root fetch - processPackages [sai-dhawanjewar]: Start processing: MOMORING
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [sai-dhawanjewar] error
+[2023-04-28 12:34:46] INFO root fetch - processPackages [MOMORING]: New version: [1.4.0] Old Version: [1.3.6]
+[2023-04-28 12:34:46] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/20/7e/ad5a31c6f252f4f0562741ccb36eafc35ccbec84bc9cfef0c8fcd8fbf60a/sdkit-1.0.82.tar.gz
+[2023-04-28 12:34:46] INFO root fetch - processPackages [Chinese-webtext-spider]: Start processing: pygenda
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [Chinese-webtext-spider]: success
+[2023-04-28 12:34:46] INFO root fetch - processPackages [cmem-plugin-parameters]: Start processing: mercury
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [cmem-plugin-parameters]: success
+[2023-04-28 12:34:46] INFO root fetch - processPackages [MOMORING]: Downloading https://files.pythonhosted.org/packages/82/b8/df6bbe3e6b756322ece947bc5f1f5eef5faf8b8b0af826a09fff11676093/MOMORING-1.3.6.tar.gz
+[2023-04-28 12:34:46] INFO root fetch - processPackages [pygenda]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-28 12:34:46] INFO root fetch - processPackages [mercury]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-04-28 12:34:46] INFO root fetch - processPackages [micropython-eduponics]: Start processing: python-observer
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [micropython-eduponics]: success
+[2023-04-28 12:34:46] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-04-28 12:34:46] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.2.7.tar.gz tmp/mercury-2.2.8.tar.gz --markdown 20230428/m/mercury/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-04-28 12:34:46] INFO root fetch - processPackages [python-observer]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-28 12:34:46] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/b9/a9/05feb86839622b5b309a0677852dca34c39d0e0f0827e0180289f33d7e1b/sdkit-1.0.9.tar.gz
+[2023-04-28 12:34:46] INFO root fetch - processPackages [methodism]: Start processing: andeplane-pyodide-kernel
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-04-28 12:34:46] INFO root fetch - processPackages [MOMORING]: Downloading https://files.pythonhosted.org/packages/cd/e3/b1abff9066bdcd3e11ede2347f66ea77863bc349ff82dfc73f4476307520/MOMORING-1.4.0.tar.gz
+[2023-04-28 12:34:46] INFO root fetch - processPackages [pygenda]: Downloading https://files.pythonhosted.org/packages/0c/7b/67b544dadba8036986d8c2c6285955664a3e01c00e753bffb32f63849dcf/pygenda-0.2.6.tar.gz
+[2023-04-28 12:34:46] INFO root fetch - processPackages [MOMORING]: executing diffoscope
+[2023-04-28 12:34:46] INFO root fetch - processPackages [MOMORING]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MOMORING-1.3.6.tar.gz tmp/MOMORING-1.4.0.tar.gz --markdown 20230428/M/MOMORING/1.3.6-1.4.0/diff.md --exclude *.pyd
+[2023-04-28 12:34:46] WARNING root fetch - processPackages [andeplane-pyodide-kernel]: Skipping, unable to determine old version
+[2023-04-28 12:34:46] INFO root fetch - processPackages [andeplane-pyodide-kernel]: Start processing: varvamp
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [andeplane-pyodide-kernel] error
+[2023-04-28 12:34:46] INFO root fetch - processPackages [varvamp]: New version: [0.8] Old Version: [0.7]
+[2023-04-28 12:34:46] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-28 12:34:46] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.82.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230428/s/sdkit/1.0.82-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 12:34:46] INFO root fetch - processPackages [cc-py-commons]: Start processing: reusabletestcases
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-04-28 12:34:46] INFO root fetch - main [MainThread]: End processing [trex-analytic]: success
+[2023-04-28 12:34:46] INFO root fetch - processPackages [pygenda]: Downloading https://files.pythonhosted.org/packages/b4/d5/cc53067270bd0d4e104cc33d6075e24fc9beb22f000a599ec760c15c5999/pygenda-0.2.7.tar.gz
+[2023-04-28 12:34:46] INFO root fetch - processPackages [python-observer]: Downloading https://files.pythonhosted.org/packages/c5/e3/91f28846445059f5ee1a5fbfc6ab8bd3a4c2d4affaf30418cf7de464ddf7/python-observer-0.3.0.tar.gz
+[2023-04-28 12:34:47] WARNING root fetch - processPackages [reusabletestcases]: Skipping, unable to determine old version
+[2023-04-28 12:34:47] INFO root fetch - main [MainThread]: End processing [reusabletestcases] error
+[2023-04-28 12:34:47] INFO root fetch - main [MainThread]: End processing [trex-model]: success
+[2023-04-28 12:34:47] INFO root fetch - processPackages [pygenda]: executing diffoscope
+[2023-04-28 12:34:47] INFO root fetch - processPackages [pygenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenda-0.2.6.tar.gz tmp/pygenda-0.2.7.tar.gz --markdown 20230428/p/pygenda/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-28 12:34:47] INFO root fetch - processPackages [python-observer]: executing diffoscope
+[2023-04-28 12:34:47] INFO root fetch - processPackages [python-observer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-observer-0.2.0.tar.gz tmp/python-observer-0.3.0.tar.gz --markdown 20230428/p/python-observer/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-28 12:34:47] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2023-04-28 12:34:47] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-0.7.tar.gz tmp/varvamp-0.8.tar.gz --markdown 20230428/v/varvamp/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-28 12:34:48] INFO root fetch - main [MainThread]: End processing [MOMORING]: success
+[2023-04-28 12:34:48] INFO root fetch - main [MainThread]: End processing [python-observer]: success
+[2023-04-28 12:34:48] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2023-04-28 12:34:48] INFO root fetch - main [MainThread]: End processing [pygenda]: success
+[2023-04-28 12:34:49] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-28 12:34:49] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-28 12:34:53] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-04-28 12:34:53] INFO root fetch - main [MainThread]: Store serial: [17896786]
