@@ -22904,3 +22904,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 23:08:25] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
 [2023-04-28 23:08:25] INFO root fetch - main [MainThread]: End processing [pqam-dparamhu2021]: success
 [2023-04-28 23:08:25] INFO root fetch - main [MainThread]: Store serial: [17903102]
+[2023-04-28 23:13:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903102]
+[2023-04-28 23:13:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supertokens-python
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: habapp-rules
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyload-ng
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tgbox-cli
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-pid
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rotary-embedding-torch
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latch-config
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ewms-pilot
+[2023-04-28 23:13:34] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [habapp-rules]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [ewms-pilot]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [simple-pid]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [tgbox-cli]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [rotary-embedding-torch]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [latch-config]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [pyload-ng]: New version: [0.5.0b3.dev66] Old Version: [0.5.0b3.dev65]
+[2023-04-28 23:13:34] INFO root fetch - processPackages [tgbox-cli]: Downloading https://files.pythonhosted.org/packages/9a/9e/8a235fada88e16584502e3ea8f3e08c7728bcafd5d01ef49ef2d35dc8639/tgbox-cli-0.1.tar.gz
+[2023-04-28 23:13:34] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [rotary-embedding-torch]: Downloading https://files.pythonhosted.org/packages/b0/51/5d129ff731d34b7b9cf391b2096727ba6f0ae117b863250ade86029b9fcd/rotary-embedding-torch-0.2.1.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [habapp-rules]: Downloading https://files.pythonhosted.org/packages/b6/d4/decd7a0bc6c8f5a65469b97a21f0307b5245aa544d275be13863a6aab9b2/habapp_rules-3.0.1.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [simple-pid]: Downloading https://files.pythonhosted.org/packages/00/27/73b35b5e57c0dec32cf180724d6c7ac2075b655f96c79217632f9ba9c7e1/simple-pid-1.0.1.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/43/95/b05a87092ecdc0e1832fc3275ab296f596412029cb985059d2a2878c1fcd/ewms-pilot-0.9.0.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/75/d3/2a0d334a5ebd83df9af2be9b92b67c1390fd812bbd20647f1d85e051f906/pyload-ng-0.5.0b3.dev65.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.8.0.tar.gz tmp/ewms-pilot-0.9.0.tar.gz --markdown 20230428/e/ewms-pilot/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [latch-config]: Downloading https://files.pythonhosted.org/packages/63/1c/12f4e5a77bd7ccd5105885f673e250d2a86071f3558846ce2a7bdbbe3443/latch_config-0.1.2.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [habapp-rules]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [habapp-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habapp_rules-3.0.0.tar.gz tmp/habapp_rules-3.0.1.tar.gz --markdown 20230428/h/habapp-rules/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [latch-config]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [latch-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_config-0.1.1.tar.gz tmp/latch_config-0.1.2.tar.gz --markdown 20230428/l/latch-config/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230428/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [tgbox-cli]: Downloading https://files.pythonhosted.org/packages/53/35/fd51de1e0b5d7056545c18429feb04934b5aa5b04eab931eb6a0f3a1d147/tgbox-cli-0.1.1.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [tgbox-cli]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [tgbox-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgbox-cli-0.1.tar.gz tmp/tgbox-cli-0.1.1.tar.gz --markdown 20230428/t/tgbox-cli/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [simple-pid]: Downloading https://files.pythonhosted.org/packages/67/c5/1e7b5921a0dbaa74f7d94f69bdc8d66dc55bef8133c3006652caf41d75dc/simple-pid-2.0.0.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [rotary-embedding-torch]: Downloading https://files.pythonhosted.org/packages/00/00/207071afbffba7802379b99e320de6096f7b64970086e2c4ead0db3adc72/rotary-embedding-torch-0.2.2.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [simple-pid]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [simple-pid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-pid-1.0.1.tar.gz tmp/simple-pid-2.0.0.tar.gz --markdown 20230428/s/simple-pid/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [rotary-embedding-torch]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [rotary-embedding-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary-embedding-torch-0.2.1.tar.gz tmp/rotary-embedding-torch-0.2.2.tar.gz --markdown 20230428/r/rotary-embedding-torch/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20230428/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-28 23:13:35] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/5d/18/10958dc9e3d983d19ca68fa2b355aabe52d40230bd6ec6feacedca65a48f/pyload-ng-0.5.0b3.dev66.tar.gz
+[2023-04-28 23:13:35] INFO root fetch - processPackages [pyload-ng]: executing diffoscope
+[2023-04-28 23:13:35] INFO root fetch - processPackages [pyload-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyload-ng-0.5.0b3.dev65.tar.gz tmp/pyload-ng-0.5.0b3.dev66.tar.gz --markdown 20230428/p/pyload-ng/0.5.0b3.dev65-0.5.0b3.dev66/diff.md --exclude *.pyd
+[2023-04-28 23:13:36] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-04-28 23:13:36] INFO root fetch - main [MainThread]: End processing [latch-config]: success
+[2023-04-28 23:13:36] INFO root fetch - main [MainThread]: End processing [habapp-rules]: success
+[2023-04-28 23:13:36] INFO root fetch - main [MainThread]: End processing [tgbox-cli]: success
+[2023-04-28 23:13:37] INFO root fetch - main [MainThread]: End processing [rotary-embedding-torch]: success
+[2023-04-28 23:13:37] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-28 23:13:37] INFO root fetch - main [MainThread]: End processing [simple-pid]: success
+[2023-04-28 23:13:38] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2023-04-28 23:13:46] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
+[2023-04-28 23:13:46] INFO root fetch - main [MainThread]: Store serial: [17903133]
