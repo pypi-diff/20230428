@@ -21211,3 +21211,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 21:06:38] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
 [2023-04-28 21:06:39] INFO root fetch - main [MainThread]: End processing [joulescope]: success
 [2023-04-28 21:06:39] INFO root fetch - main [MainThread]: Store serial: [17902053]
+[2023-04-28 21:11:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17902053]
+[2023-04-28 21:11:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-jalali-date
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultracart-rest-sdk
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owlml
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: goxlrutilityapi
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oceano-algos
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iron-toolbox
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: injective-py
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ionics-fits
+[2023-04-28 21:11:48] WARNING root fetch - processPackages [goxlrutilityapi]: Skipping, unable to determine old version
+[2023-04-28 21:11:48] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi] error
+[2023-04-28 21:11:48] INFO root fetch - processPackages [owlml]: New version: [0.1.1.dev1682708876] Old Version: [0.1.1.dev1682708493]
+[2023-04-28 21:11:48] INFO root fetch - processPackages [django-jalali-date]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-28 21:11:48] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 21:11:48] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ionics-fits]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-28 21:11:48] INFO root fetch - processPackages [injective-py]: New version: [0.6.1.8] Old Version: [0.6.1.7]
+[2023-04-28 21:11:48] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-28 21:11:49] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-28 21:11:49] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230428/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 21:11:49] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-28 21:11:49] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230428/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-28 21:11:49] INFO root fetch - processPackages [ionics-fits]: executing diffoscope
+[2023-04-28 21:11:49] INFO root fetch - processPackages [ionics-fits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ionics_fits-1.0.4.tar.gz tmp/ionics_fits-1.0.5.tar.gz --markdown 20230428/i/ionics-fits/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-28 21:11:49] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-04-28 21:11:49] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230428/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 21:11:49] INFO root fetch - processPackages [owlml]: Downloading https://files.pythonhosted.org/packages/6e/61/9c0578cc81729d155a81870dadcc351c29b54a3a407a61d10895a1b0bd05/owlml-0.1.1.dev1682708876.tar.gz
+[2023-04-28 21:11:49] INFO root fetch - processPackages [django-jalali-date]: Downloading https://files.pythonhosted.org/packages/6c/ce/46b627f26d1b5a4703e5102e0adbd2bebaf563bf1e32972b292e8ac125b1/django-jalali-date-1.0.1.tar.gz
+[2023-04-28 21:11:49] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/55/70/5c44aa16f7fbcc5ca7ac5594e6a1dc9aaa498d2363eaca5717740fb5825d/injective-py-0.6.1.8.tar.gz
+[2023-04-28 21:11:49] INFO root fetch - processPackages [injective-py]: executing diffoscope
+[2023-04-28 21:11:49] INFO root fetch - processPackages [injective-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injective-py-0.6.1.7.tar.gz tmp/injective-py-0.6.1.8.tar.gz --markdown 20230428/i/injective-py/0.6.1.7-0.6.1.8/diff.md --exclude *.pyd
+[2023-04-28 21:11:49] INFO root fetch - processPackages [owlml]: executing diffoscope
+[2023-04-28 21:11:49] INFO root fetch - processPackages [owlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlml-0.1.1.dev1682708493.tar.gz tmp/owlml-0.1.1.dev1682708876.tar.gz --markdown 20230428/o/owlml/0.1.1.dev1682708493-0.1.1.dev1682708876/diff.md --exclude *.pyd
+[2023-04-28 21:11:49] INFO root fetch - processPackages [django-jalali-date]: Downloading https://files.pythonhosted.org/packages/9c/60/57dabee360039b589aa84edbbd9550a3f413780e73bd049e8ec9b2a87e27/django-jalali-date-1.0.2.tar.gz
+[2023-04-28 21:11:49] INFO root fetch - processPackages [django-jalali-date]: executing diffoscope
+[2023-04-28 21:11:49] INFO root fetch - processPackages [django-jalali-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jalali-date-1.0.1.tar.gz tmp/django-jalali-date-1.0.2.tar.gz --markdown 20230428/d/django-jalali-date/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-28 21:11:50] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-28 21:11:50] INFO root fetch - main [MainThread]: End processing [ionics-fits]: success
+[2023-04-28 21:11:50] INFO root fetch - main [MainThread]: End processing [owlml]: success
+[2023-04-28 21:11:50] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-04-28 21:11:51] INFO root fetch - main [MainThread]: End processing [django-jalali-date]: success
+[2023-04-28 21:11:52] INFO root fetch - main [MainThread]: End processing [injective-py]: success
+[2023-04-28 21:11:57] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-28 21:11:57] INFO root fetch - main [MainThread]: Store serial: [17902078]
