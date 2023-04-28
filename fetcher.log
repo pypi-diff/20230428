@@ -13117,3 +13117,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:01:07] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python2]: success
 [2023-04-28 13:01:10] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-04-28 13:01:10] INFO root fetch - main [MainThread]: Store serial: [17897019]
+[2023-04-28 13:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897019]
+[2023-04-28 13:06:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RWexptest
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locid
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: andeplane-pyodide-kernel
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frouros
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyXhUtils
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdkit
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellmap
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schoolware-api
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-neat
+[2023-04-28 13:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: loadmemory
+[2023-04-28 13:06:19] INFO root fetch - processPackages [pyXhUtils]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [andeplane-pyodide-kernel]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [frouros]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [RWexptest]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304281103] Old Version: [1.0.1.dev202304280337]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [locid]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.83]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [pyXhUtils]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [pyXhUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyXhUtils-1.3.8.tar.gz tmp/pyXhUtils-1.3.9.tar.gz --markdown 20230428/p/pyXhUtils/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-28 13:06:19] WARNING root fetch - processPackages [cognite-neat]: Skipping, unable to determine old version
+[2023-04-28 13:06:19] WARNING root fetch - processPackages [loadmemory]: Skipping, unable to determine old version
+[2023-04-28 13:06:19] INFO root fetch - processPackages [cognite-neat]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-04-28 13:06:19] INFO root fetch - main [MainThread]: End processing [cognite-neat] error
+[2023-04-28 13:06:19] INFO root fetch - processPackages [loadmemory]: Start processing: festo-edcon
+[2023-04-28 13:06:19] INFO root fetch - main [MainThread]: End processing [loadmemory] error
+[2023-04-28 13:06:19] INFO root fetch - processPackages [andeplane-pyodide-kernel]: Downloading https://files.pythonhosted.org/packages/5e/85/97e67bd9844b95d5f63896c14b60b19ef7d1ba612b1036fb8ad1900470ce/andeplane_pyodide_kernel-0.0.7-py3-none-any.whl
+[2023-04-28 13:06:19] INFO root fetch - processPackages [locid]: Downloading https://files.pythonhosted.org/packages/3b/7e/bfd6b40a58386052419cc33db2fce6c2976a2d011c89a473db7af4fd6ed2/locid-0.0.7.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/23/85/2f4ec75c5ab736bd00da89665f1bc5ae343da64b0348692295dfd5cfeb40/frouros-0.2.2.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [festo-edcon]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-28 13:06:19] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/e5/d1/a61f472085cd64363f5585fbe5a1e74c72d9607904addfcf9eb9725e4ba4/cellmap-1.0.1.dev202304281103-py3-none-any.whl
+[2023-04-28 13:06:19] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/45/c2/55d034cfa7177f4bbdf7512cccaf0818a06bd340600f7c8adef2c40ce304/sdkit-1.0.83.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/2a/d8/3e213357f75dab94fac59b63f945e8bd992a0be6d8e2b5eb75b41a777bf3/schoolware_api-1.0.6.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [RWexptest]: Downloading https://files.pythonhosted.org/packages/5a/03/bee53ff73758b54e391db7a989f1980d867f529c84025a5801d339ffd559/RWexptest-0.0.4.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [RWexptest]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [RWexptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwexptest-0.0.3.tar.gz tmp/RWexptest-0.0.4.tar.gz --markdown 20230428/R/RWexptest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-28 13:06:19] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.83.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230428/s/sdkit/1.0.83-1.0.9/diff.md --exclude *.pyd
+[2023-04-28 13:06:19] INFO root fetch - processPackages [locid]: Downloading https://files.pythonhosted.org/packages/e7/b3/f41f859344046327e759bf3e94f2af38fee9b7d5150e0af1b3fc964f7139/locid-0.0.8.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/fb/80/032d30184e045615ab1e535a158fa764b4e55b85d7d50ec9d6c090e9e4a7/festo_edcon-0.8.0-py3-none-any.whl
+[2023-04-28 13:06:19] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/d2/63/cdada80a09f9c7b64de3ed81ca75044cb213076dd15e33a786d0ab5154d4/schoolware_api-1.0.7.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [locid]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [locid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locid-0.0.7.tar.gz tmp/locid-0.0.8.tar.gz --markdown 20230428/l/locid/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 13:06:19] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.6.tar.gz tmp/schoolware_api-1.0.7.tar.gz --markdown 20230428/s/schoolware-api/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-28 13:06:19] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304280337-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304281103-py3-none-any.whl.zip --markdown 20230428/c/cellmap/1.0.1.dev202304280337-1.0.1.dev202304281103/diff.md --exclude *.pyd
+[2023-04-28 13:06:19] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/4c/45/74077ab27f03d42bff3fe081ab10290917f07e820cb1183fcd66d6cd96fc/frouros-0.2.3.tar.gz
+[2023-04-28 13:06:19] INFO root fetch - processPackages [andeplane-pyodide-kernel]: Downloading https://files.pythonhosted.org/packages/08/2c/8e10622fcf11b76af7545e6703cfdf4eaf50de6030ba3a485287d3b4fec6/andeplane_pyodide_kernel-0.0.8-py3-none-any.whl
+[2023-04-28 13:06:19] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.2.2.tar.gz tmp/frouros-0.2.3.tar.gz --markdown 20230428/f/frouros/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-28 13:06:19] INFO root fetch - processPackages [andeplane-pyodide-kernel]: executing diffoscope
+[2023-04-28 13:06:19] INFO root fetch - processPackages [andeplane-pyodide-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_pyodide_kernel-0.0.7-py3-none-any.whl.zip tmp/andeplane_pyodide_kernel-0.0.8-py3-none-any.whl.zip --markdown 20230428/a/andeplane-pyodide-kernel/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-28 13:06:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-04-28 13:06:20] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/78/fc/7a8ecf8113702455aa6143ab630b5c8929208cc84ac3c4a7570417569523/festo_edcon-0.9.0-py3-none-any.whl
+[2023-04-28 13:06:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-04-28 13:06:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230428/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-28 13:06:20] INFO root fetch - processPackages [festo-edcon]: executing diffoscope
+[2023-04-28 13:06:20] INFO root fetch - processPackages [festo-edcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/festo_edcon-0.8.0-py3-none-any.whl.zip tmp/festo_edcon-0.9.0-py3-none-any.whl.zip --markdown 20230428/f/festo-edcon/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-28 13:06:20] INFO root fetch - processPackages [pyXhUtils]: Start processing: dbt-trino
+[2023-04-28 13:06:20] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
+[2023-04-28 13:06:20] INFO root fetch - processPackages [dbt-trino]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-28 13:06:21] INFO root fetch - processPackages [RWexptest]: Start processing: aiogram-ext
+[2023-04-28 13:06:21] INFO root fetch - main [MainThread]: End processing [RWexptest]: success
+[2023-04-28 13:06:21] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-28 13:06:21] INFO root fetch - processPackages [dbt-trino]: Downloading https://files.pythonhosted.org/packages/2f/2a/5e797ed5a271ad0ff2d422a176a882482c30e22004d4dcdf7a002024e759/dbt-trino-1.4.1.tar.gz
+[2023-04-28 13:06:21] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-28 13:06:21] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230428/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-28 13:06:21] INFO root fetch - processPackages [schoolware-api]: Start processing: tap-shiftbase
+[2023-04-28 13:06:21] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-04-28 13:06:21] INFO root fetch - processPackages [tap-shiftbase]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 13:06:21] INFO root fetch - processPackages [dbt-trino]: Downloading https://files.pythonhosted.org/packages/3c/09/fc5670ce16bb81e6a0d90ac4b4b449fc7c0a7add1cfb9c1a472e32b8f894/dbt-trino-1.4.2.tar.gz
+[2023-04-28 13:06:21] INFO root fetch - processPackages [locid]: Start processing: ta-sites
+[2023-04-28 13:06:21] INFO root fetch - main [MainThread]: End processing [locid]: success
+[2023-04-28 13:06:21] INFO root fetch - processPackages [dbt-trino]: executing diffoscope
+[2023-04-28 13:06:21] INFO root fetch - processPackages [dbt-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-trino-1.4.1.tar.gz tmp/dbt-trino-1.4.2.tar.gz --markdown 20230428/d/dbt-trino/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-28 13:06:21] INFO root fetch - processPackages [sdkit]: Start processing: windpyutils
+[2023-04-28 13:06:21] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-28 13:06:21] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-28 13:06:21] INFO root fetch - processPackages [tap-shiftbase]: Downloading https://files.pythonhosted.org/packages/e5/3e/cfd0d0e190d5dc229247213f254597df84cfe942952e2e4b2f79ff7dadb7/tap_shiftbase-1.0.0.tar.gz
+[2023-04-28 13:06:21] INFO root fetch - processPackages [ta-sites]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-28 13:06:21] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-04-28 13:06:21] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-04-28 13:06:21] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230428/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-28 13:06:21] INFO root fetch - processPackages [tap-shiftbase]: Downloading https://files.pythonhosted.org/packages/ca/97/ed71fdc5935f31b79d20d858ccf247644cad7d4b67e0fa54fbfa8fdef2da/tap_shiftbase-1.0.1.tar.gz
+[2023-04-28 13:06:21] INFO root fetch - processPackages [ta-sites]: Downloading https://files.pythonhosted.org/packages/96/de/b6bb5dc1b49b16b6af89fa6e1ceddda5d0aeac115b39b75714607f91522e/ta_sites-0.4.4.tar.gz
+[2023-04-28 13:06:21] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
+[2023-04-28 13:06:21] INFO root fetch - processPackages [tap-shiftbase]: executing diffoscope
+[2023-04-28 13:06:21] INFO root fetch - processPackages [tap-shiftbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_shiftbase-1.0.0.tar.gz tmp/tap_shiftbase-1.0.1.tar.gz --markdown 20230428/t/tap-shiftbase/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 13:06:22] INFO root fetch - processPackages [ta-sites]: Downloading https://files.pythonhosted.org/packages/1c/60/c20c5d614d9207ca0d11b094762025887d0b6f02316c22cda310b66e06e2/ta_sites-0.4.5.tar.gz
+[2023-04-28 13:06:22] INFO root fetch - processPackages [ta-sites]: executing diffoscope
+[2023-04-28 13:06:22] INFO root fetch - processPackages [ta-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ta_sites-0.4.4.tar.gz tmp/ta_sites-0.4.5.tar.gz --markdown 20230428/t/ta-sites/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-28 13:06:22] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-28 13:06:22] INFO root fetch - main [MainThread]: End processing [dbt-trino]: success
+[2023-04-28 13:06:22] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-04-28 13:06:23] INFO root fetch - main [MainThread]: End processing [tap-shiftbase]: success
+[2023-04-28 13:06:23] INFO root fetch - main [MainThread]: End processing [ta-sites]: success
+[2023-04-28 13:06:23] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-28 13:06:23] INFO root fetch - main [MainThread]: End processing [andeplane-pyodide-kernel]: success
+[2023-04-28 13:06:24] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-04-28 13:06:24] INFO root fetch - main [MainThread]: Store serial: [17897070]
