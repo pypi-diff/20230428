@@ -8198,3 +8198,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-28 07:51:31] INFO root fetch - main [MainThread]: End processing [yangsuite-grpc-telemetry]: success
 [2023-04-28 07:51:32] INFO root fetch - main [MainThread]: End processing [yangsuite-filemanager]: success
 [2023-04-28 07:51:32] INFO root fetch - main [MainThread]: Store serial: [17894322]
+[2023-04-28 07:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17894322]
+[2023-04-28 07:56:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-28 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql2mermaid-cli
+[2023-04-28 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodered.py
+[2023-04-28 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yangsuite-netconf
+[2023-04-28 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigquery-ml-utils
+[2023-04-28 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagknows
+[2023-04-28 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yangsuite-restconf
+[2023-04-28 07:56:49] INFO root fetch - processPackages [sql2mermaid-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-28 07:56:49] INFO root fetch - processPackages [yangsuite-netconf]: New version: [1.17.8.post0.dev38] Old Version: [1.17.8.post0.dev14]
+[2023-04-28 07:56:49] INFO root fetch - processPackages [bigquery-ml-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-28 07:56:49] INFO root fetch - processPackages [dagknows]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-28 07:56:49] WARNING root fetch - processPackages [nodered.py]: Skipping, unable to determine old version
+[2023-04-28 07:56:49] INFO root fetch - main [MainThread]: End processing [nodered.py] error
+[2023-04-28 07:56:49] INFO root fetch - processPackages [yangsuite-restconf]: New version: [2.1.4] Old Version: [2.1.3.post0.dev6]
+[2023-04-28 07:56:49] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/5a/11/5aa11b2dcc9e791c0582581b5c467a630fa98da3812520696e34debc9360/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl
+[2023-04-28 07:56:49] INFO root fetch - processPackages [sql2mermaid-cli]: Downloading https://files.pythonhosted.org/packages/e7/2d/3f4ca3dee4074b697d8019346e39a147309ddaf8232a85583fb1f9010479/sql2mermaid_cli-1.0.0.tar.gz
+[2023-04-28 07:56:49] INFO root fetch - processPackages [bigquery-ml-utils]: Downloading https://files.pythonhosted.org/packages/fc/3e/98aa9b4e57be8cd8ef55c904b4b9b0a78eefdf967736ac167c674d91bd21/bigquery_ml_utils-0.1.3-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-04-28 07:56:49] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/bd/47/6c08da01e882f15bd9a607657150b52ad9200237af6b92b932dc20c2623f/dagknows-0.0.7-py3-none-any.whl
+[2023-04-28 07:56:49] INFO root fetch - processPackages [yangsuite-restconf]: Downloading https://files.pythonhosted.org/packages/82/99/3ec3d2a42491c9074b94ce545a4dd56e3745030ca1ef190767448c115b61/yangsuite_restconf-2.1.3.post0.dev6-py3-none-any.whl
+[2023-04-28 07:56:49] INFO root fetch - processPackages [bigquery-ml-utils]: executing diffoscope
+[2023-04-28 07:56:49] INFO root fetch - processPackages [bigquery-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigquery_ml_utils-0.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/bigquery_ml_utils-0.1.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230428/b/bigquery-ml-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-28 07:56:49] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-04-28 07:56:49] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.6-py3-none-any.whl.zip tmp/dagknows-0.0.7-py3-none-any.whl.zip --markdown 20230428/d/dagknows/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-28 07:56:50] INFO root fetch - processPackages [sql2mermaid-cli]: Downloading https://files.pythonhosted.org/packages/05/bb/ab7338bf1fb5660e80afe1753c6420807dddbb1c468f7d163430bb155222/sql2mermaid_cli-1.0.1.tar.gz
+[2023-04-28 07:56:50] INFO root fetch - processPackages [sql2mermaid-cli]: executing diffoscope
+[2023-04-28 07:56:50] INFO root fetch - processPackages [sql2mermaid-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql2mermaid_cli-1.0.0.tar.gz tmp/sql2mermaid_cli-1.0.1.tar.gz --markdown 20230428/s/sql2mermaid-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-28 07:56:50] INFO root fetch - processPackages [yangsuite-restconf]: Downloading https://files.pythonhosted.org/packages/a1/bf/40c6fa65b209549040621f1752fead758a93c1ad0a600f89fe333182de85/yangsuite_restconf-2.1.4-py3-none-any.whl
+[2023-04-28 07:56:50] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/c3/c4/8fabf796659e4d33c93f7df316b463e07342c195578fd0359b017bdfa0c2/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl
+[2023-04-28 07:56:50] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-04-28 07:56:50] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
+[2023-04-28 07:56:51] INFO root fetch - main [MainThread]: End processing [sql2mermaid-cli]: success
+[2023-04-28 07:56:51] INFO root fetch - processPackages [yangsuite-restconf]: executing diffoscope
+[2023-04-28 07:56:51] INFO root fetch - processPackages [yangsuite-restconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_restconf-2.1.3.post0.dev6-py3-none-any.whl.zip tmp/yangsuite_restconf-2.1.4-py3-none-any.whl.zip --markdown 20230428/y/yangsuite-restconf/2.1.3.post0.dev6-2.1.4/diff.md --exclude *.pyd
+[2023-04-28 07:56:51] INFO root fetch - processPackages [yangsuite-netconf]: executing diffoscope
+[2023-04-28 07:56:51] INFO root fetch - processPackages [yangsuite-netconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip --markdown 20230428/y/yangsuite-netconf/1.17.8.post0.dev14-1.17.8.post0.dev38/diff.md --exclude *.pyd
+[2023-04-28 07:56:57] INFO root fetch - main [MainThread]: End processing [yangsuite-restconf]: success
+[2023-04-28 07:56:58] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
+[2023-04-28 07:56:58] INFO root fetch - main [MainThread]: Store serial: [17894340]
