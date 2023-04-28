@@ -13390,3 +13390,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-28 13:22:00] INFO root fetch - main [MainThread]: End processing [kiwitcms-github-marketplace]: success
 [2023-04-28 13:22:01] INFO root fetch - main [MainThread]: End processing [jupyterlab-daw]: success
 [2023-04-28 13:22:01] INFO root fetch - main [MainThread]: Store serial: [17897187]
+[2023-04-28 13:27:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17897187]
+[2023-04-28 13:27:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-invaders
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchtnt-nightly
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catprompt
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: halo-reader
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt-Fluent-Widgets
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transformers-gradients
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insight-python-win
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyQt6-Fluent-Widgets
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywrapid
+[2023-04-28 13:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-axes
+[2023-04-28 13:27:10] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-28 13:27:10] INFO root fetch - processPackages [space-invaders]: Start processing: finalynx
+[2023-04-28 13:27:10] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-28 13:27:10] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [catprompt]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [pywrapid]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [transformers-gradients]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [halo-reader]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [insight-python-win]: New version: [4.3.0] Old Version: [4.2.2]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [django-axes]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-04-28 13:27:10] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-04-28 13:27:10] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.4.8.tar.gz tmp/torchtnt-nightly-2023.4.9.tar.gz --markdown 20230428/t/torchtnt-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-28 13:27:10] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-04-28 13:27:10] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-04-28 13:27:10] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.7.6.tar.gz tmp/PyQt6-Fluent-Widgets-0.8.0.tar.gz --markdown 20230428/P/PyQt6-Fluent-Widgets/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 13:27:10] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.7.6.tar.gz tmp/PyQt-Fluent-Widgets-0.8.0.tar.gz --markdown 20230428/P/PyQt-Fluent-Widgets/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-04-28 13:27:10] INFO root fetch - processPackages [transformers-gradients]: executing diffoscope
+[2023-04-28 13:27:10] INFO root fetch - processPackages [transformers-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_gradients-0.0.8.tar.gz tmp/transformers_gradients-0.0.9.tar.gz --markdown 20230428/t/transformers-gradients/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-28 13:27:10] INFO root fetch - processPackages [catprompt]: Downloading https://files.pythonhosted.org/packages/f0/e2/93155b675777440e4bcbf23847248db0ff33977661e669178d0c6741849c/catprompt-0.0.4.tar.gz
+[2023-04-28 13:27:11] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-04-28 13:27:11] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230428/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-04-28 13:27:11] INFO root fetch - processPackages [pywrapid]: executing diffoscope
+[2023-04-28 13:27:11] INFO root fetch - processPackages [pywrapid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywrapid-0.2.8.tar.gz tmp/pywrapid-0.2.9.tar.gz --markdown 20230428/p/pywrapid/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-28 13:27:11] INFO root fetch - processPackages [insight-python-win]: Downloading https://files.pythonhosted.org/packages/71/07/d1702c10b738b891b389727cab8e95aff2cb11df5f939e9341300da28b65/insight_python_win-4.2.2.tar.gz
+[2023-04-28 13:27:11] INFO root fetch - processPackages [halo-reader]: Downloading https://files.pythonhosted.org/packages/e2/6d/6bec0ea0222d48968d822d8bc8c7aa155c7b51a9bd2e9371e4f137a2866d/halo-reader-0.1.2.tar.gz
+[2023-04-28 13:27:11] INFO root fetch - processPackages [halo-reader]: executing diffoscope
+[2023-04-28 13:27:11] INFO root fetch - processPackages [halo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halo-reader-0.1.1.tar.gz tmp/halo-reader-0.1.2.tar.gz --markdown 20230428/h/halo-reader/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-28 13:27:11] INFO root fetch - processPackages [catprompt]: Downloading https://files.pythonhosted.org/packages/cd/c5/7c9a3d9a16fc54e4beb9fd0d7570764e2298e879495d9cd6dd919de9ba7a/catprompt-0.1.0.tar.gz
+[2023-04-28 13:27:11] WARNING root fetch - processPackages [insight-python-win]: Skipping package: exceeds size limit 14676104>=10485760
+[2023-04-28 13:27:11] INFO root fetch - processPackages [insight-python-win]: Start processing: codewithgpu
+[2023-04-28 13:27:11] INFO root fetch - main [MainThread]: End processing [insight-python-win] error
+[2023-04-28 13:27:11] INFO root fetch - processPackages [catprompt]: executing diffoscope
+[2023-04-28 13:27:11] INFO root fetch - processPackages [catprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catprompt-0.0.4.tar.gz tmp/catprompt-0.1.0.tar.gz --markdown 20230428/c/catprompt/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-28 13:27:11] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/5a/82/0b6cb95d1b275bfef5713afd2ea57162bbc927fbf8359d4ed7405db50ec9/django-axes-6.0.0b2.tar.gz
+[2023-04-28 13:27:11] INFO root fetch - processPackages [codewithgpu]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-28 13:27:11] INFO root fetch - processPackages [django-axes]: executing diffoscope
+[2023-04-28 13:27:11] INFO root fetch - processPackages [django-axes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-axes-6.0.0b1.tar.gz tmp/django-axes-6.0.0b2.tar.gz --markdown 20230428/d/django-axes/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-04-28 13:27:11] INFO root fetch - processPackages [codewithgpu]: Downloading https://files.pythonhosted.org/packages/c0/71/9d922104bf35dfbd4c885f1df216509c7fececc53a0e71ece264ea79f9b6/codewithgpu-0.2.6-py3-none-any.whl
+[2023-04-28 13:27:11] INFO root fetch - processPackages [codewithgpu]: executing diffoscope
+[2023-04-28 13:27:11] INFO root fetch - processPackages [codewithgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codewithgpu-0.2.5-py3-none-any.whl.zip tmp/codewithgpu-0.2.6-py3-none-any.whl.zip --markdown 20230428/c/codewithgpu/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-28 13:27:12] INFO root fetch - main [MainThread]: End processing [transformers-gradients]: success
+[2023-04-28 13:27:12] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-04-28 13:27:12] INFO root fetch - main [MainThread]: End processing [catprompt]: success
+[2023-04-28 13:27:12] INFO root fetch - main [MainThread]: End processing [pywrapid]: success
+[2023-04-28 13:27:13] INFO root fetch - main [MainThread]: End processing [codewithgpu]: success
+[2023-04-28 13:27:14] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-04-28 13:27:14] INFO root fetch - main [MainThread]: End processing [halo-reader]: success
+[2023-04-28 13:27:14] INFO root fetch - main [MainThread]: End processing [django-axes]: success
+[2023-04-28 13:27:16] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-04-28 13:27:17] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-04-28 13:27:17] INFO root fetch - main [MainThread]: Store serial: [17897233]
