@@ -1857,3 +1857,69 @@
 [2023-04-28 02:45:05] INFO root fetch - main [MainThread]: End processing [smw-music]: success
 [2023-04-28 02:45:05] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2023-04-28 02:45:05] INFO root fetch - main [MainThread]: Store serial: [17890756]
+[2023-04-28 02:50:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17890756]
+[2023-04-28 02:50:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copy-to
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-hashlib
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: merlon
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubric-nightly
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: great-expectations
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pluto-rt
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fakemap
+[2023-04-28 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte
+[2023-04-28 02:50:13] INFO root fetch - processPackages [copy-to]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-28 02:50:13] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-28 02:50:13] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-28 02:50:13] WARNING root fetch - processPackages [merlon]: Skipping, unable to determine old version
+[2023-04-28 02:50:13] INFO root fetch - processPackages [merlon]: Start processing: cdk-slack-chatbot
+[2023-04-28 02:50:13] INFO root fetch - main [MainThread]: End processing [merlon] error
+[2023-04-28 02:50:13] INFO root fetch - processPackages [pluto-rt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-28 02:50:13] INFO root fetch - processPackages [fakemap]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-28 02:50:13] INFO root fetch - processPackages [great-expectations]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-28 02:50:13] INFO root fetch - processPackages [airbyte]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-04-28 02:50:14] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-28 02:50:14] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-28 02:50:14] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202304270045] Old Version: [4.9.2.dev202304260044]
+[2023-04-28 02:50:14] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.4.8.tar.gz tmp/kubric-nightly-2023.4.9.tar.gz --markdown 20230428/k/kubric-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-28 02:50:14] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202304260044.tar.gz tmp/tfds-nightly-4.9.2.dev202304270045.tar.gz --markdown 20230428/t/tfds-nightly/4.9.2.dev202304260044-4.9.2.dev202304270045/diff.md --exclude *.pyd
+[2023-04-28 02:50:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: Downloading https://files.pythonhosted.org/packages/64/df/ecf176056658e6aefb3e6dadb259a58599dc808b5235a7a5c25d61972208/adafruit-circuitpython-hashlib-1.4.8.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [pluto-rt]: Downloading https://files.pythonhosted.org/packages/bc/7c/d1c12762167408be066757dbfad00fdc983aefd4aa30bcadb806581d9131/pluto-rt-0.1.0.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/bb/78/6cfc0ae9617c73677bf89427b47365257955c6d63ac2724a06c9eaad63a5/copy-to-1.1.1.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [great-expectations]: Downloading https://files.pythonhosted.org/packages/47/f9/dcddfa5c9fd3ddae9ea13c325f2f1f83ac4f7865b731786cfd7cb00dba22/great_expectations-0.9.8.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/8a/10/5ac5fcb2752d8bc21d679fde6d2191830039504f46e057fd7617396fe09f/airbyte-1.7.0.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [fakemap]: Downloading https://files.pythonhosted.org/packages/f2/ce/a2256378e1ffd5e982259938bb251d134848e2154b9007884709279e44fc/fakemap-0.0.4.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.1.0.tar.gz tmp/copy-to-1.1.1.tar.gz --markdown 20230428/c/copy-to/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-28 02:50:14] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.6.0.tar.gz tmp/airbyte-1.7.0.tar.gz --markdown 20230428/a/airbyte/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-04-28 02:50:14] INFO root fetch - processPackages [pluto-rt]: Downloading https://files.pythonhosted.org/packages/e7/af/4eced1d0fdac8e9252832153941eacd7d55ac5b884737d1632b178a55f35/pluto_rt-0.1.1-py3-none-any.whl
+[2023-04-28 02:50:14] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230428/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-28 02:50:14] INFO root fetch - processPackages [fakemap]: Downloading https://files.pythonhosted.org/packages/17/7e/175bd75c0194691ef3184b6ace1102c93afaac35b845ade0c5dede29c08c/fakemap-0.0.5.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [pluto-rt]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [pluto-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto-rt-0.1.0.tar.gz tmp/pluto_rt-0.1.1-py3-none-any.whl.zip --markdown 20230428/p/pluto-rt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-28 02:50:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: Downloading https://files.pythonhosted.org/packages/7f/27/75d320fb2a64b2b7e3263fa96564e2a502e60cf8fd99881378a54028e593/adafruit-circuitpython-hashlib-1.4.9.tar.gz
+[2023-04-28 02:50:14] INFO root fetch - processPackages [fakemap]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [fakemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakemap-0.0.4.tar.gz tmp/fakemap-0.0.5.tar.gz --markdown 20230428/f/fakemap/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-28 02:50:14] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-04-28 02:50:14] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-04-28 02:50:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: executing diffoscope
+[2023-04-28 02:50:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-hashlib-1.4.8.tar.gz tmp/adafruit-circuitpython-hashlib-1.4.9.tar.gz --markdown 20230428/a/adafruit-circuitpython-hashlib/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-28 02:50:15] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-04-28 02:50:15] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-04-28 02:50:15] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2023-04-28 02:50:15] INFO root fetch - main [MainThread]: End processing [pluto-rt]: success
+[2023-04-28 02:50:15] INFO root fetch - main [MainThread]: End processing [fakemap]: success
+[2023-04-28 02:50:15] INFO root fetch - processPackages [great-expectations]: Downloading https://files.pythonhosted.org/packages/8b/d0/2c9c16bde554a9df7f053fa3684f89779f6d9543e24eccfc88fbebdaa8a1/great_expectations-0.9.9.tar.gz
+[2023-04-28 02:50:16] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-hashlib]: success
+[2023-04-28 02:50:16] INFO root fetch - processPackages [great-expectations]: executing diffoscope
+[2023-04-28 02:50:16] INFO root fetch - processPackages [great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230428:/home/abi/fetcher/20230428:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations-0.9.8.tar.gz tmp/great_expectations-0.9.9.tar.gz --markdown 20230428/g/great-expectations/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-28 02:50:19] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-04-28 02:50:21] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
+[2023-04-28 02:50:27] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-04-28 02:50:27] INFO root fetch - main [MainThread]: Store serial: [17890799]
